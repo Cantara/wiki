@@ -376,14 +376,28 @@ nav:
       - "Human to Application Services": OWSOA/Human-to-Application-Services.md
       - "I think I agree with law 3, Establish service ownership and Key Performance Indicators for your services, but an example of a KPI would be helpful": OWSOA/I-think-I-agree-with-law-3-Establish-service-ownership-and-Key-Performance-Indicators-for-your-services-but-an-example-of-a-KPI-would-be-helpful.md
       - "I think I agree with law 8, Security is not optional in SOA, but I don't understand what you mean by it yet": OWSOA/I-think-I-agree-with-law-8-Security-is-not-optional-in-SOA-but-I-don-t-understand-what-you-mean-by-it-yet.md
+      - "Identity Management (IdM)": OWSOA/Identity-Management-IdM.md
       - "Master Data Management Notes": OWSOA/Master-Data-Management-Notes.md
       - "Navigation": OWSOA/Navigation.md
       - "P1. A service shall have one named owner": OWSOA/P1-A-service-shall-have-one-named-owner.md
+      - "P2. A service shall provide documented business value": OWSOA/P2-A-service-shall-provide-documented-business-value.md
+      - "P20. All services shall be in the service universe": OWSOA/P20-All-services-shall-be-in-the-service-universe.md
+      - "P21. A service shall be categorized (OW SOA category)": OWSOA/P21-A-service-shall-be-categorized-OW-SOA-category.md
+      - "P3. A service shall do one only thing, and one thing well": OWSOA/P3-A-service-shall-do-one-only-thing-and-one-thing-well.md
       - "P30. A service shall have a versioning strategy (ACS, CS)": OWSOA/P30-A-service-shall-have-a-versioning-strategy-ACS-CS.md
       - "P31. A service shall provide for audit and monitoring of service usage": OWSOA/P31-A-service-shall-provide-for-audit-and-monitoring-of-service-usage.md
+      - "P4. A H2A service (webpart or portlet) shall be an independent component": OWSOA/P4-A-H2A-service-webpart-or-portlet-shall-be-an-independent-component.md
+      - "P40. A service shall provide at least one Evolving Service Endpoint": OWSOA/P40-A-service-shall-provide-at-least-one-Evolving-Service-Endpoint.md
+      - "P41. A service shall provide heartbeat and traffic monitoring": OWSOA/P41-A-service-shall-provide-heartbeat-and-traffic-monitoring.md
       - "P42. A Core service shall have orthogonal functionality": OWSOA/P42-A-Core-service-shall-have-orthogonal-functionality.md
+      - "P5. A H2A Service (webpart or portlet) shall be a part of a bigger whole, not trying to dictate other H2A services": OWSOA/P5-A-H2A-Service-webpart-or-portlet-shall-be-a-part-of-a-bigger-whole-not-trying-to-dictate-other-H2A-services.md
+      - "P6. A H2A service shall not have internal workflow": OWSOA/P6-A-H2A-service-shall-not-have-internal-workflow.md
       - "P7. Too generic webparts or portlets shall be avoided": OWSOA/P7-Too-generic-webparts-or-portlets-shall-be-avoided.md
+      - "P90. A service shall have a documented coupling to the contractual and requirement for service usage": OWSOA/P90-A-service-shall-have-a-documented-coupling-to-the-contractual-and-requirement-for-service-usage.md
+      - "PAB": OWSOA/PAB.md
+      - "Policy Advisory Board": OWSOA/Policy-Advisory-Board.md
       - "Presentation Repository": OWSOA/Presentation-Repository.md
+      - "Real SOA versus REST": OWSOA/Real-SOA-versus-REST.md
       - "SOA Community Home": OWSOA/SOA-Community-Home.md
       - "SOA Patterns": OWSOA/SOA-Patterns.md
       - "SOA - Service Categorization": OWSOA/SOA-Service-Categorization.md
