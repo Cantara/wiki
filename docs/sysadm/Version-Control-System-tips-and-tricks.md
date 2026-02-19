@@ -1,4 +1,4 @@
-# Version Control System tips and tricks - Cantara Community Wiki
+# Version Control System tips and tricks
 
 #### How to choose VCS?
 

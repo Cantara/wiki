@@ -1,4 +1,4 @@
-# Replacement project - Cantara Community Wiki
+# Replacement project
 
 Any project that will lead to the phasing out of one or more systems. Most replacement projects have multiple goals and will also develop new features. Examples of systems that are replaced in replacement projects range from "ancient" legacy systems to outdated content management systems on web-sites.
 

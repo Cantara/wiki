@@ -1,4 +1,4 @@
-# Customer by customer - Cantara Community Wiki
+# Customer by customer
 
 ## Problem/Context
 

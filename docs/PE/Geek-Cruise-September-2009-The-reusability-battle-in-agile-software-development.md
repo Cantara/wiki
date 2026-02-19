@@ -1,4 +1,4 @@
-# Geek Cruise September 2009 - The reusability battle in agile software development - Cantara Community Wiki
+# Geek Cruise September 2009 - The reusability battle in agile software development
 
 ### Info
 

@@ -1,4 +1,4 @@
-# Developers guide to server-side productivity and fun with Open Source - Cantara Community Wiki
+# Developers guide to server-side productivity and fun with Open Source
 
 # 
 

@@ -1,0 +1,5 @@
+# Presentation Repository
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| |  | | --- | | Page: [EDRMDS - a less is more approach to SOA Master Data Management](/web/20210922173008/https://wiki.cantara.no/display/EDRMDS/EDRMDS+-+a+less+is+more+approach+to+SOA+Master+Data+Management) (Open Source: EDR-MDS a SOA Master Data Management Service) — Service Oriented Architecture is all over us. There seems to be some kind of consensus that one type of SOA services are services that are responsible for the core business objects - and vendors are monitoring and releasing their SOA Data Server products to close the gap. By pioneering the SOA space with EDR, we have gained lots of valuable of experiences of how to solve the Master Data challenges in SOA.  Labels: [presentation](/web/20210922173008/https://wiki.cantara.no/label/EDRMDS/presentation) | | |  | To add content label your content with '**presentation**' or ´**publication**´ .   To have a short excerpt added to the presentation page use {excerpt}description{excerpt} | |

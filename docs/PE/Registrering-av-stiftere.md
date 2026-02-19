@@ -2,11 +2,11 @@
 
 ### Stiftelsesinformasjon
 
-|  | Tegningsperiode for stiftere er forlenget til 1.11-2010\* |
+|  | Tegningsperiode for stiftere: **1.6-2010 - 1.10-2010** |
 
 ### Stiftelsesdokumentasjon
 
-- [Stiftelsesinvitasjon](/web/20220817065011/https://wiki.cantara.no/display/PE/Stiftelsesinvitasjon "Stiftelsesinvitasjon")
+- [Stiftelsesinvitasjon](/web/20100824111126/http://wiki.cantara.no/display/PE/Stiftelsesinvitasjon "Stiftelsesinvitasjon")
 - [Skjema for forhåndstegning av stiftere](http://wiki.cantara.no/download/attachments/3866652/ADEB_n594858_v2_Forh%C3%A5ndstegning_-_etablering_av_stiftelse.doc)
 - [Utkast til vedtekter for stiftelsen](http://wiki.cantara.no/download/attachments/3866652/Stiftelsesvedtekter.doc)
 

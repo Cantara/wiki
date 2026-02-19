@@ -1,0 +1,17 @@
+# smidigtonull
+
+- [Agile Software Development Home](Agile-Software-Development-Home.md)
+- [Automatic code review](Automatic-code-review.md)
+- [Builder project](Builder-project.md)
+- [Enterprise Maven Infrastructure](Enterprise-Maven-Infrastructure.md)
+- [Enterprise Maven Infrastructure](Enterprise-Maven-infrastructure.md)
+- [Generic Parent POM Example](Generic-Parent-POM-Example.md)
+- [How to deploy to IBM WebSphere 6.x](How-to-deploy-to-IBM-WebSphere-6-x.md)
+- [Java Parent POM Example](Java-Parent-POM-Example.md)
+- [Maven Artifact Naming](Maven-Artifact-Naming.md)
+- [Maven Deploy and Release FAQ](Maven-Deploy-and-Release-FAQ.md)
+- [Multi-module project with inheritance](Multi-module-project-with-inheritance.md)
+- [Organizing Maven projects](Organizing-Maven-projects.md)
+- [Project Inheritance](Project-Inheritance.md)
+- [Project Structure for Persistence Logic](Project-Structure-for-Persistence-Logic.md)
+- [Recommended directory structure using Subversion and Maven](Recommended-directory-structure-using-Subversion-and-Maven.md)

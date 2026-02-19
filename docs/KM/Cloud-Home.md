@@ -1,4 +1,4 @@
-# Cloud Home - Cantara Community Wiki
+# Cloud Home
 
 |  | Work in progress, feel free to add/complete information |
 

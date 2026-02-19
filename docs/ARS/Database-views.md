@@ -1,4 +1,4 @@
-# Database views - Cantara Community Wiki
+# Database views
 
 ## Problem/Context
 

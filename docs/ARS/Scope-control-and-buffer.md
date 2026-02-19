@@ -1,0 +1,5 @@
+# Scope control and buffer
+
+Agile methods such as Scrum emphasize scope control of Sprints(iterations). It is equally important to control scope with regards to the [MDE](/web/20090930020620/http://wiki.cantara.no/display/ARS/MDE "MDE") release. A project that always is one iteration from releasing risks loosing all credibility. Controlling the size of the [MDE](/web/20090930020620/http://wiki.cantara.no/display/ARS/MDE "MDE") results in some very difficult trade-offs. The multiple iterations within the [MDE](/web/20090930020620/http://wiki.cantara.no/display/ARS/MDE "MDE") will produce some very high priority issues. Balancing these against the cost of growing the [MDE](/web/20090930020620/http://wiki.cantara.no/display/ARS/MDE "MDE") is not easy. Reserving a buffer of about 10% for issues that are identified during iterations is highly recommended.
+
+There is no conflict between the Scrum practice of not having buffers in Sprints and buffering a release. Releases will often have a fixed date. There is no point in releasing on the agreed date without essential features that have been identified in the Sprints leading up to the release.

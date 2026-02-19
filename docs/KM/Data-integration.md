@@ -1,4 +1,4 @@
-# Data integration - Cantara Community Wiki
+# Data integration
 
 |  |  |
 | --- | --- |

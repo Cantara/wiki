@@ -1,4 +1,4 @@
-# Limited releases - Cantara Community Wiki
+# Limited releases
 
 Identify a small group of users that can be used as pilot users. As few as 6-8 users can be representative for a whole user group. The [MDE](/web/20090929115148/http://wiki.cantara.no/display/ARS/MDE "MDE") has to include just enough functionality so that these users can perform meaningful work. By limiting the number of users you gain two advantages:
 

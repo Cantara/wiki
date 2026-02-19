@@ -1,4 +1,4 @@
-# Organizing Maven projects - Cantara Community Wiki
+# Organizing Maven projects
 
 #### Guidelines
 

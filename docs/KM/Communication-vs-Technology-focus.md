@@ -1,4 +1,4 @@
-# Communication vs Technology focus - Cantara Community Wiki
+# Communication vs Technology focus
 
 **TODO**:
 

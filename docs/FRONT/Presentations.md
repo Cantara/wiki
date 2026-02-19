@@ -1,0 +1,17 @@
+# Presentations
+
+- [The Drag and Drop API](/web/20101022003652/http://wiki.cantara.no/display/FRONT/The+Drag+and+Drop+API "The Drag and Drop API")
+- [File API](/web/20101022003652/http://wiki.cantara.no/display/FRONT/File+API "File API")
+- [Video and Audio API's](/web/20101022003652/http://wiki.cantara.no/display/FRONT/Video+and+Audio+API%27s "Video and Audio API's")
+- [Video and Audio](/web/20101022003652/http://wiki.cantara.no/display/FRONT/Video+and+Audio "Video and Audio")
+- [Canvas](/web/20101022003652/http://wiki.cantara.no/display/FRONT/Canvas "Canvas")
+- [W3C Widgets](/web/20101022003652/http://wiki.cantara.no/display/FRONT/W3C+Widgets "W3C Widgets")
+- [Web Storage](/web/20101022003652/http://wiki.cantara.no/display/FRONT/Web+Storage "Web Storage")
+- [Web SQL - IndexedDB](/web/20101022003652/http://wiki.cantara.no/display/FRONT/Web+SQL+-+IndexedDB "Web SQL - IndexedDB")
+- [The new form elements, attributes and input validation.](/web/20101022003652/http://wiki.cantara.no/display/FRONT/The+new+form+elements%2C+attributes+and+input+validation. "The new form elements, attributes and input validation.")
+- [WebSockets](/web/20101022003652/http://wiki.cantara.no/display/FRONT/WebSockets "WebSockets")
+- [Bridging the gaps-backward compatibility](/web/20101022003652/http://wiki.cantara.no/display/FRONT/Bridging+the+gaps-backward+compatibility "Bridging the gaps-backward compatibility")
+- [The new semantic elements (section, article, nav etc..).](/web/20101022003652/http://wiki.cantara.no/display/FRONT/The+new+semantic+elements+%28section%2C+article%2C+nav+etc..%29. "The new semantic elements (section, article, nav etc..).")
+- [Offline detection](/web/20101022003652/http://wiki.cantara.no/display/FRONT/Offline+detection "Offline detection")
+- [An overview of what we developers struggle with today and how HTML5 can solve parts of those.](/web/20101022003652/http://wiki.cantara.no/display/FRONT/An+overview+of+what+we+developers+struggle+with+today+and+how+HTML5+can+solve+parts+of+those. "An overview of what we developers struggle with today and how HTML5 can solve parts of those.")
+- [A brief history lesion on why we have got HTML5.](/web/20101022003652/http://wiki.cantara.no/display/FRONT/A+brief+history+lesion+on+why+we+have+got+HTML5. "A brief history lesion on why we have got HTML5.")

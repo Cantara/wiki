@@ -17,7 +17,27 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/ACS/ACS-Installation/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ACS/ACS-Sharepoint-Components/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ACS/Adding-a-new-Profile-as-Admin/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ACS/Additional-information/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/ACS/Automatic-Configuration-Of-Development-Environment/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ACS/Azure-HA-Deployment/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -25,7 +45,23 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/ACS/Solr-Search/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/ACS/System-documentation/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ACS/User-manual/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ACS/Workshop-Competence-and-Skill-management/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ARS/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -38,6 +74,10 @@
     </url>
     <url>
          <loc>https://cantara.github.io/wiki/ARS/Arguments-against-releasing-often/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ARS/Case-studies/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -109,6 +149,14 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/ARS/New-business/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ARS/Pain-relievers/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/ARS/Partial-history/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -121,11 +169,23 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/ARS/Principles-and-patterns/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/ARS/Product-by-product/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://cantara.github.io/wiki/ARS/Replacement-project/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ARS/Replicated-database/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ARS/Scope-control-and-buffer/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -137,11 +197,23 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/ARS/Techniques/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/ARS/The-value-of-Pain/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/ARS/The-value-of-delaying/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/ARS/Trojan-Project/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ARS/User-by-user/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -153,7 +225,31 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/ARS/Workflow-by-workflow/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ARS/Workflow-tail-first/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ARS/XP2010-Workshop/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ARS/three-months/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/About/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/About/2021_05_/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/About/About-Cantara/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -161,7 +257,79 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/About/Alternativ-forside-magasin-edition/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/About/Alternativ-forside/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/About/Announcement-banner/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/About/CantaraNews/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/About/Objectware-Community-Wiki-har-blitt-en-del-av-Cantara-wikien/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/About/OldCantaraNews/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/About/Rules-and-Guidelines/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/BCT/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/BCT/Backward-Compatibility-Tester-Home/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/BFA/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/CIA/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/CIA/2021_05_/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/CIA/CiA-2012-Bridging-the-gaps-or-how-to-enable-the-advantages-of-new-technology-in-the-darkest-corners/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/CIA/CiA-History/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/CIA/CiA2010/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/CIA/CiA2011/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/CIA/CiA2012/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/CIA/Communities-in-Action-2010/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/CIA/Communities-in-Action/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -169,7 +337,19 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EA/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EA/2020_10_/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/EA/ATaCAAS-Results/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EA/Activities/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -189,6 +369,10 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EA/COP-and-Qi4j-FAQ/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/EA/Composite-Object-Programming/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -197,7 +381,15 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EA/DSL/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/EA/DSLs-as-Object-extensions/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EA/EDR-Data-Management-taken-seriously/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -205,11 +397,27 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EA/Enterprise-Applications/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EA/Enterprise-Architecture/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/EA/Enterprise-POJO/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EA/Enterprise-requirements-aka-The-Mountain/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/EA/GeekCruise-Agenda/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EA/GeekCruise-Notes-Part-3-DSLs-SQL/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -225,7 +433,15 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EA/LAMP/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/EA/Lambda-architecture/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EA/Navigation/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -242,6 +458,10 @@
     </url>
     <url>
          <loc>https://cantara.github.io/wiki/EA/Preparations/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EA/Presentation-Repository/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -273,6 +493,10 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EA/The-holy-grail-of-software-integration/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/EA/The-need-for-Enterprise-Pojos/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -290,6 +514,10 @@
     </url>
     <url>
          <loc>https://cantara.github.io/wiki/EA/Wrap-up-and-ideas-for-future-work/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EDR/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -321,6 +549,14 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EDR/Extentions-Advanced-Scenarios/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EDR/FAQ/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/EDR/Mailing-lists/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -329,7 +565,35 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EDR/Open-ended-Integration-Merge-Pattern/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EDR/Pattern-Description/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EDR/Qi4j-EDR-implementation/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EDR/Recording-Command-Pattern/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EDRMDS/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EDRMDS/EDR-MDS-FAQ/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/EDRMDS/EDR-MDS-a-SOA-Master-Data-Management-Service/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EDRMDS/EDR-MDS-is-too-complex/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -337,11 +601,27 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EDRMDS/EDRMDS-a-less-is-more-approach-to-SOA-Master-Data-Management/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/EDRMDS/Enterprise-Architecture-Semantic-Information-Models/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EDRMDS/Glossary/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EDRMDS/I-do-not-want-to-introduce-a-single-point-of-control-or-failure/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/EDRMDS/Index/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/EDRMDS/Laws-of-SOA/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -361,6 +641,10 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EDRMDS/Presentation-Repository/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/EDRMDS/Real-Time-Enterprise/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -369,7 +653,23 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/EDRMDS/What-is-the-difference-between-EDR-and-EDR-MDS/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ESE/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ESE/2021_03_/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/ESE/Evolving-Service-Adapter-Home/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/FRONT/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -397,7 +697,19 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/FRONT/Frontend-Home/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/FRONT/Invitasjon-til-HTML5-Code-Camp/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/FRONT/Presentations/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/FRONT/Program-detailed-Draft-01/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -405,7 +717,19 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/FRONT/The-Drag-and-Drop-API/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/FRONT/The-new-semantic-elements-section-article-nav-etc/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/FRONT/Video-and-Audio-API-s/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/FRONT/WebSockets/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -413,11 +737,63 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/IASA/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/2011-03-02-HTML5-muligheter-og-konsekvenser-fra-et-arkitekturperspektiv/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/2011-04-11-Architecting-Wicked-Problems/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/2011-05-05-Architecture-Support-for-Testing/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/2012-04-18-New-powers-at-your-fingertips-Graph-databases-in-action-with-Neo4J/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/IASA/Architecting-Wicked-Problems/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/IASA/Architecture-Documentation/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Bli-med-i-IASA-Norge/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Bruk-av-STRIDE-metode-for-sikkerhetsanalyse/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Defining-the-topic/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Demografi/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Even-self-organizing-teams-must-have-an-architect/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/IASA/Faglig/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Forslag-til-vedtektsendringer-2019/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Forum/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -429,6 +805,10 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/IASA/IASA-Norge-Wiki/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/IASA/IASA-forum/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -437,7 +817,23 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/IASA/Identity-Access-Management-infrastruktur-overlevering-og-driftssettingsplanlegging/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/IASA/Java-deployment-unit/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Kontakt-Styret/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Kontaktinfo/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Meetup-Food-Sponsorship/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -449,7 +845,19 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/IASA/OSWA-Norge-Manifest/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/IASA/OSWA-Norge-Wiki/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Om-IASA/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Open-Space/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -457,7 +865,35 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/IASA/Presse/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Reports-on-teaching-and-learning-architecture/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Size-matters/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Smidig-utvikling-DevOps-og-arkitektur/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/Temaforslag/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/IASA/ValueReporter/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/IASA/Vedtekter-for-OSWA/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/JAU/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -469,11 +905,55 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/JAU/ApplicationConfig-for-groups-of-clients/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/JAU/Authentication-and-autorization/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/JAU/ConfigService-APIs/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/JAU/ConfigService-Admin-API/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/JAU/ConfigService-Dashboard/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/JAU/ConfigService/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/JAU/Installing-ConfigService-Dashboard/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/JAU/Java-Auto-Update-and-ConfigService-Home/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/JAU/Java-Auto-Update/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/JAU/MJAUU-My-JAU-Updater-Update-the-Java-Auto-Update-itself/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/JAU/Preregister-Client-with-specific-ApplicationConfig/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/JAU/Send-logs-to-CloudWatch/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -493,6 +973,10 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/KM/CS/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/KM/Cloud-Home/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -509,7 +993,19 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/KM/Design-Time-Governance-SOA-Design-Rules/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/Enterprise-Domain-Repository/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/KM/Functional-requirement-template/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/H2A/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -521,7 +1017,47 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/KM/P1-A-service-shall-have-one-named-owner/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/P2-A-service-shall-provide-documented-business-value/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/KM/P20-All-services-shall-be-in-the-service-universe/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/P21-A-service-shall-be-categorized/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/P3-A-service-shall-do-one-only-thing-and-one-thing-well/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/P30-A-service-shall-have-a-versioning-strategy-ACS-CS/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/P31-A-service-shall-provide-for-audit-and-monitoring-of-service-usage/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/P4-A-H2A-service-webpart-or-portlet-shall-be-an-independent-component/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/P40-A-service-shall-provide-at-least-one-Evolving-Service-Endpoint/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/P41-A-service-shall-provide-heartbeat-and-traffic-monitoring/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/P42-A-Core-service-shall-have-orthogonal-functionality/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -541,7 +1077,31 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/KM/PAB/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/KM/Persistence-strategies-for-the-21-century/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/Policy-Advisory-Board-PAB/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/Presentations/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/Same-Old-Architecture-versus-Services/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/Search-driven-Business-Intelligence-sortBy-createddate/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/Search-driven-Business-Intelligence-sortBy-name/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -553,7 +1113,15 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/KM/Service-Template-H2A/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/KM/Service-template-common/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/KM/Software-Development/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -569,6 +1137,14 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/KM/productivity-factor-is-5-10-fold-among-developers/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/MTSG/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/MTSG/Mean-Time-Since-Green-Game-Home/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -577,7 +1153,35 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/MTSG/RoughWorking/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/MTSG/Rules-of-the-game/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/MTSG/The-Unsplice-Exercise/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ORG/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ORG/2020_09_/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/ORG/2020_11_/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/ORG/Organizations-Home/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OSS/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -593,6 +1197,14 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/A2A/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/OWSOA/ACS/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -601,7 +1213,23 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/Aggregated-Core-Services/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/Aggregated-Core-Servives/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/Alignment-of-Business-Intelligence-and-Service-Oriented-Architecture/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/OWSOA/Alignment-of-Enterprise-Search-Platforms-ESP-and-Service-Oriented-Architecture/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/Application-2-Application-Services/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -609,7 +1237,19 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/Architecture-Principles-and-Axioms/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/Architecture/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/OWSOA/Business-Intelligence-BI-and-Enterprise-Search-in-a-Service-Oriented-Architecture-Strategy/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/CS/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -637,6 +1277,14 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/Design-Time-Governance-for-A2A-Services/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/Design-Time-Governance-for-ACS-Services/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/OWSOA/Design-Time-Governance-for-CS-Services/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -649,11 +1297,39 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/Enterprise-Domain-Repository-Pattern/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/Evolving-Service-Endpoint-Pattern/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/From-EA-to-SOA-and-back/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/Getting-Started-with-SOA/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/Glossary/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/OWSOA/Governance/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/H2A/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/OWSOA/How-does-this-SOA-relate-to-Mark-Little-SOA/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/OWSOA/How-does-this-SOA-relate-to-REST/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -753,7 +1429,15 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/OpenData/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/OpenData/Open-Data-Home/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/PE/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -805,7 +1489,15 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/PE/CocoaHeads-Oslo/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/PE/Communities-in-action-2011/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/PE/Communities/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -814,6 +1506,10 @@
     </url>
     <url>
          <loc>https://cantara.github.io/wiki/PE/Community-Logos/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/PE/Community-One-Oslo-2009-April-15th/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -929,6 +1625,18 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/PE/LT7-I-hate-clouds/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/PE/List-of-participants-Geek-Cruise-2009-May/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/PE/List-of-participants-Geek-Cruise-2009/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/PE/MalaRIA-proxy-en-av-farene-ved-usikker-konfigurasjon/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -941,7 +1649,27 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/PE/OWASP/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/PE/Old-Activities/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/PE/Oslo-Perl-Mongers/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/PE/OsloCommunities/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/PE/OsloConferences/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/PE/Presseklipp/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -993,11 +1721,19 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/PE/XP-Meetup/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/PE/ZombieTDD/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://cantara.github.io/wiki/PE/engasjer-deg-i-Cantara/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/PE/scalaBin/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -1018,6 +1754,10 @@
     </url>
     <url>
          <loc>https://cantara.github.io/wiki/aa/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/architecture/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -1057,6 +1797,10 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/architecture/NoSQL-alternative-to-RDBMS-CRUD-app/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/architecture/Software-Architecture-Knowledge-Management-Home/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -1065,11 +1809,43 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/architecture/Thou-shall-always-revisit-the-architecture-axiom-Clear-and-consistent-responsibilities-powers-all-great-architectures/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/architecture/Thou-shalt-always-be-ahead-of-the-project-and-know-the-risks-and-challenges-before-they-arrive/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/architecture/Thou-shalt-be-hands-on/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/architecture/Thou-shalt-lead-by-example/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/architecture/Thou-shalt-make-consistent-and-balanced-decisions-throughout-the-project/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/architecture/Thou-shalt-never-default-to-silver-bullets-or-magic/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/architecture/Thou-shalt-revisit-and-evaluate-previous-decisions/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/architecture/Thou-shalt-sit-and-work-together-with-the-team-Thou-art-an-integrated-part-of-the-team/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/architecture/Thou-shalt-strive-to-create-a-learning-culture/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/architecture/Thou-shalt-strive-to-find-and-understand-your-limitations/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -1081,7 +1857,15 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/blitz/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/blitz/Blitz-Wiki-Home/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/dev/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -1189,6 +1973,10 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/devhouse/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/devhouse/Utviklerhuset/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
@@ -1197,11 +1985,27 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/mactor/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/pe/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/pe/developers-guide-to-server-side-productivity-and-fun-with-open-source/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://cantara.github.io/wiki/puben/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/security/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/security/Java-SSL-Keystores/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -1253,11 +2057,31 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/smidigtonull/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/smidigtonull/Agile-Software-Development-Home/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/smidigtonull/Automatic-code-review/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
          <loc>https://cantara.github.io/wiki/smidigtonull/Builder-project/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/smidigtonull/Enterprise-Maven-Infrastructure/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/smidigtonull/Enterprise-Maven-infrastructure/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/smidigtonull/Generic-Parent-POM-Example/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -1282,6 +2106,10 @@
     </url>
     <url>
          <loc>https://cantara.github.io/wiki/smidigtonull/Organizing-Maven-projects/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/smidigtonull/Project-Inheritance/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -1601,7 +2429,27 @@
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
+         <loc>https://cantara.github.io/wiki/~hkokko/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/~jhannes/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/~leif%40auke.no/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/~niklas%40leanway.no/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
          <loc>https://cantara.github.io/wiki/~sharebear/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/~sherriff/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>
@@ -1610,6 +2458,10 @@
     </url>
     <url>
          <loc>https://cantara.github.io/wiki/~steinim/</loc>
+         <lastmod>2026-02-19</lastmod>
+    </url>
+    <url>
+         <loc>https://cantara.github.io/wiki/~totto/</loc>
          <lastmod>2026-02-19</lastmod>
     </url>
     <url>

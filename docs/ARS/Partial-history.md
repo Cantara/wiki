@@ -1,4 +1,4 @@
-# Partial history - Cantara Community Wiki
+# Partial history
 
 ## Problem/Context
 

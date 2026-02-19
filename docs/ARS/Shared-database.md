@@ -1,4 +1,4 @@
-# Shared database - Cantara Community Wiki
+# Shared database
 
 |  |  |
 | --- | --- |

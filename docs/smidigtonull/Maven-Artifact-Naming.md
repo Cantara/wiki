@@ -1,4 +1,4 @@
-# Maven Artifact Naming - Cantara Community Wiki
+# Maven Artifact Naming
 
 ###### artifactId
 

@@ -1,4 +1,4 @@
-# Geek Cruise February 2009 - Cantara Community Wiki
+# Geek Cruise February 2009
 
 > ..med skallet isse og Siebel i blikket..
 

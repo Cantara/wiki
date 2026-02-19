@@ -1,4 +1,4 @@
-# Input split - Cantara Community Wiki
+# Input split
 
 ## Problem/Context
 

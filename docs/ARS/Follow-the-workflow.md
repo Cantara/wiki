@@ -1,4 +1,4 @@
-# Follow the workflow - Cantara Community Wiki
+# Follow the workflow
 
 It is usually used in combination with the [Workflow by workflow](/web/20090930021907/http://wiki.cantara.no/display/ARS/Workflow+by+workflow "Workflow by workflow") and the [New business](/web/20090930021907/http://wiki.cantara.no/display/ARS/New+business "New business") patterns.
 

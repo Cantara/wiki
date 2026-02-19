@@ -1,4 +1,4 @@
-# Invitasjon til deltakelse i arbeidsgruppen for utviklerhuset - Cantara Community Wiki
+# Invitasjon til deltakelse i arbeidsgruppen for utviklerhuset
 
 **Invitasjon til deltakelse i arbeidsgruppe for utformingen av utviklerhuset i Oslo.**
 

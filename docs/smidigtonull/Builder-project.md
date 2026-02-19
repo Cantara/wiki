@@ -1,4 +1,4 @@
-# Builder project - Cantara Community Wiki
+# Builder project
 
 One of the reasons why some people cling to the *"Everything in one project"* approach is that it is convenient to build all code with a single command. This convenience can also be achieved with a so called builder project ("samlepom" in Norwegian).
 

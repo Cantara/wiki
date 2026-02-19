@@ -1,4 +1,4 @@
-# Multi-module project with inheritance - Cantara Community Wiki
+# Multi-module project with inheritance
 
 #### About modularization
 

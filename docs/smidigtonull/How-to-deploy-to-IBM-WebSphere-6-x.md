@@ -1,4 +1,4 @@
-# How to deploy to IBM WebSphere 6.x - Cantara Community Wiki
+# How to deploy to IBM WebSphere 6.x
 
 It is not possible to deploy directly to IBM WebSphere 6.x by regular file transfer protocols, and it is not currently supported by [Cargo](http://cargo.codehaus.org/). The way of deploying to a cluster recommended by IBM, is by executing the file wsadmin.bat on the deployer's end with a number of parameters. The bat file is a facade for classes from IBMs JRE, J9, that transfer the file to the cluster manager (via SOAP or RMI), along with a Jython/JACL configuration script. The cluster manager then executes the configuration script.
 

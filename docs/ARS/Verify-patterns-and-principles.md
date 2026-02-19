@@ -1,4 +1,4 @@
-# Verify patterns and principles - Cantara Community Wiki
+# Verify patterns and principles
 
 When selecting the principles and patterns that you plan to use in a release you need to verify these carefully.
 

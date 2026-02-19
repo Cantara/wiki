@@ -1,4 +1,4 @@
-# Automatic code review - Cantara Community Wiki
+# Automatic code review
 
 #### Recommendations
 

@@ -1,4 +1,4 @@
-# The Architect - roles and responsibilities - Cantara Community Wiki
+# The Architect - roles and responsibilities
 
 |  |  |
 | --- | --- |

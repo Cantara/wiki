@@ -1,4 +1,4 @@
-# Intro to Enterprise Domain Repository - Cantara Community Wiki
+# Intro to Enterprise Domain Repository
 
 ## Table of Content:
 

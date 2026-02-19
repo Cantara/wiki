@@ -10,7 +10,7 @@ theme:
     primary: deep purple
     accent: purple
   features:
-    - navigation.tabs
+    - navigation.sections
     - navigation.indexes
     - navigation.top
     - search.highlight
@@ -25,72 +25,124 @@ nav:
   - "ACS":
       - "ACS Availability and Allocation Module": ACS/ACS-Availability-and-Allocation-Module.md
       - "ACS Infrastructure recommendations": ACS/ACS-Infrastructure-recommendations.md
+      - "ACS Installation": ACS/ACS-Installation.md
+      - "ACS Sharepoint Components": ACS/ACS-Sharepoint-Components.md
+      - "Adding a new Profile as Admin": ACS/Adding-a-new-Profile-as-Admin.md
+      - "Additional information": ACS/Additional-information.md
       - "Automatic Configuration Of Development Environment": ACS/Automatic-Configuration-Of-Development-Environment.md
+      - "Azure HA Deployment": ACS/Azure-HA-Deployment.md
       - "Installation": ACS/Installation.md
+      - "Solr Search": ACS/Solr-Search.md
       - "System documentation": ACS/System-documentation.md
+      - "User manual": ACS/User-manual.md
+      - "Workshop - Competence and Skill management": ACS/Workshop-Competence-and-Skill-management.md
       - "Home": ACS/index.md
   - "ARS":
       - "Agile Release Strategies Home": ARS/Agile-Release-Strategies-Home.md
-      - "Agile Release Strategies Home": ARS/Agile-Release-Strategies-Home.md
       - "Antipatterns": ARS/Antipatterns.md
-      - "Arguments against releasing often - Cantara Community Wiki": ARS/Arguments-against-releasing-often.md
-      - "Arguments against releasing often - Cantara Community Wiki": ARS/Arguments-against-releasing-often.md
+      - "Arguments against releasing often": ARS/Arguments-against-releasing-often.md
+      - "Case studies": ARS/Case-studies.md
       - "Continuous deployment": ARS/Continuous-deployment.md
       - "Continuous production": ARS/Continuous-production.md
-      - "Customer by customer - Cantara Community Wiki": ARS/Customer-by-customer.md
-      - "Database views - Cantara Community Wiki": ARS/Database-views.md
-      - "Differentiators - Cantara Community Wiki": ARS/Differentiators.md
-      - "Enhancement project - Cantara Community Wiki": ARS/Enhancement-project.md
-      - "Facilitate switching - Cantara Community Wiki": ARS/Facilitate-switching.md
-      - "Follow the workflow - Cantara Community Wiki": ARS/Follow-the-workflow.md
-      - "Input split - Cantara Community Wiki": ARS/Input-split.md
-      - "Is it necessary - Cantara Community Wiki": ARS/Is-it-necessary.md
-      - "Limited release - Cantara Community Wiki": ARS/Limited-release.md
-      - "Limited releases - Cantara Community Wiki": ARS/Limited-releases.md
+      - "Customer by customer": ARS/Customer-by-customer.md
+      - "Database views": ARS/Database-views.md
+      - "Differentiators": ARS/Differentiators.md
+      - "Enhancement project": ARS/Enhancement-project.md
+      - "Facilitate switching": ARS/Facilitate-switching.md
+      - "Follow the workflow": ARS/Follow-the-workflow.md
+      - "Input split": ARS/Input-split.md
+      - "Is it necessary": ARS/Is-it-necessary.md
+      - "Limited release": ARS/Limited-release.md
+      - "Limited releases": ARS/Limited-releases.md
       - "MRP": ARS/MRP.md
-      - "Migrate on demand - Cantara Community Wiki": ARS/Migrate-on-demand.md
-      - "Minimal Deployable Entity - Cantara Community Wiki": ARS/Minimal-Deployable-Entity.md
-      - "Minimize migration - Cantara Community Wiki": ARS/Minimize-migration.md
-      - "Navigation - Cantara Community Wiki": ARS/Navigation.md
+      - "Migrate on demand": ARS/Migrate-on-demand.md
+      - "Minimal Deployable Entity": ARS/Minimal-Deployable-Entity.md
+      - "Minimize migration": ARS/Minimize-migration.md
       - "Navigation": ARS/Navigation.md
-      - "Partial history - Cantara Community Wiki": ARS/Partial-history.md
+      - "New business": ARS/New-business.md
+      - "Pain relievers": ARS/Pain-relievers.md
+      - "Partial history": ARS/Partial-history.md
       - "Patterns": ARS/Patterns.md
       - "Potentially shippable": ARS/Potentially-shippable.md
-      - "Product by product - Cantara Community Wiki": ARS/Product-by-product.md
+      - "Principles and patterns": ARS/Principles-and-patterns.md
       - "Product by product": ARS/Product-by-product.md
-      - "Replacement project - Cantara Community Wiki": ARS/Replacement-project.md
-      - "Shared database - Cantara Community Wiki": ARS/Shared-database.md
-      - "Synchronized database - Cantara Community Wiki": ARS/Synchronized-database.md
+      - "Replacement project": ARS/Replacement-project.md
+      - "Replicated database": ARS/Replicated-database.md
+      - "Scope control and buffer": ARS/Scope-control-and-buffer.md
+      - "Shared database": ARS/Shared-database.md
+      - "Synchronized database": ARS/Synchronized-database.md
+      - "Techniques": ARS/Techniques.md
       - "The value of Pain": ARS/The-value-of-Pain.md
+      - "The value of delaying": ARS/The-value-of-delaying.md
       - "Trojan Project": ARS/Trojan-Project.md
-      - "Verify patterns and principles - Cantara Community Wiki": ARS/Verify-patterns-and-principles.md
+      - "User by user": ARS/User-by-user.md
+      - "Verify patterns and principles": ARS/Verify-patterns-and-principles.md
       - "Why release often": ARS/Why-release-often.md
+      - "Workflow by workflow": ARS/Workflow-by-workflow.md
+      - "Workflow tail first": ARS/Workflow-tail-first.md
+      - "XP2010 Workshop": ARS/XP2010-Workshop.md
+      - "ARS": ARS/index.md
+      - "three months": ARS/three-months.md
   - "About":
       - "About This Wiki Blog from May, 2021": About/2021_05_.md
+      - "About Cantara": About/About-Cantara.md
       - "About the Cantara Wiki": About/About-the-Cantara-Wiki.md
+      - "Alternativ forside - magasin edition": About/Alternativ-forside-magasin-edition.md
+      - "Alternativ forside": About/Alternativ-forside.md
+      - "Announcement banner": About/Announcement-banner.md
+      - "CantaraNews": About/CantaraNews.md
       - "Objectware Community Wiki har blitt en del av Cantara-wikien": About/Objectware-Community-Wiki-har-blitt-en-del-av-Cantara-wikien.md
+      - "OldCantaraNews": About/OldCantaraNews.md
+      - "Rules and Guidelines": About/Rules-and-Guidelines.md
+      - "About": About/index.md
+  - "BCT":
+      - "Backward Compatibility Tester Home": BCT/Backward-Compatibility-Tester-Home.md
+      - "BCT": BCT/index.md
+  - "BFA":
+      - "Home": BFA/index.md
   - "CIA":
+      - "Communities In Action Blog from May, 2021": CIA/2021_05_.md
+      - "CiA 2012 - Bridging the gaps - or how to enable the advantages of new technology in the darkest corners": CIA/CiA-2012-Bridging-the-gaps-or-how-to-enable-the-advantages-of-new-technology-in-the-darkest-corners.md
+      - "CiA History": CIA/CiA-History.md
+      - "CiA2010": CIA/CiA2010.md
+      - "CiA2011": CIA/CiA2011.md
+      - "CiA2012": CIA/CiA2012.md
+      - "Communities in Action 2010": CIA/Communities-in-Action-2010.md
+      - "Communities in Action": CIA/Communities-in-Action.md
       - "Communities in action 2011": CIA/Communities-in-action-2011.md
+      - "CIA": CIA/index.md
   - "Enterprise Architecture":
+      - "KM: System of Systems Architecture Blog from October, 2020": EA/2020_10_.md
       - "ATaCAAS Results": EA/ATaCAAS-Results.md
+      - "Activities": EA/Activities.md
       - "Atom for Event-Driven Systems": EA/Atom-for-Event-Driven-Systems.md
       - "Auto-Taxonomy Implementation": EA/Auto-Taxonomy-Implementation.md
       - "Auto-Taxonomy Tools": EA/Auto-Taxonomy-Tools.md
       - "Auto-Taxonomy and Categorization As A Service (ATaCAAS)": EA/Auto-Taxonomy-and-Categorization-As-A-Service-ATaCAAS.md
+      - "COP and Qi4j FAQ": EA/COP-and-Qi4j-FAQ.md
       - "Composite Object Programming": EA/Composite-Object-Programming.md
       - "Constraints and validation": EA/Constraints-and-validation.md
+      - "DSL": EA/DSL.md
       - "DSLs as Object extensions": EA/DSLs-as-Object-extensions.md
+      - "EDR - Data Management taken seriously": EA/EDR-Data-Management-taken-seriously.md
       - "Emerging Technologies - the future of enterprise pojos": EA/Emerging-Technologies-the-future-of-enterprise-pojos.md
+      - "Enterprise Applications": EA/Enterprise-Applications.md
+      - "Enterprise Architecture": EA/Enterprise-Architecture.md
       - "Enterprise POJO": EA/Enterprise-POJO.md
+      - "Enterprise requirements (aka. The Mountain)": EA/Enterprise-requirements-aka-The-Mountain.md
       - "GeekCruise Agenda": EA/GeekCruise-Agenda.md
+      - "GeekCruise Notes - Part 3 - DSLs, SQL": EA/GeekCruise-Notes-Part-3-DSLs-SQL.md
       - "GeekCruise Notes - Part 4 - Mountains and EDR": EA/GeekCruise-Notes-Part-4-Mountains-and-EDR.md
       - "Glossary": EA/Glossary.md
       - "HotChanges": EA/HotChanges.md
+      - "LAMP": EA/LAMP.md
       - "Lambda architecture": EA/Lambda-architecture.md
+      - "Navigation": EA/Navigation.md
       - "Our Heroes": EA/Our-Heroes.md
       - "Persistence": EA/Persistence.md
       - "Photos from the cruise": EA/Photos-from-the-cruise.md
       - "Preparations": EA/Preparations.md
+      - "Presentation Repository": EA/Presentation-Repository.md
       - "Publications": EA/Publications.md
       - "REST": EA/REST.md
       - "Semantic Information Models": EA/Semantic-Information-Models.md
@@ -98,11 +150,13 @@ nav:
       - "Semantic System Models": EA/Semantic-System-Models.md
       - "Simplicity": EA/Simplicity.md
       - "System of systems Architecture": EA/System-of-systems-Architecture.md
+      - "The holy grail of software integration": EA/The-holy-grail-of-software-integration.md
       - "The need for Enterprise Pojos": EA/The-need-for-Enterprise-Pojos.md
       - "Understandability": EA/Understandability.md
       - "WayOnward": EA/WayOnward.md
       - "Work in Process - data mapping": EA/Work-in-Process-data-mapping.md
       - "Wrap up and ideas for future work": EA/Wrap-up-and-ideas-for-future-work.md
+      - "Enterprise Architecture": EA/index.md
   - "EDR":
       - "Open Source: EDR - Enterprise Domain Repository Blog from January, 2021": EDR/2021_01_.md
       - "Data Mapping Extension": EDR/Data-Mapping-Extension.md
@@ -111,23 +165,39 @@ nav:
       - "EDR - Pattern diagram": EDR/EDR-Pattern-diagram.md
       - "EDR - The details": EDR/EDR-The-details.md
       - "Enterprise Domain Repository - Home": EDR/Enterprise-Domain-Repository-Home.md
+      - "Extentions - Advanced Scenarios": EDR/Extentions-Advanced-Scenarios.md
+      - "FAQ": EDR/FAQ.md
       - "Mailing lists": EDR/Mailing-lists.md
       - "Merge Strategy Pattern": EDR/Merge-Strategy-Pattern.md
+      - "Open-ended Integration Merge Pattern": EDR/Open-ended-Integration-Merge-Pattern.md
+      - "Pattern Description": EDR/Pattern-Description.md
+      - "Qi4j EDR implementation": EDR/Qi4j-EDR-implementation.md
+      - "Recording Command Pattern": EDR/Recording-Command-Pattern.md
+      - "EDR": EDR/index.md
   - "EDRMDS":
+      - "EDR-MDS FAQ": EDRMDS/EDR-MDS-FAQ.md
       - "EDR-MDS a SOA Master Data Management Service": EDRMDS/EDR-MDS-a-SOA-Master-Data-Management-Service.md
-      - "EDR-MDS a SOA Master Data Management Service": EDRMDS/EDR-MDS-a-SOA-Master-Data-Management-Service.md
+      - "EDR MDS  is too complex..": EDRMDS/EDR-MDS-is-too-complex.md
       - "EDR-MDS presentations": EDRMDS/EDR-MDS-presentations.md
+      - "EDRMDS - a less is more approach to SOA Master Data Management": EDRMDS/EDRMDS-a-less-is-more-approach-to-SOA-Master-Data-Management.md
       - "Enterprise Architecture - Semantic Information Models": EDRMDS/Enterprise-Architecture-Semantic-Information-Models.md
+      - "Glossary": EDRMDS/Glossary.md
+      - "I do not want to introduce a single point of control or failure": EDRMDS/I-do-not-want-to-introduce-a-single-point-of-control-or-failure.md
       - "Index": EDRMDS/Index.md
+      - "Laws of SOA": EDRMDS/Laws-of-SOA.md
       - "Master Data Management": EDRMDS/Master-Data-Management.md
       - "Master Data Service (MDS)": EDRMDS/Master-Data-Service-MDS.md
       - "Master Data": EDRMDS/Master-Data.md
       - "Navigation": EDRMDS/Navigation.md
+      - "Presentation Repository": EDRMDS/Presentation-Repository.md
       - "Real Time Enterprise": EDRMDS/Real-Time-Enterprise.md
       - "Simplification is king, lets simplify instead...": EDRMDS/Simplification-is-king-lets-simplify-instead.md
+      - "What is the difference between EDR and EDR-MDS": EDRMDS/What-is-the-difference-between-EDR-and-EDR-MDS.md
+      - "EDRMDS": EDRMDS/index.md
   - "ESE":
+      - "Open Source: Evolving Service Adaptor (Evolving Service Endpoint) Blog from March, 2021": ESE/2021_03_.md
       - "Evolving Service Adapter Home": ESE/Evolving-Service-Adapter-Home.md
-      - "Evolving Service Adapter Home": ESE/Evolving-Service-Adapter-Home.md
+      - "ESE": ESE/index.md
   - "FRONT":
       - "Agenda - Final": FRONT/Agenda-Final.md
       - "Agenda and CASE": FRONT/Agenda-and-CASE.md
@@ -135,81 +205,173 @@ nav:
       - "Coding teams": FRONT/Coding-teams.md
       - "Documentation team 4": FRONT/Documentation-team-4.md
       - "File API": FRONT/File-API.md
+      - "Frontend Home": FRONT/Frontend-Home.md
       - "Invitasjon til HTML5 Code Camp": FRONT/Invitasjon-til-HTML5-Code-Camp.md
+      - "Presentations": FRONT/Presentations.md
+      - "Program detailed - Draft 01": FRONT/Program-detailed-Draft-01.md
       - "Team 4": FRONT/Team-4.md
+      - "The Drag and Drop API": FRONT/The-Drag-and-Drop-API.md
       - "The new semantic elements (section, article, nav etc..).": FRONT/The-new-semantic-elements-section-article-nav-etc.md
+      - "Video and Audio API's": FRONT/Video-and-Audio-API-s.md
+      - "WebSockets": FRONT/WebSockets.md
+      - "FRONT": FRONT/index.md
   - "HLT":
       - "Home": HLT/index.md
   - "IASA":
+      - "2011-03-02 - HTML5 - muligheter og konsekvenser fra et arkitekturperspektiv": IASA/2011-03-02-HTML5-muligheter-og-konsekvenser-fra-et-arkitekturperspektiv.md
+      - "2011-04-11 - Architecting Wicked Problems": IASA/2011-04-11-Architecting-Wicked-Problems.md
+      - "2011-05-05 - Architecture Support for Testing": IASA/2011-05-05-Architecture-Support-for-Testing.md
+      - "2012-04-18 - New powers at your fingertips (Graph databases in action with Neo4J)": IASA/2012-04-18-New-powers-at-your-fingertips-Graph-databases-in-action-with-Neo4J.md
       - "Architecting Wicked Problems": IASA/Architecting-Wicked-Problems.md
+      - "Architecture Documentation": IASA/Architecture-Documentation.md
+      - "Bli med i IASA Norge!": IASA/Bli-med-i-IASA-Norge.md
+      - "Bruk av STRIDE metode for sikkerhetsanalyse": IASA/Bruk-av-STRIDE-metode-for-sikkerhetsanalyse.md
+      - "Defining the topic": IASA/Defining-the-topic.md
+      - "Demografi": IASA/Demografi.md
+      - "Even self-organizing teams must have an architect!": IASA/Even-self-organizing-teams-must-have-an-architect.md
       - "Faglig": IASA/Faglig.md
+      - "Forslag til vedtektsendringer 2019": IASA/Forslag-til-vedtektsendringer-2019.md
+      - "Forum": IASA/Forum.md
       - "GeekCruise": IASA/GeekCruise.md
       - "How to build practical enterprise architecture team": IASA/How-to-build-practical-enterprise-architecture-team.md
+      - "IASA Norge Wiki": IASA/IASA-Norge-Wiki.md
       - "IASA forum": IASA/IASA-forum.md
       - "ITIL versus kontinuerlig produksjon - en blodig kamp om budsjettene": IASA/ITIL-versus-kontinuerlig-produksjon-en-blodig-kamp-om-budsjettene.md
+      - "Identity Access Management - infrastruktur, overlevering og driftssettingsplanlegging": IASA/Identity-Access-Management-infrastruktur-overlevering-og-driftssettingsplanlegging.md
       - "Java deployment unit": IASA/Java-deployment-unit.md
+      - "Kontakt Styret": IASA/Kontakt-Styret.md
+      - "Kontaktinfo": IASA/Kontaktinfo.md
+      - "Meetup Food Sponsorship": IASA/Meetup-Food-Sponsorship.md
       - "Navigation": IASA/Navigation.md
       - "Nettskyen i praksis": IASA/Nettskyen-i-praksis.md
+      - "OSWA Norge Manifest": IASA/OSWA-Norge-Manifest.md
       - "OSWA Norge Wiki": IASA/OSWA-Norge-Wiki.md
+      - "Om IASA": IASA/Om-IASA.md
+      - "Open Space": IASA/Open-Space.md
       - "Presentasjoner": IASA/Presentasjoner.md
+      - "Presse": IASA/Presse.md
+      - "Reports on teaching and learning architecture": IASA/Reports-on-teaching-and-learning-architecture.md
+      - "Size matters": IASA/Size-matters.md
+      - "Smidig utvikling, DevOps og arkitektur": IASA/Smidig-utvikling-DevOps-og-arkitektur.md
+      - "Temaforslag": IASA/Temaforslag.md
+      - "ValueReporter": IASA/ValueReporter.md
       - "Vedtekter for OSWA": IASA/Vedtekter-for-OSWA.md
+      - "IASA": IASA/index.md
   - "JAU":
       - "Agent pattern diagram": JAU/Agent-pattern-diagram.md
       - "Agent pattern": JAU/Agent-pattern.md
+      - "ApplicationConfig for groups of clients": JAU/ApplicationConfig-for-groups-of-clients.md
+      - "Authentication and autorization": JAU/Authentication-and-autorization.md
+      - "ConfigService APIs": JAU/ConfigService-APIs.md
       - "ConfigService Admin API": JAU/ConfigService-Admin-API.md
+      - "ConfigService Dashboard": JAU/ConfigService-Dashboard.md
+      - "ConfigService": JAU/ConfigService.md
+      - "Installing ConfigService Dashboard": JAU/Installing-ConfigService-Dashboard.md
+      - "Java-Auto-Update and ConfigService Home": JAU/Java-Auto-Update-and-ConfigService-Home.md
+      - "Java Auto-Update": JAU/Java-Auto-Update.md
       - "MJAUU - My JAU Updater (Update the Java-Auto-Update itself )": JAU/MJAUU-My-JAU-Updater-Update-the-Java-Auto-Update-itself.md
+      - "Preregister Client with specific ApplicationConfig": JAU/Preregister-Client-with-specific-ApplicationConfig.md
+      - "Send logs to CloudWatch": JAU/Send-logs-to-CloudWatch.md
+      - "JAU": JAU/index.md
   - "Knowledge Management":
       - "A2A": KM/A2A.md
       - "ACS": KM/ACS.md
-      - "Architect categorization - Cantara Community Wiki": KM/Architect-categorization.md
-      - "Bridging the gap between developers and architects - Cantara Community Wiki": KM/Bridging-the-gap-between-developers-and-architects.md
-      - "Cloud Home - Cantara Community Wiki": KM/Cloud-Home.md
-      - "Communication vs Technology focus - Cantara Community Wiki": KM/Communication-vs-Technology-focus.md
-      - "Data integration - Cantara Community Wiki": KM/Data-integration.md
+      - "Architect categorization": KM/Architect-categorization.md
+      - "Bridging the gap between developers and architects": KM/Bridging-the-gap-between-developers-and-architects.md
+      - "CS": KM/CS.md
+      - "Cloud Home": KM/Cloud-Home.md
+      - "Communication vs Technology focus": KM/Communication-vs-Technology-focus.md
+      - "Data integration": KM/Data-integration.md
       - "Design-Time Governance - SOA Design Rules FAQ": KM/Design-Time-Governance-SOA-Design-Rules-FAQ.md
+      - "Design-Time Governance - SOA Design Rules": KM/Design-Time-Governance-SOA-Design-Rules.md
+      - "Enterprise Domain Repository": KM/Enterprise-Domain-Repository.md
       - "Functional requirement template": KM/Functional-requirement-template.md
-      - "Intro to Enterprise Domain Repository - Cantara Community Wiki": KM/Intro-to-Enterprise-Domain-Repository.md
+      - "H2A": KM/H2A.md
+      - "Intro to Enterprise Domain Repository": KM/Intro-to-Enterprise-Domain-Repository.md
       - "Knowledge Management Home": KM/Knowledge-Management-Home.md
+      - "P1. A service shall have one named owner": KM/P1-A-service-shall-have-one-named-owner.md
+      - "P2. A service shall provide documented business value": KM/P2-A-service-shall-provide-documented-business-value.md
       - "P20. All services shall be in the service universe": KM/P20-All-services-shall-be-in-the-service-universe.md
+      - "P21. A service shall be categorized": KM/P21-A-service-shall-be-categorized.md
+      - "P3. A service shall do one only thing, and one thing well": KM/P3-A-service-shall-do-one-only-thing-and-one-thing-well.md
+      - "P30. A service shall have a versioning strategy (ACS, CS)": KM/P30-A-service-shall-have-a-versioning-strategy-ACS-CS.md
+      - "P31. A service shall provide for audit and monitoring of service usage": KM/P31-A-service-shall-provide-for-audit-and-monitoring-of-service-usage.md
+      - "P4. A H2A service (webpart or portlet) shall be an independent component": KM/P4-A-H2A-service-webpart-or-portlet-shall-be-an-independent-component.md
+      - "P40. A service shall provide at least one Evolving Service Endpoint": KM/P40-A-service-shall-provide-at-least-one-Evolving-Service-Endpoint.md
+      - "P41. A service shall provide heartbeat and traffic monitoring": KM/P41-A-service-shall-provide-heartbeat-and-traffic-monitoring.md
+      - "P42. A Core service shall have orthogonal functionality": KM/P42-A-Core-service-shall-have-orthogonal-functionality.md
       - "P5. A H2A Service (webpart or portlet) shall be a part of a bigger whole, not trying to dictate other H2A services": KM/P5-A-H2A-Service-webpart-or-portlet-shall-be-a-part-of-a-bigger-whole-not-trying-to-dictate-other-H2A-services.md
       - "P6. A H2A service shall not have internal workflow": KM/P6-A-H2A-service-shall-not-have-internal-workflow.md
       - "P7. Too generic webparts or portlets shall be avoided": KM/P7-Too-generic-webparts-or-portlets-shall-be-avoided.md
       - "P90. A service shall have a documented coupling to the contractual and requirement for service usage": KM/P90-A-service-shall-have-a-documented-coupling-to-the-contractual-and-requirement-for-service-usage.md
-      - "Persistence strategies for the 21 century - Cantara Community Wiki": KM/Persistence-strategies-for-the-21-century.md
+      - "PAB": KM/PAB.md
       - "Persistence strategies for the 21 century": KM/Persistence-strategies-for-the-21-century.md
+      - "Policy Advisory Board (PAB)": KM/Policy-Advisory-Board-PAB.md
+      - "Presentations": KM/Presentations.md
+      - "Same Old Architecture versus Services": KM/Same-Old-Architecture-versus-Services.md
+      - "Search-driven Business Intelligence": KM/Search-driven-Business-Intelligence-sortBy-createddate.md
+      - "Search-driven Business Intelligence": KM/Search-driven-Business-Intelligence-sortBy-name.md
       - "Search-driven Business Intelligence": KM/Search-driven-Business-Intelligence-sortBy-size.md
       - "Service Manifest": KM/Service-Manifest.md
+      - "Service Template - H2A": KM/Service-Template-H2A.md
       - "Service template common": KM/Service-template-common.md
-      - "The Architect - roles and responsibilities - Cantara Community Wiki": KM/The-Architect-roles-and-responsibilities.md
+      - "Software Development": KM/Software-Development.md
+      - "The Architect - roles and responsibilities": KM/The-Architect-roles-and-responsibilities.md
       - "The Champion, the Chief and the Manager": KM/The-Champion-the-Chief-and-the-Manager.md
       - "Value-oriented User Story template": KM/Value-oriented-User-Story-template.md
+      - "Home": KM/index.md
+      - "productivity factor is 5-10 fold among developers": KM/productivity-factor-is-5-10-fold-among-developers.md
   - "MTSG":
       - "Mean Time Since Green Game - Home": MTSG/Mean-Time-Since-Green-Game-Home.md
       - "Overview": MTSG/Overview.md
+      - "RoughWorking": MTSG/RoughWorking.md
+      - "Rules of the game": MTSG/Rules-of-the-game.md
+      - "The Unsplice Exercise": MTSG/The-Unsplice-Exercise.md
+      - "MTSG": MTSG/index.md
   - "ORG":
+      - "Organizations Blog from September, 2020": ORG/2020_09_.md
+      - "Organizations Blog from November, 2020": ORG/2020_11_.md
       - "Organizations Home": ORG/Organizations-Home.md
-      - "Organizations Home": ORG/Organizations-Home.md
+      - "ORG": ORG/index.md
   - "OSS":
       - "Open Source Projects Blog from September, 2020": OSS/2020_09_.md
       - "Open Source Infographics": OSS/Open-Source-Infographics.md
       - "Open Source Projects Home": OSS/Open-Source-Projects-Home.md
+      - "OSS": OSS/index.md
   - "Open Web Services & SOA":
+      - "A2A": OWSOA/A2A.md
       - "ACS": OWSOA/ACS.md
       - "Access Manager (AM)": OWSOA/Access-Manager-AM.md
+      - "Aggregated Core Services": OWSOA/Aggregated-Core-Services.md
+      - "Aggregated Core Servives": OWSOA/Aggregated-Core-Servives.md
+      - "Alignment of Business Intelligence and Service Oriented Architecture": OWSOA/Alignment-of-Business-Intelligence-and-Service-Oriented-Architecture.md
       - "Alignment of Enterprise Search Platforms (ESP) and Service-Oriented Architecture": OWSOA/Alignment-of-Enterprise-Search-Platforms-ESP-and-Service-Oriented-Architecture.md
+      - "Application 2 Application Services": OWSOA/Application-2-Application-Services.md
       - "Application to Application Services": OWSOA/Application-to-Application-Services.md
+      - "Architecture Principles and Axioms": OWSOA/Architecture-Principles-and-Axioms.md
+      - "Architecture": OWSOA/Architecture.md
       - "Business Intelligence (BI) and Enterprise Search in a Service Oriented Architecture Strategy": OWSOA/Business-Intelligence-BI-and-Enterprise-Search-in-a-Service-Oriented-Architecture-Strategy.md
+      - "CS": OWSOA/CS.md
       - "Command Pattern": OWSOA/Command-Pattern.md
       - "Core Services": OWSOA/Core-Services.md
       - "Data Processing": OWSOA/Data-Processing.md
       - "Data Warehouse (DW) and Business Intelligence (BI)": OWSOA/Data-Warehouse-DW-and-Business-Intelligence-BI.md
       - "Design-Time Governance - SOA Design Rules FAQ": OWSOA/Design-Time-Governance-SOA-Design-Rules-FAQ.md
       - "Design-Time Governance - SOA Design Rules": OWSOA/Design-Time-Governance-SOA-Design-Rules.md
+      - "Design-Time Governance for A2A Services": OWSOA/Design-Time-Governance-for-A2A-Services.md
+      - "Design-Time Governance for ACS Services": OWSOA/Design-Time-Governance-for-ACS-Services.md
       - "Design-Time Governance for CS Services": OWSOA/Design-Time-Governance-for-CS-Services.md
       - "Design-Time Governance for H2A Services": OWSOA/Design-Time-Governance-for-H2A-Services.md
       - "Enterprise Architecture (EA)": OWSOA/Enterprise-Architecture-EA.md
+      - "Enterprise Domain Repository Pattern": OWSOA/Enterprise-Domain-Repository-Pattern.md
+      - "Evolving Service Endpoint Pattern": OWSOA/Evolving-Service-Endpoint-Pattern.md
+      - "From EA to SOA (and back)": OWSOA/From-EA-to-SOA-and-back.md
+      - "Getting Started with SOA": OWSOA/Getting-Started-with-SOA.md
+      - "Glossary": OWSOA/Glossary.md
       - "Governance": OWSOA/Governance.md
+      - "H2A": OWSOA/H2A.md
       - "How does this SOA relate to Mark Little SOA": OWSOA/How-does-this-SOA-relate-to-Mark-Little-SOA.md
+      - "How does this SOA relate to REST": OWSOA/How-does-this-SOA-relate-to-REST.md
       - "Human 2 Application Services": OWSOA/Human-2-Application-Services.md
       - "Human to Application Services": OWSOA/Human-to-Application-Services.md
       - "I think I agree with law 3, Establish service ownership and Key Performance Indicators for your services, but an example of a KPI would be helpful": OWSOA/I-think-I-agree-with-law-3-Establish-service-ownership-and-Key-Performance-Indicators-for-your-services-but-an-example-of-a-KPI-would-be-helpful.md
@@ -234,8 +396,10 @@ nav:
       - "Service Assembly Pattern": OWSOA/Service-Assembly-Pattern.md
       - "Service Manifest": OWSOA/Service-Manifest.md
       - "Service Oriented Architecture FAQ": OWSOA/Service-Oriented-Architecture-FAQ.md
+      - "Open Web Services & SOA": OWSOA/index.md
   - "Open Data":
       - "Open Data Home": OpenData/Open-Data-Home.md
+      - "Open Data": OpenData/index.md
   - "Platform Engineering":
       - "About Cantara Champions": PE/About-Cantara-Champions.md
       - "Activities": PE/Activities.md
@@ -249,65 +413,69 @@ nav:
       - "CiA2012Track2": PE/CiA2012Track2.md
       - "CiA2012Track3": PE/CiA2012Track3.md
       - "CiA2012Track4": PE/CiA2012Track4.md
+      - "CocoaHeads Oslo": PE/CocoaHeads-Oslo.md
       - "Communities in action 2011": PE/Communities-in-action-2011.md
-      - "Communities in action 2011": PE/Communities-in-action-2011.md
+      - "Communities": PE/Communities.md
       - "Community Calendar - Oslo": PE/Community-Calendar-Oslo.md
       - "Community Logos": PE/Community-Logos.md
+      - "Community One, Oslo 2009 April 15th": PE/Community-One-Oslo-2009-April-15th.md
       - "Crash course in Erlang": PE/Crash-course-in-Erlang.md
-      - "Deltakerliste Communities in Action 2010 - Cantara Community Wiki": PE/Deltakerliste-Communities-in-Action-2010.md
+      - "Deltakerliste Communities in Action 2010": PE/Deltakerliste-Communities-in-Action-2010.md
       - "DevOps Norway Meetup": PE/DevOps-Norway-Meetup.md
       - "Forum": PE/Forum.md
-      - "Forum": PE/Forum.md
-      - "Foundation of Norwegian Software Development Foundation": PE/Foundation-of-Norwegian-Software-Development-Foundation.md
       - "Foundation of Norwegian Software Development Foundation": PE/Foundation-of-Norwegian-Software-Development-Foundation.md
       - "GCW": PE/GCW.md
       - "Geek Cruise 2010 - The reusability battle in agile software development": PE/Geek-Cruise-2010-The-reusability-battle-in-agile-software-development.md
-      - "Geek Cruise 23-25 May 2009 - Architects in deep water... - Cantara Community Wiki": PE/Geek-Cruise-23-25-May-2009-Architects-in-deep-water.md
-      - "Geek Cruise February 2009 - Cantara Community Wiki": PE/Geek-Cruise-February-2009.md
-      - "Geek Cruise III 2009 - Scalability in 2009 - Cantara Community Wiki": PE/Geek-Cruise-III-2009-Scalability-in-2009.md
+      - "Geek Cruise 23-25 May 2009 - Architects in deep water...": PE/Geek-Cruise-23-25-May-2009-Architects-in-deep-water.md
+      - "Geek Cruise February 2009": PE/Geek-Cruise-February-2009.md
       - "Geek Cruise III 2009 - Scalability in 2009": PE/Geek-Cruise-III-2009-Scalability-in-2009.md
-      - "Geek Cruise November 2009 - Topic to be decided - Cantara Community Wiki": PE/Geek-Cruise-November-2009-Topic-to-be-decided.md
-      - "Geek Cruise September 2009 - The reusability battle in agile software development - Cantara Community Wiki": PE/Geek-Cruise-September-2009-The-reusability-battle-in-agile-software-development.md
-      - "Geek Safari 2009 - Cantara Community Wiki": PE/Geek-Safari-2009.md
-      - "Go Open 2009 April 16-17th - Cantara Community Wiki": PE/Go-Open-2009-April-16-17th.md
+      - "Geek Cruise November 2009 - Topic to be decided": PE/Geek-Cruise-November-2009-Topic-to-be-decided.md
+      - "Geek Cruise September 2009 - The reusability battle in agile software development": PE/Geek-Cruise-September-2009-The-reusability-battle-in-agile-software-development.md
+      - "Geek Safari 2009": PE/Geek-Safari-2009.md
+      - "Go Open 2009 April 16-17th": PE/Go-Open-2009-April-16-17th.md
       - "Gradle vs Maven - Incremental build shootout": PE/Gradle-vs-Maven-Incremental-build-shootout.md
       - "Groovy Collections": PE/Groovy-Collections.md
       - "HTML 5 Code Camp": PE/HTML-5-Code-Camp.md
-      - "HTML 5 Code Camp": PE/HTML-5-Code-Camp.md
       - "HomlmsbuInfo": PE/HomlmsbuInfo.md
-      - "How can I be available for the development team - Cantara Community Wiki": PE/How-can-I-be-available-for-the-development-team.md
-      - "How to help ivory tower architects to support agile and productive projects - Cantara Community Wiki": PE/How-to-help-ivory-tower-architects-to-support-agile-and-productive-projects.md
+      - "How can I be available for the development team": PE/How-can-I-be-available-for-the-development-team.md
+      - "How to help ivory tower architects to support agile and productive projects": PE/How-to-help-ivory-tower-architects-to-support-agile-and-productive-projects.md
       - "IASA Norge": PE/IASA-Norge.md
       - "Info": PE/Info.md
-      - "Info": PE/Info.md
       - "Introduksjon til Scala Actors": PE/Introduksjon-til-Scala-Actors.md
-      - "Invitasjon til Communities in Action 2010 - Cantara Community Wiki": PE/Invitasjon-til-Communities-in-Action-2010.md
       - "Invitasjon til Communities in Action 2010": PE/Invitasjon-til-Communities-in-Action-2010.md
-      - "Invitasjon til deltakelse i arbeidsgruppen for utviklerhuset - Cantara Community Wiki": PE/Invitasjon-til-deltakelse-i-arbeidsgruppen-for-utviklerhuset.md
+      - "Invitasjon til deltakelse i arbeidsgruppen for utviklerhuset": PE/Invitasjon-til-deltakelse-i-arbeidsgruppen-for-utviklerhuset.md
       - "JavaZone 2009": PE/JavaZone-2009.md
       - "JohannesBrodwall": PE/JohannesBrodwall.md
-      - "LT2 Why my company went broke by its own success - a web2.0 start-up story.. - Cantara Community Wiki": PE/LT2-Why-my-company-went-broke-by-its-own-success-a-web2-0-start-up-story.md
+      - "LT2 Why my company went broke by its own success - a web2.0 start-up story..": PE/LT2-Why-my-company-went-broke-by-its-own-success-a-web2-0-start-up-story.md
+      - "LT7 I hate clouds": PE/LT7-I-hate-clouds.md
+      - "List of participants - Geek Cruise 2009 - May": PE/List-of-participants-Geek-Cruise-2009-May.md
+      - "List of participants - Geek Cruise 2009": PE/List-of-participants-Geek-Cruise-2009.md
       - "MalaRIA proxy - en av farene ved usikker konfigurasjon": PE/MalaRIA-proxy-en-av-farene-ved-usikker-konfigurasjon.md
       - "NNUG Oslo": PE/NNUG-Oslo.md
       - "Navigation": PE/Navigation.md
+      - "OWASP": PE/OWASP.md
+      - "Old Activities": PE/Old-Activities.md
+      - "Oslo Perl Mongers": PE/Oslo-Perl-Mongers.md
       - "OsloCommunities": PE/OsloCommunities.md
-      - "Program CiA 2011": PE/Program-CiA-2011.md
+      - "OsloConferences": PE/OsloConferences.md
+      - "Presseklipp": PE/Presseklipp.md
       - "Program CiA 2011": PE/Program-CiA-2011.md
       - "Program Communities in Action 2010": PE/Program-Communities-in-Action-2010.md
       - "REST er ikke RPC for svarte!": PE/REST-er-ikke-RPC-for-svarte.md
       - "Real-life Node.js. Push-meldinger og nettlesertesting": PE/Real-life-Node-js-Push-meldinger-og-nettlesertesting.md
       - "Registrering av stiftere": PE/Registrering-av-stiftere.md
-      - "Registrering av stiftere": PE/Registrering-av-stiftere.md
       - "Simple Build Tool": PE/Simple-Build-Tool.md
       - "Smidig Coaching": PE/Smidig-Coaching.md
       - "Stiftelsesinvitasjon": PE/Stiftelsesinvitasjon.md
-      - "Stiftelsesinvitasjon": PE/Stiftelsesinvitasjon.md
       - "The Pizza Process": PE/The-Pizza-Process.md
-      - "Top-3 list of problems an enterprise architect generates - Cantara Community Wiki": PE/Top-3-list-of-problems-an-enterprise-architect-generates.md
+      - "Top-3 list of problems an enterprise architect generates": PE/Top-3-list-of-problems-an-enterprise-architect-generates.md
       - "Using workflow rule engine in plain .NET applications": PE/Using-workflow-rule-engine-in-plain-NET-applications.md
-      - "Why architects should think about test and deployment automation.. - Cantara Community Wiki": PE/Why-architects-should-think-about-test-and-deployment-automation.md
+      - "Why architects should think about test and deployment automation..": PE/Why-architects-should-think-about-test-and-deployment-automation.md
+      - "XP Meetup": PE/XP-Meetup.md
       - "ZombieTDD": PE/ZombieTDD.md
       - "engasjer deg i Cantara": PE/engasjer-deg-i-Cantara.md
+      - "Platform Engineering": PE/index.md
+      - "scalaBin": PE/scalaBin.md
       - "utviklerhuset": PE/utviklerhuset.md
   - "TANK":
       - "Aggregated Norwegian Software Development blogroller (english)": TANK/Aggregated-Norwegian-Software-Development-blogroller-english.md
@@ -325,14 +493,25 @@ nav:
       - "Factory": architecture/Factory.md
       - "Laws for Organization Architects": architecture/Laws-for-Organization-Architects.md
       - "Laws for Project Architects": architecture/Laws-for-Project-Architects.md
+      - "NoSQL alternative to RDBMS - CRUD app": architecture/NoSQL-alternative-to-RDBMS-CRUD-app.md
       - "Software Architecture Knowledge Management Home": architecture/Software-Architecture-Knowledge-Management-Home.md
       - "The Cost of reuse versus duplication": architecture/The-Cost-of-reuse-versus-duplication.md
+      - "Thou shall always revisit the architecture axiom - Clear and consistent responsibilities powers all great architectures": architecture/Thou-shall-always-revisit-the-architecture-axiom-Clear-and-consistent-responsibilities-powers-all-great-architectures.md
+      - "Thou shalt always be ahead of the project and know the risks and challenges before they arrive": architecture/Thou-shalt-always-be-ahead-of-the-project-and-know-the-risks-and-challenges-before-they-arrive.md
+      - "Thou shalt be hands on": architecture/Thou-shalt-be-hands-on.md
       - "Thou shalt lead by example": architecture/Thou-shalt-lead-by-example.md
+      - "Thou shalt make consistent and balanced decisions throughout the project": architecture/Thou-shalt-make-consistent-and-balanced-decisions-throughout-the-project.md
+      - "Thou shalt never default to silver bullets or magic": architecture/Thou-shalt-never-default-to-silver-bullets-or-magic.md
       - "Thou shalt revisit and evaluate previous decisions": architecture/Thou-shalt-revisit-and-evaluate-previous-decisions.md
+      - "Thou shalt sit and work together with the team - Thou art an integrated part of the team": architecture/Thou-shalt-sit-and-work-together-with-the-team-Thou-art-an-integrated-part-of-the-team.md
+      - "Thou shalt strive to create a learning culture": architecture/Thou-shalt-strive-to-create-a-learning-culture.md
+      - "Thou shalt strive to find and understand your limitations": architecture/Thou-shalt-strive-to-find-and-understand-your-limitations.md
       - "Tre-lags monolitiske web-applikasjoner": architecture/Tre-lags-monolitiske-web-applikasjoner.md
       - "Typical micro service technology stack (java)": architecture/Typical-micro-service-technology-stack-java.md
+      - "Software Architecture": architecture/index.md
   - "Blitz":
       - "Blitz Wiki - Home": blitz/Blitz-Wiki-Home.md
+      - "Blitz": blitz/index.md
   - "Agile Development":
       - "4 plus 1 View Model": dev/4-plus-1-View-Model.md
       - "Agile Mindset and Methodology": dev/Agile-Mindset-and-Methodology.md
@@ -360,15 +539,22 @@ nav:
       - "Software Craftsmanship": dev/Software-Craftsmanship.md
       - "Timeline": dev/Timeline.md
       - "Code coverage using Surefire, TestNG, Jacoco and Sonar": dev/code-coverage-using-surefire-testng-jacoco-and-sonar.md
+      - "Agile Development": dev/index.md
   - "DevHouse":
       - "Utviklerhuset": devhouse/Utviklerhuset.md
-      - "Utviklerhuset": devhouse/Utviklerhuset.md
+      - "DevHouse": devhouse/index.md
   - "IoT":
       - "Home": iot/index.md
+  - "mactor":
+      - "MActor Home": mactor/index.md
   - "pe":
-      - "Developers guide to server-side productivity and fun with Open Source - Cantara Community Wiki": pe/developers-guide-to-server-side-productivity-and-fun-with-open-source.md
+      - "Developers guide to server-side productivity and fun with Open Source": pe/developers-guide-to-server-side-productivity-and-fun-with-open-source.md
+      - "pe": pe/index.md
   - "puben":
       - "Puben Home": puben/index.md
+  - "security":
+      - "Java SSL - Keystores": security/Java-SSL-Keystores.md
+      - "Home": security/index.md
   - "Smidig":
       - "Forbedringer i brukergrensesnitt": smidig/Forbedringer-i-brukergrensesnitt.md
       - "Frie ideer for smidig2010": smidig/Frie-ideer-for-smidig2010.md
@@ -378,26 +564,30 @@ nav:
       - "Registrering av lyntaleforedrag": smidig/Registrering-av-lyntaleforedrag.md
       - "Rekvisita": smidig/Rekvisita.md
       - "Smidig 2010": smidig/Smidig-2010.md
-      - "Smidig 2010": smidig/Smidig-2010.md
       - "Sponsor": smidig/Sponsor.md
       - "Testprotokoll": smidig/Testprotokoll.md
       - "Web": smidig/Web.md
-      - "Web": smidig/Web.md
       - "Home": smidig/index.md
   - "smidigtonull":
-      - "Automatic code review - Cantara Community Wiki": smidigtonull/Automatic-code-review.md
-      - "Builder project - Cantara Community Wiki": smidigtonull/Builder-project.md
-      - "How to deploy to IBM WebSphere 6.x - Cantara Community Wiki": smidigtonull/How-to-deploy-to-IBM-WebSphere-6-x.md
-      - "Java Parent POM Example - Cantara Community Wiki": smidigtonull/Java-Parent-POM-Example.md
-      - "Maven Artifact Naming - Cantara Community Wiki": smidigtonull/Maven-Artifact-Naming.md
-      - "Maven Deploy and Release FAQ - Cantara Community Wiki": smidigtonull/Maven-Deploy-and-Release-FAQ.md
-      - "Multi-module project with inheritance - Cantara Community Wiki": smidigtonull/Multi-module-project-with-inheritance.md
-      - "Organizing Maven projects - Cantara Community Wiki": smidigtonull/Organizing-Maven-projects.md
-      - "Project Structure for Persistence Logic - Cantara Community Wiki": smidigtonull/Project-Structure-for-Persistence-Logic.md
-      - "Recommended directory structure using Subversion and Maven - Cantara Community Wiki": smidigtonull/Recommended-directory-structure-using-Subversion-and-Maven.md
+      - "Agile Software Development Home": smidigtonull/Agile-Software-Development-Home.md
+      - "Automatic code review": smidigtonull/Automatic-code-review.md
+      - "Builder project": smidigtonull/Builder-project.md
+      - "Enterprise Maven Infrastructure": smidigtonull/Enterprise-Maven-Infrastructure.md
+      - "Enterprise Maven Infrastructure": smidigtonull/Enterprise-Maven-infrastructure.md
+      - "Generic Parent POM Example": smidigtonull/Generic-Parent-POM-Example.md
+      - "How to deploy to IBM WebSphere 6.x": smidigtonull/How-to-deploy-to-IBM-WebSphere-6-x.md
+      - "Java Parent POM Example": smidigtonull/Java-Parent-POM-Example.md
+      - "Maven Artifact Naming": smidigtonull/Maven-Artifact-Naming.md
+      - "Maven Deploy and Release FAQ": smidigtonull/Maven-Deploy-and-Release-FAQ.md
+      - "Multi-module project with inheritance": smidigtonull/Multi-module-project-with-inheritance.md
+      - "Organizing Maven projects": smidigtonull/Organizing-Maven-projects.md
+      - "Project Inheritance": smidigtonull/Project-Inheritance.md
+      - "Project Structure for Persistence Logic": smidigtonull/Project-Structure-for-Persistence-Logic.md
+      - "Recommended directory structure using Subversion and Maven": smidigtonull/Recommended-directory-structure-using-Subversion-and-Maven.md
+      - "smidigtonull": smidigtonull/index.md
   - "sysadm":
       - "Artifactory 2.0.x Installation Guide - Solaris": sysadm/Artifactory-2-0-x-Installation-Guide-Solaris.md
-      - "Version Control System tips and tricks - Cantara Community Wiki": sysadm/Version-Control-System-tips-and-tricks.md
+      - "Version Control System tips and tricks": sysadm/Version-Control-System-tips-and-tricks.md
       - "Home": sysadm/index.md
   - "Whydah (IAM/SSO)":
       - "2.0-alpha-1 release notes": whydah/2-0-alpha-1-release-notes.md
@@ -475,13 +665,21 @@ nav:
       - "Valuereporter-sandbox": ~baard.lind/Valuereporter-sandbox.md
       - "iStream": ~baard.lind/iStream.md
       - "Home": ~baard.lind/index.md
-      - "Home": ~baard.lind/index.md
   - "User: dagb":
       - "Groking Software Architecture": ~dagb/2010_09_27_Groking-Software-Architecture.md
       - "Home": ~dagb/index.md
+  - "~hkokko":
+      - "Hannu Kokko": ~hkokko/index.md
+  - "~jhannes":
+      - "Johannes Brodwall": ~jhannes/index.md
+  - "~leif@auke.no":
+      - "Leif Auke (Connor)": ~leif@auke.no/index.md
+  - "~niklas@leanway.no":
+      - "Niklas Bjørnerstedt": ~niklas@leanway.no/index.md
   - "~sharebear":
       - "Home": ~sharebear/index.md
   - "~sherriff":
+      - "Home": ~sherriff/index.md
       - "test": ~sherriff/test.md
   - "~steinim":
       - "Home": ~steinim/index.md
@@ -518,4 +716,5 @@ nav:
       - "Query": ~totto/Query.md
       - "Sci-fi books read 2013": ~totto/Sci-fi-books-read-2013.md
       - "ShortBio": ~totto/ShortBio.md
+      - "User: totto": ~totto/index.md
       - "test": ~totto/test.md

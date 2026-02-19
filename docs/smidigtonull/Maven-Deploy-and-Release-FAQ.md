@@ -1,4 +1,4 @@
-# Maven Deploy and Release FAQ - Cantara Community Wiki
+# Maven Deploy and Release FAQ
 
 ## Table of Contents
 

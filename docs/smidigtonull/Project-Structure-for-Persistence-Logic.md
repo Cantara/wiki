@@ -1,4 +1,4 @@
-# Project Structure for Persistence Logic - Cantara Community Wiki
+# Project Structure for Persistence Logic
 
 #### Persistence logic in a separate Maven project
 

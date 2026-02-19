@@ -1,4 +1,4 @@
-# Go Open 2009 April 16-17th - Cantara Community Wiki
+# Go Open 2009 April 16-17th
 
 ### Abstract
 

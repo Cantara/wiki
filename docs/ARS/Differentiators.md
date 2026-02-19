@@ -1,4 +1,4 @@
-# Differentiators - Cantara Community Wiki
+# Differentiators
 
 A differentiator i a feature that is so desirable that users will be willing to use the system even if it has very limited functionality in other areas. Identifying differentiators often requires innovative thinking that redefines the problem area.
 

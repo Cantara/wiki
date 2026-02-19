@@ -1,4 +1,4 @@
-# Geek Cruise November 2009 - Topic to be decided - Cantara Community Wiki
+# Geek Cruise November 2009 - Topic to be decided
 
 ### Info
 

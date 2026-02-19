@@ -1,4 +1,4 @@
-# Why architects should think about test and deployment automation.. - Cantara Community Wiki
+# Why architects should think about test and deployment automation..
 
 #### Expectations for the architect
 

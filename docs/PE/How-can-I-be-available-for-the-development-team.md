@@ -1,4 +1,4 @@
-# How can I be available for the development team - Cantara Community Wiki
+# How can I be available for the development team
 
 ## How can I be available to the development team?
 

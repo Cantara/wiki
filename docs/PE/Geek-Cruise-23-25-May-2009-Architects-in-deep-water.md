@@ -1,4 +1,4 @@
-# Geek Cruise 23-25 May 2009 - Architects in deep water... - Cantara Community Wiki
+# Geek Cruise 23-25 May 2009 - Architects in deep water...
 
 ### Info
 

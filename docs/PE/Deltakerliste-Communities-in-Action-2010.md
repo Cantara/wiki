@@ -1,4 +1,4 @@
-# Deltakerliste Communities in Action 2010 - Cantara Community Wiki
+# Deltakerliste Communities in Action 2010
 
 ### Påmeldingsliste
 

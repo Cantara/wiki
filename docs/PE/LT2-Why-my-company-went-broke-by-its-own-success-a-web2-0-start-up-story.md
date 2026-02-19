@@ -1,4 +1,4 @@
-# LT2 Why my company went broke by its own success - a web2.0 start-up story.. - Cantara Community Wiki
+# LT2 Why my company went broke by its own success - a web2.0 start-up story..
 
 **The problem, you want both but can have only one:**
 

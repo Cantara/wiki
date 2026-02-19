@@ -1,4 +1,4 @@
-# Bridging the gap between developers and architects - Cantara Community Wiki
+# Bridging the gap between developers and architects
 
 ###### Technology related policies
 

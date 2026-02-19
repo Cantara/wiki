@@ -1,4 +1,4 @@
-# Top-3 list of problems an enterprise architect generates - Cantara Community Wiki
+# Top-3 list of problems an enterprise architect generates
 
 #### 1. N-layers of indirection and generic objects
 

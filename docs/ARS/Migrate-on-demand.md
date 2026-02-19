@@ -1,4 +1,4 @@
-# Migrate on demand - Cantara Community Wiki
+# Migrate on demand
 
 ## Problem/Context
 

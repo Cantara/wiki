@@ -1,4 +1,4 @@
-# Synchronized database - Cantara Community Wiki
+# Synchronized database
 
 |  |  |
 | --- | --- |

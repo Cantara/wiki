@@ -1,4 +1,4 @@
-# Geek Safari 2009 - Cantara Community Wiki
+# Geek Safari 2009
 
 ### Konsept
 

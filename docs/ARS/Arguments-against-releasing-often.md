@@ -1,4 +1,4 @@
-# Arguments against releasing often - Cantara Community Wiki
+# Arguments against releasing often
 
 ## The organization does not want frequent releases
 
