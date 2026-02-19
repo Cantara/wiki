@@ -1,3 +1,11 @@
+---
+tags:
+  - soa
+  - web-services
+  - rest
+  - enterprise
+---
+
 # Open Web Services & SOA
 
 A complete end-to-end SOA strategy to ensure that customers can get return on investment (ROI). The result is a no-nonsense SOA with clear directions that

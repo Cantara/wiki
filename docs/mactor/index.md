@@ -1,13 +1,7 @@
-# MActor Home
+# MActor — Integration Test Automation
 
-This is the home of the Mactor space.
+MActor is an extensible tool for functional integration testing. It can facilitate tests
+across a range of integration technologies (support for JMS, XML over HTTP, SOAP, TIBCO Rv,
+IBM MQ series and file-shares are currently supplied with the tool).
 
-> MActor is an extensible tool for functional integration testing. It can facilitate tests a range of integration technologies (support for JMS, XML over HTTP, SOAP, TIBCO Rv, IBM MQ series and file-shares are currently supplied with the tool)
-
-See [MActor at Sourceforge](http://mactor.sourceforge.net/)
-
-- [MActor Downloads](/web/20230606052252/https://wiki.cantara.no/display/mactor/MActor+Downloads "MActor Downloads")
-
-|  |  |  |
-| --- | --- | --- |
-| Recently Updated   - [mactor-rpm-2.1-1-SNAPSHOT.rpm](/web/20230606052252/https://wiki.cantara.no/pages/viewpageattachments.action?pageId=393507&highlight=mactor-rpm-2.1-1-SNAPSHOT.rpm#MActor+Downloads-attachment-mactor-rpm-2.1-1-SNAPSHOT.rpm) attached by [Erik Drolshammer](/web/20230606052252/https://wiki.cantara.no/display/~sherriff)  Mar 05, 2009 - [MActor Downloads](/web/20230606052252/https://wiki.cantara.no/display/mactor/MActor+Downloads "Open Source: MActor") updated by [Erik Drolshammer](/web/20230606052252/https://wiki.cantara.no/display/~sherriff)  ([view change](/web/20230606052252/https://wiki.cantara.no/pages/diffpagesbyversion.action?pageId=393507&selectedPageVersions=3&selectedPageVersions=2))  Feb 25, 2009 - [MActor Home](/web/20230606052252/https://wiki.cantara.no/display/mactor/MActor+Home "Open Source: MActor") updated by [Erik Drolshammer](/web/20230606052252/https://wiki.cantara.no/display/~sherriff)  ([view change](/web/20230606052252/https://wiki.cantara.no/pages/diffpagesbyversion.action?pageId=393345&selectedPageVersions=6&selectedPageVersions=5))  Feb 25, 2009 - [Open Source: MActor](/web/20230606052252/https://wiki.cantara.no/display/mactor "Open Source: MActor") updated by [Thor Henning Hetland](/web/20230606052252/https://wiki.cantara.no/display/~totto)  ([view change](/web/20230606052252/https://wiki.cantara.no/pages/diffpagesbyversion.action?pageId=393344&selectedPageVersions=4&selectedPageVersions=3))  Feb 25, 2009 - [MActor Home](/web/20230606052252/https://wiki.cantara.no/display/mactor/MActor+Home "Open Source: MActor") updated by [Lars Ivar Almli](/web/20230606052252/https://wiki.cantara.no/display/~lars.almli)  ([view change](/web/20230606052252/https://wiki.cantara.no/pages/diffpagesbyversion.action?pageId=393345&selectedPageVersions=5&selectedPageVersions=4))  Feb 24, 2009 - [MActor Home](/web/20230606052252/https://wiki.cantara.no/display/mactor/MActor+Home "Open Source: MActor") updated by [Thor Henning Hetland](/web/20230606052252/https://wiki.cantara.no/display/~totto)  ([view change](/web/20230606052252/https://wiki.cantara.no/pages/diffpagesbyversion.action?pageId=393345&selectedPageVersions=4&selectedPageVersions=3))  Feb 24, 2009 - [Open Source: MActor](/web/20230606052252/https://wiki.cantara.no/display/mactor "Open Source: MActor") updated by [Erik Drolshammer](/web/20230606052252/https://wiki.cantara.no/display/~sherriff)  ([view change](/web/20230606052252/https://wiki.cantara.no/pages/diffpagesbyversion.action?pageId=393344&selectedPageVersions=2&selectedPageVersions=1))  Feb 24, 2009 |  | Navigate space |
+See [MActor at Sourceforge](http://mactor.sourceforge.net/).

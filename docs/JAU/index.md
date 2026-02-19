@@ -1,3 +1,11 @@
+---
+tags:
+  - jau
+  - configservice
+  - deployment
+  - configuration
+---
+
 # JAU
 
 !!! tip "GitHub"

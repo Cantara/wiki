@@ -1,4 +1,4 @@
-# Home
+# HLT — HTTPLoadTest Baseline
 
 HTTPLoadTest-Baseline is simple starting point for building LoadTests to be used for continuous deploy/continuous production QA pipelines. Baseline projects are meant to be a git clone starting point for for software which are expected to grow and flourish in different ways which are not easy to parameterize in early stages. It should be usable for quite a few settings, but is expected to grow in different directions. We would love to receive pull-request for enhancements both on current codebase and extensibility features.
 

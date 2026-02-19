@@ -1,4 +1,4 @@
-# LDC
+# LDC — LDAP Client
 
 - [2011-08-05 Workshop](2011-08-05-Workshop.md)
 - [Apache DS-notater fra ICS](Apache-DS-notater-fra-ICS.md)

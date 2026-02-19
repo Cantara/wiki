@@ -1,3 +1,10 @@
+---
+tags:
+  - blitz
+  - javaspaces
+  - jini
+---
+
 # Blitz
 
 !!! tip "GitHub"

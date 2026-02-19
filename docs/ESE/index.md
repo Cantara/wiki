@@ -1,4 +1,4 @@
-# ESE
+# ESE — Evolving Service Adapter
 
 Key takeaways
     * Keep the responsibillity of mapping and executing close, to ensure a profit-center strategy (not a cost center)

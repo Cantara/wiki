@@ -1,3 +1,11 @@
+---
+tags:
+  - acs
+  - competence
+  - cv
+  - hr
+---
+
 # Home
 
 # ACS - Awesome Competence System

@@ -1,3 +1,10 @@
+---
+tags:
+  - architecture
+  - ddd
+  - microservices
+---
+
 # Software Architecture
 
 Portal and home for "loose" content related to software architecture.

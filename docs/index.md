@@ -1,90 +1,76 @@
 # Cantara Wiki Archive
 
-Archived from wiki.cantara.no (last captured 2022).
-This archive is supplemented with live GitHub repository data from the [Cantara GitHub org](https://github.com/Cantara).
+Archived from [wiki.cantara.no](https://wiki.cantara.no) (2008-2022).
+Cantara is a Norwegian open source community focused on software development,
+knowledge sharing, and open source projects.
 
-## GitHub Repositories
+## Projects
 
-The Cantara organisation hosts 150+ open-source repositories on GitHub.
-Browse them in the **[GitHub Repo Index](repos/index.md)**, grouped by project family
-(Whydah IAM/SSO, ConfigService, Messi, JAU, Xorcery, and more).
+<div class="grid cards" markdown>
+
+-   **[Whydah IAM/SSO](whydah/index.md)**
+
+    Identity Provider and Single Sign-On platform.
+    OAuth2, OpenID Connect, microservices architecture.
+
+    [:octicons-arrow-right-24: Wiki](whydah/index.md) &nbsp; [GitHub](repos/index.md#whydah-iamsso)
+
+-   **[Java Auto-Update & ConfigService](JAU/index.md)**
+
+    Automatic application updates and centralised runtime configuration.
+
+    [:octicons-arrow-right-24: Wiki](JAU/index.md) &nbsp; [GitHub](repos/index.md#java-auto-update)
+
+-   **[Blitz JavaSpaces](blitz/index.md)**
+
+    Open source JavaSpaces and Jini toolkit — patterns, services, tools.
+
+    [:octicons-arrow-right-24: Wiki](blitz/index.md) &nbsp; [GitHub](repos/index.md#blitz)
+
+-   **[ACS Competence System](ACS/index.md)**
+
+    Employee skill, competency, and CV management platform.
+
+    [:octicons-arrow-right-24: Wiki](ACS/index.md) &nbsp; [GitHub](repos/index.md#other)
+
+</div>
+
+[All Projects &rarr;](projects/index.md){ .md-button }
+[GitHub Repositories (143 repos) &rarr;](repos/index.md){ .md-button .md-button--primary }
 
 ---
 
-## Spaces
+## Knowledge Base
 
-- [ACS](ACS/index.md)
-- [ARS](ARS/index.md)
-- [About](About/index.md)
-- [BCT](BCT/index.md)
-- [BFA](BFA/index.md)
-- [CIA](CIA/index.md)
-- [CLSC](CLSC/index.md)
-- [Enterprise Architecture](EA/index.md)
-- [EDR](EDR/index.md)
-- [EDRMDS](EDRMDS/index.md)
-- [ESE](ESE/index.md)
-- [FRONT](FRONT/index.md)
-- [HLT](HLT/index.md)
-- [IASA](IASA/index.md)
-- [JAU](JAU/index.md)
-- [Knowledge Management](KM/index.md)
-- [LDC](LDC/index.md)
-- [MCC11](MCC11/index.md)
-- [MTSG](MTSG/index.md)
-- [ORG](ORG/index.md)
-- [OSS](OSS/index.md)
-- [Open Web Services & SOA](OWSOA/index.md)
-- [Open Data](OpenData/index.md)
-- [Platform Engineering](PE/index.md)
-- [PVC](PVC/index.md)
-- [TANK](TANK/index.md)
-- [XPM](XPM/index.md)
-- [aa](aa/index.md)
-- [Software Architecture](architecture/index.md)
-- [Blitz](blitz/index.md)
-- [Agile Development](dev/index.md)
-- [DevHouse](devhouse/index.md)
-- [drone](drone/index.md)
-- [IoT](iot/index.md)
-- [mactor](mactor/index.md)
-- [noops](noops/index.md)
-- [pe](pe/index.md)
-- [puben](puben/index.md)
-- [security](security/index.md)
-- [Smidig](smidig/index.md)
-- [smidigtonull](smidigtonull/index.md)
-- [sysadm](sysadm/index.md)
-- [Whydah (IAM/SSO)](whydah/index.md)
-- [~andersand](~andersand/index.md)
-- [~andersb](~andersb/index.md)
-- [~anton@antonbabenko.com](~anton@antonbabenko.com/index.md)
-- [~awiik](~awiik/index.md)
-- [User: baard.lind](~baard.lind/index.md)
-- [User: dagb](~dagb/index.md)
-- [~gatepoet](~gatepoet/index.md)
-- [~halrik](~halrik/index.md)
-- [~hansogj](~hansogj/index.md)
-- [~helge](~helge/index.md)
-- [~hkokko](~hkokko/index.md)
-- [~ho.leon@gmail.com](~ho.leon@gmail.com/index.md)
-- [~jek@webstep.no](~jek@webstep.no/index.md)
-- [~jhannes](~jhannes/index.md)
-- [~lacostej](~lacostej/index.md)
-- [~lazee](~lazee/index.md)
-- [~leif@auke.no](~leif@auke.no/index.md)
-- [~leifh@conduct.no](~leifh@conduct.no/index.md)
-- [~maurtvedt](~maurtvedt/index.md)
-- [~niklas@leanway.no](~niklas@leanway.no/index.md)
-- [~ovejord@hotmail.com](~ovejord@hotmail.com/index.md)
-- [~oyvindaa](~oyvindaa/index.md)
-- [~paal.levang@synaptic.no](~paal.levang@synaptic.no/index.md)
-- [~per.spilling](~per.spilling/index.md)
-- [~perchrh](~perchrh/index.md)
-- [~sharebear](~sharebear/index.md)
-- [~sherriff](~sherriff/index.md)
-- [~steinim](~steinim/index.md)
-- [~terje.orvedal@webstep.no](~terje.orvedal@webstep.no/index.md)
-- [~tobiast](~tobiast/index.md)
-- [~tor.martin.saur@gmail.com](~tor.martin.saur@gmail.com/index.md)
-- [User: totto](~totto/index.md)
+900+ articles on software architecture, agile development, and engineering practices.
+
+| Section | Articles | Topics |
+| --- | --- | --- |
+| [Agile Development](dev/index.md) | 478 | Testing, CI/CD, Maven, deployment, security |
+| [Open Web Services & SOA](OWSOA/index.md) | 154 | Service categorisation, enterprise integration |
+| [Software Architecture](architecture/index.md) | 125 | DDD, microservices, patterns |
+| [Enterprise Architecture](EA/index.md) | 82 | EA frameworks and GeekCruise discussions |
+| [Agile Release Strategies](ARS/index.md) | 80 | Release patterns, continuous deployment |
+| [Knowledge Management](KM/index.md) | 74 | KM practices |
+
+[Full Knowledge Base &rarr;](knowledge/index.md){ .md-button }
+
+---
+
+## Community & Events
+
+Conferences, geek cruises, code camps and meetups since 2008.
+
+- **[Platform Engineering](PE/index.md)** — GeekCruises, CiA conferences, community activities (211 pages)
+- **[IASA Oslo](IASA/index.md)** — Oslo Software Architecture chapter
+- **[Smidig Conference](smidig/index.md)** — Norwegian agile conference notes
+- **[About Cantara](About/index.md)** — Mission, rules, and history
+
+[All Community & Events &rarr;](community/index.md){ .md-button }
+
+---
+
+!!! info "About this archive"
+    This site preserves 2,140+ pages from the original Confluence wiki (last crawled 2022),
+    supplemented with live GitHub data updated weekly.
+    [Personal user spaces](archive/index.md) and thin historical content are in the Archive section.

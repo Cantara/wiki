@@ -1,3 +1,10 @@
+---
+tags:
+  - architecture
+  - community
+  - iasa
+---
+
 # IASA
 
 Dette er Oslo Software Architecture sin wiki

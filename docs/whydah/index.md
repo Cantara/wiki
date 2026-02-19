@@ -1,3 +1,12 @@
+---
+tags:
+  - whydah
+  - iam
+  - sso
+  - oauth2
+  - identity
+---
+
 # Whydah Home
 
 !!! tip "GitHub"

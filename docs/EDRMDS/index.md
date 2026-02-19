@@ -1,4 +1,4 @@
-# EDRMDS
+# EDRMDS — Enterprise Domain Repository Master Data Service
 
 a less is more approach to SOA Master Data Management
 

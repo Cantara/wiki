@@ -1,4 +1,4 @@
-# MTSG
+# MTSG — Mean Time Since Green
 
 - [Mean Time Since Green Game - Home](Mean-Time-Since-Green-Game-Home.md)
 - [Overview](Overview.md)

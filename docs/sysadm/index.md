@@ -1,3 +1,10 @@
+---
+tags:
+  - sysadmin
+  - operations
+  - infrastructure
+---
+
 # Home
 
 #### Enterprise Maven Infrastructure

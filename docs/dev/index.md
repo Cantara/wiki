@@ -1,3 +1,12 @@
+---
+tags:
+  - agile
+  - development
+  - ci-cd
+  - testing
+  - maven
+---
+
 # Agile Development
 
 Agile Software Development - Sound software engineering practices put back into Agile Software Development.

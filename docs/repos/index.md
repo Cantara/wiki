@@ -1,3 +1,9 @@
+---
+tags:
+  - github
+  - repositories
+---
+
 # GitHub Repository Index
 
 All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 143 repositories total.

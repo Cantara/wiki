@@ -1,3 +1,9 @@
+---
+tags:
+  - enterprise-architecture
+  - ea
+---
+
 # Enterprise Architecture
 
 The community committed to developing non-silo solutions :)
