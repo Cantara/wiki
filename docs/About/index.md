@@ -1,5 +1,7 @@
 # About
 
+This Wiki is an open wiki focused on creating an open community around sharing knowledge in the area of software development. All public documentation of this Wiki under the Creative Commons Attribution license.
+
 - [.bookmarks](bookmarks.md)
 - [About Cantara](About-Cantara.md)
 - [About This Wiki Blog from May, 2021](2021_05_.md)

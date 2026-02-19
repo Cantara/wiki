@@ -30,7 +30,7 @@
 **TODO** Translate the above.
 **TODO** figure 
 
-**Diagram: test_timeline**
+![test_timeline](../images/gliffy/16515331-test_timeline.png)
 
 1-n sprints -> a milestone 
 1-m milestones -> a delivery 

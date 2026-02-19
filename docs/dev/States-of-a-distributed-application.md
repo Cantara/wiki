@@ -5,7 +5,7 @@
 ## Viewpoint: System Administrator 
 This a **simplified** state diagram of what we want. A _Failed_ state should probably be added and ideally it should also be possible to recover and go back to _Running_ or at least the _Booted_ state. 
 
-**Diagram: Statediagram_OK_simple**
+![Statediagram_OK_simple](../images/gliffy/16515234-Statediagram_OK_simple.png)
 
 ## Viewpoint: A common implementation 
 

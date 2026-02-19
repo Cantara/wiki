@@ -1,5 +1,7 @@
 # IASA
 
+Dette er Oslo Software Architecture sin wiki
+
 - [2011-03-02 - HTML5 - muligheter og konsekvenser fra et arkitekturperspektiv](2011-03-02-HTML5-muligheter-og-konsekvenser-fra-et-arkitekturperspektiv.md)
 - [2011-04-11 - Architecting Wicked Problems](2011-04-11-Architecting-Wicked-Problems.md)
 - [2011-05-05 - Architecture Support for Testing](2011-05-05-Architecture-Support-for-Testing.md)

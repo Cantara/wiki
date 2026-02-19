@@ -1,5 +1,7 @@
 # Software Architecture
 
+Portal and home for "loose" content related to software architecture.
+
 - [A software architect is a part-time Archeologist](A-software-architect-is-a-part-time-Archeologist.md)
 - [Above all, do no harm](Above-all-do-no-harm.md)
 - [Aggregate](Aggregate.md)

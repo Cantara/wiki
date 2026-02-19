@@ -1,5 +1,11 @@
 # Blitz
 
+The purpose of the Blitz project is to further the use of JavaSpaces and JINITM through the provision of essential resources such as:
+
+1. Pattern library - these patterns should be available in both code and document forms and will provide users with solutions to common (and hopefully more advanced) issues.
+2. Openly available implementations of various services, tools and frameworks - developed and refined over time, based on the experience of people using them in anger.
+3. Deployment examples - reference information concerning the ways in which JavaSpaces and JINI technologies have been applied in the real world. These will be useful to both architects and administrators.
+
 - [1. Installation Choices](1-Installation-Choices.md)
 - [2. Getting Started](2-Getting-Started.md)
 - [3. Running Blitz](3-Running-Blitz.md)

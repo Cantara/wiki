@@ -9,7 +9,7 @@ H3. Intro
 - HTML 5 
 
 Constraints that will affect the way you can scale: 
-**Diagram: constrants_scaling**
+![constrants_scaling](../images/gliffy/3867314-constrants_scaling.png)
 
 There are a lot of ways that you can scale. In order to reduce the problem we used a case. 
 Order Matching.  

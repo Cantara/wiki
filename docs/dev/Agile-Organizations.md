@@ -30,9 +30,9 @@ Agile organizations measure and reward software development that returns long-te
 - Firewall blocks social web sites, webmail, etc
 - ...
 
-**Diagram: featureandquality**
+![featureandquality](../images/gliffy/16515476-featureandquality.png)
 
-**Diagram: eggglasstimer**
+![eggglasstimer](../images/gliffy/16515476-eggglasstimer.png)
 
 ### Resources
 

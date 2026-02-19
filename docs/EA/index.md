@@ -1,5 +1,7 @@
 # Enterprise Architecture
 
+The community committed to developing non-silo solutions :)
+
 - [ATaCAAS Results](ATaCAAS-Results.md)
 - [Activities](Activities.md)
 - [Anders Norås](Anders-Norås.md)

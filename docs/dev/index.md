@@ -1,5 +1,9 @@
 # Agile Development
 
+Agile Software Development - Sound software engineering practices put back into Agile Software Development.
+
+The Agile Software Development initiative aims to pull agile development to the next level. By collecting best practices, develop new solutions where the existing ones do not suffice, and put this together in a suite that allows us to create better software under realistic conditions.
+
 - [4 plus 1 View Model](4-plus-1-View-Model.md)
 - [A brief history lesion on why we have got HTML5.](A-brief-history-lesion-on-why-we-have-got-HTML5.md)
 - [A custom performance testing framework](A-custom-performance-testing-framework.md)

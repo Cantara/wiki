@@ -1,5 +1,11 @@
 # Open Web Services & SOA
 
+A complete end-to-end SOA strategy to ensure that customers can get return on investment (ROI). The result is a no-nonsense SOA with clear directions that
+• puts IT and business on the same path
+• ensures the evolvability of services
+• ensures continuous creation of business value
+This workspace is committed to improving this strategy.
+
 - [A software architect is a part-time Archeologist](A-software-architect-is-a-part-time-Archeologist.md)
 - [A2A](A2A.md)
 - [ACS](ACS.md)

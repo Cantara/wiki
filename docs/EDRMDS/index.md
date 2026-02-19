@@ -1,5 +1,7 @@
 # EDRMDS
 
+a less is more approach to SOA Master Data Management
+
 - [EDR MDS  is too complex..](EDR-MDS-is-too-complex.md)
 - [EDR-MDS FAQ](EDR-MDS-FAQ.md)
 - [EDR-MDS a SOA Master Data Management Service](EDR-MDS-a-SOA-Master-Data-Management-Service.md)

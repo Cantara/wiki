@@ -1,5 +1,7 @@
 # Platform Engineering
 
+Cantara skal fasilitiere et bredt spekter av kompetansebyggende aktiviteter i samarbeid med relevante aktører innenfor offentlig sektor, akademia, IT-bransjen og brukerorganisasjoner for å styrke norsk programvareutvikling.
+
 - [About Cantara Champions](About-Cantara-Champions.md)
 - [Abstract Åpne data – en sky av muligheter](Abstract-Åpne-data-en-sky-av-muligheter.md)
 - [Activities](Activities.md)

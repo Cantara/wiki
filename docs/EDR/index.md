@@ -1,5 +1,8 @@
 # EDR
 
+We need a standardized way to handle multi-source domain objects, and to extend the
+Domain repository to handle the real-world CRUD of today's enterprises.
+
 - [Data Mapping Extension](Data-Mapping-Extension.md)
 - [Data Mapping in EDR](Data-Mapping-in-EDR.md)
 - [EDR - Moderator](EDR-Moderator.md)

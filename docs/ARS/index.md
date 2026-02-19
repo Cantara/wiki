@@ -1,5 +1,7 @@
 # ARS
 
+This is the home of the Agile Release Strategies space. This space was initiated by Niklas Bjørnerstedt and Johannes Brodwall. They plan for the information here to be structured into one or more publications.
+
 - ["It won't work here"](It-won-t-work-here.md)
 - [Accept transition costs](Accept-transition-costs.md)
 - [Agile Release Strategies Home](Agile-Release-Strategies-Home.md)
