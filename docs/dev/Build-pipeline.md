@@ -1,3 +1,3 @@
 # Build pipeline
 
-*[Diagram: build\_pipeline]*
+*Diagram: build\_pipeline*

@@ -27,7 +27,7 @@ Different actors are involved: Developer, CI server, tester
 
 #### Example: concrete timeline
 
-*[Diagram: test.phase.timeline]*
+*Diagram: test.phase.timeline*
 
 **Within each sprint**
 

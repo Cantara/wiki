@@ -58,7 +58,7 @@ Feilet med følgende
 
 > ⚠️ ERR_268 Cannot find a partition for dc=icspartner,dc=com
 
-Hele [retrade:loggen er vedlagt](icspartner_com-ldif-log.md) og første feil er:
+Hele [retrade:loggen er vedlagt](18940328-icspartner_com.ldif.log) og første feil er:
 
 ```
 #!RESULT ERROR

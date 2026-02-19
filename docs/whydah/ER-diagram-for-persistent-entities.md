@@ -5,4 +5,4 @@
 A UserAggregate contains the *UserIdentity* (from LDAP) and a list of *UserApplicationRoleEntry*'s.  
 UserApplicationRoleEntry: applicationId, orgName, roleId, userId, roleValue
 
-*[Diagram: er-digram]*
+*Diagram: er-digram*

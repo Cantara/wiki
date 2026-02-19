@@ -2,7 +2,7 @@
 
 Se også [Feilhåndtering BM](Feilhåndtering-BM.md).
 
-**[Diagram: exceptions](../Diagram/exceptions.md)**
+**Diagram: exceptions**
 
 ## Oversikt over exceptions i Asko netthandel (AN og NG Flyt)
 

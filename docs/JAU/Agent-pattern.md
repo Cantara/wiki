@@ -40,7 +40,7 @@ The diagram shows how the agent integrates with your system and four examples of
 - Agent --> SQL database
 - Agent expose a web server which another on-premise application can call.
 
-*[Diagram: agent-architecture]*
+*Diagram: agent-architecture*
 
 ### Rationale
 

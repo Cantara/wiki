@@ -29,7 +29,7 @@ from java.lang.Object.
 
 ## Session Two
 
-**[Diagram: architectural](../Diagram/architectural.md)**
+**Diagram: architectural**
 
 It's important to create a mapping from high level business models to software building blocks.
 

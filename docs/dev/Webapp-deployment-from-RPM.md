@@ -7,15 +7,15 @@
 #### Jetty configuration 
 
 xml-file examples
-[{}](jetty-xml.md) - The main configuration file where the jetty server properties are set.
-[{}](jetty-logging-xml.md) - Configure the logging.
-[{}](myWebapp-xml.md) - Individual configuration for each application deployed on the server. Is only read when using the ContextDeployer.
+[{}](16515394-jetty.xml) - The main configuration file where the jetty server properties are set.
+[{}](16515394-jetty-logging.xml) - Configure the logging.
+[{}](16515394-myWebapp.xml) - Individual configuration for each application deployed on the server. Is only read when using the ContextDeployer.
 
 contexts 
 - To be able to specify individual configuration parameters for the different webapps deployed on the server use the {}.
 - The {} configuration in {} specifies where to look for application context configurations (defaults to {} folder)
 - By default the ContextPath of a deployed WAR equals the name of the war file. This is not desirable since the war file can (and will) change its name and we do not want to change the contextpath of the application. 
-- To statically set the context path create a configuration file in the contexts folder and set the desired path. See the example file ([myWebapp.xml](myWebApp-xml.md)).
+- To statically set the context path create a configuration file in the contexts folder and set the desired path. See the example file ([myWebapp.xml](16515394-myWebapp.xml)).
 
 logging 
 

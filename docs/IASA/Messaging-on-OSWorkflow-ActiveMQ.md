@@ -1,6 +1,6 @@
 # Messaging on OSWorkflow - ActiveMQ
 
-**[Diagram: Messaging](../Diagram/Messaging.md)**
+**Diagram: Messaging**
 
 ### Challenges
 - Status Changed

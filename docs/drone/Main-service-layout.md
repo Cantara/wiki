@@ -4,7 +4,7 @@
 
 ##### Figure 
 
-**[Diagram: auke](../Diagram/auke.md)**
+**Diagram: auke**
 
 ##### Processes 
 

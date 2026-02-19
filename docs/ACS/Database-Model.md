@@ -2,4 +2,4 @@
 
 ### Database Model
 
-**[Diagram: CVAPP](../Diagram/CVAPP.md)**
+**Diagram: CVAPP**

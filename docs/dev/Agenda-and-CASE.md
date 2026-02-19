@@ -1,3 +1,3 @@
 # Agenda and CASE
 
-**[Diagram: HTML5Case](../Diagram/HTML5Case.md)**
+![HTML5Case](../images/gliffy/15794711-HTML5Case.png)

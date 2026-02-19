@@ -6,7 +6,7 @@ Many issue life-cycles can be used. As a general rule start with a few, well-def
 Statuses are modelled as a state machine in Jira and it is possible to have different state machines for different projects. (Possibly also for different issue types within a project?) 
 Note that management of these state machines is cumbersome, so try to limit the number of state machines and the complexity of each one. 
 
-**[Diagram: issue-workflow](../Diagram/issue-workflow.md)**
+![issue-workflow](../images/gliffy/29491730-issue-workflow.png)
 
 A suggested starting point
 

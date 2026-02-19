@@ -1,3 +1,3 @@
 # Java deployment unit
 
-*[Diagram: java deployment unit]*
+*Diagram: java deployment unit*

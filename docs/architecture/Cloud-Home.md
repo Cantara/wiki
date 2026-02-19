@@ -38,7 +38,7 @@ Each deployment model instance has one of two types: internal or external. Inter
 
 #### Cloud definitions and Categorisation
 
-**[Diagram: CloudCategories](../Diagram/CloudCategories.md)**
+**Diagram: CloudCategories**
 
 - Infrastructure as a Service (IaaS)
 - Platform as a Service (PaaS)

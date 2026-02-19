@@ -1,3 +1,3 @@
 # Agent pattern diagram
 
-*[Diagram: agent-architecture]*
+*Diagram: agent-architecture*

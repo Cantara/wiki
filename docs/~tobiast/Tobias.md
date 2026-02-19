@@ -1,4 +1,4 @@
 # Tobias
 
-**[Diagram: NFR](../Diagram/NFR.md)**
+**Diagram: NFR**
 Tobias tester plugin

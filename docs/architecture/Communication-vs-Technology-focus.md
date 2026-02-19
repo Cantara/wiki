@@ -12,4 +12,4 @@ Put the different roles into the diagram to give a visual feeling for how the re
 
 PS: A VENN-diagram is worthless, since the roles overlap too much and are too imprecisely defined. 
 
-**[Diagram: communication_vs_technology_focus](../Diagram/communication_vs_technology_focus.md)**
+**Diagram: communication_vs_technology_focus**

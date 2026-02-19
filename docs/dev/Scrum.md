@@ -14,7 +14,7 @@ The best thing about Scrum is that it is an easy sell. It's so easy to understan
 
 We have made a 1 hour intro on Scrum. Feel free to use it:
 
-[^scrum-english.ppt](scrum-english-ppt.md)
+[^scrum-english.ppt](16515471-scrum-english.ppt)
 
 ### Certified ScrumMaster
 

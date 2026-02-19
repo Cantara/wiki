@@ -13,7 +13,7 @@ Is this deployment architecture possible with Neo4j?
 Can both java nodes write to different Neo4j databases using the native Java api? 
 "A slave will handle writes by synchronizing with the master to preserve consistency. " 
 
-**[Diagram: neo4j](../Diagram/neo4j.md)**
+**Diagram: neo4j**
 
 #### Standalone Neo4j cluster
 
@@ -21,13 +21,13 @@ Can both java nodes write to different Neo4j databases using the native Java api
     - Is Spring datagraph useful when using the REST API?
 - A batch job (implemented in any language) reads from a standalone Neo4j server which expose a REST interface and updates a relational database (e.g. Oracle, MySQL, PostgreSQL) for reporting purposes. 
 
-**[Diagram: neo4j_cluster](../Diagram/neo4j_cluster.md)**
+**Diagram: neo4j_cluster**
 
 #### Event sourcing
 
 All changes to the domain model must be modeled as events. This may or may not be suited for your context. 
 
-**[Diagram: neo4j_eventsourcing](../Diagram/neo4j_eventsourcing.md)**
+**Diagram: neo4j_eventsourcing**
 
 1. Eventlogg og Rapportering i RDBMS
 1. Nåtilstand i Neo4j

@@ -14,4 +14,4 @@ No system or context is identical, but there are many decisions to make and expe
 
 ###### Architecture sketch 
 
-**[Diagram: dataCollection](../Diagram/dataCollection.md)**
+![dataCollection](../images/gliffy/38437665-dataCollection.png)

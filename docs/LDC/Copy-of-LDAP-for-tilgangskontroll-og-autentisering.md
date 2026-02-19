@@ -28,12 +28,12 @@ Denne seksjonen lister de ulike kravene som er identifisert
 1. Retrades kundeservice skal kunne jobbe på vegne av alle kunder (f.eks at noen i kundeservice må inn å rydde opp for en ting som er lagt inn av en kunde)
 
 ## Konseptuell løsning: Hierarki
-**[Diagram: Acme](../Diagram/Acme.md)**
+**Diagram: Acme**
 
 ## Konseptuell løsning: Vendointegrasjon
 For å autentisere brukere mot Vendo (håndtering av auksjoner), så må man i Retradeapplikasjonen gjøre mapping fra den innloggede brukeren til organisasjonen som er registrert hos Vendo.
 
-**[Diagram: Vendointegrasjon](../Diagram/Vendointegrasjon.md)**
+**Diagram: Vendointegrasjon**
 
 # Forslag til LDAP-struktur
 For å dekke kravene over er det laget en eksempelstruktur som beskrives her, se figurer under.
@@ -53,14 +53,14 @@ Merk: rettigheter, organisasjonsroller og applikasjonsroller er kun forslag; de 
 
 ### Illustrasjon: Overordnet
 Figuren under viser struktur og noen av referansene
-**[Diagram: ICSPartner](../Diagram/ICSPartner.md)**
+**Diagram: ICSPartner**
 
 Figuren under viser utsnitt tatt fra Apache Directory Studio.
 ![icspartner_com_ldap.png](24183726-icspartner_com_ldap.png)
 
 ### Illustrasjon: Hvordan koble organisasjonsenheter, land og vendo-id
 For å knytte en organisajonsenhet til et land og eventuelt en vendo-id så gjøres det via en egendefinert auxillary objectClass kalt icspartnerOrganizationalInfo.
-**[Diagram: ICSPartner](../Diagram/ICSPartner.md)**
+**Diagram: ICSPartner**
 
 ### Egendefinert LDAP-skjema
 Det er opprettet et eget LDAP-skjema for ICS-partner for å håndtere noen av kravene. Dette skjemaet må importeres til Apache DS før selve LDIF-filen kan importeres.
@@ -86,4 +86,4 @@ Det foreslås tre kategorier:
 
 Hensikten med å klassifisere applikasjonene er å kunne håndtere de ulike behovstypene på en fornuftig måte.
 
-**[Diagram: LDAP](../Diagram/LDAP.md)**
+**Diagram: LDAP**

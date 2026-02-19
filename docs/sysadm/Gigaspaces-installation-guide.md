@@ -10,8 +10,8 @@ Start gigaspaces at boot and deploy spaces using upstart on Ubuntu 14.10.
 1. adduser space 
 1. chown space:space /opt/gigaspaces-xap-premium-10.0.1-ga -R 
 1. Add upstart conf files to /etc/init/ to start Gigaspaces and deploy spaces 
-    1. cp [^gigaspaces.conf](gigaspaces-conf.md) /etc/init/ 
-    1. cp [^gsspaces.conf](gsspaces-conf.md) /etc/init/
+    1. cp [^gigaspaces.conf](41878372-gigaspaces.conf) /etc/init/ 
+    1. cp [^gsspaces.conf](41878372-gsspaces.conf) /etc/init/
 
 Note! 
 

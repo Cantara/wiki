@@ -30,4 +30,4 @@ Vi har vurdert GWT, men tidligere erfaringer med lange byggetider og mye arbeid 
 
 # Oppsummering grafisk
 
-**[Diagram: Teknologistack](../Diagram/Teknologistack.md)**
+**Diagram: Teknologistack**

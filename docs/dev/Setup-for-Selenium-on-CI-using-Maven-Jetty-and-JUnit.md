@@ -1,6 +1,6 @@
 # Setup for Selenium on CI using Maven, Jetty and JUnit
 
-**[Diagram: CiSeleniumSetup](../Diagram/CiSeleniumSetup.md)**
+**Diagram: CiSeleniumSetup**
 
 Note!The setup is version dependent! (not for JUnit) 
 

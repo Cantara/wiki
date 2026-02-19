@@ -54,7 +54,7 @@ This can be achieved with two different approaches:
     - More flexible than the static approach, because the servlet can be used to implement a configuration scheme and simplify changing properties.  
     - See [Maven Webstart - JNLP DownloadServlet](Maven-Webstart-JNLP-DownloadServlet.md)
 
-**[Diagram: Webstart](../Diagram/Webstart.md)**
+**Diagram: Webstart**
 
 ## Resources 
 

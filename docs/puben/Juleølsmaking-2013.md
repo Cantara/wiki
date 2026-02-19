@@ -6,7 +6,7 @@ Tradisjonen tro, så er det på nytt klart for årets juleølsmaking, som i år 
 
 | Tid | Lørdag 9.11 kl. 18:00 -> |
 | Sted | [Morgedalsvegen 41 | https://maps.google.com/maps?q=Morgedalsvegen+41,+Ullern,+0378+Oslo,+Norway&hl=en&ll=59.939466,10.671458&spn=0.002319,0.007398&client=ubuntu&channel=fs&oe=utf-8&geocode=FYiakgMdZ9WiAA&hnear=Morgedalsvegen+41,+Ullern,+0378+Oslo,+Norway&t=h&z=18], 2.etg. leil.39 (hos Erik Drolshammer) |
-| Forberedelse | Kjøpe en av hver av det **norske** juleølet **på polet** ([^Juleøl 2013.xlsx](Juleøl-2013-xlsx.md)) (Typisk 20-25 stk) :) |
+| Forberedelse | Kjøpe en av hver av det **norske** juleølet **på polet** ([^Juleøl 2013.xlsx](36897787-Juleøl-2013.xlsx)) (Typisk 20-25 stk) :) |
 
 ### Stemmeregler
 

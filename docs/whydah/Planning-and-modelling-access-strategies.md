@@ -13,7 +13,7 @@ We suggest creating a detailed plan on how you want to aproach this. Here is a s
 
 Whydah is fundamentally agnostic to how you map your roles and identities.
 You may do it any way that gives meaning. The fundamental structure in whydah is illustrated below.
-**[Diagram: WhydahStructure](../Diagram/WhydahStructure.md)**
+![WhydahStructure](../images/gliffy/38437012-WhydahStructure.png)
 #### Examples
 ###### User
 | User field | Sample data | Comment |

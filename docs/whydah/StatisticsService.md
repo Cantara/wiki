@@ -12,7 +12,7 @@
 
 # Architecture
 
-*[Diagram: Whydah Statistics Service Architecture]*
+*Diagram: Whydah Statistics Service Architecture*
 
 ---
 

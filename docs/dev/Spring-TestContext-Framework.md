@@ -8,7 +8,7 @@ http://static.springframework.org/spring/docs/2.5.x/changelog.txt
 
 http://tfnico.blogspot.com/2007/09/spring-textcontext-framework.html
 
-A quick powerpoint presenting the framework is attached here: [^spring-testcontext-framework.ppt](spring-testcontext-framework-ppt.md)
+A quick powerpoint presenting the framework is attached here: [^spring-testcontext-framework.ppt](16515350-spring-testcontext-framework.ppt)
 
 Some of the challenges with the testing categories were introduced here:
 

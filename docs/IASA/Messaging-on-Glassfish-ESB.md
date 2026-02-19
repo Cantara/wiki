@@ -1,6 +1,6 @@
 # Messaging on Glassfish ESB.
 
-**[Diagram: Messaging](../Diagram/Messaging.md)**
+**Diagram: Messaging**
 
 ### Challenges
 - status

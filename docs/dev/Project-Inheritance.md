@@ -8,7 +8,7 @@ There will always be a trade-off between the [DRY principle](http://en.wikipedia
 
 We will now explain one rather sophisticated setup that evolved in a Norwegian company with more than 50 Maven projects.   
 
-**[Diagram: project_inheritance](../Diagram/project_inheritance.md)** 
+**Diagram: project_inheritance** 
 
 #### POM descriptions 
 

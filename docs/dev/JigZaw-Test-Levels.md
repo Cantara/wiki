@@ -27,5 +27,5 @@ The [V-model](http://en.wikipedia.org/wiki/V-Model_(software_development)) group
 
 **[Non-functional tests](http://en.wikipedia.org/wiki/Non-functional_tests)**: E.g. performance, robustness
 
-**[Diagram: test.aspects](../Diagram/test-aspects.md)**
+**Diagram: test.aspects**
 **TODO**: Will probably need to be updated with new concepts.

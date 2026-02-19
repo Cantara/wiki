@@ -16,4 +16,4 @@ I might also throw in some interesting places to consider when improving compete
 E.g., Grady Booch's Handbook of Software Architecture
 http://www.handbookofsoftwarearchitecture.com/index.jsp?page=Main
 
-[Presentation](archCompetence-pdf.md) (pdf)
+[Presentation](10813886-archCompetence.pdf) (pdf)

@@ -476,6 +476,13 @@ nav:
       - "Why do Software Projects Fail - panel discussion topics": IASA/Why-do-Software-Projects-Fail-panel-discussion-topics.md
       - "Workshop Architects in deep water...  (Geek Cruise)  i Mai": IASA/Workshop-Architects-in-deep-water-Geek-Cruise-i-Mai.md
       - "IASA": IASA/index.md
+      - "Blog":
+          - "[Blog] Evolutionary architecture and emergent design - Investigating architecture and design": IASA/blog-2009-02-25-evolutionary-architecture-and-emergent-design-investigating-architecture-and-design.md
+          - "[Blog] Datavarehusarkitekturer": IASA/blog-2009-03-04-datavarehusarkitekturer.md
+          - "[Blog] 97 things every software architect should know": IASA/blog-2009-03-10-97-things-every-software-architect-should-know.md
+          - "[Blog] Definér \"Software Arkitekt\" - følg debatten": IASA/blog-2009-03-28-definér-software-arkitekt-følg-debatten.md
+          - "[Blog] Microsofts Architecture Journal ønsker SOA artikler": IASA/blog-2009-05-21-microsofts-architecture-journal-ønsker-soa-artikler.md
+          - "[Blog] Teaser på noen emner for høsten": IASA/blog-2009-05-27-teaser-på-noen-emner-for-høsten.md
   - "JAU":
       - "Agent pattern diagram": JAU/Agent-pattern-diagram.md
       - "Agent pattern": JAU/Agent-pattern.md
@@ -1166,6 +1173,8 @@ nav:
       - "Where is the documentation for FIFO?": blitz/Where-is-the-documentation-for-FIFO.md
       - "Writer.java": blitz/Writer-java.md
       - "Blitz": blitz/index.md
+      - "Blog":
+          - "[Blog] Established Blitz Wiki": blitz/blog-2008-09-03-established-blitz-wiki.md
   - "Agile Development":
       - "KM: Software Development Blog from May, 2021": dev/2021_05_.md
       - "4 plus 1 View Model": dev/4-plus-1-View-Model.md
@@ -2016,11 +2025,15 @@ nav:
       - "iStream": ~baard.lind/iStream.md
       - "Home": ~baard.lind/index.md
       - "whydah -sso arbeide": ~baard.lind/whydah-sso-arbeide.md
+      - "Blog":
+          - "[Blog] På plass på ny jobb.": ~baard.lind/blog-2013-02-06-på-plass-på-ny-jobb.md
   - "User: dagb":
       - "Groking Software Architecture": ~dagb/2010_09_27_Groking-Software-Architecture.md
       - "JSF Memory leaks & challenges": ~dagb/JSF-Memory-leaks-challenges.md
       - "ShortBio": ~dagb/ShortBio.md
       - "Home": ~dagb/index.md
+      - "Blog":
+          - "[Blog] Groking Software Architecture": ~dagb/blog-2010-09-27-groking-software-architecture.md
   - "~gatepoet":
       - "Home": ~gatepoet/index.md
   - "~halrik":
@@ -2147,6 +2160,8 @@ nav:
   - "~terje.orvedal@webstep.no":
       - "beta.ws": ~terje.orvedal@webstep.no/beta-ws.md
       - "Home": ~terje.orvedal@webstep.no/index.md
+      - "Blog":
+          - "[Blog] Siste nytt": ~terje.orvedal@webstep.no/blog-2009-05-10-siste-nytt.md
   - "~tobiast":
       - "Tobias": ~tobiast/Tobias.md
       - "Home": ~tobiast/index.md
@@ -2207,3 +2222,23 @@ nav:
       - "XP Meetup - Software Architecture versus Agile - panel": ~totto/XP-Meetup-Software-Architecture-versus-Agile-panel.md
       - "User: totto": ~totto/index.md
       - "test": ~totto/test.md
+      - "Blog":
+          - "[Blog] Amazon CloudFront": ~totto/blog-2009-02-24-amazon-cloudfront.md
+          - "[Blog] Cloud Computing- Are You Looking for IaaS or PaaS Provider?": ~totto/blog-2009-02-24-cloud-computing-are-you-looking-for-iaas-or-paas-provider.md
+          - "[Blog] Cloud definition misses the point....": ~totto/blog-2009-02-24-cloud-definition-misses-the-point.md
+          - "[Blog] Cloud definitions in despair..  (Gartner)": ~totto/blog-2009-02-24-cloud-definitions-in-despair-gartner.md
+          - "[Blog] Clouded Vision": ~totto/blog-2009-02-24-clouded-vision.md
+          - "[Blog] CloudMQ": ~totto/blog-2009-02-24-cloudmq.md
+          - "[Blog] Clouds only for tactical projects until 2012 - Gartner misses the point... (again)": ~totto/blog-2009-02-24-clouds-only-for-tactical-projects-until-2012-gartner-misses-the-point-again.md
+          - "[Blog] Considerations in Building Web Applications for the Amazon Cloud": ~totto/blog-2009-02-24-considerations-in-building-web-applications-for-the-amazon-cloud.md
+          - "[Blog] Free SimpleDB Beta Cloud from Amazon": ~totto/blog-2009-02-24-free-simpledb-beta-cloud-from-amazon.md
+          - "[Blog] Open Source and Community Clouds": ~totto/blog-2009-02-24-open-source-and-community-clouds.md
+          - "[Blog] Sinnataggen and some Cloud development thoughts...": ~totto/blog-2009-02-24-sinnataggen-and-some-cloud-development-thoughts.md
+          - "[Blog] Trouble In The Clouds - Gmail Turns Into Gfail": ~totto/blog-2009-02-24-trouble-in-the-clouds-gmail-turns-into-gfail.md
+          - "[Blog] VMware - All your clouds are belong to us": ~totto/blog-2009-02-24-vmware-all-your-clouds-are-belong-to-us.md
+          - "[Blog] Why clouds should be more like operating systems": ~totto/blog-2009-02-24-why-clouds-should-be-more-like-operating-systems.md
+          - "[Blog] Its time for auto scaling - avoid peak load provisioning for web applications": ~totto/blog-2009-03-05-its-time-for-auto-scaling-avoid-peak-load-provisioning-for-web-applications.md
+          - "[Blog] Transparancy is essensial to security in the cloud": ~totto/blog-2009-04-20-transparancy-is-essensial-to-security-in-the-cloud.md
+          - "[Blog] Cloud - auto-magic og just provisioning platform for your distributed system": ~totto/blog-2009-05-07-cloud-auto-magic-og-just-provisioning-platform-for-your-distributed-system.md
+          - "[Blog] Gartner on Cloud Computing, misses again...": ~totto/blog-2009-06-23-gartner-on-cloud-computing-misses-again.md
+          - "[Blog] On the greenness of Clouds": ~totto/blog-2009-09-15-on-the-greenness-of-clouds.md

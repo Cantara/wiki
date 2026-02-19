@@ -1,12 +1,12 @@
 # Restricted-Tomra Collector Rules
 
 ### Relational Model only. 
-**[Diagram: Architecture](../Diagram/Architecture.md)**
+**Diagram: Architecture**
 Challenge:
 - Hi rate of updates on UserSessions will slow down the whole system.
 
 ### Loose Coupling - allow for unique life-cycle pr module.
-**[Diagram: Architecture](../Diagram/Architecture.md)**
+**Diagram: Architecture**
 
 ---
 

@@ -34,3 +34,4 @@
 - [What about all those configuration variables?](What-about-all-those-configuration-variables.md)
 - [Where is the documentation for FIFO?](Where-is-the-documentation-for-FIFO.md)
 - [Writer.java](Writer-java.md)
+- [[Blog] Established Blitz Wiki](blog-2008-09-03-established-blitz-wiki.md)

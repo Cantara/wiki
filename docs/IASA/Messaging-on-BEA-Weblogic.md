@@ -1,6 +1,6 @@
 # Messaging on BEA Weblogic
 
-**[Diagram: Messaging](../Diagram/Messaging.md)**
+**Diagram: Messaging**
 
 ### Challenges
 - Where is Current Status located?

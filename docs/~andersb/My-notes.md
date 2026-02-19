@@ -14,6 +14,6 @@ Noen notater samlet fra yammer o.a.:
 
 ...not Axis/Axis2
 
-**[Diagram: TrustSign](../Diagram/TrustSign.md)**
+**Diagram: TrustSign**
 
-**[Diagram: Anders](../Diagram/Anders.md)**
+**Diagram: Anders**

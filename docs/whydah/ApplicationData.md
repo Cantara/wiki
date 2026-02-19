@@ -1,6 +1,6 @@
 # ApplicationData
 
-**[Diagram: ApplicationDataModel](../Diagram/ApplicationDataModel.md)**
+![ApplicationDataModel](../images/gliffy/38437469-ApplicationDataModel.png)
 
 ### Example Application.XML
 

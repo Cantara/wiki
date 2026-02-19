@@ -39,7 +39,7 @@ Make it possible to use either RPM packages OR [Deploy application with Java Net
 RPM for production (and for system administrators) and JNLP for test environments (testers and developers) is the general idea. 
 The sequence for webstart is shown in [JNLP - deployment](http://wiki.community.objectware.no/display/smidigtonull/JNLP#JNLP-Howtouse)
 A rough sketch of the deployment sequence for rpm is shown below. 
-**[Diagram: configService-rpm](../Diagram/configService-rpm.md)**
+**Diagram: configService-rpm**
 
 See also [RPM Deployment with Java Service Wrapper](RPM-Deployment-with-Java-Service-Wrapper.md) for how to generate the rpm packages with maven. 
 

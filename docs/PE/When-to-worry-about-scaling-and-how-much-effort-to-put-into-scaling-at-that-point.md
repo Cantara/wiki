@@ -1,6 +1,6 @@
 # When to worry about scaling and how much effort to put into scaling at that point.
 
-The slides for the talk can be found [here](theme1-pdf.md). Some links for gossip as mentioned in my talk:
+The slides for the talk can be found [here](2654403-theme1.pdf). Some links for gossip as mentioned in my talk:
 
 [Fighting Fire With Fire: Using Randomized Gossip To Combat Stochastic Scalability Limits](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.5.4000)
 
