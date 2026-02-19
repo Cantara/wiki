@@ -1,0 +1,85 @@
+# Erfaring
+
+- 2012 - Principal Consultant / Practice Lead Software Engineering, Altran AS
+- 2012 - CTO FreeCode AS
+- 2011 - Styremedlem Technebies AS
+  - Technebies har utviklet en platform for testing av programmeringsegenskaper for utviklere.
+- 2009- Styreleder i Cantara AS
+  - Cantrara har som formål å styrke norsk programvareutvikling og samarbeider med relevante aktører innenfor offentlig sektor, akademia, IT-bransjen og brukerorganisasjoner. Cantara er en ideell organisasjon.
+- 2009- Styreleder IASA Norge
+  - IASA Norge er en frivillig organisasjon for å styrke kunnskapen rundt arkitektur i IT systemer.
+- 2009- 2012 Sjefskonsulent, Webstep AS
+  - Sjefkonsulent. Rådgiver, mentor, software arkitekt, sjefsutvikler, strategirådgiver.
+- 2007-2008 Nestleder i styret i Developer Events
+  - Developer Events er for planlegging og gjennomføringen av Nordens største utviklerkonferanse, som i 2008 hadde 2400 betalende deltakere, fordelt på nesten 120 foredrag.
+- 2005-2008 java.net
+  - java.net Community leder. Leder for samlingen av alle Java brukerforeninger på Java.net
+- 2003-2009 Sjefskonsulent og fagansvarlig, Objectware AS
+  - Sjefkonsulent. Prosjektleder, mentor, software arkitekt, teknologirådgiver, sjefsutvikler, strategirådgiver. Fagansvarlig for Java avdelingen.
+- 2000-2003 WM-data Consulting (E-Line Group ASA / Tenpipes AS
+  - Seniorkonsulent. Prosjektleder, mentor, software arkitekt, teknologirådgiver, strategiredgiver og kursholder. Ansvarlig for arkitektur, utvikling, produksjon og vedlikehold av E-Line Group sin avanserte platform for elektronisk handel. Fagansvarlig for Java faggruppe, med fokus på java i distribuerte systemer, J2EE (EJB), J2ME (MIDP), software arkitektur, metode og sikkerhet. Verktøy inkluderte bl.a. Intershop Enfinity, Oracle, Cognos PowerPlay, Sonic MQ, Maven og JBoss
+- 1999-2008 President/styreleder i javaBin. Java User Group i Norge.
+  - Ansvarlig for medlemsmøter, on-line miljøet [http://www.java.no](http://www.java.no/) og den årlige JavaZone konferansen.
+- 1998-2002 Zero Mindset Ltd, London, UK
+  - Technical Manager and Lead Developer. SHE (Safety Health and Environment) Management Information Systems med verktøy som Swing/JGoodies, MySQL/Postgres/Oracle, Java WebStart, Tomcat/Apache og software factory teknikker
+- 1997-2000 NUMERICA TASKON A/S / Mogul.com
+  - Utvikler/seniorkonsulent. Fagansvarlig for Distribuerte Systemer Prosjektleder, mentor, software arkitekt, teknologirådgiver, strategiredgiver og kursholder. Java, EJB/J2EE, CORBA/DCOM, Jini, UML, Rational Unified Process, C++ og Smalltalk.
+- 1993-1994 Fujitsu Ltd, Fujitsu Software Laboratories, Kawasaki
+  - Presentasjon av publiserte artikler på Software Maturement og Software Process. Prototyping av Software Process modeller (CMM hovedsaklig) under RASP (Regatte Automated Software Process) på UNIX systemer.
+- 1992-1993 Statoil, Utbyggingsdivisjonen.
+  - Planleggingssystemer og databasesystemer for kostkontroll. Prosjekt kontroll gruppen. Mye Dataease, Paradox, Artemis og Microsoft Project.
+
+**[Prosjekt CV](/web/20221005023601/https://wiki.cantara.no/display/~totto/Prosjekt+CV "Prosjekt CV")**
+
+- 2011 - 2012 NAF (Norges Automobil-Forbund), Sjefsarkitekt
+  - Som software arkitekten hadde jeg ansvar for utviklingsaktivitetene i NAF, herunder oppfølging/bistand til prosjekter, ny teknologi, målarkitekturer og planlegging av veien fremover for NAF sine IT-systemer.
+- 2010 - 2012 Rådgiver, OBOS
+  - Rådgiver og teknisk bistand for OBOS sin IT avdeling med fokusområde på fornyelse av støttesystemer og IAM.
+- 2009-2010 Teknisk arkitekt Telenor Service Gateway (TSG), MOVE prosjektet, Telenor
+  - MOVE prosjektet i Telenor er Telenor sin største produktsatsing og fokuserer på å samle og erstatte alle typer talekommunikasjon for telenor sine bedriftskunder. Telenor Service Gateway (TSG) er nøkkelkomponenten for styring og konfigurasjon av disse nett, både via Telenor sine egne applikasjoner og fra 3. parts applikasjoner.
+- 2009-2011 Rådgiver, Retrade
+  - Strategisk rådgiver for Retrade sin ekspansjon av forretningsmodell og markedsekspansjon.
+- 2009 Rådgiver, Expostfinans
+  - Strategisk rådgiver og sparringspart for Exportfinans sine IT systemer fremover.
+- 2008 Teknisk arkitekt, Ny Booking på Internett, ColorLine
+  - Ansvarlig for versjonering og feilhånteringsstrategiene til ColorLine sin store investering på nye systemer for booking hvor flere spesialtilpassede standardsystemer blir knyttet sammen med JCAPS suiten.
+- 2008 Rådgiving/opplæring virksomhetsarkitektur og SOA i DnBNOR
+  - Rådgiver og mentor på virksomhetsarkitektur og tjenesteorientering for DnBNOR sitt virksomhetsarkitekturløft.
+- 2007-2008 Rådgiver Tandberg
+  - Nøkkelressurs i Tandberg sin strategi om å ta ibruk java-teknologi i videokonferanse produktportefølgen
+- 2007 Rådgiving/opplæring innføring av SOA i Gjensidige
+  - Rådgiver og mentor på virksomhetsarkitektur og tjenesteorientering for Giensidige sin SOA satsing.
+- 2007 QA ansvarlig for Siman - Simulatorkontroller
+  - Ansvarlig for kvalitet og tekniske løsninger for utviklingen av en simulatorkontroller for Western Geco.
+- 2005/04-2006/06 Sjefsarkitekt og Sjefsutvikler for Owera
+  - Sjefsarkitekt og Sjefsutvikler for Owera sin high-end provisjoneringsløsning. Basert på Jini og JavaSpaces teknologi, er løsningen designet for å kunne styre millionvis av endeutstyr i de store markedene i USA og Kina
+- 2004-2008 Teknisk rådgiver og Teknisk arkitekt Banetele
+  - Teknisk rådgiver og Teknisk arkitekt for Virksomhetsportalsatsningen, automatiseringsprosjektene og integrasjonsarbeidet med Bredbåndsaliansen til BaneTele. Portalen benytter seg av SiteVision som portal og CMS komponent, og benytter en hub&spoke SOA/WebServices/REST arkitektur mot kjernesystemene i bedriften. Implementert med OpenESB.
+- 2004 QA Luftfartstilsynet
+  - Kvalitetssikring av teknisk arkitektur og implementasjon for prosjektet "Virksomhetsportal - Skole, Utdanning og Sertifikat". Prosjektet eies av Luftfartstilsynet og leverandør av løsningen er Ergo Solutions.
+- 2004 Arkitekt/sjefsutvikler Telenor Mobil
+  - Telenor Mobil - Forhandlerapplikasjon. Systemutvikler/arkitekt i BEST prosjektet som er applikasjonen Telenor Mobil sine forhandlere bruker for å bestille og endre på mobilabonenter.
+- 2004 QA - Altinn
+  - QA - Altinn. Verifikasjon av gjennbruksaspekter på ALTINN prosjektet
+- 2003 Benefit Networks.
+  - Ansvarlig arkitekt og utvikler for et integrasjonsprosjekt mellom beregningskomponenter implementert som COM komponenter og J2EE løsningen mot kundene ved å lage WebServices/.NET komponenter av beregningsmodellene som ble benytter i J2EE applikasjonene. Maven, Glue, MS Visual Studio .NET, C#, IIS, WSAD og WebLogic
+- 2003-2004 Statens landbruksforvaltning
+  - Kvalitetssikringsoppdrag for Statens landbruksforvaltnings sitt Nett-SLF SLF (en internettbasert løsning for søknad om produksjonsstøtte). Løsningen består av en teknisk plattform (TP), en applikasjon for produksjonsstøtte (WESPA) og landbruksforvaltningens informasjonsbase (LIB). TietoEnator har utviklet applikasjonene, basert på bruk av Oracle, Java og XML. Driftstjenestene er kontrahert fra IBM
+- 2003 Telenor Mobil.
+  - Arkitekt og sjefsutvikler i prosjektet for ny portal for mobilt innhold. Integrasjon mellom Volantis (device-spesifikk rending) og Escenic (publisering/portal) på en WebLogic platform med Sybase som database. Arkitektur for segmentering, pull/push (MMS), integrasjon med kjernesystemer som COS og UMS, samt billing via WAP Billing gateway og WAP push gateway. Rammeverk for integrasjon av alle typer mobile tjenester.
+- 2002-2003 Holtung.
+  - Ansvarlig for et prosjekt for kraftig ytelsesforbedring i Holtung sin B2B løsning mot apotekene basert på Intershop Enfinity på en windows platform.
+- 1999-1999 Ericsson
+  - Mentor innen distribuert teknologi og Java i prosjekt rundt en telefonitjeneste-server for IP telefoni. Java, RMI.
+- 1999 Scandinavian Airline Systems, Data.
+  - Kvalitetssikringsrolle i utviklingen av et nytt flyvedlikeholdsprosjekt. Enterprise Java Beans prosjekt, UML og RUP
+- 1998-1999 Fellesdata.
+  - Planlegger, arkitekt mentor og utvikler i prosjekt for neste generasjons kassesystemer. UML, RUP, Enterprise Java Beans, prosjektplanlegging og ledelse.
+- 1998-1999 Gjensidige NOR Finans.
+  - Kravspesifisering, analyse&design og arkitekt rundt utviklingen av et internett-basert system for bilfinansiering.
+- 1998 SYSDECO DIKAS
+  - Java utvikler og mentor i prosjekt for fler-regions distribuerte GIS systemer bygget på CORBA og Java.
+- 1998 Alcatel Telecom.
+  - Metode og prosessmentor i et prosjekt for felles metode og prosess for forsvarsprosjekter frem mot 2010.
+- 1996-1998 DISGIS
+  - EU prosjekt for metode og prosessrammeverk for distribuerte GIS systemer. Arkitektur og metodearbeide. CORBA og Java/C++.

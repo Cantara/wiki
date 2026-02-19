@@ -1,0 +1,33 @@
+# Multi-module project with inheritance - Cantara Community Wiki
+
+#### About modularization
+
+Modularization is about how you structure code. Structure makes it easier to understand and maneuver around in the project and makes it easier for a team to work in parallel. Steps that can be made to modularize are:
+
+1. Grouping of classes, interfaces and packages
+   - Easy, underneath the scope of this wiki-page (but still underused - read Effective Java!)
+2. Separate packages into their own module
+   - Some work, team-members need to made aware of the new module
+   - Enforces one-way dependencies and negates circular references
+3. Move modules into their own separate project
+   - Removing the module from the reactor will decrease build time
+   - Decouples the module entirely so it can be re-used by other projects
+   - Requires dedicated release management
+   - Snapshot-dependence will require a separate build-step and deployment done by CI server
+   - Domain classes, message classes/formats and [helpers](/web/20100615233048/http://wiki.cantara.no/display/architecture/Helper+code+as+separate+projects "Helper code as separate projects")  are good candidates for separate projects.
+
+#### Module as a modularization concept
+
+This project type it what most be refer to as a "normal" multi-module Maven project. That is, all modules have the same release cycle and they share configuration from the Parent POM. The relationship between the POMs are thus that the modules are referenced from the parent with the *module* element AND the modules reference the parent with the *parent* element. So what is the purpose of this project setup?
+
+Like any modularization concept the module makes it easier to adhere to the principle of [*high cohesion, low coupling*](http://c2.com/cgi/wiki?CouplingAndCohesion) . With Java packages an *import* is required to use code from another package. With Maven modules it is necessary to explicitly add a dependency to the other module to be able to use code from it, just like a dependency to any other Maven artifact. This makes the coupling between modules explicit, and the build will break if you create circular dependencies.
+
+A additional - positive - side-effect is that modules make it easier to identify code blocks that can be reused. Code that should be shared between projects with different release cycles need to be refactoring into a standalone Maven project, and it is easier to set up a separate project if the code is located in a cohesive module. See more reasons in the [FAQ](http://wiki.community.objectware.no/display/smidigtonull/Maven+FAQ#MavenFAQ-Ireally%2Creallywanttohaveasingleprojectforeverything.Whyisthatabadidea%3F) .
+
+|  | A word of caution Be wary of over-engineering by creating too many modules. Code with good structure is easier to re-use, but sometimes re-use is not on the agenda (YAGNI). Remember also that trying to enforce larger moves can result in project friction. You should always take into account the culture and skill set of your project team. Educate your team on how and why modularization is done. |
+
+That be said, it is more common to have too few modules than too many. To quote from the guidelines: *When in doubt, separate!*
+
+#### Examples
+
+- [Build C (plusplus) code for multiple platforms with Maven](/web/20100615233048/http://wiki.cantara.no/display/smidigtonull/Build+C+%28plusplus%29+code+for+multiple+platforms+with+Maven "Build C (plusplus) code for multiple platforms with Maven")
