@@ -1,0 +1,127 @@
+# Laws of SOA
+
+# To succssfully implement a service oriented architecture you should:
+
+###### 1. Forget WS* and products
+- SOA is design and architecture. The WS-* standards is not much more than candidate technology for decorating your service endpoints...
+
+###### 2. Establish service categories and service universe.
+- Without defining/typing your services, you are building your SOA universe with simple blocks. We have different types of building blocks for building houses, why not in SOA..
+See [OWSOA:SOA - Service Categorization](../OWSOA/SOA<sub>~Service</sub>~Categorization.md)
+
+###### 3. Find and decompose services
+- Focus on the responsibility aspect of your services. 
+- Split and rule. Remember to satisfy both explicit and implicit consumer expectations.
+
+###### 4. Establish service ownership and Key Performance Indicators for your services
+- SOA is challenging on an organization, and as services should provida business value, its a dead giveaway to visualize this value in a graphical dashboard.
+
+###### 5. Establish design rules for your service categories up-front
+- Basically design-time governance...
+    - SOA Center of Excellence - [Policy Advisory Board](Policy<sub>~Advisory</sub>~Board-PAB.md)
+    - Do not forget pre-production service QA.
+
+###### 6. Start limited and controlled
+- Start with a vertical, stay 100 % faithful to your architecture and design rules. 
+- Use mocks/adapters when you have to take shortcuts.
+
+###### 7. Establish lean and agile deployment routines
+- Goal: from test to production<sub>~test, and from prod</sub>~test to production in less than 20 minutes.
+- his is a major change, which will take a lot of effort, but you have to plan for 10 times as many deployments, so there is really no option
+
+###### 8. Security is not optional in SOA
+
+- You basically need to pass a Security Token with each service invocation. On pre<sub>~invocation you do the normal access control, of post</sub><sub>invocation you need to filter the data</sub><sub>values (i.e. remove sensitive data if the security token does not have the right access. This is necessary, since we no longer have any single point of control, or trying to establish a single point of control will break the agility and time</sub>~to-marked values of your SOA.
+
+###### 9. Reflect and work strategically against SOA Maturity Model.
+
+- See [http://wiki.cantara.no/display/EDRMDS/SOA+Maturity+Models+and+EDR<sub>~MDS](http://wiki.cantara.no/display/EDRMDS/SOA+Maturity+Models+and+EDR</sub>~MDS)
+
+---
+
+To be merged with content above
+
+### Intro
+
+Service Oriented Architecture is all over us. And after several years with SOA we still have an extremely high rate of failure in SOA projects. SOA architects have no clue of what a service is, development leads spend all their time on making product workarounds, developers create silo services, and BPEL/BPM gurus use most of their time scrolling the enormous models, application management waste most of their time trying to restart parts of the SOA, and so on and so on...
+
+This can not continue forever - there is a new sheriff in town! And this sheriff will shoot to kill.
+
+In this presentation, the sheriff will introduce a set of SOA laws which, when followed, will guide your SOA effort from certain failure to the nirvana SOA promises and when ignored lead to certain death.
+
+### The laws...
+
+**0. Forget about focusing WS** and products*
+
+- SOA is [design](Design<sub>~Time</sub><sub>Governance</sub><sub>SOA</sub><sub>Design</sub><sub>Rules.md) and [architecture](Architecture</sub><sub>Principles</sub><sub>and</sub>~Axioms.md). The WS-* standards and ESBs are not much more than candidate technology for decorating your service endpoints...
+
+By this we mean that all SOA projects which focuses on the protocol (WS<sub>~) or the middleware (ESB) seldom have any success. If you on the other hand focuses of the atom of SOA, namely the services and how you build from these building blocks you are much more likely to have success. How the services collaborate can then happen in a myriad of ways. Both movable services (like in Jini/JavaSpaces) in</sub><sub>process services with a collaborating backbone, REST</sub><sub>endpoints and WS</sub>~ endpoints all become a matter of deployment - and we usually have several endpoints with different protocols for each service.
+
+**1. Establish service categories and service universe**
+
+- Without defining/typing your [services](Service-Manifest.md), you are building your SOA universe with simple blocks. (We have different types of building blocks for building houses, why not in SOA..)
+
+**2. Find and decompose services**
+
+- Focus on the responsibility aspect of your services. Divide and conquer. Remember to satisfy both explicit and implicit consumer expectations
+
+**3. Establish service ownership and Key Performance Indicators for your services**
+
+- SOA is challenging on an organization, and as services should provide business value, it is a dead giveaway to visualize this value in a graphical dashboard.
+
+**4. Establish design rules for your service categories up-front**
+
+- Basically [design<sub>~time governance](Design</sub><sub>Time</sub><sub>Governance</sub><sub>SOA</sub><sub>Design</sub>~Rules.md)...
+    - SOA Center of Excellence - [Policy Advisory Board](Policy<sub>~Advisory</sub>~Board.md)
+    - Do not forget pre-production service QA
+
+**5. Start limited and controlled**
+
+- Start with a business vertical, stay 100 % [faithful](Clear<sub>~and</sub><sub>consistent</sub><sub>responsibility</sub><sub>powers</sub><sub>all</sub>~great-architectures.md) to your architecture and design rules. 
+    - Use mocks/adapters when you have to take shortcuts
+
+**6. Establish lean and agile deployment routines**
+
+- Goal: from test to production<sub>~test, and from prod</sub>~test to production in less than 20 minutes.
+    - This is a major change, which will take a lot of effort, but you have to plan for 10 times as many deployments, so there is really no option
+
+**7. Versioning is not optional in SOA**
+
+- See section for design rules for services and details about Evolving Service Endpoint pattern and strategies.
+
+**8. Security is not optional in SOA**
+
+- You basically need to pass a Security Token with each service invocation. On pre<sub>~invocation you do the normal access control, of post</sub><sub>invocation you need to filter the data</sub><sub>values (i.e. remove sensitive data if the security token does not have the right access. This is necessary, since we no longer have any single point of control, or trying to establish a single point of control will break the agility and time</sub>~to-marked values of your SOA.
+
+**9. Reflect and work strategically against SOA Maturity Model.**
+
+- See [http://wiki.community.objectware.no/display/EDRMDS/SOA+Maturity+Models+and+EDR<sub>~MDS](http://wiki.community.objectware.no/display/EDRMDS/SOA+Maturity+Models+and+EDR</sub>~MDS)
+
+---
+> 📝 
+> 📝 As a result of the following I can now only deduce that SOA is a failure and any attempts at SOA will result in failure. Under my direction:
+> 📝 
+> 📝     * I have failed to associate our SOA initiatives with our business needs, therefore I cannot show any value for the hundreds of services we have created ,
+> 📝     * I have failed to properly create and support an SOA Center of Excellence, Steering Committee or Competency Center,
+> 📝     * I have failed to enlist the executive staff as true supporters and evangelists for our SOA efforts.
+> 📝     * I chose to buy an ESB prior to truly understanding our SOA infrastructure needs (In reality this wasn't my fault, the vendor said it was super duper necessary)
+> 📝     * I have failed to provide my developers incentives to reuse artifacts,
+> 📝     * It was not my responsibility to follow what was going on next door where there was a separate team dealing with BPM, I mean they are two different initiatives,
+> 📝     * I firmly believe that SOA is nothing more than fancy CORBA or COM.
+> 📝 
+> 📝 Despite all of the things I have NOT done, SOA has failed. My additional failure to recognize and implement best practices that have been proven successful in many other companies worldwide also play into the failure of SOA.
+> 📝 
+> 📝 Oh well, we should move on and try something new. On the bright side 70% of our initiatives fail anyway. The failure of SOA is SOA's fault not mine.
+> 📝 
+> 📝 Thanks for understanding and I'd like to declare in advance that Cloud Computing, Virtualization and SaaS will be failures under my direction as well.
+> 📝 
+> 📝 Quoted from: [http://blogs.gartner.com/frank_kenney/2008/11/12/ahh<sub>~shucks</sub><sub>soa</sub><sub>is</sub><sub>a</sub><sub>failure/](http://blogs.gartner.com/frank_kenney/2008/11/12/ahh</sub><sub>shucks</sub><sub>soa</sub><sub>is</sub><sub>a</sub>~failure/)
+
+As you can see, if you fail to follow the laws of SOA, you are getting yourself into trouble..  :)
+
+### Terminology
+
+- [Service](Service<sub>~Manifest.md)  [Service Manifest](Service</sub>~Manifest.md) [Service Categories](Service-Categories.md) [H2A Services](H2A.md) [A2A Services](A2A.md) [ACS Services](ACS.md) [Core Services](CS.md) 
+- [Evolving Service Endpoint (ESE)](http://wiki.community.objectware.no/display/ESE/Home)  [Governance](Design<sub>~Time</sub><sub>Governance</sub><sub>SOA</sub><sub>Design</sub><sub>Rules.md) [Architecture](Architecture</sub><sub>Principles</sub><sub>and</sub><sub>Axioms.md) [Policy Advisory Board](Policy</sub><sub>Advisory</sub>~Board.md)
+
+### [The laws of SOA FAQ](The<sub>~laws</sub><sub>of</sub><sub>SOA</sub>~FAQ.md)

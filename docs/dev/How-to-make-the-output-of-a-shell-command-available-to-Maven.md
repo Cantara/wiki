@@ -1,0 +1,56 @@
+# How to make the output of a shell command available to Maven?
+
+```xml
+<profile>
+  <id>update-distroVersion</id>
+  <activation>
+    <property>
+      <name>!distroVersion</name>
+    </property>
+  </activation>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>echo-distroVersion-to-file</id>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>exec</goal>
+            </goals>
+            <configuration>
+              <executable>sh</executable>
+              <arguments>
+                <argument>-c</argument>
+                <argument>
+                  (echo -n "distroVersion="; grep -o -e [1-9] /etc/issue | head -n 1) > ${distroVersionFile}
+                </argument>
+              </arguments>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>properties-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>read-distroVersion-property</id>
+            <phase>process-resources</phase>
+            <goals>
+              <goal>read-project-properties</goal>
+            </goals>
+            <configuration>
+              <files>
+                <file>${distroVersionFile}</file>
+              </files>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</profile>
+```

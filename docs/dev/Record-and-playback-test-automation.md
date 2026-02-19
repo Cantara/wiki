@@ -1,0 +1,21 @@
+# Record-and-playback test automation
+
+###### When to apply record<sub>~and</sub>~playback test automation? 
+
+Answer: Never! [http://testobsessed.com/2010/07/random<sub>~thoughts</sub><sub>on</sub><sub>record</sub><sub>and</sub><sub>playback/](http://testobsessed.com/2010/07/random</sub><sub>thoughts</sub><sub>on</sub><sub>record</sub><sub>and</sub>~playback/) 
+
+Okey, only almost true. 
+
+Disadvantages: 
+- Test data and test logic tightly coupled. 
+- Expensive/time consuming to keep the tests updated. 
+
+"Advantages": 
+
+- Non-programmers can use the tools. 
+
+- Vendors can sell expensive software packages. 
+
+###### Is it never useful? 
+
+[Skyggedrift](Skyggedrift.md) is a type of record and playback which can be useful.

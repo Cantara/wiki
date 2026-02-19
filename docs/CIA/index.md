@@ -1,6 +1,7 @@
 # CIA
 
 - [CiA 2012 - Bridging the gaps - or how to enable the advantages of new technology in the darkest corners](CiA-2012-Bridging-the-gaps-or-how-to-enable-the-advantages-of-new-technology-in-the-darkest-corners.md)
+- [CiA 2015](CiA-2015.md)
 - [CiA History](CiA-History.md)
 - [CiA2010](CiA2010.md)
 - [CiA2011](CiA2011.md)

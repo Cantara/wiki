@@ -1,0 +1,3 @@
+# Investment in outdated system is waste
+
+If you are planning to replace a system it is natural to view all investments in the old system as waste. After all, the old system will eventually be scrapped. The reality is that investments in the old system can be extremely cost efficient. The core reason for this is that well planned changes in the old system allow you to define a much smaller [Minimal releasable product](Minimal<sub>~releasable</sub>~product.md). Any strategy that depends on the new system coexisting with the old one will almost invariably require some modifications to the old system.

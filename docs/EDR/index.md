@@ -6,6 +6,7 @@
 - [EDR - Pattern diagram](EDR-Pattern-diagram.md)
 - [EDR - The details](EDR-The-details.md)
 - [Enterprise Domain Repository - Home](Enterprise-Domain-Repository-Home.md)
+- [Examples](Examples.md)
 - [Extentions - Advanced Scenarios](Extentions-Advanced-Scenarios.md)
 - [FAQ](FAQ.md)
 - [Mailing lists](Mailing-lists.md)

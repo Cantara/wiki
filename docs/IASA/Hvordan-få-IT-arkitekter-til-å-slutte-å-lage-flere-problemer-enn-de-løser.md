@@ -1,0 +1,9 @@
+# Hvordan få IT arkitekter til å slutte å lage flere problemer enn de løser...
+
+Det er en kjensgjerning at mange er av den mening at IT arkitekter skaper flere problemer enn de løser. Argumentasjonen varierer endel, men endel peker på disse argumentene:
+- IT arkitekter blir oppblåste, og entereprise-orientert
+- Manglende læringssløyfe mellom IT arkitekter og prosjekter/utviklere
+- IT arkitekter er opptatt av ting som  ser fint ut i PowerPoint...
+- IT arkitekter blir ikke ansvarliggjort for konsekvensene...
+
+IMHO så er det en naturlig uenighet mellom utviklere/prosjekter som blir målt på hvor mye funksjonalitet en klarer å produsere per tidsenhet og arkitektens forsøk på å holde totalkompleksitet og livsløp i balansert med forsøk på partisjoneringsstrategier...   Men hvordan kan vi få leirene opp av skyttergravene og inn i et konstruktivt sammarbeid?

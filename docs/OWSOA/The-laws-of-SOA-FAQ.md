@@ -1,0 +1,13 @@
+# The laws of SOA FAQ
+
+- [WebServices can lead to function oriented services, while REST can lead to a resource oriented architecture. Are both SOA?](WebServices<sub>~can</sub><sub>lead</sub><sub>to</sub><sub>function</sub><sub>oriented</sub><sub>services</sub><sub>while</sub><sub>REST</sub><sub>can</sub><sub>lead</sub><sub>to</sub><sub>a</sub><sub>resource</sub><sub>oriented</sub><sub>architecture</sub><sub>Are</sub><sub>both</sub>~SOA.md)
+
+- [Law 1 and 2 - Does this mean that you recommend small, fine grained services?](Law<sub>~1</sub><sub>and</sub><sub>2</sub><sub>Does</sub><sub>this</sub><sub>mean</sub><sub>that</sub><sub>you</sub><sub>recommend</sub><sub>small</sub><sub>fine</sub>~grained-services.md)
+
+- [I don't think I understand what's meant with law 4 and 5 (I understand the words, but not what you want people to do and when)](I<sub>~don</sub><sub>t</sub><sub>think</sub><sub>I</sub><sub>understand</sub><sub>what</sub><sub>s</sub><sub>meant</sub><sub>with</sub><sub>law</sub><sub>4</sub><sub>and</sub><sub>5</sub><sub>I</sub><sub>understand</sub><sub>the</sub><sub>words</sub><sub>but</sub><sub>not</sub><sub>what</sub><sub>you</sub><sub>want</sub><sub>people</sub><sub>to</sub><sub>do</sub>~and-when.md)
+
+- [I think I agree with law 3, Establish service ownership and Key Performance Indicators for your services, but an example of a KPI would be helpful](I<sub>~think</sub><sub>I</sub><sub>agree</sub><sub>with</sub><sub>law</sub><sub>3</sub><sub>Establish</sub><sub>service</sub><sub>ownership</sub><sub>and</sub><sub>Key</sub><sub>Performance</sub><sub>Indicators</sub><sub>for</sub><sub>your</sub><sub>services</sub><sub>but</sub><sub>an</sub><sub>example</sub><sub>of</sub><sub>a</sub><sub>KPI</sub><sub>would</sub>~be-helpful.md)
+
+- [I think I agree with law 8, Security is not optional in SOA, but I don't understand what you mean by it yet](I<sub>~think</sub><sub>I</sub><sub>agree</sub><sub>with</sub><sub>law</sub><sub>8</sub><sub>Security</sub><sub>is</sub><sub>not</sub><sub>optional</sub><sub>in</sub><sub>SOA</sub><sub>but</sub><sub>I</sub><sub>don</sub><sub>t</sub><sub>understand</sub><sub>what</sub><sub>you</sub><sub>mean</sub><sub>by</sub>~it-yet.md)
+
+- [In SOA - Is my customer the same entity as your customer? Is my product list the same as your product list? In which situations?](In<sub>~SOA</sub><sub>Is</sub><sub>my</sub><sub>customer</sub><sub>the</sub><sub>same</sub><sub>entity</sub><sub>as</sub><sub>your</sub><sub>customer</sub><sub>Is</sub><sub>my</sub><sub>product</sub><sub>list</sub><sub>the</sub><sub>same</sub><sub>as</sub><sub>your</sub><sub>product</sub><sub>list</sub><sub>In</sub>~which-situations.md)

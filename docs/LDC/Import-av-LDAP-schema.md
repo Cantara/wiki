@@ -1,0 +1,107 @@
+# Import av LDAP schema
+
+#### Import av ICSPARTNERSCHEMA i Apache Directory Studio
+
+Har lastet ned og installert Apache Directory Server 1.5.7. På OS X blir den installert som en [launchd](http://developer.apple.com/macosx/launchd.html) service som gjør at den automatisk startes ved oppstart og i tillegg når man installerer. Mao så kjører Apache DS automatisk etter installasjon. (veldig kjekt at de har valg å kalle produktene sine Apache Directory Server og Apache Directory Studio, da er det ingen tvil om hva man snakker om når man skriver Apache DS...)
+
+For å stoppe ApacheDS så kjører man kommandoen:
+
+```
+sudo launchctl unload /Library/LaunchDaemons/org.apache.directory.server.plist
+```
+
+og for å starte:
+
+```
+sudo launchctl load /Library/LaunchDaemons/org.apache.directory.server.plist
+```
+
+Når den er installert så må kan man laste ned ApacheDS (Studio denne gang) som er en browser og directory klient. Når man har fyrt opp denne så oppretter man en LDAP connection mot den lokale serveren. Serveren kjører på {} og port `10389`, bruker er {} og passord {}:
+
+![ldap<sub>~connection</sub><sub>1.png](ldap</sub><sub>connection</sub><sub>1</sub><sub>png.md)(ldap</sub>~connection-1.png)
+
+![ldap<sub>~connection</sub><sub>2.png](ldap</sub><sub>connection</sub><sub>2</sub><sub>png.md)(ldap</sub>~connection-2.png)
+
+Da ser det sånn noenlunde slik ut:
+
+![apache<sub>~ds</sub><sub>clean.png](apache</sub><sub>ds</sub><sub>clean</sub><sub>png.md)(apache</sub>~ds-clean.png)
+
+Deretter så importeres selve schema'et til Apache Directory Studio:
+
+![ldif<sub>~import.png](ldif</sub><sub>import</sub><sub>png.md)(ldif</sub>~import.png)
+
+![ldif<sub>~import</sub><sub>done.png](ldif</sub><sub>import</sub><sub>done</sub><sub>png.md)(ldif</sub>~import-done.png)
+
+Mer details:
+
+![ldap<sub>~browser</sub><sub>1.png](ldap</sub><sub>browser</sub><sub>1</sub><sub>png.md)(ldap</sub>~browser-1.png)
+
+![ldap<sub>~browser</sub><sub>2.png](ldap</sub><sub>browser</sub><sub>2</sub><sub>png.md)(ldap</sub>~browser-2.png)
+
+![ldap<sub>~browser</sub><sub>3.png](ldap</sub><sub>browser</sub><sub>3</sub><sub>png.md)(ldap</sub>~browser-3.png)
+
+![ldap<sub>~browser</sub><sub>4.png](ldap</sub><sub>browser</sub><sub>4</sub><sub>png.md)(ldap</sub>~browser-4.png)
+
+![ldap<sub>~browser</sub><sub>5.png](ldap</sub><sub>browser</sub><sub>5</sub><sub>png.md)(ldap</sub>~browser-5.png)
+
+#### Import av data
+
+Alt ser bra ut så langt så det neste som gjenstår er å importere den andre {} fila som inneholder test data.
+
+![ldif<sub>~import</sub><sub>data.png](ldif</sub><sub>import</sub><sub>data</sub><sub>png.md)(ldif</sub>~import-data.png)
+
+Men det gikk ikke så bra.. 
+
+![ldif<sub>~import</sub><sub>data</sub><sub>error.png](ldif</sub><sub>import</sub><sub>data</sub><sub>error</sub><sub>png.md)(ldif</sub><sub>import</sub><sub>data</sub>~error.png)
+
+Feilet med følgende
+
+> ⚠️ ERR_268 Cannot find a partition for dc=icspartner,dc=com
+
+Hele [retrade:loggen er vedlagt](icspartner_com<sub>~ldif</sub>~log.md) og første feil er:
+
+```
+#!RESULT ERROR
+#!CONNECTION ldap://localhost:10389
+#!DATE 2010-11-20T20:04:49.615
+#!ERROR [LDAP: error code 32 - NO_SUCH_OBJECT: failed for     Add Request : ClientEntry     dn: dc=icspartner,dc=com     objectClass: organization     objectClass: dcObject     objectClass: top     dc: icspartner     o: ICSPartner : ERR_268 Cannot find a partition for dc=icspartner,dc=com]
+dn: dc=icspartner,dc=com
+objectClass: organization
+objectClass: dcObject
+objectClass: top
+dc: icspartner
+o: ICSPartner
+```
+
+#### Løsning
+
+> 💡 Løsningen (for min del hvertfall) ble å legge til en egen {} i ApacheDS server.xml
+
+Etter litt googling så kom jeg over denne linken om [hvordan man legger til egne partitions](http://directory.apache.org/apacheds/1.5/144<sub>~adding</sub><sub>your</sub><sub>own</sub><sub>partition</sub><sub>resp</sub>~suffix.html). Omsider så fant jeg at {} befant seg under `/usr/local/apacheds-1.5.7/instances/default/conf/server.xml`. Der la jeg inn følgende:
+
+```
+<jdbmPartition id="icspartner" cacheSize="100" suffix="dc=icspartner,dc=com" optimizerEnabled="true" syncOnWrite="true">
+  <indexedAttributes>
+    <jdbmIndex attributeId="1.3.6.1.4.1.18060.0.4.1.2.1" cacheSize="100"/>
+    <jdbmIndex attributeId="1.3.6.1.4.1.18060.0.4.1.2.2" cacheSize="100"/>
+    <jdbmIndex attributeId="1.3.6.1.4.1.18060.0.4.1.2.3" cacheSize="100"/>
+    <jdbmIndex attributeId="1.3.6.1.4.1.18060.0.4.1.2.4" cacheSize="100"/>
+    <jdbmIndex attributeId="1.3.6.1.4.1.18060.0.4.1.2.5" cacheSize="10"/>
+    <jdbmIndex attributeId="1.3.6.1.4.1.18060.0.4.1.2.6" cacheSize="10"/>
+    <jdbmIndex attributeId="1.3.6.1.4.1.18060.0.4.1.2.7" cacheSize="10"/>
+    <jdbmIndex attributeId="dc" cacheSize="100"/>
+    <jdbmIndex attributeId="ou" cacheSize="100"/>
+    <jdbmIndex attributeId="krb5PrincipalName" cacheSize="100"/>
+    <jdbmIndex attributeId="uid" cacheSize="100"/>
+    <jdbmIndex attributeId="objectClass" cacheSize="100"/>
+  </indexedAttributes>
+</jdbmPartition>
+```
+
+For de av dere som er kjent på wiki'en så var nok dette kjent stoff, iom at det også [står omtalt her](../RPM/EU<sub>~template</sub>~image.md). Der står det også at man må disable _schemaInterceptor_
+
+En restart av serveren og en ny import av {} i Apache Directory Studio gjorde susen :-)
+
+![icspartner_com<sub>~imported.png](icspartner_com</sub><sub>imported</sub><sub>png.md)(icspartner_com</sub>~imported.png)
+
+\\

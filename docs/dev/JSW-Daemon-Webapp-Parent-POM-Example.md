@@ -1,0 +1,260 @@
+# JSW Daemon Webapp Parent POM Example
+
+```xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.company</groupId>
+  <artifactId>company-parent-jsw-daemon-webapp</artifactId>
+  <version>1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Company JSW Daemon Webapp Parent</name>
+
+  <parent>
+    <groupId>com.company</groupId>
+    <artifactId>company-parent</artifactId>
+    <version>29</version>
+  </parent>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.mortbay.jetty</groupId>
+      <artifactId>jetty</artifactId>
+      <version>${jetty.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mortbay.jetty</groupId>
+      <artifactId>start</artifactId>
+      <version>${jetty.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mortbay.jetty</groupId>
+      <artifactId>jsp-2.1</artifactId>
+      <version>${jetty.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>2.1</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>appassembler-maven-plugin</artifactId>
+          <version>1.0</version>
+        </plugin>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>unix-maven-plugin</artifactId>
+          <version>1.0-alpha-3-SNAPSHOT</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>appassembler-maven-plugin</artifactId>
+        <configuration>
+          <repositoryLayout>flat</repositoryLayout>
+          <includeConfigurationDirectoryInClasspath>true</includeConfigurationDirectoryInClasspath>
+          <target>${appassemblerTarget}</target>
+          <assembleDirectory>${appassemblerAssembleDirectory}</assembleDirectory>
+          <repoPath>lib</repoPath>
+
+          <defaultJvmSettings>
+            <initialMemorySize>${initialMemorySize}</initialMemorySize>
+            <maxMemorySize>${maxMemorySize}</maxMemorySize>
+
+            <systemProperties>
+              <systemProperty>user.timezone=UTC</systemProperty>
+            </systemProperties>
+          </defaultJvmSettings>
+
+          <daemons>
+            <daemon>
+              <id>${rpm.appname}</id>
+              <mainClass>org.mortbay.start.Main</mainClass>
+              <commandLineArguments>
+                <commandLineArgument>src/main/unix/files/conf/jetty.xml</commandLineArgument>
+                <commandLineArgument>src/main/unix/files/conf/jetty-logging.xml</commandLineArgument>
+              </commandLineArguments>
+              <platforms>
+                <platform>jsw</platform>
+              </platforms>
+              <jvmSettings>
+                <systemProperties>
+                  <systemProperty>appserver.home=${rpm.path}</systemProperty>
+                  <systemProperty>appserver.base=%WEBAPP_BASE%</systemProperty>
+                  <systemProperty>jetty.logs=%WEBAPP_BASE%/logs</systemProperty>
+                </systemProperties>
+              </jvmSettings>
+              <generatorConfigurations>
+                <generatorConfiguration>
+                  <generator>jsw</generator>
+                  <configuration>
+                    <property>
+                      <name>configuration.directory.in.classpath.first</name>
+                      <value>etc</value>
+                    </property>
+                    <property>
+                      <name>wrapper.console.loglevel</name>
+                      <value>INFO</value>
+                    </property>
+                    <property>
+                      <name>wrapper.java.additional.1.stripquotes</name>
+                      <value>TRUE</value>
+                    </property>
+                    <property>
+                      <name>set.default.REPO_DIR</name>
+                      <value>lib</value>
+                    </property>
+                    <property>
+                      <name>wrapper.logfile</name>
+                      <value>%WEBAPP_BASE%/logs/wrapper.log</value>
+                    </property>
+                    <property>
+                      <name>wrapper.app.parameter.2</name>
+                      <value>%WEBAPP_BASE%/conf/jetty.xml</value>
+                    </property>
+                    <property>
+                      <name>wrapper.app.parameter.3</name>
+                      <value>%WEBAPP_BASE%/conf/jetty-logging.xml</value>
+                    </property>
+                    <property>
+                      <name>app.base.envvar</name>
+                      <value>WEBAPP_BASE</value>
+                    </property>
+                    <property>
+                      <name>wrapper.on_exit.default</name>
+                      <value>RESTART</value>
+                    </property>
+                    <property>
+                      <name>wrapper.on_exit.0</name>
+                      <value>SHUTDOWN</value>
+                    </property>
+                    <property>
+                      <name>wrapper.restart.delay</name>
+                      <value>30</value>
+                    </property>
+                    <property>
+                      <name>run.as.user.envvar</name>
+                      <value>${rpm.username}</value>
+                    </property>
+                  </configuration>
+                  <includes>
+                    <include>linux-x86-32</include>
+                    <include>linux-x86-64</include>
+                    <include>windows-x86-32</include>
+                  </includes>
+                </generatorConfiguration>
+              </generatorConfigurations>
+            </daemon>
+          </daemons>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>generate-resources</phase>
+            <goals>
+              <goal>generate-daemons</goal>
+              <goal>create-repository</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>unix-maven-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+          <contact>Erik Drolshammer</contact>
+          <contactEmail>someEmail</contactEmail>
+          <revision>${rpm.revision}</revision>
+          <defaults>
+            <fileAttributes>
+              <user>${rpm.username}</user>
+              <group>${rpm.groupname}</group>
+              <mode>0664</mode>
+            </fileAttributes>
+            <directoryAttributes>
+              <user>${rpm.username}</user>
+              <group>${rpm.groupname}</group>
+              <mode>0775</mode>
+            </directoryAttributes>
+          </defaults>
+          <rpm>
+            <softwareGroup>Applications/Engineering</softwareGroup>
+          </rpm>
+          <assembly>
+            <copy-directory>
+              <from>src/main/unix/files</from>
+              <to>${rpm.path}/</to>
+            </copy-directory>
+
+            <copy-directory>
+              <from>${appassemblerAssembleDirectory}</from>
+              <to>${rpm.path}</to>
+              <excludes>
+                <exclude>**/maven-metadata-appassembler.xml</exclude>
+              </excludes>
+            </copy-directory>
+
+            <copy-directory>
+              <from>${webappsDir}/</from>
+              <to>${rpm.path}/webapps/</to>
+            </copy-directory>
+
+            <mkdirs>
+              <paths>
+                <path>${rpm.path}/run</path>
+                <path>${rpm.path}/logs</path>
+              </paths>
+            </mkdirs>
+
+            <set-attributes>
+              <basedir>${rpm.path}/bin</basedir>
+              <fileAttributes>
+                <user>${rpm.username}</user>
+                <group>${rpm.groupname}</group>
+                <mode>6774</mode>
+              </fileAttributes>
+            </set-attributes>
+            <set-attributes>
+              <basedir>${rpm.path}/logs</basedir>
+              <fileAttributes>
+                <group>${rpm.log.groupname}</group>
+              </fileAttributes>
+            </set-attributes>
+          </assembly>
+        </configuration>
+      </plugin>
+
+    </plugins>
+  </build>
+  <properties>
+    <mainClassPackage>${pom.groupId}</mainClassPackage>
+    <mainClass>${mainClassPackage}.SomeLauncher</mainClass>
+
+    <rpm.appname>${pom.artifactId}</rpm.appname>
+    <rpm.username>${rpm.appname}</rpm.username>
+    <rpm.groupname>common-system-group</rpm.groupname>
+    <rpm.log.groupname>${rpm.groupname}-log</rpm.log.groupname>
+    <rpm.path>/usr/local/${rpm.appname}</rpm.path>
+    <rpm.revision>1</rpm.revision>
+
+    <appassemblerTarget>${project.build.directory}/appassembler</appassemblerTarget>
+    <appassemblerAssembleDirectory>${appassemblerTarget}/jsw/${rpm.appname}</appassemblerAssembleDirectory>
+    <webappsDir>${project.build.directory}/webapps</webappsDir>
+    
+    <initialMemorySize>128M</initialMemorySize>
+    <maxMemorySize>1024M</maxMemorySize>
+
+    <jetty.version>6.1.14</jetty.version>
+  </properties>
+
+</project>
+```

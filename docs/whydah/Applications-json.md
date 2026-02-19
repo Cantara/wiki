@@ -1,0 +1,34 @@
+# Applications.json
+
+```
+[  
+   {  
+      "id":"11",
+      "name":"SecurityTokenService",
+      "defaultRoleName":"WhydahDefaultUser",
+      "defaultOrgName":"Whydah",
+      "availableOrgNames":[  
+         "Whydah",
+         "ACSOrganization"
+      ],
+      "availableRoleNames":[  
+         "WhydahDefaultUser",
+         "WhydahUserAdmin"
+      ],
+   },
+   {  
+      "id":"12",
+      "name":"UserAdminService",
+      "defaultRoleName":"WhydahUserAdmin",
+      "defaultOrgName":"Whydah",
+      "availableOrgNames":[  
+         "Whydah",
+         "ACSOrganization"
+      ],
+      "availableRoleNames":[  
+         "WhydahDefaultUser",
+         "WhydahUserAdmin"
+      ],
+   }
+]
+```

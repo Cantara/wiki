@@ -1,0 +1,50 @@
+# Maven Webstart - JNLP DownloadServlet
+
+#### Plugin setup 
+
+```
+<plugin>
+<plugin>
+  <groupId>org.codehaus.mojo.webstart</groupId>
+  <artifactId>webstart-maven-plugin</artifactId>
+  <version>1.0-alpha-2</version>
+  <executions>
+    <execution>
+      <phase>process-resources</phase>
+      <goals>
+        <goal>jnlp-download-servlet</goal>
+      </goals>
+    </execution>
+  </executions>      
+  <configuration>
+    <outputDirectoryName>applications</outputDirectoryName>          
+    <jnlpFiles>
+      <jnlpFile>
+        <templateFilename>app1-template.vm</templateFilename>
+        <outputFilename>app1.jnlp</outputFilename>
+        <jarResources>
+          <jarResource>
+            <groupId>com.company.app1</groupId>
+            <artifactId>app1</artifactId>
+            <version>1.1-SNAPSHOT</version>
+            <mainClass>com.company.app1.App1Launcher</mainClass>
+          </jarResource>                
+        </jarResources>
+      </jnlpFile>
+    </jnlpFiles>
+    <sign>
+      <keystore>${basedir}/src/main/jnlp/company.webstart.keystore</keystore>
+      <storepass>company</storepass>
+      <alias>company_webstart</alias>
+      <validity>3650</validity>
+      <verify>true</verify>
+      <keystoreConfig>
+        <delete>false</delete>
+        <gen>false</gen>
+      </keystoreConfig>
+    </sign>
+    <outputJarVersions>false</outputJarVersions>
+    <verbose>false</verbose>
+  </configuration>
+</plugin>
+```

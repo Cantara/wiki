@@ -1,0 +1,3 @@
+# MasterPerAttribute
+
+This concept applies to mastering strategies in a Core Service with multiple datasources.[excerpt} The concept describes the ability to control mastering on a per<sub>~attribute basis, rather than on a per</sub><sub>system basis. Implementing support for [MasterPerAttribute](excerpt</sub><sub>The</sub><sub>concept</sub><sub>describes</sub><sub>the</sub><sub>ability</sub><sub>to</sub><sub>control</sub><sub>mastering</sub><sub>on</sub><sub>a</sub><sub>per</sub><sub>attribute</sub><sub>basis</sub><sub>rather</sub><sub>than</sub><sub>on</sub><sub>a</sub><sub>per</sub><sub>system</sub><sub>basis</sub><sub>Implementing</sub><sub>support</sub><sub>for</sub>~MasterPerAttribute.md) delivers a fine-grained control over enterprise data.

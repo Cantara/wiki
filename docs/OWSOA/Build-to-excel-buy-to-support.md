@@ -1,0 +1,3 @@
+# Build to excel, buy to support
+
+This is from HSBC Center of Excellence... will find wording and reference soon...
