@@ -24,7 +24,8 @@ Notice that *defaulttests* profile is activated if testgroup is not set.
 
 <http://osdir.com/ml/issues.maven.apache.org/2012-05/msg00394.html>  
 <http://stackoverflow.com/questions/12269558/maven-jacoco-plugin-error>  
-<https://github.com/jacoco/jacoco/issues/44>
+<https://github.com/jacoco/jacoco/issues/44>  
+<http://jira.codehaus.org/browse/MEVENIDE-435>'
 
 ###### Sonar and TestNG
 

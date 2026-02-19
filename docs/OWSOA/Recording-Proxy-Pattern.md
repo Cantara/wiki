@@ -1,0 +1,15 @@
+# Recording Proxy Pattern
+
+### Problem
+
+### Context
+
+### Forces
+
+### Solution
+
+### Resulting Context
+
+### Rationale
+
+### Extensions / Advanced Scenarios

@@ -7,13 +7,13 @@ Cantara is Arabic for bridge, and we believe in creating value by bridging. Our 
 > Mature and empower Norwegian software development.
 
 - See [http://cantara.no](http://cantara.no/) for more details about Cantara
-- [Cantara Events and Activities](/web/20220930151740/https://wiki.cantara.no/display/PE/Cantara+Events+and+Activities "Cantara Events and Activities")
+- [Cantara Events and Activities](/web/20220817071311/https://wiki.cantara.no/display/PE/Cantara+Events+and+Activities "Cantara Events and Activities")
 
 # Graphical profile
 
 ## Logo
 
-Logo font: [Marcellus SC](/web/20220930151740/https://wiki.cantara.no/download/attachments/16515095/Marcellus_SC.zip?version=1&modificationDate=1615983765091) (Open Font License)
+Logo font: [Marcellus SC](/web/20220817071311/https://wiki.cantara.no/download/attachments/16515095/Marcellus_SC.zip?version=1&modificationDate=1615983765091) (Open Font License)
 
 **Official new logo introduced 2021**
 

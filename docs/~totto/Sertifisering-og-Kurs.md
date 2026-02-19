@@ -1,0 +1,24 @@
+# Sertifisering og Kurs
+
+- 2008 JavaONE. Del-ansvarlig for java.net standen og foredragsholder på java.net mini-talks. Delansvarlig for arrangeringen av JavaONE sitt community event sammen med JUGS community på java.net. Profilert på storskjerm under hele konferansen som Java Champion
+- 2007 JavaONE. Del-ansvarlig for java.net standen og foredragsholder på java.net mini-talks. Delansvarlig for arrangeringen av JavaONE sitt community event sammen med JUGS community på java.net. Profilert på storskjerm under hele konferansen som Java Champion
+- 2007 Ansvarlig for planlegging og gjennomføringen av Nordens største utviklerkonferanse, som i 2007 hadde 2400 betalende deltakere, fordelt på nesten 120 foredrag.
+- 2006 JavaONE. Del-ansvarlig for java.net standen og foredragsholder på java.net mini-talks. Delansvarlig for arrangeringen av JavaONE sitt community event sammen med JUGS community på java.net. Profilert på storskjerm under hele konferansen som Java Champion
+- 2006 Ansvarlig for planlegging og gjennomføringen av Nordens største utviklerkonferanse, som i 2006 hadde 1400 betalende deltakere, fordelt på nesten 100 foredrag.
+- 2005 JavaONE. Del-ansvarlig for java.net standen og foredragsholder på java.net mini-talks. Delansvarlig for arrangeringen av JavaONE sitt community event sammen med JUGS community på java.net.
+- 2005 JavaZone. Ansvarlig for nordens største utviklerkonferanse, JavaZone
+- 2004 JavaZone. Ansvarlig for nordens største utviklerkonferanse
+- 2004 JavaONE
+- 2003 JavaZone. Ansvarlig og foredragsholder.
+- 2003 Compuware OptimalJ Arkitektkurs på Compuware sitt utviklingslabaratorium i Amsterdam
+- 2002 JavaONE
+- 2002 JavaZone. Ansvarlig og foredragsholder.
+- 2001 JavaONE
+- 2000 JavaONE
+- 2000 Intershop OPEN
+- 1999 JavaONE
+- 1998 JavaONE
+- 1998 Rational Rose
+- 1998 Rational Unified Process
+- 1998 EJB Advanced workshop
+- 1997 JavaONE

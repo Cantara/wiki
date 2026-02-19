@@ -398,26 +398,43 @@ nav:
       - "Policy Advisory Board": OWSOA/Policy-Advisory-Board.md
       - "Presentation Repository": OWSOA/Presentation-Repository.md
       - "Real SOA versus REST": OWSOA/Real-SOA-versus-REST.md
+      - "RecommendedReading": OWSOA/RecommendedReading.md
+      - "Recording Command Pattern": OWSOA/Recording-Command-Pattern.md
+      - "Recording Proxy Pattern": OWSOA/Recording-Proxy-Pattern.md
+      - "Relationship to other SOA strategies FAQ": OWSOA/Relationship-to-other-SOA-strategies-FAQ.md
+      - "Requirements for container application": OWSOA/Requirements-for-container-application.md
       - "SOA Community Home": OWSOA/SOA-Community-Home.md
       - "SOA Patterns": OWSOA/SOA-Patterns.md
       - "SOA - Service Categorization": OWSOA/SOA-Service-Categorization.md
       - "SOA - Services and service invocation": OWSOA/SOA-Services-and-service-invocation.md
       - "SOA for Architects": OWSOA/SOA-for-Architects.md
       - "SOA for Developers": OWSOA/SOA-for-Developers.md
+      - "SOA": OWSOA/SOA.md
       - "SaaS BI Comparison": OWSOA/SaaS-BI-Comparison.md
       - "Scrapyard": OWSOA/Scrapyard.md
       - "Search-driven Business Intelligence": OWSOA/Search-driven-Business-Intelligence.md
+      - "Security Token": OWSOA/Security-Token.md
+      - "Self Monitoring Service Pattern": OWSOA/Self-Monitoring-Service-Pattern.md
       - "Service Assembly Pattern": OWSOA/Service-Assembly-Pattern.md
+      - "Service Categories": OWSOA/Service-Categories.md
+      - "Service Management, Operations and Monitoring": OWSOA/Service-Management-Operations-and-Monitoring.md
       - "Service Manifest": OWSOA/Service-Manifest.md
       - "Service Oriented Architecture FAQ": OWSOA/Service-Oriented-Architecture-FAQ.md
+      - "Smart Service Proxy Pattern": OWSOA/Smart-Service-Proxy-Pattern.md
+      - "Software Design": OWSOA/Software-Design.md
+      - "Source Code": OWSOA/Source-Code.md
+      - "The Laws of SOA": OWSOA/The-Laws-of-SOA.md
       - "Open Web Services & SOA": OWSOA/index.md
   - "Open Data":
+      - "Avinor flytider": OpenData/Avinor-flytider.md
       - "Open Data Home": OpenData/Open-Data-Home.md
       - "Open Data": OpenData/index.md
   - "Platform Engineering":
       - "About Cantara Champions": PE/About-Cantara-Champions.md
       - "Activities": PE/Activities.md
       - "Apache Solr, og hvordan dette brukes hos finn.no": PE/Apache-Solr-og-hvordan-dette-brukes-hos-finn-no.md
+      - "Architecture without Enforcement": PE/Architecture-without-Enforcement.md
+      - "Back-to-the-future - Extreme Programming": PE/Back-to-the-future-Extreme-Programming.md
       - "Bedre tester med Groovy": PE/Bedre-tester-med-Groovy.md
       - "Boost Scrum med Lean tankegang": PE/Boost-Scrum-med-Lean-tankegang.md
       - "C2DM, android push notifikasjoner": PE/C2DM-android-push-notifikasjoner.md
@@ -427,6 +444,11 @@ nav:
       - "CiA2012Track2": PE/CiA2012Track2.md
       - "CiA2012Track3": PE/CiA2012Track3.md
       - "CiA2012Track4": PE/CiA2012Track4.md
+      - "CiA2012Track5": PE/CiA2012Track5.md
+      - "CiA2012Track7": PE/CiA2012Track7.md
+      - "CiA2012Track9": PE/CiA2012Track9.md
+      - "CiA2012Tracks": PE/CiA2012Tracks.md
+      - "Clojure - The Secret to Success": PE/Clojure-The-Secret-to-Success.md
       - "CocoaHeads Oslo": PE/CocoaHeads-Oslo.md
       - "Communities in action 2011": PE/Communities-in-action-2011.md
       - "Communities": PE/Communities.md
@@ -436,16 +458,23 @@ nav:
       - "Crash course in Erlang": PE/Crash-course-in-Erlang.md
       - "Deltakerliste Communities in Action 2010": PE/Deltakerliste-Communities-in-Action-2010.md
       - "DevOps Norway Meetup": PE/DevOps-Norway-Meetup.md
+      - "Energimerkesystem for NVE (energimerking.no)": PE/Energimerkesystem-for-NVE-energimerking-no.md
+      - "Enterprise Domain Repository som integrasjonstrategi": PE/Enterprise-Domain-Repository-som-integrasjonstrategi.md
+      - "Etterretning og bygging av kunnskapsbaser": PE/Etterretning-og-bygging-av-kunnskapsbaser.md
+      - "Everyday functional programming - experiences from a real world Scala project": PE/Everyday-functional-programming-experiences-from-a-real-world-Scala-project.md
       - "Forum": PE/Forum.md
       - "Foundation of Norwegian Software Development Foundation": PE/Foundation-of-Norwegian-Software-Development-Foundation.md
       - "GCW": PE/GCW.md
       - "Geek Cruise 2010 - The reusability battle in agile software development": PE/Geek-Cruise-2010-The-reusability-battle-in-agile-software-development.md
       - "Geek Cruise 23-25 May 2009 - Architects in deep water...": PE/Geek-Cruise-23-25-May-2009-Architects-in-deep-water.md
       - "Geek Cruise February 2009": PE/Geek-Cruise-February-2009.md
+      - "Geek Cruise I, February 2009 - Developer guide to serveriside productivity": PE/Geek-Cruise-I-February-2009-Developer-guide-to-serveriside-productivity.md
+      - "Geek Cruise II, 23-25 May 2009 - Architects in deep water...": PE/Geek-Cruise-II-23-25-May-2009-Architects-in-deep-water.md
       - "Geek Cruise III 2009 - Scalability in 2009": PE/Geek-Cruise-III-2009-Scalability-in-2009.md
       - "Geek Cruise November 2009 - Topic to be decided": PE/Geek-Cruise-November-2009-Topic-to-be-decided.md
       - "Geek Cruise September 2009 - The reusability battle in agile software development": PE/Geek-Cruise-September-2009-The-reusability-battle-in-agile-software-development.md
       - "Geek Safari 2009": PE/Geek-Safari-2009.md
+      - "Getting Groovy on the Web and Desktop": PE/Getting-Groovy-on-the-Web-and-Desktop.md
       - "Go Open 2009 April 16-17th": PE/Go-Open-2009-April-16-17th.md
       - "Gradle vs Maven - Incremental build shootout": PE/Gradle-vs-Maven-Incremental-build-shootout.md
       - "Groovy Collections": PE/Groovy-Collections.md
@@ -453,7 +482,9 @@ nav:
       - "HomlmsbuInfo": PE/HomlmsbuInfo.md
       - "How can I be available for the development team": PE/How-can-I-be-available-for-the-development-team.md
       - "How to help ivory tower architects to support agile and productive projects": PE/How-to-help-ivory-tower-architects-to-support-agile-and-productive-projects.md
+      - "Hvordan utnytte programvarekompleksitet til din fordel": PE/Hvordan-utnytte-programvarekompleksitet-til-din-fordel.md
       - "IASA Norge": PE/IASA-Norge.md
+      - "Ildsjel i Cantara": PE/Ildsjel-i-Cantara.md
       - "Info": PE/Info.md
       - "Introduksjon til Scala Actors": PE/Introduksjon-til-Scala-Actors.md
       - "Invitasjon til Communities in Action 2010": PE/Invitasjon-til-Communities-in-Action-2010.md
@@ -462,22 +493,33 @@ nav:
       - "JohannesBrodwall": PE/JohannesBrodwall.md
       - "LT2 Why my company went broke by its own success - a web2.0 start-up story..": PE/LT2-Why-my-company-went-broke-by-its-own-success-a-web2-0-start-up-story.md
       - "LT7 I hate clouds": PE/LT7-I-hate-clouds.md
+      - "Linked data og konsumering i praksis": PE/Linked-data-og-konsumering-i-praksis.md
       - "List of participants - Geek Cruise 2009 - May": PE/List-of-participants-Geek-Cruise-2009-May.md
       - "List of participants - Geek Cruise 2009": PE/List-of-participants-Geek-Cruise-2009.md
       - "MalaRIA proxy - en av farene ved usikker konfigurasjon": PE/MalaRIA-proxy-en-av-farene-ved-usikker-konfigurasjon.md
       - "NNUG Oslo": PE/NNUG-Oslo.md
       - "Navigation": PE/Navigation.md
+      - "Nyere forsknigsresultater som er viktige for arkitekten": PE/Nyere-forsknigsresultater-som-er-viktige-for-arkitekten.md
+      - "Nytt i Scala 2.8, ferskt fra scaladays": PE/Nytt-i-Scala-2-8-ferskt-fra-scaladays.md
       - "OWASP": PE/OWASP.md
       - "Old Activities": PE/Old-Activities.md
+      - "Ordrebehandlingssystem for Reinertsen byggherre": PE/Ordrebehandlingssystem-for-Reinertsen-byggherre.md
       - "Oslo Perl Mongers": PE/Oslo-Perl-Mongers.md
       - "OsloCommunities": PE/OsloCommunities.md
       - "OsloConferences": PE/OsloConferences.md
+      - "Perl - a bit like Ruby, but with a usable object system": PE/Perl-a-bit-like-Ruby-but-with-a-usable-object-system.md
+      - "Plenumsdiskusjon - Databruk i Glimt-kalenderen": PE/Plenumsdiskusjon-Databruk-i-Glimt-kalenderen.md
+      - "Practical Tips for Rakudo Star": PE/Practical-Tips-for-Rakudo-Star.md
+      - "Praktisk bruk av HTTP": PE/Praktisk-bruk-av-HTTP.md
+      - "Presenting OLAP-data using CUBE functions in Excel for fun and profits": PE/Presenting-OLAP-data-using-CUBE-functions-in-Excel-for-fun-and-profits.md
       - "Presseklipp": PE/Presseklipp.md
       - "Program CiA 2011": PE/Program-CiA-2011.md
       - "Program Communities in Action 2010": PE/Program-Communities-in-Action-2010.md
       - "REST er ikke RPC for svarte!": PE/REST-er-ikke-RPC-for-svarte.md
       - "Real-life Node.js. Push-meldinger og nettlesertesting": PE/Real-life-Node-js-Push-meldinger-og-nettlesertesting.md
       - "Registrering av stiftere": PE/Registrering-av-stiftere.md
+      - "Responsive Design": PE/Responsive-Design.md
+      - "Scala og Clojure": PE/Scala-og-Clojure.md
       - "Simple Build Tool": PE/Simple-Build-Tool.md
       - "Smidig Coaching": PE/Smidig-Coaching.md
       - "Stiftelsesinvitasjon": PE/Stiftelsesinvitasjon.md
@@ -492,22 +534,38 @@ nav:
       - "scalaBin": PE/scalaBin.md
       - "utviklerhuset": PE/utviklerhuset.md
   - "TANK":
+      - "KM: ThinkTank Blog from October, 2020": TANK/2020_10_.md
+      - "Aggregated Norwegian Software Development blogroller (Norwegian only)": TANK/Aggregated-Norwegian-Software-Development-blogroller-Norwegian-only.md
       - "Aggregated Norwegian Software Development blogroller (english)": TANK/Aggregated-Norwegian-Software-Development-blogroller-english.md
       - "Norwegian software development twitter community": TANK/Norwegian-software-development-twitter-community.md
+      - "SearchNavigation": TANK/SearchNavigation.md
+      - "TreeNavigation": TANK/TreeNavigation.md
+      - ".bookmarks": TANK/bookmarks.md
       - "Home": TANK/index.md
   - "aa":
       - "Home": aa/index.md
   - "Software Architecture":
+      - "Aggregate": architecture/Aggregate.md
       - "Agile and Software Architecture": architecture/Agile-and-Software-Architecture.md
       - "Architectural drivers": architecture/Architectural-drivers.md
+      - "At-least once semantics": architecture/At-least-once-semantics.md
+      - "Clear and consistent responsibility power all great architectures": architecture/Clear-and-consistent-responsibility-power-all-great-architectures.md
+      - "Communication channels in a learning organization": architecture/Communication-channels-in-a-learning-organization.md
       - "Domain-Driven Design (DDD) in practice": architecture/Domain-Driven-Design-DDD-in-practice.md
+      - "Domain-Driven Design (DDD)": architecture/Domain-Driven-Design-DDD.md
       - "Domain Object Types": architecture/Domain-Object-Types.md
       - "Domain Service": architecture/Domain-Service.md
       - "Entity": architecture/Entity.md
       - "Factory": architecture/Factory.md
       - "Laws for Organization Architects": architecture/Laws-for-Organization-Architects.md
       - "Laws for Project Architects": architecture/Laws-for-Project-Architects.md
+      - "Learning circle": architecture/Learning-circle.md
+      - "Learning organization": architecture/Learning-organization.md
+      - "Micro services": architecture/Micro-services.md
       - "NoSQL alternative to RDBMS - CRUD app": architecture/NoSQL-alternative-to-RDBMS-CRUD-app.md
+      - "Repository": architecture/Repository.md
+      - "Scalability and HA requirements for distributed systems": architecture/Scalability-and-HA-requirements-for-distributed-systems.md
+      - "Security requirements for distributed systems": architecture/Security-requirements-for-distributed-systems.md
       - "Software Architecture Knowledge Management Home": architecture/Software-Architecture-Knowledge-Management-Home.md
       - "The Cost of reuse versus duplication": architecture/The-Cost-of-reuse-versus-duplication.md
       - "Thou shall always revisit the architecture axiom - Clear and consistent responsibilities powers all great architectures": architecture/Thou-shall-always-revisit-the-architecture-axiom-Clear-and-consistent-responsibilities-powers-all-great-architectures.md
@@ -522,42 +580,111 @@ nav:
       - "Thou shalt strive to find and understand your limitations": architecture/Thou-shalt-strive-to-find-and-understand-your-limitations.md
       - "Tre-lags monolitiske web-applikasjoner": architecture/Tre-lags-monolitiske-web-applikasjoner.md
       - "Typical micro service technology stack (java)": architecture/Typical-micro-service-technology-stack-java.md
+      - "Ubiquitous Language": architecture/Ubiquitous-Language.md
       - "Software Architecture": architecture/index.md
+      - "lightweight architecture": architecture/lightweight-architecture.md
   - "Blitz":
       - "Blitz Wiki - Home": blitz/Blitz-Wiki-Home.md
+      - "Navigation": blitz/Navigation.md
+      - "Statistics": blitz/Statistics.md
       - "Blitz": blitz/index.md
   - "Agile Development":
+      - "KM: Software Development Blog from May, 2021": dev/2021_05_.md
       - "4 plus 1 View Model": dev/4-plus-1-View-Model.md
       - "Agile Mindset and Methodology": dev/Agile-Mindset-and-Methodology.md
       - "Agile Software Development Home": dev/Agile-Software-Development-Home.md
+      - "Agile projects and contracts": dev/Agile-projects-and-contracts.md
+      - "Android": dev/Android.md
+      - "Build pipeline": dev/Build-pipeline.md
+      - "CORS": dev/CORS.md
       - "CSRF": dev/CSRF.md
       - "Canvas": dev/Canvas.md
       - "Cargo Cult": dev/Cargo-Cult.md
       - "Code coverage using Surefire, TestNG, Jacoco and Sonar": dev/Code-coverage-using-Surefire-TestNG-Jacoco-and-Sonar.md
+      - "Code review": dev/Code-review.md
+      - "Conditional requests": dev/Conditional-requests.md
       - "Copy of Timeline": dev/Copy-of-Timeline.md
+      - "Definition of Done": dev/Definition-of-Done.md
+      - "Deploy AWS Lambda": dev/Deploy-AWS-Lambda.md
       - "Deployment and Configuration": dev/Deployment-and-Configuration.md
+      - "DevOps": dev/DevOps.md
+      - "Docker": dev/Docker.md
+      - "Documentation": dev/Documentation.md
+      - "Embedded ActiveMQ JMS Server (Spring)": dev/Embedded-ActiveMQ-JMS-Server-Spring.md
+      - "Environment versioning": dev/Environment-versioning.md
+      - "Error Handling And Exception Management": dev/Error-Handling-And-Exception-Management.md
+      - "Evaluation of tactics according to organizational drivers": dev/Evaluation-of-tactics-according-to-organizational-drivers.md
+      - "Excellent Books": dev/Excellent-Books.md
+      - "Executable uber-jar using maven-shade-plugin": dev/Executable-uber-jar-using-maven-shade-plugin.md
+      - "Extreme Agile": dev/Extreme-Agile.md
+      - "Frontend": dev/Frontend.md
+      - "Glossary": dev/Glossary.md
       - "Gummy Bears": dev/Gummy-Bears.md
+      - "HTML 5 Code Camp": dev/HTML-5-Code-Camp.md
       - "HTTP request compression": dev/HTTP-request-compression.md
+      - "HTTP response compression and related security exploits": dev/HTTP-response-compression-and-related-security-exploits.md
+      - "How to use TestNG groups to implement JigZaw": dev/How-to-use-TestNG-groups-to-implement-JigZaw.md
+      - "IAM - Identity and Access Management": dev/IAM-Identity-and-Access-Management.md
       - "IAM Terminology": dev/IAM-Terminology.md
+      - "Index": dev/Index.md
       - "Installation and Deployment Automation": dev/Installation-and-Deployment-Automation.md
       - "JRuby": dev/JRuby.md
       - "JaMaCU Deployment Strategy": dev/JaMaCU-Deployment-Strategy.md
       - "JigZaw Multidimensional Test Categorization": dev/JigZaw-Multidimensional-Test-Categorization.md
       - "JigZaw": dev/JigZaw.md
       - "Kanban": dev/Kanban.md
+      - "License - the short version": dev/License-the-short-version.md
+      - "Lightweight alternatives to heavyweight technologies": dev/Lightweight-alternatives-to-heavyweight-technologies.md
+      - "Logging": dev/Logging.md
+      - "Maven FAQ": dev/Maven-FAQ.md
+      - "Maven Infrastructure": dev/Maven-Infrastructure.md
+      - "Maximize value of testing": dev/Maximize-value-of-testing.md
+      - "Messaging in the cloud": dev/Messaging-in-the-cloud.md
+      - "Microservices-scalable Front Door": dev/Microservices-scalable-Front-Door.md
+      - "Monitoring": dev/Monitoring.md
+      - "Navigation": dev/Navigation.md
       - "Other": dev/Other.md
+      - "Persistence": dev/Persistence.md
+      - "Planning Poker": dev/Planning-Poker.md
+      - "Practices": dev/Practices.md
+      - "Presentations and Publications": dev/Presentations-and-Publications.md
+      - "Pull-based Continuous Delivery for Java applications": dev/Pull-based-Continuous-Delivery-for-Java-applications.md
+      - "Pull-based Continuous Delivery with Java and Docker": dev/Pull-based-Continuous-Delivery-with-Java-and-Docker.md
       - "Quotes on Complexity": dev/Quotes-on-Complexity.md
+      - "REST": dev/REST.md
+      - "Resources and required reading": dev/Resources-and-required-reading.md
+      - "Resources": dev/Resources.md
+      - "Retrospectives": dev/Retrospectives.md
       - "SQL": dev/SQL.md
       - "Sandbox": dev/Sandbox.md
+      - "Scaled Agile Framework": dev/Scaled-Agile-Framework.md
       - "Security": dev/Security.md
+      - "Smoother Development with Maven FAQ": dev/Smoother-Development-with-Maven-FAQ.md
       - "Software Craftsmanship": dev/Software-Craftsmanship.md
+      - "Strategies": dev/Strategies.md
+      - "Tactics": dev/Tactics.md
+      - "Tech stack for modern frontend": dev/Tech-stack-for-modern-frontend.md
+      - "Technology for Distributed Contexts": dev/Technology-for-Distributed-Contexts.md
+      - "Terminology": dev/Terminology.md
+      - "Test-Driven Development": dev/Test-Driven-Development.md
+      - "Test Frameworks and Tools": dev/Test-Frameworks-and-Tools.md
+      - "Test": dev/Test.md
+      - "The Diary": dev/The-Diary.md
+      - "The intrusiveness blacklist": dev/The-intrusiveness-blacklist.md
       - "Timeline": dev/Timeline.md
+      - "Tools": dev/Tools.md
+      - "Versioning": dev/Versioning.md
+      - "Webapp caching strategy": dev/Webapp-caching-strategy.md
+      - "Zero downtime deployment with ECS": dev/Zero-downtime-deployment-with-ECS.md
       - "Code coverage using Surefire, TestNG, Jacoco and Sonar": dev/code-coverage-using-surefire-testng-jacoco-and-sonar.md
       - "Agile Development": dev/index.md
+      - "Smoother Development with Maven FAQ": dev/smoother-development-with-maven-faq.md
   - "DevHouse":
       - "Utviklerhuset": devhouse/Utviklerhuset.md
       - "DevHouse": devhouse/index.md
   - "IoT":
+      - "Home": iot/Home-showCommentArea-true.md
+      - "IoT - Actuators": iot/IoT-Actuators.md
       - "Home": iot/index.md
   - "mactor":
       - "MActor Home": mactor/index.md
@@ -570,6 +697,10 @@ nav:
       - "Java SSL - Keystores": security/Java-SSL-Keystores.md
       - "Home": security/index.md
   - "Smidig":
+      - "ORG: Smidig Blog from February, 2021": smidig/2021_02_.md
+      - "ORG: Smidig Blog from February, 2023": smidig/2023_02_.md
+      - "Bli enige om priser": smidig/Bli-enige-om-priser.md
+      - "Flytte statiske sider inn i applikasjonen": smidig/Flytte-statiske-sider-inn-i-applikasjonen.md
       - "Forbedringer i brukergrensesnitt": smidig/Forbedringer-i-brukergrensesnitt.md
       - "Frie ideer for smidig2010": smidig/Frie-ideer-for-smidig2010.md
       - "Konferanseapplikasjonen": smidig/Konferanseapplikasjonen.md
@@ -605,25 +736,49 @@ nav:
       - "Home": sysadm/index.md
   - "Whydah (IAM/SSO)":
       - "2.0-alpha-1 release notes": whydah/2-0-alpha-1-release-notes.md
+      - "3.Party Access Providers": whydah/3-Party-Access-Providers.md
+      - "AWS Provisioning": whydah/AWS-Provisioning.md
       - "Activities": whydah/Activities.md
+      - "Advanced ACL using graph database": whydah/Advanced-ACL-using-graph-database.md
+      - "Agenda Whydah workshop 23-24jan": whydah/Agenda-Whydah-workshop-23-24jan.md
       - "Application Authentication": whydah/Application-Authentication.md
+      - "Application Data Structures": whydah/Application-Data-Structures.md
       - "Application configuration": whydah/Application-configuration.md
       - "ApplicationCredential": whydah/ApplicationCredential.md
+      - "ApplicationToken": whydah/ApplicationToken.md
       - "Applications_json": whydah/Applications_json.md
+      - "Architecture Overview": whydah/Architecture-Overview.md
       - "CRMService": whydah/CRMService.md
+      - "Contributing to Whydah - demo and test installation": whydah/Contributing-to-Whydah-demo-and-test-installation.md
       - "Contributing to Whydah": whydah/Contributing-to-Whydah.md
+      - "Core design requirements and Whydah support": whydah/Core-design-requirements-and-Whydah-support.md
+      - "DEFCON - System threat mechanisms": whydah/DEFCON-System-threat-mechanisms.md
+      - "Development and test FAQ": whydah/Development-and-test-FAQ.md
+      - "Docker installation of all whydah modules": whydah/Docker-installation-of-all-whydah-modules.md
+      - "Docker swarm test": whydah/Docker-swarm-test.md
+      - "ER-diagram for persistent entities": whydah/ER-diagram-for-persistent-entities.md
+      - "Example Whydah 2.1 installation Cantara QA": whydah/Example-Whydah-2-1-installation-Cantara-QA.md
+      - "Facebook configuration": whydah/Facebook-configuration.md
+      - "Getting started": whydah/Getting-started.md
+      - "Historic release documentation": whydah/Historic-release-documentation.md
+      - "IAM for multi-tenant applications": whydah/IAM-for-multi-tenant-applications.md
+      - "IAM_MODE": whydah/IAM_MODE.md
+      - "Install OpenLDAP for UIB": whydah/Install-OpenLDAP-for-UIB.md
       - "Install UserIdentityBackend - devtest": whydah/Install-UserIdentityBackend-devtest.md
       - "Install UserIdentityBackend": whydah/Install-UserIdentityBackend.md
       - "Installation and configuration of ApacheDS for Whydah": whydah/Installation-and-configuration-of-ApacheDS-for-Whydah.md
       - "Installing Whydah": whydah/Installing-Whydah.md
       - "Integrating with Whydah": whydah/Integrating-with-Whydah.md
       - "Integration tutorials": whydah/Integration-tutorials.md
+      - "Integration with LDAP and Active Directory": whydah/Integration-with-LDAP-and-Active-Directory.md
       - "Internal authentication and authorization in Whydah": whydah/Internal-authentication-and-authorization-in-Whydah.md
       - "Key Whydah Data Structures": whydah/Key-Whydah-Data-Structures.md
       - "On-behalf-of relations": whydah/On-behalf-of-relations.md
       - "Password management": whydah/Password-management.md
       - "SSOLoginWebApp HA configuration (AWS ELB and Apache front)": whydah/SSOLoginWebApp-HA-configuration-AWS-ELB-and-Apache-front.md
       - "SSOLoginWebApp - SSOLWA": whydah/SSOLoginWebApp-SSOLWA.md
+      - "STS": whydah/STS.md
+      - "Security": whydah/Security.md
       - "SecurityTokenService HA configuration (AWS EC2 Hazelcast)": whydah/SecurityTokenService-HA-configuration-AWS-EC2-Hazelcast.md
       - "SecurityTokenService - STS": whydah/SecurityTokenService-STS.md
       - "ServiceDocTemplate": whydah/ServiceDocTemplate.md
@@ -631,23 +786,58 @@ nav:
       - "Statistics Reporting Service-Interfaces": whydah/Statistics-Reporting-Service-Interfaces.md
       - "StatisticsService-ClientLibrary": whydah/StatisticsService-ClientLibrary.md
       - "StatisticsService": whydah/StatisticsService.md
+      - "TestWebApp": whydah/TestWebApp.md
       - "Testdata": whydah/Testdata.md
+      - "UAS configuration tags": whydah/UAS-configuration-tags.md
       - "UAS": whydah/UAS.md
+      - "UIB Data storage - persistence": whydah/UIB-Data-storage-persistence.md
       - "UIB services (API)": whydah/UIB-services-API.md
+      - "User Administration": whydah/User-Administration.md
+      - "User Authentication": whydah/User-Authentication.md
+      - "User Data Structures": whydah/User-Data-Structures.md
+      - "User Single Sign-On": whydah/User-Single-Sign-On.md
+      - "User authorization": whydah/User-authorization.md
+      - "User directory strategy": whydah/User-directory-strategy.md
       - "User groups": whydah/User-groups.md
+      - "User self-service": whydah/User-self-service.md
+      - "UserAdminSerice - impementation": whydah/UserAdminSerice-impementation.md
       - "UserAdminService Interfaces": whydah/UserAdminService-Interfaces.md
+      - "UserAdminService - UAS": whydah/UserAdminService-UAS.md
+      - "UserAdminWebApp - UAWA": whydah/UserAdminWebApp-UAWA.md
+      - "UserCredential": whydah/UserCredential.md
+      - "UserIdentity": whydah/UserIdentity.md
+      - "UserIdentityBackend - UIB": whydah/UserIdentityBackend-UIB.md
+      - "UserToken": whydah/UserToken.md
+      - "Whydah 2.0 - Release Log": whydah/Whydah-2-0-Release-Log.md
       - "Whydah 2.1 - Release Log": whydah/Whydah-2-1-Release-Log.md
+      - "Whydah 2.10 - Release Log": whydah/Whydah-2-10-Release-Log.md
+      - "Whydah 2.11 - Release Log": whydah/Whydah-2-11-Release-Log.md
+      - "Whydah 2.12 - Release Log": whydah/Whydah-2-12-Release-Log.md
+      - "Whydah 2.13 - Release Log": whydah/Whydah-2-13-Release-Log.md
       - "Whydah 2.2 - Release Log": whydah/Whydah-2-2-Release-Log.md
       - "Whydah 2.3 - Release Log": whydah/Whydah-2-3-Release-Log.md
       - "Whydah 2.4 - Release Log": whydah/Whydah-2-4-Release-Log.md
       - "Whydah 2.5 - Release Log": whydah/Whydah-2-5-Release-Log.md
       - "Whydah 2.6 - Release Log": whydah/Whydah-2-6-Release-Log.md
+      - "Whydah 2.7 - Release Log": whydah/Whydah-2-7-Release-Log.md
       - "Whydah 2.8 - Release Log": whydah/Whydah-2-8-Release-Log.md
+      - "Whydah 2.9 - Release Log": whydah/Whydah-2-9-Release-Log.md
+      - "Whydah 2.* - Release log": whydah/Whydah-2-Release-log.md
+      - "Whydah 3.0 - Encrypted tokens and high security applications": whydah/Whydah-3-0-Encrypted-tokens-and-high-security-applications.md
+      - "Whydah 4.0 - DEFCON and handling installations under attack": whydah/Whydah-4-0-DEFCON-and-handling-installations-under-attack.md
       - "Whydah - API authentication tutorial": whydah/Whydah-API-authentication-tutorial.md
+      - "Whydah Administration Questions": whydah/Whydah-Administration-Questions.md
+      - "Whydah Architecture": whydah/Whydah-Architecture.md
       - "Whydah Client SDK": whydah/Whydah-Client-SDK.md
+      - "Whydah Contributors": whydah/Whydah-Contributors.md
+      - "Whydah Docker packaging strategy": whydah/Whydah-Docker-packaging-strategy.md
+      - "Whydah FAQ": whydah/Whydah-FAQ.md
       - "Whydah Key Features": whydah/Whydah-Key-Features.md
       - "Whydah Modules": whydah/Whydah-Modules.md
+      - "Whydah OpenLDAP Docker image": whydah/Whydah-OpenLDAP-Docker-image.md
+      - "Whydah Presentations": whydah/Whydah-Presentations.md
       - "Whydah Releases": whydah/Whydah-Releases.md
+      - "Whydah - Session validation tutorial": whydah/Whydah-Session-validation-tutorial.md
       - "Whydah Typelib": whydah/Whydah-Typelib.md
       - "Whydah UserAdmin for 3. party applications.": whydah/Whydah-UserAdmin-for-3-party-applications.md
       - "Whydah deployment alternatives": whydah/Whydah-deployment-alternatives.md
@@ -661,6 +851,8 @@ nav:
       - "Workshop Whydah 2015-1": whydah/Workshop-Whydah-2015-1.md
       - "Workshop Whydah 2015-2": whydah/Workshop-Whydah-2015-2.md
       - "Workshop Whydah 2016-1": whydah/Workshop-Whydah-2016-1.md
+      - "Workshop Whydah 2016-2": whydah/Workshop-Whydah-2016-2.md
+      - "config of smsgw": whydah/config-of-smsgw.md
       - "Whydah Home": whydah/index.md
   - "~andersb":
       - "Home": ~andersb/index.md
@@ -668,6 +860,11 @@ nav:
       - "Home": ~anton@antonbabenko.com/Home-showCommentArea-true.md
       - "Home": ~anton@antonbabenko.com/index.md
   - "User: baard.lind":
+      - "Create Archetype": ~baard.lind/Create-Archetype.md
+      - "Expected Baseline of Java-Agile-Developer": ~baard.lind/Expected-Baseline-of-Java-Agile-Developer.md
+      - "Find WebService in java files": ~baard.lind/Find-WebService-in-java-files.md
+      - "Foredrag - Brannveggen lekker - flerlags sikkerhet er ditt nye designpattern": ~baard.lind/Foredrag-Brannveggen-lekker-flerlags-sikkerhet-er-ditt-nye-designpattern.md
+      - "Foredrag": ~baard.lind/Foredrag.md
       - "Git Init script": ~baard.lind/Git-Init-script.md
       - "Gliffy": ~baard.lind/Gliffy.md
       - "Grandiosa Fabrikken": ~baard.lind/Grandiosa-Fabrikken.md
@@ -681,6 +878,7 @@ nav:
       - "Home": ~baard.lind/index.md
   - "User: dagb":
       - "Groking Software Architecture": ~dagb/2010_09_27_Groking-Software-Architecture.md
+      - "ShortBio": ~dagb/ShortBio.md
       - "Home": ~dagb/index.md
   - "~hkokko":
       - "Hannu Kokko": ~hkokko/index.md
@@ -691,6 +889,7 @@ nav:
   - "~niklas@leanway.no":
       - "Niklas Bjørnerstedt": ~niklas@leanway.no/index.md
   - "~sharebear":
+      - "Jonathan Share Blog from May, 2021": ~sharebear/2021_05_.md
       - "Home": ~sharebear/index.md
   - "~sherriff":
       - "Home": ~sherriff/index.md
@@ -698,6 +897,7 @@ nav:
   - "~steinim":
       - "Home": ~steinim/index.md
   - "User: totto":
+      - "Thor Henning Hetland Blog from February, 2009": ~totto/2009_02.md
       - "Amazon CloudFront": ~totto/2009_02_24_Amazon-CloudFront.md
       - "Cloud definition misses the point....": ~totto/2009_02_24_Cloud-definition-misses-the-point.md
       - "Cloud definitions in despair..  (Gartner)": ~totto/2009_02_24_Cloud-definitions-in-despair-Gartner.md
@@ -727,8 +927,19 @@ nav:
       - "Erfaring": ~totto/Erfaring.md
       - "Experience": ~totto/Experience.md
       - "Fagkompetanse": ~totto/Fagkompetanse.md
+      - "Food and Wine in Norway": ~totto/Food-and-Wine-in-Norway.md
+      - "Presentations and publications": ~totto/Presentations-and-publications.md
+      - "Prosjekt CV": ~totto/Prosjekt-CV.md
       - "Query": ~totto/Query.md
+      - "Sci-Fi litterature": ~totto/Sci-Fi-litterature.md
+      - "Sci-fi books read 2012": ~totto/Sci-fi-books-read-2012.md
       - "Sci-fi books read 2013": ~totto/Sci-fi-books-read-2013.md
+      - "Sci-fi books read 2014": ~totto/Sci-fi-books-read-2014.md
+      - "Sci-fi books read 2015": ~totto/Sci-fi-books-read-2015.md
+      - "Sertifisering og Kurs": ~totto/Sertifisering-og-Kurs.md
       - "ShortBio": ~totto/ShortBio.md
+      - "Twitter backup": ~totto/Twitter-backup.md
+      - "Utdannelse": ~totto/Utdannelse.md
+      - "XP Meetup - Software Architecture versus Agile - panel": ~totto/XP-Meetup-Software-Architecture-versus-Agile-panel.md
       - "User: totto": ~totto/index.md
       - "test": ~totto/test.md

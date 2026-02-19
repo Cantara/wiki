@@ -1,0 +1,6 @@
+# Back-to-the-future - Extreme Programming
+
+Ta en tidsreise tilbake før "agile" het "agile". Det er over ti år siden Extreme Programming først ble lansert. I motsetning til moderne "touchy-feely" metoder som Scrum, besto XP for ti år siden av 12 teknikker som man måtte bruke på prosjektet for å kunne kalle det et Extreme Programming prosjekt. For ti år siden var disse teknikkene ambisiøse for prosjekter. I dag er de realistiske for mange å innføre. Og man kan oppnå en kjempeeffekt av å innføre dem. Johannes snakker i dette foredraget om verdiene som ga grunnlaget for Extreme Programming og hvordan de 12 teknikkene i den originale beskrivelsen av Extreme Programming hjelper ham på prosjekter den dag i dag.
+
+Speaker: **Johannes Brodwall**  
+*Johannes er chief scientist i Steria. Han tar et helhetsperspektiv i sine prosjekter for å forstå hvordan et sammensatt bilde av teknologier og fagområder skaper verdi for brukerne av systemet. Johannes organiserer aktiviteter i det fagmiljøet rundt Smidige metoder i Oslo. Hans mest tidkrevende fritidsinteresser er arrangeringen av Oslo XP meetup og den årlige Smidig-konferansen. Han er en gjenganger som foredragsholder i Java- og Smidig-fagmiljøer i Oslo og skriver også om utvikling på sin blog på [http://johannesbrodwall.com](http://johannesbrodwall.com/)*

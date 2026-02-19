@@ -35,9 +35,9 @@ A set of stereotype classes implement the responsibility required in for this pa
 
 The DomainPersistenceServiceEndpoint stereotype is responsible for exposing the single active operation for the service:
 
-```
+Unknown macro: {code}
+
 string PerformOperation(string operationPayload, string requestPayload)
-```
 
 The DomainPersistenceServiceEndpoint is responsible for calling the OperationInterpreter to retrieve the corresponding Command.
 
@@ -64,7 +64,7 @@ TBD
 ### Related patterns and implementations
 
 - [Consumer-Driven Contracts: A Service Evolution Pattern](http://martinfowler.com/articles/consumerDrivenContracts.html)
-- [Service Dialect Adapter pattern implemented as JAX-WS handler](/web/20100823233438/http://wiki.cantara.no/display/OWSOA/Service+Dialect+Adapter+pattern+implemented+as+JAX-WS+handler "Service Dialect Adapter pattern implemented as JAX-WS handler")
+- [Service Dialect Adapter pattern implemented as JAX-WS handler](/web/20230928103330/https://wiki.cantara.no/display/OWSOA/Service+Dialect+Adapter+pattern+implemented+as+JAX-WS+handler "Service Dialect Adapter pattern implemented as JAX-WS handler")
 
 ### Extensions / Advanced Scenarios
 
@@ -87,4 +87,4 @@ The [NotUnderstood Tracking Pattern] can extend the Evolving Service Endpoint Pa
 
 The [Evolving Service Validation Pattern] enables complex validation logic for requests to the service to be handled internally. This pattern ensures that all rules are exposed to clients, but implementation of the logic is maintained and enforced by the service itself. Clients may implement their own enforcement of the logic, or rely on the service validation operations to validate requests.
 
-The [Evolving Service Validation Pattern] is targeted at enforcing complex businesslevel validation logic and should be used in context with the [Enterprise Domain Repository Pattern](/web/20100823233438/http://wiki.cantara.no/display/OWSOA/Enterprise+Domain+Repository+Pattern "Enterprise Domain Repository Pattern").
+The [Evolving Service Validation Pattern] is targeted at enforcing complex businesslevel validation logic and should be used in context with the [Enterprise Domain Repository Pattern](/web/20230928103330/https://wiki.cantara.no/display/OWSOA/Enterprise+Domain+Repository+Pattern "Enterprise Domain Repository Pattern").
