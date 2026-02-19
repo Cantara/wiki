@@ -1,6 +1,6 @@
 # Why do Software Projects Fail - panel discussion topics
 
-See also [Definition of success - notes](Definition<sub>~of</sub><sub>success</sub><sub>notes.md) and [How to improve success rate - notes](How</sub><sub>to</sub><sub>improve</sub><sub>success</sub><sub>rate</sub>~notes.md). 
+See also [Definition of success - notes](Definition-of-success-notes.md) and [How to improve success rate - notes](How-to-improve-success-rate-notes.md). 
 
 ###### Definition of success 
 
@@ -17,7 +17,7 @@ See also [Definition of success - notes](Definition<sub>~of</sub><sub>success</s
     - Almost 10 billion (milliarder) NOK in profits in 2004-2008. 
     - 9,2 billion NOK devaluations (nedskrivninger) in 2009-2011
     - Statoil is considering all options for the future of Mongstad oil refinery
-    - src: [aftenposten](http://www.aftenposten.no/okonomi/innland/Statoil<sub>~vurderer</sub><sub>a</sub><sub>legge</sub><sub>ned</sub><sub>Mongstad</sub>~6794429.html) 
+    - src: [aftenposten](http://www.aftenposten.no/okonomi/innland/Statoil-vurderer-a-legge-ned-Mongstad-6794429.html) 
 
 ###### How to improve success rate? 
 

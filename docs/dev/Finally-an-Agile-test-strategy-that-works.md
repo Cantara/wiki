@@ -11,9 +11,9 @@
 ## Abstract
 
 Traditional test strategies were typically created in the context of a specific methodology
-(like for example the waterfall model) and are unsuited for the service<sub>~oriented and test</sub>~driven
+(like for example the waterfall model) and are unsuited for the service-oriented and test-driven
 development methodologies we use today. We suggest an agile alternative based on concepts from
-Domain<sub>~Driven Design, the Single</sub>~Responsibility Principle and our experiences from working agilely on
+Domain-Driven Design, the Single-Responsibility Principle and our experiences from working agilely on
 complex, distributed systems.
 
 The test-model is founded on the concept that one complex test is harder to write and maintain than multiple smaller, more concise tests.
@@ -25,11 +25,11 @@ test-scenarios into dimensions like
 
 These dimensions are used to categorize and group the tests and makes it possible to take the Continuous Integration concept to a new level.
 
-This test<sub>~model has proven its value in complex, real</sub>~world projects. Examples from these projects will be used
+This test-model has proven its value in complex, real-world projects. Examples from these projects will be used
 to show how this test model can be implemented with popular Open Source Software like TestNG and Maven.
 We will also share experienced benefits from using this model compared to traditional test-strategies.
 
-Keywords: DDD, TDD, Single<sub>~Responsibility</sub>~Principle, Continuous Integration, Maven, Maven artifact repository and TestNG.
+Keywords: DDD, TDD, Single-Responsibility-Principle, Continuous Integration, Maven, Maven artifact repository and TestNG.
 
 Participants can expect to learn
 - A new approach to testing.
@@ -87,7 +87,7 @@ Participants can expect to learn
 
 #### OW test model (what) (25 min)
 
-- A test should have only one reason to change (Single Responsibility Principle and divide<sub>~&</sub>~conquer)
+- A test should have only one reason to change (Single Responsibility Principle and divide-&-conquer)
     - data / no data
     - environment / no environment
 
@@ -129,8 +129,8 @@ Participants can expect to learn
 ###### Bård Lind
 
 Bård has been working with distributed computing for more than 10 years, most of these in financial enterprises. During his work he has
-seen how lack of test<sub>~capabilites had a negative inpact on the end</sub>~product. 
-Currently Bård works i Objectware as senior<sub>~consultant, mentor and architect. Bård is a mayor contributor to Obectware´s EA</sub>~SOA (Enterprise Architecture and SOA) Research and Development group. 
+seen how lack of test-capabilites had a negative inpact on the end-product. 
+Currently Bård works i Objectware as senior-consultant, mentor and architect. Bård is a mayor contributor to Obectware´s EA-SOA (Enterprise Architecture and SOA) Research and Development group. 
 
 Motivating teams to work better together, and see all we can accomplish together is a major driver in Bård´s work. 
 

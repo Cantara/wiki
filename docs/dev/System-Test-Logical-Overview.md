@@ -25,7 +25,7 @@ Our suggestion on how to automate your tests when your services and applications
 ###### 1. Verify valid system state.
 
 TODO: Examples on how wold be nice.
-A description on how to run this verification (manually or automatically) should also be included in the [SysAdmin Production Toolbox](SysAdmin<sub>~Production</sub>~Toolbox.md). 
+A description on how to run this verification (manually or automatically) should also be included in the [SysAdmin Production Toolbox](SysAdmin-Production-Toolbox.md). 
 
 **Idea** Service manifesto extension: All services should include ping - "I'm alive and healthy"
 

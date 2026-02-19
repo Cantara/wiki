@@ -1,7 +1,7 @@
 # Nexus configuration tips
 
 ###### Use case: Open repositories and secured repositories in the same Nexus installation. 
-See also https://support.sonatype.com/entries/24901127<sub>~Sonatype</sub><sub>Nexus</sub><sub>Security</sub>~Cookbook. 
+See also https://support.sonatype.com/entries/24901127-Sonatype-Nexus-Security-Cookbook. 
 
 1. Set up anonymous user 
     1. Remove access for the anonymous user to all repositories. 
@@ -9,7 +9,7 @@ See also https://support.sonatype.com/entries/24901127<sub>~Sonatype</sub><sub>N
     1. Create a new role with view and read access to _releases_ and _snapshots_ repositories. 
     1. Assign this role to the anonymous user 
 1. Set up repositories for a secret project 
-    1. Create two new repositories (proj<sub>~releases and proj</sub>~snapshots)
+    1. Create two new repositories (proj-releases and proj-snapshots)
     1. Create _privileges_ for both repositories. 
     1. Create a new role (read-only) with view and read access to both repositories. 
     1. Create a new role (deployment) full access to both repositores (todo add exactly which privileges are necessary for deployment)
@@ -26,4 +26,4 @@ See also https://support.sonatype.com/entries/24901127<sub>~Sonatype</sub><sub>N
 
 - Repair Repositories Index 
 
-Docs: http://books.sonatype.com/nexus<sub>~book/reference/scheduled</sub>~tasks.html
+Docs: http://books.sonatype.com/nexus-book/reference/scheduled-tasks.html

@@ -38,8 +38,8 @@ Look up Chainsaw on apache, and use the WebStart link form the download section.
 
 - log4J - Use SocketHubAppender as described above
 - java.util.logging
-    - [[http://commons.apache.org/downloads/download_logging.cgi](../[http/commons<sub>~apache</sub><sub>org</sub><sub>downloads</sub>~download_logging-cgi.md)] 
+    - [[http://commons.apache.org/downloads/download_logging.cgi](../[http/commons-apache-org-downloads-download_logging-cgi.md)] 
 - JMS 
-    - [[http://logging.apache.org/chainsaw/distributionnotes.html](../[http/logging<sub>~apache</sub><sub>org</sub><sub>chainsaw</sub>~distributionnotes-html.md)]
+    - [[http://logging.apache.org/chainsaw/distributionnotes.html](../[http/logging-apache-org-chainsaw-distributionnotes-html.md)]
 - VFS (Virtual Filesystem)
-    - [[http://logging.apache.org/chainsaw/distributionnotes.html](../[http/logging<sub>~apache</sub><sub>org</sub><sub>chainsaw</sub>~distributionnotes-html.md)]
+    - [[http://logging.apache.org/chainsaw/distributionnotes.html](../[http/logging-apache-org-chainsaw-distributionnotes-html.md)]

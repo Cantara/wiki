@@ -8,7 +8,7 @@
 
 ### Invitasjon
 
-Teamet for April<sub>~møtet vil være "**Hva er arkitektens ansvar?**" - delvis inspirert av http://97</sub><sub>things.near</sub><sub>time.net/wiki/97</sub><sub>things</sub><sub>every</sub><sub>software</sub><sub>architect</sub><sub>should</sub><sub>know</sub>~the-book i tillegg til at det er sentralt tema i IASA for å få større oppmerksomhet og forståelse for denne rollen. 
+Teamet for April-møtet vil være "**Hva er arkitektens ansvar?**" - delvis inspirert av http://97-things.near-time.net/wiki/97-things-every-software-architect-should-know-the-book i tillegg til at det er sentralt tema i IASA for å få større oppmerksomhet og forståelse for denne rollen. 
 Vi har fått på plass mange lyntaler som presenterer ulike perspektiver på arkitekt rollen. Etter lyntalene åpner vi opp for open space diskusjoner.
 
 En erfaring endel har gjort seg er at mange som har fått tildelt arkitekt rollen har sviktet såpass til de forventninger som er skapt at mange har fått et anstrengt forhold til rollen og arkitektur begrepet. I tillegg har de positive effektene med smidig utvikling gjort at arkitektur oppgavene har kommet enda mer i skyggen og i en viss grad blitt oppfattet som stående i veien for effektiv utvikling av IT-løsninger.
@@ -27,25 +27,25 @@ Vennligst **meld dere på nedenfor**, slik at vi får oversikt over hvor hvem so
 1815 - ca. 1945 - **Lyntaler**
 | Tittel | Lyntaler |
 | --- | --- |
-| [Det er da ikke så vanskelig](Det<sub>~er</sub><sub>da</sub><sub>ikke</sub>~så-vanskelig.md) | Leif Auke, Connor |
-| [What does an architect need to know](What<sub>~does</sub><sub>an</sub><sub>architect</sub><sub>need</sub><sub>to</sub>~know.md) | Børge Hansen, Microsoft |
+| [Det er da ikke så vanskelig](Det-er-da-ikke-så-vanskelig.md) | Leif Auke, Connor |
+| [What does an architect need to know](What-does-an-architect-need-to-know.md) | Børge Hansen, Microsoft |
 | [The responsibility of Getting the Concept Right | The responsibility of Getting the Concept Right^baragryIASA.pdf] | Jason Baragry, Sun |
 | [Arkitekt - motivator eller regel-leverandør? | Arkitekt - motivator eller regel-leverandør?^Arkitekten motivator eller plicy provider.pdf] | Bård Lind, Objectware |
 | Hvilke problemer som virksomhetsarkitektur addresserer | Alf Johannessen, Cap |
-| [Vær<sub>~varsom plakaten for arkitekter](Vær</sub><sub>varsom</sub><sub>plakaten</sub>~for-arkitekter.md) | Johannes Brodwall, Steria |
+| [Vær-varsom plakaten for arkitekter](Vær-varsom-plakaten-for-arkitekter.md) | Johannes Brodwall, Steria |
 1945 - Pause - gjerne en ny øl og litt snacks for den påfølgende diskusjonen
 2000 - og utover; open space diskusjoner. Temaer velgere dere selv - lyntalene er et godt utgangspunkt
 
 **Open Space**
 | Tema | Foreslått av |
 | --- | --- |
-| [Vær varsom plakaten for arkitekten](Vær<sub>~varsom</sub><sub>plakaten</sub><sub>for</sub>~arkitekten.md) | Johannes Brodwall |
-| [Arkitektrollen og valg av lederstil - Avgjørende for suksess?](Arkitektrollen<sub>~og</sub><sub>valg</sub><sub>av</sub><sub>lederstil</sub><sub>Avgjørende</sub>~for-suksess.md) | Mads Nissen |
-| [Polarisering av arkitekter, resultat av frustrasjon eller nyttig virkemiddel?](Polarisering<sub>~av</sub><sub>arkitekter</sub><sub>resultat</sub><sub>av</sub><sub>frustrasjon</sub><sub>eller</sub><sub>nyttig</sub>~virkemiddel.md) | Totto |
-| [Hvordan kan vi balansere tid brukt til design og sikring av at løsningen følges?](Hvordan<sub>~kan</sub><sub>vi</sub><sub>balansere</sub><sub>tid</sub><sub>brukt</sub><sub>til</sub><sub>design</sub><sub>og</sub><sub>sikring</sub><sub>av</sub><sub>at</sub>~løsningen-følges.md) | Bård |
-| [Hvorfor bygger vi igjen i siloer?](Hvorfor<sub>~bygger</sub><sub>vi</sub><sub>igjen</sub>~i-siloer.md) | Lars Arne |
-| [YAGNI !? - 70% er bare waste allikevel - Agile architecture](YAGNI<sub>~70</sub><sub>er</sub><sub>bare</sub><sub>waste</sub><sub>allikevel</sub>~Agile-architecture.md) |  |
-| [Hva er arkitekten mer enn en ledende utvikler?](Hva<sub>~er</sub><sub>arkitekten</sub><sub>mer</sub><sub>enn</sub><sub>en</sub>~ledende-utvikler.md) |  |
-| [IASA som sådan - hvordan skal vi fungere?](IASA<sub>~som</sub><sub>sådan</sub><sub>hvordan</sub><sub>skal</sub><sub>vi</sub>~fungere.md) |  |
+| [Vær varsom plakaten for arkitekten](Vær-varsom-plakaten-for-arkitekten.md) | Johannes Brodwall |
+| [Arkitektrollen og valg av lederstil - Avgjørende for suksess?](Arkitektrollen-og-valg-av-lederstil-Avgjørende-for-suksess.md) | Mads Nissen |
+| [Polarisering av arkitekter, resultat av frustrasjon eller nyttig virkemiddel?](Polarisering-av-arkitekter-resultat-av-frustrasjon-eller-nyttig-virkemiddel.md) | Totto |
+| [Hvordan kan vi balansere tid brukt til design og sikring av at løsningen følges?](Hvordan-kan-vi-balansere-tid-brukt-til-design-og-sikring-av-at-løsningen-følges.md) | Bård |
+| [Hvorfor bygger vi igjen i siloer?](Hvorfor-bygger-vi-igjen-i-siloer.md) | Lars Arne |
+| [YAGNI !? - 70% er bare waste allikevel - Agile architecture](YAGNI-70-er-bare-waste-allikevel-Agile-architecture.md) |  |
+| [Hva er arkitekten mer enn en ledende utvikler?](Hva-er-arkitekten-mer-enn-en-ledende-utvikler.md) |  |
+| [IASA som sådan - hvordan skal vi fungere?](IASA-som-sådan-hvordan-skal-vi-fungere.md) |  |
 
 ### Deltakerliste

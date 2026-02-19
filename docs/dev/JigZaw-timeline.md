@@ -1,6 +1,6 @@
 # JigZaw timeline
 
-# Test<sub>~level vs Test</sub>~properties
+# Test-level vs Test-properties
 |  | Unit | Service | Multi-service | System | System Integration | Acceptance |
 | --- | --- | --- | --- | --- | --- | --- |
 | With Data |  | (/) | (/) | (/) |  |  |
@@ -14,7 +14,7 @@
 
 # Test-properties vs Timeline	
 									
-|  | Before commit | 10 min | Hourly | Daily | Weekly | End<sub>~of</sub>~sprint\\ milestone | Systems-integration | Acceptance |
+|  | Before commit | 10 min | Hourly | Daily | Weekly | End-of-sprint\\ milestone | Systems-integration | Acceptance |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | With Data |  |  | (/) | (/) | (/) | (/) | (/) | (/) |
 | Without Data | (/) | (/) | (/) | (/) | (/) | (/) | (/) | (/) |

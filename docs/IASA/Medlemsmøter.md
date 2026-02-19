@@ -4,7 +4,7 @@ Kom gjerne med [Temaforslag](Temaforslag.md) til medlemsmøtene!
 
 ### Medlemsmøter i 2012
 
-[2012<sub>~02</sub>~08 - @ CiA](../PE/CiA2012Track2.md)
+[2012-02-08 - @ CiA](../PE/CiA2012Track2.md)
 
 ### Medlemsmøter i 2011
 

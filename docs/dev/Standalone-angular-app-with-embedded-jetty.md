@@ -19,18 +19,18 @@ Use standalone Java application with embedded Jetty to serve static files. This 
 Note that backend services must set up [CORS](CORS.md) to circumvent the same origin policy.  
  
 The javascript files are scaffolded with yeoman and all files are placed in a separate _yo_ folder (both sources, downloaded dependencies and generated files). 
-The [yeoman<sub>~maven</sub><sub>plugin](https://github.com/trecloux/yeoman</sub><sub>maven</sub>~plugin) is used to call grunt from maven. 
+The [yeoman-maven-plugin](https://github.com/trecloux/yeoman-maven-plugin) is used to call grunt from maven. 
 
 Standard maven plugins can the be used for the rest of the build process. 
 
 Frontend developers can work only with grunt and don't even need to have Maven installed. 
 Backend developers need to have a some extra tools installed (node, grunt, bower++), but can call regular Maven commands to build, deploy and release as usual. 
 
-- [pom.xml yeoman and embedded jetty](pom<sub>~xml</sub><sub>yeoman</sub><sub>and</sub>~embedded-jetty.md)
+- [pom.xml yeoman and embedded jetty](pom-xml-yeoman-and-embedded-jetty.md)
 
-- [Main class with embedded jetty](Main<sub>~class</sub><sub>with</sub><sub>embedded</sub>~jetty.md)
+- [Main class with embedded jetty](Main-class-with-embedded-jetty.md)
 
-- [assembly.xml to create zip with support for config_override](assembly<sub>~xml</sub><sub>to</sub><sub>create</sub><sub>zip</sub><sub>with</sub><sub>support</sub><sub>for</sub>~config_override.md)
+- [assembly.xml to create zip with support for config_override](assembly-xml-to-create-zip-with-support-for-config_override.md)
 
 - Configuration is handled by overriding variables in a config_override.js file which is put in a config_override folder by the deployscript. index.html typically contains 
 ```

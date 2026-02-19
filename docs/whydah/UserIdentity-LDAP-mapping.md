@@ -5,7 +5,7 @@ Mapping is performed in _LdapUserIdentityDao_.
 | UserIdentity field | LDAP field | LDAP schema | AD field |  |
 | --- | --- | --- | --- | --- |
 | uid | [uid | http://www.zytrax.com/books/ldap/ape/core-schema.html#uid] | core.schema | [userPrincipalName | http://msdn.microsoft.com/en-us/library/ms680857%28v=vs.85%29.aspx] |
-| username | [initials | http://www.zytrax.com/books/ldap/ape/core<sub>~schema.html#initials], non</sub>~standard use | core.schema | [sAMAccountName | http://msdn.microsoft.com/en-us/library/ms679635%28v=vs.85%29.aspx] |
+| username | [initials | http://www.zytrax.com/books/ldap/ape/core-schema.html#initials], non-standard use | core.schema | [sAMAccountName | http://msdn.microsoft.com/en-us/library/ms679635%28v=vs.85%29.aspx] |
 | cn | [cn | http://www.zytrax.com/books/ldap/ape/core-schema.html#cn] | core.schema | [cn | http://msdn.microsoft.com/en-us/library/ms675449%28v=vs.85%29.aspx] |
 | sn | [sn | http://www.zytrax.com/books/ldap/ape/core-schema.html#sn] | core.schema | [sn | http://msdn.microsoft.com/en-us/library/ms679872%28v=vs.85%29.aspx] |
 | givenName | [givenName | http://www.zytrax.com/books/ldap/ape/core-schema.html#gn] | core.schema | [givenName | http://msdn.microsoft.com/en-us/library/ms675719%28v=vs.85%29.aspx] |

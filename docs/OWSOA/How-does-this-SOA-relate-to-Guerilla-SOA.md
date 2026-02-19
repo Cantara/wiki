@@ -1,6 +1,6 @@
 # How does this SOA relate to Guerilla SOA?
 
-We get this question a lot, and have tried to summon some of the key similarities and differences. The models are **not incompatible**. The main difference is the core focus and values. OW SOA is inward<sub>~focusing on how to build great services which are reusable and extensible. [Guerrilla SOA](Guerrilla</sub>~SOA.md) is more edge-focused, hitting the container, middleware and protocol areas harder.
+We get this question a lot, and have tried to summon some of the key similarities and differences. The models are **not incompatible**. The main difference is the core focus and values. OW SOA is inward-focusing on how to build great services which are reusable and extensible. [Guerrilla SOA](Guerrilla-SOA.md) is more edge-focused, hitting the container, middleware and protocol areas harder.
 
 | [Guerrilla SOA](Guerrilla-SOA.md) | OW SOA | Equality |
 | --- | --- | --- |

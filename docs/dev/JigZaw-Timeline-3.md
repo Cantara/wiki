@@ -22,7 +22,7 @@
 > 💡 Expensive tests more seldom, even possibly manually.
 
 ### Webapp example
-TODO: Example Gif for Web<sub>~app, with middleware and legacy systems. Developer, ci</sub>~server, test and prod-environments.
+TODO: Example Gif for Web-app, with middleware and legacy systems. Developer, ci-server, test and prod-environments.
 
 # The Theory....
 ```
@@ -36,7 +36,7 @@ The following dimensions can be useful when discussing a timeline for a given co
 
 | Dimension | Description |
 | --- | --- |
-| Development methodology | continous (in background), pre commit, post commit in CI environments (unit test, data test, out<sub>~of</sub>~process test, _some level_ of integration tests |  |
+| Development methodology | continous (in background), pre commit, post commit in CI environments (unit test, data test, out-of-process test, _some level_ of integration tests |  |
 | Staging strategy | pre/post deployment to test environment, pre/post deployment to pre-production environment, pre/post deployment to production |  |
 | Version Control Strategy | Central trunk/head, release branches, feature branches, distributed VCS, module artifacts |  |
 | Executor | Developer, CI server, tester |  |
@@ -57,7 +57,7 @@ The following dimensions can be useful when discussing a timeline for a given co
 
 ###### The chosen timeline 
 
-![test.phase.timeline](test<sub>~phase</sub>~timeline.md)(../images/gliffy/16515318-test.phase.timeline.png)
+![test.phase.timeline](../images/gliffy/16515318-test.phase.timeline.png)
 
 **Within each sprint** 
 
@@ -75,4 +75,4 @@ The following dimensions can be useful when discussing a timeline for a given co
 
 - 1 week extra manual system and acceptance testing using data recorded from production 
 
-[< Back](JigZaw<sub>~Design</sub><sub>Principles</sub><sub>and</sub>~Drivers.md) to Design Principles and Drivers   [Next >](Control-state.md) Control state
+[< Back](JigZaw-Design-Principles-and-Drivers.md) to Design Principles and Drivers   [Next >](Control-state.md) Control state

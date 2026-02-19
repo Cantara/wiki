@@ -11,7 +11,7 @@ Selenium 2 (with webdriver) + The grinder can be used for both functional and no
 One of the drawbacks using this approach for performance testing is the browser dependency. I.e., 
 
 1. the application under test must support a browser which the test clients can run. E.g. if the test clients run Firefox on Linux, the application under test must support firefox. 
-1. Running multiple browsers are resource intensive. This adds cost, but may be mitigated by using e.g. [grinder in the cloud](http://www.jk<sub>~itberatung.de/grinder/GrinderInTheCloud</sub>~linux.pdf) or [Xvfb](http://en.wikipedia.org/wiki/Xvfb). 
+1. Running multiple browsers are resource intensive. This adds cost, but may be mitigated by using e.g. [grinder in the cloud](http://www.jk-itberatung.de/grinder/GrinderInTheCloud-linux.pdf) or [Xvfb](http://en.wikipedia.org/wiki/Xvfb). 
 
 #### Tool approach (JMeter, LoadRunner, etc)
 

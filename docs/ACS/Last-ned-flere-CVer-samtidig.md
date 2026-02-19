@@ -5,4 +5,4 @@
 1. Huk av for CV-profilene du ønsker å laste ned
 1. Velg format (Word, PDF eller OpenDocument) og trykk "Download selected CVs"
 
-![acs<sub>~downloadmultiple.png](acs</sub><sub>downloadmultiple</sub><sub>png.md)(acs</sub>~downloadmultiple.png)
+![acs-downloadmultiple.png](35848694-acs-downloadmultiple.png)

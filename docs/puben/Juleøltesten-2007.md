@@ -1,6 +1,6 @@
 # Juleøltesten 2007
 
-<!DOCTYPE HTML PUBLIC "<sub>~//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http</sub><sub>equiv="Content</sub><sub>Type" content="text/html; charset=utf</sub><sub>8"><title>Jule&oslash;l 2007.xlsx</title><style type="text/css" media="print">.hide</style></head><body style="margin:0;padding:0"><div class="hide"><div style="background:#ffffcc;padding:4 8;border</sub><sub>bottom:thin solid #eeeeee;font</sub>~family:Arial,sans-serif"><b>If there are images in this attachment, they will not be displayed.</b>&nbsp;&nbsp;<a href="/mail/?view=att&th=1165257956965104&attid=0.1&disp=attd&realattid=f_f95fr9c10&zw">Download the original attachment</a></div></div><div style="margin:1ex">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Jule&oslash;l 2007.xlsx</title><style type="text/css" media="print">.hide</style></head><body style="margin:0;padding:0"><div class="hide"><div style="background:#ffffcc;padding:4 8;border-bottom:thin solid #eeeeee;font-family:Arial,sans-serif"><b>If there are images in this attachment, they will not be displayed.</b>&nbsp;&nbsp;<a href="/mail/?view=att&th=1165257956965104&attid=0.1&disp=attd&realattid=f_f95fr9c10&zw">Download the original attachment</a></div></div><div style="margin:1ex">
 
 <div>
  

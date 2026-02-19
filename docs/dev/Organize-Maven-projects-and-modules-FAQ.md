@@ -6,7 +6,7 @@
 
 #### What is and where can I find the Maven SuperPOM? 
 
-All Maven projects implicitly inherit from the Maven super pom. Read more on the subject in [Introduction to the pom, Super_POM](http://maven.apache.org/guides/introduction/introduction<sub>~to</sub><sub>the</sub><sub>pom.html#Super_POM). See subversion for the [Maven 2.0.9 Super POM](http://svn.apache.org/repos/asf/maven/components/tags/maven</sub><sub>2.0.9/maven</sub><sub>project/src/main/resources/org/apache/maven/project/pom</sub>~4.0.0.xml). 
+All Maven projects implicitly inherit from the Maven super pom. Read more on the subject in [Introduction to the pom, Super_POM](http://maven.apache.org/guides/introduction/introduction-to-the-pom.html#Super_POM). See subversion for the [Maven 2.0.9 Super POM](http://svn.apache.org/repos/asf/maven/components/tags/maven-2.0.9/maven-project/src/main/resources/org/apache/maven/project/pom-4.0.0.xml). 
 
 #### How are projects and modules different? Are artifacts created from projects, modules or both?
 
@@ -42,7 +42,7 @@ The only real advantage of the "Everything in one project" strategy is that it m
 
 - All developers must build all modules, always. This might be appropriate for small projects, but for enterprise projects the build quickly becomes annoyingly slow. 
 
-- Two small projects are easier to get to know than one large project. This means that ramp<sub>~up</sub>~time for a new developer is reduced if a module can be refactored into a separate project. 
+- Two small projects are easier to get to know than one large project. This means that ramp-up-time for a new developer is reduced if a module can be refactored into a separate project. 
 
 - When the number of modules grow too large, the volume of code, tests and dependencies grows accordingly. This increases the risk of creating circular dependencies and makes it harder to maintain low coupling and high cohesion. 
 
@@ -54,7 +54,7 @@ The only real advantage of the "Everything in one project" strategy is that it m
 
 #### Moving a module to a separate Maven project means that I now must build _two_ projects instead of one. This is bothersome and increases my round-trip time. How can this be a good thing? 
 
-- First, only the developer making the change to the (now) external project needs to build this project. The CI server should deploy the new version of the external project and deploy it to a [Build Artifact Repository Manager](http://maven.apache.org/repository<sub>~management.html). Enterprise projects needs [Enterprise Maven Infrastructure](Enterprise</sub>~Maven-Infrastructure.md)!
+- First, only the developer making the change to the (now) external project needs to build this project. The CI server should deploy the new version of the external project and deploy it to a [Build Artifact Repository Manager](http://maven.apache.org/repository-management.html). Enterprise projects needs [Enterprise Maven Infrastructure](Enterprise-Maven-Infrastructure.md)!
 
 - Second, if small changes require modifications to multiple projects, this should be viewed as an indication that perhaps some refactoring is in order. (This is a common _"code smell"_.) 
 
@@ -113,6 +113,6 @@ When one module needs code from another module, just add a dependency to that mo
 
 Dependencies common to all modules is a candidate for extracting to the parent pom. 
 
-#### [How to structure EAR projects?](How<sub>~to</sub><sub>structure</sub><sub>EAR</sub>~projects.md)
+#### [How to structure EAR projects?](How-to-structure-EAR-projects.md)
 
-See [How to structure EAR projects?](How<sub>~to</sub><sub>structure</sub><sub>EAR</sub>~projects.md).
+See [How to structure EAR projects?](How-to-structure-EAR-projects.md).

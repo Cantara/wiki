@@ -3,8 +3,8 @@
 #### Strategy 1: add war archive to a pre-installed webserver 
 
 Typically multiple webapps in one instance of WebSphere, Weblogic, Tomcat (or Jetty). 
-cargo<sub>~maven</sub>~plugin? 
-was<sub>~m</sub>~p? 
+cargo-maven-plugin? 
+was-m-p? 
 etc. 
 
 Distribution as war or ear. 

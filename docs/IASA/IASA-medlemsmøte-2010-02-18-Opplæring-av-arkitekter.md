@@ -19,7 +19,7 @@ Vi i IASA styret tror opplæring av arkitekter både er veldig aktuelt og utford
 3 arkitekter; Jason, Børge og Erik vil presentere sine forventninger, erfaringer og syn på opplæring av arkitekter.
 
 Litt bakgrunnsmateriale finner dere her:
-- [architecture:Architect roles and responsibilities](../architecture/Architect<sub>~roles</sub>~and-responsibilities.md)
+- [architecture:Architect roles and responsibilities](../architecture/Architect-roles-and-responsibilities.md)
 - [smidigtonull:Excellent Books](../smidigtonull/Excellent-Books.md)
 
 Forslag til open space:
@@ -31,8 +31,8 @@ Forslag til open space:
 
 1800 - Velkommen og innhente forsyninger i baren
 1815 - Introduksjon til medlemsmøte
-1830 - [Training to become a software architect - Thoughts and reflections](Training<sub>~to</sub><sub>become</sub><sub>a</sub><sub>software</sub><sub>architect</sub><sub>Thoughts</sub><sub>and</sub><sub>reflections.md) by [</sub>sherriff](sherriff.md)
-1845 - [Reports on teaching and learning architecture](Reports<sub>~on</sub><sub>teaching</sub><sub>and</sub>~learning-architecture.md) v/Jason Baragry
+1830 - [Training to become a software architect - Thoughts and reflections](Training-to-become-a-software-architect-Thoughts-and-reflections.md) by [~sherriff](sherriff.md)
+1845 - [Reports on teaching and learning architecture](Reports-on-teaching-and-learning-architecture.md) v/Jason Baragry
 1915 - [Hvorfor arkitektur?](Hvorfor-arkitektur.md) - Refleksjoner og innledning til open space diskusjoner v/Børge Hansen
 1945 - Nye forsyninger
 2000 - Grupperinger og diskusjoner i open space
@@ -41,4 +41,4 @@ ca. 2030 - Oppsummering fra diskusjonene
 Påmelding:
 
 ### Twitter feed fra møtet
-{rss:url=http://search.twitter.com/search.atom?q=%23iasa+%23training&since=2010<sub>~01</sub>~08}
+{rss:url=http://search.twitter.com/search.atom?q=%23iasa+%23training&since=2010-01-08}

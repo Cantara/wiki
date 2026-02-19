@@ -11,11 +11,11 @@ Jeg øsnker altså å gjøre noe sånt som:
 3. mvn jetty:run
 4. Stoppe jetty og database
 
-1. Ser det ut som kan gjøres med [maven<sub>~hsql</sub><sub>plugin](http://www.javagen.com/maven</sub><sub>hsql</sub>~plugin)
+1. Ser det ut som kan gjøres med [maven-hsql-plugin](http://www.javagen.com/maven-hsql-plugin)
 (konsolloutput tydet i hvert fall på det)
 
 2. Noen som har noen erfaringer med å populere en hsqldb fra maven? 
-Er [dbunit<sub>~maven</sub><sub>plugin](http://mojo.codehaus.org/dbunit</sub><sub>maven</sub>~plugin) måten å gjøre dette på? 
+Er [dbunit-maven-plugin](http://mojo.codehaus.org/dbunit-maven-plugin) måten å gjøre dette på? 
 
 Se forøvrig [How to initialize test database](http://galaxy.andromda.org/forum/viewtopic.php?t=5540&view=previous&sid=171631f6f42fdf1fa83c9d1197ab69b6)
 

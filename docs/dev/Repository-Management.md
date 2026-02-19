@@ -44,7 +44,7 @@ The Build Artifact Repository Manager acts as a _proxy_ for remote repositories,
 
 ###### Remote repositories
 
-There are no one<sub>~size</sub>~fits-all guide lines for which local repositories to use, but the following conventions might be worth following: 
+There are no one-size-fits-all guide lines for which local repositories to use, but the following conventions might be worth following: 
 
 - For artifacts developed in-house (all employees have access)
     - libs-releases
@@ -65,4 +65,4 @@ There are no one<sub>~size</sub>~fits-all guide lines for which local repositori
 Each project has a release and a snapshot repository configured in the releaseManagement section of the project pom to support deploy and release. 
 In addition, we override central to force all queries to go to the company internal repository (override _central_). This is used for fetching both snapshots and releases of both libs and plugins.
 
-The virtual repository provides a single<sub>~point</sub>~of-entry to all available artifacts and can fetch artifacts from any number of local and remote repositories behind the scenes.
+The virtual repository provides a single-point-of-entry to all available artifacts and can fetch artifacts from any number of local and remote repositories behind the scenes.

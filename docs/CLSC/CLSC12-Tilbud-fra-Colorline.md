@@ -4,7 +4,7 @@ Tilbuds nummer:  303489
 Selger:  Bergh, Carola
 Telefon:  22 94 43 36/41 69 53 65
 E-post:  carola.bergh@colorline.no   
-Tilbudets utløpsdato:  29<sub>~02</sub>~2012  
+Tilbudets utløpsdato:  29-02-2012  
 
 Utreise:  OSLO - KIEL  Retur:  KIEL - OSLO 
 

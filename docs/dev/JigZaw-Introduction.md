@@ -1,7 +1,7 @@
 # JigZaw Introduction
 
 #### Introduction
-The [V<sub>~model](http://en.wikipedia.org/wiki/V</sub><sub>Model_(software_development)) is a popular approach to testing in a  typical [waterfall](http://en.wikipedia.org/wiki/Waterfall_model) project. With the rising popularity of agile development methodologies like XP and Scrum, the V</sub><sub>model is no longer sufficient. We realized the shortcomings of the V</sub><sub>model while working on a rather complex project in the autumn 2007. Keywords that illustrate the complexity of the project: remoting, integration with multiple external systems, JMS, workflow engine, webstart for deployment, multiple programming languages (C, C++, Java), multiple operating platforms (Solaris, Linux, OSX, Windows) and performance critical data processing. To handle the complexity of this system and make it testable, we developed a new test model more suitable for agile work patterns. A tabular comparison can be found in [V</sub><sub>model vs JigZaw](V</sub><sub>model</sub><sub>vs</sub>~JigZaw.md). 
+The [V-model](http://en.wikipedia.org/wiki/V-Model_(software_development)) is a popular approach to testing in a  typical [waterfall](http://en.wikipedia.org/wiki/Waterfall_model) project. With the rising popularity of agile development methodologies like XP and Scrum, the V-model is no longer sufficient. We realized the shortcomings of the V-model while working on a rather complex project in the autumn 2007. Keywords that illustrate the complexity of the project: remoting, integration with multiple external systems, JMS, workflow engine, webstart for deployment, multiple programming languages (C, C++, Java), multiple operating platforms (Solaris, Linux, OSX, Windows) and performance critical data processing. To handle the complexity of this system and make it testable, we developed a new test model more suitable for agile work patterns. A tabular comparison can be found in [V-model vs JigZaw](V-model-vs-JigZaw.md). 
 
 #### Motivation 
 
@@ -21,4 +21,4 @@ What we want
 - to test as much of the system as possible, as often as possible 
 - to maximize the value from our testing efforts
 
-[< Back](JigZaw.md) to JigZaw home  [Next >](JigZaw<sub>~Design</sub><sub>Principles</sub><sub>and</sub>~Drivers.md) Design Principles and Drivers
+[< Back](JigZaw.md) to JigZaw home  [Next >](JigZaw-Design-Principles-and-Drivers.md) Design Principles and Drivers

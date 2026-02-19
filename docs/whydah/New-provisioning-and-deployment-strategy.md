@@ -5,7 +5,7 @@
     - Which technology?
     - When/how often is the docker image replaced/updated?
     - Which service will trigger deployment to environment?
-    - What's the strategy for deployment without down<sub>~time? Or is down</sub>~time acceptable?
+    - What's the strategy for deployment without down-time? Or is down-time acceptable?
     - What about user sessions?
     - How to roll-back if a change breaks the system?
 - Post install tester

@@ -49,4 +49,4 @@ Vil dere sende inn bidrag, kan dere gjerne spinne rundt disse ideene:
 ### Påmelding
 
 ### Twitter feed fra møtet
-{rss:url=http://search.twitter.com/search.atom?q=%23iasa+%23worstday&since=2009<sub>~12</sub>~15}
+{rss:url=http://search.twitter.com/search.atom?q=%23iasa+%23worstday&since=2009-12-15}

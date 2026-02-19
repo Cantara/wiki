@@ -44,9 +44,9 @@ View certificate
 Move the generated keystore into the project: 
 ` mv ~/.keystore src/main/jnlp/projectName_2007.12.02.keystore`
 
-For more on this see [Java SSL - Keystores](Java<sub>~SSL</sub>~Keystores.md)
+For more on this see [Java SSL - Keystores](Java-SSL-Keystores.md)
 
-## Differences between single<sub>~module and multi</sub>~module 
+## Differences between single-module and multi-module 
 
 - Multimodule should use the inline goal: 
 ` <goal>jnlp-inline</goal> ` 
@@ -56,7 +56,7 @@ For more on this see [Java SSL - Keystores](Java<sub>~SSL</sub>~Keystores.md)
 - The webstart module must have a dependency to the module where the main class is located. 
 
 - Run webstart from the module's root, not the parent: 
-`mvn org.codehaus.mojo.webstart:webstart<sub>~maven</sub>~plugin:jnlp-inline`
+`mvn org.codehaus.mojo.webstart:webstart-maven-plugin:jnlp-inline`
 
 ## Single module, self-signed certificate 
 
@@ -207,7 +207,7 @@ _pom.xml_:
 
 ## Resources 
 
-[webstart<sub>~maven</sub><sub>plugin](http://mojo.codehaus.org/webstart/webstart</sub><sub>maven</sub>~plugin/)
+[webstart-maven-plugin](http://mojo.codehaus.org/webstart/webstart-maven-plugin/)
  
 [http://java.sun.com/j2se/1.5.0/docs/tooldocs/windows/keytool.html](http://java.sun.com/j2se/1.5.0/docs/tooldocs/windows/keytool.html)
-[http://www.duckcreeksoftware.com/products/jnlp<sub>~wrapper/doc/create</sub><sub>certificate.jsp](http://www.duckcreeksoftware.com/products/jnlp</sub><sub>wrapper/doc/create</sub>~certificate.jsp)
+[http://www.duckcreeksoftware.com/products/jnlp-wrapper/doc/create-certificate.jsp](http://www.duckcreeksoftware.com/products/jnlp-wrapper/doc/create-certificate.jsp)

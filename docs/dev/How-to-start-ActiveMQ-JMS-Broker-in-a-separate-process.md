@@ -1,6 +1,6 @@
 # How to start ActiveMQ JMS Broker in a separate process
 
-[How do I embed a Broker inside a Connection](http://activemq.apache.org/how<sub>~do</sub><sub>i</sub><sub>embed</sub><sub>a</sub><sub>broker</sub><sub>inside</sub><sub>a</sub>~connection.html)
+[How do I embed a Broker inside a Connection](http://activemq.apache.org/how-do-i-embed-a-broker-inside-a-connection.html)
 
 TODO: Remember to explain how to set up JNDI. 
 

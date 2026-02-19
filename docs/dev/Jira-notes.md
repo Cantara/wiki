@@ -5,7 +5,7 @@ TODO: Write more about Jira and VCS. Mention http://www.atlassian.com/software/c
 ---
 Fra Axel W.: 
 
-Jeg mener man trenger å bruke doble fix<sub>~versjoner, nå som Jira støtter det. Altså at sprint</sub><sub> og mavenversjoner i utgangspunktet er én</sub><sub>til</sub>~én, men at man skiller mellom kode og tidsbruk, slik at når man jobber på dotrelease fra forrige sprint kan man sette tiden på inneværende sprint og kodeendringen på dotreleasen. Så lenge man må gjøre slike fikser ihvertfall. Må man aldri det, så kan man slå de to konseptene sammen. Det spørs også litt på hvor nøye tidsoppfølging man trenger, kanskje er det ikke noe problem at tid i inneværende sprint skrives på forrige sprint/versjon, men tasken burde aldri se ut som om den er gjort på en annen kodeversjon enn den faktiske.
+Jeg mener man trenger å bruke doble fix-versjoner, nå som Jira støtter det. Altså at sprint- og mavenversjoner i utgangspunktet er én-til-én, men at man skiller mellom kode og tidsbruk, slik at når man jobber på dotrelease fra forrige sprint kan man sette tiden på inneværende sprint og kodeendringen på dotreleasen. Så lenge man må gjøre slike fikser ihvertfall. Må man aldri det, så kan man slå de to konseptene sammen. Det spørs også litt på hvor nøye tidsoppfølging man trenger, kanskje er det ikke noe problem at tid i inneværende sprint skrives på forrige sprint/versjon, men tasken burde aldri se ut som om den er gjort på en annen kodeversjon enn den faktiske.
 
 https://plugins.atlassian.com/plugins/com.ecliptictech.connector
 
@@ -27,6 +27,6 @@ Should be avoided if possible.
 
 ###### Challenge: Services or libraries used by several teams 
 
-The general way to approach this challenge is to realise that we are now outside the [project scope](../architecture/Project<sub>~Architect.md) and must look to architects and strategies in the [organisation scope](../architecture/Organizational</sub>~Architect.md) or the [product scope](../architecture/Product-Architect.md). 
+The general way to approach this challenge is to realise that we are now outside the [project scope](../architecture/Project-Architect.md) and must look to architects and strategies in the [organisation scope](../architecture/Organizational-Architect.md) or the [product scope](../architecture/Product-Architect.md). 
 
 Often more structure or organisation is unnecessary - the two teams can simply collaborate on the shared library and include tasks in the respective sprints.

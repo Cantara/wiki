@@ -14,4 +14,4 @@ I learned over 20 years ago working in transactional systems to ASK a customer w
 
 Again, more often than not, availability matters more than strict (classic) consistency!"
 
-**From** [http://blogs.msdn.com/pathelland/archive/2008/09/01/confidence<sub>~in</sub><sub>the</sub><sub>cloud.aspx](http://blogs.msdn.com/pathelland/archive/2008/09/01/confidence</sub><sub>in</sub><sub>the</sub>~cloud.aspx)
+**From** [http://blogs.msdn.com/pathelland/archive/2008/09/01/confidence-in-the-cloud.aspx](http://blogs.msdn.com/pathelland/archive/2008/09/01/confidence-in-the-cloud.aspx)

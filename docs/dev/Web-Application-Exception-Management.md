@@ -6,7 +6,7 @@
 
 - Catch ALL exceptions at the top level of the application 
     - nice message to the user 
-    - log as much info as possible to the appropriate log. See [Web Application Logging](Web<sub>~Application</sub>~Logging.md)
+    - log as much info as possible to the appropriate log. See [Web Application Logging](Web-Application-Logging.md)
 
 ### What kind of exceptions should you make yourself?
 
@@ -20,13 +20,13 @@ Here are some examples..
 
 ### Resources 
 
-[Error Handling And Exception Management](Error<sub>~Handling</sub><sub>And</sub><sub>Exception</sub>~Management.md)
+[Error Handling And Exception Management](Error-Handling-And-Exception-Management.md)
 
 ### A funny exception
 
 While attempting to save this page and moving it between spaces at the same time, we got this javascript-error from Confluence after saving:
 
-![wiki<sub>~exception.png](wiki</sub><sub>exception</sub><sub>png.md)(wiki</sub>~exception.png)
+![wiki-exception.png](16515260-wiki-exception.png)
 
 Is this a nice message to the user?  ;)
 

@@ -20,7 +20,7 @@ Let's start with the mock approach.
 Creating mock responses seem simple enough, but there are some challenges we need to address: 
 
 - How to reduce the pain of WSDL changes? 
-    - WSDL changes will always be pain, but can be reduced by following the [OWSOA:Evolving Service Endpoint Pattern](../OWSOA/Evolving<sub>~Service</sub>~Endpoint-Pattern.md). In our scenario we have no control over when or how the WSDL can change, but we need to keep it in mind that it _can_ change and how much pain it will give us when it does. 
+    - WSDL changes will always be pain, but can be reduced by following the [OWSOA:Evolving Service Endpoint Pattern](../OWSOA/Evolving-Service-Endpoint-Pattern.md). In our scenario we have no control over when or how the WSDL can change, but we need to keep it in mind that it _can_ change and how much pain it will give us when it does. 
 
 - Should we generate the responses or write them ourselves?  
 - How to reduce the pain of maintaining the mock responses? 

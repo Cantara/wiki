@@ -5,7 +5,7 @@
 - Set up rules and generate the relevant reports. 
 - Modify rules and fix bugs until the whole development team agrees on the standard. 
 - Be absolutely certain that the standards are _understood_, _agreed upon_ and _followed_ before continuing. 
-- Add checks to the regular build to enforce that the standards are followed. In most cases it is a good idea to make the regular checks less strict than the actual standards. This does not imply that you should have two sets of rules or that developers don't have to follow all the rules. It only means that you should not break the build if some code is entirely up to the QA standards. The reasoning is that it must be possible to do quick prototyping, proof<sub>~of</sub>~concepts, etc. without the CI server firing off a bunch of angry build error emails. 
+- Add checks to the regular build to enforce that the standards are followed. In most cases it is a good idea to make the regular checks less strict than the actual standards. This does not imply that you should have two sets of rules or that developers don't have to follow all the rules. It only means that you should not break the build if some code is entirely up to the QA standards. The reasoning is that it must be possible to do quick prototyping, proof-of-concepts, etc. without the CI server firing off a bunch of angry build error emails. 
 
 #### Available plugins 
 
@@ -58,4 +58,4 @@
 
 ###### Cobertura, Emma, Clover 
 
-See [Java Parent POM Example](Java<sub>~Parent</sub>~POM-Example.md) for a complete pom.
+See [Java Parent POM Example](Java-Parent-POM-Example.md) for a complete pom.

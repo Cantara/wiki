@@ -7,7 +7,7 @@
 
 #### Content
 - [GreenHopper](GreenHopper.md)
-- [Release planning](Jira<sub>~release</sub>~planning.md)
-- [Release monitoring](Jira<sub>~release</sub>~monitoring.md)
-- [Sprint planning](Jira<sub>~sprint</sub>~planning.md)
-- [Sprint monitoring](Jira<sub>~Sprint</sub>~monitoring.md)
+- [Release planning](Jira-release-planning.md)
+- [Release monitoring](Jira-release-monitoring.md)
+- [Sprint planning](Jira-sprint-planning.md)
+- [Sprint monitoring](Jira-Sprint-monitoring.md)

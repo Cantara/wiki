@@ -4,11 +4,11 @@
 
 ## Dependent tests
 
-If you want to test your database implementation you will need a database. If the database is unavailable, all database tests will fail. A developer with in<sub>~depth knowledge of the application will probably quickly come to the conclusion that the database is unavailable if a hundred DAO</sub>~tests fail, but why let 100 tests fail due to a single failure? Why not communicate that all these test depend on the database being available more directly? 
+If you want to test your database implementation you will need a database. If the database is unavailable, all database tests will fail. A developer with in-depth knowledge of the application will probably quickly come to the conclusion that the database is unavailable if a hundred DAO-tests fail, but why let 100 tests fail due to a single failure? Why not communicate that all these test depend on the database being available more directly? 
 
-The solution is to introduce dependencies between tests. E.g., create at _testDatabaseConnectionTest_ and let all DAO<sub>~tests depend on it. All DAO</sub>~tests can thus be skipped if the _testDatabaseConnectionTest_ fail. This makes the test failure easier to debug.
+The solution is to introduce dependencies between tests. E.g., create at _testDatabaseConnectionTest_ and let all DAO-tests depend on it. All DAO-tests can thus be skipped if the _testDatabaseConnectionTest_ fail. This makes the test failure easier to debug.
 
-See page 103 in [Next Generation Java Testing: TestNG and Advanced Concepts](http://www.amazon.com/Next<sub>~Generation</sub><sub>Java</sub><sub>Testing</sub>~Advanced/dp/0321503104) for a thorough discussion of the concept. 
+See page 103 in [Next Generation Java Testing: TestNG and Advanced Concepts](http://www.amazon.com/Next-Generation-Java-Testing-Advanced/dp/0321503104) for a thorough discussion of the concept. 
 
 ## One and only one reason to change
 
@@ -30,4 +30,4 @@ A mapping between tests and user requirements (for instance in the format of use
 
 Note: The _**acceptance test report**_ and the inverse of this report should make it possible to identify functionality (and tests) that can safely be removed. And as we all know, less code means less bugs, so this bi effect has potential.  
 
-See also [Mapping between requirements and tests](Mapping<sub>~between</sub><sub>requirements</sub><sub>and</sub>~tests.md)
+See also [Mapping between requirements and tests](Mapping-between-requirements-and-tests.md)

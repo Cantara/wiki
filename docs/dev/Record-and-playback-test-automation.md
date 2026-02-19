@@ -1,8 +1,8 @@
 # Record-and-playback test automation
 
-###### When to apply record<sub>~and</sub>~playback test automation? 
+###### When to apply record-and-playback test automation? 
 
-Answer: Never! [http://testobsessed.com/2010/07/random<sub>~thoughts</sub><sub>on</sub><sub>record</sub><sub>and</sub><sub>playback/](http://testobsessed.com/2010/07/random</sub><sub>thoughts</sub><sub>on</sub><sub>record</sub><sub>and</sub>~playback/) 
+Answer: Never! [http://testobsessed.com/2010/07/random-thoughts-on-record-and-playback/](http://testobsessed.com/2010/07/random-thoughts-on-record-and-playback/) 
 
 Okey, only almost true. 
 

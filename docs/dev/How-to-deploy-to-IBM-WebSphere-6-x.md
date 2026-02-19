@@ -8,9 +8,9 @@ wsadmin.bat is included in RAD/WSAD and takes a number of parameters for host, p
 
 ### How to run bat scripts from Maven?
 
-Use [exec<sub>~maven</sub><sub>plugin](http://mojo.codehaus.org/exec</sub><sub>maven</sub><sub>plugin). There has been reported problems when a new thread is spawned. (Running it from Continuum @ Windows has been a problem.) See [http://svn.objectware.no/repos/objectware</sub><sub>public/examples/maven</sub><sub>exec</sub><sub>example/](http://svn.objectware.no/repos/objectware</sub><sub>public/examples/maven</sub><sub>exec</sub>~example/) for a demo.
+Use [exec-maven-plugin](http://mojo.codehaus.org/exec-maven-plugin). There has been reported problems when a new thread is spawned. (Running it from Continuum @ Windows has been a problem.) See [http://svn.objectware.no/repos/objectware-public/examples/maven-exec-example/](http://svn.objectware.no/repos/objectware-public/examples/maven-exec-example/) for a demo.
 
-Thus, the problem at hand can be solved with exec<sub>~maven</sub>~plugin by including the following in the POM:
+Thus, the problem at hand can be solved with exec-maven-plugin by including the following in the POM:
 (!) Not complete!
 ```
 <plugin>
@@ -37,8 +37,8 @@ Thus, the problem at hand can be solved with exec<sub>~maven</sub>~plugin by inc
 Call for clarification by [~erik.drolshammer](erik-drolshammer.md).
 Run a script locally that logs into the remote host and executes the relevant scripts there. 
 
-## Deploy directly from Maven by using maven<sub>~was6</sub>~plugin
-[maven<sub>~was6</sub>~plugin](http://jira.codehaus.org/browse/MOJO-1010)
+## Deploy directly from Maven by using maven-was6-plugin
+[maven-was6-plugin](http://jira.codehaus.org/browse/MOJO-1010)
 
 ## Deploy using a pull strategy from the company maven repo
 
@@ -46,4 +46,4 @@ Run a script locally that logs into the remote host and executes the relevant sc
 
 ## Decouple build from WebSphere deployment -- scripting and a common middle ground
 This has not been confirmed. Inquire [~thomas.nicolaisen](thomas-nicolaisen.md).
-The above solutions imply a tight coupling between a Maven build process and the deployment to WebSphere -- all initiated from a [Continuous Integration](Continuous<sub>~Integration.md) server. This coupling can be loosened by letting Maven transfer the file to a intermediary location, being agnostic about the existence of a WebSphere cluster. This middle ground is being monitored by some script, the purpose of which is to initiate the WebSphere</sub>~specific part of the deployment process.
+The above solutions imply a tight coupling between a Maven build process and the deployment to WebSphere -- all initiated from a [Continuous Integration](Continuous-Integration.md) server. This coupling can be loosened by letting Maven transfer the file to a intermediary location, being agnostic about the existence of a WebSphere cluster. This middle ground is being monitored by some script, the purpose of which is to initiate the WebSphere-specific part of the deployment process.

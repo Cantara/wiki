@@ -4,7 +4,7 @@
 
 2. After installed open app -> select settings as below:
 
-![Screenshot_2015<sub>~03</sub><sub>13</sub><sub>22</sub><sub>19</sub><sub>35.png](Screenshot_2015</sub><sub>03</sub><sub>13</sub><sub>22</sub><sub>19</sub><sub>35</sub><sub>png.md)(Screenshot_2015</sub><sub>03</sub><sub>13</sub><sub>22</sub><sub>19</sub>~35.png)
+![Screenshot_2015-03-13-22-19-35.png](41878202-Screenshot_2015-03-13-22-19-35.png)
 
 3. Go to OpenGTS server add new Device http://89.221.242.66:8080/track/Track?page=dev.info
 
@@ -14,6 +14,6 @@
 
 6. Final view result after tracking from OpenGTS server go to http://89.221.242.66:8080/track/Track?page=map.device and select  new device which made before and look result as below:
 
-!2015<sub>~03</sub>~13 22_36_57-Open Source OpenGTS GPS Tracking.png|border=1!
+!2015-03-13 22_36_57-Open Source OpenGTS GPS Tracking.png|border=1!
 
 Good Luck!

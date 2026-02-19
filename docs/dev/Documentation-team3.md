@@ -1,7 +1,7 @@
 # Documentation team3
 
 ## Source code
-http://code.google.com/p/html5<sub>~code</sub>~camp-3/
+http://code.google.com/p/html5-code-camp-3/
  
 
 ## localStorage

@@ -13,4 +13,4 @@
 
 [Using the Android Emulator](http://developer.android.com/tools/devices/emulator.html)
 [Managing Virtual Devices](http://developer.android.com/tools/devices/index.html)
-[Managing AVDs from the Command Line](http://developer.android.com/tools/devices/managing<sub>~avds</sub>~cmdline.html)
+[Managing AVDs from the Command Line](http://developer.android.com/tools/devices/managing-avds-cmdline.html)

@@ -20,7 +20,7 @@ Tommy, Leif, Stig, pluss pluss
 - Leif ansvar for core system
 - droneradar24.no, droneradar24.net
 - Server hos Leif inntil videre
-- Eierskap. [Dronerader blir stiftelse](Dronerader<sub>~blir</sub>~stiftelse.md). Initiativtagere bidrar med 10.000 hver for initielle kostnader til etablering (Stig og Leif, Tommy med timer)
+- Eierskap. [Dronerader blir stiftelse](Dronerader-blir-stiftelse.md). Initiativtagere bidrar med 10.000 hver for initielle kostnader til etablering (Stig og Leif, Tommy med timer)
 
 ##### Action
 

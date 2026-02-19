@@ -64,9 +64,9 @@ While the example is overly simplistic, it should illustrate how the indirected 
 
 ## Dependent tests
 
-If you want to test your database implementation you will need a database. If the database is unavailable, all database tests will fail. A developer with in<sub>~depth knowledge of the application will probably quickly come to the conclusion that the database is unavailable if a hundred DAO</sub>~tests fail. However, why do 100 tests fail due to a single failure?
+If you want to test your database implementation you will need a database. If the database is unavailable, all database tests will fail. A developer with in-depth knowledge of the application will probably quickly come to the conclusion that the database is unavailable if a hundred DAO-tests fail. However, why do 100 tests fail due to a single failure?
 
-The solution is to introduce dependencies between tests. E.g., create at _testDatabaseConnectionTest_ and let all DAO<sub>~tests depend on it. All DAO</sub>~tests can thus be skipped if the _testDatabaseConnectionTest_ fail. This makes the test failure easier to debug.
+The solution is to introduce dependencies between tests. E.g., create at _testDatabaseConnectionTest_ and let all DAO-tests depend on it. All DAO-tests can thus be skipped if the _testDatabaseConnectionTest_ fail. This makes the test failure easier to debug.
 
 **TODO**: ref to the Advanced Java testing book.
 

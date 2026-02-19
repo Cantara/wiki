@@ -15,18 +15,18 @@ Denne gang gir vi anledning til å bruke 30-45 minutter for å gå noe i dybden 
 
 1800 - Velkommen og innhente forsyninger i baren
 1815 - Introduksjon til medlemsmøte
-1830 - [Galls Lov og Erstatningsprosjekter](Galls<sub>~Lov</sub>~og-Erstatningsprosjekter.md) (Johannes Brodwall)
+1830 - [Galls Lov og Erstatningsprosjekter](Galls-Lov-og-Erstatningsprosjekter.md) (Johannes Brodwall)
 1915 - Pause og nye forsyninger
-1930 - [Det intuitivt riktige er ofte feil](Det<sub>~intuitivt</sub><sub>riktige</sub><sub>er</sub>~ofte-feil.md) - erfaringer fra replacement prosjekter (Niklas Bjørnerstedt) [http://www.leanway.no](http://www.leanway.no)
+1930 - [Det intuitivt riktige er ofte feil](Det-intuitivt-riktige-er-ofte-feil.md) - erfaringer fra replacement prosjekter (Niklas Bjørnerstedt) [http://www.leanway.no](http://www.leanway.no)
 2030 - Open space diskusjoner
 
 ## Forslag til ettertema
 
-- [Open Space Konvertering - tema 1](Open<sub>~Space</sub><sub>Konvertering</sub><sub>tema</sub>~1.md) 
-- [OSK - Når lønner det seg å konvertere?](OSK<sub>~Når</sub><sub>lønner</sub><sub>det</sub><sub>seg</sub><sub>å</sub>~konvertere.md) 
-- [OSK - 90% av konverteringsprosjekter er meningsløs sløsing](OSK<sub>~90</sub><sub>av</sub><sub>konverteringsprosjekter</sub><sub>er</sub><sub>meningsløs</sub>~sløsing.md)
+- [Open Space Konvertering - tema 1](Open-Space-Konvertering-tema-1.md) 
+- [OSK - Når lønner det seg å konvertere?](OSK-Når-lønner-det-seg-å-konvertere.md) 
+- [OSK - 90% av konverteringsprosjekter er meningsløs sløsing](OSK-90-av-konverteringsprosjekter-er-meningsløs-sløsing.md)
 
 Påmelding:
 
 ### Twitter feed fra møtet
-{rss:url=http://search.twitter.com/search.atom?q=%23iasa&since=2010<sub>~01</sub>~08}
+{rss:url=http://search.twitter.com/search.atom?q=%23iasa&since=2010-01-08}

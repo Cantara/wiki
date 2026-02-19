@@ -18,7 +18,7 @@ By default the application has no dependencies to external systems. HSQLDB is us
 There is one profile for _test_ (aka. staging, CI, rc, etc.) and one profile for _prod_. The difference between test and prod can typically be different hardware, different OS or the amount of test data. The profiles are activated by setting the system property _env_; e.g., _mvn install -Denv=test_. A system property was chosen instead of just activation the profile directly, because the property is also used by Spring's applicationContext to select which property files to read (PropertyOverrideConfigurer), AND it is used to activate another profile in settings.xml which makes username and password available (with filtering). 
 
 #### Proof of Concept
-A working, real<sub>~life example of this PoC can be found in the [NAUT project](http://svn.abakus.no/naut/tags/release</sub>~1.3.1). The links above each code snippet links directly to NAUTs subversion repository. 
+A working, real-life example of this PoC can be found in the [NAUT project](http://svn.abakus.no/naut/tags/release-1.3.1). The links above each code snippet links directly to NAUTs subversion repository. 
 
 [pom.xml](http://svn.abakus.no/naut/tags/release-1.3.1/pom.xml)
 
@@ -122,7 +122,7 @@ A working, real<sub>~life example of this PoC can be found in the [NAUT project]
 ```
  
 
-[test<sub>~hibernate.properties](http://svn.abakus.no/naut/tags/release</sub>~1.3.1/src/main/conf/test-hibernate.properties):
+[test-hibernate.properties](http://svn.abakus.no/naut/tags/release-1.3.1/src/main/conf/test-hibernate.properties):
 
 ```
 dataSource.driverClassName=org.postgresql.Driver
@@ -133,7 +133,7 @@ dataSource.password=${test.dataSource.password} #Set this property in settings.x
 sessionFactory.hibernateProperties[java:hibernate.dialect]=org.hibernate.dialect.PostgreSQLDialect
 ```
 
-[prod<sub>~hibernate.properties](http://svn.abakus.no/naut/tags/release</sub>~1.3.1/src/main/conf/prod-hibernate.properties):
+[prod-hibernate.properties](http://svn.abakus.no/naut/tags/release-1.3.1/src/main/conf/prod-hibernate.properties):
 ```
 dataSource.driverClassName=org.postgresql.Driver
 dataSource.url=jdbc:postgresql://db.abakus.no/prodDBname
@@ -257,7 +257,7 @@ Sensitive properties can be overridden by adding them to ~/.m2/settings.xml. E.g
 
 ## Resources
 
-[Configuration<sub>~management with Spring](http://blog.arendsen.net/index.php/2005/03/12/configuration</sub><sub>management</sub><sub>with</sub>~spring/)
+[Configuration-management with Spring](http://blog.arendsen.net/index.php/2005/03/12/configuration-management-with-spring/)
 [Multiple, separate PropertyPlaceholderConfigurers in Spring](http://www.cwinters.com/news/display/3395) 
-[Building for different environments](http://maven.apache.org/guides/mini/guide<sub>~building</sub><sub>for</sub><sub>different</sub>~environments.html)
-[A Maven2 multi<sub>~environment filter setup](http://sujitpal.blogspot.com/2006/10/maven2</sub><sub>multi</sub><sub>environment</sub>~filter-setup.html)
+[Building for different environments](http://maven.apache.org/guides/mini/guide-building-for-different-environments.html)
+[A Maven2 multi-environment filter setup](http://sujitpal.blogspot.com/2006/10/maven2-multi-environment-filter-setup.html)

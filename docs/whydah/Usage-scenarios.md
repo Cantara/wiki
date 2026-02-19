@@ -1,7 +1,7 @@
 # Usage scenarios
 
-- [User SSO scenarios](User<sub>~SSO</sub>~scenarios.md)
+- [User SSO scenarios](User-SSO-scenarios.md)
 
-- [Application SSO scenario](Application<sub>~SSO</sub>~scenario.md) 
+- [Application SSO scenario](Application-SSO-scenario.md) 
 
-- [Advanced ACL using graph database](Advanced<sub>~ACL</sub><sub>using</sub><sub>graph</sub>~database.md)
+- [Advanced ACL using graph database](Advanced-ACL-using-graph-database.md)

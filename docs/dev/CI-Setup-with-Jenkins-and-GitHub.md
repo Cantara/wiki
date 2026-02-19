@@ -14,7 +14,7 @@ https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu
 
 **Be sure to apply the package manager update or you'll end upp with an old Jenkins version**
 	
-	wget -q -O - http://pkg.jenkins<sub>~ci.org/debian/jenkins</sub>~ci.org.key | sudo apt-key add -
+	wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
 	sudo sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
 	sudo apt-get update
 	sudo apt-get install jenkins
@@ -22,7 +22,7 @@ https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu
 	**If you get the error**:
 	
 	dpkg: error processing /var/cache/apt/archives/jenkins_1.523_all.deb (--unpack):
-		trying to overwrite '/usr/share/jenkins/jenkins.war', which is also in package jenkins<sub>~common 1.480.3+dfsg</sub><sub>1</sub>exp2 
+		trying to overwrite '/usr/share/jenkins/jenkins.war', which is also in package jenkins-common 1.480.3+dfsg-1~exp2 
  
 	You need to force an overwrite*
 	`sudo dpkg -i --force-overwrite /var/cache/apt/archives/jenkins_1.523_all.deb`
@@ -53,7 +53,7 @@ Manage Jenkins -> Manage Plugins
 ##### Generate ssh-key
 If you have plans on using multiple GitHub repositories you will need to add one key for each project.
 A general key for all repos won't work.
-See the explanation here: http://blog.firmhouse.com/configuring<sub>~multiple</sub><sub>private</sub><sub>ssh</sub><sub>deploy</sub><sub>keys</sub><sub>in</sub><sub>jenkins</sub><sub>for</sub><sub>github</sub>~com
+See the explanation here: http://blog.firmhouse.com/configuring-multiple-private-ssh-deploy-keys-in-jenkins-for-github-com
 (if you've already added github.com as a known_host in ~/.ssh/known_hosts you need to remove that entry for this to work)
 
 Log on as the jenkins-user on your system:
@@ -92,7 +92,7 @@ Use the public part of the key as a Deploy Key on GitHub. (id_rsa.git.pub)
 Go back to the shell on your jenkins server and sudo in as the jenkins-user.
 `sudo -i -u jenkins`
 Verify that the keys are set up correct by typing
-`git ls<sub>~remote -h ssh://git@github</sub>~projectname/user/project.git HEAD`
+`git ls-remote -h ssh://git@github-projectname/user/project.git HEAD`
 This will also add GitHub to known hosts.
 \\
 
@@ -127,15 +127,15 @@ The page must display the message "Scheduled polling of Projectname"
 **Enable the hook on GitHub**
 1. Go to the Settings page on your repository.
 1. Select Service Hooks -> Jenkins (Git plugin) - _(not the (GitHub plugin) see step 4)_
-1. In the URL<sub>~field you simply need to specify the server name (and root directory if your context directory isn't at root level): http://my</sub>~jenkins.company.com/
-1. **NB!** If you are using multiple deploy keys and have specified the github repo on the form ssh://git@github<sub>~project/name/project.git you need to use the Jenkins (GitHub plugin) and specify the complete URL to the hook on the form http://ci.company.com/git/notifyCommit?url=ssh://git@github</sub>~project/name/project
+1. In the URL-field you simply need to specify the server name (and root directory if your context directory isn't at root level): http://my-jenkins.company.com/
+1. **NB!** If you are using multiple deploy keys and have specified the github repo on the form ssh://git@github-project/name/project.git you need to use the Jenkins (GitHub plugin) and specify the complete URL to the hook on the form http://ci.company.com/git/notifyCommit?url=ssh://git@github-project/name/project
 \\
 
 ## References
 
 https://wiki.jenkins-ci.org/display/JENKINS/Installing+Jenkins+on+Ubuntu \\
 https://wiki.jenkins-ci.org/display/JENKINS/Standard+Security+Setup \\
-http://www.karan.org/blog/index.php/2009/08/25/multiple<sub>~ssh</sub>~private-keys \\ 
+http://www.karan.org/blog/index.php/2009/08/25/multiple-ssh-private-keys \\ 
 https://wiki.jenkins-ci.org/display/JENKINS/Git+plugin \\
-http://kohsuke.org/2011/12/01/polling<sub>~must</sub><sub>die</sub><sub>triggering</sub><sub>jenkins</sub><sub>builds</sub><sub>from</sub><sub>a</sub>~git-hook/ \\
-http://blog.firmhouse.com/configuring<sub>~multiple</sub><sub>private</sub><sub>ssh</sub><sub>deploy</sub><sub>keys</sub><sub>in</sub><sub>jenkins</sub><sub>for</sub><sub>github</sub>~com
+http://kohsuke.org/2011/12/01/polling-must-die-triggering-jenkins-builds-from-a-git-hook/ \\
+http://blog.firmhouse.com/configuring-multiple-private-ssh-deploy-keys-in-jenkins-for-github-com

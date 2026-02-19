@@ -6,7 +6,7 @@ It is often a good idea to use stubs instead of the actual services. We recommen
 
 #### JMS 
 
-- [Embedded ActiveMQ JMS Server (Spring)](Embedded<sub>~ActiveMQ</sub><sub>JMS</sub><sub>Server</sub>~Spring.md)
+- [Embedded ActiveMQ JMS Server (Spring)](Embedded-ActiveMQ-JMS-Server-Spring.md)
 
 - Start ActiveMQ (in-mem) programmatically 
 
@@ -16,13 +16,13 @@ To verify that the HTTP endpoints work as expected it is of course necessary to 
 
 ###### REST 
 
-1. [Start Jetty application with stubbed services](Start<sub>~Jetty</sub><sub>application</sub><sub>with</sub>~stubbed-services.md)
+1. [Start Jetty application with stubbed services](Start-Jetty-application-with-stubbed-services.md)
 1. Run requests against the service and verify the expected response (both response code and content). 
-    1. [REST<sub>~assured](https://code.google.com/p/rest</sub>~assured/) can simplify the request and assert parts of this. 
+    1. [REST-assured](https://code.google.com/p/rest-assured/) can simplify the request and assert parts of this. 
 
 ###### SOAP 
 
-1. [Start Jetty application with stubbed services](Start<sub>~Jetty</sub><sub>application</sub><sub>with</sub>~stubbed-services.md)
+1. [Start Jetty application with stubbed services](Start-Jetty-application-with-stubbed-services.md)
 1. Run requests against the service and verify the expected response (both response code and content). 
 
 CXF example: 
@@ -59,4 +59,4 @@ class WSClientPasswordHandlerForTests implements CallbackHandler {
 }
 ```
 
-See also [http://stackoverflow.com/questions/5906154/apache<sub>~cxf</sub><sub>credentials</sub><sub>not</sub><sub>being</sub><sub>sent</sub><sub>from</sub><sub>wss4joutinterceptor](http://stackoverflow.com/questions/5906154/apache</sub><sub>cxf</sub><sub>credentials</sub><sub>not</sub><sub>being</sub><sub>sent</sub><sub>from</sub>~wss4joutinterceptor).
+See also [http://stackoverflow.com/questions/5906154/apache-cxf-credentials-not-being-sent-from-wss4joutinterceptor](http://stackoverflow.com/questions/5906154/apache-cxf-credentials-not-being-sent-from-wss4joutinterceptor).

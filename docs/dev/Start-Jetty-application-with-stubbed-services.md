@@ -2,7 +2,7 @@
 
 ###### Start the application, but override what services are initialized 
 
-Inspiration: [https://github.com/ivarconr/jersey2<sub>~spring3</sub><sub>webapp](https://github.com/ivarconr/jersey2</sub><sub>spring3</sub>~webapp) 
+Inspiration: [https://github.com/ivarconr/jersey2-spring3-webapp](https://github.com/ivarconr/jersey2-spring3-webapp) 
 
 ###### Main class
 

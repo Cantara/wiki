@@ -1,11 +1,11 @@
 # Add a process for each drone that refresh new positions every 10 seconds on server
 
-### [Add a process for each drone that refresh new positions every 10 seconds on server](Add<sub>~a</sub><sub>process</sub><sub>for</sub><sub>each</sub><sub>drone</sub><sub>that</sub><sub>refresh</sub><sub>new</sub><sub>positions</sub><sub>every</sub><sub>10</sub><sub>seconds</sub><sub>on</sub>~server.md)
+### [Add a process for each drone that refresh new positions every 10 seconds on server](Add-a-process-for-each-drone-that-refresh-new-positions-every-10-seconds-on-server.md)
 
 _ref:_ 
 
-- [Drone radar design](Drone<sub>~radar</sub>~design.md)
-- [Main service layout](Main<sub>~service</sub>~layout.md)
+- [Drone radar design](Drone-radar-design.md)
+- [Main service layout](Main-service-layout.md)
 - [Track simulator](Track-simulator.md)
 
 ##### Purpose

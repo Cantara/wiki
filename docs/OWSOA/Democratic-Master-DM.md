@@ -16,8 +16,8 @@ The Democratic Master (DM) strategy involves all providers voting that their own
 - Which providers have suffrage?
 - How to handle a tie? 
     - Combine other strategies with CoR?
-        - [Master Changed OOB<sub>~Update Remaining Sources (McOOBURS)](Master</sub><sub>Changed</sub><sub>OOB</sub><sub>Update</sub><sub>Remaining</sub>~Sources-McOOBURS.md) ?
-        - [Last Attribute Update Wins (LAUW)](Last<sub>~Attribute</sub><sub>Update</sub><sub>Wins</sub>~LAUW.md)?
+        - [Master Changed OOB-Update Remaining Sources (McOOBURS)](Master-Changed-OOB-Update-Remaining-Sources-McOOBURS.md) ?
+        - [Last Attribute Update Wins (LAUW)](Last-Attribute-Update-Wins-LAUW.md)?
     - Last option is to perform manual data washing.
 
 # When

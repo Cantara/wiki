@@ -12,13 +12,13 @@
     - FAQ 
     - Troubleshoot guide 
 
-#### For unix<sub>~m</sub>~p
+#### For unix-m-p
 
 - new to product 
     - What problems can the product solve? 
     - How to use it (add what to the pom) 
     - Description of the configuration with both simple and extensive examples 
-    - The goals and responsibility of the unix<sub>~m</sub>~p. Scope. 
+    - The goals and responsibility of the unix-m-p. Scope. 
     - Table of contents for different usage scenarios. (navigate from introduction to your use case) 
 
 - Advanced information 

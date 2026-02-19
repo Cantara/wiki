@@ -1,6 +1,6 @@
 # Data-driven testing
 
-[Data<sub>~driven testing](http://en.wikipedia.org/wiki/Data</sub>~driven_testing) is a well-known concept and many different implementations exists. 
+[Data-driven testing](http://en.wikipedia.org/wiki/Data-driven_testing) is a well-known concept and many different implementations exists. 
 
 ###### When to consider data-driven testing?
 
@@ -21,4 +21,4 @@ It also means it can be the perfect tool to **quickly find and fix a bug in prod
 
 TestNG has support for parameterizing tests by using a [DataProvider](http://testng.org/javadoc/org/testng/annotations/DataProvider.html). This makes it really easy to do small scale data-driven testing. 
 
-A simple example of using DataProvider can be found here: [TestNG – Parameter Test (XML and @DataProvider), by mkyong](http://www.mkyong.com/unittest/testng<sub>~tutorial</sub><sub>6</sub><sub>parameterized</sub>~test)
+A simple example of using DataProvider can be found here: [TestNG – Parameter Test (XML and @DataProvider), by mkyong](http://www.mkyong.com/unittest/testng-tutorial-6-parameterized-test)

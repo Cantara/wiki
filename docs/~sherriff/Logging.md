@@ -13,7 +13,7 @@ Dette gir oss følgende muligheter:
 - Flere og bedre muligheter for lagring av logg til f.eks. JMS-kø, database osv.
 - Konfigurasjonsfiler med if/then/else for én configfil for forskjellige miljøer
 - Flere og bedre muligheter for å rullere/komprimere gamle loggfiler basert på kriterier som dato, størrelse osv.
-- GUI for loggfiler 'out<sub>~of</sub>~the-box' med Lilith
+- GUI for loggfiler 'out-of-the-box' med Lilith
 
 #### Konfigurasjonsfiler
 
@@ -21,11 +21,11 @@ Dette gir oss følgende muligheter:
 | --- | --- | --- |
 | Produksjon | \-Dlogback.configurationFile=./logback.xml i run.sh/jobber.sh | på roten av hver modul. \\ |
 \* Logback-konfigurasjon for produksjon
-    - Web [http://ngsvn1.joh.no/svn/engrosrep/asko<sub>~netthandel/trunk/web/logback.xml](http://ngsvn1.joh.no/svn/engrosrep/asko</sub>~netthandel/trunk/web/logback.xml)
-    - Pocket [http://ngsvn1.joh.no/svn/engrosrep/asko<sub>~netthandel/trunk/pocket/logback.xml](http://ngsvn1.joh.no/svn/engrosrep/asko</sub>~netthandel/trunk/pocket/logback.xml)
-    - Jobber [http://ngsvn1.joh.no/svn/engrosrep/asko<sub>~netthandel/trunk/jobber/logback.xml](http://ngsvn1.joh.no/svn/engrosrep/asko</sub>~netthandel/trunk/jobber/logback.xml)
-    - Rapportserver [http://ngsvn1.joh.no/svn/engrosrep/asko<sub>~netthandel/trunk/web/logback.xml](http://ngsvn1.joh.no/svn/engrosrep/asko</sub>~netthandel/trunk/web/logback.xml)
-    - WS<sub>~server [http://ngsvn1.joh.no/svn/engrosrep/asko</sub>~netthandel/trunk/web/logback.xml](http://ngsvn1.joh.no/svn/engrosrep/asko-netthandel/trunk/web/logback.xml) |
+    - Web [http://ngsvn1.joh.no/svn/engrosrep/asko-netthandel/trunk/web/logback.xml](http://ngsvn1.joh.no/svn/engrosrep/asko-netthandel/trunk/web/logback.xml)
+    - Pocket [http://ngsvn1.joh.no/svn/engrosrep/asko-netthandel/trunk/pocket/logback.xml](http://ngsvn1.joh.no/svn/engrosrep/asko-netthandel/trunk/pocket/logback.xml)
+    - Jobber [http://ngsvn1.joh.no/svn/engrosrep/asko-netthandel/trunk/jobber/logback.xml](http://ngsvn1.joh.no/svn/engrosrep/asko-netthandel/trunk/jobber/logback.xml)
+    - Rapportserver [http://ngsvn1.joh.no/svn/engrosrep/asko-netthandel/trunk/web/logback.xml](http://ngsvn1.joh.no/svn/engrosrep/asko-netthandel/trunk/web/logback.xml)
+    - WS-server [http://ngsvn1.joh.no/svn/engrosrep/asko-netthandel/trunk/web/logback.xml](http://ngsvn1.joh.no/svn/engrosrep/asko-netthandel/trunk/web/logback.xml) |
 | Testmiljøer | \-Dlogback.configurationFile=./logback.xml i run.sh/jobber.sh | src/test/resources/logback-test.xml for hver deploymentenhet |
 | Tester | src/test/resources/logback-test.xml i alle moduler |  |
 | mvn jetty:run | $\/src/test/resources/logback-test.xml, konfigurert i pom.xml i web og pocket |  |

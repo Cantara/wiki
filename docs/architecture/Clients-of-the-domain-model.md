@@ -2,7 +2,7 @@
 
 ### Interacting with the domain model
 
-How should clients access the domain model? That depends on the type of client and the underlying [architecture](DDD<sub>~friendly</sub>~architectures.md).
+How should clients access the domain model? That depends on the type of client and the underlying [architecture](DDD-friendly-architectures.md).
 
 #### Local clients
 
@@ -26,7 +26,7 @@ Critics of the first approach have at least two valid arguments: It reduces the 
 
 ### Adding UI capabilities to the domain objects
 
-The domain model should not be concerned with specific features needed by the user interface. Remember the [layer dependencies](Package<sub>~structure</sub>~and-layers.md) for domain objects. Nevertheless, the UI layer often needs added functionality or other smaller improvements to the objects. Most often for presentation purposes.
+The domain model should not be concerned with specific features needed by the user interface. Remember the [layer dependencies](Package-structure-and-layers.md) for domain objects. Nevertheless, the UI layer often needs added functionality or other smaller improvements to the objects. Most often for presentation purposes.
 
 Available techniques:
 - Decorator

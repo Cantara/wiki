@@ -26,7 +26,7 @@ Hvis foreningen driver næringsvirksomhet, skal den registreres i Foretaksregist
 
 Src: [Hvordan registrere lag og foreninger](http://www.bedin.no/php/d_emneside/cf/hApp_101/hPKey_2411/hParent_0/hDKey_1)
 
-[Når blir det næringsvirksomhet?](https://www.altinn.no/no/hjelp<sub>~til</sub><sub>regelverk/starte</sub><sub>bedrift/for</sub>~du-starter/minste/naringsvirksomhet/)
+[Når blir det næringsvirksomhet?](https://www.altinn.no/no/hjelp-til-regelverk/starte-bedrift/for-du-starter/minste/naringsvirksomhet/)
 
 [Registrering av frivillig virksomhet](http://www.brreg.no/registrering/frivillighet.html), [Frivillighetsregisteret](http://www.brreg.no/frivillighet/)
 

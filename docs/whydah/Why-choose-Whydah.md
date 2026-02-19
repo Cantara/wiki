@@ -6,7 +6,7 @@ A: OpenSSO has had it's issues in the transition from Sun Microsystems to ForgeR
 
 ###### Q: Infrastructure angle: Shouldn't IAM  be bought as black-box solution? 
 
-A: IAM/SSO should be black<sub>~box purchases, but as commented above, today's black</sub><sub>box solutions keep failing in organizations by being to "different" or "difficult" for many development teams/projects. One of the reasons seems to be that developers gets confused by the massive XML</sub><sub>scaffolding in SAML2 tokens and the lack of development/test stand</sub>~alone deployments which easily integrate with the project CI infrastructure.
+A: IAM/SSO should be black-box purchases, but as commented above, today's black-box solutions keep failing in organizations by being to "different" or "difficult" for many development teams/projects. One of the reasons seems to be that developers gets confused by the massive XML-scaffolding in SAML2 tokens and the lack of development/test stand-alone deployments which easily integrate with the project CI infrastructure.
 
 ###### Q: Gartner EA policies (What's wrong with IBM Tivoli IAM Suite, NetIQ and similar?)
 

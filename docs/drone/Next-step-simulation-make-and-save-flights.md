@@ -1,6 +1,6 @@
 # Next step simulation, make and save flights
 
-### [Next step simulation, make and save flights](Next<sub>~step</sub><sub>simulation</sub><sub>make</sub><sub>and</sub><sub>save</sub>~flights.md)
+### [Next step simulation, make and save flights](Next-step-simulation-make-and-save-flights.md)
 
 Determine when drone are making a flight or not.
 
@@ -8,7 +8,7 @@ When drone is going from zero speed to moving a certain amount of time, the dron
 
 ##### refs: 
 
-- [Main service layout](Main<sub>~service</sub>~layout.md)
+- [Main service layout](Main-service-layout.md)
 
 ##### Function
 

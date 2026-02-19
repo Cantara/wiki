@@ -1,6 +1,6 @@
 # June09Discussion
 
-![9.png](9-png.md)(9.png)
+![9.png](3145861-9.png)
 
 ### [@baardl](http://www.twitter.com/baardl) 
 
@@ -32,7 +32,7 @@ Even considering the nice weather this evenings #IASA meeting at #scotsman was w
 
 @javatotto @jhannes @baardl Self-organizing teams can organize architecture too! An "unofficial lead developer" is preferred in my world.
 
-@baardl @jhannes @javatotto I believe "architect" is an out<sub>~of</sub>~date title, at least for actual developers.
+@baardl @jhannes @javatotto I believe "architect" is an out-of-date title, at least for actual developers.
 
 @jhannes @baardl +1 on the bottleneck theory. "Architects" gone in meetings cause ad-hoc architecture decisions anyhow. Get rid of them!
 

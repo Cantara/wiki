@@ -19,7 +19,7 @@
     - Server response time
 - DDoS specific pages 
 - Crawl: Find dead links
-- Try to trigger an error by varying possible input values (bypassing any client<sub>~side validation) to verify server</sub>~side validation 
+- Try to trigger an error by varying possible input values (bypassing any client-side validation) to verify server-side validation 
 
 #### Important design choices 
 

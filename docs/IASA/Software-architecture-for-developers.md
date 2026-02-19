@@ -7,9 +7,9 @@
 - What skill should a young developer strive to learn if he/she wants to contribute towards an appropriate architecture? 
 
 - Get his views on  
-    - [Architecture: Architect roles and responsibilities](../Architecture/Architect<sub>~roles</sub>~and-responsibilities.md)
-    - [Architecture: Laws for Organization Architects](../Architecture/Laws<sub>~for</sub>~Organization-Architects.md)
-    - [Architecture: Laws for Project Architects](../Architecture/Laws<sub>~for</sub>~Project-Architects.md)
+    - [Architecture: Architect roles and responsibilities](../Architecture/Architect-roles-and-responsibilities.md)
+    - [Architecture: Laws for Organization Architects](../Architecture/Laws-for-Organization-Architects.md)
+    - [Architecture: Laws for Project Architects](../Architecture/Laws-for-Project-Architects.md)
 
 #### Simon Brown 
 

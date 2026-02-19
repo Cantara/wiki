@@ -23,7 +23,7 @@ Hovedstrategi:
 - Lage hype på at droneflygere selv bør være i forkant av krav som uansett vil komme.
 - Selge inn via eksisterende kontakter i dronemiljø.
 
-### [Drone radar design](Drone<sub>~radar</sub>~design.md)
+### [Drone radar design](Drone-radar-design.md)
 
 Det er 3 hovedkomponenter i løsningen som må på plass:
 
@@ -38,11 +38,11 @@ Drone radar er avhengig av at det monteres en gps tracker på hver drone som avg
 1. Må kunne lese posisjoner minst hvert sekund fra gps systemet
 1. Må kunne sende posisjon via mobilnettverket minst hvert 5 sekund til drone radar systemet. Via IP (udp/tcp)
 
-**refs:** [Gps tracker technology](Gps<sub>~tracker</sub>~technology.md) 
+**refs:** [Gps tracker technology](Gps-tracker-technology.md) 
 
 ### System 
 
-- [drone server info](drone<sub>~server</sub>~info.md)
+- [drone server info](drone-server-info.md)
 - [OpenGTS demoserver](OpenGTS-demoserver.md)
 
 ### Document relate to GTS

@@ -1,6 +1,6 @@
 # States of a distributed application
 
-> ℹ️ Remember the [The Eight Fallacies of Distributed Computing](http://michael.toren.net/mirrors/eight<sub>~fallacies</sub><sub>of</sub><sub>distributed</sub>~computing/) 
+> ℹ️ Remember the [The Eight Fallacies of Distributed Computing](http://michael.toren.net/mirrors/eight-fallacies-of-distributed-computing/) 
 
 ## Viewpoint: System Administrator 
 This a **simplified** state diagram of what we want. A _Failed_ state should probably be added and ideally it should also be possible to recover and go back to _Running_ or at least the _Booted_ state. 

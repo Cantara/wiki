@@ -71,9 +71,9 @@ Continues on Qi4J. Concerns. Orders. Groups concerns by using Interfaces?
 
 You can use extensions. 
 
-I'm worried about it will get too complex, and people will mis<sub>~use. Refactoring a concern</sub>~stack will be hard. But we can improve the "Find Usage" 
+I'm worried about it will get too complex, and people will mis-use. Refactoring a concern-stack will be hard. But we can improve the "Find Usage" 
 
-Ronnie asks: What do we miss from AOP? Like logging? Rickard says: Put the behaviour in the system. Logging would be sub<sub>~system, and then you want a calll</sub>~tracing concern. You would have a my application composite. And add the tracer concern there.
+Ronnie asks: What do we miss from AOP? Like logging? Rickard says: Put the behaviour in the system. Logging would be sub-system, and then you want a calll-tracing concern. You would have a my application composite. And add the tracer concern there.
 
 The logging example is funny, Kaare says. Everyone agrees. 
 
@@ -125,7 +125,7 @@ Entities/Messages, Aggregates, these things are on their way into Qi4J..
 
 UnitOfWork..
 
-Interesting question would be to see how will this absorb into the industry. Both software<sub>~wize and people</sub>~wize.
+Interesting question would be to see how will this absorb into the industry. Both software-wize and people-wize.
 
 Dependency injection: Modules. Visibility and scopes decide what gets injected where.
 

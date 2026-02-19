@@ -6,7 +6,7 @@ Four main strategies were used in the first phases of the project:
 
 - The new system would be based on the existing database (the [shared database](shared-database.md) pattern). This decision was based on the observation that the existing database platform and structure were acceptable for the new system.
 
-- The system would be built according to the [sequence of the underlying workflow](Partition<sub>~the</sub>~workflow.md): submission of application, peer review, funding decision, progress reporting, and finally end report. The first release would be a web-based system that allowed researchers to assemble and submit applications.
+- The system would be built according to the [sequence of the underlying workflow](Partition-the-workflow.md): submission of application, peer review, funding decision, progress reporting, and finally end report. The first release would be a web-based system that allowed researchers to assemble and submit applications.
 
 - The first release would only be used for a small portion of the research applications ([limited release](limited-release.md)). We would only handle the simplest type of research proposal and would limit the number of users that were allowed to send their applications through the system. This strategy was facilitated by the shared database.
 

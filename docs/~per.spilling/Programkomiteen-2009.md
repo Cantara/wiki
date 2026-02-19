@@ -2,7 +2,7 @@
 
 ### Malmateriale
 
-[<sub>per.spilling:Invitasjoner samt malmateriale](../</sub>per.spilling/Invitasjoner<sub>~samt</sub>~malmateriale.md)
+[~per.spilling:Invitasjoner samt malmateriale](../~per.spilling/Invitasjoner-samt-malmateriale.md)
 
 ### Skisse til fremdriftsplan
 
@@ -12,12 +12,12 @@
     * 25. mai til 08. juni Feedback periode og ingen pcom møter
     * 08. juni Frist for oppdaterte abstracts
     * 22. juni Utsending av endelige bekreftelser. Foredrag ferdig, men ikke spikret timeplan
-    * 01<sub>~08. August spikring av timeplan [</sub>per.spilling:Møtereferat 17.aug](../<sub>per.spilling/Møtereferat</sub>~17-aug.md)
-    * 01<sub>~08. august -</sub>~ Sende ut mail til lyntalere med frist for innsending av lyntale-slides. 
+    * 01-08. August spikring av timeplan [~per.spilling:Møtereferat 17.aug](../~per.spilling/Møtereferat-17-aug.md)
+    * 01-08. august -- Sende ut mail til lyntalere med frist for innsending av lyntale-slides. 
 
 ### Oppgaveoppfølging
 
-Se [<sub>per.spilling:Pcom oppgaver](../</sub>per.spilling/Pcom-oppgaver.md)
+Se [~per.spilling:Pcom oppgaver](../~per.spilling/Pcom-oppgaver.md)
 
 ### Steder å profilere JavaZone CFP
 
@@ -41,7 +41,7 @@ http://www.verticalresponse.com/ brukernavn: kjetil@java.no passord: javaBin08
 
 ### Epost konto
 
-Vi har byttet fra GMail no<sub>~spam forwarding til mailmail e</sub>~post liste. All mail er fortsatt tilgjengelig på javabinprogram@gmail.com for oppfølging
+Vi har byttet fra GMail no-spam forwarding til mailmail e-post liste. All mail er fortsatt tilgjengelig på javabinprogram@gmail.com for oppfølging
 
 u/p:
 javabinprogram

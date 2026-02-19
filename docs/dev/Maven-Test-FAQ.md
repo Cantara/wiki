@@ -77,7 +77,7 @@ public void testSomeThingThatUseADatabase() {
 </suite>
 ```
 
-##### testng<sub>~jms</sub>~database.xml
+##### testng-jms-database.xml
 ```
 <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd">
 <suite name="ArtifactName test suite">
@@ -98,10 +98,10 @@ The general group concept is scalable, but many profiles quickly become chaotic.
 Without TestNG there are two approaches to run tests that are not run when executing _mvn test_. Note that this approach can only handle _two_ dimensions. This is why the most common separation is unit tests and integration tests. 
 
 - Put all integration tests in a separate folder (e.g. itest).
-    - See \[example \](../[http/svn<sub>~objectware</sub><sub>no</sub><sub>repos</sub><sub>objectware</sub><sub>public</sub><sub>examples</sub><sub>maven</sub><sub>itest</sub><sub>examples</sub>~itest-directory.md)
+    - See \[example \](../[http/svn-objectware-no-repos-objectware-public-examples-maven-itest-examples-itest-directory.md)
 
 - Use a naming convention so separate from regular/unit tests (e.g. all integration tests a postfixed with IntTest
-    - See \[example \](../[http/svn<sub>~objectware</sub><sub>no</sub><sub>repos</sub><sub>objectware</sub><sub>public</sub><sub>examples</sub><sub>maven</sub><sub>itest</sub><sub>examples</sub>~itest-directory.md)
+    - See \[example \](../[http/svn-objectware-no-repos-objectware-public-examples-maven-itest-examples-itest-directory.md)
 
 #### How to only run some groups with a maven profile?
 
@@ -176,7 +176,7 @@ mvn clean install -P integration runs all tests.
 
 #### How to verify that JSPs compile?
 
-To precompile JSPs the [jspc<sub>~maven</sub><sub>plugin](http://mojo.codehaus.org/jspc</sub><sub>maven</sub>~plugin/) can be used.
+To precompile JSPs the [jspc-maven-plugin](http://mojo.codehaus.org/jspc-maven-plugin/) can be used.
 
 Example:
 ```lang
@@ -210,7 +210,7 @@ Generally, this is not recommended. But it can be handy if you have a reactor of
 
 #### How do I run a single test?
 
-From http://maven.apache.org/plugins/maven<sub>~surefire</sub>~plugin/examples/single-test.html :
+From http://maven.apache.org/plugins/maven-surefire-plugin/examples/single-test.html :
 
 {}
 

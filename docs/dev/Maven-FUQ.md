@@ -2,7 +2,7 @@
 
 ## Maven Frequently Unanswered Questions
 
-#### How do I use maven<sub>~jaxb</sub><sub>schemagen</sub><sub>plugin (generate xsd from java) and jaxws</sub>~maven-plugin (generate java classes from WSDL) on java 6 on the same prosject?
+#### How do I use maven-jaxb-schemagen-plugin (generate xsd from java) and jaxws-maven-plugin (generate java classes from WSDL) on java 6 on the same prosject?
 Current content of pom that does **not** work:
 ```
 <plugin>

@@ -7,16 +7,16 @@ We want to ensure the robustness and scaleabillity of all stable Whydah releases
 ### Test set-up
 
 Version tested:  
-- **Whydah 2.0<sub>~rc</sub><sub>1**  25.9</sub><sub>2014  12:00</sub>~15:00 GST+1
+- **Whydah 2.0-rc-1**  25.9-2014  12:00-15:00 GST+1
 
 **Whydah configuration:**
-- Amazon AWS EC2 cloud deployment (region=us<sub>~east</sub>~1)
+- Amazon AWS EC2 cloud deployment (region=us-east-1)
     - Amazon Elastic Load Balancer in front of the 10 front-servers running amazon linux - latest version
     - Front-servers: 10 T2 micro servers running SSOLoginWebApp, SecurityTokenService(hazelcast clustered) and TestWebApp with apache proxypass to localhost
     - Backend-server: one of the 10 front servers are also running UAWA and UIB with embedded ApacheDS and HSQLDB (not optimal, as of memory contraints on T2 micro instances)
 - Detailed configuration descriptions
-    - [SSOLoginWebApp HA configuration (AWS ELB and Apache front)](SSOLoginWebApp<sub>~HA</sub><sub>configuration</sub><sub>AWS</sub><sub>ELB</sub><sub>and</sub>~Apache-front.md)
-    - [SecurityTokenService HA configuration (AWS EC2 Hazelcast)](SecurityTokenService<sub>~HA</sub><sub>configuration</sub><sub>AWS</sub>~EC2-Hazelcast.md)
+    - [SSOLoginWebApp HA configuration (AWS ELB and Apache front)](SSOLoginWebApp-HA-configuration-AWS-ELB-and-Apache-front.md)
+    - [SecurityTokenService HA configuration (AWS EC2 Hazelcast)](SecurityTokenService-HA-configuration-AWS-EC2-Hazelcast.md)
 
 **Load-test configuration:**
 - Simple loader.io setup
@@ -39,12 +39,12 @@ Version tested:
 - Sent	1.39 MB / 13.81 MB
 
 **Comments:**
-- No undesired behavior observed in logs, server<sub>~monitoring or elb</sub>~monitoring
+- No undesired behavior observed in logs, server-monitoring or elb-monitoring
 - Manual test simultaneously did work as usual
 - Running the test several times result in similar results
 - Test was done with extensive logging (level: TRACE) less aggressive logging should increase performance
 
 **Reflections:**
-- By running different loads, we see that a T2 microserver can handle about 200 logon/pick up session request a second. The heavy operation is logon, as it has to go all the way to UIB(singleton). On higher load, the response<sub>~time increases (for 500 reqs/s it is 2</sub>~3 s).
-- A more realistic test<sub>~suite, say 50/1 pickup session/logon should handle 300</sub>~400 request/second on T2 micro servers
+- By running different loads, we see that a T2 microserver can handle about 200 logon/pick up session request a second. The heavy operation is logon, as it has to go all the way to UIB(singleton). On higher load, the response-time increases (for 500 reqs/s it is 2-3 s).
+- A more realistic test-suite, say 50/1 pickup session/logon should handle 300-400 request/second on T2 micro servers
 - 90% of the Whydah operations scales almost linearly, the exception beeing the few operations which hit the UIB instance.

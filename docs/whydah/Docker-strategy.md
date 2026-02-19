@@ -2,11 +2,11 @@
 
 ### Goal
 
-> 📝 **Explore and produce an out<sub>~of</sub>~the-box Whydah environment for medium complex and secure HA scenarios on a set of docker engines.**
+> 📝 **Explore and produce an out-of-the-box Whydah environment for medium complex and secure HA scenarios on a set of docker engines.**
 > 📝 
-> 📝 _Even if you think you won't need it, we will provide it out<sub>~of</sub>~the-box for free_
+> 📝 _Even if you think you won't need it, we will provide it out-of-the-box for free_
 
-**A sample deployment of a Whydah system with several replicas on a set of physical servers (a 11<sub>~on</sub><sub>7 / 2</sub><sub>5</sub><sub>2</sub><sub>1</sub>~1 config)**
+**A sample deployment of a Whydah system with several replicas on a set of physical servers (a 11-on-7 / 2-5-2-1-1 config)**
 
 **[Diagram: Docker](../Diagram/Docker.md)**
 
@@ -14,7 +14,7 @@
 
 ### Coded networks
 
-- SDN1: SSOLoginWebApp Round<sub>~robin load</sub>~balancer
+- SDN1: SSOLoginWebApp Round-robin load-balancer
 - SDN2: STS load-balancer (with QoS?)
 - SDN3: Shared hazelcast cluster state
 - SDN4: UAS QoS priority load balancer (whydah - 3rd party access)
@@ -34,7 +34,7 @@ helios - seems simple and to the point to configure and run the cluster configur
 
 - https://registry.hub.docker.com/repos/totto/
 
-### SDN1: SSOLoginWebApp Round<sub>~robin load</sub>~balancer
+### SDN1: SSOLoginWebApp Round-robin load-balancer
 
 ### SDN2: STS load-balancer (with QoS?)
 
@@ -44,7 +44,7 @@ helios - seems simple and to the point to configure and run the cluster configur
 
 ### SDN4: UAS QoS priority load balancer (whydah - 3rd party access)
 
-![socketplane<sub>~arch.png](socketplane</sub><sub>arch</sub><sub>png.md)(socketplane</sub>~arch.png)
+![socketplane-arch.png](40797296-socketplane-arch.png)
 
 ---
 
@@ -97,10 +97,10 @@ eller vi standariserer på Dockerimaget :stuck_out_tongue:
 erikd 11:09 AM
 Jeg vil derfor ønske én måte å gjøre det på (docker hvis det vi trenger er der) og så dok som forklarer avvik fra "normal".
 stiglau 11:10 AM
-Hvis vi tar f.ex https://github.com/altran/Whydah/blob/master/config/Docker/sts/Dockerfile vs https://github.com/altran/Whydah/blob/master/config/Docker/uib/uib<sub>~all</sub>~in-one/Dockerfile - så er det dette jeg vil vekk fra! (edited)
+Hvis vi tar f.ex https://github.com/altran/Whydah/blob/master/config/Docker/sts/Dockerfile vs https://github.com/altran/Whydah/blob/master/config/Docker/uib/uib-all-in-one/Dockerfile - så er det dette jeg vil vekk fra! (edited)
 totto 11:10 AM
 fordelen med Docker strategien, er at install er så eksplisitt at de som ikke vil bruke Docker kan kjøre kommandoene, linje for linje
-@stiglau:    det du vil ha er SDN overbygget...   en install 1<sub>~2</sub><sub>4</sub><sub>1</sub>~1-1 konfig av Whydah på 1/2/3 jern
+@stiglau:    det du vil ha er SDN overbygget...   en install 1-2-4-1-1-1 konfig av Whydah på 1/2/3 jern
 erikd 11:11 AM
 Denne diskusjonen bør tas face2face hvor vi alle har skrevet ned hva vi ønsker å oppnå og hvordan.
 stiglau 11:12 AM
@@ -150,7 +150,7 @@ erikd 11:25 AM
 Inn/ut av docker-image virket umodent og få gode retningslinjer på hvordan.
 Ja, vet du peker på SDN, men for meg er det teori om hvordan ting bør være, så man evt. må lage, ikke noe som finnes klart p.t.
 totto 11:26 AM
-3.  jeg ville holdt log<sub>~filene inni imaget...   og kanskje t.o.m. godta å kunne miste dem på et image</sub>~reboot...   unntaket er UAS og UIB som nok bør ha persistent log
+3.  jeg ville holdt log-filene inni imaget...   og kanskje t.o.m. godta å kunne miste dem på et image-reboot...   unntaket er UAS og UIB som nok bør ha persistent log
 les litt om socketplane som et SDN eksempel... og se om ikke det gjør akkurat det vi trenger for routing/HA mellom et cluster av jern som kjører sett av docker images
 inkludert hazelcast oppsett
 ....de "ekleste" bitene å få økt oppetid på vil være et HA-oppsett for DB  (fra AWS sin PaaS DB)  og tilsvarende for LDAP (hvor vi ikke har HA idag)

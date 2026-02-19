@@ -1,6 +1,6 @@
 # Vil DU ha et opprettet et space?
 
-Vi oppretter spaces on<sub>~the</sub>~fly for enkeltpersoner eller grupper som ønsker det. 
+Vi oppretter spaces on-the-fly for enkeltpersoner eller grupper som ønsker det. 
 
 P.t. så opprettes space etter følgende policy: 
 

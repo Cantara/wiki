@@ -21,7 +21,7 @@ E.g. need to show that while Oracle DB sort of scales, it is not even close to t
 | [SemiSpace | http://www.theserverside.com/news/thread.tss?thread_id=55069] | [JavaSpaces](JavaSpaces.md) inspired tuple space | OSS |  | (?) |  |  | (?) | (?) |  |
 | [Apache Jackrabbit | http://jackrabbit.apache.org/] | [JCR | http://jcp.org/en/jsr/detail?id=170] | OSS |  |  |  |  |  |  |  |
 | [Alfresco | http://wiki.alfresco.com/wiki/Introducing_the_Alfresco_Java_Content_Repository_API] | [JCR | http://jcp.org/en/jsr/detail?id=170] | OSS |  |  |  |  |  |  |  |
-| [Oracle Coherence | http://www.oracle.com/technology/products/coherence/index.html] | In<sub>~memory Distributed</sub>~data Grid Solution | commercial |  |  |  |  | (/) | (/) |  |
+| [Oracle Coherence | http://www.oracle.com/technology/products/coherence/index.html] | In-memory Distributed-data Grid Solution | commercial |  |  |  |  | (/) | (/) |  |
 | [Neo4j | http://neo4j.org/] | graph database | [GNU Affero GPL version 3 | http://www.fsf.org/licensing/licenses/agpl-3.0.html] |  |  |  |  | (/) | (/) |  |
 | [Amazon SimpleDB | http://en.wikipedia.org/wiki/Amazon_SimpleDB] | [Distributed database | http://en.wikipedia.org/wiki/Distributed_database] |  |  |  |  |  | (/) | (/) |  |
 | [Amazon Simple Storage Service aka. S3 | http://en.wikipedia.org/wiki/Amazon_Simple_Storage_Service] | online storage web service |  |  |  |  |  | (/) | (/) |  |
@@ -37,9 +37,9 @@ blank - please fill inn
 [BASE](http://queue.acm.org/detail.cfm?id=1394128) - An Acid Alternative  
 
 #### Resources 
-- http://blog.endpoint.com/2015/04/new<sub>~nosql</sub><sub>benchmark</sub><sub>cassandra</sub>~mongodb.html
+- http://blog.endpoint.com/2015/04/new-nosql-benchmark-cassandra-mongodb.html
 
-- [Anti<sub>~RDBMS: A list of distributed key</sub><sub>value stores](http://www.metabrew.com/article/anti</sub><sub>rdbms</sub><sub>a</sub><sub>list</sub><sub>of</sub><sub>distributed</sub><sub>key</sub><sub>value</sub>~stores/)
+- [Anti-RDBMS: A list of distributed key-value stores](http://www.metabrew.com/article/anti-rdbms-a-list-of-distributed-key-value-stores/)
 - [Comparison_of_relational_database_management_systems](http://en.wikipedia.org/wiki/Comparison_of_relational_database_management_systems) 
-- [current<sub>~database</sub><sub>debate</sub><sub>and</sub><sub>graph](http://blog.neo4j.org/2009/04/current</sub><sub>database</sub><sub>debate</sub><sub>and</sub>~graph.html)
+- [current-database-debate-and-graph](http://blog.neo4j.org/2009/04/current-database-debate-and-graph.html)
 - [Cloud_storage](http://en.wikipedia.org/wiki/Cloud_storage#Storage)

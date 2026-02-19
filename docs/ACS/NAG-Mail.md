@@ -2,7 +2,7 @@
 
 ### ACS NAG function
 
-To help the company in keeping the data quality of the persons in ACS updated, the system has a NAG<sub>~button which pop up on incomplete profiles so users can inform each other that their profile is incomplete or outdated. Pressing the button provides a pop</sub>~up where you can inform the person why you need an update, and the feature provide the following mail to the person in question.
+To help the company in keeping the data quality of the persons in ACS updated, the system has a NAG-button which pop up on incomplete profiles so users can inform each other that their profile is incomplete or outdated. Pressing the button provides a pop-up where you can inform the person why you need an update, and the feature provide the following mail to the person in question.
 
 Subject: Ole Hansen has indicated that you should update your data in ACS
 

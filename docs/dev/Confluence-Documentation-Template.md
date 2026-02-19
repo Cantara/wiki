@@ -2,7 +2,7 @@
 
 Draft quality!
 
-This template is based on the [4 plus 1 View Model](4<sub>~plus</sub><sub>1</sub><sub>View</sub>~Model.md). This is a work in progress and the template is not as a silver-bullet, but as a starting point when documenting a system using Confluence wiki. 
+This template is based on the [4 plus 1 View Model](4-plus-1-View-Model.md). This is a work in progress and the template is not as a silver-bullet, but as a starting point when documenting a system using Confluence wiki. 
 
 - **System Architecture**
     - Logical View
@@ -47,7 +47,7 @@ This template is based on the [4 plus 1 View Model](4<sub>~plus</sub><sub>1</sub
 ---
 ## How to interpret the template 
 
-The [4 plus 1 View Model](4<sub>~plus</sub><sub>1</sub><sub>View</sub>~Model.md) is designed for documenting the software _architecture_ of an _application_. When documenting a _system_ or a _system_of_systems_ multi-level documentation it is necessary. However, the remember the golden rule _[Working software over comprehensive documentation](http://agilemanifesto.org/)_ . Applied to the 4+1 view model this means that any views not relevant should be omitted. This also means that diagrams nobody has requested should not be included in the documentation just because myGreatArchitectToolkit can automatically generate them. 
+The [4 plus 1 View Model](4-plus-1-View-Model.md) is designed for documenting the software _architecture_ of an _application_. When documenting a _system_ or a _system_of_systems_ multi-level documentation it is necessary. However, the remember the golden rule _[Working software over comprehensive documentation](http://agilemanifesto.org/)_ . Applied to the 4+1 view model this means that any views not relevant should be omitted. This also means that diagrams nobody has requested should not be included in the documentation just because myGreatArchitectToolkit can automatically generate them. 
 
 **Q**: Multi-level is one thing, but how about architecture versus design? 
 **A**: We have chosen to focus on the system **architecture** and only architecture for the system as a whole and focus on **design** when documenting each application. 
@@ -60,7 +60,7 @@ The [4 plus 1 View Model](4<sub>~plus</sub><sub>1</sub><sub>View</sub>~Model.md)
 
 #### Software architecture
 
-The purpose of architecture documentation is to emphasize **responsibility** and what measures have been taken to reduce complexity. Like for example architecture axioms [architecture:Clear and consistent responsibility power all great architectures](../architecture/Clear<sub>~and</sub><sub>consistent</sub><sub>responsibility</sub><sub>power</sub><sub>all</sub><sub>great</sub><sub>architectures.md) and [OWSOA:Scalability Axiom no 3 - Divide and Conquer](../OWSOA/Scalability</sub><sub>Axiom</sub><sub>no</sub><sub>3</sub><sub>Divide</sub>~and-Conquer.md).  
+The purpose of architecture documentation is to emphasize **responsibility** and what measures have been taken to reduce complexity. Like for example architecture axioms [architecture:Clear and consistent responsibility power all great architectures](../architecture/Clear-and-consistent-responsibility-power-all-great-architectures.md) and [OWSOA:Scalability Axiom no 3 - Divide and Conquer](../OWSOA/Scalability-Axiom-no-3-Divide-and-Conquer.md).  
 
 - **System Architecture**
     - Logical View

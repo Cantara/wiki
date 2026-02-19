@@ -1,6 +1,6 @@
 # Comment from leif 26.3.2015
 
-### [Comment from leif 26.3.2015](Comment<sub>~from</sub><sub>leif</sub><sub>26</sub>~3-2015.md)
+### [Comment from leif 26.3.2015](Comment-from-leif-26-3-2015.md)
 
 Look nice so far. 
 

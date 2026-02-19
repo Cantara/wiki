@@ -4,6 +4,6 @@ The main value a great architect provides is when the sum of the decisions keep 
 
 ###### References
 
-- [Welcome to the real world](http://97<sub>~things.near</sub><sub>time.net/wiki/welcome</sub><sub>to</sub><sub>the</sub><sub>real</sub>~world) by Gregor Hohpe
-- [If there is only one solution, get a second opinion](http://97<sub>~things.near</sub><sub>time.net/wiki/if</sub><sub>there</sub><sub>is</sub><sub>only</sub><sub>one</sub><sub>solution</sub><sub>get</sub><sub>a</sub>~second-opinion) by  Timothy High
-- [Architecting is about balancing](http://97<sub>~things.near</sub>~time.net/wiki/Architecting%20is%20about%20balancing) by Randy Stafford
+- [Welcome to the real world](http://97-things.near-time.net/wiki/welcome-to-the-real-world) by Gregor Hohpe
+- [If there is only one solution, get a second opinion](http://97-things.near-time.net/wiki/if-there-is-only-one-solution-get-a-second-opinion) by  Timothy High
+- [Architecting is about balancing](http://97-things.near-time.net/wiki/Architecting%20is%20about%20balancing) by Randy Stafford

@@ -2,7 +2,7 @@
 
 Denne siden brukes til å følge opp oppgavene som pcom er ansvarlig for.
 
-[<sub>per.spilling:Møtereferat 17.aug](../</sub>per.spilling/Møtereferat<sub>~17</sub>~aug.md)
+[~per.spilling:Møtereferat 17.aug](../~per.spilling/Møtereferat-17-aug.md)
 
 ### Fremdriftsstatus
 
@@ -20,7 +20,7 @@ Denne siden brukes til å følge opp oppgavene som pcom er ansvarlig for.
 
 Bruk følgende "koder" for angi status: Ikke påbegynt, Påbegynt, Ferdig 
 
-| (+) {add<sub>~page:template=pcom</sub>~oppgave | parent=@self | title=Pcom oppgave}Legg til pcom oppgave |
+| (+) {add-page:template=pcom-oppgave | parent=@self | title=Pcom oppgave}Legg til pcom oppgave |
 
 {metadata-report:Page,Prioritet,Ansvarlig,Status|root=@self|pages=@descendents|label=pcom_oppgave}
 

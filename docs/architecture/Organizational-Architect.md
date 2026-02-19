@@ -1,6 +1,6 @@
 # Organizational Architect
 
-See [architecture:Laws for Organization Architects](../architecture/Laws<sub>~for</sub>~Organization-Architects.md)
+See [architecture:Laws for Organization Architects](../architecture/Laws-for-Organization-Architects.md)
 
 and 
 

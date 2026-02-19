@@ -6,10 +6,10 @@ some key questions...
 
 - Who do create the _reports_?  Customers, BI/DW department or developers?
 
-- Data<sub>~volume, load and availability?  (In</sub>~house, sourced or SaaS/PaaS)
+- Data-volume, load and availability?  (In-house, sourced or SaaS/PaaS)
 
-- Reporting as a event<sub>~provider for value</sub>~add apps?
+- Reporting as a event-provider for value-add apps?
 
 - Push or poll clients to data-set?
 
-- Evolve<sub>~ability and change</sub>~rate of data-sources?
+- Evolve-ability and change-rate of data-sources?

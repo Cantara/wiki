@@ -15,7 +15,7 @@
 
 - Is run-time reload necessary/needed? 
     - Yes, for some properties. E.g. dns, scalability properties, tuning parameters 
-    - See http://johannesbrodwall.com/2014/10/02/dead<sub>~simple</sub>~configuration/ for inspiration.
+    - See http://johannesbrodwall.com/2014/10/02/dead-simple-configuration/ for inspiration.
 
 - Necessary to support several files or group the properties? 
     - Applications should not grow too large. No old school monoliths. Users should normally only change a few properties (overrides). 

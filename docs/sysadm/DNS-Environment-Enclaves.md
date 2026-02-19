@@ -24,7 +24,7 @@ hostname1.company.com -> IP
 
 This recommendation is based on the assumption that only system administrators are interested in physical location, while developers, testers, managers, etc. really don't care where a service is located as long as it performs as expected. 
 
-See also: [Dynamic addressing with service names](Dynamic<sub>~addressing</sub><sub>with</sub><sub>service</sub>~names.md) or/and webproxy + [Virtualization](Virtualization.md) (OS level or para) 
+See also: [Dynamic addressing with service names](Dynamic-addressing-with-service-names.md) or/and webproxy + [Virtualization](Virtualization.md) (OS level or para) 
 
 The figure is a simplified view of the concept. 
 

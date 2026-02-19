@@ -68,11 +68,11 @@ keytool -import -alias an_alias -keystore $JAVA_HOME/jre/lib/security/cacerts
 
 Keytool assumes that it has generated the private key and will not allow for import of the key.
 
-Currently the only success I have had is with code from Not Yet Commons<sub>~SSL - http://juliusdavies.ca/commons</sub>~ssl/
+Currently the only success I have had is with code from Not Yet Commons-SSL - http://juliusdavies.ca/commons-ssl/
 
 Grab 0.3.9 then run something similar to
 
-java -cp not<sub>~yet</sub><sub>commons</sub><sub>ssl</sub>~0.3.9.jar org.apache.commons.ssl.KeyStoreBuilder
+java -cp not-yet-commons-ssl-0.3.9.jar org.apache.commons.ssl.KeyStoreBuilder
   pass_for_new_keystore key.key certificate.crt
 
 This will generate a new keystore named after the CN field of the certificate. You can then use keytool to merge it in - something like
@@ -94,4 +94,4 @@ REMPORT=${2:-443}
 
 echo |\
 openssl s_client -connect $:$ 2>&1 |\
-sed -ne '/<sub>~BEGIN CERTIFICATE</sub><sub>/,/</sub><sub>END CERTIFICATE</sub>~/p'
+sed ~~ne '/-BEGIN CERTIFICATE~~/,/~~END CERTIFICATE~~/p'

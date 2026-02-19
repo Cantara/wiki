@@ -9,4 +9,4 @@ The difference may seem subtle, but there is a difference between **_the specifi
 In other words, **ensuring that functionality works is more important than finding deviations from a specification**.
 
 ---
-Back to [JigZaw Design Principles and Drivers](JigZaw<sub>~Design</sub><sub>Principles</sub><sub>and</sub>~Drivers.md)
+Back to [JigZaw Design Principles and Drivers](JigZaw-Design-Principles-and-Drivers.md)

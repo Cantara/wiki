@@ -27,7 +27,7 @@ Problem: no semantics in SQL query strings alone. Enter JEQUEL.
 - Resource bundles structures translation
 - Support deprecation for refactoring purposes
 - Find usages of tables/columns in Java code(!)
-- Compile<sub>~time assertion on schema</sub>~Java code mismatch
+- Compile-time assertion on schema-Java code mismatch
 - Type information available in the query (No illegal comparisons)
 - Documentation generation from schema
 - Can combine DSL with Java structures such as loops, Classes etc

@@ -19,7 +19,7 @@ Så har Oslo XP meetup _et ikke-kommersielt fagmiljø med høyt kompetente entus
 - Desember: Niklas arrangere NoSQL (med hjelp fra Knut Haugen)
 - Januar: Mark arrangere noe om test. Kanskje en parallell programmering med og uten tester
 - Februar:
-- Mars: Communities<sub>~in</sub><sub>action i forbindelse med GoOpen. Finn</sub><sub>Robert arrangere lyntaler om "extreme feedback" (eksempler: Continuous production, Continuous testing, Almost</sub>~daily sit-downs)
+- Mars: Communities-in-action i forbindelse med GoOpen. Finn-Robert arrangere lyntaler om "extreme feedback" (eksempler: Continuous production, Continuous testing, Almost-daily sit-downs)
 
 Ønsketalere - får dere kontakt med disse, så vil vi veldig gjerne ha dem på Oslo XP meetup:
 - Corey Haines
@@ -77,7 +77,7 @@ Det er negativt at vi ofte må vise vekk folk fordi meetupene blir for fulle.
 
 Eksempler på meetups vi synes var bra:
 
-- Smidig og UX<sub>~meetup: Traff behov i UX</sub>~leiren. Bra å treffe et ekstra publikum.
+- Smidig og UX-meetup: Traff behov i UX-leiren. Bra å treffe et ekstra publikum.
 - Kode dojoer (dette har blitt egen meetup)
 - 97 Things: Vi hadde gode lokaler, Kevlin er alltid bra!, Mange som snakket og fikk eksponert lokalt fagmiljø
 - Lyntaleworkshop

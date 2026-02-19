@@ -1,6 +1,6 @@
 # Find latest version in NEXUS repo
 
-Documentation internally in Nexus only http://127.0.0.1:8081/nexus/nexus<sub>~restlet1x</sub>~plugin/default/docs/resource_ArtifactResolvePlexusResource.html
+Documentation internally in Nexus only http://127.0.0.1:8081/nexus/nexus-restlet1x-plugin/default/docs/resource_ArtifactResolvePlexusResource.html
 
 url: /artifact/maven/resolve
 

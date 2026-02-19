@@ -30,6 +30,6 @@
 
 - Amazon AWS 
 
-- [Enterprise Maven Infrastructure](Enterprise<sub>~Maven</sub>~Infrastructure.md)
+- [Enterprise Maven Infrastructure](Enterprise-Maven-Infrastructure.md)
 
-- [Deployment and Configuration Products](Deployment<sub>~and</sub>~Configuration-Products.md)
+- [Deployment and Configuration Products](Deployment-and-Configuration-Products.md)

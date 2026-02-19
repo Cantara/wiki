@@ -1,3 +1,3 @@
 # System Strategy
 
-![SystemStrategy.jpg](SystemStrategy-jpg.md)(SystemStrategy.jpg)
+![SystemStrategy.jpg](7143432-SystemStrategy.jpg)

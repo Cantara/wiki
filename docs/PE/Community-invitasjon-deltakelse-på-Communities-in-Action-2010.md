@@ -26,7 +26,7 @@ Vi har leid åtte saler med kapasitet på 30-150 personer, noe som betyr at vi k
 20:30 - 21:30 Mingling, mat og drikke.  
 21:30 - 23:00 un-conference for de som ønsker det, sosialt for resten. Temaer meldes inn før 20:00 samme dag. 
 
-Invitasjonen er sendt til communities som med jevne mellomrom arrangerer medlemsmøter i Oslo regionen. Siden det er begrenset hvor mange communities vi kan fasilitere, praktiserer vi tildeling etter først<sub>~til</sub>~mølla prinsippet.  
+Invitasjonen er sendt til communities som med jevne mellomrom arrangerer medlemsmøter i Oslo regionen. Siden det er begrenset hvor mange communities vi kan fasilitere, praktiserer vi tildeling etter først-til-mølla prinsippet.  
 
 Send en mail til styret@cantara.no dersom dere ønsker å benytte dere av dette tilbudet.  
 

@@ -2,7 +2,7 @@
 
 ### EDR Example implementations
 The project has made a couple of example implementations. These examples are currently publicly available in Java.
-The source<sub>~code can be checked</sub>~out from the [EDR on java.net](https://edr.dev.java.net) project. Please join this project to 
+The source-code can be checked-out from the [EDR on java.net](https://edr.dev.java.net) project. Please join this project to 
 download the source-code.
 
 ### [Basic Example](https://edr.dev.java.net/source/browse/**checkout**/edr/trunk/examples/java/multipleAddress/readme.html)

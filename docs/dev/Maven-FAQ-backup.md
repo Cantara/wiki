@@ -4,13 +4,13 @@
 
 #### How to convert an Ant project to Maven?
 
-1. Change your build file to work with a file structure that adheres to the [Standard Directory Layout](http://maven.apache.org/guides/introduction/introduction<sub>~to</sub><sub>the</sub><sub>standard</sub>~directory-layout.html).
-1. Ensure that your Ant tasks follows the [Build lifecycle](http://maven.apache.org/guides/introduction/introduction<sub>~to</sub>~the-lifecycle.html). The purpose of this process is identify  which tasks (if any) that are not covered by Maven's [Core plugins](http://maven.apache.org/plugins/index.html).
+1. Change your build file to work with a file structure that adheres to the [Standard Directory Layout](http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html).
+1. Ensure that your Ant tasks follows the [Build lifecycle](http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html). The purpose of this process is identify  which tasks (if any) that are not covered by Maven's [Core plugins](http://maven.apache.org/plugins/index.html).
 1. If you have build tasks not covered by the core plugins, search for plugins that can replace the Ant task. The [Mojo project](http://mojo.codehaus.org/) at Codehaus is a good place to start looking.
-1. Ant tasks that you are unable to find a proper replacement for can be run by the [Antrun plugin](http://maven.apache.org/plugins/maven<sub>~antrun</sub>~plugin/). However, this option should only be used as a last resort or as a means to minimize the impact of switching to Maven.
+1. Ant tasks that you are unable to find a proper replacement for can be run by the [Antrun plugin](http://maven.apache.org/plugins/maven-antrun-plugin/). However, this option should only be used as a last resort or as a means to minimize the impact of switching to Maven.
 1. Do the actual conversion
     1. Tag and branch in the version control system
-    1. Create a new Maven project (the [archetype plugin](http://maven.apache.org/plugins/maven<sub>~archetype</sub>~plugin/) can be used to set up template projects quickly.
+    1. Create a new Maven project (the [archetype plugin](http://maven.apache.org/plugins/maven-archetype-plugin/) can be used to set up template projects quickly.
     1. Add dependencies
     1. Add code
     1. Add the necessary plugins
@@ -20,15 +20,15 @@
 
 - Download the artifact to local storage. (e.g. /tmp/)
 - Add the dependency to pom.xml and run _mvn clean install_. If the dependency cannot be found, the output will display which command to run to install the artifact.
-- Change the "<sub>~Dfile=path</sub><sub>to</sub><sub>your</sub>~artifact-jar" option to point to the downloaded artifact (e.g. /tmp/someArtifact.jar)
+- Change the "-Dfile=path-to-your-artifact-jar" option to point to the downloaded artifact (e.g. /tmp/someArtifact.jar)
 
 This will solve the problem for one user, on a single computer. A better solution is to deploy the artifact to, e.g., the company repository. See [Repository Management](http://maven.apache.org/repository-management.html) for details.
 
 #### How to debug problems related to different versions of a dependency?
 
-###### Alternative 1: Use the [maven<sub>~dependency</sub><sub>plugin](http://maven.apache.org/plugins/maven</sub><sub>dependency</sub>~plugin)
+###### Alternative 1: Use the [maven-dependency-plugin](http://maven.apache.org/plugins/maven-dependency-plugin)
 
-Display a the dependency tree directly in the console (requires the [apache<sub>~snapshot</sub>~repo](http://wiki.objectware.no/display/java/Maven+FAQ#MavenFAQ-Howtobesttakeadvantageofapacheandcodehaussnapshotrepos%3F)):
+Display a the dependency tree directly in the console (requires the [apache-snapshot-repo](http://wiki.objectware.no/display/java/Maven+FAQ#MavenFAQ-Howtobesttakeadvantageofapacheandcodehaussnapshotrepos%3F)):
 ```
 mvn org.apache.maven.plugins:maven-dependency-plugin:2.0:tree
 ```
@@ -119,7 +119,7 @@ Content in **\~/.m2/settings.xml**, install with profile with _mvn install \-P c
     <relativePath>../../externals/company-parent</relativePath>
   </parent>
 ```
-A good guide on externals can be found in [Howto: Subversion externals basics](http://jeremyknope.com/2006/06/23/howto<sub>~subversion</sub><sub>externals</sub><sub>basics/). See also [chapter 7: Externals Definitions](http://svnbook.red</sub>~bean.com/en/1.1/ch07s04.html) in _Version Control with Subversion_ for a more thorough description of how externals work.
+A good guide on externals can be found in [Howto: Subversion externals basics](http://jeremyknope.com/2006/06/23/howto-subversion-externals-basics/). See also [chapter 7: Externals Definitions](http://svnbook.red-bean.com/en/1.1/ch07s04.html) in _Version Control with Subversion_ for a more thorough description of how externals work.
 
 ###### Alternative 3: Manual installation
 
@@ -127,7 +127,7 @@ Check out the source code and install it manually.
 
 #### How to cut a release?
 
-See official documentation; [Release guide](http://maven.apache.org/guides/mini/guide<sub>~releasing.html) and [plugin documentation](http://maven.apache.org/plugins/maven</sub>~release-plugin/)
+See official documentation; [Release guide](http://maven.apache.org/guides/mini/guide-releasing.html) and [plugin documentation](http://maven.apache.org/plugins/maven-release-plugin/)
 1. Make sure no dependencies or plugins use SNAPSHOT versions.
 1. Set up distributionManagement
 ```
@@ -296,7 +296,7 @@ public void testSomeThingThatUseADatabase() {
 </suite>
 ```
 
-###### testng<sub>~jms</sub>~database.xml
+###### testng-jms-database.xml
 ```
 <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd">
 <suite name="ArtifactName test suite">
@@ -317,14 +317,14 @@ The general group concept is scalable, but many profiles quickly become chaotic.
 Without TestNG there are two approaches to run tests that are not run when executing _mvn test_. Note that this approach can only handle _two_ dimensions. This is why the most common separation is unit tests and integration tests. 
 
 - Put all integration tests in a separate folder (e.g. itest).
-    - See \[example \](../[http/svn<sub>~objectware</sub><sub>no</sub><sub>repos</sub><sub>objectware</sub><sub>public</sub><sub>examples</sub><sub>maven</sub><sub>itest</sub><sub>examples</sub>~itest-directory.md)
+    - See \[example \](../[http/svn-objectware-no-repos-objectware-public-examples-maven-itest-examples-itest-directory.md)
 
 - Use a naming convention so separate from regular/unit tests (e.g. all integration tests a postfixed with IntTest
-    - See \[example \](../[http/svn<sub>~objectware</sub><sub>no</sub><sub>repos</sub><sub>objectware</sub><sub>public</sub><sub>examples</sub><sub>maven</sub><sub>itest</sub><sub>examples</sub>~itest-directory.md)
+    - See \[example \](../[http/svn-objectware-no-repos-objectware-public-examples-maven-itest-examples-itest-directory.md)
 
 #### How to cut a release when a dependency has not been released yet?
 
-| This is a **{+}workaround{+}** to allow a snapshot dependency to be used when using maven<sub>~release</sub>~plugin. |
+| This is a **{+}workaround{+}** to allow a snapshot dependency to be used when using maven-release-plugin. |
 1. Change the version to something that clearly explains that this is a workaround to be able to perform a release with a dependency on a snapshot.
 2. Add wagon webdav to the build section of the pom
 ```
@@ -345,7 +345,7 @@ mvn deploy -Dmaven.test.skip=true -DaltDeploymentRepository=plugins-releases::de
 
 #### How to deploy 3rd party artifacts to a DAV repository?
 
-wagon<sub>~webdav extension is required to deploy to a DAV repository. It is therefore necessary to create a temporary pom.xml to able to perform _deploy</sub>~file_.
+wagon-webdav extension is required to deploy to a DAV repository. It is therefore necessary to create a temporary pom.xml to able to perform _deploy-file_.
 
 **Temporary pom.xml**:
 ```
@@ -377,15 +377,15 @@ mvn deploy:deploy-file -Dfile=myproject-1.0.jar -DrepositoryId=myrepo
 
 #### How to use deploy (and site-deploy) on Windows?
 
-See [Maven, Windows and Deploying to a Remote Location](http://ekawas.blogspot.com/2007/02/maven<sub>~windows</sub><sub>and</sub><sub>deploying</sub>~to-remote.html)
+See [Maven, Windows and Deploying to a Remote Location](http://ekawas.blogspot.com/2007/02/maven-windows-and-deploying-to-remote.html)
 
 #### How to deploy to an application container?
 
 Do not confuse deploy to an application container with Maven's deploy phase. _Maven deploy_ means installing an artifact in a non-local Maven repository (e.g. the company repository). The typical use case for this kind of setup is if you want to deploy the application in a testing environment to allow others to test the newest development version of the application.
-1. Copy the application manually or use the [maven<sub>~antrun</sub><sub>plugin](http://maven.apache.org/plugins/maven</sub><sub>antrun</sub>~plugin/) with the copy task.
+1. Copy the application manually or use the [maven-antrun-plugin](http://maven.apache.org/plugins/maven-antrun-plugin/) with the copy task.
 1. Use [Cargo](http://cargo.codehaus.org/Maven2+plugin)
-    - If on tomcat; [tomcat<sub>~maven</sub><sub>plugin](http://mojo.codehaus.org/tomcat</sub><sub>maven</sub>~plugin/deployment.html) can be used as well.
-1. Make the maven<sub>~war</sub>~plugin output the final war file to a folder that e.g. tomcat listens to.
+    - If on tomcat; [tomcat-maven-plugin](http://mojo.codehaus.org/tomcat-maven-plugin/deployment.html) can be used as well.
+1. Make the maven-war-plugin output the final war file to a folder that e.g. tomcat listens to.
 ```
 <plugin>
   <groupId>org.apache.maven.plugins</groupId>
@@ -395,15 +395,15 @@ Do not confuse deploy to an application container with Maven's deploy phase. _Ma
   </configuration>
 </plugin>
 ```
-1. Run with custom scripts with [exec<sub>~maven</sub><sub>plugin](http://mojo.codehaus.org/exec</sub><sub>maven</sub>~plugin). See [Deploying to GlassFish using Maven2](http://technology.amis.nl/blog/?p=2495) for an example.
+1. Run with custom scripts with [exec-maven-plugin](http://mojo.codehaus.org/exec-maven-plugin). See [Deploying to GlassFish using Maven2](http://technology.amis.nl/blog/?p=2495) for an example.
 
 #### How to assemble an application
 
-Read the official documentation: [maven<sub>~assembly</sub><sub>plugin](http://maven.apache.org/plugins/maven</sub><sub>assembly</sub>~plugin/). If applicable, prefer to use the predefined descriptors.
+Read the official documentation: [maven-assembly-plugin](http://maven.apache.org/plugins/maven-assembly-plugin/). If applicable, prefer to use the predefined descriptors.
 
 ###### Example: How to create an executable jar with all run-time dependencies included
 
-See the [jar<sub>~with</sub><sub>dependencies](http://maven.apache.org/plugins/maven</sub><sub>assembly</sub><sub>plugin/descriptor</sub><sub>refs.html#jar</sub>~with-dependencies) descriptor.
+See the [jar-with-dependencies](http://maven.apache.org/plugins/maven-assembly-plugin/descriptor-refs.html#jar-with-dependencies) descriptor.
 For your convenience a working configuration is shown below:
 ```
 <properties>
@@ -473,12 +473,12 @@ For your convenience a working configuration is shown below:
   </build>
 ```
 1. Create an assembly descriptor
-    - See [descriptor<sub>~refs](http://maven.apache.org/plugins/maven</sub><sub>assembly</sub><sub>plugin/descriptor</sub>~refs.html)
-    - See [advanced<sub>~descriptor</sub><sub>topics](http://maven.apache.org/plugins/maven</sub><sub>assembly</sub><sub>plugin/advanced</sub><sub>descriptor</sub>~topics.html)
+    - See [descriptor-refs](http://maven.apache.org/plugins/maven-assembly-plugin/descriptor-refs.html)
+    - See [advanced-descriptor-topics](http://maven.apache.org/plugins/maven-assembly-plugin/advanced-descriptor-topics.html)
 
 #### How to verify that JSPs compile?
 
-To precompile JSPs the [jspc<sub>~maven</sub><sub>plugin](http://mojo.codehaus.org/jspc</sub><sub>maven</sub>~plugin/) can be used.
+To precompile JSPs the [jspc-maven-plugin](http://mojo.codehaus.org/jspc-maven-plugin/) can be used.
 
 Example:
 ```
@@ -500,15 +500,15 @@ Example:
 </build>
 ```
 
-#### [How to use Java WebStart with Maven](Maven<sub>~Webstart</sub>~static-website.md)
+#### [How to use Java WebStart with Maven](Maven-Webstart-static-website.md)
 
-See [Maven Webstart - static website](Maven<sub>~Webstart</sub>~static-website.md).
+See [Maven Webstart - static website](Maven-Webstart-static-website.md).
 
 ## Concepts and general theory
 
 #### How does Maven compare to Ant?
 
-Maven is a lot more than a pure build tool like Ant. **Convention over configuration** is one central concept, which (among other things) means that if you follow Maven's directory structure you can use most basic goals without any configuration. Comparisons can be found in [Maven vs Ant](http://www<sub>~128.ibm.com/developerworks/java/library/j</sub>~maven/#N1006A) or [Apache Maven Simplifies the Java Build Process---Even More Than Ant](http://www.devx.com/Java/Article/17204).
+Maven is a lot more than a pure build tool like Ant. **Convention over configuration** is one central concept, which (among other things) means that if you follow Maven's directory structure you can use most basic goals without any configuration. Comparisons can be found in [Maven vs Ant](http://www-128.ibm.com/developerworks/java/library/j-maven/#N1006A) or [Apache Maven Simplifies the Java Build Process---Even More Than Ant](http://www.devx.com/Java/Article/17204).
 
 #### How are projects and modules different? Are artifacts created from projects, modules or both?
 
@@ -528,7 +528,7 @@ If two products depend on some common code, this code should be placed in a sepa
 
 #### Where can I find the "superPom" that +all+ Maven projects inherit from?
 
-[http://svn.apache.org/repos/asf/maven/components/trunk/maven<sub>~project/src/main/resources/org/apache/maven/project/pom</sub><sub>4.0.0.xml](http://svn.apache.org/repos/asf/maven/components/trunk/maven</sub><sub>project/src/main/resources/org/apache/maven/project/pom</sub>~4.0.0.xml)
+[http://svn.apache.org/repos/asf/maven/components/trunk/maven-project/src/main/resources/org/apache/maven/project/pom-4.0.0.xml](http://svn.apache.org/repos/asf/maven/components/trunk/maven-project/src/main/resources/org/apache/maven/project/pom-4.0.0.xml)
 
 ## Tips to make development with Maven a bit smoother
 
@@ -551,7 +551,7 @@ mvn eclipse:eclipse -DdownloadSources=true -DdownloadJavadocs=true
 #### How to best take advantage of apache and codehaus snapshot repos?
 
 1. Proxy them with a [Build Artifact Repository Manager](http://maven.apache.org/repository-management.html). 
-1. Add them to a profile in settings.xml and use with _\<sub>~Papache_ or _\</sub>~Pcodehaus_
+1. Add them to a profile in settings.xml and use with _\-Papache_ or _\-Pcodehaus_
 
 ```
 <profiles>

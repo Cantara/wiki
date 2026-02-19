@@ -13,4 +13,4 @@ This page contains articles worth reading for people working in the software ind
 
 #### On Agile
 
-[James Shore's best blog posts of 2008](http://jamesshore.com/Blog/Best<sub>~Essays</sub>~of-2008.html)
+[James Shore's best blog posts of 2008](http://jamesshore.com/Blog/Best-Essays-of-2008.html)

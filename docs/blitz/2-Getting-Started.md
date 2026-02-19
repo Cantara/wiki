@@ -2,7 +2,7 @@
 
 First, ensure that you have installed the [required packages](http://dancres.org/bjspj/docs/docs/required_packages.html).
 
-Second, if you are going to run blitz on JDK 1.4 you will need to modify the configuration files (located in the config directory), substituting **backport<sub>~util</sub><sub>concurrent50.jar** with **backport</sub><sub>util</sub>~concurrent.jar**.
+Second, if you are going to run blitz on JDK 1.4 you will need to modify the configuration files (located in the config directory), substituting **backport-util-concurrent50.jar** with **backport-util-concurrent.jar**.
 
 Blitz is fully integrated with JINI 2.1 so the preferred method of startup is via the ServiceStarter. However, it's possible to run Blitz, for test purposes, in a standalone mode.
 
@@ -20,12 +20,12 @@ For the purposes of the following examples, I assume that:
 
 Blitz is configured via a configuration file such as the example [blitz.config](http://dancres.org/bjspj/docs/config/blitz.config) file. This file contains options for determining security configuration, remote functions and core functions such as the storage model (see above).
 
-Blitz implements a concept of Storage Models which allows the user to customize the level of persistence provided. The default setting is transient but, should you wish to change this, please read [Appendix A - Storage Models](Appendix<sub>~A</sub>~Storage-Models.md).
+Blitz implements a concept of Storage Models which allows the user to customize the level of persistence provided. The default setting is transient but, should you wish to change this, please read [Appendix A - Storage Models](Appendix-A-Storage-Models.md).
 
 Additional configuration files are required for use with the ServiceStarter:
 
-    * [activatable<sub>~group.config](http://dancres.org/bjspj/docs/config/activatable</sub><sub>group.config) and [start</sub><sub>act</sub><sub>blitz.config](http://dancres.org/bjspj/docs/config/start</sub><sub>act</sub>~blitz.config) are examples of configuration files suitable for starting an Activatable instance of Blitz.
-    * [start<sub>~trans</sub><sub>blitz.config](http://dancres.org/bjspj/docs/config/start</sub><sub>trans</sub>~blitz.config) is an example configuration file suitable for starting a non-Activatable instance of Blitz.
+    * [activatable-group.config](http://dancres.org/bjspj/docs/config/activatable-group.config) and [start-act-blitz.config](http://dancres.org/bjspj/docs/config/start-act-blitz.config) are examples of configuration files suitable for starting an Activatable instance of Blitz.
+    * [start-trans-blitz.config](http://dancres.org/bjspj/docs/config/start-trans-blitz.config) is an example configuration file suitable for starting a non-Activatable instance of Blitz.
 
 Regardless of the storage model chosen, Blitz may need to, at least temporarily, persist it's state so ensure that you have properly configured the appropriate entries in the core config file (these are the configuration parameters persistDir and logDir in the configuration file). This is also important should you wish to "clean up" after a Blitz instance as you must delete the contents of the persistence and log directories specified by the configuration parameters.
 

@@ -4,7 +4,7 @@
 
 This step is actually a precondition. Without the Enterprise Maven Infrastructure the following steps won't make sense. 
 
-See [Enterprise Maven Infrastructure](Enterprise<sub>~Maven</sub>~Infrastructure.md) 
+See [Enterprise Maven Infrastructure](Enterprise-Maven-Infrastructure.md) 
 
 ###### Set up a "Maven-friendly" file structure in your version control system 
 
@@ -23,7 +23,7 @@ Make the project build with the latest stable Maven release. Common tasks are
 - inherit from company/organization parent 
 - make sure all dependencies and plugins are available from public or company repositories  
 - separate tests that require external resources to build from those that should run everywhere. 
-    - See [How to use TestNG groups to implement JigZaw](How<sub>~to</sub><sub>use</sub><sub>TestNG</sub><sub>groups</sub><sub>to</sub>~implement-JigZaw.md) 
+    - See [How to use TestNG groups to implement JigZaw](How-to-use-TestNG-groups-to-implement-JigZaw.md) 
 
 This part is finished when _any_ developer can checkout the project and have it build successfully with mvn clean install. The only prerequisites should be to have Maven, Java and VCS-client installed and possibly to activate a profile to download the company/organization parent if such is required. 
 
@@ -55,7 +55,7 @@ This part is finished when _any_ developer can checkout the project and have it 
 
 When we have stable, traceable artifacts with external configuration we can create proper deployment units. The deployment unit should contain the artifact, its dependencies, configuration templates and scripts to automate the installation. 
 
-See [Installation and Deployment Automation](Installation<sub>~and</sub>~Deployment-Automation.md) for more details. 
+See [Installation and Deployment Automation](Installation-and-Deployment-Automation.md) for more details. 
 
 ###### QA review 
 

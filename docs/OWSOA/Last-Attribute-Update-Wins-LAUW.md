@@ -4,7 +4,7 @@
 The pattern describes how data can be synchronised between multiple data sources based on the latest updated data thorugh the use of [Core Services](CS.md)
 
 ### When
-If the enterprise architecture does not have a distinct master per attribute due to possiblity to do [out<sub>~of</sub><sub>bounds updates](out</sub><sub>of</sub>~bounds-updates.md) to the datasources.
+If the enterprise architecture does not have a distinct master per attribute due to possiblity to do [out-of-bounds updates](out-of-bounds-updates.md) to the datasources.
 
 ### How
 Perform the following algorithm on get and save (probably not find(?))

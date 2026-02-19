@@ -40,11 +40,11 @@ Different JavaSpace applications will have common sets of behaviour from a cache
 Blitz uses on disk and in-memory Entry storage, which is fully indexed automatically and keeps search times to a minimum.
 Tunable persistence
 
-Disk space is now cheap & efficient both in speed and reliability which reduces the motivation for developing a memory<sub>~only JavaSpace. The basic performance limit for a persistent space is related to guarenteeing consistency which is determined by the speed with which a system can force log entries to disk. Blitz tackles these problems by providing a range of profiles (Storage Models) giving different tradeoffs between data</sub>~integrity and speed.
+Disk space is now cheap & efficient both in speed and reliability which reduces the motivation for developing a memory-only JavaSpace. The basic performance limit for a persistent space is related to guarenteeing consistency which is determined by the speed with which a system can force log entries to disk. Blitz tackles these problems by providing a range of profiles (Storage Models) giving different tradeoffs between data-integrity and speed.
 
     * VM-style caching with full consistent logging to ensure all changes are durable - full persistence.
     * VM-style caching with periodic flushing (after x seconds) - ensuring all changes x seconds ago are persistent.
-    * VM<sub>~style caching with no logging - if your cache is big enough to hold the working</sub>~set of Entry's for your application, no paging occurs so all work is performed in memory with no disk access required - transient.
+    * VM-style caching with no logging - if your cache is big enough to hold the working-set of Entry's for your application, no paging occurs so all work is performed in memory with no disk access required - transient.
 
 #### Tools
 
@@ -65,7 +65,7 @@ Blitz JavaSpaces supports com.sun.jini.outrigger.JavaSpaceAdmin allowing appropr
 Certain multi-threaded applications, running in a single JVM, can benefit from the use of JavaSpaces. In these situations, having the JavaSpace available as a remote service is undesirable. This feature allows an application to run Blitz locally, within it's own JVM, providing a performance boost.
 Active/Passive lease cleanup
 
-In high<sub>~performance applications, the cost of tracking lease expiry and clearing expired entries from disk may affect throughput sufficiently that it is more economical to accept that some disk</sub>~space will be lost to expired entries. Conversely, in environments where disk-space is at a premium, it may be more appropriate to expend processor and disk time doing full cleanup of expired entries.
+In high-performance applications, the cost of tracking lease expiry and clearing expired entries from disk may affect throughput sufficiently that it is more economical to accept that some disk-space will be lost to expired entries. Conversely, in environments where disk-space is at a premium, it may be more appropriate to expend processor and disk time doing full cleanup of expired entries.
 
 Blitz provides three options for handling lease expiry processing:
 

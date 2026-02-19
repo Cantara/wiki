@@ -12,7 +12,7 @@ In other words, if a project team wants to successfully apply agile development 
 
 - Maven - technical site
 - Wiki - for day to day project documentation
-    - Wiki as single<sub>~point</sub>~of-entry for all project members. 
+    - Wiki as single-point-of-entry for all project members. 
     - Export from wiki serves as the documentation deliverable. 
 
 Benefits: 

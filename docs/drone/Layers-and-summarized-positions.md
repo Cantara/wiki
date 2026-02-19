@@ -1,6 +1,6 @@
 # Layers and summarized positions
 
-### [Layers and summarized positions](Layers<sub>~and</sub>~summarized-positions.md)
+### [Layers and summarized positions](Layers-and-summarized-positions.md)
 
 ##### What is a layer
 

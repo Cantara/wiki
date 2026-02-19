@@ -10,7 +10,7 @@ _An agile way to express requirements._
 
 ## User story template 
 
-Source: [Dan North](http://dannorth.net/whats<sub>~in</sub>~a-story)
+Source: [Dan North](http://dannorth.net/whats-in-a-story)
 
 ```
 Title (one line describing the story)
@@ -78,6 +78,6 @@ So, how should this tracing (and communication within the project) be performed 
 
 ## Resources 
 
-- [Advantages of User Stories for Requirements, by Mike Cohn](http://www.mountaingoatsoftware.com/article_view/27<sub>~advantages</sub><sub>of</sub><sub>user</sub><sub>stories</sub><sub>for</sub>~requirements)
+- [Advantages of User Stories for Requirements, by Mike Cohn](http://www.mountaingoatsoftware.com/article_view/27-advantages-of-user-stories-for-requirements)
 - [Don't know what I want, but I know how to get it](http://agileproductdesign.com/blog/dont_know_what_i_want.html)
 - [Requirements considered harmful](http://agileproductdesign.com/blog/requirements_considered_harmful.html)

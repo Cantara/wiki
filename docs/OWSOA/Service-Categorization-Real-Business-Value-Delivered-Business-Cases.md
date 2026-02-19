@@ -32,7 +32,7 @@ Decision of SOA establishment made late 2004
 - Provides linear cost-efficientness in service development
     - +300 services in 4 years 
 - Linear development and service cost (not exponential!)
-- Proof<sub>~of</sub>~evolvability
+- Proof-of-evolvability
 - H2A services delivered and configured in multiple channels
 - Typically 3-6 channels for essential services
 - A2A services exposed for 3rd party partners and subcontractors

@@ -2,7 +2,7 @@
 
 Attribution: This work started on [wiki.community.objectware.no](http://wiki.community.objectware.no)
 
-![SOAMM.jpg](SOAMM-jpg.md)(SOAMM.jpg)
+![SOAMM.jpg](2654586-SOAMM.jpg)
 
 ### Annotated
 

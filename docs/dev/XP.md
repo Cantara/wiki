@@ -30,5 +30,5 @@ The XP meetup isn't particularly about XP the methodology. It's more about [Agil
 
 ### Books
 
-- [Extreme Programming Explained, Kent Beck](http://www.amazon.com/Extreme<sub>~Programming</sub><sub>Explained</sub><sub>Embrace</sub>~Change/dp/0321278658/)
+- [Extreme Programming Explained, Kent Beck](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658/)
 - [Extreme Programming Installed, by Ron Jeffries](http://www.amazon.com/exec/obidos/ASIN/0201708426/ref=nosim/armaties)

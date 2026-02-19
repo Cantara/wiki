@@ -2,29 +2,29 @@
 
 # Esktrakt fra ICS-prosjektet
 
-Orginal: [retrade:(Bruker<sub>~strukturer)](../retrade/Bruker</sub>~strukturer.md)
+Orginal: [retrade:(Bruker-strukturer)](../retrade/Bruker-strukturer.md)
 
 ### Hovedstruktur
 
 Alle partnere, brukere og applikasjoner/rettigheter ligger i en trestruktur under "icspartner"
 
-![ApacheDS<sub>~1.png](ApacheDS</sub><sub>1</sub><sub>png.md)(ApacheDS</sub>~1.png)
+![ApacheDS-1.png](24183733-ApacheDS-1.png)
 
 Strukturen er bygget opp slik at man kobler en bruker til en "rolle-gruppe" hos en parter (eks. Trond Ramirent er "employee" hos Ramirent)
 
-![ApacheDS<sub>~2.png](ApacheDS</sub><sub>2</sub><sub>png.md)(ApacheDS</sub>~2.png)
+![ApacheDS-2.png](24183733-ApacheDS-2.png)
 
 Partners "rolle-gruppe" kobles til en eller flere roller i systemet (eks. Employee koblet til rolle "writer" i product manager)
 
-![ApacheDS<sub>~3.png](ApacheDS</sub><sub>3</sub><sub>png.md)(ApacheDS</sub>~3.png)
+![ApacheDS-3.png](24183733-ApacheDS-3.png)
 
 Rollene i systemet kobles til rettigheter for hvert område (eks. er "writer" koblet til "write, read, transferToAuction")
 
-![ApacheDS<sub>~4.png](ApacheDS</sub><sub>4</sub><sub>png.md)(ApacheDS</sub>~4.png)
+![ApacheDS-4.png](24183733-ApacheDS-4.png)
 
 Bruker har rettigheter i den organisasjonen vedkommende tilhører samt alle under-organisasjoner. (Eks. Trond Ramirent har rettigheter i Ramirent Norge og derfor også Ramirent Skui)
 
-![ApacheDS<sub>~5.png](ApacheDS</sub><sub>5</sub><sub>png.md)(ApacheDS</sub>~5.png)
+![ApacheDS-5.png](24183733-ApacheDS-5.png)
 
 ### Roller og rettigheter
 

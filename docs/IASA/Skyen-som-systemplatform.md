@@ -17,7 +17,7 @@
 
 ### 5 Key Cloud Characteristics
 
-- On<sub>~demand self</sub>~service 
+- On-demand self-service 
 - Ubiquitous network access
 - Location independent resource pooling
 - Rapid elasticity

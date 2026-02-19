@@ -1,6 +1,6 @@
 # Comment leif 27.3.2015
 
-### [Comment leif 27.3.2015](Comment<sub>~leif</sub><sub>27</sub><sub>3</sub>~2015.md)
+### [Comment leif 27.3.2015](Comment-leif-27-3-2015.md)
 
 Use : map.getBounds()
 

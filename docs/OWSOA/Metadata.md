@@ -51,6 +51,6 @@ Meta data need to provide value for those entering it.
 
 Auto-taxonomy from search engines on the keyword **Enterprise Domain Repository**
 
-![EDR_metadata_map.jpg](EDR_metadata_map-jpg.md)(EDR_metadata_map.jpg)
+![EDR_metadata_map.jpg](8487011-EDR_metadata_map.jpg)
 
 Here a auto-taxonomy has been generated. It provides some exiting relations between different usages of a term used on different web pages, it is also possible to find several exiting contexts

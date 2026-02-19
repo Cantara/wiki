@@ -13,4 +13,4 @@ er vel også raskere å gjøre det der enn å sette alt opp på localhost
 
 https://wiki.cantara.no/display/ASE/DevTest+-+whydahdev.altrancloud.com
 
-Konfig details her: https://github.com/AltranScandinavia/Whydah<sub>~Altran</sub>~Configuration/tree/master/whydahdev.altrancloud.com ig selve scriptet her: https://github.com/altran/Whydah-Provisioning
+Konfig details her: https://github.com/AltranScandinavia/Whydah-Altran-Configuration/tree/master/whydahdev.altrancloud.com ig selve scriptet her: https://github.com/altran/Whydah-Provisioning

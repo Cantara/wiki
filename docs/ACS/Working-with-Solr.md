@@ -1,8 +1,8 @@
 # Working with Solr
 
 ### Recomended Reading
-- [Thinking like Solr<sub>~its not an rdms](http://bibwild.wordpress.com/2011/01/24/thinking</sub><sub>like</sub><sub>solr</sub><sub>its</sub><sub>not</sub>~an-rdbms/)
-- [http://boxesandarrows.com/faceted<sub>~finding</sub><sub>with</sub><sub>super</sub><sub>powered</sub><sub>breadcrumbs/](http://boxesandarrows.com/faceted</sub><sub>finding</sub><sub>with</sub><sub>super</sub><sub>powered</sub>~breadcrumbs/)
+- [Thinking like Solr-its not an rdms](http://bibwild.wordpress.com/2011/01/24/thinking-like-solr-its-not-an-rdbms/)
+- [http://boxesandarrows.com/faceted-finding-with-super-powered-breadcrumbs/](http://boxesandarrows.com/faceted-finding-with-super-powered-breadcrumbs/)
 
 ### Normalization of data
 
@@ -24,7 +24,7 @@ We start by havning no boost. Do enhancement on search results (vekting) rank.
 ### Add
 http://wiki.apache.org/solr/UpdateXmlMessages
 
-`curl http://localhost:8983/solr/update?commit=true -H "Content<sub>~Type: text/xml" -</sub>~data-binary '<add><doc><field name="id">testdoc</field></doc></add>'`
+`curl http://localhost:8983/solr/update?commit=true -H "Content-Type: text/xml" --data-binary '<add><doc><field name="id">testdoc</field></doc></add>'`
 
 ### Query 
 http://wiki.apache.org/solr/SolrQuerySyntax
@@ -33,7 +33,7 @@ http://wiki.apache.org/solr/SolrQuerySyntax
 - http://altubuntu01.cloudapp.net/solr/collection1/select?q=**%3A**&wt=json&indent=true
 
 ### Faceting
-http://searchhub.org/2009/09/02/faceted<sub>~search</sub>~with-solr/
+http://searchhub.org/2009/09/02/faceted-search-with-solr/
 
 - http://altubuntu01.cloudapp.net/solr/select?q=java&facet=true&facet.field=technology
 

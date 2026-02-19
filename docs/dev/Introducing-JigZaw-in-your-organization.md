@@ -18,7 +18,7 @@ Experiences we have made sugest to follow an approach something simmilar to this
 > ℹ️ Gjøre de enkle tingene først, det er bedre å gjøre litt, putt resten på en liste, og glem det.
 > ℹ️ Gameldagse prinsipper, gameldagse verktøy. ref Clean Code.
 > ℹ️ 
-> ℹ️ Apply object<sub>~oriented practice and refactor/restructure code to make the code easier to test. See [Clean Code: A Handbook of Agile Software Craftsmanship](http://www.amazon.com/Clean</sub><sub>Code</sub><sub>Handbook</sub>~Software-Craftsmanship/dp/0132350882). 
+> ℹ️ Apply object-oriented practice and refactor/restructure code to make the code easier to test. See [Clean Code: A Handbook of Agile Software Craftsmanship](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882). 
 > ℹ️ Make a list over problems that are difficult to test and move on. That is accept that not everything related to te bug can be tested by an automated test in this phase. 
 > ℹ️ 
 > ℹ️ Focus: Single bugs fixed. Root causes not improved.
@@ -29,8 +29,8 @@ Experiences we have made sugest to follow an approach something simmilar to this
 
 ###### Principles
 - Write test whenever functionality is added or modified
-- [Maximize value of testing](Maximize<sub>~value</sub>~of-testing.md)
-- [Divide and conquer](Divide<sub>~and</sub>~conquer.md)
+- [Maximize value of testing](Maximize-value-of-testing.md)
+- [Divide and conquer](Divide-and-conquer.md)
 
 ###### Tools
 - Refactor and rewrite towards [Clean code](Clean-code.md)
@@ -43,29 +43,29 @@ Experiences we have made sugest to follow an approach something simmilar to this
 
 Fokus på vertikal, fokus på user-story. Focus on the simple cases.
 
-- Kundedrevet. Agregering av feil. Denne funksjonen feiler alltid. denne user<sub>~storien er for dårlig testet. Functionallity miss</sub>~behaves. Ustabil... reintroduserer feil.
+- Kundedrevet. Agregering av feil. Denne funksjonen feiler alltid. denne user-storien er for dårlig testet. Functionallity miss-behaves. Ustabil... reintroduserer feil.
 
 Focus: Ensure that the service/user story/functionallity works as expected, every time.
 Implement regression tests. Nivå " det er dette kunden betaler for ". Se på hva som skal leveres, ikke lete etter bugs.
 
 ###### Principles
-- [Verify expected behavior instead of looking for bugs](Verify<sub>~expected</sub><sub>behavior</sub><sub>instead</sub><sub>of</sub><sub>looking</sub>~for-bugs.md)
-- [Divide and conquer](Divide<sub>~and</sub>~conquer.md)
+- [Verify expected behavior instead of looking for bugs](Verify-expected-behavior-instead-of-looking-for-bugs.md)
+- [Divide and conquer](Divide-and-conquer.md)
 
 ###### Tools
-- [Enterprise Maven Infrastructure](Enterprise<sub>~Maven</sub>~Infrastructure.md)
+- [Enterprise Maven Infrastructure](Enterprise-Maven-Infrastructure.md)
 
 #### Phase #3 Control State
 
 ###### Principles
-- [JigZaw Multidimensional Test Categorization](JigZaw<sub>~Multidimensional</sub>~Test-Categorization.md)
+- [JigZaw Multidimensional Test Categorization](JigZaw-Multidimensional-Test-Categorization.md)
 - [Control state](Control-state.md)
 
 ###### Tools
 
-- [JMS Testing according to JigZaw](JMS<sub>~Testing</sub><sub>according</sub><sub>to</sub>~JigZaw.md)
-- [RestoreDefaultState - Oracle database](RestoreDefaultState<sub>~Oracle</sub>~database.md) 
-- [RDBMS testing according to JigZaw](RDBMS<sub>~testing</sub><sub>according</sub><sub>to</sub>~JigZaw.md)
+- [JMS Testing according to JigZaw](JMS-Testing-according-to-JigZaw.md)
+- [RestoreDefaultState - Oracle database](RestoreDefaultState-Oracle-database.md) 
+- [RDBMS testing according to JigZaw](RDBMS-testing-according-to-JigZaw.md)
 
 #### Phase #4 Timeline, hva skal testes når?
 

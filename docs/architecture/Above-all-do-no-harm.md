@@ -16,4 +16,4 @@
 
 - Be a spokes-person: Those who are doing the work often have a hard time being heard. Communicate their needs and problems upwards, and help them improve on everyday activities.
 
-_The above is a rough translation from [Johannes Brodwall's blog post about architect considerations](http://brodwall.com/johannes/blog/2009/04/22/v%C3%A6r<sub>~varsom</sub><sub>plakaten</sub><sub>for</sub>~arkitekten/)._
+_The above is a rough translation from [Johannes Brodwall's blog post about architect considerations](http://brodwall.com/johannes/blog/2009/04/22/v%C3%A6r-varsom-plakaten-for-arkitekten/)._

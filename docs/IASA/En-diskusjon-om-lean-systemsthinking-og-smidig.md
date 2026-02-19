@@ -2,7 +2,7 @@
 
 Et lite utsnitt av det jeg oppfatter som en spennende diskusjon som flere burde henge seg på..  (anonymisert diskusjon gjengitt med tillatelse)
 
-a: lest denne?  http://leanandkanban.wordpress.com/2009/06/10/lean<sub>~software</sub><sub>development</sub><sub>achieving</sub>~better-requirements/
+a: lest denne?  http://leanandkanban.wordpress.com/2009/06/10/lean-software-development-achieving-better-requirements/
 b: vet ikke helt om jeg kjøper det derre flow-greine
 a: det ligger mye der, uten tvil, men om det er løsningen på alt er et åpnere spm...    
 b: det er jo opplagt ikke løsningen på alt

@@ -9,7 +9,7 @@
 (-) How are usernames and passwords managed? 
 (-) Not all of the other tactics can be omitted. E.g., a PropertyPlaceholderConfigurer is still required to share a property between multiple beans. 
 
-En Bean konfigurer seg selv. Autowire inn et property<sub>~object. Setter default</sub>~verdi her. 
+En Bean konfigurer seg selv. Autowire inn et property-object. Setter default-verdi her. 
 
 Én property-fil med prefiks foran hver property. Kun diff må endres. (ikke prefiks per _fil_) 
 
@@ -22,16 +22,16 @@ To strategier:
 
 ## Resources
 
-Frontend to all resources: http://trac.kaare<sub>~nilsen.com/staged</sub>~spring
+Frontend to all resources: http://trac.kaare-nilsen.com/staged-spring
 
 #### Direct links
 
-[Maven site](http://trac.kaare<sub>~nilsen.com/staged</sub>~spring/maven/)
+[Maven site](http://trac.kaare-nilsen.com/staged-spring/maven/)
 
-[stage<sub>~aware</sub><sub>spring</sub><sub>contexts](http://kaare</sub><sub>nilsen.com/index.php/2008/04/02/stage</sub><sub>aware</sub>~spring-contexts/)
-[stage<sub>~aware</sub><sub>spring</sub><sub>contexts</sub><sub>part</sub><sub>ii](http://kaare</sub><sub>nilsen.com/index.php/2008/04/06/stage</sub><sub>aware</sub><sub>spring</sub><sub>contexts</sub>~part-ii/)
+[stage-aware-spring-contexts](http://kaare-nilsen.com/index.php/2008/04/02/stage-aware-spring-contexts/)
+[stage-aware-spring-contexts-part-ii](http://kaare-nilsen.com/index.php/2008/04/06/stage-aware-spring-contexts-part-ii/)
 
-Source repository: [Mercurial repo](https://hg.kaare<sub>~nilsen.com/staged</sub>~spring/) 
-Old repo: [Subversion repo](http://kaare<sub>~nilsen.com/subversion/public/labs/staged</sub>~spring/) 
+Source repository: [Mercurial repo](https://hg.kaare-nilsen.com/staged-spring/) 
+Old repo: [Subversion repo](http://kaare-nilsen.com/subversion/public/labs/staged-spring/) 
 
-[Issue tracker](http://trac.kaare<sub>~nilsen.com/staged</sub>~spring/report/3)
+[Issue tracker](http://trac.kaare-nilsen.com/staged-spring/report/3)

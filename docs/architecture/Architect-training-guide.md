@@ -14,8 +14,8 @@ You can't learn the difficult stuff from books!
 
 #### Establish feedback loops 
 
-[Thou shalt strive to create a learning culture](Thou<sub>~shalt</sub><sub>strive</sub><sub>to</sub><sub>create</sub><sub>a</sub>~learning-culture.md)
+[Thou shalt strive to create a learning culture](Thou-shalt-strive-to-create-a-learning-culture.md)
 
 [Learning circle](Learning-circle.md)
 
-http://www.skorks.com/2010/02/the<sub>~one</sub><sub>skill</sub><sub>you</sub><sub>need</sub><sub>to</sub><sub>master</sub><sub>to</sub><sub>succeed</sub><sub>and</sub><sub>grow</sub><sub>as</sub>~a-developer/
+http://www.skorks.com/2010/02/the-one-skill-you-need-to-master-to-succeed-and-grow-as-a-developer/

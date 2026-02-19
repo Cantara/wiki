@@ -1,72 +1,72 @@
 # ChangeLog
 
-2008<sub>~07</sub>~03  Dan Creswell <dan@dancres.org>
+2008-07-03  Dan Creswell <dan@dancres.org>
 
 	* Released 2.0fcs
 	
-2008<sub>~03</sub>~09  Dan Creswell <dan@dancres.org>
+2008-03-09  Dan Creswell <dan@dancres.org>
 
 	* Updated to Db 3.2.74
 	
-	* Updated backport<sub>~util</sub>~concurrent - includes support for JDK 6
+	* Updated backport-util-concurrent - includes support for JDK 6
 	
 	* Released 2.0-rc4
 	
-2008<sub>~03</sub>~05  Dan Creswell <dan@dancres.org>
+2008-03-05  Dan Creswell <dan@dancres.org>
 
 	* Improved EventGenerator registration concurrency
 	
-2008<sub>~02</sub>~24  Dan Creswell <dan@dancres.org>
+2008-02-24  Dan Creswell <dan@dancres.org>
 
 	* Added an option (syncNotifyOnWrite) to enable synchronous event processing in 
 	cases where deterministic behaviour is required for *IfExists - note this 
 	reduces performance.
 	
-2008<sub>~02</sub>~02  Dan Creswell <dan@dancres.org>
+2008-02-02  Dan Creswell <dan@dancres.org>
 
 	* Fix a false warning of schema conflicts in hierarchical matching situations.
 	
 	* Removed an errant System.err.println() in ExistsFactory
 	
-2007<sub>~12</sub>~31  Dan Creswell <dan@dancres.org>
+2007-12-31  Dan Creswell <dan@dancres.org>
 
 	* Released 2.0-rc2
 	
-2007<sub>~12</sub>~23  Dan Creswell <dan@dancres.org>
+2007-12-23  Dan Creswell <dan@dancres.org>
 
 	* Updated to Db 3.2.68
 	
-2007<sub>~11</sub>~14  Dan Creswell <dan@dancres.org>
+2007-11-14  Dan Creswell <dan@dancres.org>
 
 	* Fix incorrect notify clause in FifoSearchVisitorImpl which generates an
 	IllegalMonitorStateException
 	
-2007<sub>~11</sub>~04  Dan Creswell <dan@dancres.org>
+2007-11-04  Dan Creswell <dan@dancres.org>
 
 	* Revised ThreadStat to not include System threads in the count
 	
 	* Fixed a problem with *Exists not exiting at the point where
 	existing conflicts have been resolved.
 		
-2007<sub>~09</sub>~23  Dan Creswell <dan@dancres.org>
+2007-09-23  Dan Creswell <dan@dancres.org>
 
 	* Updated MonitorStats to accept a loop-time in seconds.  Zero dumps
 	stats once, otherwise every loop-time seconds.
 	
-2007<sub>~08</sub>~31  Dan Creswell <dan@dancres.org>
+2007-08-31  Dan Creswell <dan@dancres.org>
 
 	* Fix take accounting problem in bulk take leading to negative counts
 	
-2007<sub>~08</sub>~30  Dan Creswell <dan@dancres.org>
+2007-08-30  Dan Creswell <dan@dancres.org>
 
 	* Added tool to selectively reset lookup settings from a configuration
 	file
 	
-2007<sub>~08</sub>~12  Dan Creswell <dan@dancres.org>
+2007-08-12  Dan Creswell <dan@dancres.org>
 
 	* Released 2.0-rc1
 	
-2007<sub>~08</sub>~04  Dan Creswell <dan@dancres.org>
+2007-08-04  Dan Creswell <dan@dancres.org>
 
 	* Revised some default logger settings
 	
@@ -75,19 +75,19 @@
 	* Added support for specifying Db cache size in kilo, mega or giga bytes.
 	(original patch provided by Roshan Sequeira modified by Dan)
 	
-2007<sub>~05</sub>~20  Dan Creswell <dan@dancres.org>
+2007-05-20  Dan Creswell <dan@dancres.org>
 
 	* Update to Db 3.2.23
 	
 	* Released 2.0beta
 	
-2007<sub>~05</sub>~08  Dan Creswell <dan@dancres.org>
+2007-05-08  Dan Creswell <dan@dancres.org>
 
 	* Fix a problem with CacheIndexer initialization in RootStorage
 	which could break null templates on contents() (as used by
 	Dashboard amongst other things).
 	
-2007<sub>~05</sub>~07  Dan Creswell <dan@dancres.org>
+2007-05-07  Dan Creswell <dan@dancres.org>
 
 	* Make transaction exception thrown when transactions are active
 	during snapshot more explicit
@@ -102,42 +102,42 @@
 	
 	* Released 2.0alpha4
 	
-2007<sub>~04</sub>~30  Dan Creswell <dan@dancres.org>
+2007-04-30  Dan Creswell <dan@dancres.org>
 
 	* Update documentation to cover loopback transaction manager
 	
-2007<sub>~04</sub>~23  Dan Creswell <dan@dancres.org>
+2007-04-23  Dan Creswell <dan@dancres.org>
 
 	* Transaction end is now signalled via the event queue
 	
 	* Fix bug where entry repository might be incorrectly initialized
 	during recovery
 	
-2007<sub>~04</sub>~22  Dan Creswell <dan@dancres.org>
+2007-04-22  Dan Creswell <dan@dancres.org>
 
 	* Database cache size should be a long
 	
-	* Revert most of backport<sub>~util</sub>~concurrent changes due to race
+	* Revert most of backport-util-concurrent changes due to race
 	conditions
 	
 	* TxnState now uses synchronized not a heavyweight Mutex
 	
 	* Fix bug where transactions weren't finalized on prepareAndCommit
 	
-2007<sub>~03</sub>~13  Dan Creswell <dan@dancres.org>
+2007-03-13  Dan Creswell <dan@dancres.org>
 
 	* Added stat to track missed reads/takes
 	
-2007<sub>~03</sub>~09  Dan Creswell <dan@dancres.org>
+2007-03-09  Dan Creswell <dan@dancres.org>
 
 	* Released 2.0alpha3
 	
-2007<sub>~03</sub>~05  Dan Creswell <dan@dancres.org>
+2007-03-05  Dan Creswell <dan@dancres.org>
 
 	* Fixup dashboard scripts in installer to work with new backport
 	util-concurrent libraries
 	
-2007<sub>~02</sub>~28  Dan Creswell <dan@dancres.org>
+2007-02-28  Dan Creswell <dan@dancres.org>
 
 	* Fix a race condition in the lazy instantiation of EntryRepositories
 	
@@ -148,7 +148,7 @@
 	
 	* Fix EventQueue leak in bulk take
 	
-2007<sub>~02</sub>~07  Dan Creswell <dan@dancres.org>
+2007-02-07  Dan Creswell <dan@dancres.org>
 
 	* Revised blocking operation implementations to use notify core
 
@@ -167,48 +167,48 @@
 	
 	* Released 2.0alpha2
 	
-2007<sub>~01</sub>~01  Dan Creswell <dan@dancres.org>
+2007-01-01  Dan Creswell <dan@dancres.org>
 
 	* Released 2.0alpha
 	
-2006<sub>~12</sub>~28  Dan Creswell <dan@dancres.org>
+2006-12-28  Dan Creswell <dan@dancres.org>
 
 	* Make blocking operation dispatch faster and less costly
 
-2006<sub>~12</sub>~27  Dan Creswell <dan@dancres.org>
+2006-12-27  Dan Creswell <dan@dancres.org>
 
 	* Implement ColocatedAgent support
 	
 	* Implement additional statistics
 	
-2006<sub>~12</sub>~12  Dan Creswell <dan@dancres.org>
+2006-12-12  Dan Creswell <dan@dancres.org>
 	
 	* Modify DumpRegistry to support more lookup location options
 	
 	* Update to JE 3.2.13
 
-2006<sub>~11</sub>~30  Dan Creswell <dan@dancres.org>
+2006-11-30  Dan Creswell <dan@dancres.org>
 
 	* Fix race conditions in cache indexing
 	
 	* Reduce cache indexer stack to one
 	
-2006<sub>~09</sub>~29  Dan Creswell <dan@dancres.org>
+2006-09-29  Dan Creswell <dan@dancres.org>
 
 	* Downgraded to 2.1.30 - temporary workaround for issue in 3.0.12
 	
 	* Released 1.29
 	
-2006<sub>~09</sub>~26  Dan Creswell <dan@dancres.org>
+2006-09-26  Dan Creswell <dan@dancres.org>
 
 	* Released 1.27
 	
-2006<sub>~09</sub>~19  Dan Creswell <dan@dancres.org>
+2006-09-19  Dan Creswell <dan@dancres.org>
 
 	* Fix a problem with active lease reaping not purging all relevant
 	entry's.
 	
-2006<sub>~08</sub>~18  Dan Creswell <dan@dancres.org>
+2006-08-18  Dan Creswell <dan@dancres.org>
 
 	* Remove old code for logging failed searches enabled
 	by logDebug
@@ -220,11 +220,11 @@
 	
 	* Updated to Db/Java 3.0.12
 	
-2006<sub>~08</sub>~07  Dan Creswell <dan@dancres.org>
+2006-08-07  Dan Creswell <dan@dancres.org>
 
 	* Add support for logging details of failed searches
 	
-2006<sub>~07</sub>~14  Dan Creswell <dan@dancres.org>
+2006-07-14  Dan Creswell <dan@dancres.org>
 
 	* Add a -Dforce=true option to SyncAndShutdown to force shutdown of blitz
 	in face of active transactions.
@@ -236,19 +236,19 @@
 	
 	* Released 1.26
 	
-2006<sub>~07</sub>~01  Dan Creswell <dan@dancres.org>
+2006-07-01  Dan Creswell <dan@dancres.org>
 
 	* Increase log levels on event sending code to assist in debugging issues
 	with notify.
 	
-2006<sub>~05</sub>~24  Dan Creswell <dan@dancres.org>
+2006-05-24  Dan Creswell <dan@dancres.org>
 
 	* Fix a problem in EntryViewImpl which could lead to duplicate Entry's
 	returned by contents
 	
 	* Released 1.25
 	
-2006<sub>~05</sub>~23  Dan Creswell <dan@dancres.org>
+2006-05-23  Dan Creswell <dan@dancres.org>
 
 	* Tweak logger output for WriteQueue stats
 	
@@ -261,19 +261,19 @@
 	* Make TimeBarrier mode checkpoint at flushes to improve database 
 	utilization and performance
 	
-2006<sub>~03</sub>~27  Dan Creswell <dan@dancres.org>
+2006-03-27  Dan Creswell <dan@dancres.org>
 
     * Added logging to Annotating streams to allow better debugging of
     codebase related issues.
 
-2006<sub>~03</sub>~03  Dan Creswell <dan@dancres.org>
+2006-03-03  Dan Creswell <dan@dancres.org>
 
     * Fix phoenix configuration in installer to include jsk-dl.jar as part of
     codebase
 
     * Released 1.24
     
-2006<sub>~02</sub>~22  Dan Creswell <dan@dancres.org>
+2006-02-22  Dan Creswell <dan@dancres.org>
 
     * Fix ServiceLocator unicast lookup to correctly assert a security manager
     otherwise code downloading is broken.
@@ -282,18 +282,18 @@
     
     * Released 1.23
 
-2006<sub>~02</sub>~19  Dan Creswell <dan@dancres.org>
+2006-02-19  Dan Creswell <dan@dancres.org>
 
     * Modify LockReleaseCallback to use WeakReference for SearchVisitors to
     reduce memory footprint
 
     * Released 1.22
 
-2006<sub>~02</sub>~15  Dan Creswell <dan@dancres.org>
+2006-02-15  Dan Creswell <dan@dancres.org>
 
     * Upgrade to Db 2.1.30
 
-2006<sub>~02</sub>~14  Dan Creswell <dan@dancres.org>
+2006-02-14  Dan Creswell <dan@dancres.org>
 
     * Fix EventGeneratorImpl/VisbilityImpl.ping() to not hold a lock across the
     sequence number log which can cause deadlock if event queue bounding is
@@ -301,30 +301,30 @@
 
     * Released 1.22-pre1 (limited circulation)
 
-2006<sub>~02</sub>~10  Dan Creswell <dan@dancres.org>
+2006-02-10  Dan Creswell <dan@dancres.org>
 
     * Fix up Rio config to use Jini 2.1 .jars
 
-2006<sub>~02</sub>~02  Dan Creswell <dan@dancres.org>
+2006-02-02  Dan Creswell <dan@dancres.org>
 
     * Rewrite the contents() core.  It was just way too complex, had too much
     retro-fitting and there have been some complaints of duplicates which will
     be down to a hole in the overly complex locking scheme of the old version.
 
-2006<sub>~02</sub>~01  Dan Creswell <dan@dancres.org>
+2006-02-01  Dan Creswell <dan@dancres.org>
 
     * Make sure we check for expired transactions in loopback mgr at time of
     commit or abort.
 
     * Released 1.21
     
-2006<sub>~01</sub>~30  Dan Creswell <dan@dancres.org>
+2006-01-30  Dan Creswell <dan@dancres.org>
 
     * Fix incorrect import in lease handlers configuration
 
     * Released 1.21-pre4
     
-2006<sub>~01</sub>~29  Dan Creswell <dan@dancres.org>
+2006-01-29  Dan Creswell <dan@dancres.org>
 
     * Fix deadlock which can occur when an operation attempts to add state
     to TxnState whilst it is concurrently being resolved.  These operations
@@ -334,23 +334,23 @@
     * Fix bug where we won't kill off associated notify's if we abort a
     non-null transaction.
 
-2006<sub>~01</sub>~26  Dan Creswell <dan@dancres.org>
+2006-01-26  Dan Creswell <dan@dancres.org>
 
     * Make sure we close RandomAccessFiles used in logging to prevent some
     OS'en running out of file handles (some seem to cleanup on their own).
 
     * Released 1.21-pre3 (limited circulation)
 
-2006<sub>~01</sub>~19  Dan Creswell <dan@dancres.org>
+2006-01-19  Dan Creswell <dan@dancres.org>
 
     * Add support for a loopback transaction manager which can be enabled by
     defining it's Exporter using the configuration variable loopbackTxnExporter.
     Note the manager can only be used to co-ordinate transactions against the
     blitz instance that it shares the JVM with. It cannot co-ordinate multiple
     and/or remote participants such as other Blitz instances
-    [EXPERIMENTAL - USE AT YOUR PERIL](EXPERIMENTAL<sub>~USE</sub><sub>AT</sub><sub>YOUR</sub>~PERIL.md)
+    [EXPERIMENTAL - USE AT YOUR PERIL](EXPERIMENTAL-USE-AT-YOUR-PERIL.md)
     
-2006<sub>~01</sub>~12  Dan Creswell <dan@dancres.org>
+2006-01-12  Dan Creswell <dan@dancres.org>
 
     * Fix bug in BlitzServiceImpl.newView where for JavaSpace05 compatibility
     we should only hold locks if the transaction is non-null.  Do the same
@@ -358,12 +358,12 @@
 
     * Released 1.21-pre2
     
-2006<sub>~01</sub>~09  Dan Creswell <dan@dancres.org>
+2006-01-09  Dan Creswell <dan@dancres.org>
 
     * Remove unnecessary BitIndex copy from BitmapIndexer - BitIndex's are
     thread safe so we can iterate without copying.
 
-2006<sub>~01</sub>~07  Dan Creswell <dan@dancres.org>
+2006-01-07  Dan Creswell <dan@dancres.org>
 
     * Revise transaction abort to spot situations where we needn't write an
     entry to disk even though we have operations.  This optimization is
@@ -375,54 +375,54 @@
     disk. These additional operations would invalidate the decision due to the
     changes in state wrought on a transaction.
      
-2006<sub>~01</sub>~05  Dan Creswell <dan@dancres.org>
+2006-01-05  Dan Creswell <dan@dancres.org>
 
     * For write and write(Collection) have proxy populate stub and uuid fields
     to save on network traffic and serialization costs.
 
-2006<sub>~01</sub>~04  Dan Creswell <dan@dancres.org>
+2006-01-04  Dan Creswell <dan@dancres.org>
 
     * Remove offset from MangledField and use the loop index server-side
     to derive it.
 
-2006<sub>~01</sub>~03  Dan Creswell <dan@dancres.org>
+2006-01-03  Dan Creswell <dan@dancres.org>
 
     * Add support to experimental transport for transaction participant.
 
     * Fixed a socket leak in the experimental transport
 
-2005<sub>~12</sub>~29  Dan Creswell <dan@dancres.org>
+2005-12-29  Dan Creswell <dan@dancres.org>
 
     * Fix experimental transport to do readIfExists and takeIfExists correctly
     rather than treat them like their normal brethren.
 
-2005<sub>~12</sub>~20  Dan Creswell <dan@dancres.org>
+2005-12-20  Dan Creswell <dan@dancres.org>
 
     * Released 1.20
     
-2005<sub>~12</sub>~09  Dan Creswell <dan@dancres.org>
+2005-12-09  Dan Creswell <dan@dancres.org>
 
     * Make Blitz's internal view generation for contents methods strictly
     apply the entry limit so as to cap memory usage.
 
-2005<sub>~12</sub>~08  Dan Creswell <dan@dancres.org>
+2005-12-08  Dan Creswell <dan@dancres.org>
 
     * Fix up nio experimental transport to allow clients to exit (convert
     Txer to use of Daemon threads).
     
-2005<sub>~12</sub>~07  Dan Creswell <dan@dancres.org>
+2005-12-07  Dan Creswell <dan@dancres.org>
 
     * Add updateContents configuration variable which can be used to disable
     dynamic updating of contents views - useful for memory consumption control.
     
-2005<sub>~12</sub>~03  Dan Creswell <dan@dancres.org>
+2005-12-03  Dan Creswell <dan@dancres.org>
 
     * Fixed deadlock when checkpointing happens concurrently with creation
     of a store by EntryReposFactory
 
     * Released 1.19
     
-2005<sub>~11</sub>~26  Dan Creswell <dan@dancres.org>
+2005-11-26  Dan Creswell <dan@dancres.org>
 
     * Make LocalSpace support JavaSpace05 and leases and proper RemoteEvent
     setup
@@ -432,7 +432,7 @@
 
     * Released 1.18
     
-2005<sub>~11</sub>~25  Dan Creswell <dan@dancres.org>
+2005-11-25  Dan Creswell <dan@dancres.org>
 
     * More JINI 2.1 documentation tweaks
 
@@ -446,16 +446,16 @@
 
     * Released 1.17
 
-2005<sub>~11</sub>~21  Dan Creswell <dan@dancres.org>
+2005-11-21  Dan Creswell <dan@dancres.org>
 
     * Optimize contents matching to stop doing hierarchy matching once one
     of the template set has hit.
 
-2005<sub>~11</sub>~20  Dan Creswell <dan@dancres.org>
+2005-11-20  Dan Creswell <dan@dancres.org>
 
     * Integrate experimental nio transport.
 
-2005<sub>~11</sub>~02  Dan Creswell <dan@dancres.org>
+2005-11-02  Dan Creswell <dan@dancres.org>
 
     * Fix a problem where TxnLock failed to correctly handle a null callback
 
@@ -464,7 +464,7 @@
 
     * Released 1.16
     
-2005<sub>~11</sub>~01  Dan Creswell <dan@dancres.org>
+2005-11-01  Dan Creswell <dan@dancres.org>
 
     * Fix StatsBoard::getStats() deadlock - thanks to Sirma Group for report
     and suggested fix.
@@ -476,33 +476,33 @@
 
     * Released 1.15
 
-2005<sub>~10</sub>~27  Dan Creswell <dan@dancres.org>
+2005-10-27  Dan Creswell <dan@dancres.org>
 
     * Make sure WriteEntryOpInfo only dirties at recovery if it's entry
     wasn't on disk
 
     * Fix a recovery issue where the pristine state of a write was inserted
-    into the cache rather than the up<sub>~to</sub>~date state found on disk
+    into the cache rather than the up-to-date state found on disk
 
     * Released 1.14
 
-2005<sub>~10</sub>~20  Dan Creswell <dan@dancres.org>
+2005-10-20  Dan Creswell <dan@dancres.org>
 
     * Eliminate the additional roundtrip incurred downloading the first chunk of
     EntryChits for use with JavaSpaceAdmin/JavaSpace05::contents
 
     * Released 1.13
 
-2005<sub>~10</sub>~19  Dan Creswell <dan@dancres.org>
+2005-10-19  Dan Creswell <dan@dancres.org>
 
     * Fix problem where we're not holding locks when doing
     JavaSpace05::contents()
 
-2005<sub>~10</sub>~17  Dan Creswell <dan@dancres.org>
+2005-10-17  Dan Creswell <dan@dancres.org>
 
     * Implement intelligent readahead based on use or not of snapshot method
     
-2005<sub>~10</sub>~07  Dan Creswell <dan@dancres.org>
+2005-10-07  Dan Creswell <dan@dancres.org>
 
     * Make sure Lifecycle.unregister is passed the correct reference
 
@@ -512,31 +512,31 @@
 
     * Released 1.13-pre9
     
-2005<sub>~09</sub>~26  Dan Creswell <dan@dancres.org>
+2005-09-26  Dan Creswell <dan@dancres.org>
 
 	* Added some codebase caching into AnnotatingObjectOutputStream
 	because the RMIClassLoader infrastructure can sometimes trigger
 	opening of socket to codebase for each call to get a codebase for
 	a class.
 	
-2005<sub>~09</sub>~16  Dan Creswell <dan@dancres.org>
+2005-09-16  Dan Creswell <dan@dancres.org>
 
 	* Removed the aging support from ArcCache because it penalizes
 	concurrent take support.
 	
-2005<sub>~09</sub>~15  Dan Creswell <dan@dancres.org>
+2005-09-15  Dan Creswell <dan@dancres.org>
 
 	* Implemented nio-based test transport
 
 	* Fixed LeaseImpl to be public for nio test transport
 	
-2005<sub>~09</sub>~11  Dan Creswell <dan@dancres.org>
+2005-09-11  Dan Creswell <dan@dancres.org>
 
 	* Fixed installer to work with JINI 2.1
 
 	* Released 1.13-pre8
 	
-2005<sub>~09</sub>~10  Dan Creswell <dan@dancres.org>
+2005-09-10  Dan Creswell <dan@dancres.org>
 
 	* Revised iteration core to support leases and optional transaction
 	locking
@@ -552,7 +552,7 @@
 	
 	* Released 1.13-pre7
 	
-2005<sub>~09</sub>~09  Dan Creswell <dan@dancres.org>
+2005-09-09  Dan Creswell <dan@dancres.org>
 
 	* Added bulk take and write to SpaceImpl
 
@@ -560,14 +560,14 @@
 
 	* Added remote interfaces for JavaSpace05 support
 	
-2005<sub>~09</sub>~06  Dan Creswell <dan@dancres.org>
+2005-09-06  Dan Creswell <dan@dancres.org>
 
 	* Fix race condition which could cause TxnPinger to abort a transaction
 	that was just committed.
 
 	* Internally Released 1.13-pre6
 	
-2005<sub>~09</sub>~02  Dan Creswell <dan@dancres.org>
+2005-09-02  Dan Creswell <dan@dancres.org>
 
 	* Make FindEntryOpInfo aggressively sync Entry deletion in cases where
 	the EntrySleeveImpl is on disk.  This ensures better performance in
@@ -580,7 +580,7 @@
 	UnknownTransactionException for a transaction just committed and
 	then succeed with an abort thus erroneously undoing the transaction.
 	
-2005<sub>~08</sub>~30  Dan Creswell <dan@dancres.org>
+2005-08-30  Dan Creswell <dan@dancres.org>
 
 	* Refactor oid package to remove external dependency on UIDImpl.
 	Masking this makes it easier to introduce a new oid type as required for
@@ -588,7 +588,7 @@
 
 	* Internally Released 1.13-pre4
 	
-2005<sub>~08</sub>~24  Dan Creswell <dan@dancres.org>
+2005-08-24  Dan Creswell <dan@dancres.org>
 
 	* Added optional txn status checker which will detect transaction
 	manager death and abort associated transactions.  Configured with
@@ -597,7 +597,7 @@
 	* Display the codebase URL for a written Entry when dumping persistent
 	logs
 	
-2005<sub>~08</sub>~10  Dan Creswell <dan@dancres.org>
+2005-08-10  Dan Creswell <dan@dancres.org>
 
 	* Clean up some documentation re: JINI 2.1
 
@@ -605,14 +605,14 @@
 
 	* Released 1.13-pre3
 	
-2005<sub>~08</sub>~05  Dan Creswell <dan@dancres.org>
+2005-08-05  Dan Creswell <dan@dancres.org>
 
 	* Revise persistent logger to use RandomAccessFile in sync mode which
 	is slightly faster than forced sync's via Channel.  Note that buffer
 	size for the logger becomes a significant tuning factor and should be
 	sized to hold all concurrent transaction state at each log write.
 	
-2005<sub>~07</sub>~22  Dan Creswell <dan@dancres.org>
+2005-07-22  Dan Creswell <dan@dancres.org>
 
 	* Added support for logging failed takes and reads for use with
 	log dump tool.
@@ -629,7 +629,7 @@
 	the transaction holding the lock rather than emitting them as
 	independent records (fault tolerance preparation).
 	
-2005<sub>~07</sub>~21  Dan Creswell <dan@dancres.org>
+2005-07-21  Dan Creswell <dan@dancres.org>
 
 	* Add support for emitting user data as part of a checkpoint snapshot
 
@@ -640,7 +640,7 @@
 	* Added a rudimentary command-line based monitoring tool which some
 	may prefer to dashboard
 	
-2005<sub>~07</sub>~19  Dan Creswell <dan@dancres.org>
+2005-07-19  Dan Creswell <dan@dancres.org>
 
 	* Added IOStat to provide statistics from the WriteDaemon.
 
@@ -652,13 +652,13 @@
 
 	* Released 1.12
 	
-2005<sub>~07</sub>~18  Dan Creswell <dan@dancres.org>
+2005-07-18  Dan Creswell <dan@dancres.org>
 
 	* Reduce span of Db Txns in SpaceImpl
 
 	* Released 1.11
 	
-2005<sub>~07</sub>~17  Dan Creswell <dan@dancres.org>
+2005-07-17  Dan Creswell <dan@dancres.org>
 
 	* Make DumpEntries correctly initialize Disk before attempting to 
 	scan.
@@ -666,19 +666,19 @@
 	* Fix a problem where CacheIndexers weren't always notified of Entry
 	deletions leading to poor in-cache performance.
 	
-2005<sub>~07</sub>~15  Dan Creswell <dan@dancres.org>
+2005-07-15  Dan Creswell <dan@dancres.org>
 
 	* Fix a deadlock around TxnLocks which occurs under high load when
 	task bounds have been hit
 	
-2005<sub>~07</sub>~14  Dan Creswell <dan@dancres.org>
+2005-07-14  Dan Creswell <dan@dancres.org>
 
 	* Revise documentation to include new tools.  Split out configuration
 	variables into sections and improved layout.
 
 	* Revised output format of log dumping tool to be more parser friendly.
 	
-2005<sub>~07</sub>~13  Dan Creswell <dan@dancres.org>
+2005-07-13  Dan Creswell <dan@dancres.org>
 
 	* Convert an errant System.out to a Logger.log
 
@@ -688,7 +688,7 @@
 
 	* Add a new tool, RequestReap to remotely trigger a manual lease reap.
 	
-2005<sub>~06</sub>~30  Dan Creswell <dan@dancres.org>
+2005-06-30  Dan Creswell <dan@dancres.org>
 
 	* Add more support for log dumping tool.  In particular support more
 	of the possible records types.
@@ -702,21 +702,21 @@
 
 	* Make sure we explicitly buffer logs we read during recovery.
 	
-2005<sub>~06</sub>~27  Dan Creswell <dan@dancres.org>
+2005-06-27  Dan Creswell <dan@dancres.org>
 
 	* Released 1.10
 	
-2005<sub>~06</sub>~26  Dan Creswell <dan@dancres.org>
+2005-06-26  Dan Creswell <dan@dancres.org>
 
 	* Fix bug where transactions finalized in the commiting/aborting thread
 	caused deadlock owing to attempts to re-acquire mutex.
 
-2005<sub>~06</sub>~23  Dan Creswell <dan@dancres.org>
+2005-06-23  Dan Creswell <dan@dancres.org>
 
 	* Fix lock conflict caused by parallel database existence tests and
 	database creation (workaround for a Db issue).
 	
-2005<sub>~06</sub>~20  Dan Creswell <dan@dancres.org>
+2005-06-20  Dan Creswell <dan@dancres.org>
 
 	* Make non-wildcard searches terminate immediately we determine there
 	cannot be a match.
@@ -725,19 +725,19 @@
 
 	* Reduce de-serialization in handling of recent writes
 
-2005<sub>~06</sub>~15  Dan Creswell <dan@dancres.org>
+2005-06-15  Dan Creswell <dan@dancres.org>
 
 	* Add initial support for log dumping tool - good for debugging
 	both blitz and applications - see exactly what happened during a
 	run.
 	
-2005<sub>~06</sub>~03  Dan Creswell <dan@dancres.org>
+2005-06-03  Dan Creswell <dan@dancres.org>
 
 	* Fix database naming conflict caused by naming an Entry field meta
 
 	* Released 1.09
 	
-2005<sub>~05</sub>~30  Dan Creswell <dan@dancres.org>
+2005-05-30  Dan Creswell <dan@dancres.org>
 
 	* Change CacheIndexer default log level
 
@@ -746,7 +746,7 @@
 	allows a developer to use the standard logger configuration approach
 	when appropriate.
 	
-2005<sub>~04</sub>~04  Dan Creswell <dan@dancres.org>
+2005-04-04  Dan Creswell <dan@dancres.org>
 
 	* Fix WriteEntryOpInfo to markDirty committed entries if they are
 	not marked dirty when unpinned.  If they are pinned they can't have
@@ -768,18 +768,18 @@
 
 	* Released 1.08
 
-2005<sub>~03</sub>~31  Dan Creswell <dan@dancres.org>
+2005-03-31  Dan Creswell <dan@dancres.org>
 
 	* Fix a bug where transaction locks might be released prematurely
 	at commit/abort
 
-2005<sub>~03</sub>~21  Dan Creswell <dan@dancres.org>
+2005-03-21  Dan Creswell <dan@dancres.org>
 
 	* Lower layers of blitz.entry can end up with CacheIndexer's full of
 	DELETED Entry's which are wasted matches.  Fix CacheIndexers to ignore
 	such Entry's
 	
-2005<sub>~03</sub>~15  Dan Creswell <dan@dancres.org>
+2005-03-15  Dan Creswell <dan@dancres.org>
 
 	* Added support for per-Entry type constraints.  See
 	org.dancres.blitz.config.EntryConstraint
@@ -797,19 +797,19 @@
 
 	* Released 1.07
 	
-2005<sub>~03</sub>~08  Dan Creswell <dan@dancres.org>
+2005-03-08  Dan Creswell <dan@dancres.org>
 
 	* Make StartDashboard's timeout configurable via system property.
 	To override the default timeout, specify -DmaxDiscover=<ms>
 
 	* Released 1.06
 	
-2005<sub>~03</sub>~04  Dan Creswell <dan@dancres.org>
+2005-03-04  Dan Creswell <dan@dancres.org>
 
 	* Added disableBitmaps boolean config variable to disable bitmap
 	indexing if it proves un-performant or broken.
 	
-2005<sub>~03</sub>~03  Dan Creswell <dan@dancres.org>
+2005-03-03  Dan Creswell <dan@dancres.org>
 
 	* Added support for JavaSpaceAdmin interface as implemented by
 	Outrigger.  This will allow appropriate space browsers to interrogate
@@ -817,7 +817,7 @@
 
 	* Fix a bug where renew/cancel didn't manage stats correctly
 	
-2005<sub>~03</sub>~01  Dan Creswell <dan@dancres.org>
+2005-03-01  Dan Creswell <dan@dancres.org>
 
 	* Moved reset of stats from SleeveCache::close to
 	SleeveCache::deleteAll.
@@ -827,7 +827,7 @@
 	than the equivalent HashMapIndexer whilst having similar memory
 	consumption in most cases.
 	
-2005<sub>~02</sub>~19  Dan Creswell <dan@dancres.org>
+2005-02-19  Dan Creswell <dan@dancres.org>
 
 	* Added support for remote triggering of Entry cleanup.
 
@@ -836,7 +836,7 @@
 
 	* Upgraded to Db 1.7.1
 	
-2005<sub>~02</sub>~08  Dan Creswell <dan@dancres.org>
+2005-02-08  Dan Creswell <dan@dancres.org>
 
 	* Fixed a nasty race condition in LockCache where an old reference
 	can cause invalidation of a current lock.
@@ -845,7 +845,7 @@
 
 	* Released 1.05
 	
-2005<sub>~01</sub>~13  Dan Creswell <dan@dancres.org>
+2005-01-13  Dan Creswell <dan@dancres.org>
 
 	* Fix a deadlock which can occur in writing Entry's with small cachesize
 
@@ -869,31 +869,31 @@
 
 	* Released 1.04
 	
-2005<sub>~01</sub>~10  Dan Creswell <dan@dancres.org>
+2005-01-10  Dan Creswell <dan@dancres.org>
 
 	* Fix a deadlock which can occur during deletion of large Entry's.
 	(Thanks to Dylan Wilson for a great bug report).
 
-2004<sub>~12</sub>~31  Dan Creswell <dan@dancres.org>
+2004-12-31  Dan Creswell <dan@dancres.org>
 
 	* Fix a minor problem where an abort can dump a non-fatal
 	UnknownTransactionException during recovery.  Recovery will still
 	complete and no damage has been done.
 
-2004<sub>~12</sub>~29  Dan Creswell <dan@dancres.org>
+2004-12-29  Dan Creswell <dan@dancres.org>
 
 	* Fixed a bug in meta.Registry where initializer results were not
 	forcible commited to disk.
 
 	* Released 1.03
 	
-2004<sub>~12</sub>~20  Dan Creswell <dan@dancres.org>
+2004-12-20  Dan Creswell <dan@dancres.org>
 
 	* Make Blitz obey the contents of initialGroups
 
 	* Released 1.02
 	
-2004<sub>~12</sub>~14  Dan Creswell <dan@dancres.org>
+2004-12-14  Dan Creswell <dan@dancres.org>
 
 	* Make new version attributes override those in LookupStorage
 
@@ -905,7 +905,7 @@
 	
 	* Released 1.01
 	
-2004<sub>~12</sub>~01  Dan Creswell <dan@dancres.org>
+2004-12-01  Dan Creswell <dan@dancres.org>
 
 	* Upgraded to Db/Java 1.7.0
 
@@ -915,65 +915,65 @@
 
 	* Merged Entry structure stuff from -idev dashboard
 	
-2004<sub>~11</sub>~15  Dan Creswell <dan@dancres.org>
+2004-11-15  Dan Creswell <dan@dancres.org>
 
 	* Released 0.98
 	
-2004<sub>~11</sub>~14  Dan Creswell <dan@dancres.org>
+2004-11-14  Dan Creswell <dan@dancres.org>
 
 	* Reduced -dl.jar footprint
 
 	* Merged new rio config containing serviceui support (contributed by
 	Jerome Bernard)
 	
-2004<sub>~11</sub>~05  Dan Creswell <dan@dancres.org>
+2004-11-05  Dan Creswell <dan@dancres.org>
 
 	* Fixed dashboard to not tweak the look and feel when run as ServiceUI
 	
-2004<sub>~11</sub>~04  Dan Creswell <dan@dancres.org>
+2004-11-04  Dan Creswell <dan@dancres.org>
 
 	* Added a setContent(null) into ArcCache when swapping a CBD to
 	b1 or b2 - reduces memory footprint
 	
-2004<sub>~10</sub>~26  Dan Creswell <dan@dancres.org>
+2004-10-26  Dan Creswell <dan@dancres.org>
 
 	* FindEntryOpInfo should not unpin an Entry - that should only be done
 	by WriteEntryOpInfo.  This could lead to inaccurate notify behaviour
 	under very rare circumstances
 	
-2004<sub>~09</sub>~30  Dan Creswell <dan@dancres.org>
+2004-09-30  Dan Creswell <dan@dancres.org>
 
 	* Fix bug where prepared state may not be restored correctly
 	during recovery
 
 	* Release 0.97
 	
-2004<sub>~09</sub>~23  Dan Creswell <dan@dancres.org>
+2004-09-23  Dan Creswell <dan@dancres.org>
 
 	* Fix a deadlock induced by checkpointing whilst an EntryRepository
 	is being demand loaded (thanks to Joseph Wang for a great bug report)
 
 	* Released 0.96
 	
-2004<sub>~09</sub>~21  Dan Creswell <dan@dancres.org>
+2004-09-21  Dan Creswell <dan@dancres.org>
 
 	* Fix a potential lock conflict when searches are happening whilst
 	WriteDaemon performs a delete
 	
-2004<sub>~09</sub>~16  Dan Creswell <dan@dancres.org>
+2004-09-16  Dan Creswell <dan@dancres.org>
 
 	* Fix a CacheIndexer initialization bug which can break all cache
 	matching and associated reads/takes.  Typical symptom was an
 	ArrayIndexOutOfBoundsException which could be easily confused with
 	a false positive caused by Entry schema changes.
 	
-2004<sub>~09</sub>~09  Dan Creswell <dan@dancres.org>
+2004-09-09  Dan Creswell <dan@dancres.org>
 
 	* Fix silly incorrect optimization that breaks matching.
 
 	* Released 0.94
 	
-2004<sub>~08</sub>~22  Dan Creswell <dan@dancres.org>
+2004-08-22  Dan Creswell <dan@dancres.org>
 
 	* Added HostStat
 
@@ -983,7 +983,7 @@
 
 	* Released 0.93
 	
-2004<sub>~08</sub>~21  Dan Creswell <dan@dancres.org>
+2004-08-21  Dan Creswell <dan@dancres.org>
 
 	* Tweaked SleeveCache to not bother searching if no entry's are
 	present rather than hit cache and then EntryStorage
@@ -995,11 +995,11 @@
 	* Added a snapshot test (from the JSIP package - thanks to Phil and
 	Nige)
 	
-2004<sub>~08</sub>~06  Dan Creswell <dan@dancres.org>
+2004-08-06  Dan Creswell <dan@dancres.org>
 
 	* SpaceImpl::write was holding txn open way longer than it needs to.
 	
-2004<sub>~08</sub>~05  Dan Creswell <dan@dancres.org>
+2004-08-05  Dan Creswell <dan@dancres.org>
 
 	* Added throttling support on event and task queues to prevent
 	high-load from causing runaway heap consumption problems.  Configured
@@ -1010,35 +1010,35 @@
 	and matching/dispatching as remote events.  Configured via
 	maxEventProcessors
 	
-2004<sub>~08</sub>~03  Dan Creswell <dan@dancres.org>
+2004-08-03  Dan Creswell <dan@dancres.org>
 
 	* Make sure we close ObjectStreams used during (un)mangling.
 	This is for tidyness/robustness - doesn't seem to cause a memory leak.
 	
-2004<sub>~08</sub>~02  Dan Creswell <dan@dancres.org>
+2004-08-02  Dan Creswell <dan@dancres.org>
 
 	* Remove need for initialAttrs to be specified.
 
 	* Released 0.92
 	
-2004<sub>~07</sub>~31  Dan Creswell <dan@dancres.org>
+2004-07-31  Dan Creswell <dan@dancres.org>
 
 	* Added EntrySizer utility to class to assist in storage/memory
 	usage estimation.
 	
-2004<sub>~07</sub>~29  Dan Creswell <dan@dancres.org>
+2004-07-29  Dan Creswell <dan@dancres.org>
 
 	* Fix build/release to include currently linked je.jar
 
 	* Released 0.91
 	
-2004<sub>~07</sub>~26  Dan Creswell <dan@dancres.org>
+2004-07-26  Dan Creswell <dan@dancres.org>
 
 	* Merged ServiceUI support for dashboard
 
 	* Released 0.90
 	
-2004<sub>~07</sub>~16  Dan Creswell <dan@dancres.org>
+2004-07-16  Dan Creswell <dan@dancres.org>
 	
 	* Revised LockMgr to use a reference queue against a standard
 	HashMap rather than SoftHashMap which is less efficient.
@@ -1046,28 +1046,28 @@
 	* Merged a patch from Sleepycat to fix an errant
 	LogFileNotFoundException
 	
-2004<sub>~07</sub>~15  Dan Creswell <dan@dancres.org>
+2004-07-15  Dan Creswell <dan@dancres.org>
 
 	* Turn off lock timeouts which seem to be breaking things
 	under load
 	
-2004<sub>~07</sub>~12  Dan Creswell <dan@dancres.org>
+2004-07-12  Dan Creswell <dan@dancres.org>
 
 	* Make sure we sync on closing a log file
 	
 	* Released 0.89a
 
-2004<sub>~07</sub>~09  Dan Creswell <dan@dancres.org>
+2004-07-09  Dan Creswell <dan@dancres.org>
 
 	* Don't use DelegatingBufferStream2 until it handles oversized
 	writes correctly
 	
-2004<sub>~07</sub>~05  Dan Creswell <dan@dancres.org>
+2004-07-05  Dan Creswell <dan@dancres.org>
 
 	* Fixed up some disk initialization order issues when transient
 	personality is active.
 	
-2004<sub>~06</sub>~28  Dan Creswell <dan@dancres.org>
+2004-06-28  Dan Creswell <dan@dancres.org>
 
 	* Fixed a build problem (really include je 1.5.0)
 
@@ -1076,7 +1076,7 @@
 	* Added StartFromConfig to the dash package to permit use of
 	dashboard in secure configurations etc.
 	
-2004<sub>~06</sub>~27  Dan Creswell <dan@dancres.org>
+2004-06-27  Dan Creswell <dan@dancres.org>
 
 	* Fixed a locking problem in the txn lock manager
 
@@ -1084,13 +1084,13 @@
 
 	* Released 0.88
 	
-2004<sub>~06</sub>~23  Dan Creswell <dan@dancres.org>
+2004-06-23  Dan Creswell <dan@dancres.org>
 
 	* Make SearchVisitorImpl cleanup it's txn listener
 
 	* Released 0.87
 	
-2004<sub>~06</sub>~22  Dan Creswell <dan@dancres.org>
+2004-06-22  Dan Creswell <dan@dancres.org>
 
 	* Fixed several try/catch and lock blocks in TxnState
 
@@ -1104,7 +1104,7 @@
 
 	* Released 0.86
 	
-2004<sub>~06</sub>~21  Dan Creswell <dan@dancres.org>
+2004-06-21  Dan Creswell <dan@dancres.org>
 
 	* Added experimental hot backup support accessible via BlitzAdmin
 
@@ -1118,30 +1118,30 @@
 
 	* Upgrade to Db/Java 1.5.0
 	
-2004<sub>~06</sub>~18  Dan Creswell <dan@dancres.org>
+2004-06-18  Dan Creswell <dan@dancres.org>
 
 	* Revised checkpointing to block logging for less time.
 	
-2004<sub>~06</sub>~15  Dan Creswell <dan@dancres.org>
+2004-06-15  Dan Creswell <dan@dancres.org>
 
 	* Make Blitz lock it's storage location to prevent running two
 	instances against the same storage risking corruption.
 
-2004<sub>~06</sub>~14  Dan Creswell <dan@dancres.org>
+2004-06-14  Dan Creswell <dan@dancres.org>
 
 	* Added support for an identity transaction which allows for
 	transaction like operations but with no logging.
 	
-2004<sub>~06</sub>~11  Dan Creswell <dan@dancres.org>
+2004-06-11  Dan Creswell <dan@dancres.org>
 
 	* Fixed a bug where we might join() before fully init'd
 	
-2004<sub>~06</sub>~10  Dan Creswell <dan@dancres.org>
+2004-06-10  Dan Creswell <dan@dancres.org>
 
 	* Made it possible to have several LeaseReaper's active, each with
 	their own set of Reapables and with their own sets of filters.
 	
-2004<sub>~06</sub>~04  Dan Creswell <dan@dancres.org>
+2004-06-04  Dan Creswell <dan@dancres.org>
 
 	* Fixed a problem with batch lease renewals
 		
@@ -1151,7 +1151,7 @@
 		
 	* Released V0.85
 		
-2004<sub>~06</sub>~01  Dan Creswell <dan@dancres.org>
+2004-06-01  Dan Creswell <dan@dancres.org>
 
 	* Updated Db/Java to 1.4.10
 
@@ -1165,7 +1165,7 @@
 
 	* Released V0.84
 	
-2004<sub>~05</sub>~25  Dan Creswell <dan@dancres.org>
+2004-05-25  Dan Creswell <dan@dancres.org>
 
         * Changed CacheLines to use IntHashMap for hashcode to Entry UID
         matching
@@ -1177,7 +1177,7 @@
         * Added a new experimental concurrent batcher and marked the old
         version stable
 
-2004<sub>~05</sub>~19  Dan Creswell <dan@dancres.org>
+2004-05-19  Dan Creswell <dan@dancres.org>
 
 	* Make sure we close the server socket on debugger exit
 	
@@ -1193,14 +1193,14 @@
 
 	* Released V0.82
 	
-2004<sub>~05</sub>~17  Dan Creswell <dan@dancres.org>
+2004-05-17  Dan Creswell <dan@dancres.org>
 
 	* Fixed hierarchical matching bug triggered by having no enclosing
 	active transaction.
 
 	* Released V0.81
 	
-2004<sub>~05</sub>~16  Dan Creswell <dan@dancres.org>
+2004-05-16  Dan Creswell <dan@dancres.org>
 
 	* Initial fork/port to Db Java
 
@@ -1208,19 +1208,19 @@
 	
 	* Released V0.8
 	
-2004<sub>~05</sub>~02  Dan Creswell <dan@dancres.org>
+2004-05-02  Dan Creswell <dan@dancres.org>
 
 	* Released V2.0.5
 	
 	* Modified SyncAndShutdown to accept spacename or lus host and
 	spacename as parameters
 	
-2004<sub>~04</sub>~30  Dan Creswell <dan@dancres.org>
+2004-04-30  Dan Creswell <dan@dancres.org>
 
 	* Merged Ussama Baggili's changes to allow dashboard to discover a
 	blitz instance via unicast or multicast discovery.
 	
-2004<sub>~04</sub>~29  Dan Creswell <dan@dancres.org>
+2004-04-29  Dan Creswell <dan@dancres.org>
 	
 	* TxnLock stuff moved to txnlock package
 	
@@ -1239,48 +1239,48 @@
 
 	* Updated dashboard to display additional blocking stats
 	
-2004<sub>~04</sub>~28  Dan Creswell <dan@dancres.org>
+2004-04-28  Dan Creswell <dan@dancres.org>
 
 	* Fixed a NullPointerException problem in Disk.deleteFiles
 
 	* Added caches for parents and fields to EntryMangler to accelerate
 	mangling and unmangling
 	
-2004<sub>~04</sub>~27  Dan Creswell <dan@dancres.org>
+2004-04-27  Dan Creswell <dan@dancres.org>
 
 	* Added some caching of marshalled txn mgrs to remove repeated
 	conversion into MarshalledObjects.
 	
-2004<sub>~04</sub>~26  Dan Creswell <dan@dancres.org>
+2004-04-26  Dan Creswell <dan@dancres.org>
 
 	* Released V2.0.4
 	
-2004<sub>~04</sub>~22  Dan Creswell <dan@dancres.org>
+2004-04-22  Dan Creswell <dan@dancres.org>
 
 	* Fixed race condition where client's could be performing transactional
 	operations before join was complete.
 	
-2004<sub>~04</sub>~13  Dan Creswell <dan@dancres.org>
+2004-04-13  Dan Creswell <dan@dancres.org>
 
-	* Added an experimental solution to keep stats up<sub>~to</sub>~date in the face
+	* Added an experimental solution to keep stats up-to-date in the face
 	of lease expiry - still not 100% timely
 	
-2004<sub>~04</sub>~08  Dan Creswell <dan@dancres.org>
+2004-04-08  Dan Creswell <dan@dancres.org>
 
 	* Tweaked the hash-code algorithm for UIDImpl to reduce collisions
 	
-2004<sub>~04</sub>~06  Dan Creswell <dan@dancres.org>
+2004-04-06  Dan Creswell <dan@dancres.org>
 
 	* Modified DumpEntries to compute how many entries were ignored due
 	to their lease being expired
 	
-2004<sub>~04</sub>~04  Dan Creswell <dan@dancres.org>
+2004-04-04  Dan Creswell <dan@dancres.org>
 
 	* Released V2.0.3
 	
 	* Fix stupid bug in Null txn initializer
 	
-2004<sub>~04</sub>~02  Dan Creswell <dan@dancres.org>
+2004-04-02  Dan Creswell <dan@dancres.org>
 
 	* Released V2.0.2
 	
@@ -1289,11 +1289,11 @@
 
 	* Merged dashboard source code from Inca X
 
-2004<sub>~04</sub>~01  Dan Creswell <dan@dancres.org>
+2004-04-01  Dan Creswell <dan@dancres.org>
 
 	* Added SyncAndShutdown and DumpEntries tools
 	
-2004<sub>~03</sub>~30  Dan Creswell <dan@dancres.org>
+2004-03-30  Dan Creswell <dan@dancres.org>
 
 	* Blitz shouldn't bother saving local transaction manager in log
 	records
@@ -1303,11 +1303,11 @@
 	* Modified cache usage to allow for aging of entry's that are about
 	to be taken
 	
-2004<sub>~03</sub>~29  Dan Creswell <dan@dancres.org>
+2004-03-29  Dan Creswell <dan@dancres.org>
 
 	* Fixed lease expiry initialization bug in write() and notify()
 	
-2004<sub>~03</sub>~26  Dan Creswell <dan@dancres.org>
+2004-03-26  Dan Creswell <dan@dancres.org>
 
 	* Fixed a bug in the CacheLine hint handling code where it assumed
 	that the UID to be demoted would always be in the cache at the
@@ -1315,7 +1315,7 @@
 	
 	* Revised admin documentation to cover shutdown/destroy configuration
 		
-2004<sub>~03</sub>~24  Dan Creswell <dan@dancres.org>
+2004-03-24  Dan Creswell <dan@dancres.org>
 
 	* Added configuration variable (compliantDestroy) to enable/disable
 	erasing of state when destroy is invoked (after discussion with
@@ -1324,7 +1324,7 @@
 	* Added a shutdown method which can be used to stop Blitz without
 	erasing state regardless of the compliantDestroy variable's state
 	
-2004<sub>~03</sub>~23  Dan Creswell <dan@dancres.org>
+2004-03-23  Dan Creswell <dan@dancres.org>
 
 	* Fixed Blitz to load join management aspects from config file if
 	the user defines it
@@ -1332,18 +1332,18 @@
 	* Added rule (jars) to build.xml for compiling and building just
 	the .jars with no generation of javadoc etc
 	
-2004<sub>~03</sub>~21  Dan Creswell <dan@dancres.org>
+2004-03-21  Dan Creswell <dan@dancres.org>
 
 	* Improved performance of snapshot
 
 	* Fixed several performance "dark-corners" in CacheIndexer
 	
-2004<sub>~03</sub>~15  Dan Creswell <dan@dancres.org>
+2004-03-15  Dan Creswell <dan@dancres.org>
 
 	* Fixed a bug where non-critical WriteDaemon threads were not being
 	shutdown cleanly causing Blitz to sometimes fail to exit immediately
 	
-2004<sub>~03</sub>~14  Dan Creswell <dan@dancres.org>
+2004-03-14  Dan Creswell <dan@dancres.org>
 
 	* Cleaned up stats handling in entry package.  Moved stats updates
 	into OpInfo instances.  Split accounting/stats generation into
@@ -1357,7 +1357,7 @@
 
 	* Documentation updated to reflect new stats
 	
-2004<sub>~03</sub>~13  Dan Creswell <dan@dancres.org>
+2004-03-13  Dan Creswell <dan@dancres.org>
 
 	* Modified ConfigAssistant to print a general note about configuring
 	persistent directories in addition to the OS-specific instructions.
@@ -1369,7 +1369,7 @@
 	* Reworked stats package separating out the stats generation/creation
 	role from the stats presentation role
 
-2004<sub>~03</sub>~11  Dan Creswell <dan@dancres.org>
+2004-03-11  Dan Creswell <dan@dancres.org>
 	
 	* Fixed a bug in Blitz's prepareAndCommit implementation where
 	the wrong state could be returned
@@ -1377,7 +1377,7 @@
 	* Fixed a bug where TransientPersonality might delete currently active
 	files leaving to bad shutdown
 	
-2004<sub>~03</sub>~03  Dan Creswell <dan@dancres.org>
+2004-03-03  Dan Creswell <dan@dancres.org>
 
 	* Released V2.0.1
 	
@@ -1394,19 +1394,19 @@
 
 	* Added pdf file explaining how to use Blitz in embedded mode
 	
-2004<sub>~02</sub>~24  Dan Creswell <dan@dancres.org>
+2004-02-24  Dan Creswell <dan@dancres.org>
 
 	* Added BlitzAdmin interface
 
 	* Added ability to trigger checkpoint remotely via BlitzAdmin
 	
-2004<sub>~02</sub>~19  Dan Creswell <dan@dancres.org>
+2004-02-19  Dan Creswell <dan@dancres.org>
 
 	* Fixed Blitz to invoke ActivationGroup::inactive() during destroy()
 	to ensure garbage collection is performed and classloaders are
 	dumped
 	
-2004<sub>~02</sub>~04  Dan Creswell <dan@dancres.org>
+2004-02-04  Dan Creswell <dan@dancres.org>
 
 	* Released V2.0.0
 	
@@ -1419,7 +1419,7 @@
 
 	* Updated tuning guide, install notes etc
 	
-2004<sub>~02</sub>~03  Dan Creswell <dan@dancres.org>
+2004-02-03  Dan Creswell <dan@dancres.org>
 
 	* Introduced BootContext which allows components to be aware of various
 	bits of boot-time information for purposes of recovery etc
@@ -1435,7 +1435,7 @@
 	* Added rules to allow building/release of binaries for Db4.1 and
 	Db4.2
 	
-2004<sub>~02</sub>~02  Dan Creswell <dan@dancres.org>
+2004-02-02  Dan Creswell <dan@dancres.org>
 
 	* Implemented BufferingPrevaylerImpl
 
@@ -1445,7 +1445,7 @@
 	* Implemented automatic log cleanup.  Experimental for now so it can
 	be configured off through the appropriate StorageModel's
 	
-2004<sub>~01</sub>~28  Dan Creswell <dan@dancres.org>
+2004-01-28  Dan Creswell <dan@dancres.org>
 
 	* Separated the checkpointing code out of TxnManager and made it
 	abstract to allow easier changes in policy
@@ -1462,7 +1462,7 @@
 	* Create Transient storage model which makes Blitz act like a
 	disk-backed cache
 	
-2004<sub>~01</sub>~24  Dan Creswell <dan@dancres.org>
+2004-01-24  Dan Creswell <dan@dancres.org>
 
 	* Added DebugILFactory which allows a programmer to insert a custom
 	invocation layer into Blitz's endpoint stack
@@ -1471,7 +1471,7 @@
 	call to console and can be configured into the remote stack via
 	DebugILFactory
 	
-2004<sub>~01</sub>~22  Dan Creswell <dan@dancres.org>
+2004-01-22  Dan Creswell <dan@dancres.org>
 
 	* Added experimental support for concurrent log write batching where
 	one batch can be written to disk whilst another is forming
@@ -1480,7 +1480,7 @@
 	to be rendered into a buffer and block written to disk for better
 	throughput
 	
-2004<sub>~01</sub>~20  Dan Creswell <dan@dancres.org>
+2004-01-20  Dan Creswell <dan@dancres.org>
 
 	* Released V1.1.4
 	
@@ -1494,18 +1494,18 @@
 	* Fixed a checkpoint bug which sometimes resulted in a lost entry.
 	SyncFinalizer now invokes txn_checkpoint with Db.DB_FORCE
 	
-2004<sub>~01</sub>~20  Dan Creswell <dan@dancres.org>
+2004-01-20  Dan Creswell <dan@dancres.org>
 
 	* Added integrity checking
 
 	* Added logging for LoginContext.login() failures
 	
-2004<sub>~01</sub>~15  Dan Creswell <dan@dancres.org>
+2004-01-15  Dan Creswell <dan@dancres.org>
 
 	* Tweaked code to compile under JDK 1.5 - includes some code in
 	Debugger to perform programmatical stack dumps
 
-2004<sub>~01</sub>~13  Dan Creswell <dan@dancres.org>
+2004-01-13  Dan Creswell <dan@dancres.org>
 
 	* Released V1.1.3
 	
@@ -1517,7 +1517,7 @@
 	ConsoleHandler which fixes a problem with losing logging messages with
 	a level less than INFO
 	
-2004<sub>~01</sub>~12  Dan Creswell <dan@dancres.org>
+2004-01-12  Dan Creswell <dan@dancres.org>
 
 	* Moved PINNED EntrySleeve handling into WriteScheduler
 
@@ -1529,7 +1529,7 @@
 	* Rewrote WriteBuffer to better consolidate writes and reduce load
 	on WriteDaemon
 
-2004<sub>~01</sub>~11  Dan Creswell <dan@dancres.org>
+2004-01-11  Dan Creswell <dan@dancres.org>
 
 	* Fixed WriteDaemon to correctly handle a desiredPendingWrites value
 	of 0
@@ -1537,7 +1537,7 @@
 	* Added a MemoryStat to track maximum available and current memory
 	usage
 	
-2004<sub>~01</sub>~08  Dan Creswell <dan@dancres.org>
+2004-01-08  Dan Creswell <dan@dancres.org>
 
 	* Fixed a deadlock by making EntryStorage::load use non-blocking
 	disk transactions
@@ -1551,7 +1551,7 @@
 
 	* Created TxnStress to thrash Blitz.  It worked, found a deadlock! :(
 
-2004<sub>~01</sub>~05  Dan Creswell <dan@dancres.org>
+2004-01-05  Dan Creswell <dan@dancres.org>
 	
 	* Released V1.1.2
 	
@@ -1561,7 +1561,7 @@
 	hit the same page at pretty much the same time and in one particular
 	order
 	
-2004<sub>~01</sub>~04  Dan Creswell <dan@dancres.org>
+2004-01-04  Dan Creswell <dan@dancres.org>
 
 	* Revised lease handling code.  Fixed a bug in the lease bounding
 	for entries where we weren't searching for the correct config value.
@@ -1573,13 +1573,13 @@
 	System.property("path.separator") to be more cross-platform.  Thanks
 	to Olaf Bergner for this suggestion
 	
-2004<sub>~01</sub>~02  Dan Creswell <dan@dancres.org>
+2004-01-02  Dan Creswell <dan@dancres.org>
 
 	* Added a tuning guide
 
 	* Various documentation tweaks
 	
-2003<sub>~12</sub>~17  Dan Creswell <dan@dancres.org>
+2003-12-17  Dan Creswell <dan@dancres.org>
 
 	* Released V1.1.0
 
@@ -1588,7 +1588,7 @@
 	* Notify registration recovery rewritten to allow full recovery from
 	log files alone
 	
-2003<sub>~12</sub>~16  Dan Creswell <dan@dancres.org>
+2003-12-16  Dan Creswell <dan@dancres.org>
 
 	* Released v1.0.2
 
@@ -1596,13 +1596,13 @@
 
 	* Removed excessive log flushing
 
-2003<sub>~12</sub>~15  Dan Creswell <dan@dancres.org>
+2003-12-15  Dan Creswell <dan@dancres.org>
 
 	* Released v1.0.1
 	
 	* Fixed bug in checkpointing where checkpoint record was written before
 	all buffers were flushed
 
-2003<sub>~12</sub>~12  Dan Creswell <dan@dancres.org>
+2003-12-12  Dan Creswell <dan@dancres.org>
 
 	* Released v1.0 - initial code drop

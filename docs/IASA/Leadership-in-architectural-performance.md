@@ -2,7 +2,7 @@
 
 **Leadership in architectual performanse**
 
-Når arkitekten i et prosjekt får mere makt og besluttningsrett fremstår arkitekten i større grad som leder i prosjektet og det stiller nye krav til arkitektens rolle som leder. Den viktigste faktoren da er at arkitekten er klar over sin rolle som leder med de utfordninger og ansvar det medfører. Det er gjennomgående at utviklerne gir til kjenne at de skylder på arkitekten at det i mange prosjekter er et spenningsforhold mellom arkitekten og utviklerteamet. [5 reasons to hate architects and how to fix them](5<sub>~reasons</sub><sub>to</sub><sub>hate</sub><sub>architects</sub><sub>and</sub><sub>how</sub><sub>to</sub>~fix-them.md)
+Når arkitekten i et prosjekt får mere makt og besluttningsrett fremstår arkitekten i større grad som leder i prosjektet og det stiller nye krav til arkitektens rolle som leder. Den viktigste faktoren da er at arkitekten er klar over sin rolle som leder med de utfordninger og ansvar det medfører. Det er gjennomgående at utviklerne gir til kjenne at de skylder på arkitekten at det i mange prosjekter er et spenningsforhold mellom arkitekten og utviklerteamet. [5 reasons to hate architects and how to fix them](5-reasons-to-hate-architects-and-how-to-fix-them.md)
 
 SÅ, Hvorfor er det slikt
 

@@ -4,11 +4,11 @@ Package by layer is widely used in the Java community. Here we have gathered som
 
 #### Why package by feature? 
 
-[How changing Java package names transformed my system architecture](http://johannesbrodwall.com/2012/07/10/how<sub>~changing</sub><sub>java</sub><sub>package</sub><sub>names</sub><sub>transformed</sub><sub>my</sub><sub>system</sub>~architecture/) by Johannes Brodwall
+[How changing Java package names transformed my system architecture](http://johannesbrodwall.com/2012/07/10/how-changing-java-package-names-transformed-my-system-architecture/) by Johannes Brodwall
 
-[Package by feature](http://johannesbrodwall.com/2008/07/29/link<sub>~package</sub>~by-feature/) by Johannes Brodwall
+[Package by feature](http://johannesbrodwall.com/2008/07/29/link-package-by-feature/) by Johannes Brodwall
 
-[Four harmful Java idioms, and how to fix them](http://www.javaworld.com/javaworld/jw<sub>~07</sub><sub>2008/jw</sub><sub>07</sub>~harmful-idioms.html?page=2)
+[Four harmful Java idioms, and how to fix them](http://www.javaworld.com/javaworld/jw-07-2008/jw-07-harmful-idioms.html?page=2)
 
 [Package by feature, not layer](http://www.javapractices.com/topic/TopicAction.do?Id=205)
 
@@ -16,7 +16,7 @@ Package by layer is widely used in the Java community. Here we have gathered som
 
 ###### Relationships between technical layers
 
-Context: Three<sub>~layer</sub><sub>RDBMS</sub><sub>java</sub>~web-application, package by feature 
+Context: Three-layer-RDBMS-java-web-application, package by feature 
 
 - What policies do you follow with regards to what tables data access logic in a feature may use? 
 

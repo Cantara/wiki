@@ -1,3 +1,3 @@
 # The new form elements, attributes and input validation.
 
-{slide<sub>~share:id=5473017|doc=html5</sub><sub>oslo</sub><sub>code</sub><sub>camp</sub><sub>101018051111</sub>~phpapp01|align=center}
+{slide-share:id=5473017|doc=html5-oslo-code-camp-101018051111-phpapp01|align=center}

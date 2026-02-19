@@ -21,19 +21,19 @@ There are dozens of ways to encrypt files and folder on your laptop, so I'll des
 
 ### System disk encryption
 
-I prefer to use system disk encryption instead of encrypting single files, folders or even non<sub>~system partitions. The reason for this is that if you encrypt only selected parts of your file system it is easy to forget some piece of data that should have been encrypted which are not (for instance if your database stores data in /var/lib/ or your text editor auto</sub>~saves files in /tmp). Also, you would like to encrypt your home folder which on Vista cannot (to my knowledge) be a separate partition mounted after login. If your a little paranoid (and you should be) you should go for a encryption scheme that is active before you log in.
+I prefer to use system disk encryption instead of encrypting single files, folders or even non-system partitions. The reason for this is that if you encrypt only selected parts of your file system it is easy to forget some piece of data that should have been encrypted which are not (for instance if your database stores data in /var/lib/ or your text editor auto-saves files in /tmp). Also, you would like to encrypt your home folder which on Vista cannot (to my knowledge) be a separate partition mounted after login. If your a little paranoid (and you should be) you should go for a encryption scheme that is active before you log in.
 
 To fully encrypt a Linux system you need to reinstall the OS. Not because that is strictly necessary, but because there is no script or program that does it automatically and the number of corner cases to handle makes in unsuitable for a simple howto. I only use Debian GNU Linux or Ubuntu. The Debian installer has a separate choice for encrypted root partition using LVM, dm-crypt and LUKS. For Ubuntu there is a similar choice, but only on the alternate install ISO.
 
-For both Debian and Linux installing on an encrypted system disk is very easy. When setting up disks choose "Guided - Use entire disk and setup an encrypted LVM" or follow [this](http://learninginlinux.wordpress.com/2008/04/23/installing<sub>~ubuntu</sub><sub>804</sub><sub>with</sub><sub>full</sub><sub>disk</sub>~encryption/) howto to manually choose the partition to encrypt.
+For both Debian and Linux installing on an encrypted system disk is very easy. When setting up disks choose "Guided - Use entire disk and setup an encrypted LVM" or follow [this](http://learninginlinux.wordpress.com/2008/04/23/installing-ubuntu-804-with-full-disk-encryption/) howto to manually choose the partition to encrypt.
 
-For Windows there is the open<sub>~source project [TrueCrypt](http://www.truecrypt.org/) which allow full disk encryption to be added on a installed system using a custom boot</sub>~loader which mounts the disk before the OS i started. The procedure is pretty straight forward and described in detail on the TrueCrypt web page. Before encrypting the drive the program will force you to burn a bootable CD with the TrueCrypt bootloader and some rescue applications. The system does encrypt the volume live and the operation can be rolled back (at any time) if you suddenly change your mind.
+For Windows there is the open-source project [TrueCrypt](http://www.truecrypt.org/) which allow full disk encryption to be added on a installed system using a custom boot-loader which mounts the disk before the OS i started. The procedure is pretty straight forward and described in detail on the TrueCrypt web page. Before encrypting the drive the program will force you to burn a bootable CD with the TrueCrypt bootloader and some rescue applications. The system does encrypt the volume live and the operation can be rolled back (at any time) if you suddenly change your mind.
 
 ### Disk encryption
 
 For non-system disk encryption all that's needed is an empty partition or disk to put data on. It will be formatted so should be empty or create a backup of the files somewhere else. If the system drive is not encrypted, all work related data should be placed on the encrypted drive. This can however not be enforced for all user files like browser cache and user specific settings, which will be placed in the users home folder. On Linux the actual partition holding the home folders can be encrypted solving this problem.
 
-On Linux: [https://help.ubuntu.com/community/EncryptedFilesystemHowto](https://help.ubuntu.com/community/EncryptedFilesystemHowto) or [http://www.hermann<sub>~uwe.de/blog/howto</sub><sub>disk</sub><sub>encryption</sub><sub>with</sub><sub>dm</sub><sub>crypt</sub><sub>luks</sub><sub>and</sub><sub>debian](http://www.hermann</sub><sub>uwe.de/blog/howto</sub><sub>disk</sub><sub>encryption</sub><sub>with</sub><sub>dm</sub><sub>crypt</sub><sub>luks</sub><sub>and</sub>~debian)
+On Linux: [https://help.ubuntu.com/community/EncryptedFilesystemHowto](https://help.ubuntu.com/community/EncryptedFilesystemHowto) or [http://www.hermann-uwe.de/blog/howto-disk-encryption-with-dm-crypt-luks-and-debian](http://www.hermann-uwe.de/blog/howto-disk-encryption-with-dm-crypt-luks-and-debian)
 
 On Windows: Use TrueCrypt and choose the partition to encrypt.
 
@@ -69,8 +69,8 @@ Well, not really... (TODO)
 
 ## Resources
 
-- (Re)install ubuntu 8.04 with full system disk encryption - [http://learninginlinux.wordpress.com/2008/04/23/installing<sub>~ubuntu</sub><sub>804</sub><sub>with</sub><sub>full</sub><sub>disk</sub><sub>encryption/](http://learninginlinux.wordpress.com/2008/04/23/installing</sub><sub>ubuntu</sub><sub>804</sub><sub>with</sub><sub>full</sub><sub>disk</sub>~encryption/)
+- (Re)install ubuntu 8.04 with full system disk encryption - [http://learninginlinux.wordpress.com/2008/04/23/installing-ubuntu-804-with-full-disk-encryption/](http://learninginlinux.wordpress.com/2008/04/23/installing-ubuntu-804-with-full-disk-encryption/)
 - Dual boot full system disk encryption - [http://ubuntuforums.org/showthread.php?t=761530](http://ubuntuforums.org/showthread.php?t=761530)
-- Back up securely using TrueCrypt - [http://www.truecrypt.org/docs/?s=how<sub>~to</sub><sub>back</sub><sub>up</sub><sub>securely](http://www.truecrypt.org/docs/?s=how</sub><sub>to</sub><sub>back</sub><sub>up</sub>~securely)
+- Back up securely using TrueCrypt - [http://www.truecrypt.org/docs/?s=how-to-back-up-securely](http://www.truecrypt.org/docs/?s=how-to-back-up-securely)
 - Debian full system disk encryption without reinstall (technical) - [http://linuxgazette.net/140/kapil.html](http://linuxgazette.net/140/kapil.html)
 - BackupPC backup utility system [http://backuppc.sourceforge.net/](http://backuppc.sourceforge.net/)

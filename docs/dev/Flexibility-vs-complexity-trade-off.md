@@ -5,4 +5,4 @@ Flexibility is nice when it is needed. Unused flexibility is wasteful and adds c
 **Example**: Coupling to application server. 
 A tight coupling to a heavyweight application server has advantages; can utilize features and functionality only found in this product, less rules and standards to consider since anything supported by the product is allowed. Disadvantages: dependent on the choices the producer make, difficult to integrate with other products, higher learning costs, license costs, etc.  
 
-Follow [The principle of Last Responsible Moment](http://asserttrue.blogspot.com/2009/04/principle<sub>~of</sub><sub>last</sub><sub>responsible</sub>~moment_11.html).
+Follow [The principle of Last Responsible Moment](http://asserttrue.blogspot.com/2009/04/principle-of-last-responsible-moment_11.html).

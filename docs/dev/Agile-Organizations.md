@@ -1,13 +1,13 @@
 # Agile Organizations
 
-Agile organizations measure and reward software development that returns long<sub>~term value and cost</sub>~efficiency.
+Agile organizations measure and reward software development that returns long-term value and cost-efficiency.
 
 ### Good signs
 
 - An infrastructure that doesn't make people shave yaks
 - Software transparency in their infrastructure, like:
     - Wiki
-    - [Enterprise Maven Infrastructure](Enterprise<sub>~Maven</sub>~Infrastructure.md)
+    - [Enterprise Maven Infrastructure](Enterprise-Maven-Infrastructure.md)
     - Code inspection (FishEye)
     - Continous integration
 - Lots of whiteboards around
@@ -36,5 +36,5 @@ Agile organizations measure and reward software development that returns long<su
 
 ### Resources
 
-- [The Secret to Organizational Agility, by Mike Cottmeyer](http://www.leadingagile.com/2008/12/secret<sub>~to</sub>~organizational-agility.html)
-- [Tom Peter's 27 Points to Transform an Organization, by Stephen Seay](http://projectsteps.blogspot.com/2008/12/tom<sub>~peters</sub><sub>27</sub><sub>points</sub>~to-transform.html)
+- [The Secret to Organizational Agility, by Mike Cottmeyer](http://www.leadingagile.com/2008/12/secret-to-organizational-agility.html)
+- [Tom Peter's 27 Points to Transform an Organization, by Stephen Seay](http://projectsteps.blogspot.com/2008/12/tom-peters-27-points-to-transform.html)

@@ -45,7 +45,7 @@ Intermediate
     - Scalable architecture (service oriented, asynchronous coupling between collection and validation+persistence, etc.) 
     - Build stability and traceability with Enterprise Maven Infrastructure 
     - More and better testing with test automation according to _JigZaw - Agile Testing done Right_
-    - Automated deployment using unix<sub>~maven</sub>~plugin and RPM package management system. 
+    - Automated deployment using unix-maven-plugin and RPM package management system. 
 
 - **Experiences**
     - Took a long time and cost a lot (avoid parallel development if possible) 

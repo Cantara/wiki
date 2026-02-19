@@ -13,7 +13,7 @@ Let us start off with picturing some different kind of organizations. They are a
 - Product oriented, divided by customer branch.
 - ....
 
-TODO: Write more on this. Key is that in a good organization, doing good stuff gets rewarded, and doing bad stuff drives for improvement (learning from mistakes). Defining 'good stuff', and 'reward' quickly gets context specific. We want the incomes and expenses which are caused by, or earned by the team to be in the same budget. Think power<sub>~usage, keeping the power</sub>~usage of the system low should come back as value for the team (Green IT ftw). At the same time, we want the rewards of using [Continuous Integration](Continuous-Integration.md) to be greatly outweigh the costs of running the CI server (because bugs are more expensive than power).
+TODO: Write more on this. Key is that in a good organization, doing good stuff gets rewarded, and doing bad stuff drives for improvement (learning from mistakes). Defining 'good stuff', and 'reward' quickly gets context specific. We want the incomes and expenses which are caused by, or earned by the team to be in the same budget. Think power-usage, keeping the power-usage of the system low should come back as value for the team (Green IT ftw). At the same time, we want the rewards of using [Continuous Integration](Continuous-Integration.md) to be greatly outweigh the costs of running the CI server (because bugs are more expensive than power).
 
 ### Is Which are the better kind of organization for an agile team?
 
@@ -24,7 +24,7 @@ Agile teams want stability in size and velocity. Is this possible in project mod
 A project has a deadline. The team (which was just about to become really efficient) is dissolved. The product gets "done". But SW is always developed and changed. The demand for resources will perhaps never be zero.
 
 - http://www.javaworld.com/community/node/874
-- http://tfnico.blogspot.com/2008/12/projects<sub>~are</sub><sub>bad</sub><sub>for</sub>~software.html
+- http://tfnico.blogspot.com/2008/12/projects-are-bad-for-software.html
 
 ### Resources
 
@@ -32,5 +32,5 @@ A project has a deadline. The team (which was just about to become really effici
 
 ### See also
 
-- [Project Model and Contracts](Project<sub>~Model</sub>~and-Contracts.md)
+- [Project Model and Contracts](Project-Model-and-Contracts.md)
 - [Risk Management](Risk-Management.md)

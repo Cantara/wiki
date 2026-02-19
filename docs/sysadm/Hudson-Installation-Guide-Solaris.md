@@ -1,9 +1,9 @@
 # Hudson Installation Guide - Solaris
 
-This guide explains how to install Hudson on Solaris 10 and integrate with SMF. This setup is based on [Paul Oswald's article](http://pauloswald.com/blog/article/29/hudson<sub>~solaris</sub><sub>smf</sub><sub>manifest) and use the built</sub>~in [Winstone servlet container](http://winstone.sourceforge.net/). 
+This guide explains how to install Hudson on Solaris 10 and integrate with SMF. This setup is based on [Paul Oswald's article](http://pauloswald.com/blog/article/29/hudson-solaris-smf-manifest) and use the built-in [Winstone servlet container](http://winstone.sourceforge.net/). 
 
 #### Install 
-- Create a [new zone](New<sub>~zone</sub>~procedure.md)
+- Create a [new zone](New-zone-procedure.md)
 - Add user 
 ```
 export username=hudson
@@ -19,7 +19,7 @@ chown -R hudson:other /local/app/hudson
 ```
 
 - Set up SMF 
-Example manifest: [hudson<sub>~smf.xml](hudson</sub>~smf-xml.md)
+Example manifest: [hudson-smf.xml](hudson-smf-xml.md)
 ```
 vim /var/svc/manifest/application/hudson-smf.xml
 svccfg -v validate /var/svc/manifest/application/hudson-smf.xml
@@ -47,4 +47,4 @@ See [Solaris Service Management Facility](http://www.sun.com/bigadmin/content/se
 #### Docs 
 
 [hudson.dev.java.net](https://hudson.dev.java.net/)
-[Hudson Solaris SMF Manifest](http://pauloswald.com/blog/article/29/hudson<sub>~solaris</sub>~smf-manifest)
+[Hudson Solaris SMF Manifest](http://pauloswald.com/blog/article/29/hudson-solaris-smf-manifest)

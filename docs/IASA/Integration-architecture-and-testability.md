@@ -8,7 +8,7 @@
 
 - Integration with custom hardware - testability must be built-into the architecture 
 
-- Integration with services which cannot easily be managed (e.g. [dev:Control state](../dev/Control<sub>~state.md)) - testability must be built</sub>~into the architecture 
+- Integration with services which cannot easily be managed (e.g. [dev:Control state](../dev/Control-state.md)) - testability must be built-into the architecture 
 
 - Application containers - poor testability with most implementations 
 

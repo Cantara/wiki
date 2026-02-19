@@ -9,8 +9,8 @@ No system or context is identical, but there are many decisions to make and expe
 
 ###### Requirements, principles and decisions 
 
-- [Security requirements for distributed systems](Security<sub>~requirements</sub><sub>for</sub><sub>distributed</sub>~systems.md)
-- [Scalability and HA requirements for distributed systems](Scalability<sub>~and</sub><sub>HA</sub><sub>requirements</sub><sub>for</sub><sub>distributed</sub>~systems.md)
+- [Security requirements for distributed systems](Security-requirements-for-distributed-systems.md)
+- [Scalability and HA requirements for distributed systems](Scalability-and-HA-requirements-for-distributed-systems.md)
 
 ###### Architecture sketch 
 

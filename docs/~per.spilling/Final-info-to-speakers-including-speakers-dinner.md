@@ -13,7 +13,7 @@ As previously communicated, our traditional event - Speaker's Dinner - will this
 
 For those interested, we will meet up outside main entrance of the JavaZone conference venue, Oslo Spektrum Arena, at 1800h for a quick tour, before we head over to the restaurant. Oslo Spektrum lies parallel to Radisson SAS Plaza Hotel and just walking distance from Oslo Central Train Station.
 
-**NB** RSVP: http://www.questback.com/isa/qbv.dll/SQ?id=1156144<sub>~64011445</sub>~ZzFsLjvW Please answer this to let us know if you will attend and if you have any special needs (allergies, vegetarian, etc)
+**NB** RSVP: http://www.questback.com/isa/qbv.dll/SQ?id=1156144-64011445-ZzFsLjvW Please answer this to let us know if you will attend and if you have any special needs (allergies, vegetarian, etc)
 
 Meetup point: http://www4.java.no/web/files/JavaZone/2008/conference_venue_facade.jpg
 

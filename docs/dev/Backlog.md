@@ -7,7 +7,7 @@ The backlog should be a pretty familiar concept to most agile practioneers. Alth
 ### Typical traits of the backlog
 
 - Each item on the backlog is expressed in a [user story](User-Stories.md), or other simple requirement terms.
-- The order of priority are the items are top<sub>~first, bottom</sub>~last.
+- The order of priority are the items are top-first, bottom-last.
 - Priority is maintained by the Product Owner. Sometimes also **business points** are set on each task.
 - **The team** is responsible for estimating each item's complexity (not using hours, but [Gummy Bears](Gummy-Bears.md)).
 - Each item consists of several **tasks** that can have an attribute of "hours remaining". This if for producing the burndown-chart.
@@ -25,4 +25,4 @@ The backlog should be a pretty familiar concept to most agile practioneers. Alth
 
 - [Learning Scrum - The Product Backlog](http://www.mountaingoatsoftware.com/scrum/product-backlog)
 - [Scrum](Scrum.md) - Scrum for beginners presentation
-- http://www.infoq.com/presentations/prioritizing<sub>~your</sub><sub>product</sub><sub>backlog</sub>~mike-cohn
+- http://www.infoq.com/presentations/prioritizing-your-product-backlog-mike-cohn

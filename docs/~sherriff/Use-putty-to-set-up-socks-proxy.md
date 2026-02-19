@@ -19,7 +19,7 @@
   11. Click the 'OK' button on the previous window.
   12. In the browser location bar (the place where you type web addresses), type about:config and press Enter. This opens a different set of Firefox preferences.
   13. Where it says 'Filter:' at the top, type network.proxy.socks. The list of preferences will automatically change to show your proxy preferences.
-  14. Highlight 'network.proxy.socks_remote_dns' by clicking it only once. Then, right<sub>~click it. This opens a small pull</sub>~down menu. Select 'Toggle' from the menu to change its value to 'true'. This adds privacy by preventing DNS queries from leaking. This is the reason why Firefox is recommended over other browsers for using this service.
+  14. Highlight 'network.proxy.socks_remote_dns' by clicking it only once. Then, right-click it. This opens a small pull-down menu. Select 'Toggle' from the menu to change its value to 'true'. This adds privacy by preventing DNS queries from leaking. This is the reason why Firefox is recommended over other browsers for using this service.
   15. Close Firefox and restart it.
   16. Go to a site like cmyip.com to check and make sure your IP address shows up as the proxy address and not your real IP. 
 

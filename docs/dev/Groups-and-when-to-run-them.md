@@ -29,9 +29,9 @@ There are two main factors that dictate _when_ a certain group of tests should b
 
 | 1 - **before check-in** to the Version Control System (VCS)
 
-and is the responsibility of the developer. Since we require that developers run this set of test before every commit, it is important that this build is fast. The [One Minute Build](http://jupitermoonbeam.blogspot.com/2008/01/one<sub>~minute</sub>~build.html) might be a bit too extreme, but to our experience, the [ten minute build](http://martinfowler.com/articles/continuousIntegration.html#KeepTheBuildFast) suggested by Martin Fowler is too long. If the build is too slow, developers will either skip the tests or check-in code less often. 
+and is the responsibility of the developer. Since we require that developers run this set of test before every commit, it is important that this build is fast. The [One Minute Build](http://jupitermoonbeam.blogspot.com/2008/01/one-minute-build.html) might be a bit too extreme, but to our experience, the [ten minute build](http://martinfowler.com/articles/continuousIntegration.html#KeepTheBuildFast) suggested by Martin Fowler is too long. If the build is too slow, developers will either skip the tests or check-in code less often. 
 
-After check<sub>~in, the CI server takes over. Upon check</sub>~in, or every 5 or 10 minutes, the CI server should run the tests of phase 1. This ensures that the developer gets fast feedback to his commit. The main purpose of this build definition is to quickly detect compilation and test errors caused by differences in the developer's environment and the CI server's environment. (This is one of the reasons why the CI server(s) should have the same operating system(s), Java version, etc. as the production system.) 
+After check-in, the CI server takes over. Upon check-in, or every 5 or 10 minutes, the CI server should run the tests of phase 1. This ensures that the developer gets fast feedback to his commit. The main purpose of this build definition is to quickly detect compilation and test errors caused by differences in the developer's environment and the CI server's environment. (This is one of the reasons why the CI server(s) should have the same operating system(s), Java version, etc. as the production system.) 
 
 In addition, we have identified the following phases: 
 |2 - Multiple times a day (e.g. hourly or every second hour) 
@@ -41,11 +41,11 @@ In addition, we have identified the following phases:
 
 All unit tests, and service tests that are not extremely slow, should be run in phase 2. This ensures that developers get continuous feedback on the state of the code in a known and verified environment. The environment of the CI server _**defines**_ whether a commit is good or not. 
 
-Phase 3<sub>~5 should run tests that are too slow to run multiple times a day. Introduce this separation only if necessary. Typical tasks suited for phase 3</sub>~5 are 
+Phase 3-5 should run tests that are too slow to run multiple times a day. Introduce this separation only if necessary. Typical tasks suited for phase 3-5 are 
 - deployment to a test environment to allow the customer to check the system
 - deployment of nightly snapshots to facilitate beta-testing 
 - deployment of technical documentation 
-Phase 3<sub>~5 is also suitable for black</sub>~box system testing and for creating reports and release candidates for management and manual Quality Assurance (QA). 
+Phase 3-5 is also suitable for black-box system testing and for creating reports and release candidates for management and manual Quality Assurance (QA). 
 
 > 💡 Differentiate between systems that are within the BOUNDED CONTEXT and systems that are outside. Those within need to be integrated much more often than those outside, because those within affect the model and the ubiquitous language. See page 343 in Eric Evans' Domain-Driven Design for details on this concept. 
 

@@ -75,7 +75,7 @@ Response:
 </governanceLogEntry>
 ```
 
-###### <sub>~OUTSIDE this MODULE</sub>~ 
+###### ~~OUTSIDE this MODULE~~ 
 ```lang
 <totalScoreEntry>  
   <userId/>

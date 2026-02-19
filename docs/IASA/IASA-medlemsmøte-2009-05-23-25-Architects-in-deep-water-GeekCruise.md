@@ -2,4 +2,4 @@
 
 Medlemsmøtet ble i mai erstattet av en workshop på Kiel-fergen. 
 
-Se [Workshop Architects in deep water... (Geek Cruise) i Mai](Workshop<sub>~Architects</sub><sub>in</sub><sub>deep</sub><sub>water</sub><sub>Geek</sub><sub>Cruise</sub><sub>i</sub>~Mai.md).
+Se [Workshop Architects in deep water... (Geek Cruise) i Mai](Workshop-Architects-in-deep-water-Geek-Cruise-i-Mai.md).

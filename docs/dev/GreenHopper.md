@@ -3,7 +3,7 @@
 - The [GreenHopper plugin](http://www.atlassian.com/software/greenhopper/overview) may be useful for sprint follow-up, planning and reporting. Note that while Jira + GreenHopper is a better match for agile development than Jira alone, it is not a perfect fit. 
 
 - TODO: Investigate GreenHopper support for release (not sprint) burn down charts 
-    - [Release Burndown Charts - Agile Scrum Release](http://www.mountaingoatsoftware.com/scrum/release<sub>~burndown) and [Alternative Scrum Release Burndown Chart](http://www.mountaingoatsoftware.com/scrum/alt</sub>~releaseburndown)
+    - [Release Burndown Charts - Agile Scrum Release](http://www.mountaingoatsoftware.com/scrum/release-burndown) and [Alternative Scrum Release Burndown Chart](http://www.mountaingoatsoftware.com/scrum/alt-releaseburndown)
 
 - The [Planning Board](http://confluence.atlassian.com/display/GH/Using+the+Planning+Board) helps you schedule many issues over an entire release cycle. 
 
@@ -20,4 +20,4 @@
     - Issue filtering
     - Configurable start date and end date
 
-Src: [Using JIRA in an agile environment](http://metalelf0dev.blogspot.com/2008/09/using<sub>~jira</sub><sub>in</sub><sub>agile</sub>~environment.html)
+Src: [Using JIRA in an agile environment](http://metalelf0dev.blogspot.com/2008/09/using-jira-in-agile-environment.html)

@@ -1,12 +1,12 @@
 # Request and plot the positions into the current map view every 10 second
 
-### [Request and plot the positions into the current map view every 10 second](Request<sub>~and</sub><sub>plot</sub><sub>the</sub><sub>positions</sub><sub>into</sub><sub>the</sub><sub>current</sub><sub>map</sub><sub>view</sub><sub>every</sub><sub>10</sub>~second.md)
+### [Request and plot the positions into the current map view every 10 second](Request-and-plot-the-positions-into-the-current-map-view-every-10-second.md)
 
 _ref:_ 
 
-- [Drone radar design](Drone<sub>~radar</sub>~design.md)
-- [Main service layout](Main<sub>~service</sub>~layout.md)
-- [How to test drone on Server Demo - 4.1.2015](How<sub>~to</sub><sub>test</sub><sub>drone</sub><sub>on</sub><sub>Server</sub><sub>Demo</sub><sub>4</sub>~1-2015.md)
+- [Drone radar design](Drone-radar-design.md)
+- [Main service layout](Main-service-layout.md)
+- [How to test drone on Server Demo - 4.1.2015](How-to-test-drone-on-Server-Demo-4-1-2015.md)
 
 ##### Comment leif 2.4.2015
 

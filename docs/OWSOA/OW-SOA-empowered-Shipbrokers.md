@@ -16,4 +16,4 @@ _Here you will get an overview of the service categorization model used in a shi
 - Olle Cappellen Paulson 
 
 ## Presentation
-[OW SOA Empowered Shipbrokers - Norstella SOA4ALL](OW<sub>~SOA</sub><sub>Empowered</sub><sub>Shipbrokers</sub>~pptx.md)
+[OW SOA Empowered Shipbrokers - Norstella SOA4ALL](OW-SOA-Empowered-Shipbrokers-pptx.md)

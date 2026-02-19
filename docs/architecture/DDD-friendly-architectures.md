@@ -4,5 +4,5 @@ Most of the discussion on how to implement DDD implicitly presumes the view of a
 
 Other interesting architectural patterns to look into:
 - [Model-centric architecture](http://spif.sourceforge.net/modelcentric.html)
-- [Composite Oriented Programming](http://www.infoq.com/articles/Composite<sub>~Programming</sub>~Qi4j)
+- [Composite Oriented Programming](http://www.infoq.com/articles/Composite-Programming-Qi4j)
 - [Naked objects](http://www.nakedobjects.org)

@@ -16,7 +16,7 @@ Altran: Leon, Bård og Totto
 
 ---
 
-### Øving 2: Hvordan ser utkast til bottom<sub>~up domenemodel for "evne"</sub>~elementet u
+### Øving 2: Hvordan ser utkast til bottom-up domenemodel for "evne"-elementet u
 
 ---
 Notater fra øvingene m.m.

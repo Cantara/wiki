@@ -1,8 +1,8 @@
 # Show drone identity
 
-### [Show drone identity](Show<sub>~drone</sub>~identity.md)
+### [Show drone identity](Show-drone-identity.md)
 
-_ref:_ [Drone radar design](Drone<sub>~radar</sub>~design.md) 
+_ref:_ [Drone radar design](Drone-radar-design.md) 
 
 ##### Function
 

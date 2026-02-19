@@ -33,4 +33,4 @@ We suggest the name {} for such a function.
 
 Unitils + dbmaintain generally use cleanDataAndHistory, but fail-over to restoreDefaultState when necessary. 
 
-[< Back](JigZaw<sub>~Design</sub><sub>Principles</sub><sub>and</sub><sub>Drivers.md) to Design Principles and Drivers   [Next >](Tools</sub><sub>and</sub>~implementation.md) Tools and implementation
+[< Back](JigZaw-Design-Principles-and-Drivers.md) to Design Principles and Drivers   [Next >](Tools-and-implementation.md) Tools and implementation

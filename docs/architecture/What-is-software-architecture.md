@@ -27,7 +27,7 @@ A good software architecture must ensure that the system is designed in such a w
 - **Supportability** — adaptability, maintainability, internationalization, configurability. 
 
 In addition, there might be requirements such as:
-- **Re<sub>~use</sub>~ability** - whether parts of the system should be designed to be re-used by other applications.
+- **Re-use-ability** - whether parts of the system should be designed to be re-used by other applications.
 - **Operations support** - functionality and qualities that ensure that the application can be managed and monitored satisfactory in its operational setting.
 
 The "goodness" of an architecture should always be measured against the requirements. A simple design with poor scalability qualities might be the correct architecture in one case, and a very wrong architecture in another. 

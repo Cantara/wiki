@@ -1,5 +1,5 @@
 # DevOPS and NoOPS comparision
 
-http://www.infosecisland.com/blogview/20869<sub>~Understanding</sub><sub>DevOps</sub><sub>vs</sub>~NoOps.html
+http://www.infosecisland.com/blogview/20869-Understanding-DevOps-vs-NoOps.html
 
-http://blog.appfog.com/what<sub>~is</sub>~noops-anyhow/
+http://blog.appfog.com/what-is-noops-anyhow/

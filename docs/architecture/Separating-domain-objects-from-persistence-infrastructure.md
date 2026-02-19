@@ -27,6 +27,6 @@ To persist object state using an ORM tool, the tool needs access to the attribut
 <hibernate-mapping default-access="field"/>
 ```
 
-Hibernate does require a null<sub>~constructor for the domain objects it creates. If it doesn't make sense in your domain to have such a constructor, like when a factory or other clients should only use a specific not</sub><sub>null constructor, then declare the null</sub><sub>constructor as private. The clients will not see this "misleading" constructor. Using a Hibernate Interceptor you can code your object initialization yourself. This can be useful in certain situations and the null</sub>~constructor requirement does no longer apply.
+Hibernate does require a null-constructor for the domain objects it creates. If it doesn't make sense in your domain to have such a constructor, like when a factory or other clients should only use a specific not-null constructor, then declare the null-constructor as private. The clients will not see this "misleading" constructor. Using a Hibernate Interceptor you can code your object initialization yourself. This can be useful in certain situations and the null-constructor requirement does no longer apply.
 
 Domain objects created as Spring beans typically have setters for bean references. One way of avoiding this is to use the `@Autowired` annotation on the private field instead. If this is not possible or not desirable for other reasons, you might consider creating an interface for the domain object which is returned to clients. This interface will only contain real business methods.

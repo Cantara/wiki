@@ -30,7 +30,7 @@ Qi4J would've liked mixins to do its features. Really wants methods as literals.
 
 Others do projections of models. Models are DSLs, for instance UML. Antlr. 
 
-Is UML a DSL? Extraction vs projection. We're going into the meta<sub>~discussion, Michael says. You can say UML is a language, and each diagram is an expression of this language.  Explanation on meta</sub>~stuff follows :)
+Is UML a DSL? Extraction vs projection. We're going into the meta-discussion, Michael says. You can say UML is a language, and each diagram is an expression of this language.  Explanation on meta-stuff follows :)
 
 Michael continues into talking about the relational databases.  
 

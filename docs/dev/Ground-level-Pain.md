@@ -53,4 +53,4 @@ Symptomatic for lack of involvment by product owner and for too infrequent relea
 
 #### System architecture
 - early envisioned, designed, and implemented, but at acceptance test revelead as difficult to verify or erroneous.
-This will be the case if a system<sub>~/staging</sub>~test environment is not established early on and exercised through frequent releases.
+This will be the case if a system-/staging-test environment is not established early on and exercised through frequent releases.

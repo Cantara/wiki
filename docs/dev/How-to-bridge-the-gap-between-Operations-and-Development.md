@@ -15,7 +15,7 @@ What problems to we need to address?
 
 ### Which problems are "solved" already (just not well-known)? 
 
-Erik thinks that many of the problems we discussed at Smidig2008 can be solved by atomizing the process of creating deployment artifacts from jar files. E.g. from jar file to RPM as explained in [RPM Deployment with Java Service Wrapper](RPM<sub>~Deployment</sub><sub>with</sub><sub>Java</sub>~Service-Wrapper.md). 
+Erik thinks that many of the problems we discussed at Smidig2008 can be solved by atomizing the process of creating deployment artifacts from jar files. E.g. from jar file to RPM as explained in [RPM Deployment with Java Service Wrapper](RPM-Deployment-with-Java-Service-Wrapper.md). 
 
 ### Brainstorming / "core brain dump" 
 
@@ -29,7 +29,7 @@ The "_solution_" is of course to try to achieve competence overlap. Teach sysadm
 
 ### Resources 
 
-[Installation and Deployment Automation](Installation<sub>~and</sub>~Deployment-Automation.md)
+[Installation and Deployment Automation](Installation-and-Deployment-Automation.md)
 
-[Smidig vs ITIL](http://smidig.no/smidig2008/lyntaler<sub>~p</sub><sub>programmet/smidig</sub><sub>vs</sub>~itil/) 
-[Alle prosjekter trenger en drifter!](http://smidig.no/smidig2008/lyntaler<sub>~p</sub><sub>programmet/alle</sub><sub>prosjekter</sub><sub>trenger</sub><sub>en</sub>~drifter/)
+[Smidig vs ITIL](http://smidig.no/smidig2008/lyntaler-p-programmet/smidig-vs-itil/) 
+[Alle prosjekter trenger en drifter!](http://smidig.no/smidig2008/lyntaler-p-programmet/alle-prosjekter-trenger-en-drifter/)

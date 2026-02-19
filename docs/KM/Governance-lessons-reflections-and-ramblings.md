@@ -3,7 +3,7 @@
 ### Executive summary
 
 Governance has been on top of Gartners Hype-Cycle for some time now, and people still seem very confused on the topic.
-This is why I'll try to explain some of my experiences and thoughts on the subject... ([Why should I care about Governance](Why<sub>~should</sub><sub>I</sub><sub>care</sub>~about-Governance.md))
+This is why I'll try to explain some of my experiences and thoughts on the subject... ([Why should I care about Governance](Why-should-I-care-about-Governance.md))
 
 **Governance 911 - warm-up**
 
@@ -12,7 +12,7 @@ This is why I'll try to explain some of my experiences and thoughts on the subje
 - we need the right size and complexity of our pawns 
 - governance is not a technical challenge, it is mainly people and organization
 
-The main reasons for failure in IT Governance projects can be put into two simple categories: a) [Cover your own ass](Cover<sub>~Your</sub><sub>Ass</sub><sub>Governance.md)  b) The idea of control via processes in IT projects. The first is a well known strategy, while the latter might need som explanation. As most organization processes fail to include "the fourth estate, aka people via media" we usually do not get feedback when the rules fail to meet the expectations of the people. What we see happen then is that the projects in an ever</sub>~increasing degree work against and around the rules resulting in the idea of the rule being in-place/followed when it is actually completely ignored or bypassed.  
+The main reasons for failure in IT Governance projects can be put into two simple categories: a) [Cover your own ass](Cover-Your-Ass-Governance.md)  b) The idea of control via processes in IT projects. The first is a well known strategy, while the latter might need som explanation. As most organization processes fail to include "the fourth estate, aka people via media" we usually do not get feedback when the rules fail to meet the expectations of the people. What we see happen then is that the projects in an ever-increasing degree work against and around the rules resulting in the idea of the rule being in-place/followed when it is actually completely ignored or bypassed.  
 
 **So what does this mean..**
     
@@ -38,8 +38,8 @@ The key point here is to plan for things to fail. This is how you can control th
 ### What to govern
 
 **Bigger pieces is more difficult to handle**
-- [clear and consistent responsibility power all great architectures](../architecture/Clear<sub>~and</sub><sub>consistent</sub><sub>responsibility</sub><sub>power</sub><sub>all</sub>~great-architectures.md)
-- [skyscrapers do not scale](http://97<sub>~things.near</sub><sub>time.net/wiki/talk</sub><sub>about</sub><sub>the</sub><sub>arch</sub><sub>but</sub><sub>see</sub><sub>the</sub><sub>scaffolding</sub>~beneath-it)
+- [clear and consistent responsibility power all great architectures](../architecture/Clear-and-consistent-responsibility-power-all-great-architectures.md)
+- [skyscrapers do not scale](http://97-things.near-time.net/wiki/talk-about-the-arch-but-see-the-scaffolding-beneath-it)
 - smaller pieces are easier extended/exchanged
 
 **Good candidates for governance**
@@ -48,7 +48,7 @@ The key point here is to plan for things to fail. This is how you can control th
     - always measure value/[KPI](KPI.md)/correctness
         - you really, really do not want split ownership?
 - contexts (legal boundaries/dept boundaries/product boundaries/channel boundaries)
-    - [responsible owner is vital](responsible<sub>~owner</sub>~is-vital.md)
+    - [responsible owner is vital](responsible-owner-is-vital.md)
     - keep a sharp eye on the mappings
     - always measure value proposition/[KPI](KPI.md)/correctness
         - is this context creating real value? if not, kill it!
@@ -82,7 +82,7 @@ If technology is vital to your business, so is the decision of the chief archite
 - for every time the chief architect is shortcut, your technical, architectural and training debt doubles..
     - can you afford that?
 
-[a small note on Governance and cost..](a<sub>~small</sub><sub>note</sub><sub>on</sub><sub>Governance</sub><sub>and</sub>~cost.md)
+[a small note on Governance and cost..](a-small-note-on-Governance-and-cost.md)
 
 ### End note
 

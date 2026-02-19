@@ -1,6 +1,6 @@
 # Data Warehouse (DW) and Business Intelligence (BI)
 
-In this context we are defining traditional Business intelligence as [Data Warehouse (DW) and Business Intelligence (BI)](Data<sub>~Warehouse</sub><sub>DW</sub><sub>and</sub><sub>Business</sub><sub>Intelligence</sub><sub>BI.md) to separate this form Business Intelligence referred  to by search platforms  [Data Warehouse (DW) and Business Intelligence (BI)](Data</sub><sub>Warehouse</sub><sub>DW</sub><sub>and</sub><sub>Business</sub><sub>Intelligence</sub>~BI.md) is currently implemented on one of several available platforms present in the marketplace. The field shares principles processes and terms.
+In this context we are defining traditional Business intelligence as [Data Warehouse (DW) and Business Intelligence (BI)](Data-Warehouse-DW-and-Business-Intelligence-BI.md) to separate this form Business Intelligence referred  to by search platforms  [Data Warehouse (DW) and Business Intelligence (BI)](Data-Warehouse-DW-and-Business-Intelligence-BI.md) is currently implemented on one of several available platforms present in the marketplace. The field shares principles processes and terms.
 
 ## Products
 
@@ -15,7 +15,7 @@ In this context we are defining traditional Business intelligence as [Data Wareh
     - TODO: More information needed
 
 ## Forces / Trends
-Direction: Moving towards real<sub>~time operations. Faster and more effective loading of data. Competition from Strategy 2 "Real</sub>~Time Enterprise"
+Direction: Moving towards real-time operations. Faster and more effective loading of data. Competition from Strategy 2 "Real-Time Enterprise"
 
 ## Terms
 

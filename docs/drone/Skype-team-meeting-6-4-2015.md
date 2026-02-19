@@ -1,6 +1,6 @@
 # Skype team meeting 6.4.2015
 
-### [Skype team meeting 6.4.2015](Skype<sub>~team</sub><sub>meeting</sub><sub>6</sub>~4-2015.md)
+### [Skype team meeting 6.4.2015](Skype-team-meeting-6-4-2015.md)
 
 Sprint 1 run for this week. New Sprint 2 on monday
 

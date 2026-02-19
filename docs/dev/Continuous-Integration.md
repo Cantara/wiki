@@ -13,7 +13,7 @@ _Automatic build and integration._
 
 ## Continuous Integration Server Farms (distributing builds)
 
-Building, testing, generating reports is tedious work for the CPU and Memory of a server. Even though it might seem tempting to centralize the configuration of a the CI<sub>~strategy in one CI</sub>~system, this does not scale far beyond a couple of projects. The CI-server will become a bottleneck, and developers will be waiting for hours to get their builds complete.
+Building, testing, generating reports is tedious work for the CPU and Memory of a server. Even though it might seem tempting to centralize the configuration of a the CI-strategy in one CI-system, this does not scale far beyond a couple of projects. The CI-server will become a bottleneck, and developers will be waiting for hours to get their builds complete.
 
 There are two alternative solutions to this:
 
@@ -44,23 +44,23 @@ See also:
 
 ## Internal resources
 
-See also [BCT](../<sub>sherriff/Backward</sub><sub>Compatibility</sub>~Tester-Home.md)
+See also [BCT](../~sherriff/Backward-Compatibility-Tester-Home.md)
 
 ## External resources
 
-[The Hudson Build Farm Experience](http://blogs.sonatype.com/people/2009/01/the<sub>~hudson</sub><sub>build</sub><sub>farm</sub><sub>experience</sub><sub>volume</sub>~i/)
+[The Hudson Build Farm Experience](http://blogs.sonatype.com/people/2009/01/the-hudson-build-farm-experience-volume-i/)
 
-[Olve Maudal on TANDBERG's internal CI processes and "Advanced Feedback<sub>~Driven Development"](http://olvemaudal.wordpress.com/2009/03/26/advanced</sub><sub>feedback</sub><sub>driven</sub>~development/)
+[Olve Maudal on TANDBERG's internal CI processes and "Advanced Feedback-Driven Development"](http://olvemaudal.wordpress.com/2009/03/26/advanced-feedback-driven-development/)
 
 [Martin Fowler's article](http://martinfowler.com/articles/continuousIntegration.html)
 
 [Wikipedia on CI](http://en.wikipedia.org/wiki/Continuous_Integration)
 
-[The One Minute Build](http://jupitermoonbeam.blogspot.com/2008/01/one<sub>~minute</sub>~build.html)
+[The One Minute Build](http://jupitermoonbeam.blogspot.com/2008/01/one-minute-build.html)
 
-[Automation for the people: Continuous Integration anti<sub>~patterns](http://www.ibm.com/developerworks/java/library/j</sub>~ap11297/index.html?S_TACT=105AGX02&S_CMP=ART), By Paul Duvall
+[Automation for the people: Continuous Integration anti-patterns](http://www.ibm.com/developerworks/java/library/j-ap11297/index.html?S_TACT=105AGX02&S_CMP=ART), By Paul Duvall
 
-[Automation for the people: Continuous Integration anti<sub>~patterns, Part 2](http://www.ibm.com/developerworks/java/library/j</sub>~ap03048/index.html?ca=drs-), by Paul Duvall
+[Automation for the people: Continuous Integration anti-patterns, Part 2](http://www.ibm.com/developerworks/java/library/j-ap03048/index.html?ca=drs-), by Paul Duvall
 
 [Continuous Integration: Improving Software Quality and Reducing Risk](http://www.amazon.com/gp/product/0321336380/?tag=integratecom-20), Paul Duvall's book
 

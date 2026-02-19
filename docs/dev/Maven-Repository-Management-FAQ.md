@@ -6,14 +6,14 @@
 
 #### How to use a build artifact repository manager? 
 
-See [Repository Management](http://maven.apache.org/repository<sub>~management.html) for a description of the concept. See also [repository manager](http://www.sonatype.com/book/reference/repository</sub>~manager.html#) (Nexus centric). 
+See [Repository Management](http://maven.apache.org/repository-management.html) for a description of the concept. See also [repository manager](http://www.sonatype.com/book/reference/repository-manager.html#) (Nexus centric). 
 
 The maven repository can **replace** your existing repositories or it can be used in **addition to other repositories**. The first approach is recommended. 
  
 #### One repo to rule them all
 
-It is recommended to mirror the global central repositories. Please see http://maven.apache.org/guides/mini/guide<sub>~mirror</sub>~settings.html for details. This can be achieved with mirrors in settings.xml or by overriding central in the pom and only username and password in settings.xml. 
-[Sonatype recommends the mirrorOf approach](http://www.sonatype.com/people/2009/02/why<sub>~putting</sub><sub>repositories</sub><sub>in</sub><sub>your</sub><sub>poms</sub><sub>is</sub><sub>a</sub><sub>bad</sub><sub>idea/), but there are situations where putting the repos in the pom is better. It is a trade</sub>~off, pick your poison ;)  
+It is recommended to mirror the global central repositories. Please see http://maven.apache.org/guides/mini/guide-mirror-settings.html for details. This can be achieved with mirrors in settings.xml or by overriding central in the pom and only username and password in settings.xml. 
+[Sonatype recommends the mirrorOf approach](http://www.sonatype.com/people/2009/02/why-putting-repositories-in-your-poms-is-a-bad-idea/), but there are situations where putting the repos in the pom is better. It is a trade-off, pick your poison ;)  
 
 ###### mirrorOf in settings.xml
 
@@ -151,7 +151,7 @@ Set activeByDefault to _true_ use the profile permanently.
 NOT FINISHED
 
 1. Obtain certificate
-    1. See [Obtaining remote SSL certificate](http://wiki.community.objectware.no/display/smidigtonull/Java+SSL+<sub>~+Keystores#JavaSSL</sub><sub>Keystores</sub><sub>ObtainingaremoteSSLcertificate) or just download [Maven Repository Management FAQ^maven</sub><sub>repository.dev.java.net.crt](Maven</sub><sub>Repository</sub><sub>Management</sub><sub>FAQ</sub><sub>maven</sub><sub>repository</sub><sub>dev</sub><sub>java</sub>~net-crt.md)
+    1. See [Obtaining remote SSL certificate](http://wiki.community.objectware.no/display/smidigtonull/Java+SSL+-+Keystores#JavaSSL-Keystores-ObtainingaremoteSSLcertificate) or just download [Maven Repository Management FAQ^maven-repository.dev.java.net.crt](Maven-Repository-Management-FAQ-maven-repository-dev-java-net-crt.md)
 1. Install it in the JVM used by Artifactory
     1. Check if cacerts is present: ls -l $JAVA_HOME/jre/lib/security
     1. Add certificate

@@ -15,7 +15,7 @@
 **Points**
 - [http://html5.validator.no](http://html5.validator.no)  HTML5 validator
 - Without <body> tag, IE won't style (render CSS)  (Not needed in spec, IE bug)
-- [http://dev.w3.org/html5/spec<sub>~author</sub><sub>view/](http://dev.w3.org/html5/spec</sub><sub>author</sub>~view/)
+- [http://dev.w3.org/html5/spec-author-view/](http://dev.w3.org/html5/spec-author-view/)
 
 ### header, footer, article, nav, \
 ```

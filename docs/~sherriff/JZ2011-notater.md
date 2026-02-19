@@ -36,7 +36,7 @@ Jeg håper dette er en kontekst mange kjenner seg igjen i.
 \- tett kobling til infrastruktur - avhengighet til drift
 \- vanskelig å debugge feil - avhengighet til drift, funksjonalitet spredt på flere maskiner 
 
-#### Standard JUnit<sub>~tester + custom sql</sub>~script 
+#### Standard JUnit-tester + custom sql-script 
 + fungerer for én utvikler 
 \- vanskelig å vedlikeholde sql-scriptene
 \- tidkrevende oppsett
@@ -47,7 +47,7 @@ Jeg håper dette er en kontekst mange kjenner seg igjen i.
 
 \- trenger å teste mot reell database, mocking løser ikke det problemet. 
 
-Jmock<sub>~, junit</sub>~oppsett
+Jmock-, junit-oppsett
 
 ## 3. Gjennomgang av prosessen og valgene som ble tatt - 25 min
 
@@ -130,12 +130,12 @@ Det kommer selvsagt an på hva som er behovet og målet. Så hva er faktisk _beh
 
 3.6. Feedback-loop 
 
-Beskrive iterativ forbedring: Skrive tester<sub>~refaktorere</sub><sub>skrive tester, raffinere oppskriften, skrive tester</sub><sub>refaktorere</sub>~skrive tester, raffinere oppskriften, osv.
+Beskrive iterativ forbedring: Skrive tester-refaktorere-skrive tester, raffinere oppskriften, skrive tester-refaktorere-skrive tester, raffinere oppskriften, osv.
 
 Hvilke justeringer har vi gjort underveis? 
 
 - assertDataset 
-- 1 database schema per kodebase -> 1<sub>~2 database schema per utvikler og en per branch for CI</sub>~server 
+- 1 database schema per kodebase -> 1-2 database schema per utvikler og en per branch for CI-server 
 - Deling vs duplisering av dataset mellom tester 
 
 ## 4. Demonstrasjon av softwarestack/konkret taktikk - 10 min

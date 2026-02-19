@@ -1,10 +1,10 @@
 # Continuum 1.3.2 Installation Guide - Solaris
 
 This guide explains how to install Continuum 1.3.2 on Solaris 10 and integrate with SMF. 
-The are a lot of gotchas (see [CONTINUUM<sub>~2182](http://jira.codehaus.org/browse/CONTINUUM</sub>~2182), hopefully these will be fixed eventually. 
+The are a lot of gotchas (see [CONTINUUM-2182](http://jira.codehaus.org/browse/CONTINUUM-2182), hopefully these will be fixed eventually. 
 
 #### Install 
-- Create a [new zone](New<sub>~zone</sub>~procedure.md)
+- Create a [new zone](New-zone-procedure.md)
 - Add user 
 ```
 export username=continuum
@@ -20,7 +20,7 @@ ln -s apache-continuum-1.3.2-bin current
 ```
 
 - Fix start script 
-    - fix parameters to tr according to [CONTINUUM<sub>~2181](http://jira.codehaus.org/browse/CONTINUUM</sub>~2181)
+    - fix parameters to tr according to [CONTINUUM-2181](http://jira.codehaus.org/browse/CONTINUUM-2181)
     - In **bin/continuum**
 ```
 > RUNDIR=`dirname $0`
@@ -37,7 +37,7 @@ below wrapper.java.mainclass=org.tanukisoftware.wrapper.WrapperSimpleApp
 ```
 
 - Set up SMF 
-Example manifest: [continuum<sub>~smf.xml](continuum</sub>~smf-xml.md)
+Example manifest: [continuum-smf.xml](continuum-smf-xml.md)
 ```
 vim /var/svc/manifest/application/continuum-smf.xml
 svccfg -v validate /var/svc/manifest/application/continuum-smf.xml

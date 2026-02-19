@@ -1,6 +1,6 @@
 # Dronerader blir stiftelse
 
-### [Dronerader blir stiftelse](Dronerader<sub>~blir</sub>~stiftelse.md)
+### [Dronerader blir stiftelse](Dronerader-blir-stiftelse.md)
 
 _Regler for stiftelsen her_
 

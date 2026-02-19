@@ -5,7 +5,7 @@
 Export to xml, html or pdf and check into a version control system. 
 
 - **xml** export makes roll-back possible, but is not very viewing friendly standalone. 
-- **html** is viewing friendly, but does not support roll<sub>~back. This option must thus be considered a read</sub>~only solution for historical documentation.  
+- **html** is viewing friendly, but does not support roll-back. This option must thus be considered a read-only solution for historical documentation.  
 - **pdf** is analogous to the html approach. The difference is that pdf is better for printing, but lacks the user friendliness of hyper links when viewing electronically. (tags) 
 
 A variant of this approach is using **RSS**-feed. While a bit harder to setup, this gives better diffs and layout compared to the xml export.

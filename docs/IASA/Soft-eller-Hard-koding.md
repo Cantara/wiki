@@ -144,5 +144,5 @@ Noen som føler seg truffet?  **Varmer opp til Geek Cruise til helgen :)**
 
 Ref:
 - [http://thedailywtf.com/Comments/Soft_Coding.aspx#131288](http://thedailywtf.com/Comments/Soft_Coding.aspx#131288)
-- [http://thedailywtf.com/Articles/Programming<sub>~Sucks!</sub><sub>Or</sub><sub>At</sub><sub>Least,</sub><sub>It</sub><sub>Ought</sub><sub>To</sub><sub>.aspx](http://thedailywtf.com/Articles/Programming</sub><sub>Sucks!</sub><sub>Or</sub><sub>At</sub><sub>Least,</sub><sub>It</sub><sub>Ought</sub><sub>To</sub>~.aspx)
-- [http://wiki.cantara.no/display/PE/Geek+Cruise+23<sub>~25+May+2009+</sub><sub>+Architects+in+deep+water...](http://wiki.cantara.no/display/PE/Geek+Cruise+23</sub><sub>25+May+2009+</sub>~+Architects+in+deep+water...)
+- [http://thedailywtf.com/Articles/Programming-Sucks!~~Or-At-Least,-It-Ought-To~~.aspx](http://thedailywtf.com/Articles/Programming-Sucks!~~Or-At-Least,-It-Ought-To~~.aspx)
+- [http://wiki.cantara.no/display/PE/Geek+Cruise+23-25+May+2009+-+Architects+in+deep+water...](http://wiki.cantara.no/display/PE/Geek+Cruise+23-25+May+2009+-+Architects+in+deep+water...)

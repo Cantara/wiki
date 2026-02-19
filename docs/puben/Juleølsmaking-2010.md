@@ -2,7 +2,7 @@
 
 ### kritisk info
 
-| Tid | Lørdag 13.11<sub>~2010, 18:00</sub>~> |
+| Tid | Lørdag 13.11-2010, 18:00-> |
 | Sted | Møllefaret 30 E (Totto) |
 | Forberedelse | Kjøpe en av hver av det norske juleølet **på polet** |
 

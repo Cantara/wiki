@@ -1,7 +1,7 @@
 # Maven Artifact Naming
 
 ###### artifactId
-The name of a libProject/product used in VCS should be reflected in the _artifactId_ of the project. Additionally, it is common to prefix all modules (including the parent) in a multimodule project. E.g. commons<sub>~parent, commons</sub>~log, commons-file. 
+The name of a libProject/product used in VCS should be reflected in the _artifactId_ of the project. Additionally, it is common to prefix all modules (including the parent) in a multimodule project. E.g. commons-parent, commons-log, commons-file. 
 
 ###### groupId
 Choosing a _groupId_ is a bit trickier: 

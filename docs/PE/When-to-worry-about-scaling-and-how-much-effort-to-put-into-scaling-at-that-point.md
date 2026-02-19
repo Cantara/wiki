@@ -30,7 +30,7 @@ n. (-mt)
 
 Estimates are implicitly guess-work, they can only ever be made accurate in hindsight. Agile is one way to get realistic about estimates.
 
-**Architecture** - where organisations and individuals engage in the illusion that one can design an endlessly flexible architecture that copes with all possible unknown future demands. Just as with estimates, symptoms include grand, long<sub>~running rituals to examine every detail, verify that the architecture is sound and that nothing has been forgotten. Businesses change their processes, unexpected integrations are undertaken, products are dropped and new ones are dreamt up, hosting options change and operational challenges appear unexpectedly. The weapons for dealing with this challenge are not do</sub>~it-all containers or grand architectures, rather they are things like:
+**Architecture** - where organisations and individuals engage in the illusion that one can design an endlessly flexible architecture that copes with all possible unknown future demands. Just as with estimates, symptoms include grand, long-running rituals to examine every detail, verify that the architecture is sound and that nothing has been forgotten. Businesses change their processes, unexpected integrations are undertaken, products are dropped and new ones are dreamt up, hosting options change and operational challenges appear unexpectedly. The weapons for dealing with this challenge are not do-it-all containers or grand architectures, rather they are things like:
 
     * Principles and guidelines for keeping an architecture adaptable: loose coupling, no broken windows, cohesion and coupling, isolation etc.
     * Validation metrics: to indicate when an architectural assumption has been breached and needs re-addressing.
@@ -48,7 +48,7 @@ From an architectural perspective however, one realises that:
    2. At least in the case of a website, one must have failure handling mechanisms to cope with lost boxes, broken networks and failing processes.
    3. Hot re-configuration actually means provision of service without disruption to the user.
 
-Thus hot re<sub>~configuration becomes much simpler: kill process, change configuration, re</sub>~start process.
+Thus hot re-configuration becomes much simpler: kill process, change configuration, re-start process.
 
 **Hardware** - where expensive kit never fails, making software easier to write but ultimately compromised when it comes to availability as customer usage grows. Hardware does fail, in fact once an organisation accrues enough hardware there will be failures daily and it's not cost-effective to pay for operational staff to run around trying to keep all this hardware running all the time (and it increases the chance of human error, another key contributor to availability problems). In the early days of a system, use of redundant hardware solutions is acceptable it's more important to get things up and running but it pays to:
 

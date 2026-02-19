@@ -1,11 +1,11 @@
 # Totto´s Home
 
 - **[CV (vizualize.me)](http://vizualize.me/totto#)**
-- **[CV in Norwegian](CV<sub>~in</sub>~Norwegian.md)** 
-- **[CV in English](CV<sub>~in</sub>~English.md)** 
+- **[CV in Norwegian](CV-in-Norwegian.md)** 
+- **[CV in English](CV-in-English.md)** 
 - [ShortBio](ShortBio.md)
 
-- [F&B](Food<sub>~and</sub><sub>Wine</sub><sub>in</sub>~Norway.md)
+- [F&B](Food-and-Wine-in-Norway.md)
 - [Twitter backup](Twitter-backup.md)
 
 > ℹ️ 
@@ -23,12 +23,12 @@
 | ICQ | 166633239 |
 | Yahoo | thorhenning_hetland |
 | AIM | TottoAIM |
-| tel | +47 9300 9556 -+47 98 256 071- |
+| tel | +47 9300 9556 ~~+47 98 256 071~~ |
 | www | [http://totto.org](http://totto.org) |
-| Presentations | [Presentations and publications](Presentations<sub>~and</sub>~publications.md) |
+| Presentations | [Presentations and publications](Presentations-and-publications.md) |
 | Latest reading | [http://paper.li/javatotto](http://paper.li/javatotto) |
 
 [http://tweetstats.com/status/javatotto](http://tweetstats.com/status/javatotto)
 
-![http://www.wordle.net/thumb/wrdl/290621/javatotto](http://www.wordle.net/thumb/wrdl/290621/javatotto)(http://www.wordle.net/thumb/wrdl/290621/javatotto)  
+![http://www.wordle.net/thumb/wrdl/290621/javatotto](http://www.wordle.net/thumb/wrdl/290621/javatotto)  
 By [wordle.net](wordle-net.md)

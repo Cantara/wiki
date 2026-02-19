@@ -18,7 +18,7 @@ Java application based on Spring and Hibernate and a SQL database. Integration t
 
 Isolate the data access logic from the rest of the application. 
 
-- Since we use Spring, we can utilize the rather big exception hierarchy created for this purpose, see [DataAccessException](http://static.springsource.org/spring/docs/3.0.x/reference/dao.html#dao<sub>~exceptions) or the [JavaDocs](http://static.springsource.org/spring/docs/3.0.x/javadoc</sub>~api/org/springframework/dao/DataAccessException.html/). The general advice is to isolate the application from library specifics, but since Spring often is the core of applications which use, it doesn't really add any value to create abstraction layers for Spring. 
+- Since we use Spring, we can utilize the rather big exception hierarchy created for this purpose, see [DataAccessException](http://static.springsource.org/spring/docs/3.0.x/reference/dao.html#dao-exceptions) or the [JavaDocs](http://static.springsource.org/spring/docs/3.0.x/javadoc-api/org/springframework/dao/DataAccessException.html/). The general advice is to isolate the application from library specifics, but since Spring often is the core of applications which use, it doesn't really add any value to create abstraction layers for Spring. 
     - Developers, dbas and sysadmins should be notified of this type of exceptions. 
 
 - **DataException** - this is intended for situations where the data in the database is wrong or not as expected. It should not be necessary if we control access to the database, but unfortunately it is often the case that data is added to the database from another service, user or script. 

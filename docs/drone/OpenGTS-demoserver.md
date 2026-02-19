@@ -2,7 +2,7 @@
 
 ### [OpenGTS demoserver](OpenGTS-demoserver.md)
 
-Ref server: [drone server info](drone<sub>~server</sub>~info.md)
+Ref server: [drone server info](drone-server-info.md)
 
 **Demo server:** [http://89.221.242.66:8080/track/Track](http://89.221.242.66:8080/track/Track) 
 **RUN demo:** _select **Demo**_

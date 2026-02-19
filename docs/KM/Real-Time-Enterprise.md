@@ -4,4 +4,4 @@ Attribution: This work started on [wiki.community.objectware.no](http://wiki.com
 
 # Real-time enterprise.. Just a dream?
 
-![Real<sub>~time</sub><sub>enterprise.jpg](Real</sub><sub>time</sub><sub>enterprise</sub><sub>jpg.md)(Real</sub>~time-enterprise.jpg)
+![Real-time-enterprise.jpg](2654580-Real-time-enterprise.jpg)

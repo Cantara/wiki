@@ -4,4 +4,4 @@ No, no upfront design is probably not a good idea.
 
 But what _is_ just enough? 
 
-See [architecture:Anti<sub>~agile architecture choices](../architecture/Anti</sub><sub>agile</sub><sub>architecture</sub>~choices.md).
+See [architecture:Anti-agile architecture choices](../architecture/Anti-agile-architecture-choices.md).

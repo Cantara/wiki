@@ -6,7 +6,7 @@ Laaaang diskusjon om hvordan man skal implementere forretningsregler på forskje
 
 Såvidt vi kan forstå er det tre alternativer her:
 
-1) **Duplisere logikken** på alle lag (industristandard :<sub>~) \</sub>~ DRY - store muligheter for feil og inkonsistes mellom de forskjellige beregningene.
+1) **Duplisere logikken** på alle lag (industristandard :~~) \~~ DRY - store muligheter for feil og inkonsistes mellom de forskjellige beregningene.
 2) **Mobil kode** - Kjøre forretningsreglene på klientside og serverside. Vanskelig å få til - kan løses med rike klientobjekter med det liker vi ikke. XML og XSLT kan løse dette. Mangler rammeverk.
 3) **Sentralisering** Finkornete tjenester som utfører operasjonene. Medfører "chatty" api - skalerer dårlig.
 

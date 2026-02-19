@@ -42,7 +42,7 @@ cd /home/dan/src/jini/space/
 java -Djava.security.policy=config/policy.all -jar /home/dan/jini/jini2_1/lib/start.jar config/start-act-blitz21.config
 ```
 
-Note that the default configuration files expect to create a log for the shared activation group in /tmp/sharedvm.log which you will need to delete if you wish to start again from scratch, re<sub>~registering the Blitz instance etc. To start a non</sub>~activatable instance:
+Note that the default configuration files expect to create a log for the shared activation group in /tmp/sharedvm.log which you will need to delete if you wish to start again from scratch, re-registering the Blitz instance etc. To start a non-activatable instance:
 
 ```
 cd /home/dan/src/jini/space/

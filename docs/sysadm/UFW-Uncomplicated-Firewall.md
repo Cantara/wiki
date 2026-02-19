@@ -16,5 +16,5 @@ sudo ufw status verbose
 ```
 
 - Docs 
-    - [https://www.digitalocean.com/community/tutorials/how<sub>~to</sub><sub>setup</sub><sub>a</sub><sub>firewall</sub><sub>with</sub><sub>ufw</sub><sub>on</sub><sub>an</sub><sub>ubuntu</sub><sub>and</sub><sub>debian</sub><sub>cloud</sub><sub>server](https://www.digitalocean.com/community/tutorials/how</sub><sub>to</sub><sub>setup</sub><sub>a</sub><sub>firewall</sub><sub>with</sub><sub>ufw</sub><sub>on</sub><sub>an</sub><sub>ubuntu</sub><sub>and</sub><sub>debian</sub><sub>cloud</sub>~server)
+    - [https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
     - [https://help.ubuntu.com/community/UFW](https://help.ubuntu.com/community/UFW)

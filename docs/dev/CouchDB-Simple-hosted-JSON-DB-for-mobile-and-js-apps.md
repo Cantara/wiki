@@ -6,10 +6,10 @@ Pros:
 - Quick setup for JSON/HTTP DB POC's
 - REST - JSON/HTTP
 - Nice admin web-GUI
-- [Good documentation](https://cloudant.com/for<sub>~developers/crud/#curl</sub>~update)
+- [Good documentation](https://cloudant.com/for-developers/crud/#curl-update)
 - Much easier setting up and using from client side than MongoDB
 - Bundles Lucene for search in documents
-- Easy tutorial for setting up nice url's for accessing json documents [here](http://blog.pasker.net/2013/02/13/how<sub>~to</sub><sub>setup</sub><sub>a</sub><sub>vhost</sub><sub>for</sub><sub>a</sub><sub>couchdb</sub>~couchapp/) [Example of my usage](http://heap.kompo.st/JavaZone_Demo)
+- Easy tutorial for setting up nice url's for accessing json documents [here](http://blog.pasker.net/2013/02/13/how-to-setup-a-vhost-for-a-couchdb-couchapp/) [Example of my usage](http://heap.kompo.st/JavaZone_Demo)
 
 Cons:
 

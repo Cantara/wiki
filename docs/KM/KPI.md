@@ -11,7 +11,7 @@ It's tempting when trying to be customer-centric to focus on delivering lots of 
 
 Whilst these qualities are all about the customer experience, success in maintaining them at an appropriate level is related to how well a company performs internally:
 
-    * It's undesirable to be charging excessively to cover development inefficiencies caused for example, by a tightly coupled architecture that makes even a small change a multi<sub>~month death</sub>~march.
+    * It's undesirable to be charging excessively to cover development inefficiencies caused for example, by a tightly coupled architecture that makes even a small change a multi-month death-march.
     * A service that runs slow at peak times due to insufficient focus in our architecture and code on performance and scaling, appears sluggish or even down which can drive customers away.
     * Prolonged outages as the result of trivial problems occurring that take operational staff excessive time to fix because of poor monitoring and diagnostic tools, will impact customer satisfaction.
     * If we routinely rollback upgrades or they're brittle or bug-ridden we will negatively impact the quality of interaction.

@@ -1,6 +1,6 @@
 # Full Domain model
 
-Stateful \<sub>~> OO \</sub>~> Domain Model
+Stateful \~~> OO \~~> Domain Model
 |  | Integration | Versioning | Gjenbruk | Scaleability |
 | --- | --- | --- | --- | --- |
 | EJB | 7 | 3 | 2 | 6 |

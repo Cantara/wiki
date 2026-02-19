@@ -6,28 +6,28 @@ While most of the experiences in this article is valid for a wider context, the 
 
 #### Table of contents
 
-- [Mapping Jira Concepts to Scrum and version strategy](Mapping<sub>~Jira</sub><sub>Concepts</sub><sub>to</sub><sub>Scrum</sub><sub>and</sub>~version-strategy.md)
+- [Mapping Jira Concepts to Scrum and version strategy](Mapping-Jira-Concepts-to-Scrum-and-version-strategy.md)
 
 - [Issue workflow](Issue-workflow.md)
 
-- [Jira usage principles](Jira<sub>~usage</sub>~principles.md)
+- [Jira usage principles](Jira-usage-principles.md)
 
-- [Planning, reporting and monitoring](Jira<sub>~Planning</sub><sub>reporting</sub><sub>and</sub>~monitoring.md)
+- [Planning, reporting and monitoring](Jira-Planning-reporting-and-monitoring.md)
 
-- [Changes from default installation](Changes<sub>~from</sub>~default-installation.md)
+- [Changes from default installation](Changes-from-default-installation.md)
 
 - [Integrating JIRA and Confluence](http://confluence.atlassian.com/display/DOC/Integrating+JIRA+and+Confluence)
 
 ---
 
-[Agile Methods and Methodologies](Methods<sub>~and</sub>~Methodologies.md)
+[Agile Methods and Methodologies](Methods-and-Methodologies.md)
 
 [mountaingoatsoftware](http://www.mountaingoatsoftware.com/topics/scrum)
 
-[Using JIRA in an agile environment](http://metalelf0dev.blogspot.com/2008/09/using<sub>~jira</sub><sub>in</sub><sub>agile</sub>~environment.html) - blog post about Jira plugins to support agile development. 
+[Using JIRA in an agile environment](http://metalelf0dev.blogspot.com/2008/09/using-jira-in-agile-environment.html) - blog post about Jira plugins to support agile development. 
 
 [GreenHopper Documentation](http://confluence.atlassian.com/display/GH/GreenHopper+Documentation)
 
-[Version Control Strategies for Confluence<sub>~based Documentation](Version</sub><sub>Control</sub><sub>Strategies</sub><sub>for</sub><sub>Confluence</sub>~based-Documentation.md) 
+[Version Control Strategies for Confluence-based Documentation](Version-Control-Strategies-for-Confluence-based-Documentation.md) 
 
-[Maven Project Versions](http://www.sonatype.com/books/mvnref<sub>~book/reference/pom</sub><sub>relationships</sub><sub>sect</sub><sub>pom</sub><sub>syntax.html#pom</sub><sub>reationships</sub><sub>sect</sub>~versions)
+[Maven Project Versions](http://www.sonatype.com/books/mvnref-book/reference/pom-relationships-sect-pom-syntax.html#pom-reationships-sect-versions)

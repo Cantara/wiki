@@ -63,4 +63,4 @@ Activities
 - ...
 
 ## Reference
-- [Understand The Business Domain](http://97<sub>~things.near</sub>~time.net/wiki/Understand%20The%20Business%20Domain)
+- [Understand The Business Domain](http://97-things.near-time.net/wiki/Understand%20The%20Business%20Domain)

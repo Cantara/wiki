@@ -2,7 +2,7 @@
 
 Arkitektur begrepet har fått en del kritikk i det siste - noe jeg tror er en funksjon av en del maktmisbruk blant folk som har kalt seg arkitekter og innføring av smidige praksiser som blant annet har ført til raske leveranser i mange tilfeller uten å ta hensyn til arkitektur.
 
-Kan det dermed være slik at vi egentlig ikke trenger arkitektur? At vi klarer oss bedre uten? Noen har til og med tatt til orde for å kvitte oss med IT<sub>~avdelingen og flytte IT</sub>~kompetansen ut til forretningssiden, slik at vi kun trenger å forholde oss til taktiske beslutninger utifra hva hver enkelt trenger her og nå?
+Kan det dermed være slik at vi egentlig ikke trenger arkitektur? At vi klarer oss bedre uten? Noen har til og med tatt til orde for å kvitte oss med IT-avdelingen og flytte IT-kompetansen ut til forretningssiden, slik at vi kun trenger å forholde oss til taktiske beslutninger utifra hva hver enkelt trenger her og nå?
 
 Håper noen ser ironien i dette, og ser at det faktisk kan ha noe for seg å tenke helhetlig arkitektur; både på strukturen i hver løsning og på tvers av en virksomhet.
 

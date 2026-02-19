@@ -8,6 +8,6 @@ The purpose of this page is to list some "rules" with regards to general test th
     1. make sure we deliver the functionality the customer is paying us for
     1. its a very efficient way of producing working code 
     1. easily testable code has quality attributes we want. 
-1. While a bottom<sub>~up approach is best when developing a new system, a top</sub>~down approach is often advantageous when writing tests for an existing system. 
+1. While a bottom-up approach is best when developing a new system, a top-down approach is often advantageous when writing tests for an existing system. 
 1. A test should have only one reason to change. (Try to avoid writing tests that test overlapping functionality.)
 1. It does not matter _when_ you write tests as long as you work efficiently and tests are written during development.

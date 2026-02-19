@@ -1,10 +1,10 @@
 # Realisering av SSO på tvers av applikasjoner og organisasjoner
 
-<2010<sub>~02</sub>~18 Jon.Arild.Tørresdal> 
+<2010-02-18 Jon.Arild.Tørresdal> 
 
 | Foredragsholder | Jon Arild Tørresdal |
 | --- | --- |
-| Dato (YYYY<sub>~MM</sub>~DD) | 2010<sub>~03</sub>~18 |
+| Dato (YYYY-MM-DD) | 2010-03-18 |
 | --- | --- |
 | Varighet | 30 min |
 | --- | --- |
@@ -27,4 +27,4 @@ Jon Arild Tørresdal er arkitekt i Frende Forsikring AS, leder for Norwegian .NE
 > 💡 Slides (pdf or ppt) attached to this page will be shown automatically using "viewfile". 
 > 💡 To show slides from for example slide share use: 
 > 💡 
-> 💡 \{slide<sub>~share:url=http://www.slideshare.net/bjornno/bbs</sub>~tjueprosent-nosql|align=center}
+> 💡 \{slide-share:url=http://www.slideshare.net/bjornno/bbs-tjueprosent-nosql|align=center}

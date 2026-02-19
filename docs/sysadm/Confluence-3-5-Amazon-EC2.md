@@ -5,7 +5,7 @@
 - AMI: Ubuntu Server 14.04 LTS (HVM), SSD Volume Type - ami-234ecc54
 - Instance type: [t2.medium](http://aws.amazon.com/ec2/instance-types/), 2cpus, 4GiB memory
 - Protect against accidental termination
-- Separate 20GiB EBS volume for storage, http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs<sub>~using</sub>~volumes.html
+- Separate 20GiB EBS volume for storage, http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
 
 - Security group which allow incoming port 22, 80 and 443. 
 
@@ -24,11 +24,11 @@ sudo aptitude install postgresql-9.3
 
 ###### Database 
 
-- [cantaraadm:Setup Postgres database for Confluence](../cantaraadm/Setup<sub>~Postgres</sub><sub>database</sub><sub>for</sub>~Confluence.md)
+- [cantaraadm:Setup Postgres database for Confluence](../cantaraadm/Setup-Postgres-database-for-Confluence.md)
 
 ###### Install confluence 
 
-3.5.17 is the last version before Atlassian removed the markup support. See [Why We Removed the Wiki Markup Editor in Confluence 4.0](http://blogs.atlassian.com/2011/11/why<sub>~we</sub><sub>removed</sub><sub>wiki</sub><sub>markup</sub><sub>editor</sub><sub>in</sub><sub>confluence</sub>~4/). 
+3.5.17 is the last version before Atlassian removed the markup support. See [Why We Removed the Wiki Markup Editor in Confluence 4.0](http://blogs.atlassian.com/2011/11/why-we-removed-wiki-markup-editor-in-confluence-4/). 
 
 https://www.atlassian.com/software/confluence/download-archives
 
@@ -60,7 +60,7 @@ psql -U postgres confluence < dump.sql
 
 ###### Read more 
 
-- http://ubuntuhandbook.org/index.php/2015/01/install<sub>~openjdk</sub><sub>8</sub><sub>ubuntu</sub><sub>14</sub><sub>04</sub><sub>12</sub><sub>04</sub>~lts/
+- http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/
 - https://confluence.atlassian.com/display/DOC/Start+Confluence+Automatically+on+Linux
 - https://confluence.atlassian.com/display/CONF34/Installing+Confluence+Standalone+on+UNIX+or+Linux
 - https://confluence.atlassian.com/display/CONF35/Supported+Platforms

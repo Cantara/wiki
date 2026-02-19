@@ -2,7 +2,7 @@
 
 ### Blitz Dashboard Screenshots
 
-![new_dash.png](new_dash-png.md)(new_dash.png)
+![new_dash.png](6127645-new_dash.png)
 
 Features
 
@@ -19,6 +19,6 @@ The Blitz dashboard has been developed in assocation with Inca X -- www.incax.co
 
 Full size screenshot
 
-![blitz<sub>~dashboard.png](blitz</sub><sub>dashboard</sub><sub>png.md)(blitz</sub>~dashboard.png)
+![blitz-dashboard.png](6127645-blitz-dashboard.png)
 
 ---

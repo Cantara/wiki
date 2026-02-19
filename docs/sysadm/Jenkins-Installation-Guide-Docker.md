@@ -2,7 +2,7 @@
 
 ###### Install and configure Docker 
 
-See [sysadm:Nexus Installation Guide - Docker](../sysadm/Nexus<sub>~Installation</sub>~Guide-Docker.md)
+See [sysadm:Nexus Installation Guide - Docker](../sysadm/Nexus-Installation-Guide-Docker.md)
 
 ###### Config steps 
 
@@ -28,4 +28,4 @@ https://github.com/SynapticTechnologies/Synaptic-Provisioning
 
 #### References
 - https://registry.hub.docker.com/_/jenkins/
-- http://serialized.net/2013/04/simply<sub>~generating</sub><sub>self</sub><sub>signed</sub><sub>ssl</sub><sub>certs</sub>~with-ansible/
+- http://serialized.net/2013/04/simply-generating-self-signed-ssl-certs-with-ansible/

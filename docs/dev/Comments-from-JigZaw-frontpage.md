@@ -42,7 +42,7 @@ It is nice to read that there are others that are thinking about how to improve 
 While I'm not completely sure what you are asking here, I'll try to comment. 
 
 Note on BDD: 
-My experience with BDD<sub>~style naming is that often becomes too verbose. One trick is to multiple classes for the tests and put common context information into the name of the test class. I also prefer to use the BDD</sub>~syntax only on methods that map directly to the domain and not on "technical" tests. For example could _Should.Return_One_For_GetById_ be replaced with getCustomerByIdOK. 
+My experience with BDD-style naming is that often becomes too verbose. One trick is to multiple classes for the tests and put common context information into the name of the test class. I also prefer to use the BDD-syntax only on methods that map directly to the domain and not on "technical" tests. For example could _Should.Return_One_For_GetById_ be replaced with getCustomerByIdOK. 
 
 1. In my implementations of JigZaw I try to reduce to use of mocks as much as possible. I find that the need for mocks can in many cases by eliminated by a different design and that the changes often lead to reduces coupling and improves cohesiveness. 
 

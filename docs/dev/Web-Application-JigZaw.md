@@ -59,8 +59,8 @@ We will here try to explain how OW test model can be applied to this kind of mod
 
 ## Suggested solution:
 
-Service tests that cover the BL<sub>~layer and DA</sub><sub>layer. The service layer is so thin that there is little here to test other than a thourough vertical. There are very few DA tests that make sense being done without a (in</sub><sub>memory) database, so there aren't any unit</sub>~tests.
+Service tests that cover the BL-layer and DA-layer. The service layer is so thin that there is little here to test other than a thourough vertical. There are very few DA tests that make sense being done without a (in-memory) database, so there aren't any unit-tests.
 
 If you can avoid business logic in the web layer you can test this in isolation from the data/service providers (BL layer).
 
-The intention of this is to avoid complex/fragile/non<sub>~changable end</sub>~to-end tests and replace these with fewer service tests with clear and limited responsibility. This gives more changable code and tests.
+The intention of this is to avoid complex/fragile/non-changable end-to-end tests and replace these with fewer service tests with clear and limited responsibility. This gives more changable code and tests.

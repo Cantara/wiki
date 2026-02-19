@@ -4,7 +4,7 @@
 
 There may be better way of doing deployment than what is presented here. In such a case, please let us know
 
-Deployment to WebSphere from a CI<sub>~server can be troublesome since the deployment tool, wsadmin, is tighty coupled with the WebSphere Application Server.  Also, wsadmin is quite CPU intensive when doing network deployment, and CI</sub>~servers normally has quite a large load even without wsadmin running.
+Deployment to WebSphere from a CI-server can be troublesome since the deployment tool, wsadmin, is tighty coupled with the WebSphere Application Server.  Also, wsadmin is quite CPU intensive when doing network deployment, and CI-servers normally has quite a large load even without wsadmin running.
 
 So why not let wsadmin fetch the artifacts from the Maven repostitory? That allows us to use wsadmin on the server, and we avoid version conflicts. Pull processes is also a lot more scalable, and we can deploy one application to ten servers just as easily as when we deploy it to one server.
 

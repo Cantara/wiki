@@ -11,8 +11,8 @@ Each has its advantages and disadvantages and there are much to consider before 
 
 #### Software release 
 
-- [Maven<sub>~based Software Release](Maven</sub><sub>based</sub><sub>Software</sub>~Release.md)
+- [Maven-based Software Release](Maven-based-Software-Release.md)
 
 #### [Documentation Release](Documentation-Release.md)
 
-- [Confluence<sub>~based Documentation Release](Confluence</sub><sub>based</sub><sub>Documentation</sub>~Release.md)
+- [Confluence-based Documentation Release](Confluence-based-Documentation-Release.md)

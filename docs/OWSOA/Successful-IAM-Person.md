@@ -2,7 +2,7 @@
 
 ### Personal Profile of a Successful IAM Person
 
-**Reference:** http://www.linksbusinessgroup.com/blog/2007/10/18/breaking<sub>~in</sub>~to-iam/
+**Reference:** http://www.linksbusinessgroup.com/blog/2007/10/18/breaking-in-to-iam/
 
 To better understand what it takes to become an IAM Person, or a more successful IAM person, it is first useful to have some background and visualize a profile. General personal traits include (but are not limited to):
 
@@ -18,7 +18,7 @@ To better understand what it takes to become an IAM Person, or a more successful
     * Ability to collect, collate, synthesize, and disseminate client requirements
     * Confidence in speaking publicly
     * Great demonstration skills
-    * Strong ability to present highly technical concepts in real<sub>~world business terms, to real</sub>~world business users
+    * Strong ability to present highly technical concepts in real-world business terms, to real-world business users
     * Consultative salesmanship skills
     * Timeliness
     * Ability to think in "big picture" terms, while having the ability to manage countless small details

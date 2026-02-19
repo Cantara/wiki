@@ -1,11 +1,11 @@
 # Deploy zip to artifact repo with grunt-maven-tasks
 
-###### Configure grunt<sub>~maven</sub>~tasks 
+###### Configure grunt-maven-tasks 
 
 Release and deploy is supported, but only for zip files, not jar. 
 
 - Install 
-    - `npm install grunt<sub>~maven</sub>~tasks --save-dev`
+    - `npm install grunt-maven-tasks --save-dev`
 
 - Add to _grunt.initConfig({_ section in _GruntFile.js_: 
 ```

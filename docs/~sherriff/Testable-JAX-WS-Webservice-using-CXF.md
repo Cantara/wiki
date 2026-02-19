@@ -4,7 +4,7 @@
 
 - Framework: [CXF](http://cxf.apache.org/docs/index.html)
 
-- Front end: [JAX<sub>~WS](http://cxf.apache.org/docs/jax</sub>~ws.html)
+- Front end: [JAX-WS](http://cxf.apache.org/docs/jax-ws.html)
 
 - Protocol (WSDL) binding: [Soap 1.2](http://cxf.apache.org/docs/soap-12.html)
 
@@ -23,7 +23,7 @@
 
 ###### Test integration between client and endpoint 
 
-- Out<sub>~of</sub>~process using separate Jetty server 
+- Out-of-process using separate Jetty server 
 
 ###### Test payload parsing 
 

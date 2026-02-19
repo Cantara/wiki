@@ -15,7 +15,7 @@ The example consists of four classes:
 
 In order to compile these classes you will require the following .jar's:
 
-    * jsk<sub>~lib.jar, jsk</sub>~platform.jar from the JINI 2.x distribution.
+    * jsk-lib.jar, jsk-platform.jar from the JINI 2.x distribution.
 
 Assuming that your JINI 2.1 distribution is in /jini2_1 and your Blitz distribution is in /blitz, you can compile the example as follows:
 

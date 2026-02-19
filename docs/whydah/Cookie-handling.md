@@ -25,4 +25,4 @@
 
 ###### Read more 
 
-[httpCookie.setDomain](http://docs.oracle.com/javase/8/docs/api/java/net/HttpCookie.html#setDomain<sub>~java.lang.String</sub>~)
+[httpCookie.setDomain](http://docs.oracle.com/javase/8/docs/api/java/net/HttpCookie.html#setDomain-java.lang.String-)

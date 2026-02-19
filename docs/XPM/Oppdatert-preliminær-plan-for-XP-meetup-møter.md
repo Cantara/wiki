@@ -3,7 +3,7 @@
 - 24. november: Kevlin Henney. Community-orientert meetup?
 - ??. januar: TDD og JavaScript. Christian Johansen, flere?
 - Februar: Smidig 2010 ønskereprise?
-- Mars: Communities<sub>~in</sub>~action: Extreme feedback. Finn-Robert
+- Mars: Communities-in-action: Extreme feedback. Finn-Robert
 - April: BDD?
 - Mai: Automatisering (in practise) - oc
 

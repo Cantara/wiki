@@ -1,10 +1,10 @@
 # Delivery Team 1
 
 ## Files
-- [Everything in a zip file](../FRONT/Delivery<sub>~Team</sub><sub>1</sub><sub>group1_blogsbu</sub>~zip.md)
-- [The HTML file we presented](../FRONT/Delivery<sub>~Team</sub><sub>1</sub><sub>presented_version</sub>~html.md) (also shown below)
-- [Beta version with some additions that didn't work too well](../FRONT/Delivery<sub>~Team</sub><sub>1</sub><sub>beta_version</sub>~html.md) (also shown below)
-- [Stylesheet](../FRONT/Delivery<sub>~Team</sub><sub>1</sub><sub>style</sub>~css.md)
+- [Everything in a zip file](../FRONT/Delivery-Team-1-group1_blogsbu-zip.md)
+- [The HTML file we presented](../FRONT/Delivery-Team-1-presented_version-html.md) (also shown below)
+- [Beta version with some additions that didn't work too well](../FRONT/Delivery-Team-1-beta_version-html.md) (also shown below)
+- [Stylesheet](../FRONT/Delivery-Team-1-style-css.md)
 
 ## The main HTML file we presented
 ```html

@@ -23,7 +23,7 @@ Logiske avhengigheter i mellom tjenester - semantiske endringer
 
 - Man prøvde å løse _ett_ problem. ref. OWSOA tjenestemanifestet. 
     - API-størrelse: ansvar og skreddersøm 
-    - Use case<sub>~definerte API</sub>~er gir versjonshelvete. 
+    - Use case-definerte API-er gir versjonshelvete. 
 
 #### Klient-tjener 
 
@@ -43,12 +43,12 @@ Jason inspirert av vCard.
 
 #### Mulige angrepsvektorer 
 
-- Støtte flere versjoner - side<sub>~by</sub>~side (eBay's strategi)
+- Støtte flere versjoner - side-by-side (eBay's strategi)
     - brukes ved få klienter, ingen endringer 
     - brukes når en tjeneste som skal dø / midlertidig hack 
         - Legge inn tidsbombe - system.exit hvis mer enn 6mnd frem i tid 
     - brukes ved godt definert og god standard 
-    - brukes ved Skreddersydde API - use case<sub>~orientert 1</sub>~1 (her gir WSDL mening)
+    - brukes ved Skreddersydde API - use case-orientert 1-1 (her gir WSDL mening)
 
 - Dynamiske endepunkt 
     - svak typing - stringer - konsument bryr seg bare om de dataelementene som de har behov for. XPath, substring, tokenizer  

@@ -1,11 +1,11 @@
 # Thoughts on architecture when using HTTP endpoints
 
-Dvs. gui<sub>~server</sub>~side blir proxy mot en bakenforliggende tjeneste. Husker du om vi dokumenterte noe om dette i cantarawiki?
+Dvs. gui-server-side blir proxy mot en bakenforliggende tjeneste. Husker du om vi dokumenterte noe om dette i cantarawiki?
 Poengene/læringen jeg kommer på i farten:
 1. Billigere, enklere og raskere å bygge funksjonalitet i java enn i javascript
 1. CORS virker, men gir egentlig ikke noe særlig verdi. Delvis pg.a 1.
     1. CORS er et brudd på standard javascript sikkerhetsmekanisme! 
-1. Trenger "proxy" i gui<sub>~server</sub>~side for a) sikkerhet og b) mulighet for aggregering og behandlet av innkommende data. 
+1. Trenger "proxy" i gui-server-side for a) sikkerhet og b) mulighet for aggregering og behandlet av innkommende data. 
 
 To alternativer:
 a. Hvis app gjør IAM på vegne av Javascript så trenger man proxy.

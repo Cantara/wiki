@@ -1,6 +1,6 @@
 # Confluence-based Documentation Release
 
-- Write documentation according to [Confluence Documentation Template](Confluence<sub>~Documentation</sub>~Template.md). 
+- Write documentation according to [Confluence Documentation Template](Confluence-Documentation-Template.md). 
 
 - Update documentation (check especially the references to Maven artifacts) 
 

@@ -29,5 +29,5 @@ The reason for this is that the architects don´t need to challenge their own de
 
 #### Recommended reading
 
-- [Take responsibility for your decisions by Yi Zhou](http://97<sub>~things.near</sub><sub>time.net/wiki/take</sub><sub>responsibility</sub><sub>for</sub><sub>your</sub>~decisions)
-- [Warning, problems in mirror may be larger than they appear by Dave Quick](http://97<sub>~things.near</sub><sub>time.net/wiki/warning</sub><sub>problems</sub><sub>in</sub><sub>mirror</sub><sub>may</sub><sub>be</sub><sub>larger</sub><sub>than</sub>~they-appear)
+- [Take responsibility for your decisions by Yi Zhou](http://97-things.near-time.net/wiki/take-responsibility-for-your-decisions)
+- [Warning, problems in mirror may be larger than they appear by Dave Quick](http://97-things.near-time.net/wiki/warning-problems-in-mirror-may-be-larger-than-they-appear)

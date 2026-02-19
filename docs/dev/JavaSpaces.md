@@ -14,4 +14,4 @@
 
 [GigaSpaces](http://www.gigaspaces.com/)
 
-[Blitz](../blitz/Blitz<sub>~Wiki</sub>~Home.md)
+[Blitz](../blitz/Blitz-Wiki-Home.md)

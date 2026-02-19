@@ -8,7 +8,7 @@ When creating a Graphical User Interface (GUI) in Java it is common to use GUI b
 
 The MVC-controller has a reference to the data model and references to one or more Presentation Logic Controllers (PLC). Each PLC use a _bindingSource_ to fetch data from an entity. The PLC is given the responsibility of handling presentation logic (e.g. enabling/disabling buttons). The PLC is appropriate when the GUI has a complex relationship with the data model. 
 
-Is this the same as has been described in [Decoupling presentation logic with MVP](http://pragmatic<sub>~code.blogspot.com/2007/12/presenter</sub><sub>first</sub><sub>decoupling</sub>~presentation.html)? 
+Is this the same as has been described in [Decoupling presentation logic with MVP](http://pragmatic-code.blogspot.com/2007/12/presenter-first-decoupling-presentation.html)? 
 
 Could you have solved the same problem with [Blackboard](http://www.vico.org/pages/PatronsDisseny/Pattern%20Blackboard/)? (The various GUI-elements that read and write the same data (spread across different data objects) can work on a Blackboard.
 
@@ -21,7 +21,7 @@ Using Abbot and TestNG to test Swing GUI.
 [FEST home page](http://fest.easytesting.org/)
 
 [FEST project at Google Code](http://code.google.com/p/fest/)
-Article [Test<sub>~driven GUI development with FEST](http://www.javaworld.com/javaworld/jw</sub><sub>07</sub><sub>2007/jw</sub>~07-fest.html) by Alex Ruiz
+Article [Test-driven GUI development with FEST](http://www.javaworld.com/javaworld/jw-07-2007/jw-07-fest.html) by Alex Ruiz
 [Test-Driven GUI Development with TestNG and Abbot](http://csdl2.computer.org/persagen/DLAbsToc.jsp?resourcePath=/dl/mags/so/&toc=comp/mags/so/2007/03/s3toc.xml&DOI=10.1109/MS.2007.92)
 
 #### Resources

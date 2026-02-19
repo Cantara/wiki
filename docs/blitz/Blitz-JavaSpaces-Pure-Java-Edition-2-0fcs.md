@@ -22,7 +22,7 @@
 
 ```
 
-![blitz<sub>~dashboard.png](blitz</sub><sub>dashboard</sub><sub>png.md)(blitz</sub>~dashboard.png)
+![blitz-dashboard.png](6127621-blitz-dashboard.png)
 
 ---
 ### Old links & old content

@@ -11,7 +11,7 @@
 | --- | --- |
 | Varighet | <minutter> |
 | --- | --- |
-| Lenke til slides | ![http://www.slideshare.net/bjornno/bbs<sub>~tjueprosent</sub><sub>nosql](http://www.slideshare.net/bjornno/bbs</sub><sub>tjueprosent</sub><sub>nosql)(http://www.slideshare.net/bjornno/bbs</sub><sub>tjueprosent</sub>~nosql) |
+| Lenke til slides | ![http://www.slideshare.net/bjornno/bbs-tjueprosent-nosql](http://www.slideshare.net/bjornno/bbs-tjueprosent-nosql) |
 | --- | --- |
 
 | Further reading |
@@ -27,7 +27,7 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
 
 > 💡 Some common macros to include your presentation: 
 > 💡 
-> 💡 \{slide<sub>~share:url=http://www.slideshare.net/bjornno/bbs</sub>~tjueprosent-nosql|align=center} 
+> 💡 \{slide-share:url=http://www.slideshare.net/bjornno/bbs-tjueprosent-nosql|align=center} 
 > 💡 
 > 💡 \
 > 💡

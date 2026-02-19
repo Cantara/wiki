@@ -1,19 +1,19 @@
 # Galls Lov og Erstatningsprosjekter
 
-<2010<sub>~01</sub>~13 Johannes.Broadwall> 
+<2010-01-13 Johannes.Broadwall> 
 
 | Foredragsholder | Johannes Broadwall |
 | --- | --- |
-| Dato (YYYY<sub>~MM</sub>~DD) | 2010<sub>~01</sub>~13 |
+| Dato (YYYY-MM-DD) | 2010-01-13 |
 | --- | --- |
 | Varighet |  |
 | --- | --- |
-| Lenke til slides | [Galls Lov og Erstatningsprosjekter^2010<sub>~01</sub><sub>13 Galls lov og erstatningsprosjekt - IASA.ppt](Galls</sub><sub>Lov</sub><sub>og</sub><sub>Erstatningsprosjekter</sub><sub>2010</sub><sub>01</sub><sub>13</sub><sub>Galls</sub><sub>lov</sub><sub>og</sub><sub>erstatningsprosjekt</sub><sub>IASA</sub>~ppt.md) |
+| Lenke til slides | [Galls Lov og Erstatningsprosjekter^2010-01-13 Galls lov og erstatningsprosjekt - IASA.ppt](Galls-Lov-og-Erstatningsprosjekter-2010-01-13-Galls-lov-og-erstatningsprosjekt-IASA-ppt.md) |
 | --- | --- |
 
 | Further reading |
 | --- |
-| http://sterkblanding.no/blog/2010/02/25/galls<sub>~lov</sub>~og-erstatningsprosjekter/ |
+| http://sterkblanding.no/blog/2010/02/25/galls-lov-og-erstatningsprosjekter/ |
 
 #### Abstract 
 
@@ -27,7 +27,7 @@ Vi ville naturligvis ikke investere store mengder arbeid i det gamle, døende sy
 
 Denne planen burde med en gang ringe noen varselbjeller. Hva er egentlig poenget med dette prosjektet? Prosjektet ønsker å videreføre dagens tjeneste med et nytt og moderne system. Og det er billigere måter å gjøre det på.
 
-Presentasjonen bygger på arbeid som jeg og Niklas Bjørnerstedt har gjort i forbindelse med [Agile Release Strategies](../ARS/Agile<sub>~Release</sub>~Strategies-Home.md)
+Presentasjonen bygger på arbeid som jeg og Niklas Bjørnerstedt har gjort i forbindelse med [Agile Release Strategies](../ARS/Agile-Release-Strategies-Home.md)
 
 #### Slides
 
@@ -36,4 +36,4 @@ Presentasjonen bygger på arbeid som jeg og Niklas Bjørnerstedt har gjort i for
 > 💡 Slides (pdf or ppt) attached to this page will be shown automatically using "viewfile". 
 > 💡 To show slides from for example slide share use: 
 > 💡 
-> 💡 \{slide<sub>~share:url=http://www.slideshare.net/bjornno/bbs</sub>~tjueprosent-nosql|align=center}
+> 💡 \{slide-share:url=http://www.slideshare.net/bjornno/bbs-tjueprosent-nosql|align=center}

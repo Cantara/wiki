@@ -17,5 +17,5 @@
 
 #### Other
 
-- [Agile Architecture Requires Modularity, by Kirk Knoernschild](http://techdistrict.kirkk.com/2009/06/15/agile<sub>~architecture</sub>~requires-modularity)
+- [Agile Architecture Requires Modularity, by Kirk Knoernschild](http://techdistrict.kirkk.com/2009/06/15/agile-architecture-requires-modularity)
 - [Agile Architecture, by Kirk Knoernschild](http://techdistrict.kirkk.com/2009/05/06/agile-architecture/)

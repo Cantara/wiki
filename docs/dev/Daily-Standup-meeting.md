@@ -2,7 +2,7 @@
 
 _The daily get-together ceremony._
 
-In [Scrum](Scrum.md), this is called "the daily Scrum". The point is to gather the team together for a short (10 minutes or less) face<sub>~to</sub>~face meeting, standing up.
+In [Scrum](Scrum.md), this is called "the daily Scrum". The point is to gather the team together for a short (10 minutes or less) face-to-face meeting, standing up.
 
 Normally, the team makes a round where each team member presents the following:
 

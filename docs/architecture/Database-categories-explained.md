@@ -44,8 +44,8 @@ Totto-11
 > 💡 h4. Resources 
 > 💡 
 > 💡 * [Overview of NoSQL by Emil Eifrem (YouTube)](http://www.youtube.com/watch?v=sh1YACOK_bo&noredirect=1)
-> 💡 * [NoSQL Databases: What, Why, and When by Lorenzo Alberton](http://nosql.mypopescu.com/post/6412803549/nosql<sub>~databases</sub><sub>what</sub><sub>why</sub>~and-when)
+> 💡 * [NoSQL Databases: What, Why, and When by Lorenzo Alberton](http://nosql.mypopescu.com/post/6412803549/nosql-databases-what-why-and-when)
 > 💡 * [http://nosql.mypopescu.com/kb/nosql](http://nosql.mypopescu.com/kb/nosql) 
-> 💡 * [http://nosql<sub>~database.org/](http://nosql</sub>~database.org/)
+> 💡 * [http://nosql-database.org/](http://nosql-database.org/)
 > 💡 
-> 💡 * [http://bigdatanoob.blogspot.no/2012/11/hbase<sub>~vs</sub><sub>cassandra.html](http://bigdatanoob.blogspot.no/2012/11/hbase</sub><sub>vs</sub>~cassandra.html)
+> 💡 * [http://bigdatanoob.blogspot.no/2012/11/hbase-vs-cassandra.html](http://bigdatanoob.blogspot.no/2012/11/hbase-vs-cassandra.html)

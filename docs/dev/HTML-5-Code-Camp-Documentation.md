@@ -1,11 +1,11 @@
 # HTML 5 Code Camp Documentation
 
 ## New Javascript features/APIs
-Canvas: http://dev.w3.org/html5/spec/Overview.html#the<sub>~canvas</sub>~element, https://developer.mozilla.org/en/Canvas_tutorial, 
+Canvas: http://dev.w3.org/html5/spec/Overview.html#the-canvas-element, https://developer.mozilla.org/en/Canvas_tutorial, 
 Media playback: http://dev.w3.org/html5/spec/Overview.html#video, http://dev.w3.org/html5/spec/Overview.html#audio
 Web Storage: http://dev.w3.org/html5/webstorage/
-Drag and drop: http://html5doctor.com/native<sub>~drag</sub>~and-drop/
-Online/Offline: http://www.whatwg.org/specs/web<sub>~apps/current</sub>~work/multipage/offline.html#offline
+Drag and drop: http://html5doctor.com/native-drag-and-drop/
+Online/Offline: http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html#offline
 
 ## Less strict markup, compared to xhtml
 No need to end tags like p, img, etc. Simpler doctype. No need for quotations marks on element attributes, &lt;html lang=no&gt; is perfectly valid.
@@ -17,7 +17,7 @@ No need for &lt;div id="header"&gt; anymore. We now have &lt;header&gt;, &lt;foo
 
 ### Neither `<menu>` or `<command>` works in any browser
 
-It would be great to add a toolbar (rich text area) using the new [`<menu>`](http://www.w3.org/TR/html5/interactive<sub>~elements.html#menus) and [`<command>`](http://www.w3.org/TR/html5/interactive</sub>~elements.html#the-command) elements, like this:
+It would be great to add a toolbar (rich text area) using the new [`<menu>`](http://www.w3.org/TR/html5/interactive-elements.html#menus) and [`<command>`](http://www.w3.org/TR/html5/interactive-elements.html#the-command) elements, like this:
 ```html
 <menu type="toolbar">
     <command type="checkbox" onclick="..." label="strong" icon="bold.gif" />

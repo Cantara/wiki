@@ -2,11 +2,11 @@
 
 #### Workflow 
 
-Many issue life<sub>~cycles can be used. As a general rule start with a few, well</sub>~defined states and add steps only if they add any real customer value. 
+Many issue life-cycles can be used. As a general rule start with a few, well-defined states and add steps only if they add any real customer value. 
 Statuses are modelled as a state machine in Jira and it is possible to have different state machines for different projects. (Possibly also for different issue types within a project?) 
 Note that management of these state machines is cumbersome, so try to limit the number of state machines and the complexity of each one. 
 
-**[Diagram: issue<sub>~workflow](../Diagram/issue</sub>~workflow.md)**
+**[Diagram: issue-workflow](../Diagram/issue-workflow.md)**
 
 A suggested starting point
 

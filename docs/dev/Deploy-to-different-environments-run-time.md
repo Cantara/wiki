@@ -12,7 +12,7 @@ The goal is to avoid building artifacts for different environments. This problem
 
 We assume that the application use _Dependency Injection_. The default configuration should depend on embedded products only. 
 
-The Proof<sub>~of</sub>~Concept code uses Spring's IoC container. To override this defaults we use _PropertyOverrideConfigurer_ instead of the more common _PropertyPlaceholderConfigurer_. The following example use HSQLDB by default, but can be configured to use another database by adding a deploy.properties file to classpath. 
+The Proof-of-Concept code uses Spring's IoC container. To override this defaults we use _PropertyOverrideConfigurer_ instead of the more common _PropertyPlaceholderConfigurer_. The following example use HSQLDB by default, but can be configured to use another database by adding a deploy.properties file to classpath. 
 
 ```
 <bean id="propertyConfigurer"
@@ -88,7 +88,7 @@ dataSource.password=prodDataSourcePasswordHere
 sessionFactory.hibernateProperties[java:hibernate.dialect]=org.hibernate.dialect.PostgreSQLDialect
 ```
 
-If you need to change **many** properties, it might be better to choose _beans_ using a configurer and just use deploy.properties to set which combination of beans to use. See [Alef Arendsen's blog](http://blog.arendsen.net/index.php/2005/03/12/configuration<sub>~management</sub>~with-spring/) for details on how to set this up. (NOTE! Erik tried this approach, but could not get it to work.) 
+If you need to change **many** properties, it might be better to choose _beans_ using a configurer and just use deploy.properties to set which combination of beans to use. See [Alef Arendsen's blog](http://blog.arendsen.net/index.php/2005/03/12/configuration-management-with-spring/) for details on how to set this up. (NOTE! Erik tried this approach, but could not get it to work.) 
 
 #### How to enforce that all relevant properties are changed when deploying to a different environment? 
 

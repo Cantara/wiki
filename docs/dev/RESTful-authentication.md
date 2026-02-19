@@ -9,7 +9,7 @@ Authentication should only be done by a request to the correct URI and all other
 
 [Digest access authentication](http://en.wikipedia.org/wiki/Digest_access_authentication), application level 
 
-[TLS client Authentication](http://www.ibm.com/developerworks/lotus/library/ls<sub>~SSL_client_authentication/), Network</sub>~level
+[TLS client Authentication](http://www.ibm.com/developerworks/lotus/library/ls-SSL_client_authentication/), Network-level
 
 ###### How to transfer 
 
@@ -30,6 +30,6 @@ Authentication should only be done by a request to the correct URI and all other
 
 ###### Resources 
 
-http://mark<sub>~kirby.co.uk/2013/how</sub><sub>to</sub><sub>authenticate</sub><sub>apis</sub><sub>http</sub><sub>basic</sub><sub>vs</sub>~http-digest/
+http://mark-kirby.co.uk/2013/how-to-authenticate-apis-http-basic-vs-http-digest/
 
-http://stackoverflow.com/questions/14043397/http<sub>~basic</sub><sub>authentication</sub><sub>instead</sub><sub>of</sub><sub>tls</sub>~client-certificaiton
+http://stackoverflow.com/questions/14043397/http-basic-authentication-instead-of-tls-client-certificaiton

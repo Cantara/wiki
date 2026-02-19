@@ -7,7 +7,7 @@
 
 ### Invitasjon
 
-Denne gangen settes vi fokus på et tungt belastet område av arkitekturfaget; Arbeidsflyt. Opp gjennom årene har "prosess<sub>~fokus", BPEL, BPO og BPM gått igjen mens produkter har blitt hypet opp og hypet ned igjen. Samtidig fortsetter prosess</sub>~, og arbeidsflytseffektivisering å være et sørgelig lite utnyttet verdiskapningsområde.
+Denne gangen settes vi fokus på et tungt belastet område av arkitekturfaget; Arbeidsflyt. Opp gjennom årene har "prosess-fokus", BPEL, BPO og BPM gått igjen mens produkter har blitt hypet opp og hypet ned igjen. Samtidig fortsetter prosess-, og arbeidsflytseffektivisering å være et sørgelig lite utnyttet verdiskapningsområde.
 
 På dette møtet henter vi frem noen konkrete prosjekterfaringer og caser, samt ser på ny teknologi og på hvordan vi arkitekter kan bidra til reell og betydelig verdiskapning gjennom arkitekturer som understøtter endringsdyktige, selvbetjente og effektiviserende arbeidsflytsimplementasjoner.
 	
@@ -29,7 +29,7 @@ Abstract: Hvordan bruke arbeidsflyt til å implementere foretningslogikk - erfar
 #### "250 Selvbetjente & smidige arbeidsflyter med reell verdi innen 3 år?"
 
 Speaker: Mads Nissen, Puzzlepart
-[Presentasjon](http://weblogs.asp.net/mnissen/archive/2010/02/10/efficient<sub>~workflow</sub><sub>architectures</sub><sub>at</sub><sub>software</sub><sub>2010</sub>~in-oslo.aspx)
+[Presentasjon](http://weblogs.asp.net/mnissen/archive/2010/02/10/efficient-workflow-architectures-at-software-2010-in-oslo.aspx)
 Abstract: Vi abstraherer arbeidsflyt og setter det inn i en menneskeorientert portalkontekst. Vi ser på noen eksempler på tilgjengelig teknologi, og hvordan man setter opp regnestykket for å realisere en reell gevinst med en effektiv arbeidsflytsarkitektur. Vi går gjennom:
 
     * Begreper
@@ -58,4 +58,4 @@ MATS - Mattilsynets tilsynssystem - er et arbeidsoppgave- og prosessorientert sy
 ### Påmelding
 
 ### Twitter feed fra møtet
-{rss:url=http://search.twitter.com/search.atom?q=%23iasa+%23wf<sub>~arch&since=2009</sub>~10-14}
+{rss:url=http://search.twitter.com/search.atom?q=%23iasa+%23wf-arch&since=2009-10-14}

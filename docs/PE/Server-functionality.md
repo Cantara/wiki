@@ -4,7 +4,7 @@ Under skisserer vi den "normale" oppfatningen av stateless/statefull:
 
 | State category | Data style | Sub data style | Technology |
 | --- | --- | --- | --- |
-| Statefull | Domain Model strategy | [Full Domain model](Full<sub>~Domain</sub>~model.md) | [DM EJB](DM-EJB.md) |
+| Statefull | Domain Model strategy | [Full Domain model](Full-Domain-model.md) | [DM EJB](DM-EJB.md) |
 |  |  |  | [DM WS](DM-WS.md) |
 |  |  |  | [DM RMI](DM-RMI.md) |
 |  |  | [Edit bubles](Edit-bubles.md) / partitioned domain model approach | [EB EJB](EB-EJB.md) |  |
@@ -18,13 +18,13 @@ Under skisserer vi den "normale" oppfatningen av stateless/statefull:
 |  | [Shared state](Shared-state.md) |  | [Dist Cache](Dist-Cache.md) |  |
 |  |  |  | [BB EJB](BB-EJB.md) |  |
 |  |  |  | [BB RMI](BB-RMI.md) |  |
-| Stateless | [State til klient](State<sub>~til</sub>~klient.md) |  | [CS Servlet](CS-Servlet.md) |  |
+| Stateless | [State til klient](State-til-klient.md) |  | [CS Servlet](CS-Servlet.md) |  |
 |  |  |  | [CS REST](CS-REST.md) |  |
 |  |  |  | [CS JMS](CS-JMS.md) |  |
 |  |  |  | [CS Spring](CS-Spring.md) |  |
 |  |  |  | [CS WS](CS-WS.md) |  |
 |  |  |  | [CS SOA](CS-SOA.md) |  |
-|  | [State til base](State<sub>~til</sub>~base.md) |  | [SS Servlet](SS-Servlet.md) |  |
+|  | [State til base](State-til-base.md) |  | [SS Servlet](SS-Servlet.md) |  |
 |  |  |  | [SS JMS](SS-JMS.md) |  |
 |  |  |  | [SS Spring](SS-Spring.md) |  |
 |  |  |  | [SS WS](SS-WS.md) |  |

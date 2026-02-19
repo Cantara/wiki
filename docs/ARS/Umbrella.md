@@ -1,7 +1,7 @@
 # Umbrella
 
 ## Problem/Context
-A [replacement project](replacement<sub>~project.md) or [enhancement project](enhancement</sub>~project.md) where the old and new system will coexist. The goal is to avoid confusing users as to which system they should use.
+A [replacement project](replacement-project.md) or [enhancement project](enhancement-project.md) where the old and new system will coexist. The goal is to avoid confusing users as to which system they should use.
 
 ## Solution
 Create a layer that provides a unified view of the two systems. Users will in the ideal case not be aware that there are different systems. Route the user to the correct system based on some aspect of the user.

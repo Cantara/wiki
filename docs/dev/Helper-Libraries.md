@@ -1,6 +1,6 @@
 # Helper Libraries
 
-The purpose of this page is to describe a few _helpers_ that are often useful for service and system tests. The same helpers are also the basis for a [SysAdmin Production Toolbox](SysAdmin<sub>~Production</sub>~Toolbox.md). 
+The purpose of this page is to describe a few _helpers_ that are often useful for service and system tests. The same helpers are also the basis for a [SysAdmin Production Toolbox](SysAdmin-Production-Toolbox.md). 
 
 _RestoreDefaultState_ - bring the system back to a known, "empty" state. 
 

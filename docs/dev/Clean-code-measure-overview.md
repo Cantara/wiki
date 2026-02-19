@@ -79,6 +79,6 @@ Even though every 'piece of code' in a system is written 'correctly', the overal
 - All tests must run always. 
 
 #### Resources 
-[Clean Code: A Handbook of Agile Software Craftsmanship](http://www.amazon.com/Clean<sub>~Code</sub><sub>Handbook</sub><sub>Software</sub>~Craftsmanship/dp/0132350882) - by Robert C. Martin
+[Clean Code: A Handbook of Agile Software Craftsmanship](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - by Robert C. Martin
 
 [Clean Code III: Functions](http://javazone.no/incogito/session/Clean+Code+III%3A+Functions.html) - Robert C. Martin at JavaZone 2008

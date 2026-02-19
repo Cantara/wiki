@@ -1,7 +1,7 @@
 # Bilder
 
 DB: 
-http://www.dreamstime.com/royalty<sub>~free</sub><sub>stock</sub><sub>photo</sub><sub>database</sub><sub>storage</sub>~image2592105
+http://www.dreamstime.com/royalty-free-stock-photo-database-storage-image2592105
 
 Javalogo og PL_SQL logo eller bok
 

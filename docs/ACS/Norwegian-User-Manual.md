@@ -2,10 +2,10 @@
 
 ### Bruk
 
-- [ACS:Redigere din personlige info](../ACS/Redigere<sub>~din</sub>~personlige-info.md)
-- [ACS:Redigere en CV<sub>~profil](../ACS/Redigere</sub><sub>en</sub><sub>CV</sub>~profil.md)
-- [ACS:Last ned flere CVer samtidig](../ACS/Last<sub>~ned</sub><sub>flere</sub><sub>CVer</sub>~samtidig.md)
-- [ACS:Last ned én CV med forhåndsvisning og mulighet for justeringer](../ACS/Last<sub>~ned</sub><sub>én</sub><sub>CV</sub><sub>med</sub><sub>forhåndsvisning</sub><sub>og</sub><sub>mulighet</sub>~for-justeringer.md)
+- [ACS:Redigere din personlige info](../ACS/Redigere-din-personlige-info.md)
+- [ACS:Redigere en CV-profil](../ACS/Redigere-en-CV-profil.md)
+- [ACS:Last ned flere CVer samtidig](../ACS/Last-ned-flere-CVer-samtidig.md)
+- [ACS:Last ned én CV med forhåndsvisning og mulighet for justeringer](../ACS/Last-ned-én-CV-med-forhåndsvisning-og-mulighet-for-justeringer.md)
 
 ### Problemer
 
@@ -40,7 +40,7 @@ Løsningen er bygget opp av følgende kjerneelementer som den enkelte person akt
     - **Other**. Her er det litt friere hva den enkelte ønsker å eksponere, men språk, publikasjoner, sentrale verv, sertifiseringer m.m. er gode eksempler på informasjon mange vil ønske å benytte. |
 |  | I selve CV-modulen, så har vi følgende domeneobjekter som den enkelte, samt selgerne aktivt benytter |
 \\
-- **CV**. Systemet støtter opp til 4 forskjellige profiler/CV<sub>~er for en person. Man lager en CV per profil. På selve CV</sub>~en, så velger man de relevante innslagene fra en person, som til sammen utgjør den erfaringselementene som man ønsker presentert for den enkelte profilen. I tillegg så har man et rollefelt og en innledende profiltekst som sammen skaper det førsteintrykket man ønsker av personen for den gitte profilen.|
+- **CV**. Systemet støtter opp til 4 forskjellige profiler/CV-er for en person. Man lager en CV per profil. På selve CV-en, så velger man de relevante innslagene fra en person, som til sammen utgjør den erfaringselementene som man ønsker presentert for den enkelte profilen. I tillegg så har man et rollefelt og en innledende profiltekst som sammen skaper det førsteintrykket man ønsker av personen for den gitte profilen.|
 |  | I kompetansemodulen har man følgende domeneobjekter |
 \\
 - **Kompetansematrise**. Består av en samling av kompetanseområder som er forespurt for en oppgave/rolle internt eller i et kundetilbud.
@@ -50,7 +50,7 @@ NB!  Kompetansematriseområdet er i en tidlig alfa-fase, og det forventes endel 
 
 ### Datamodell
 
-![https://wiki.cantara.no/download/attachments/33293770/CVAPP+DB+model.png](https://wiki.cantara.no/download/attachments/33293770/CVAPP+DB+model.png)(https://wiki.cantara.no/download/attachments/33293770/CVAPP+DB+model.png)
+![https://wiki.cantara.no/download/attachments/33293770/CVAPP+DB+model.png](https://wiki.cantara.no/download/attachments/33293770/CVAPP+DB+model.png)
 
 ### Altran spesifics (fra Wenche)
 

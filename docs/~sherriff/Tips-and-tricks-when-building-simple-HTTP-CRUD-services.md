@@ -10,5 +10,5 @@
     - 201 created 
     - URI in the location header 
     - Entity representation in response body (including resource id) 
-    - http://stackoverflow.com/questions/1860645/create<sub>~request</sub><sub>with</sub><sub>post</sub><sub>which</sub><sub>response</sub><sub>codes</sub><sub>200</sub><sub>or</sub><sub>201</sub>~and-content
-    - http://programmers.stackexchange.com/questions/171122/proper<sub>~response</sub><sub>for</sub><sub>a</sub><sub>rest</sub><sub>insert</sub><sub>full</sub><sub>new</sub><sub>record</sub><sub>or</sub><sub>just</sub><sub>the</sub><sub>record</sub><sub>id</sub>~value
+    - http://stackoverflow.com/questions/1860645/create-request-with-post-which-response-codes-200-or-201-and-content
+    - http://programmers.stackexchange.com/questions/171122/proper-response-for-a-rest-insert-full-new-record-or-just-the-record-id-value

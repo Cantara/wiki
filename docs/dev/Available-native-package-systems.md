@@ -4,11 +4,11 @@
 
 The following Maven plugins can generate native (operating system specific) installation packages: 
 
-- [Unix Maven Plugin](http://mojo.codehaus.org/unix/unix<sub>~maven</sub>~plugin/) - Highly recommended 
+- [Unix Maven Plugin](http://mojo.codehaus.org/unix/unix-maven-plugin/) - Highly recommended 
 
-- [http://mojo.codehaus.org/solaris<sub>~maven</sub><sub>plugin/](http://mojo.codehaus.org/solaris</sub><sub>maven</sub><sub>plugin/) (See also [http://mojo.codehaus.org/solaris/solaris</sub><sub>maven</sub><sub>plugin](http://mojo.codehaus.org/solaris/solaris</sub><sub>maven</sub>~plugin)) 
-- [rpm<sub>~maven</sub><sub>plugin](http://mojo.codehaus.org/rpm</sub><sub>maven</sub>~plugin/)
-- [mvn<sub>~pkg</sub><sub>plugin](http://wiki.evolvis.org/mvn</sub><sub>pkg</sub>~plugin/index.php/Main_Page) - deb, .ipk archives, IzPack-installer
+- [http://mojo.codehaus.org/solaris-maven-plugin/](http://mojo.codehaus.org/solaris-maven-plugin/) (See also [http://mojo.codehaus.org/solaris/solaris-maven-plugin](http://mojo.codehaus.org/solaris/solaris-maven-plugin)) 
+- [rpm-maven-plugin](http://mojo.codehaus.org/rpm-maven-plugin/)
+- [mvn-pkg-plugin](http://wiki.evolvis.org/mvn-pkg-plugin/index.php/Main_Page) - deb, .ipk archives, IzPack-installer
 
 #### Windows packages 
 
@@ -19,13 +19,13 @@ The following Maven plugins can generate native (operating system specific) inst
 - NSIS
     - [Nullsoft Scriptable Install System](http://en.wikipedia.org/wiki/Nullsoft_Scriptable_Install_System)
     - [nsis](http://nsis.sourceforge.net/Main_Page)
-    - [nsis<sub>~maven</sub><sub>plugin](http://mojo.codehaus.org/nsis</sub><sub>maven</sub>~plugin/) 
+    - [nsis-maven-plugin](http://mojo.codehaus.org/nsis-maven-plugin/) 
 
 - [InstallShield](http://en.wikipedia.org/wiki/InstallShield) 
     - [InstallShield features](http://www.acresso.com/products/is/installshield-features.htm)
     - [InstallAnywhere](http://www.acresso.com/products/ia/installanywhere-requirements.htm)
 
 - Wise 
-    - [Wise Installation Express](http://www.symantec.com/business/wise<sub>~installation</sub>~express)
-    - [Wise Installation Studio](http://www.symantec.com/business/wise<sub>~installation</sub>~studio)
+    - [Wise Installation Express](http://www.symantec.com/business/wise-installation-express)
+    - [Wise Installation Studio](http://www.symantec.com/business/wise-installation-studio)
     - [Wise Package Studio](http://www.symantec.com/business/package-studio)

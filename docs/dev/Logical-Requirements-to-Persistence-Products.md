@@ -36,7 +36,7 @@ The obvious approaches are:
     - Does one exist? 
 
 - Create an interface which can be implemented by **multiple products/solutions with different characteristics**. 
-    - In the RDBMS world this could (theoretically) be implemented by using an embeddable database (HSQLDB, H2, Derby) for testing and when the application has little load and use for example Oracle when the load increase. Known problems with this approach: none/few RDBMS are 100% compatible (due to a weak/too small SQL standard?), migrations and schema changes are painful, RDBMS does not scale very well (compared to e.g. tuple spaces or In<sub>~memory Distributed</sub>~data Grid Solutions), etc.
+    - In the RDBMS world this could (theoretically) be implemented by using an embeddable database (HSQLDB, H2, Derby) for testing and when the application has little load and use for example Oracle when the load increase. Known problems with this approach: none/few RDBMS are 100% compatible (due to a weak/too small SQL standard?), migrations and schema changes are painful, RDBMS does not scale very well (compared to e.g. tuple spaces or In-memory Distributed-data Grid Solutions), etc.
  
 
 An alternative (less obvious) approach is to accept that there is no silver-bullet and embrace/tackle the complexity instead of struggling to deny it. That is not only create interfaces for what we want, but also create a product which implement the patterns we want to use, bridge the gap between our preferred usage and what the products offer and make this "_enterprisey_" solution easily available to the average programmer. It seems that the EDR pattern might be a central concept here... 
@@ -48,9 +48,9 @@ An alternative (less obvious) approach is to accept that there is no silver-bull
 - EDR 
 
 #### Resources 
-- [Drop ACID and Think About Data](http://highscalability.com/drop<sub>~acid</sub><sub>and</sub><sub>think</sub>~about-data)
+- [Drop ACID and Think About Data](http://highscalability.com/drop-acid-and-think-about-data)
 
 - [http://wiki.cantara.no/display/PE/Data+laget](http://wiki.cantara.no/display/PE/Data+laget)
 
 - [Agile databases, by Anders Sveen](http://blog.f12.no/wp/2009/01/03/agile-databases/)
-- [Migrations for Java, by Anders Sveen](http://blog.f12.no/wp/2009/01/03/migrations<sub>~for</sub>~java/)
+- [Migrations for Java, by Anders Sveen](http://blog.f12.no/wp/2009/01/03/migrations-for-java/)

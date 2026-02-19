@@ -2,9 +2,9 @@
 
 ## Strategies and tactics
 
-### To web<sub>~test or not to web</sub>~test
+### To web-test or not to web-test
 
-It depends. Remember that even though web<sub>~tests may seem easy and quick, they are expensive compared to unit</sub>~tests. However, you can get pretty far with just having a single test or script that attempts to do some scraping of your webapp.
+It depends. Remember that even though web-tests may seem easy and quick, they are expensive compared to unit-tests. However, you can get pretty far with just having a single test or script that attempts to do some scraping of your webapp.
 
 ### Keep them outside the normal build
 
@@ -14,7 +14,7 @@ Cause they're slow.
 
 Depending on the nature of your web application, different tools will suit you. Try out different ones and see what works for you.
 
-## [Web test tools](Web<sub>~test</sub>~tools.md)
+## [Web test tools](Web-test-tools.md)
 
 ### Headless (these use virtual buffer browsers, like the HttpClient library)
 - JWebUnit

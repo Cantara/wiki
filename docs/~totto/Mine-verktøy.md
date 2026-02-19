@@ -8,9 +8,9 @@ Jeg har bøttevis av hardware. Til daglig løper jeg rundt med en Lenovi Thinkpa
 
 Jeg jobber stort sett ute hos kunder, og på de forskjellige kontorene står det diverse PC-er som kundene eier.
 
-Jeg bruker også mye mine egne servere som jeg har stående i et eget srever<sub>~rom på forskningsparken. Den serveren jeg bruker mest er en Sun x4600 med 2 CPU</sub>~kort og iSCSI SAN.
+Jeg bruker også mye mine egne servere som jeg har stående i et eget srever-rom på forskningsparken. Den serveren jeg bruker mest er en Sun x4600 med 2 CPU-kort og iSCSI SAN.
 
-Hjemme har jeg vel en 5<sub>~6 laptopper, de fleste Thinkpads, men også noen EeePC</sub>~er.  Hjemme bruker jeg Mac Mini som servere og som HTPC.  Når det kommer til skjermer, så er de stort sett 24" eller større, med minst fullHD oppløsning.
+Hjemme har jeg vel en 5-6 laptopper, de fleste Thinkpads, men også noen EeePC-er.  Hjemme bruker jeg Mac Mini som servere og som HTPC.  Når det kommer til skjermer, så er de stort sett 24" eller større, med minst fullHD oppløsning.
 
 Nettverksmessig, så kjører jeg innebygget 3G i laptoppen så jeg slipper å ha en million wlan konfigurasjoner liggende. Bruker kun WLAN/3g som fallback til daglig.
 

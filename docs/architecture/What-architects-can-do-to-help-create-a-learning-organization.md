@@ -18,4 +18,4 @@ These techniques are _examples_ on how the architect can help create a learning 
 - Personal qualities 
     - How to train yourself 
 
-- [Vær<sub>~varsom plakaten for arkitekten](http://brodwall.com/johannes/blog/2009/04/22/v%c3%a6r</sub><sub>varsom</sub><sub>plakaten</sub>~for-arkitekten/) - Johannes Brodwall
+- [Vær-varsom plakaten for arkitekten](http://brodwall.com/johannes/blog/2009/04/22/v%c3%a6r-varsom-plakaten-for-arkitekten/) - Johannes Brodwall

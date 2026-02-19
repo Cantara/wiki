@@ -4,7 +4,7 @@ Tradisjonen tro, så er det på nytt klart for årets juleølsmaking, som i år 
 
 ### Kritisk info
 
-| Tid | Lørdag 10.11<sub>~2012, 18:00</sub>~> |
+| Tid | Lørdag 10.11-2012, 18:00-> |
 | Sted | Vetlandsveien 87 B (hos Sara og Hein) |
 | Forberedelse | Kjøpe en av hver av det **norske** juleølet **på polet** |
 
@@ -34,8 +34,8 @@ Tradisjonen tro, så er det på nytt klart for årets juleølsmaking, som i år 
 - Smakshjul: [http://brewery.org/brewery/library/colorwheel.jpg](http://brewery.org/brewery/library/colorwheel.jpg)
 - Bedømmelsesskjema: [http://realbeer.com/spencer/judge/scoresheet.ps](http://realbeer.com/spencer/judge/scoresheet.ps)
 - Evalueringsskjema: [http://www.chilliman.com/beer_eval.htm](http://www.chilliman.com/beer_eval.htm)
-- Jargong:  [http://marty<sub>~nachel.suite101.com/beer</sub><sub>tasting</sub><sub>jargon</sub><sub>a103166](http://marty</sub><sub>nachel.suite101.com/beer</sub><sub>tasting</sub><sub>jargon</sub>~a103166)
-- [http://www.winning<sub>~homebrew.com/evaluating</sub><sub>beer.html](http://www.winning</sub><sub>homebrew.com/evaluating</sub>~beer.html)
+- Jargong:  [http://marty-nachel.suite101.com/beer-tasting-jargon-a103166](http://marty-nachel.suite101.com/beer-tasting-jargon-a103166)
+- [http://www.winning-homebrew.com/evaluating-beer.html](http://www.winning-homebrew.com/evaluating-beer.html)
 - [http://brewery.org/TastingCont.html](http://brewery.org/TastingCont.html)
 
 ### Litt om at vi er tradisjonsbærere:

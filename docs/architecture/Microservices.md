@@ -23,7 +23,7 @@ https://wiki.cantara.no/download/attachments/40206963/whydah_micro_service_archi
 
 - [Pattern: Monolithic Architecture](http://microservices.io/patterns/monolithic.html)
 
-- [dev:Package by feature](../dev/Package<sub>~by</sub>~feature.md)
+- [dev:Package by feature](../dev/Package-by-feature.md)
 
 - Remote vs in-process deployment 
     - Remoting: Klient => Endepunkt(MicroService) vs   
@@ -37,7 +37,7 @@ https://wiki.cantara.no/download/attachments/40206963/whydah_micro_service_archi
 - Størrelse og ansvar for en tjeneste 
     - Når er den liten nok til å kalles "micro"? (SRP - Service manifest - Tjenestekategorisering)
     - Når er den for liten?  (Hvilke premisser trigger de minste)
-    - [architecture:Clear and consistent responsibility power all great architectures](../architecture/Clear<sub>~and</sub><sub>consistent</sub><sub>responsibility</sub><sub>power</sub><sub>all</sub>~great-architectures.md)
+    - [architecture:Clear and consistent responsibility power all great architectures](../architecture/Clear-and-consistent-responsibility-power-all-great-architectures.md)
     - [Single responsibility principle](http://en.wikipedia.org/wiki/Single_responsibility_principle) 
 
 ###### Deployment and infrastructure 
@@ -64,10 +64,10 @@ https://wiki.cantara.no/download/attachments/40206963/whydah_micro_service_archi
         - bruk
         - last
 
-- [OWSOA:The Laws of SOA](../OWSOA/The<sub>~Laws</sub>~of-SOA.md) - hva gir mest verdi herfra? 
+- [OWSOA:The Laws of SOA](../OWSOA/The-Laws-of-SOA.md) - hva gir mest verdi herfra? 
     - (OW) SOA vs REST vs xx [https://wiki.cantara.no/display/OWSOA/Service+Oriented+Architecture+FAQ](https://wiki.cantara.no/display/OWSOA/Service+Oriented+Architecture+FAQ)
 
-- [WSA:SOA Service Categories](../WSA/SOA<sub>~Service</sub>~Categories.md) - hva gir mest verdi herfra? 
+- [WSA:SOA Service Categories](../WSA/SOA-Service-Categories.md) - hva gir mest verdi herfra? 
 
 #### Read more 
 
@@ -77,6 +77,6 @@ https://wiki.cantara.no/download/attachments/40206963/whydah_micro_service_archi
 
 - [Pattern: Microservices Architecture](http://microservices.io/patterns/microservices.html)
 
-- http://radar.oreilly.com/2015/04/4<sub>~reasons</sub><sub>why</sub><sub>microservices</sub>~resonate.html
+- http://radar.oreilly.com/2015/04/4-reasons-why-microservices-resonate.html
 
-- http://blog.arungupta.me/microservices<sub>~monoliths</sub>~noops/
+- http://blog.arungupta.me/microservices-monoliths-noops/

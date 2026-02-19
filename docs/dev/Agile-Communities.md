@@ -15,4 +15,4 @@ Agile communities/industries celebrate and recognize organizations and individua
 
 ### Resources
 
-- [The Software Development Community in Oslo, by Olve Maudal](http://olvemaudal.wordpress.com/2008/04/30/the<sub>~software</sub><sub>development</sub><sub>community</sub>~in-oslo/)
+- [The Software Development Community in Oslo, by Olve Maudal](http://olvemaudal.wordpress.com/2008/04/30/the-software-development-community-in-oslo/)

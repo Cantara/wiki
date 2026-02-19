@@ -4,7 +4,7 @@ Use case: Graphical web application using HTML5 and JavaScript. Needs to use ser
 
 #### Alternative 1: Communicate with backend which in turn fetch data from other services 
 
-**[Diagram: rest<sub>~consumer](../Diagram/rest</sub>~consumer.md)**
+**[Diagram: rest-consumer](../Diagram/rest-consumer.md)**
 
 ###### Pros 
 
@@ -20,7 +20,7 @@ Use case: Graphical web application using HTML5 and JavaScript. Needs to use ser
 
 #### Alternative 2: Use CORS and communicate directly 
 
-**[Diagram: cors<sub>~consumer](../Diagram/cors</sub>~consumer.md)**
+**[Diagram: cors-consumer](../Diagram/cors-consumer.md)**
 
 ###### Pros 
 

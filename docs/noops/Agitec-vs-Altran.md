@@ -5,7 +5,7 @@
 - Norsk selskap
 - 8-9 personer, Kjell Nybråten (Chairman) 
 - Totto som CTO
-- Totto: jeg er nok mere fortrolig med Kjell/Agitec sin bransje<sub>~erfaring og stayer</sub>~evne...  og det å legge Agitec som leveransemuskelen til Stein og gjengens sitt Systems Thinking miljø kan være en spennende synergi... 
+- Totto: jeg er nok mere fortrolig med Kjell/Agitec sin bransje-erfaring og stayer-evne...  og det å legge Agitec som leveransemuskelen til Stein og gjengens sitt Systems Thinking miljø kan være en spennende synergi... 
     - kan dog gi utfordringer med noen av de som allerede er ansatt der
 
 jeg tar en 2 timers strategidiskusjon med Agitec i morgen... om hva jeg vil stå for og medføre av endring/vinkling i Agitec med Kjell i morgen...  så får vi testet ut litt av det

@@ -10,7 +10,7 @@ Having one or more environments that are identical to production. It is a very c
 - Test stage
 - Pre-production stage
 
-Different stages usually signify different levels of maturity or production<sub>~readiness. The development stage might be used for latest</sub><sub>and</sub><sub>greatest code deployed by a nightly build. The pre</sub>~production environment could be used as the final go/no-go before production.
+Different stages usually signify different levels of maturity or production-readiness. The development stage might be used for latest-and-greatest code deployed by a nightly build. The pre-production environment could be used as the final go/no-go before production.
 
 ### Challenges
 
@@ -22,5 +22,5 @@ Different stages usually signify different levels of maturity or production<sub>
 
 ### Resources
 
-- Staged Spring, helps you configure your project for different stages: http://projects.kaare<sub>~nilsen.com/projects/show/staged</sub>~spring
+- Staged Spring, helps you configure your project for different stages: http://projects.kaare-nilsen.com/projects/show/staged-spring
 - Merilo, a utility combining CI with scripts that can re-run traffic from the production environment in a staged environment: http://boss.bekk.no/display/BOSS/Merilo

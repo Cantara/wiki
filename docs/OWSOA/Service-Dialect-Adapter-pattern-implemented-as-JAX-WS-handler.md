@@ -12,7 +12,7 @@ The proposed solution demonstrates one possible way to achieve this. Its main st
 - At each time there is only one official WSDL. All new clients will only see it.
 - Heavy reuse of xsd files. If two WSDL versions have common parts, they will not be duplicated.
 
-> ℹ️ Please note that this is an endpoint<sub>~bound solution to the ESE/ESA pattern, which does make sense in many circumstances, but which is not true to the OW SOA service manifest which dictates a service</sub>~bound solution (and thus being able to support a greater varity of endpoint strategies :)
+> ℹ️ Please note that this is an endpoint-bound solution to the ESE/ESA pattern, which does make sense in many circumstances, but which is not true to the OW SOA service manifest which dictates a service-bound solution (and thus being able to support a greater varity of endpoint strategies :)
 
 ## Technical notes
 
@@ -41,7 +41,7 @@ The main advantages of xsd-based approach are:
 > 💡 * Extensions must not use the **targetNamespace** value.
 > 💡 * When adding new data structures, make them optional and add them to the end of service request messages.
 > 💡 * Changing service response messages (other than type restrictions) are breaking changes that will require a new version of the service.
-> 💡 * Adopt a one<sub>~to</sub>~one relationship between interface versions and UDDI tModels.
+> 💡 * Adopt a one-to-one relationship between interface versions and UDDI tModels.
 
 As an illustration of different dialects consider the following two requests to an imaginary Customer Service. Both requests are asking for the same data but do it in different ways:
 ```title
@@ -55,14 +55,14 @@ As an illustration of different dialects consider the following two requests to 
 </dialect:getCustomer>
 ```
 The following drawing illustrates an ESE which supports two dialects. Each of them is based on a separate xsd with a unique namespace. When a clients request arrives at the ESE, the service adapter just delegates processing to an appropriate service dialect adapter. Later we will see how and when the service dialect adapter is chosen. For now assume that the service adapter (Java class annotated as a WS endpoint) just happens to know the clients dialect for each incoming request.
-![ESE_versioning.jpg](ESE_versioning-jpg.md)(ESE_versioning.jpg)
+![ESE_versioning.jpg](8487004-ESE_versioning.jpg)
 
 ## How and when to determine dialect?
 
 A service endpoint may have a set of policies associated with it. Examples of policies are authorization, logging, etc. Typically a policy defines some preprocessing of incoming messages and postprocessing of outgoing messages. It is effectively an interceptor around a service endpoint. Since policy implementations usually use the contents of incoming and outgoing messages, they should be able to understand clients dialects in the same way as service adapters do.
 
-JAX<sub>~WS allows policy functionality by means of WS Handlers which execute before and after invocations of service endpoints. For each policy we can define a set of handlers and organize them in handler chain. Since each policy handler will need to know the clients dialect we must determine it before the first handler in the handler chain is called. The most obvious solution is to create a special handler which will always be called first in the handler chain and whose only responsibility will be to determine the correct service dialect adapter for the incoming request and put it in some place where all other handlers and service adapter can access. In JAX</sub>~WS the MessageContext is exactly such a place.
-![ESE_ServiceDialectHandler.jpg](ESE_ServiceDialectHandler-jpg.md)(ESE_ServiceDialectHandler.jpg)
+JAX-WS allows policy functionality by means of WS Handlers which execute before and after invocations of service endpoints. For each policy we can define a set of handlers and organize them in handler chain. Since each policy handler will need to know the clients dialect we must determine it before the first handler in the handler chain is called. The most obvious solution is to create a special handler which will always be called first in the handler chain and whose only responsibility will be to determine the correct service dialect adapter for the incoming request and put it in some place where all other handlers and service adapter can access. In JAX-WS the MessageContext is exactly such a place.
+![ESE_ServiceDialectHandler.jpg](8487004-ESE_ServiceDialectHandler.jpg)
 
 ## ESE and JBI
 
@@ -72,7 +72,7 @@ When a web service is deployed in a JBI environment it becomes a Service Unit(SU
 
 It follows that any two SUs communicating with each other either directly or indirectly (via a chain of SUs) may need to agree on the message format. The message format which a SU understands is defined in WSDL descriptor which accompanies the SU. The degree of such coupling varies in different arrangements of SUs. On one extreme, the communicating SUs might be completely unaware of the message format. On the other extreme, the communicating SUs might need to know the exact format of the messages. The fact that a web service with ESE does not have a fixed message format may complicate the arrangement of SUs.
 
-The message format coupling between a provider SU and a consumer SU arises when a consumer SUs makes certain assumptions about the message format. In other words, the provider SU must be sure that the message that it sends will be understood by the consumer SU. With ESE in mind, we can think of 4 different arrangements of message<sub>~format</sub>~aware SUs and the corresponding message definitions in WSDL descriptors:
+The message format coupling between a provider SU and a consumer SU arises when a consumer SUs makes certain assumptions about the message format. In other words, the provider SU must be sure that the message that it sends will be understood by the consumer SU. With ESE in mind, we can think of 4 different arrangements of message-format-aware SUs and the corresponding message definitions in WSDL descriptors:
 |  | Provider WSDL | Consumer WSDL |
 | --- | --- | --- |
 | None of SUs support ESE | Strong/weak type definitions | Strong type definitions |
@@ -109,4 +109,4 @@ Consider a simple case where a web service supporting ESE is exposed via a File 
     </xsd:element>
 </xsd:schema>
 ```
-![ese_jbi.PNG](ese_jbi-PNG.md)(ese_jbi.PNG)
+![ese_jbi.PNG](ese_jbi.PNG)

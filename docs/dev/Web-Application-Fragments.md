@@ -2,7 +2,7 @@
 
 It is possible to re-use fragments of web applications. Think two web applications being dependent on the same module of templates. However, there are some limitations:
 
-- JSP's can generally not be packaged inside JAR<sub>~files in your classpath (they have to be located openly in the WAR</sub>~file, so they can be compiled into servlets.
+- JSP's can generally not be packaged inside JAR-files in your classpath (they have to be located openly in the WAR-file, so they can be compiled into servlets.
 - Web resources (images, JavaScript, CSS) can not be packaged inside JAR-files unless they are accessed as classpath resources (you can make a resource filter). 
 
 **So how do we pull together JSPs from different modules?**

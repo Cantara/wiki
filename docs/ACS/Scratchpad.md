@@ -1,13 +1,13 @@
 # Scratchpad
 
 hostname: Temporary failure in name resolution
-make<sub>~ssl</sub>~cert: Could not get FQDN, using "altubuntu01".
-make<sub>~ssl</sub>~cert: You may want to fix your /etc/hosts and/or DNS setup and run
-make<sub>~ssl</sub><sub>cert: make</sub><sub>ssl</sub><sub>cert generate</sub><sub>default</sub>~snakeoil --force-overwrite
-make<sub>~ssl</sub>~cert: again.
+make-ssl-cert: Could not get FQDN, using "altubuntu01".
+make-ssl-cert: You may want to fix your /etc/hosts and/or DNS setup and run
+make-ssl-cert: make-ssl-cert generate-default-snakeoil --force-overwrite
+make-ssl-cert: again.
 Processing triggers for ureadahead ...
 Processing triggers for ufw ...
-Setting up apache2<sub>~mpm</sub>~worker (2.2.22-6ubuntu2.1) ...
+Setting up apache2-mpm-worker (2.2.22-6ubuntu2.1) ...
  * Starting web server apache2                                                  apache2: apr_sockaddr_info_get() failed for altubuntu01
 
 ---
@@ -17,4 +17,4 @@ Twitter-Bootstrap needs to be installed
 Django needs write access to the directory that the db is in
 Login button always points to Altran SSO (/admin will force django auth login though)
 The server tries to access jquery.js, django admin static content, bootstrap etc. in /var/www/static
-  Most of this is easy to find, but also looks for /var/www/static/js/jquery<sub>~ui</sub>~1.8.22.custom.min.js
+  Most of this is easy to find, but also looks for /var/www/static/js/jquery-ui-1.8.22.custom.min.js

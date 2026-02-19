@@ -2,9 +2,9 @@
 
 **Motivation:** Architecture is balance, but sometimes you need to pinpoint key issues (even if we acknowledge that your mileage will wary)
 
-![http://www.davidlouisedelman.com/wp<sub>~content/uploads/the</sub><sub>architect.jpg](http://www.davidlouisedelman.com/wp</sub><sub>content/uploads/the</sub><sub>architect.jpg)(http://www.davidlouisedelman.com/wp</sub><sub>content/uploads/the</sub>~architect.jpg) 
+![http://www.davidlouisedelman.com/wp-content/uploads/the-architect.jpg](http://www.davidlouisedelman.com/wp-content/uploads/the-architect.jpg) 
 
-_The Architect_ from Matrix:Reloaded, picture borrowed from [davidlouisedelman.com](http://www.davidlouisedelman.com/fantasy/whatta<sub>~fiasco</sub>~glossary/). 
+_The Architect_ from Matrix:Reloaded, picture borrowed from [davidlouisedelman.com](http://www.davidlouisedelman.com/fantasy/whatta-fiasco-glossary/). 
 
 #### Dimensions 
 
@@ -12,13 +12,13 @@ _The Architect_ from Matrix:Reloaded, picture borrowed from [davidlouisedelman.c
 
 - One application, one subsystem, entire system 
 
-- [Communication vs Technology focus](Communication<sub>~vs</sub>~Technology-focus.md)
+- [Communication vs Technology focus](Communication-vs-Technology-focus.md)
 
 ## TODO
 
 80% communication, 20% technical work
 
-PAB - [KM:Policy Advisory Board (PAB)](../KM/Policy<sub>~Advisory</sub>~Board-PAB.md)
+PAB - [KM:Policy Advisory Board (PAB)](../KM/Policy-Advisory-Board-PAB.md)
 
 ###### Coordinating architect
 

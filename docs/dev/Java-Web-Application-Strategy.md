@@ -12,10 +12,10 @@ We have chosen to limit the scope of this strategy as follows:
 
 ### Components in the strategy
 
-- [Enterprise Maven Infrastructure](Enterprise<sub>~Maven</sub>~Infrastructure.md) 
-- [Web Application JigZaw](Web<sub>~Application</sub>~JigZaw.md)
-- [Web Application Architecture](Web<sub>~Application</sub>~Architecture.md)
-- [Web application container pull deployment](Web<sub>~application</sub><sub>container</sub><sub>pull</sub>~deployment.md)
-- [Web Application Security](Web<sub>~Application</sub>~Security.md)
-- [Web Application Logging](Web<sub>~Application</sub>~Logging.md)
-- [Agile Mindset and Methodology](Agile<sub>~Mindset</sub>~and-Methodology.md)
+- [Enterprise Maven Infrastructure](Enterprise-Maven-Infrastructure.md) 
+- [Web Application JigZaw](Web-Application-JigZaw.md)
+- [Web Application Architecture](Web-Application-Architecture.md)
+- [Web application container pull deployment](Web-application-container-pull-deployment.md)
+- [Web Application Security](Web-Application-Security.md)
+- [Web Application Logging](Web-Application-Logging.md)
+- [Agile Mindset and Methodology](Agile-Mindset-and-Methodology.md)

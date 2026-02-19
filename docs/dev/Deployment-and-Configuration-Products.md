@@ -2,10 +2,10 @@
 
 - [commons-daemon (JSVC)](http://commons.apache.org/daemon/jsvc.html)  
 
-- [appassembler<sub>~maven</sub><sub>plugin](http://mojo.codehaus.org/appassembler/appassembler</sub><sub>maven</sub>~plugin/) - Assembles the artifacts and generates bin scripts for the configured applications
+- [appassembler-maven-plugin](http://mojo.codehaus.org/appassembler/appassembler-maven-plugin/) - Assembles the artifacts and generates bin scripts for the configured applications
 
-- [maven<sub>~assembly</sub><sub>plugin](http://maven.apache.org/plugins/maven</sub><sub>assembly</sub>~plugin/)
+- [maven-assembly-plugin](http://maven.apache.org/plugins/maven-assembly-plugin/)
 
-- [Open Source Installers Generators in Java](http://java<sub>~source.net/open</sub>~source/installer-generators) 
+- [Open Source Installers Generators in Java](http://java-source.net/open-source/installer-generators) 
 
 [BMC (Marimba) Application Manager](http://www.coalitionnet.com/keyBMC.html)

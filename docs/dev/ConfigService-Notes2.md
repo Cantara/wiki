@@ -26,18 +26,18 @@ ED: this page can probably be deleted. Everything worth saving has been moved to
 
 - A **nice to have** feature: Configuration that can be overridden should show what syntax to use. (E.g. a file with key=value as comments) 
 
-**Resources**: [Basic configuration tactics](Basic<sub>~configuration</sub>~tactics.md). 
+**Resources**: [Basic configuration tactics](Basic-configuration-tactics.md). 
 
 #### Implementation 
 
-ConfigService + Commons<sub>~Configuration + spring</sub>~module-commons
+ConfigService + Commons-Configuration + spring-module-commons
 
 The complexity of the ConfigService can be reduced if the applications handle some of the configuration. 
 For example let each application check whether all required external services are configured correctly and are available (otherwise die and log an error message). 
 
 ## ConfigService 
 
-- ConfigService implemented as client<sub>~server with JMX</sub>~RPC as transport protocol. 
+- ConfigService implemented as client-server with JMX-RPC as transport protocol. 
 
 - Use [Configuration Categorization](Configuration-Categorization.md) as basis for a tree/graph based XML structure. Properties are inherited from nodes closer to the root and can be overridden in a leaf node. 
 

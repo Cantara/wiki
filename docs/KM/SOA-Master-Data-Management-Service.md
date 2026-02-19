@@ -10,7 +10,7 @@ Attribution: This work started on [wiki.community.objectware.no](http://wiki.com
 > ℹ️ * Reduced complexity by zooming in to one single Business Object at a time
 > ℹ️ * All non-business object relations handled as resource references.
 > ℹ️ * Simple first generation implementation within 2-3 months
-> ℹ️ * By adding support for managed Business Objects in your SOA,  you facilitate and enable event<sub>~driven architectures and real</sub>~  time enterprise.
+> ℹ️ * By adding support for managed Business Objects in your SOA,  you facilitate and enable event-driven architectures and real-  time enterprise.
 
 ## Intro
 
@@ -30,7 +30,7 @@ NB. The problems description needs major rework - most people does not get the m
 
 ### The vision
 
-To solve the data problems in the simplest and most flexible way and at the same time provide a solid building block on the way to enable the **[Real Time Enterprise](Real<sub>~Time</sub><sub>Enterprise.md)** vision for a service</sub><sub>oriented **[System Strategy](System</sub><sub>Strategy.md)**. EDR</sub><sub>MDS is primed to be the best strategy to move to SOA Maturity Level 2. ([SOA Maturity Models and EDR</sub><sub>MDS](SOA</sub><sub>Maturity</sub><sub>Models</sub><sub>and</sub>~EDR-MDS.md))
+To solve the data problems in the simplest and most flexible way and at the same time provide a solid building block on the way to enable the **[Real Time Enterprise](Real-Time-Enterprise.md)** vision for a service-oriented **[System Strategy](System-Strategy.md)**. EDR-MDS is primed to be the best strategy to move to SOA Maturity Level 2. ([SOA Maturity Models and EDR-MDS](SOA-Maturity-Models-and-EDR-MDS.md))
 
 ### EDR-MDS
 
@@ -38,9 +38,9 @@ To allow standard software to coexist nicely with SOA, we need to master our dis
 
 **Highlights**
 - Field/value based mastering (dynamic readable rules(DSL))‏
-- Auto<sub>~update/write</sub>~back to all involved parties (using the standard provider)‏
+- Auto-update/write-back to all involved parties (using the standard provider)‏
 - Out-of bounds mastering/overwrite to leverage the most of all applications
-- Out<sub>~of</sub>~bounds triggers for each provider
+- Out-of-bounds triggers for each provider
 
 **Backbones**
 - JavaSpace (Blitz)
@@ -68,20 +68,20 @@ All mastering strategies are primarily focused towards categorized Core Services
 - Reduced complexity by zooming in to one single Business Object at a time
 - All non-business object relations handled as resource references.
 - Simple first generation implementation within 2-3 months
-- By adding support for managed Business Objects in your SOA,  you facilitate and enable event<sub>~driven architectures and real</sub>~  time enterprise.
-- [Value Delivered - Business Cases](Value<sub>~Delivered</sub>~Business-Cases.md)
+- By adding support for managed Business Objects in your SOA,  you facilitate and enable event-driven architectures and real-  time enterprise.
+- [Value Delivered - Business Cases](Value-Delivered-Business-Cases.md)
 
 > ℹ️ EDR-MDS is just **good old common sense** 
 > ℹ️ * EDR-MDS can be implemented in your favorite technology, container, product or programming language. 
 
 ### Quick links
 
-- [Value Delivered - Business Cases](Value<sub>~Delivered</sub>~Business-Cases.md)
-- [SOA Maturity Models and EDR<sub>~MDS](SOA</sub><sub>Maturity</sub><sub>Models</sub><sub>and</sub><sub>EDR</sub>~MDS.md)
-- [SOA Hype Chart](SOA<sub>~Hype</sub>~Chart.md)
-- [Laws of SOA](Laws<sub>~of</sub>~SOA.md)
+- [Value Delivered - Business Cases](Value-Delivered-Business-Cases.md)
+- [SOA Maturity Models and EDR-MDS](SOA-Maturity-Models-and-EDR-MDS.md)
+- [SOA Hype Chart](SOA-Hype-Chart.md)
+- [Laws of SOA](Laws-of-SOA.md)
 
-![OW<sub>~EDR</sub><sub>Master</sub><sub>Strategy</sub><sub>5</sub><sub>with</sub><sub>text.jpg](OW</sub><sub>EDR</sub><sub>Master</sub><sub>Strategy</sub><sub>5</sub><sub>with</sub><sub>text</sub><sub>jpg.md)(OW</sub><sub>EDR</sub><sub>Master</sub><sub>Strategy</sub><sub>5</sub>~with-text.jpg)
+![OW-EDR-Master-Strategy-5-with-text.jpg](2654573-OW-EDR-Master-Strategy-5-with-text.jpg)
 ---
 
 {contributors-summary:order=edits|limit=23|childrenshow|Anonymous=true}

@@ -2,7 +2,7 @@
 
 Probably a good idea to create a (web) portal to have one central point of access to these tools. 
 
-- End<sub>~to</sub>~end "_shallow ping_" through the system, _service_ _level_ 
+- End-to-end "_shallow ping_" through the system, _service_ _level_ 
 
 - Front end for centralized [Logging](Logging.md) 
 

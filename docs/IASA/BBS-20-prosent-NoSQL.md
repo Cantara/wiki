@@ -2,6 +2,6 @@
 
 2009.10.14 - Bjørn Nordlund og Hans-Petter Vadseth
 
-{slide<sub>~share:url=http://www.slideshare.net/bjornno/bbs</sub>~tjueprosent-nosql|align=center} 
+{slide-share:url=http://www.slideshare.net/bjornno/bbs-tjueprosent-nosql|align=center} 
 
-- http://www.slideshare.net/bjornno/bbs<sub>~tjueprosent</sub>~nosql
+- http://www.slideshare.net/bjornno/bbs-tjueprosent-nosql

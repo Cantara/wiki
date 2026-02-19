@@ -19,4 +19,4 @@
 
 ---
 
-### [Design<sub>~Time Governance - SOA Design Rules FAQ](Design</sub><sub>Time</sub><sub>Governance</sub><sub>SOA</sub><sub>Design</sub>~Rules-FAQ.md)
+### [Design-Time Governance - SOA Design Rules FAQ](Design-Time-Governance-SOA-Design-Rules-FAQ.md)

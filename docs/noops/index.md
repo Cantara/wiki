@@ -12,9 +12,9 @@ Drodleplass for alternativer rundt oppstart "konsulent"
 
 #### Starte eget
 
-- hånd til munn...  kapitalbehov: 500k<sub>~1m     (4 pers, 300</sub>~400k/mnd burn rate)   opppside:  akskjekontroll   nedside: tømmes fort hvis vi ikke får nok mat/høy nok timepris  dekningsbidrag 2013:500k-1m
-- "new deal"  kapitalbehov: 2m<sub>~3m     (5 pers, 500</sub>~600k/mnd burn rate)  oppside:  sikker funding over tid.. nedside: ikke aksjekontroll   dekningsbidrak 2013: 0-1m
-- split 50% giftit / 50% konsulent...       kapitalbehov: 5<sub>~7" (giftit + hånd</sub>~munn)  dekningsbidrag 2013: 0
+- hånd til munn...  kapitalbehov: 500k-1m     (4 pers, 300-400k/mnd burn rate)   opppside:  akskjekontroll   nedside: tømmes fort hvis vi ikke får nok mat/høy nok timepris  dekningsbidrag 2013:500k-1m
+- "new deal"  kapitalbehov: 2m-3m     (5 pers, 500-600k/mnd burn rate)  oppside:  sikker funding over tid.. nedside: ikke aksjekontroll   dekningsbidrak 2013: 0-1m
+- split 50% giftit / 50% konsulent...       kapitalbehov: 5-7" (giftit + hånd-munn)  dekningsbidrag 2013: 0
 
 #### Eksisterende miljø
 

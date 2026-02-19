@@ -22,7 +22,7 @@ Mer informasjon om disse finner du senere i denne guiden.
     - Først fyller du ut tittel på kompetanse-typen (f.eks. "Programmeringsspråk" og "Metodikker").
     - Fyll deretter ut innholdet (f.eks. "Java, .NET"). \\
 \\ **Språk**
-- Du trenger kun fylle ut for engelske felter (merket med **(en)** ) hvis disse er forskjellige fra original<sub>~språket. Hvis (en)</sub><sub>feltet er tomt, vil informasjonen hentes fra original</sub><sub>språk</sub>~feltet.
+- Du trenger kun fylle ut for engelske felter (merket med **(en)** ) hvis disse er forskjellige fra original-språket. Hvis (en)-feltet er tomt, vil informasjonen hentes fra original-språk-feltet.
 - Hvis du fyller ut all din informasjon på "Engelsk |
 | !acs-workplaces.png | border=1,width=600px! | **Workplaces** er for å ha dine ansettelser. Mange konsulenter er ansatt i en bedrift, men jobber på prosjektbasis ved andre bedrifter - disse prosjektene fylles ut under "Experiences". \\ |
 \\ 

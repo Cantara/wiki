@@ -1,6 +1,6 @@
 # Client position Map
 
-### [Client position Map](Client<sub>~position</sub>~Map.md)
+### [Client position Map](Client-position-Map.md)
 
 - Functionality
 - Java scripts

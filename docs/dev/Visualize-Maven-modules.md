@@ -1,7 +1,7 @@
 # Visualize Maven modules
 
 To quickly get a overview of a big Maven project it is often useful to get a visual view of the modules and their dependencies. 
-The Maven [Dependency graph plugin](http://el4j.sourceforge.net/plugins/maven<sub>~depgraph</sub>~plugin/index.html) generates such a dependency graph as a png-file. 
+The Maven [Dependency graph plugin](http://el4j.sourceforge.net/plugins/maven-depgraph-plugin/index.html) generates such a dependency graph as a png-file. 
 
 ```xml
 <!--

@@ -4,7 +4,7 @@ All code needs to be tested, even the database scripts.
 This page contains practices and suggestions for testing database artifacts.
 
 This [PDF book](http://www.informit.com/store/product.aspx?isbn=032150206X) seems to contain very useful practices related to this subject,
-also see [Managing test data](Managing<sub>~test</sub>~data.md).
+also see [Managing test data](Managing-test-data.md).
 
 **General recommendation**:
 

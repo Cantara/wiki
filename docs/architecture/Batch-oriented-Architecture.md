@@ -2,7 +2,7 @@
 
 #### Some resources 
 
-- [dev:Test strategy for Oracle PL_SQL](../dev/Test<sub>~strategy</sub><sub>for</sub><sub>Oracle</sub>~PL_SQL.md)
+- [dev:Test strategy for Oracle PL_SQL](../dev/Test-strategy-for-Oracle-PL_SQL.md)
 
 #### Code examples 
 

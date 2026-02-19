@@ -1,21 +1,21 @@
 # Hva gjør tjenesten?
 
-![image001.jpg](image001-jpg.md)(image001.jpg)
+![image001.jpg](10813759-image001.jpg)
 
-![image002.jpg](image002-jpg.md)(image002.jpg)
+![image002.jpg](10813759-image002.jpg)
 
-![image003.jpg](image003-jpg.md)(image003.jpg)
+![image003.jpg](10813759-image003.jpg)
 
-![image004.jpg](image004-jpg.md)(image004.jpg)
+![image004.jpg](10813759-image004.jpg)
 
-![image005.jpg](image005-jpg.md)(image005.jpg)
+![image005.jpg](10813759-image005.jpg)
 
-![image006.jpg](image006-jpg.md)(image006.jpg)
+![image006.jpg](10813759-image006.jpg)
 
-![image007.jpg](image007-jpg.md)(image007.jpg)
+![image007.jpg](10813759-image007.jpg)
 
-![image008.jpg](image008-jpg.md)(image008.jpg)
+![image008.jpg](10813759-image008.jpg)
 
-![image009.jpg](image009-jpg.md)(image009.jpg)
+![image009.jpg](10813759-image009.jpg)
 
-![image010.jpg](image010-jpg.md)(image010.jpg)
+![image010.jpg](10813759-image010.jpg)

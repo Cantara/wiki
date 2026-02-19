@@ -8,11 +8,11 @@
 
 ### Våre generøse partnere
 
-![finn_logo.png](finn_logo-png.md)(finn_logo.png)
-![Steria<sub>~rgb</sub><sub>web</sub><sub>300x126.jpg](Steria</sub><sub>rgb</sub><sub>web</sub><sub>300x126</sub><sub>jpg.md)(Steria</sub><sub>rgb</sub><sub>web</sub>~300x126.jpg)
-![e<sub>~vita</sub><sub>logo21.png](e</sub><sub>vita</sub><sub>logo21</sub><sub>png.md)(e</sub>~vita-logo21.png)
-![knowit.gif](knowit-gif.md)(knowit.gif)
-![Webstep<sub>~logo</sub><sub>300x95.jpg](Webstep</sub><sub>logo</sub><sub>300x95</sub><sub>jpg.md)(Webstep</sub>~logo-300x95.jpg)
-![Bouvet_logo_blue_201109301.jpg](Bouvet_logo_blue_201109301-jpg.md)(Bouvet_logo_blue_201109301.jpg)
+![finn_logo.png](26607687-finn_logo.png)
+![Steria-rgb-web-300x126.jpg](26607687-Steria-rgb-web-300x126.jpg)
+![e-vita-logo21.png](26607687-e-vita-logo21.png)
+![knowit.gif](26607687-knowit.gif)
+![Webstep-logo-300x95.jpg](26607687-Webstep-logo-300x95.jpg)
+![Bouvet_logo_blue_201109301.jpg](26607687-Bouvet_logo_blue_201109301.jpg)
 
 VIP list: Jonathan Ronen

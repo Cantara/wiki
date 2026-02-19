@@ -28,7 +28,7 @@ Grupperom pr. stk. pr. dag, opp til 12 personer	Kr. 2.000,-
 Grupperom pr. stk. pr. dag, opp til 20 personer	Kr. 5.000,-
 
 Tillegg for: 	
-3<sub>~retters festmeny i restauranten pr. person fra	Kr.    305,</sub>~
-4<sub>~retters festmeny i restauranten pr. person fra	Kr.    375,</sub>~
+3-retters festmeny i restauranten pr. person fra	Kr.    305,-
+4-retters festmeny i restauranten pr. person fra	Kr.    375,-
 festmeny i eget lokale pr. person	                  Kr.     95,-
 pensjonsmiddag i eget lokale pr. person	         Kr.    150,-

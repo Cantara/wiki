@@ -26,7 +26,7 @@ TODO
 
 > 💡 Some common macros to include your presentation: 
 > 💡 
-> 💡 \{slide<sub>~share:url=http://www.slideshare.net/bjornno/bbs</sub>~tjueprosent-nosql|align=center} 
+> 💡 \{slide-share:url=http://www.slideshare.net/bjornno/bbs-tjueprosent-nosql|align=center} 
 > 💡 
 > 💡 \
 > 💡

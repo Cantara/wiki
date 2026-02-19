@@ -24,7 +24,7 @@ The tactics can be used in isolation, but it is more common to utilize multiple 
 (+) All properties can be overridden in property files. 
 (-) It is not possible to use the PropertyOverrideConfigurer to use one property in multiple places and override it only once. 
 
-#### Factory<sub>~bean/factory</sub>~method
+#### Factory-bean/factory-method
 
 ```
 <bean id="first" class="firstClass">

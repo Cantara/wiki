@@ -12,4 +12,4 @@
 </bean>
 ```
 
-http://www.summa<sub>~tech.com/blog/2009/04/20/6</sub><sub>tips</sub><sub>for</sub><sub>managing</sub><sub>property</sub><sub>files</sub><sub>with</sub>~spring/
+http://www.summa-tech.com/blog/2009/04/20/6-tips-for-managing-property-files-with-spring/

@@ -2,13 +2,13 @@
 
 #### Requirements to war archive 
 - Must be released with maven and deployed to a repository.
-- No jetty specific configuration in the war (i.e no WEB<sub>~INF/jetty</sub>~web.xml file).
+- No jetty specific configuration in the war (i.e no WEB-INF/jetty-web.xml file).
 
 #### Jetty configuration 
 
 xml-file examples
 [{}](jetty-xml.md) - The main configuration file where the jetty server properties are set.
-[{}](jetty<sub>~logging</sub>~xml.md) - Configure the logging.
+[{}](jetty-logging-xml.md) - Configure the logging.
 [{}](myWebapp-xml.md) - Individual configuration for each application deployed on the server. Is only read when using the ContextDeployer.
 
 contexts 

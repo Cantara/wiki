@@ -76,15 +76,15 @@ En test av denne toppnivå-metoden skal ikke endres om man endrer implementasjon
 
 Toppnivå-metoder er typisk public i java, mens de andre har tilgangsmodifikator "protected". (Mange ville sagt private her, men testbarhet er mer verdifullt enn enkapsulering, så derfor protected.)
 
-Tester av toppnivå<sub>~metoder bør forøvrig fungere som regresjonstester for _funksjonalitet_ (fokus på verdi for business</sub>~siden), mens tester av "subnivå"-metoder kun tester at enEllerAnnen implementasjonsspesifikkmetode gjør den den skal (kodesentrisk). 
+Tester av toppnivå-metoder bør forøvrig fungere som regresjonstester for _funksjonalitet_ (fokus på verdi for business-siden), mens tester av "subnivå"-metoder kun tester at enEllerAnnen implementasjonsspesifikkmetode gjør den den skal (kodesentrisk). 
 
 **Ferris:**
 
-RSpec har blitt sterkere på dette etter at det ble slått sammen med RBehave (som igjen stammer fra JBehave), anno versjon 1.1. JBehave duden kutta visstnok ut JBehave til fordel for RBehave fordi han synes Java er så jævlig (til det formålet å skrive spec<sub>~syntax da). Ta en kikk på det nye Story Framework biten av RSpec, og håp at de gjør en slags Java</sub>~port av det (evt. så kan vi ta i bruk RSpec oppå JRuby). Les om Story Framework [her](http://rspec.info/).
+RSpec har blitt sterkere på dette etter at det ble slått sammen med RBehave (som igjen stammer fra JBehave), anno versjon 1.1. JBehave duden kutta visstnok ut JBehave til fordel for RBehave fordi han synes Java er så jævlig (til det formålet å skrive spec-syntax da). Ta en kikk på det nye Story Framework biten av RSpec, og håp at de gjør en slags Java-port av det (evt. så kan vi ta i bruk RSpec oppå JRuby). Les om Story Framework [her](http://rspec.info/).
 
 ---
 TODO: Describe how we can make use of package-private to fully test the internal workings of a package, without exposing exposing them as public.
 
-See http://www.brodwall.com/johannes/blog/2008/07/29/link<sub>~package</sub>~by-feature/ - I have a comment there with an example. 
+See http://www.brodwall.com/johannes/blog/2008/07/29/link-package-by-feature/ - I have a comment there with an example. 
 
 Another example is the MailModule: MailService (public api), MailEngine (package private) and MailSender (void). Describe in detail later.

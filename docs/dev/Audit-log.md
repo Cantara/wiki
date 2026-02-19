@@ -22,4 +22,4 @@ What to remember:
 #### Trace methods with AOP as a debugging tool in distributed systems? 
 
 - [Tracing methods with AOP](http://www.developer.com/java/other/article.php/10936_3109831_4)
-- [Logging/bugtracing using Spring 2, AOP, Reflection and Log4J](http://articles.alyssar.nl/2008/03/06/loggingbugtracing<sub>~using</sub><sub>spring</sub><sub>2</sub><sub>aop</sub><sub>reflection</sub>~and-log4j/)
+- [Logging/bugtracing using Spring 2, AOP, Reflection and Log4J](http://articles.alyssar.nl/2008/03/06/loggingbugtracing-using-spring-2-aop-reflection-and-log4j/)

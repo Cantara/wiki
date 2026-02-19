@@ -25,4 +25,4 @@ Note a dedicated database schema/user is required for each user (developer or CI
 
 #### See also 
 
-- [Test strategy for Oracle PL_SQL](Test<sub>~strategy</sub><sub>for</sub><sub>Oracle</sub>~PL_SQL.md) for more on how to test business logic implemented in the database
+- [Test strategy for Oracle PL_SQL](Test-strategy-for-Oracle-PL_SQL.md) for more on how to test business logic implemented in the database

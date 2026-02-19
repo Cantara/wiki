@@ -8,7 +8,7 @@
 
 #### DNS setup 
 
-A general introduction to how to use DNS for dynamic addressing can be found in [DNS to the rescue](http://www.dancres.org/blitzblog/2008/02/27/dns<sub>~games/). These tactics is assumed to be well</sub>~known material for most system administrators, but it can be briefly explained as 
+A general introduction to how to use DNS for dynamic addressing can be found in [DNS to the rescue](http://www.dancres.org/blitzblog/2008/02/27/dns-games/). These tactics is assumed to be well-known material for most system administrators, but it can be briefly explained as 
 
 - Use logical names to map to machine names that again map to IP addresses. Webproxy/DNS can thus be used to control which version of a service that is currently the primary source.
 - Use sub-domains to denote different enclaves (physical environments) 

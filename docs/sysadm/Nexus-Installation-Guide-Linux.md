@@ -34,4 +34,4 @@ Tip: Override default location for proxy repositories to avoid taking backup of 
 ```
 
 ###### Make it secure 
-[Post<sub>~install checklist](http://www.sonatype.com/books/nexus</sub><sub>book/reference/install</sub><sub>sect</sub><sub>repoman</sub><sub>post</sub>~install.html)
+[Post-install checklist](http://www.sonatype.com/books/nexus-book/reference/install-sect-repoman-post-install.html)

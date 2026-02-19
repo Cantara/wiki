@@ -30,7 +30,7 @@ toString returns a java.lang.String. This class does not have a toURL() method. 
 - [Mastering Grails tutorials by Scott Davis](http://www.ibm.com/developerworks/views/java/libraryview.jsp?search_by=mastering+grails)
 - http://brainflush.wordpress.com/tag/grails/
 - http://www.groovyongrails.com/
-- http://www.grails<sub>~exchange.com/files/DaveSyer%20</sub>~%20Grails&Spring.pdf
+- http://www.grails-exchange.com/files/DaveSyer%20-%20Grails&Spring.pdf
  
 ### How do I create an application I can toy around with?
 
@@ -61,7 +61,7 @@ Try it if you don't understand why you get a strange error.
 
 ### How do I use Maven with Grails?
  
-Use the [Maven plugin for Grails](http://forge.octo.com/maven/sites/mtg/grails<sub>~maven</sub>~plugin/usage.html).
+Use the [Maven plugin for Grails](http://forge.octo.com/maven/sites/mtg/grails-maven-plugin/usage.html).
 
 Create a Maven pom for your project like this: 
 ```
@@ -168,7 +168,7 @@ class Book {
 }
 ```
 
-This is particularly important if you are using scaffolding - otherwise the views for the scaffolded pages will use "ID: Type" in relationships (drop<sub>~down selects and cross</sub>~reference links).
+This is particularly important if you are using scaffolding - otherwise the views for the scaffolded pages will use "ID: Type" in relationships (drop-down selects and cross-reference links).
 
 ### How do you group domain classes in packages?
 todo
@@ -180,8 +180,8 @@ todo
 
 ### What are grails services used for?
 
-They are basically used for the same things that a spring service bean, or an EJB session bean are used for, i.e. providing re<sub>~usable services for the front</sub>~end part of an application, handling transactions, and handling integration with external services. The following illustration gives one example of how they can be used in a Grails + Java context![grails_and_spring2.png](grails_and_spring2-png.md)(grails_and_spring2.png)
-(Figure from http://www.grails<sub>~exchange.com/files/DaveSyer%20</sub>~%20Grails&Spring.pdf)
+They are basically used for the same things that a spring service bean, or an EJB session bean are used for, i.e. providing re-usable services for the front-end part of an application, handling transactions, and handling integration with external services. The following illustration gives one example of how they can be used in a Grails + Java context![grails_and_spring2.png](6488066-grails_and_spring2.png)
+(Figure from http://www.grails-exchange.com/files/DaveSyer%20-%20Grails&Spring.pdf)
 
 ### How do you create a service?
 

@@ -14,7 +14,7 @@ Paper that evaluates different frameworks according to Common Criteria, highligh
 
 [Mandatory Security Measures In Web Applications](http://org.ntnu.no/websec/project.pdf) - Thomas Pronstad and Vegar Westerlund
 
-[Web Application Exception Management](Web<sub>~Application</sub>~Exception-Management.md). How you handle exceptions and what information you expose it tightly coupled to security.
+[Web Application Exception Management](Web-Application-Exception-Management.md). How you handle exceptions and what information you expose it tightly coupled to security.
 
 [OWASP](http://www.owasp.org). The Open Web Application Security Project; lists common vulnerabilities and projects that implements best practices security measures.
 
@@ -22,4 +22,4 @@ Paper that evaluates different frameworks according to Common Criteria, highligh
 
 http://searchsoftwarequality.techtarget.com/news/article/0%2c289142%2csid92_gci1321417%2c00.html 
 
-[Security recommendations for web application frameworks](Security<sub>~recommendations</sub><sub>for</sub><sub>web</sub>~application-frameworks.md)
+[Security recommendations for web application frameworks](Security-recommendations-for-web-application-frameworks.md)

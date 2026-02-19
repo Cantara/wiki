@@ -1,6 +1,6 @@
 # How to test drone on Server Demo - 4.1.2015
 
-### [How to test drone on Server Demo - 4.1.2015](How<sub>~to</sub><sub>test</sub><sub>drone</sub><sub>on</sub><sub>Server</sub><sub>Demo</sub><sub>4</sub>~1-2015.md)
+### [How to test drone on Server Demo - 4.1.2015](How-to-test-drone-on-Server-Demo-4-1-2015.md)
 
 1. Go to http://89.221.242.66:8080/drone/ look overall map with center position is HCM city. (e.g Current level zoom is 3) 
 2. Zoom in/out map and take ~10s then you will see drones(red marker) show other positions on map  (Notes: dummy data make for some country: VN, OSLO, CANADA, UK, LONDON)

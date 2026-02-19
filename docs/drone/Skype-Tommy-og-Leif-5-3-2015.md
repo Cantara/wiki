@@ -2,12 +2,12 @@
 
 Linker: 
 
-- [http://www.codeproject.com/Articles/32643/GMap<sub>~NET</sub><sub>Great</sub><sub>Maps</sub><sub>for</sub><sub>Windows</sub><sub>Forms</sub><sub>and</sub><sub>Presenta](http://www.codeproject.com/Articles/32643/GMap</sub><sub>NET</sub><sub>Great</sub><sub>Maps</sub><sub>for</sub><sub>Windows</sub><sub>Forms</sub><sub>and</sub>~Presenta)
+- [http://www.codeproject.com/Articles/32643/GMap-NET-Great-Maps-for-Windows-Forms-and-Presenta](http://www.codeproject.com/Articles/32643/GMap-NET-Great-Maps-for-Windows-Forms-and-Presenta)
 - [https://www.facebook.com/Ijustwant/posts/10153072569070664](https://www.facebook.com/Ijustwant/posts/10153072569070664)
 - Tommy Larsen: Her er litt foreløpig info om tracker [http://www.gpspassion.com/forumsen/topic.asp?TOPIC_ID=108384](http://www.gpspassion.com/forumsen/topic.asp?TOPIC_ID=108384)
 - Tommy Larsen: [http://forum.gpsgate.com/topic.asp?TOPIC_ID=7809](http://forum.gpsgate.com/topic.asp?TOPIC_ID=7809)
-- Tommy Larsen: Denne er nok interessant:  [http://www.aggsoft.com/gps<sub>~tracker</sub><sub>data</sub><sub>logger/gps</sub><sub>tracker</sub><sub>xexun</sub><sub>tk</sub><sub>102.htm](http://www.aggsoft.com/gps</sub><sub>tracker</sub><sub>data</sub><sub>logger/gps</sub><sub>tracker</sub><sub>xexun</sub><sub>tk</sub>~102.htm)
-- Tommy Larsen: JAVA applikasjon du sikker forstår og kan modde :)  [http://www.aggsoft.com/gps<sub>~tracker</sub><sub>data</sub><sub>logger/download.htm](http://www.aggsoft.com/gps</sub><sub>tracker</sub><sub>data</sub>~logger/download.htm)
+- Tommy Larsen: Denne er nok interessant:  [http://www.aggsoft.com/gps-tracker-data-logger/gps-tracker-xexun-tk-102.htm](http://www.aggsoft.com/gps-tracker-data-logger/gps-tracker-xexun-tk-102.htm)
+- Tommy Larsen: JAVA applikasjon du sikker forstår og kan modde :)  [http://www.aggsoft.com/gps-tracker-data-logger/download.htm](http://www.aggsoft.com/gps-tracker-data-logger/download.htm)
 - Leif H. Auke: [http://sourceforge.net/projects/openggd/](http://sourceforge.net/projects/openggd/)
 - Leif H. Auke: [http://openggd.sourceforge.net/](http://openggd.sourceforge.net/)
 - Leif H. Auke: [https://www.npmjs.com/package/ggserver](https://www.npmjs.com/package/ggserver)

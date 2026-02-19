@@ -2,7 +2,7 @@
 
 #### How to share configuration between Spring and Maven 
 
-See [Deploy to different environments - run<sub>~time](Deploy</sub><sub>to</sub><sub>different</sub><sub>environments</sub><sub>run</sub><sub>time.md) and [configuration</sub><sub>management</sub><sub>with</sub><sub>spring](http://blog.arendsen.net/index.php/2005/03/12/configuration</sub><sub>management</sub><sub>with</sub>~spring/) for examples on what's possible. 
+See [Deploy to different environments - run-time](Deploy-to-different-environments-run-time.md) and [configuration-management-with-spring](http://blog.arendsen.net/index.php/2005/03/12/configuration-management-with-spring/) for examples on what's possible. 
 
 ###### Filtering in Maven 
 Use filtering to easily set a different set of properties according to environment. 
@@ -19,10 +19,10 @@ Use system properties or profile name to activate and disable profiles. One prof
 
 ###### How to avoid duplication between Maven projects and Maven modules
 
-See [Organizing Maven projects](Organizing<sub>~Maven</sub>~projects.md)
+See [Organizing Maven projects](Organizing-Maven-projects.md)
 
 ###### How to use different web.xml files in different environments
 
 See 
-[webxml in war<sub>~plugin](../ttp/maven</sub><sub>apache</sub><sub>org</sub><sub>plugins</sub><sub>maven</sub><sub>war</sub><sub>plugin</sub><sub>exploded</sub><sub>mojo</sub>~html-webXml.md)
+[webxml in war-plugin](../ttp/maven-apache-org-plugins-maven-war-plugin-exploded-mojo-html-webXml.md)
 [BluePrints: maven profiles](http://altuure.blogspot.com/2006/11/maven-profiles.html)

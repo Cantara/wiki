@@ -4,6 +4,6 @@ It is always important to stop and look at the **big picture** and the best guid
 
 References:
 
-- [Clear and consistent responsibility powers all great architectures](Clear<sub>~and</sub><sub>consistent</sub><sub>responsibility</sub><sub>powers</sub><sub>all</sub>~great-architectures.md)
-- [http://97<sub>~things.near</sub><sub>time.net/forum/user</sub><sub>contributed</sub><sub>axioms/community</sub><sub>axioms</sub><sub>contribute</sub><sub>new</sub><sub>axioms/3209?page=11](http://97</sub><sub>things.near</sub><sub>time.net/forum/user</sub><sub>contributed</sub><sub>axioms/community</sub><sub>axioms</sub><sub>contribute</sub><sub>new</sub>~axioms/3209?page=11)
+- [Clear and consistent responsibility powers all great architectures](Clear-and-consistent-responsibility-powers-all-great-architectures.md)
+- [http://97-things.near-time.net/forum/user-contributed-axioms/community-axioms-contribute-new-axioms/3209?page=11](http://97-things.near-time.net/forum/user-contributed-axioms/community-axioms-contribute-new-axioms/3209?page=11)
 - Get the 10.000 foot view, Erik Doernenburg, 87 things

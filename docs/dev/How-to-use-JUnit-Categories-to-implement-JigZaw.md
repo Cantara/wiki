@@ -2,12 +2,12 @@
 
 It finally seems like the Surefire plugin does handle categories. 
 Please read this link, it show how to simplify your setup.
-http://johndobie.blogspot.com/2012/04/unit<sub>~and</sub><sub>integration</sub><sub>tests</sub>~with-maven.html
+http://johndobie.blogspot.com/2012/04/unit-and-integration-tests-with-maven.html
 
 # At last - categories are possible to use in JUnit
 Since the 4.8 version
 
-Hope this will ease the implementation of using test<sub>~grouping :</sub>~)
+Hope this will ease the implementation of using test-grouping :-)
 
 > ℹ️ Thanks to [David Saff](http://david.saff.net/) for helping us reach this solution.
 #### 1. We will need a Suite to be run for each category.

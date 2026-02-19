@@ -27,13 +27,13 @@ Nei, vi skal ikke løse ALLE verdensproblemene i dag, men vi skal prøve å rydd
 #### 1. Terminology chaos 
 
 - Talk about the different names, titles and roles in use
-    - [architecture:Architect roles and responsibilities](../architecture/Architect<sub>~roles</sub>~and-responsibilities.md)
+    - [architecture:Architect roles and responsibilities](../architecture/Architect-roles-and-responsibilities.md)
     - Conclude that people use these names differently and that they _are_ overlapping. 
-    - Show diagram: [architecture:Communication vs Technology focus](../architecture/Communication<sub>~vs</sub>~Technology-focus.md)
+    - Show diagram: [architecture:Communication vs Technology focus](../architecture/Communication-vs-Technology-focus.md)
 
 - Suggest solution: 
     - be aware of the terminology jungle 
-    - use the simpler scope<sub>~based [architecture:Architect categorization](../architecture/Architect</sub>~categorization.md)
+    - use the simpler scope-based [architecture:Architect categorization](../architecture/Architect-categorization.md)
     - Separate between roles, titles, and names and be concrete and precise when dividing responsibilities. 
 
 #### 2. The troublesome architects - as seen from a developer's perspective 
@@ -52,7 +52,7 @@ Nei, vi skal ikke løse ALLE verdensproblemene i dag, men vi skal prøve å rydd
     - Vis ansiktet ditt (husk en arkitekt har 80% av tiden sin som kommunikasjon) Ref. til den andre praten.
 
  
-- Go through [architecture:Bridging the gap between developers and architects](../architecture/Bridging<sub>~the</sub><sub>gap</sub><sub>between</sub><sub>developers</sub><sub>and</sub>~architects.md) 
+- Go through [architecture:Bridging the gap between developers and architects](../architecture/Bridging-the-gap-between-developers-and-architects.md) 
 
 - Conclusion: 
     - We need to continuous feedback and we need to learn.

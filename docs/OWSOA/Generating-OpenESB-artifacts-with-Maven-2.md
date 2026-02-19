@@ -14,7 +14,7 @@ A particular JBI interaction scenario is described in terms of "wired" Service U
 - Business service which is trigged by JBI component
 - WSDL for communication protocol
 
-It follows that designing a JBI communication involves several tasks. First, a set of business services must be identified and prepared. Then each service must be associated with a JBI component which can feed the service with input data. OpenESB ships with a big number of ready<sub>~to</sub>~use JBI components which are sufficient in most use cases. Probably the most important example of SE is _[_Sun Java EE Engine_](http://java.sun.com/developer/technicalArticles/J2EE/sunjavaee_engine/)_ which acts as a bridge to JAX-WS web services deployed in the same JavaEE environment. If no existing JBI component meets the needs then a special one must be developed and installed in OpenESB. The last task is interconnecting of Service Units.
+It follows that designing a JBI communication involves several tasks. First, a set of business services must be identified and prepared. Then each service must be associated with a JBI component which can feed the service with input data. OpenESB ships with a big number of ready-to-use JBI components which are sufficient in most use cases. Probably the most important example of SE is _[_Sun Java EE Engine_](http://java.sun.com/developer/technicalArticles/J2EE/sunjavaee_engine/)_ which acts as a bridge to JAX-WS web services deployed in the same JavaEE environment. If no existing JBI component meets the needs then a special one must be developed and installed in OpenESB. The last task is interconnecting of Service Units.
 
 ### Service Assembly
 
@@ -24,12 +24,12 @@ A SA consists of multiple JBI descriptors (one for each SU and one for SA itself
 
 # Developing OpenESB artifacts using Netbeans 6.x
 
-Netbeans 6.x provides several project types for OpenESB development. Composite Application (CA) project type is used for projects which generate Service Assemblies. Its central part is [Composite Application Service Assembly (CASA) Editor](http://www.netbeans.org/kb/60/soa/casa<sub>~quickstart.html) which is a visual drag</sub>~and-drop tool for connecting Service Units. Netbeans 6.1 has some [bugs](http://wiki.netbeans.org/SoaFaqUseExternalServiceUnit) in the CASA editor which makes it sometimes impossible to connect certain Service Units. These bugs are fixed in later versions of Netbeans but they are currently very unstable as they are still under development.
+Netbeans 6.x provides several project types for OpenESB development. Composite Application (CA) project type is used for projects which generate Service Assemblies. Its central part is [Composite Application Service Assembly (CASA) Editor](http://www.netbeans.org/kb/60/soa/casa-quickstart.html) which is a visual drag-and-drop tool for connecting Service Units. Netbeans 6.1 has some [bugs](http://wiki.netbeans.org/SoaFaqUseExternalServiceUnit) in the CASA editor which makes it sometimes impossible to connect certain Service Units. These bugs are fixed in later versions of Netbeans but they are currently very unstable as they are still under development.
 
 Netbeans dictates its own catalog structure for different types of projects which doesn't conform to Maven2 conventions. Its is possible to install a Maven plugin in Netbeans and import Maven projects to Netbeans. Unfortunately, Netbeans doesn't recognize such 'foreign' projects as SU candidates and they can't be imported as JBI modules to CA projects. The solution is to use Maven to package individual web services into separate Service Assemblies (containing nothing but single web services) and deploy them in OpenESB. After that we can just refer from Netbeans CA projects to already deployed Service Units.
 
 The next figure shows an example deployment consisting of three Service Assemblies. Two of them contain only web services and don't depend on Netbeans. The last SA which defines JBI communication and relies on existing web services must refer to the external SAs where the necessary web services are located. &nbsp;
-![Service_Units.jpg](Service_Units-jpg.md)(Service_Units.jpg)
+![Service_Units.jpg](8487003-Service_Units.jpg)
 
 # Using Maven to generate Service Assemblies
 
@@ -41,12 +41,12 @@ There are several reasons for why one would like to use Maven as part of the dev
 OpenESB is a relatively new technology and there are currently no Maven2 plugins for generating OpenESB Service Assemblies. One possible reason for that is that OpenESB provides very many extensions and customizations to standard JBI descriptors and these extensions are very poorly documented. When a CASA editor is used, the Netbeans takes care of all such things automatically. It is fine in some circumstances when all development is done in Netbeans but makes it extremely difficult to edit JBI descriptors outside Netbeans. The only way to learn how OpenESB JBI descriptors should look like is to make sample projects in Netbeans and examine the generated JBI files.
 
 To make a JAX-WS web service available for JBI runtime, it must be deployed as a part of a SA. The next figure shows the structure of a Service Assembly containing a web service and a possible structure of Maven project.
-![SA_structure.jpg](SA_structure-jpg.md)(SA_structure.jpg)
-As the above figure shows, the JBI descriptors are located in a separate catalog. In this way we can hold all JBI<sub>~specific artifacts outside the web service code. Such project organization allows easily to generate not only the SA containing the web service but also a stand</sub><sub>alone JBI</sub><sub>unaware web service. Such web service can be deployed in a non</sub>~JBI environment if necessary. For example for integration tests.
+![SA_structure.jpg](8487003-SA_structure.jpg)
+As the above figure shows, the JBI descriptors are located in a separate catalog. In this way we can hold all JBI-specific artifacts outside the web service code. Such project organization allows easily to generate not only the SA containing the web service but also a stand-alone JBI-unaware web service. Such web service can be deployed in a non-JBI environment if necessary. For example for integration tests.
 
 The Maven _install_ task should produce two artifacts: the SA containing the web service and the stand-alone web service (an ordinary war). The last artifact is generated as normally. However, to generate the SA the following instructions must be included in pom.xml:
-- A JBI<sub>~aware war file must be generated with _maven</sub>~war-plugin_. This file differs from the original war in that it contains a JBI descriptor from _src/jbi/su_. This file will not be deployed in the repository. It is only used for generating SA in the next step.
-- SA must be generated with _maven<sub>~assembly</sub>~plugin_. It is an ordinary zip file which contains JBI descriptor from _src/jbi/sa_ and a JBI-aware war file from the previous step.
+- A JBI-aware war file must be generated with _maven-war-plugin_. This file differs from the original war in that it contains a JBI descriptor from _src/jbi/su_. This file will not be deployed in the repository. It is only used for generating SA in the next step.
+- SA must be generated with _maven-assembly-plugin_. It is an ordinary zip file which contains JBI descriptor from _src/jbi/sa_ and a JBI-aware war file from the previous step.
 
 ```title
 <plugin>

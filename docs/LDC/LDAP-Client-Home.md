@@ -1,6 +1,6 @@
 # LDAP Client Home
 
-## LDAP web<sub>~klient</sub>~utvikling
+## LDAP web-klient-utvikling
 
  **Suksesskriteriner**
 - Enkelt og **effektivt i bruk**

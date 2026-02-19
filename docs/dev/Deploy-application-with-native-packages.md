@@ -2,18 +2,18 @@
 
 #### Create unix packages 
 
-We recommend using [Unix Maven Plugin](http://mojo.codehaus.org/unix/unix<sub>~maven</sub><sub>plugin/) to generate native packages (pkg, deb, rpm) for the Unix platform. See [Available native package systems](Available</sub><sub>native</sub>~package-systems.md) for other plugins and available Windows installers. 
+We recommend using [Unix Maven Plugin](http://mojo.codehaus.org/unix/unix-maven-plugin/) to generate native packages (pkg, deb, rpm) for the Unix platform. See [Available native package systems](Available-native-package-systems.md) for other plugins and available Windows installers. 
 
 ###### Examples 
 
-- [RPM Deployment with Java Service Wrapper](RPM<sub>~Deployment</sub><sub>with</sub><sub>Java</sub>~Service-Wrapper.md) 
-- [RPM Deployment without Java Service Wrapper](RPM<sub>~Deployment</sub><sub>without</sub><sub>Java</sub>~Service-Wrapper.md) 
-- [Webapp deployment from RPM](Webapp<sub>~deployment</sub>~from-RPM.md) 
-- [RPM Deployment for C++ Applications](http://wiki.community.objectware.no/pages/viewpage.action?pageId=6488505), see also [Build C (plusplus) code for multiple platforms with Maven](Build<sub>~C</sub><sub>plusplus</sub><sub>code</sub><sub>for</sub><sub>multiple</sub><sub>platforms</sub><sub>with</sub>~Maven.md).
+- [RPM Deployment with Java Service Wrapper](RPM-Deployment-with-Java-Service-Wrapper.md) 
+- [RPM Deployment without Java Service Wrapper](RPM-Deployment-without-Java-Service-Wrapper.md) 
+- [Webapp deployment from RPM](Webapp-deployment-from-RPM.md) 
+- [RPM Deployment for C++ Applications](http://wiki.community.objectware.no/pages/viewpage.action?pageId=6488505), see also [Build C (plusplus) code for multiple platforms with Maven](Build-C-plusplus-code-for-multiple-platforms-with-Maven.md).
 
 ###### Synchronize package with repository manager / management system
 
-[Synchronization between Maven repository and RPM repository](Synchronization<sub>~between</sub><sub>Maven</sub><sub>repository</sub><sub>and</sub><sub>RPM</sub>~repository.md)
+[Synchronization between Maven repository and RPM repository](Synchronization-between-Maven-repository-and-RPM-repository.md)
 
 #### Standardize setup 
 

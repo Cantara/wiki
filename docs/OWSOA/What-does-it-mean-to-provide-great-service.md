@@ -28,4 +28,4 @@ Example: **Evolution of the CustomerService**
 - Responded to client demand delivering sensitive information, but ONLY over a WS-Security enabled channel
 - Added Geo-positioning (lat/long) information about customers proactively which created spontaneous applications in the organization
 
-See [http://wiki.community.objectware.no/download/attachments/3769961/Objectware<sub>~SOA_Real_World_DagenIFI.pptx](http://wiki.community.objectware.no/download/attachments/3769961/Objectware</sub>~SOA_Real_World_DagenIFI.pptx) for more details :)
+See [http://wiki.community.objectware.no/download/attachments/3769961/Objectware-SOA_Real_World_DagenIFI.pptx](http://wiki.community.objectware.no/download/attachments/3769961/Objectware-SOA_Real_World_DagenIFI.pptx) for more details :)

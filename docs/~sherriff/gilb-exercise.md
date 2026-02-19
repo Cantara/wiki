@@ -22,10 +22,10 @@ Goal: 		600/8 = 75
 Ambition: Enkel og selvforklarende integrasjon 
 Includes: flexibility, interoperability, compatibility, readability, integrity, maintainability,
 Scale: 	# supporthenvendelser relatert til lesbarhet / måned 
-	true/false: Alle \[Termer\](Termer.md) er entydig definert i \[Glossary / Ubiquitous Language\](Glossary<sub>~Ubiquitous</sub>~Language.md)
-Past:		\[2011, Oslo\](2011<sub>~Oslo.md) 60 +</sub>~ 10 ?	<- <kilde>
-Tolerable: 	\[2012<sub>~06, Oslo\](2012</sub><sub>06</sub><sub>Oslo.md) 40 +</sub>~ 8	
-Goal: 		\[Q1 2013, NORGE\](Q1<sub>~2013</sub>~NORGE.md) 4 +- 3
+	true/false: Alle \[Termer\](Termer.md) er entydig definert i \[Glossary / Ubiquitous Language\](Glossary-Ubiquitous-Language.md)
+Past:		\[2011, Oslo\](2011-Oslo.md) 60 +- 10 ?	<- <kilde>
+Tolerable: 	\[2012-06, Oslo\](2012-06-Oslo.md) 40 +- 8	
+Goal: 		\[Q1 2013, NORGE\](Q1-2013-NORGE.md) 4 +- 3
 
 ###### 5.1 Design, architecture
 Design tag: Forbedre _andre_ supportkanaler 
@@ -47,7 +47,7 @@ D0 + D3. .NET
 D0 + D2: c++
 
 Constraint: Contract - first 
-Constraint: Alle \[Termer\](Termer.md) er entydig definert i \[Glossary / Ubiquitous Language\](Glossary<sub>~Ubiquitous</sub>~Language.md)
+Constraint: Alle \[Termer\](Termer.md) er entydig definert i \[Glossary / Ubiquitous Language\](Glossary-Ubiquitous-Language.md)
  
 
 ###### 6.1 Design impact, 6.2 Evidence 
@@ -63,7 +63,7 @@ Endepunktet finnes allerede.
 
 **Investment cost**: 8dv +- 3 (basert på tidligere kostnad for tilsvarende arbeid)
 
-**Evidence cost**: Basert på erfaring og historikk - Statistikk fra kundeservice sortert på kategorier. \[url til excel<sub>~fil\](url</sub><sub>til</sub><sub>excel</sub>~fil.md)
+**Evidence cost**: Basert på erfaring og historikk - Statistikk fra kundeservice sortert på kategorier. \[url til excel-fil\](url-til-excel-fil.md)
 - Credibility: 0.8
 
 D0 + D1: Java - 50% +- 10% 

@@ -18,7 +18,7 @@ The following decisions have been made with regards to data formats in Whydah:
 - JSON between UserAdminWebApp and UserAdminService.
 - JSON between client applications with UserAdmin enabled and UserAdminService.
 
-See also [Key Whydah Data Structures](Key<sub>~Whydah</sub>~Data-Structures.md) for a description of the data formats used. 
+See also [Key Whydah Data Structures](Key-Whydah-Data-Structures.md) for a description of the data formats used. 
 
 ---
 
@@ -30,7 +30,7 @@ i UIB kan det være samme metode/API...     for å tenke på dette...   hvis UAS
 men det er mulig at vi pakekstrukturmessig kanskje bør organisere dette ryddigere  (og muligens i URI patterns)
 
 kontrakt og forvantningsegenskapene er også forskjellige...  brekker man et XML format, så påvirkes  alle Whydah applikasjoner direkte, også 3 parts apper... brekker man et admin JSON API, så er det hovedsaklig whydah moduler som påvirkes
-så i praksis bør XML API<sub>~ene ha et tydelig og eksplisitt on</sub><sub>the</sub><sub>wire format/kontrakt med tilhørende eksplisitte mapping... mens man kan forenkle mappingen til auto</sub>~mapping for json
+så i praksis bør XML API-ene ha et tydelig og eksplisitt on-the-wire format/kontrakt med tilhørende eksplisitte mapping... mens man kan forenkle mappingen til auto-mapping for json
 	
 One version of applicationdata is shipped to the collaborating whydah apps, and that contract should be XML
 på application auth (ApplicationCredential)  så returneres ApplicationToken (som vil inneholde endel av det nye fra ApplicationData)

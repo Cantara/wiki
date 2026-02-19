@@ -1,6 +1,6 @@
 # Existing gps trackers usable for the drone radar system
 
-### [Existing gps trackers usable for the drone radar system](Existing<sub>~gps</sub><sub>trackers</sub><sub>usable</sub><sub>for</sub><sub>the</sub><sub>drone</sub><sub>radar</sub>~system.md)
+### [Existing gps trackers usable for the drone radar system](Existing-gps-trackers-usable-for-the-drone-radar-system.md)
 
 ##### [Vendor Deao](http://deaohk.com/index_en.html) / [http://deaohk.en.alibaba.com/](http://deaohk.en.alibaba.com/)
 

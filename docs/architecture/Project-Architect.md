@@ -1,6 +1,6 @@
 # Project Architect
 
-See [architecture:Laws for Project Architects](../architecture/Laws<sub>~for</sub>~Project-Architects.md)
+See [architecture:Laws for Project Architects](../architecture/Laws-for-Project-Architects.md)
 
 ###### Solution Architect
 

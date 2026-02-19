@@ -1,18 +1,18 @@
 # Skype team meeting 2015.04.21
 
-### [Skype team meeting 2015.04.21](Skype<sub>~team</sub><sub>meeting</sub><sub>2015</sub>~04-21.md)
+### [Skype team meeting 2015.04.21](Skype-team-meeting-2015-04-21.md)
 
 refs: 
 
-- [20.04.2015 - Joomla - First Site Setup](20<sub>~04</sub><sub>2015</sub><sub>Joomla</sub><sub>First</sub><sub>Site</sub>~Setup.md)
-- [Terry and Stig adding droneradar24 comment 20.4.2015](Terry<sub>~and</sub><sub>Stig</sub><sub>adding</sub><sub>droneradar24</sub><sub>comment</sub><sub>20</sub><sub>4</sub>~2015.md)
+- [20.04.2015 - Joomla - First Site Setup](20-04-2015-Joomla-First-Site-Setup.md)
+- [Terry and Stig adding droneradar24 comment 20.4.2015](Terry-and-Stig-adding-droneradar24-comment-20-4-2015.md)
 
 **Conclustion:**
 
 - Thai improve web page for trager register and auke js cross domain 
 - Huy make integration openGTS -> PollEvent class
 
-- General Issue -> tomcat concurreny -> [drone:Site concurrency and scaling capacities](../drone/Site<sub>~concurrency</sub><sub>and</sub><sub>scaling</sub>~capacities.md)
+- General Issue -> tomcat concurreny -> [drone:Site concurrency and scaling capacities](../drone/Site-concurrency-and-scaling-capacities.md)
 
 ```
 
@@ -277,7 +277,7 @@ timestamp >=
 - Thai improve web page for trager register and auke js cross domain 
 - Huy make integration openGTS -> PollEvent class
 
-- General Issue -> tomcat concurreny -> [drone:Site concurrency and scaling capacities](../drone/Site<sub>~concurrency</sub><sub>and</sub><sub>scaling</sub>~capacities.md)
+- General Issue -> tomcat concurreny -> [drone:Site concurrency and scaling capacities](../drone/Site-concurrency-and-scaling-capacities.md)
 
 ```
 

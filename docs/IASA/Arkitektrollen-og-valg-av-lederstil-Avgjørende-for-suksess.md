@@ -1,6 +1,6 @@
 # Arkitektrollen og valg av lederstil - Avgjørende for suksess?
 
-Her følger noen noterte utsagn fra Open Space gjennomføringen på [IASA<sub>~medlemsmøte 2009</sub><sub>04</sub><sub>22 - Hva er arkitektens ansvar?](IASA</sub><sub>medlemsmøte</sub><sub>2009</sub><sub>04</sub><sub>22</sub><sub>Hva</sub><sub>er</sub>~arkitektens-ansvar.md) (ofte parafrasert noe). Dersom du ønsker å videre detaljere utsagnene eller komme med innspill som mangler oppfordrer vi til å fylle det inn på denne siden.
+Her følger noen noterte utsagn fra Open Space gjennomføringen på [IASA-medlemsmøte 2009-04-22 - Hva er arkitektens ansvar?](IASA-medlemsmøte-2009-04-22-Hva-er-arkitektens-ansvar.md) (ofte parafrasert noe). Dersom du ønsker å videre detaljere utsagnene eller komme med innspill som mangler oppfordrer vi til å fylle det inn på denne siden.
 
 Det er også opptil flere gode utgangspunkter for lyntaler i denne materien, og flere som var innom gruppen later til å ha nok å melde til å kunne sette sammen noe slikt. Tenk på dét:-)
 
@@ -24,13 +24,13 @@ Det er også opptil flere gode utgangspunkter for lyntaler i denne materien, og 
     - Hvilke andre lederstiler er effektive/relevante å ha i kofferten som arkitekt?
     - Er det i det hele tatt mulig å ha en lederstil som motiverer ALLE? (Noen som har noe lederskapsteori for hånden (?))
 - Pecking-order og militæranalogien: 
-    - Kapteinen vs. Sersjanten: Sistnevnte har street<sub>~cred mens førstnevnte er formelt utdannet ved West Point til å ta strategiske beslutninger og får derfor (kombinert med rang) autoritet. Men innen software teller bare street</sub>~cred siden alle er "utdannet på West Point".
+    - Kapteinen vs. Sersjanten: Sistnevnte har street-cred mens førstnevnte er formelt utdannet ved West Point til å ta strategiske beslutninger og får derfor (kombinert med rang) autoritet. Men innen software teller bare street-cred siden alle er "utdannet på West Point".
     - Er utvikler-rollen for godt betalt til at en gruppe talenter tar seg bryet med å formalisere en "West Point" differensiering?
-    - Kan Johannes scenario om at top<sub>~down policies fra arkitekt</sub>~befal brukes til ansvarsfraskrivelse på utviklernivå sammenlignes med soldaters ansvarsfraskrivelse ved beordrede krigsforbrytelser?
+    - Kan Johannes scenario om at top-down policies fra arkitekt-befal brukes til ansvarsfraskrivelse på utviklernivå sammenlignes med soldaters ansvarsfraskrivelse ved beordrede krigsforbrytelser?
 - Arkiteken må bruke sine "uoffisielle våpen":
     - Økonomisk "Cloak & Dagger": Ta kontroll over budsjetter og estimater nok til å skape et skjult rom for teamet til eksperimentering, feiling, og oppgaver som skaper verdi men ikke lar seg kommunisere til forretning i første runde
     - Eksperimenter med middagen på lørdag når du har skapt deg rom for å feile. Ikke lag thaimat for første gang mellom SFO og fotballtrening og foreldremøte. M.a.o. LAG rom for å feile, tilrettelegg og eksekver i trygge rammer. Dette er et tegn på en god arkitekt (eller er dette prosjektleders oppgave?)
-    - Skill mellom høy<sub>~, og lavrisiko elementer og prioritér for å sikre sikre seiere, og potensielle wow</sub>~suksesser
+    - Skill mellom høy-, og lavrisiko elementer og prioritér for å sikre sikre seiere, og potensielle wow-suksesser
 - Hvilken rolle spiller arkitektonisk stil? Blir feil valg her spesielt dyre?
 
 ## Videre detaljeringer

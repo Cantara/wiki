@@ -2,7 +2,7 @@
 
 ### Some classic patterns of web applications
 
-These are fairly well documented in some [Excellent Books](Excellent<sub>~Books.md). We recommend that you make yourself familiar with the basic patterns, then follow through by using an existing [Java Web Framework](Java</sub>~Web-Frameworks.md). Do NOT attempt to create your own web framework before you really really know what you are doing.
+These are fairly well documented in some [Excellent Books](Excellent-Books.md). We recommend that you make yourself familiar with the basic patterns, then follow through by using an existing [Java Web Framework](Java-Web-Frameworks.md). Do NOT attempt to create your own web framework before you really really know what you are doing.
 
 - MVC 
     - Model 
@@ -29,7 +29,7 @@ Persistence / data source
 
 ##### Maven modules 
 
-Maven modules are used to separate according to _dependencies_. Java packages are used to group according to _function_ (see [Structuring packages and contexts](Structuring<sub>~packages</sub>~and-contexts.md)). 
+Maven modules are used to separate according to _dependencies_. Java packages are used to group according to _function_ (see [Structuring packages and contexts](Structuring-packages-and-contexts.md)). 
 
 **Essence: Use packages to seperate function. Use modules to seperate layers AND domains.**
 
@@ -41,7 +41,7 @@ Maven modules are used to separate according to _dependencies_. Java packages ar
 - web (web.xml, jsp, _js which calls java code_)
 - taglib 
 - resources (images, html, javascript, css, velocity, freemarker - use filter) 
-- jsp<sub>~fragments (JSP</sub><sub>files must use war overlay, see [Web Application Fragments](Web</sub><sub>Application</sub>~Fragments.md)) 
+- jsp-fragments (JSP-files must use war overlay, see [Web Application Fragments](Web-Application-Fragments.md)) 
 
 _Click the diagram to view full size_
 **[Diagram: Maven](../Diagram/Maven.md)**
@@ -49,7 +49,7 @@ _Click the diagram to view full size_
 ### Use of Session
 
 #### Some clear advice
-Do not allow the use of the HttpSession to trickle down beyond your web layer (see [Structuring packages and contexts](Structuring<sub>~packages</sub>~and-contexts.md)).
+Do not allow the use of the HttpSession to trickle down beyond your web layer (see [Structuring packages and contexts](Structuring-packages-and-contexts.md)).
 
 #### Some questions you should ask yourself
 

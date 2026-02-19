@@ -7,7 +7,7 @@ Antatt moetestart kl. 18.00 foerste dag og antatt moeteslutt kl. 17.00 siste dag
 
 I den forbindelse har vi gleden av aa tilby foelgende priser:
 **Pris pr person pr doegn - Kr  1 570,-**
-Prisen inkluderer enkeltrom med frokost, lunsjbuffet og dagens 4<sub>~retters middag, samt leie av moeterom med projektor, standard AV</sub>~utstyr og fri tilgang til kaffe/te og dagens frukt i pauseareal.                        
+Prisen inkluderer enkeltrom med frokost, lunsjbuffet og dagens 4-retters middag, samt leie av moeterom med projektor, standard AV-utstyr og fri tilgang til kaffe/te og dagens frukt i pauseareal.                        
 
 _Overnevnte pris gjelder for estimert antall_
 

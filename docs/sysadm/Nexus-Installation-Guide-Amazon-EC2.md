@@ -4,7 +4,7 @@
 
 Instance type: [t1.micro](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts_micro_instances.html)
 64-bit Amazon Linux AMi.
-Separate EBS volume for storage, http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs<sub>~using</sub>~volumes.html
+Separate EBS volume for storage, http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-using-volumes.html
 
 - Security group which allow incoming port 22, 80 and 443. 
 
@@ -46,7 +46,7 @@ tail -200f /data/sonatype-work/nexus/logs/nexus.log
 
 #### Configure 
 
-- Follow http://www.giorgiozamparelli.com/private<sub>~maven</sub><sub>repository</sub><sub>install</sub><sub>nexus</sub><sub>on</sub><sub>aws</sub><sub>ec2</sub>~amazon-linux/
+- Follow http://www.giorgiozamparelli.com/private-maven-repository-install-nexus-on-aws-ec2-amazon-linux/
 
 - sonatype-work dir should reside on /data (the second EBS volume) 
 
@@ -56,7 +56,7 @@ Tip: Override default location for proxy repositories to avoid taking backup of 
 
 #### Configure Apache or NginX as reverse proxy 
 
-- [http://books.sonatype.com/nexus<sub>~book/reference/install</sub><sub>sect</sub><sub>service.html](http://books.sonatype.com/nexus</sub><sub>book/reference/install</sub><sub>sect</sub>~service.html) 
+- [http://books.sonatype.com/nexus-book/reference/install-sect-service.html](http://books.sonatype.com/nexus-book/reference/install-sect-service.html) 
 
 ###### Apache2 
 
@@ -92,7 +92,7 @@ Baseurl: http://tools.company.no/nexus/
 
 ###### Configure NginX as reverse proxy (nginx.conf)
 
-nexus<sub>~webapp</sub>~context-path=/
+nexus-webapp-context-path=/
 
 ```
 server {
@@ -113,7 +113,7 @@ server {
 ```
 
 ###### Make it secure 
-[Post<sub>~install checklist](http://www.sonatype.com/books/nexus</sub><sub>book/reference/install</sub><sub>sect</sub><sub>repoman</sub><sub>post</sub>~install.html)
+[Post-install checklist](http://www.sonatype.com/books/nexus-book/reference/install-sect-repoman-post-install.html)
 
 #### User and role management 
 
@@ -123,6 +123,6 @@ server {
 
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
 
-http://www.giorgiozamparelli.com/private<sub>~maven</sub><sub>repository</sub><sub>install</sub><sub>nexus</sub><sub>on</sub><sub>aws</sub><sub>ec2</sub>~amazon-linux/
+http://www.giorgiozamparelli.com/private-maven-repository-install-nexus-on-aws-ec2-amazon-linux/
 
 https://gist.github.com/cedricwalter/1636020

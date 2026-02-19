@@ -1,6 +1,6 @@
 # Making a "tail" for moving
 
-### [Making a "tail" for moving](Making<sub>~a</sub><sub>tail</sub><sub>for</sub>~moving.md)
+### [Making a "tail" for moving](Making-a-tail-for-moving.md)
 
 ##### Function 
 

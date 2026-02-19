@@ -1,6 +1,6 @@
 # Beskrivelse av sponsorpakke
 
-- Logo<sub>~profil på on</sub>~line prosjektrom
+- Logo-profil på on-line prosjektrom
 - Mulighet for plakat/roll-up under arrangementet
 - Annet?
 

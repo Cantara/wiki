@@ -4,7 +4,7 @@
 The system being built cannot be completed within a reasonable timeframe
 
 ## Solution
-Let old and new systems live side<sub>~by</sub>~side which supporting the same workflows. New functionality is implemented in the new system, while the old system is used for other functionality
+Let old and new systems live side-by-side which supporting the same workflows. New functionality is implemented in the new system, while the old system is used for other functionality
 
 ## Strengths
 - Allows smaller releases

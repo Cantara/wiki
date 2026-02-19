@@ -9,7 +9,7 @@ Rename to eventing?
 > ℹ️ 
 > ℹ️ **Error log** - Something Operations must act on (e.g. apache error log)
 > ℹ️ 
-> ℹ️ See [Error Push Setup](Error<sub>~Push</sub>~Setup.md)
+> ℹ️ See [Error Push Setup](Error-Push-Setup.md)
 > ℹ️ 
 
 > ℹ️ 

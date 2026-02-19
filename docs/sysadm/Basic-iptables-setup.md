@@ -27,4 +27,4 @@ iptables-save
 
 - Docs 
     - [https://help.ubuntu.com/community/IptablesHowTo](https://help.ubuntu.com/community/IptablesHowTo)
-    - [http://www.thegeekstuff.com/2011/06/iptables<sub>~rules</sub><sub>examples/](http://www.thegeekstuff.com/2011/06/iptables</sub><sub>rules</sub>~examples/)
+    - [http://www.thegeekstuff.com/2011/06/iptables-rules-examples/](http://www.thegeekstuff.com/2011/06/iptables-rules-examples/)

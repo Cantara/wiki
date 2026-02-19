@@ -30,7 +30,7 @@ Examples:
  
 #### Human
 
-![http://damienkatz.net/pics/crash_1a.gif](http://damienkatz.net/pics/crash_1a.gif)(http://damienkatz.net/pics/crash_1a.gif)
+![http://damienkatz.net/pics/crash_1a.gif](http://damienkatz.net/pics/crash_1a.gif)
 
 The error cannot be corrected by the program, but must be corrected by a human. Since the error was detected by bar, bar has the most specific knowledge of the error and must describe it. 
 

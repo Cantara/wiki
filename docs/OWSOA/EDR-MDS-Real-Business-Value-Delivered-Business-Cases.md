@@ -25,7 +25,7 @@ Decision of SOA establishment made late 2004
 
 **EDR values**
 
-- SOA provides a standardized and easy<sub>~to</sub>~use interface for integration both internally and towards business partners
+- SOA provides a standardized and easy-to-use interface for integration both internally and towards business partners
     - Changed CRM system in one week without breaking any of the existing services.
     - Open-ended EDR provider
     - Multi-master strategy on the Customer Domain Object between CRM, the order system and the billing system.
@@ -60,7 +60,7 @@ Decision of SOA establishment made late 2004
 
 - Core Services makes use of service internal data sources
     - **Extend business entities with data that are not in core system**
-    - Provide ad<sub>~hoc storage for service</sub>~required data not yet discovered or decided
+    - Provide ad-hoc storage for service-required data not yet discovered or decided
     - Select most appropriate storage mechanism, File, database, index etc
 - Service targeted "datamarts"
     - Existing data warehouse provide useful information for services

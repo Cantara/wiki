@@ -4,8 +4,8 @@ Styrking og verdiskapning ved å samle engasjement og aktivitet.
 
 ### Målsetninger og statutter 
 
-> ℹ️ * [Åpent for alle](Åpent<sub>~for</sub>~alle.md)
-> ℹ️ * [Likebehandling av communities](Likebehandling<sub>~av</sub>~communities.md)
+> ℹ️ * [Åpent for alle](Åpent-for-alle.md)
+> ℹ️ * [Likebehandling av communities](Likebehandling-av-communities.md)
 > ℹ️ * [Ikke konkurransevridende](Ikke-konkurransevridende.md)
 
 **Motivasjon**

@@ -1,6 +1,6 @@
 # Distributed IAM checklist
 
-### Stage 1: Intra<sub>~org Web Single Sign</sub>~on - Central Identity Provider
+### Stage 1: Intra-org Web Single Sign-on - Central Identity Provider
         
 - Policy Steps                     
     - Define who establishes various policies related to single sign-on (SSO) and authentication                  
@@ -11,13 +11,13 @@
     - Reliably issue credentials to on-campus faculty/staff/students                     
     - Create Help desk support for users encountering problems accessing department web sites protected by SSO        
 - Technical - Basic Identity and Access Management Steps                     
-    - Provision/de<sub>~provision accounts for and authenticate on</sub>~campus faculty, staff, and students                     
+    - Provision/de-provision accounts for and authenticate on-campus faculty, staff, and students                     
     - Provision/de-provision accounts for and authenticate other constituencies (e.g. applicants, alums, affiliates)
 - Technical - Software Steps
     - Install/operate/manage Identity provider software
                                                                                                               1
 
-### Stage 1: Intra<sub>~Web Single Sign</sub>~on - Central and Department Service Provider
+### Stage 1: Intra-Web Single Sign-on - Central and Department Service Provider
 - Policy Steps
     - Define how often department service providers should refresh their metadata
     - Promulgate policy describing process and constraints when the service provider is compromised
@@ -63,4 +63,4 @@
     - Document how a service provider's web server could authorize users given the provided attributes
     - Document how an application could use the supplied attributes in alternative ways, such as for customization or form completion
 
-Source: [http://shibboleth.internet2.edu/shib<sub>~checklist</sub><sub>final</sub><sub>website.pdf](http://shibboleth.internet2.edu/shib</sub><sub>checklist</sub><sub>final</sub>~website.pdf)
+Source: [http://shibboleth.internet2.edu/shib-checklist-final-website.pdf](http://shibboleth.internet2.edu/shib-checklist-final-website.pdf)

@@ -9,7 +9,7 @@ The service has the responsibility of determining the master datasource for each
 Given that the service has complete knowledge of the [MasterPerAttribute](MasterPerAttribute.md) setup for the domain object, it may also detect inconsistencies in the datasources. When a difference is identified on a field 
 
 ### When
-The need for implementing this strategy becomes evident in scenarios involving [out<sub>~of</sub><sub>bounds updates](out</sub><sub>of</sub>~bounds-updates.md). Services that are relying on data sources that will be updated outside the control of the service need to do some extra job to fulfill their responsiblity. In this scenario the service must implement a strategy to detect changes in the underlying master data source and automatically replicate these changes to the remaining sources (slaves) on a [MasterPerAttribute](MasterPerAttribute.md) basis.
+The need for implementing this strategy becomes evident in scenarios involving [out-of-bounds updates](out-of-bounds-updates.md). Services that are relying on data sources that will be updated outside the control of the service need to do some extra job to fulfill their responsiblity. In this scenario the service must implement a strategy to detect changes in the underlying master data source and automatically replicate these changes to the remaining sources (slaves) on a [MasterPerAttribute](MasterPerAttribute.md) basis.
 
 By default the mechanism is executed on Get operations. 
 

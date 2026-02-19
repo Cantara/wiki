@@ -27,9 +27,9 @@ Documentation can be written in a number of formats. We have chosen to separate 
 
 #### Documentation Templates
 
-- [Confluence Documentation Template](Confluence<sub>~Documentation</sub>~Template.md) 
+- [Confluence Documentation Template](Confluence-Documentation-Template.md) 
 
-- [Word Documentation Template](Word<sub>~Documentation</sub>~Template.md) 
+- [Word Documentation Template](Word-Documentation-Template.md) 
 
 #### Resources 
 

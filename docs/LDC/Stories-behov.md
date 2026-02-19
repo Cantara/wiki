@@ -4,7 +4,7 @@
 
 Kundeservice bruker i dag Apache Directory Studio for å administrere LDAP. Den egner seg greit til alt mulig rart, men er for komplisert når det blir daglig administrasjon av brukere og organisasjoner.
 
-Brukere kan selv oppdatere navn, e<sub>~post og passord via web</sub>~applikasjonen de bruker.
+Brukere kan selv oppdatere navn, e-post og passord via web-applikasjonen de bruker.
 
 ## Behov/scope
 

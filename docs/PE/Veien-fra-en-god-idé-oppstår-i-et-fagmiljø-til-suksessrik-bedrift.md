@@ -6,7 +6,7 @@ Oslo Teknopol har kompetanse og virkemidler for å bistå fagmiljøene med å f�
 
 ### Foredragsholder
 
-Bjarte er leder for Oslo IKT Nettverk, arbeider med nettverksbygging, prosjektetablering og mulighetsanalyser for IKT<sub>~klyngen. Han har hovedfag i statsvitenskap og 25 års erfaring fra IKT, konsulent</sub>~ og markedsarbeid. Han har også ledet flere oppstarts- og vekstbedrifter innen IKT-næringen, både nasjonalt og internasjonalt. 
+Bjarte er leder for Oslo IKT Nettverk, arbeider med nettverksbygging, prosjektetablering og mulighetsanalyser for IKT-klyngen. Han har hovedfag i statsvitenskap og 25 års erfaring fra IKT, konsulent- og markedsarbeid. Han har også ledet flere oppstarts- og vekstbedrifter innen IKT-næringen, både nasjonalt og internasjonalt. 
 
 ### Format
 

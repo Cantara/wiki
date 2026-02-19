@@ -17,5 +17,5 @@ When it comes to it, this level of agile is what it's all about. Most of the lit
 
 ### Resources
 
-- [Glory and success are not a destination, they are a point of origin, by Uncle Bob](http://blog.objectmentor.com/articles/2008/12/15/glory<sub>~and</sub><sub>success</sub><sub>are</sub><sub>not</sub><sub>a</sub><sub>destination</sub><sub>they</sub><sub>are</sub><sub>a</sub><sub>point</sub><sub>of</sub>~origin), in reply to..
-- [What I've Learned from Master Chef Rino Baglio, by Dean Wampler](http://blog.objectmentor.com/articles/2007/05/27/what<sub>~ive</sub><sub>learned</sub><sub>from</sub><sub>master</sub><sub>chef</sub>~rino-baglio)
+- [Glory and success are not a destination, they are a point of origin, by Uncle Bob](http://blog.objectmentor.com/articles/2008/12/15/glory-and-success-are-not-a-destination-they-are-a-point-of-origin), in reply to..
+- [What I've Learned from Master Chef Rino Baglio, by Dean Wampler](http://blog.objectmentor.com/articles/2007/05/27/what-ive-learned-from-master-chef-rino-baglio)

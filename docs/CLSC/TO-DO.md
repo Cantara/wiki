@@ -2,10 +2,10 @@
 
 | Aktivitet | Beskrivelse | Ansvarlig | Status | Frist |
 | --- | --- | --- | --- | --- |
-| Sponsor | [Beskrivelse av sponsorpakke](Beskrivelse<sub>~av</sub>~sponsorpakke.md) | Alle | Åpen | uke 11 |
-| Sponsor | [Lister over potensielle sponsorer](Lister<sub>~over</sub>~potensielle-sponsorer.md) | Alle | Åpen | uke 11 |
-| Sponsor | [hvem kontakter hvem](hvem<sub>~kontakter</sub>~hvem.md) | Ingvild | Åpen | uke 11 |
-| Invitasjon | [Lage invitasjon for clsc2012](Lage<sub>~invitasjon</sub>~for-clsc2012.md) | Morten | Åpen | uke 13 |
+| Sponsor | [Beskrivelse av sponsorpakke](Beskrivelse-av-sponsorpakke.md) | Alle | Åpen | uke 11 |
+| Sponsor | [Lister over potensielle sponsorer](Lister-over-potensielle-sponsorer.md) | Alle | Åpen | uke 11 |
+| Sponsor | [hvem kontakter hvem](hvem-kontakter-hvem.md) | Ingvild | Åpen | uke 11 |
+| Invitasjon | [Lage invitasjon for clsc2012](Lage-invitasjon-for-clsc2012.md) | Morten | Åpen | uke 13 |
 | Invitasjon | Liste over meetups i oslo | Ingvild | Klar for QA | uke 11 |
 | Gjennomføring | Finpussing  av agenda | Totto | Åpen | uke 13 |
 | Gjennomføring | Case beskrivelse | Morten, Totto, Reidar | Åpen | uke 16 |

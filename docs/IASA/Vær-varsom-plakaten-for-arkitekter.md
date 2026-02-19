@@ -6,4 +6,4 @@ En arkitekt er en person som blir belønnet av sin arbeidsgiver for tro tjeneste
 
 Dette foredraget fortalte historien om en fiktiv arkitekt og trakk konklusjonene fra ham til behovet for en "vær-varsom plakat".
 
-[vær<sub>~varsom plakaten](http://johannesbrodwall.com/2009/04/22/vær</sub><sub>varsom</sub><sub>plakaten</sub>~for-arkitekten/) er beskrevet på Johannes sin blog.
+[vær-varsom plakaten](http://johannesbrodwall.com/2009/04/22/vær-varsom-plakaten-for-arkitekten/) er beskrevet på Johannes sin blog.

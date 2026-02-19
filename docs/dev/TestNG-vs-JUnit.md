@@ -17,7 +17,7 @@
 
 #### Resources 
 
-- http://maven.apache.org/plugins/maven<sub>~surefire</sub>~plugin/ 
+- http://maven.apache.org/plugins/maven-surefire-plugin/ 
 - https://github.com/kentbeck/junit/wiki
 - http://testng.org/doc/documentation-main.html#methods
 - http://www.sonatype.com/books/mcookbook/reference/ch07s04.html

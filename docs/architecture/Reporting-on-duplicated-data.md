@@ -16,11 +16,11 @@
 1. Creating new reports may require experts/developers/dbas, but it should not be necessary to restart the web application to get hold of a new report. 
 
 - Let's assume we want to use a commercial tool to do data mining and reporting. 
-- Use an off<sub>~the</sub>~shelf BI/reporting tool to generate reports. 
+- Use an off-the-shelf BI/reporting tool to generate reports. 
 
 ###### MS SQL Server 
 
-http://stackoverflow.com/questions/789616/sql<sub>~server</sub><sub>services</sub><sub>overview</sub>~anyone
+http://stackoverflow.com/questions/789616/sql-server-services-overview-anyone
 
 - Reporting Services (or SSRS)
     - a 'tweaked' version of Visual Studio to make creating/developing/editing these reports much easier. That version of visual studio is called SQL Server Business Intelligence Design Studio (or BIDS). 

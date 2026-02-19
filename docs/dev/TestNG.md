@@ -13,7 +13,7 @@
 [How to handle different groups of tests separately with TestNG?](http://wiki.community.objectware.no/display/smidigtonull/Maven+Test+FAQ#MavenFAQ-HowtohandledifferentgroupsoftestsseparatelywithTestNG%3F)
 
 ## How to do setup and tearDown for a group of tests.
-[How to do setup and tearDown for a group of tests.](How<sub>~to</sub><sub>do</sub><sub>setup</sub><sub>and</sub><sub>tearDown</sub><sub>for</sub><sub>a</sub><sub>group</sub><sub>of</sub>~tests.md)
+[How to do setup and tearDown for a group of tests.](How-to-do-setup-and-tearDown-for-a-group-of-tests.md)
 
 ## Working combinations of TestNG and surefire
 
@@ -22,5 +22,5 @@
  
 
 ## Resources 
-[http://maven.apache.org/plugins/maven<sub>~surefire</sub><sub>plugin/examples/testng.html](http://maven.apache.org/plugins/maven</sub><sub>surefire</sub>~plugin/examples/testng.html)
+[http://maven.apache.org/plugins/maven-surefire-plugin/examples/testng.html](http://maven.apache.org/plugins/maven-surefire-plugin/examples/testng.html)
 [http://docs.codehaus.org/pages/viewpage.action?pageId=62120](http://docs.codehaus.org/pages/viewpage.action?pageId=62120)

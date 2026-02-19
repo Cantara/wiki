@@ -1,6 +1,6 @@
 # Mapping between requirements and tests
 
-### Single<sub>~point</sub>~of-entry to requirements 
+### Single-point-of-entry to requirements 
 
 Assumption: Requirements are expressed as [user stories](User-Stories.md) (US).  
 
@@ -15,7 +15,7 @@ Figure: US -> a group of tests => component release
 
 White-box tests can be put into groups with the group annotation in TestNG. Each US can then be mapped to one such group. And the Maven release of the module/component ensure the mapping between the tests and these groups. 
 
-It should be possible to automate all tests in this life cycle. [Enterprise Maven Infrastructure](Enterprise<sub>~Maven</sub>~Infrastructure.md) can provide the necessary tool support for Maven-based projects. 
+It should be possible to automate all tests in this life cycle. [Enterprise Maven Infrastructure](Enterprise-Maven-Infrastructure.md) can provide the necessary tool support for Maven-based projects. 
 
 ### System (or subsystem) level cycle
 

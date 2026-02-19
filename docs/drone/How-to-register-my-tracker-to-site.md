@@ -1,6 +1,6 @@
 # How to register my tracker to site
 
-### [How to register my tracker to site](How<sub>~to</sub><sub>register</sub><sub>my</sub><sub>tracker</sub><sub>to</sub>~site.md)
+### [How to register my tracker to site](How-to-register-my-tracker-to-site.md)
 
 Case for user normal
 

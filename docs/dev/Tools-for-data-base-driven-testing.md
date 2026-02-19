@@ -9,4 +9,4 @@
 | [SqlUnit | http://sqlunit.sourceforge.net/] |  | Unit Testing Stored Procedures |  |  |
 | [Liquibase | http://www.liquibase.org] |  | tracking, managing and applying database changes |  |  |
 | [Jailer | http://jailer.sourceforge.net/] |  | Jailer is a tool for database subsetting and sampling, schema browsing, and rendering. It exports consistent, referentially intact row-sets from relational databases. |
-[JavaZone2010 presentation](http://javazone.no/incogito10/events/JavaZone%202010/sessions#454fd7f9<sub>~ae40</sub><sub>4fac</sub><sub>958c</sub>~3da40a32dad6)| |
+[JavaZone2010 presentation](http://javazone.no/incogito10/events/JavaZone%202010/sessions#454fd7f9-ae40-4fac-958c-3da40a32dad6)| |

@@ -7,8 +7,8 @@ _A description of agile in general._
 In our words, agile is a culture on many levels that allows change for the better, meaning more value as it is specified the manifesto.
 
 - At the [community level](Agile-Communities.md), our industry celebrates and recognizes organizations and individuals that provide more value.
-- At the [organizational level](Agile<sub>~Organizations.md), we (as leaders) measure and reward software development that returns long</sub>~term value and cost-efficiency.
-- At the [individual level](Agile<sub>~Individuals.md), we (as developers) keep our work transparent and take pride in our craftmanship. We remain loyal to our [Programming Ethics](Programming</sub>~Ethics.md) and strive to work more efficiently.
+- At the [organizational level](Agile-Organizations.md), we (as leaders) measure and reward software development that returns long-term value and cost-efficiency.
+- At the [individual level](Agile-Individuals.md), we (as developers) keep our work transparent and take pride in our craftmanship. We remain loyal to our [Programming Ethics](Programming-Ethics.md) and strive to work more efficiently.
 
 It is no easy task to boil agile down to one sentence, but here are some attempts and paraphrases.
 

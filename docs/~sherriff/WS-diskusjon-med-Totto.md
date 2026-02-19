@@ -14,7 +14,7 @@
 (10:35:32 AM) Totto - Thor Henning Hetland: JAXB har ikke lært, gjør det samme som CORBA/IDL for 20 år siden
 (10:36:08 AM) Erik: Kjenner jo XPATH, men må innrømme at jeg ikke intuitivt ser hvordan det gjør databindingen så mye bedre. 
 (10:36:27 AM) Totto - Thor Henning Hetland: ikke bedre, men løsere
-(10:36:33 AM) Erik: XPATH<sub>~expressions blir vel liggende inni pakkene, compile</sub>~time som alt annet? 
+(10:36:33 AM) Erik: XPATH-expressions blir vel liggende inni pakkene, compile-time som alt annet? 
 (10:36:56 AM) Totto - Thor Henning Hetland: jepp... men du plukker bare det du vil ha...  får ikke med deg all dritten
 (10:37:40 AM) Totto - Thor Henning Hetland: og man kan kjøre skjemaløst, som er en stor fordel
 (10:38:22 AM) Erik: Har hørt argumenter både for og imot schemas. Hvorfor mener du det er en fordel å kjøre uten? 
@@ -51,10 +51,10 @@
 (10:59:09 AM) Totto - Thor Henning Hetland: xpath tar jo bort mesteparten av kompleksiteten i parsingen...  og siden man får et forhold til payloaden, så lager man den sånn den er lett å tolke/bruke som er en viktig egenskap med tjenester, må vite
 (10:59:40 AM) Erik: mm
 (11:03:38 AM) Erik: Hva med frontend? JAX-WS? 
-(11:04:29 AM) Totto - Thor Henning Hetland: jeg bruker JAX<sub>~RS men JAX</sub>~WS vil jo være soap alternativet
+(11:04:29 AM) Totto - Thor Henning Hetland: jeg bruker JAX-RS men JAX-WS vil jo være soap alternativet
 (11:05:12 AM) Totto - Thor Henning Hetland: har dog ikke mye praktisk erfaring med JAX-WS
 (11:05:34 AM) Erik: Ser på REST og SOAP som to ulike tilnærminger ja. 
-(11:06:18 AM) Erik: Innbiller meg at når startpunktet er trelags<sub>~silo</sub><sub>applikasjoner så er SOAP og synkrone ws</sub><sub>er enklere å forholde seg til enn REST</sub>~tankegangen. 
+(11:06:18 AM) Erik: Innbiller meg at når startpunktet er trelags-silo-applikasjoner så er SOAP og synkrone ws-er enklere å forholde seg til enn REST-tankegangen. 
 (11:06:23 AM) Totto - Thor Henning Hetland: du ser jo REST tilnærmingen min på SSO Token tjenesten
 (11:07:21 AM) Totto - Thor Henning Hetland: ikke sikker...   spørs om man vil rydde frem ressursene/dataene i prosessen, eller bare metodene/aktivitetene
 (11:07:57 AM) Totto - Thor Henning Hetland: det å få endret mindsettet til å se på dataene, pleier raskt å lønne seg som vi fort lærte i OW SOA

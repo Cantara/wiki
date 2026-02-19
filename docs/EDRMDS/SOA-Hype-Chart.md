@@ -1,3 +1,3 @@
 # SOA Hype Chart
 
-![SOAhype.jpg](SOAhype-jpg.md)(SOAhype.jpg)
+![SOAhype.jpg](7143429-SOAhype.jpg)

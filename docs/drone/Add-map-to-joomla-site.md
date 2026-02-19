@@ -1,6 +1,6 @@
 # Add map to joomla site
 
-### [Add map to joomla site](Add<sub>~map</sub><sub>to</sub><sub>joomla</sub>~site.md) 
+### [Add map to joomla site](Add-map-to-joomla-site.md) 
 
 How to added map into joomla site for demo
 

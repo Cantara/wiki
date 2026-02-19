@@ -7,10 +7,10 @@ The CI server is a critical component in Enterprise Maven Infrastructure. It has
 1. Automatic testing 
 2. Automated warning notification
 3. Automatic deployment of snapshot versions to a build artifact repository manager 
-4. Site information deployment (maven<sub>~site</sub>~plugin)
-5. Graphical front<sub>~end for performing releases with the maven</sub>~release-plugin (supported in Continuum v1.1). 
+4. Site information deployment (maven-site-plugin)
+5. Graphical front-end for performing releases with the maven-release-plugin (supported in Continuum v1.1). 
 
-There are several CI servers on the market - see [sysadm:Continuous Integration Server Overview](../sysadm/Continuous<sub>~Integration</sub>~Server-Overview.md) for a feature comparison. 
+There are several CI servers on the market - see [sysadm:Continuous Integration Server Overview](../sysadm/Continuous-Integration-Server-Overview.md) for a feature comparison. 
 
 #### Basic CI strategy 
 

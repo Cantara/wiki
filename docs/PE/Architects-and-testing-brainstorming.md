@@ -23,4 +23,4 @@
 
 - Promotes agile development 
 
-[Commit<sub>~and</sub><sub>run is a crime](http://97</sub><sub>things.near</sub><sub>time.net/wiki/commit</sub><sub>and</sub><sub>run</sub><sub>is</sub><sub>a</sub><sub>serious</sub><sub>crime</sub><sub>respect</sub>~your-colleagues)
+[Commit-and-run is a crime](http://97-things.near-time.net/wiki/commit-and-run-is-a-serious-crime-respect-your-colleagues)

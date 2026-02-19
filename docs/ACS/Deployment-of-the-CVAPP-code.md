@@ -7,26 +7,26 @@ Login with cvapp user
 
 ### Install dependencies
 
-1. sudo apt<sub>~get install python</sub>~pip
-1. sudo apt<sub>~get install libxml2</sub>~dev libxslt1-dev
+1. sudo apt-get install python-pip
+1. sudo apt-get install libxml2-dev libxslt1-dev
 1. sudo pip install django-webodt
 1. sudo pip install appy
-1. sudo apt<sub>~get install python</sub>~lxml
+1. sudo apt-get install python-lxml
 1. sudo pip install requests (possibly sudo apt-get pip install requests)
-1. sudo apt<sub>~get install python</sub>~imaging 
+1. sudo apt-get install python-imaging 
 1. sudo pip install django-haystack
-1. sudo pip install django<sub>~admin</sub>~bootstrapped
+1. sudo pip install django-admin-bootstrapped
 1. sudo pip install pysolr
 
 ### Db
 
 Copy database to /home/cvapp/db/cv.db
-DB<sub>~file must have write</sub>~permission for www-data
+DB-file must have write-permission for www-data
 
 ### Photos
 
 Copy photos to /var/www/media/photos
-Photos<sub>~folder must have write</sub>~permission for www-data
+Photos-folder must have write-permission for www-data
 
 ### Google Account for converting documents (deprecated - we now use soffice)
 
@@ -52,7 +52,7 @@ Add DNS record, wait a bit for it to register
 
 ### SETUP DB
 - Might need to add old sources to apt source list
--- psql -h acsdemo1.cmbef5jatjlu.us<sub>~east</sub>~1.rds.amazonaws.com acsdemo1 acsdemo1
+-- psql -h acsdemo1.cmbef5jatjlu.us-east-1.rds.amazonaws.com acsdemo1 acsdemo1
 -- python /home/acs-user/acs/cvapp/manage.py syncdb
 - Load data
 -- sudo python /home/acs-user/acs/cvapp/manage.py loaddata cvdemo.json

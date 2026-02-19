@@ -25,15 +25,15 @@
 
 [HOW-TO: Debug JavaScript in Internet Explorer](http://www.jonathanboutelle.com/mt/archives/2006/01/howto_debug_jav.html) 
 
-- [Microsoft Script Debugger](http://www.microsoft.com/downloads/details.aspx?FamilyID=2f465be0<sub>~94fd</sub><sub>4569</sub><sub>b3c4</sub>~dffdf19ccd99&DisplayLang=en) \- Simpel JavaScript debugger. Not very good.
+- [Microsoft Script Debugger](http://www.microsoft.com/downloads/details.aspx?FamilyID=2f465be0-94fd-4569-b3c4-dffdf19ccd99&DisplayLang=en) \- Simpel JavaScript debugger. Not very good.
 
-- Microsoft Script Editor - Ligger gjemt på Office<sub>~2003</sub>~cd'en. A bit more extensive JavaScript debugger. Pretty good.
+- Microsoft Script Editor - Ligger gjemt på Office-2003-cd'en. A bit more extensive JavaScript debugger. Pretty good.
 
 - [Visual Studio 2005](http://msdn.microsoft.com/vstudio/) \- Microsoft's best JavaScript debugger. Costs money. Best debugger these days according to Douglas Crockford.
 
 - [Visual Web Developer 2005 Express Edition](http://msdn.microsoft.com/vstudio/express/vwd/) \- Free. Supposedly contains the same debugger as Visual Studio, but had problems getting it working.
 
-- [Internet Explorer Developer Toolbar](http://www.microsoft.com/downloads/details.aspx?familyid=e59c3964<sub>~672d</sub><sub>4511</sub><sub>bb3e</sub>~2d5e1db91038&displaylang=en) \- Nifty plugin for DOM-navigation m.m.
+- [Internet Explorer Developer Toolbar](http://www.microsoft.com/downloads/details.aspx?familyid=e59c3964-672d-4511-bb3e-2d5e1db91038&displaylang=en) \- Nifty plugin for DOM-navigation m.m.
 
 - [Fiddler](http://www.fiddlertool.com/fiddler/) \- HTTP Debugging Proxy
 

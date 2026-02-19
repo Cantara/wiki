@@ -1,3 +1,3 @@
 # Skill
 
-Software Architecture, productivity and Object<sub>~orientation. Method work. Distributed systems. Planning of software projects. Plan</sub><sub>systems. Data</sub><sub>security. Leadership of object</sub>~oriented software teams.
+Software Architecture, productivity and Object-orientation. Method work. Distributed systems. Planning of software projects. Plan-systems. Data-security. Leadership of object-oriented software teams.

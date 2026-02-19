@@ -10,9 +10,9 @@ I prefer Jetty over WTP with Tomcat (which is what I was using before). I genera
 
 The following links may be useful:
 
-http://code.google.com/p/run<sub>~jetty</sub>~run/
+http://code.google.com/p/run-jetty-run/
 http://www.webtide.com/eclipse
-http://www.codecommit.com/blog/java/so<sub>~long</sub><sub>wtp</sub><sub>embedded</sub><sub>jetty</sub><sub>for</sub>~me
+http://www.codecommit.com/blog/java/so-long-wtp-embedded-jetty-for-me
 
 Each of them shows a different way of using Jetty for development.
 

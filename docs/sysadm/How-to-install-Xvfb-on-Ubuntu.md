@@ -28,4 +28,4 @@ xwud -in xfvbtest.xwd
 
 #### Resources 
 
-- [Installing Xvfb on Ubuntu 9.10 (Karmic Koala)](http://blog.martin<sub>~lyness.com/archives/installing</sub><sub>xvfb</sub><sub>on</sub><sub>ubuntu</sub><sub>9</sub><sub>10</sub><sub>karmic</sub>~koala)
+- [Installing Xvfb on Ubuntu 9.10 (Karmic Koala)](http://blog.martin-lyness.com/archives/installing-xvfb-on-ubuntu-9-10-karmic-koala)

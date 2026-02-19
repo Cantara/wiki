@@ -2,7 +2,7 @@
 
 ###### Drop unique constraint
 
-http://stackoverflow.com/questions/3001103/i<sub>~need</sub><sub>to</sub><sub>remove</sub><sub>a</sub><sub>unique</sub><sub>constraints</sub><sub>that</sub><sub>i</sub><sub>dont</sub><sub>know</sub><sub>the</sub>~names-of
+http://stackoverflow.com/questions/3001103/i-need-to-remove-a-unique-constraints-that-i-dont-know-the-names-of
 
 ```sql
 DECLARE @table_name nvarchar(256)

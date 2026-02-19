@@ -2,7 +2,7 @@
 
 ## Example with JMS-client 
 
-While we strive to make our artifacts platform independent, this is not always possible. The _java.naming.factory.initial_<sub>~property needed by [JndiTemplate](http://static.springframework.org/spring/docs/2.5.x/api/org/springframework/jndi/JndiTemplate.html) requires that the given implementation of _ContextFactory_ is present on the classpath. Putting the property in a external property</sub><sub>file is a good idea and makes the Spring</sub><sub>setup environment independent. However, switching between multiple jms</sub>~servers requires different jar-files. 
+While we strive to make our artifacts platform independent, this is not always possible. The _java.naming.factory.initial_-property needed by [JndiTemplate](http://static.springframework.org/spring/docs/2.5.x/api/org/springframework/jndi/JndiTemplate.html) requires that the given implementation of _ContextFactory_ is present on the classpath. Putting the property in a external property-file is a good idea and makes the Spring-setup environment independent. However, switching between multiple jms-servers requires different jar-files. 
 
 #### Switch jar-files directly with assembly
 
@@ -70,7 +70,7 @@ The jmsImpl-property should be used as part of the assembly outputname to illust
 ```
 <plugin>
   <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven<sub>~assembly</sub>~plugin</artifactId>
+  <artifactId>maven-assembly-plugin</artifactId>
   <configuration>
     <finalName>$-$</finalName>
   </configuration>

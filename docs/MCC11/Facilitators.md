@@ -35,6 +35,6 @@
 - Peter-Paul Koch: http://www.quirksmode.org/about/
 - Maximiliano Firtman: http://firt.mobi/
 - Dion Almaer / Ben Galbraith
-- Jason Grigsby (usikker på js<sub>~kompetanse, men tror han har ux</sub>~kompetanse som kan dekke alle mobilplattformer): https://twitter.com/#!/grigs
+- Jason Grigsby (usikker på js-kompetanse, men tror han har ux-kompetanse som kan dekke alle mobilplattformer): https://twitter.com/#!/grigs
 
 **iOS expert:**

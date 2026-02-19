@@ -17,7 +17,7 @@ The traditional approach to make an application is to extract relevant propertie
 #### Load properties from a .properties file 
 
 - Get from classpath
-[Smartly load your properties - Classpath resources](http://www.javaworld.com/javaworld/javaqa/2003<sub>~08/01</sub><sub>qa</sub><sub>0808</sub>~property.html?page=2)
+[Smartly load your properties - Classpath resources](http://www.javaworld.com/javaworld/javaqa/2003-08/01-qa-0808-property.html?page=2)
 
 - Get from a jar file:
 ```
@@ -42,14 +42,14 @@ Use [Apache Commons-IO](http://commons.apache.org/io/description.html)
 
 ## Configuration in Spring 
 
-[Advanced Spring configuration](Advanced<sub>~Spring</sub>~configuration.md) 
+[Advanced Spring configuration](Advanced-Spring-configuration.md) 
 [Chapter 4: Resources](http://static.springframework.org/spring/docs/2.5.x/reference/resources.html)
-[PropertyConfigurers](http://static.springframework.org/spring/docs/2.5.x/reference/beans.html#beans<sub>~factory</sub><sub>extension</sub><sub>factory</sub>~postprocessors) 
+[PropertyConfigurers](http://static.springframework.org/spring/docs/2.5.x/reference/beans.html#beans-factory-extension-factory-postprocessors) 
 
 **TODO** 
 Many use Spring to load property-files during application context initialization. Can this be achieved by extending [PropertyOverrideConfigurer](http://static.springframework.org/spring/docs/2.5.x/api/org/springframework/beans/factory/config/PropertyOverrideConfigurer.html) and [PropertyPlaceholderConfigurer](http://static.springframework.org/spring/docs/2.5.x/api/org/springframework/beans/factory/config/PropertyPlaceholderConfigurer.html)? 
 
-If beans that need properties from external property<sub>~files are set to _lazy</sub>~init_, it is possible to load properties manually after application context initialization, but before the properties are actually used in the relevant beans. 
+If beans that need properties from external property-files are set to _lazy-init_, it is possible to load properties manually after application context initialization, but before the properties are actually used in the relevant beans. 
 
 ## Apache Commons Configuration 
 

@@ -1,10 +1,10 @@
 # Synchronization
 
 [http://en.wikipedia.org/wiki/Master_Data_Management](http://en.wikipedia.org/wiki/Master_Data_Management)
-[http://msdn2.microsoft.com/en<sub>~us/library/bb190163.aspx#mdm04_topic4](http://msdn2.microsoft.com/en</sub>~us/library/bb190163.aspx#mdm04_topic4)
+[http://msdn2.microsoft.com/en-us/library/bb190163.aspx#mdm04_topic4](http://msdn2.microsoft.com/en-us/library/bb190163.aspx#mdm04_topic4)
 [http://www.microsoft.com/sharepoint/mdm/default.mspx](http://www.microsoft.com/sharepoint/mdm/default.mspx)
-[http://www.dmreview.com/specialreports/2008_77/10001011<sub>~1.html?portal=master_data_management](http://www.dmreview.com/specialreports/2008_77/10001011</sub>~1.html?portal=master_data_management)
-[http://www.dmreview.com/specialreports/2008_69/10001037<sub>~1.html?portal=master_data_management](http://www.dmreview.com/specialreports/2008_69/10001037</sub>~1.html?portal=master_data_management)
+[http://www.dmreview.com/specialreports/2008_77/10001011-1.html?portal=master_data_management](http://www.dmreview.com/specialreports/2008_77/10001011-1.html?portal=master_data_management)
+[http://www.dmreview.com/specialreports/2008_69/10001037-1.html?portal=master_data_management](http://www.dmreview.com/specialreports/2008_69/10001037-1.html?portal=master_data_management)
 
 ### General MDM Scenarios ( Rippet )
 
@@ -47,7 +47,7 @@ Rules engine.
 - Create (!)
 ### 
 
-![http://www.dmreview.com/media/assets/article/1059676/Agosta_Fig1.gif](http://www.dmreview.com/media/assets/article/1059676/Agosta_Fig1.gif)(http://www.dmreview.com/media/assets/article/1059676/Agosta_Fig1.gif)
-![http://www.dmreview.com/media/assets/article/1059676/Agost_Fig2.gif](http://www.dmreview.com/media/assets/article/1059676/Agost_Fig2.gif)(http://www.dmreview.com/media/assets/article/1059676/Agost_Fig2.gif)
+![http://www.dmreview.com/media/assets/article/1059676/Agosta_Fig1.gif](http://www.dmreview.com/media/assets/article/1059676/Agosta_Fig1.gif)
+![http://www.dmreview.com/media/assets/article/1059676/Agost_Fig2.gif](http://www.dmreview.com/media/assets/article/1059676/Agost_Fig2.gif)
 
-[http://www.dmreview.com/news/1059676<sub>~1.html](http://www.dmreview.com/news/1059676</sub>~1.html)
+[http://www.dmreview.com/news/1059676-1.html](http://www.dmreview.com/news/1059676-1.html)

@@ -1,12 +1,12 @@
 # Juleøltesten 1998
 
-![Juleøltest1998.png](Juleøltest1998-png.md)(Juleøltest1998.png)
+![Juleøltest1998.png](18939940-Juleøltest1998.png)
 
 <HTML>
 <HEAD> 
 <BASE HREF="http://puben.org.wstub.archive.org/juleol98.html"> 
 
-   <META HTTP<sub>~EQUIV="Content</sub><sub>Type" CONTENT="text/html; charset=iso</sub><sub>8859</sub>~1">
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
    <META NAME="author" CONTENT="Who made this page?">
    <META NAME="owner" CONTENT="Who owns this page?">
    <META NAME="description" CONTENT="What is this page about?">

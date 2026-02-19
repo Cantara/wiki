@@ -49,7 +49,7 @@ Det skal være veldig lett å legge til en ny server instans.
 
 Hvorfor bruker vi ikke tjenester som finnes i _the_ cloud nå? De finnes og er ready for prime time.
 
-Pass på vendorlockin\![\](.md)(\)
+Pass på vendorlockin\![\](\)
 - De kan gå konk.
 - De kan endre oppsett på maskinene
 - Du kan ikke gå bort fra en leverandør enkelt.

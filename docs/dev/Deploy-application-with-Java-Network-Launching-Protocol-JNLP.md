@@ -46,13 +46,13 @@ This can be achieved with two different approaches:
 - Statically generate jnlp files 
     - Requires an http server (e.g. Apache) 
     - The url to the jnlp files on the webserver must be statically defined. 
-    - See [Maven Webstart - static website](Maven<sub>~Webstart</sub>~static-website.md)
+    - See [Maven Webstart - static website](Maven-Webstart-static-website.md)
 
 - Dynamically generate jnlp files 
     - Requires a servlet container (e.g. jetty, tomcat)  
     - The url to the jnlp files on the webserver can be dynamically defined, because the jnlp files are _generated_ on the server. 
     - More flexible than the static approach, because the servlet can be used to implement a configuration scheme and simplify changing properties.  
-    - See [Maven Webstart - JNLP DownloadServlet](Maven<sub>~Webstart</sub>~JNLP-DownloadServlet.md)
+    - See [Maven Webstart - JNLP DownloadServlet](Maven-Webstart-JNLP-DownloadServlet.md)
 
 **[Diagram: Webstart](../Diagram/Webstart.md)**
 

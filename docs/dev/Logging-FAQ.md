@@ -34,7 +34,7 @@ Reference: [java.util.logging.Level](http://java.sun.com/javase/6/docs/api/java/
 
 #### commons-logging or not? 
 
-commons<sub>~logging 1.1 brought in a series of unnecessary transitive dependencies and was it's use was considered to be an anti</sub>~pattern. This has been fixed in version 1.1.1, but still very few use cases justify the use of commons-logging.
+commons-logging 1.1 brought in a series of unnecessary transitive dependencies and was it's use was considered to be an anti-pattern. This has been fixed in version 1.1.1, but still very few use cases justify the use of commons-logging.
 So, avoid commons-logging. A facade to the logging tool seldom adds any value and the level of indirection can thus be avoided. 
 
 #### How to choose tool 
@@ -59,6 +59,6 @@ No, it appears that (at least with AspectJ) this is not a possible as illustrate
 (+) Gives a tiny performance improvement
 (-) Reduces readabiliry
 
-- [When to call isDebugEnabled](http://livingtao.blogspot.com/2007/05/when<sub>~to</sub><sub>call</sub><sub>isdebugenabled</sub>~before.html)
+- [When to call isDebugEnabled](http://livingtao.blogspot.com/2007/05/when-to-call-isdebugenabled-before.html)
 
 **TODO**: Update with better references and more details.

@@ -2,10 +2,10 @@
 
 #### Why virtualization 
 
-The [DNS/webproxy tactics](Dynamic<sub>~addressing</sub><sub>with</sub><sub>service</sub>~names.md)  does not require virtualization and can just as well be applied to multiple physical machines. However, physical machines cost money and the physical machine approach will limit the number of concurrent environments. A virtualized approach can support a lot more environments than physical machines for the same amount of money. 
+The [DNS/webproxy tactics](Dynamic-addressing-with-service-names.md)  does not require virtualization and can just as well be applied to multiple physical machines. However, physical machines cost money and the physical machine approach will limit the number of concurrent environments. A virtualized approach can support a lot more environments than physical machines for the same amount of money. 
 
 #### What kind of virtualization? 
-[Full virtualization](http://en.wikipedia.org/wiki/Platform_virtualization#Full_virtualization) (e.g. [VMware](http://www.vmware.com/products/server/features.html) that supports different OSs) will save a lot of money, but [operating system<sub>~level virtualization](http://en.wikipedia.org/wiki/Platform_virtualization#Operating_system</sub>~level_virtualization) approaches (e.g. [Solaris zones](http://www.solarisinternals.com/wiki/index.php/Zones)) are recommended due to much lower resource requirements. 
+[Full virtualization](http://en.wikipedia.org/wiki/Platform_virtualization#Full_virtualization) (e.g. [VMware](http://www.vmware.com/products/server/features.html) that supports different OSs) will save a lot of money, but [operating system-level virtualization](http://en.wikipedia.org/wiki/Platform_virtualization#Operating_system-level_virtualization) approaches (e.g. [Solaris zones](http://www.solarisinternals.com/wiki/index.php/Zones)) are recommended due to much lower resource requirements. 
 
 #### Other advantages 
 

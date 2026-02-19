@@ -6,7 +6,7 @@ Tradisjonen tro, så er det på nytt klart for årets juleølsmaking, som i år 
 
 | Tid | Lørdag 9.11 kl. 18:00 -> |
 | Sted | [Morgedalsvegen 41 | https://maps.google.com/maps?q=Morgedalsvegen+41,+Ullern,+0378+Oslo,+Norway&hl=en&ll=59.939466,10.671458&spn=0.002319,0.007398&client=ubuntu&channel=fs&oe=utf-8&geocode=FYiakgMdZ9WiAA&hnear=Morgedalsvegen+41,+Ullern,+0378+Oslo,+Norway&t=h&z=18], 2.etg. leil.39 (hos Erik Drolshammer) |
-| Forberedelse | Kjøpe en av hver av det **norske** juleølet **på polet** ([^Juleøl 2013.xlsx](Juleøl<sub>~2013</sub>~xlsx.md)) (Typisk 20-25 stk) :) |
+| Forberedelse | Kjøpe en av hver av det **norske** juleølet **på polet** ([^Juleøl 2013.xlsx](Juleøl-2013-xlsx.md)) (Typisk 20-25 stk) :) |
 
 ### Stemmeregler
 
@@ -31,13 +31,13 @@ Tradisjonen tro, så er det på nytt klart for årets juleølsmaking, som i år 
 
 ### Nyttige hjelpemidler
 
-- [Fjorårets juleøl](http://www.dinside.no/905688/testresultater<sub>~for</sub><sub>juleol</sub><sub>paa</sub>~polet)
+- [Fjorårets juleøl](http://www.dinside.no/905688/testresultater-for-juleol-paa-polet)
 
 - Smakshjul: [http://brewery.org/brewery/library/colorwheel.jpg](http://brewery.org/brewery/library/colorwheel.jpg)
 - Bedømmelsesskjema: [http://realbeer.com/spencer/judge/scoresheet.ps](http://realbeer.com/spencer/judge/scoresheet.ps)
 - Evalueringsskjema: [http://www.chilliman.com/beer_eval.htm](http://www.chilliman.com/beer_eval.htm)
-- Jargong:  [http://marty<sub>~nachel.suite101.com/beer</sub><sub>tasting</sub><sub>jargon</sub><sub>a103166](http://marty</sub><sub>nachel.suite101.com/beer</sub><sub>tasting</sub><sub>jargon</sub>~a103166)
-- [http://www.winning<sub>~homebrew.com/evaluating</sub><sub>beer.html](http://www.winning</sub><sub>homebrew.com/evaluating</sub>~beer.html)
+- Jargong:  [http://marty-nachel.suite101.com/beer-tasting-jargon-a103166](http://marty-nachel.suite101.com/beer-tasting-jargon-a103166)
+- [http://www.winning-homebrew.com/evaluating-beer.html](http://www.winning-homebrew.com/evaluating-beer.html)
 - [http://brewery.org/TastingCont.html](http://brewery.org/TastingCont.html)
 
 ### Litt om at vi er tradisjonsbærere:

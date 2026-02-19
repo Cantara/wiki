@@ -1,6 +1,6 @@
 # Developers - Error handling concerns in service or component systems
 
-The fact that error handling is often the lowest<sub>~priority concern is doubly weird if you consider that **cross</sub>~component error handling is the same concern as core functionality messaging**. In both cases there are the same sets of concerns, both with regards to communication with external components and interaction between the component's internal implementation and the communication layer. Some typical concerns that development teams have to deal with are:
+The fact that error handling is often the lowest-priority concern is doubly weird if you consider that **cross-component error handling is the same concern as core functionality messaging**. In both cases there are the same sets of concerns, both with regards to communication with external components and interaction between the component's internal implementation and the communication layer. Some typical concerns that development teams have to deal with are:
 
 #### Distributed Systems and remoting
 
@@ -24,7 +24,7 @@ Just as SOA components require clear definitions of the messages that will be ex
 
 Just as mainline communication behaviour between SOA components must be clearly and formally defined, so must similar definitions be given for when a component can send an error message in response to a request for operation.
 
-See [Error Categorization example](Error<sub>~Categorization</sub>~example.md)
+See [Error Categorization example](Error-Categorization-example.md)
 
 #### **Projecting exception types from the domain language onto error types from the communication language**
 
@@ -34,6 +34,6 @@ In the case of error handling, this is one half of a problem that also exists fo
 
 This concern actually affects a component more as a consumer of other services than as a publisher of services. Maintaining component independence is related to avoiding domain models leaking over into foreign components (as Eric Evans puts it). In the case of messaging it means not building your domain model so that it is a mere copy of a foreign component's communication model. In the more specific case of error handling it relates to not linking error handling too closely to the definition of errors used by foreign components. Instead, as with mainline messages, **foreign component-generated errors should be projected onto the local domain**
 
-Reference: [SOA component design: thinking about error handling](http://www.gridshore.nl/2008/07/26/soa<sub>~component</sub><sub>design</sub><sub>thinking</sub><sub>about</sub><sub>error</sub>~handling/)
+Reference: [SOA component design: thinking about error handling](http://www.gridshore.nl/2008/07/26/soa-component-design-thinking-about-error-handling/)
 
 ---

@@ -9,7 +9,7 @@ Primary test aspect: Automated regression test
 
 #### Prerequisites
 - A user with empty schema and privileges to **connect, resource, select any table, create procedure** 
-    - unitils<sub>~4.0</sub>~SNAPSHOT does not support drop procedures/packages/functions. It is thus necessary to have access to a database _system user_ with privileges to drop user, create user and set up grants whenever pl_sql code is removed. Mofied is handled as long as the code is _repeatable. 
+    - unitils-4.0-SNAPSHOT does not support drop procedures/packages/functions. It is thus necessary to have access to a database _system user_ with privileges to drop user, create user and set up grants whenever pl_sql code is removed. Mofied is handled as long as the code is _repeatable. 
 - All PL_SQL scripts are _repeatable_ (e.g. a create or replace procedure) and terminated using "/" and a single newline at the end of the file. 
 
 #### Strategy 
@@ -62,7 +62,7 @@ Each test is responsible for triggering the pl_sql code in question and assertin
     - Raw queries (SimpleJDBCTemplate,  rowmapper) 
     - Unitils @ExpectedDataset? 
 
-- [UNI<sub>~7 Method unitilsBeforeTestSetUp() annotated with @BeforeMethod?](http://jira.unitils.org/browse/UNI</sub>~7)
+- [UNI-7 Method unitilsBeforeTestSetUp() annotated with @BeforeMethod?](http://jira.unitils.org/browse/UNI-7)
 
 #### Resources 
 
@@ -84,4 +84,4 @@ http://forum.springsource.org/showthread.php?t=19472
 
 Ensure correct DDL in database, no data (Spring [SimpleJdbcTestUtils.executeSqlScript](http://static.springsource.org/spring/docs/3.0.x/javadoc-api/org/springframework/test/jdbc/SimpleJdbcTestUtils.html#executeSqlScript%28org.springframework.jdbc.core.simple.SimpleJdbcTemplate,%20org.springframework.core.io.Resource,%20boolean%29)) 
 
-[Restore default state](RestoreDefaultState<sub>~Oracle</sub>~database.md)
+[Restore default state](RestoreDefaultState-Oracle-database.md)

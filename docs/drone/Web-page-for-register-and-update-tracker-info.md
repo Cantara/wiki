@@ -1,6 +1,6 @@
 # Web page for register and update tracker info
 
-### [Web page for register and update tracker info](Web<sub>~page</sub><sub>for</sub><sub>register</sub><sub>and</sub><sub>update</sub>~tracker-info.md)
+### [Web page for register and update tracker info](Web-page-for-register-and-update-tracker-info.md)
 
 ##### Comments Leif 22.4.2015
 

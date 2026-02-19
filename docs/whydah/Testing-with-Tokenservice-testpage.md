@@ -54,7 +54,7 @@ Example:
     <hash type="MD5">ee33ba5d3c8976f9ecf7477fac8928a8</hash>
 </usertoken>
 ```
-Use id<sub>~field, named **id**, similar to 0b3701ec</sub><sub>619b</sub><sub>4c7b</sub>~9519-2d8123798009 to paste into field **Usertokenid**
+Use id-field, named **id**, similar to 0b3701ec-619b-4c7b-9519-2d8123798009 to paste into field **Usertokenid**
 
 #### Turning on tokenservice test-functionality in Whydah SecurityTokenService instance
 ```title

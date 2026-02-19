@@ -3,12 +3,12 @@
 #### Assumptions 
 
 - Limited CPU, memory, disk and network capabilities 
-- Possibly battery<sub>~driven (e.g. low</sub>~power devices) 
+- Possibly battery-driven (e.g. low-power devices) 
     - Transmission use a lot of power. 
 - Transport: Radio, bluetooth, SMS
 
-- Request<sub>~reply/handshake protocols are probably not suited. 2</sub>~way communication like TLS is probably not suited. 
-    - Expecting a "connection less", asynchronous fire<sub>~and</sub>~forget solution for many use cases. 
+- Request-reply/handshake protocols are probably not suited. 2-way communication like TLS is probably not suited. 
+    - Expecting a "connection less", asynchronous fire-and-forget solution for many use cases. 
 
 'location/situational awareness
 *

@@ -31,19 +31,19 @@ Tradisjonen tro, så er det på nytt klart for årets juleølsmaking, som i år 
 
 ### Nyttige hjelpemidler
 
-- [Årets juleøl på polet](http://vertical.vinmonopolet.no/vmp/mat<sub>~og</sub>~drikke/øl/_attachment/476577?_ts=149507f0108) 44 norske, av 107 totalt. 
-- [Fjorårets juleøl](http://www.dinside.no/905688/testresultater<sub>~for</sub><sub>juleol</sub><sub>paa</sub>~polet)
+- [Årets juleøl på polet](http://vertical.vinmonopolet.no/vmp/mat-og-drikke/øl/_attachment/476577?_ts=149507f0108) 44 norske, av 107 totalt. 
+- [Fjorårets juleøl](http://www.dinside.no/905688/testresultater-for-juleol-paa-polet)
 - Smakshjul: [http://brewery.org/brewery/library/colorwheel.jpg](http://brewery.org/brewery/library/colorwheel.jpg)
 - Bedømmelsesskjema: [http://realbeer.com/spencer/judge/scoresheet.ps](http://realbeer.com/spencer/judge/scoresheet.ps)
 - Evalueringsskjema: [http://www.chilliman.com/beer_eval.htm](http://www.chilliman.com/beer_eval.htm)
-- Jargong:  [http://marty<sub>~nachel.suite101.com/beer</sub><sub>tasting</sub><sub>jargon</sub><sub>a103166](http://marty</sub><sub>nachel.suite101.com/beer</sub><sub>tasting</sub><sub>jargon</sub>~a103166)
+- Jargong:  [http://marty-nachel.suite101.com/beer-tasting-jargon-a103166](http://marty-nachel.suite101.com/beer-tasting-jargon-a103166)
 - [Litt om øltyper](http://seekshreyas.com/beerviz/)
-- [http://www.winning<sub>~homebrew.com/evaluating</sub><sub>beer.html](http://www.winning</sub><sub>homebrew.com/evaluating</sub>~beer.html)
+- [http://www.winning-homebrew.com/evaluating-beer.html](http://www.winning-homebrew.com/evaluating-beer.html)
 - [http://brewery.org/TastingCont.html](http://brewery.org/TastingCont.html)
 
 ### Juleøl på polet
 
-- [Innføring i juleøl](http://www.vinmonopolet.no/artikkel/mat<sub>~og</sub><sub>drikke/øl/juleøl</sub><sub>på</sub>~polet)
+- [Innføring i juleøl](http://www.vinmonopolet.no/artikkel/mat-og-drikke/øl/juleøl-på-polet)
 
 ### Litt om at vi er tradisjonsbærere:
 - http://www.juleolsmaking.no/?page_id=87
@@ -52,8 +52,8 @@ Tradisjonen tro, så er det på nytt klart for årets juleølsmaking, som i år 
 
 ### 2014 - Juleøl
 
-- Resultater:  [https://docs.google.com/spreadsheets/d/1BfEt<sub>~alQ9iDK0YBoS6ZolAw9YfgQuuNmUm_s0wEb1NE/edit](https://docs.google.com/spreadsheets/d/1BfEt</sub>~alQ9iDK0YBoS6ZolAw9YfgQuuNmUm_s0wEb1NE/edit)
+- Resultater:  [https://docs.google.com/spreadsheets/d/1BfEt-alQ9iDK0YBoS6ZolAw9YfgQuuNmUm_s0wEb1NE/edit](https://docs.google.com/spreadsheets/d/1BfEt-alQ9iDK0YBoS6ZolAw9YfgQuuNmUm_s0wEb1NE/edit)
 - Bilder: [https://picasaweb.google.com/105809494036517226599/JuleL2014](https://picasaweb.google.com/105809494036517226599/JuleL2014)
  
 
-![juleøl2014.png](juleøl2014-png.md)(juleøl2014.png)
+![juleøl2014.png](38964246-juleøl2014.png)

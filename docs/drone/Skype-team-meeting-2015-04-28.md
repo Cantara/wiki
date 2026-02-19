@@ -1,6 +1,6 @@
 # Skype team meeting 2015.04.28
 
-### [Skype team meeting 2015.04.28](Skype<sub>~team</sub><sub>meeting</sub><sub>2015</sub>~04-28.md)
+### [Skype team meeting 2015.04.28](Skype-team-meeting-2015-04-28.md)
 
 Main rest objectives:
 

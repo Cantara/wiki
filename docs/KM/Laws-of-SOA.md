@@ -7,7 +7,7 @@
 
 ###### 2. Establish service categories and service universe.
 - Without defining/typing your services, you are building your SOA universe with simple blocks. We have different types of building blocks for building houses, why not in SOA..
-See [OWSOA:SOA - Service Categorization](../OWSOA/SOA<sub>~Service</sub>~Categorization.md)
+See [OWSOA:SOA - Service Categorization](../OWSOA/SOA-Service-Categorization.md)
 
 ###### 3. Find and decompose services
 - Focus on the responsibility aspect of your services. 
@@ -18,7 +18,7 @@ See [OWSOA:SOA - Service Categorization](../OWSOA/SOA<sub>~Service</sub>~Categor
 
 ###### 5. Establish design rules for your service categories up-front
 - Basically design-time governance...
-    - SOA Center of Excellence - [Policy Advisory Board](Policy<sub>~Advisory</sub>~Board-PAB.md)
+    - SOA Center of Excellence - [Policy Advisory Board](Policy-Advisory-Board-PAB.md)
     - Do not forget pre-production service QA.
 
 ###### 6. Start limited and controlled
@@ -26,16 +26,16 @@ See [OWSOA:SOA - Service Categorization](../OWSOA/SOA<sub>~Service</sub>~Categor
 - Use mocks/adapters when you have to take shortcuts.
 
 ###### 7. Establish lean and agile deployment routines
-- Goal: from test to production<sub>~test, and from prod</sub>~test to production in less than 20 minutes.
+- Goal: from test to production-test, and from prod-test to production in less than 20 minutes.
 - his is a major change, which will take a lot of effort, but you have to plan for 10 times as many deployments, so there is really no option
 
 ###### 8. Security is not optional in SOA
 
-- You basically need to pass a Security Token with each service invocation. On pre<sub>~invocation you do the normal access control, of post</sub><sub>invocation you need to filter the data</sub><sub>values (i.e. remove sensitive data if the security token does not have the right access. This is necessary, since we no longer have any single point of control, or trying to establish a single point of control will break the agility and time</sub>~to-marked values of your SOA.
+- You basically need to pass a Security Token with each service invocation. On pre-invocation you do the normal access control, of post-invocation you need to filter the data-values (i.e. remove sensitive data if the security token does not have the right access. This is necessary, since we no longer have any single point of control, or trying to establish a single point of control will break the agility and time-to-marked values of your SOA.
 
 ###### 9. Reflect and work strategically against SOA Maturity Model.
 
-- See [http://wiki.cantara.no/display/EDRMDS/SOA+Maturity+Models+and+EDR<sub>~MDS](http://wiki.cantara.no/display/EDRMDS/SOA+Maturity+Models+and+EDR</sub>~MDS)
+- See [http://wiki.cantara.no/display/EDRMDS/SOA+Maturity+Models+and+EDR-MDS](http://wiki.cantara.no/display/EDRMDS/SOA+Maturity+Models+and+EDR-MDS)
 
 ---
 
@@ -53,9 +53,9 @@ In this presentation, the sheriff will introduce a set of SOA laws which, when f
 
 **0. Forget about focusing WS** and products*
 
-- SOA is [design](Design<sub>~Time</sub><sub>Governance</sub><sub>SOA</sub><sub>Design</sub><sub>Rules.md) and [architecture](Architecture</sub><sub>Principles</sub><sub>and</sub>~Axioms.md). The WS-* standards and ESBs are not much more than candidate technology for decorating your service endpoints...
+- SOA is [design](Design-Time-Governance-SOA-Design-Rules.md) and [architecture](Architecture-Principles-and-Axioms.md). The WS-* standards and ESBs are not much more than candidate technology for decorating your service endpoints...
 
-By this we mean that all SOA projects which focuses on the protocol (WS<sub>~) or the middleware (ESB) seldom have any success. If you on the other hand focuses of the atom of SOA, namely the services and how you build from these building blocks you are much more likely to have success. How the services collaborate can then happen in a myriad of ways. Both movable services (like in Jini/JavaSpaces) in</sub><sub>process services with a collaborating backbone, REST</sub><sub>endpoints and WS</sub>~ endpoints all become a matter of deployment - and we usually have several endpoints with different protocols for each service.
+By this we mean that all SOA projects which focuses on the protocol (WS-) or the middleware (ESB) seldom have any success. If you on the other hand focuses of the atom of SOA, namely the services and how you build from these building blocks you are much more likely to have success. How the services collaborate can then happen in a myriad of ways. Both movable services (like in Jini/JavaSpaces) in-process services with a collaborating backbone, REST-endpoints and WS- endpoints all become a matter of deployment - and we usually have several endpoints with different protocols for each service.
 
 **1. Establish service categories and service universe**
 
@@ -71,18 +71,18 @@ By this we mean that all SOA projects which focuses on the protocol (WS<sub>~) o
 
 **4. Establish design rules for your service categories up-front**
 
-- Basically [design<sub>~time governance](Design</sub><sub>Time</sub><sub>Governance</sub><sub>SOA</sub><sub>Design</sub>~Rules.md)...
-    - SOA Center of Excellence - [Policy Advisory Board](Policy<sub>~Advisory</sub>~Board.md)
+- Basically [design-time governance](Design-Time-Governance-SOA-Design-Rules.md)...
+    - SOA Center of Excellence - [Policy Advisory Board](Policy-Advisory-Board.md)
     - Do not forget pre-production service QA
 
 **5. Start limited and controlled**
 
-- Start with a business vertical, stay 100 % [faithful](Clear<sub>~and</sub><sub>consistent</sub><sub>responsibility</sub><sub>powers</sub><sub>all</sub>~great-architectures.md) to your architecture and design rules. 
+- Start with a business vertical, stay 100 % [faithful](Clear-and-consistent-responsibility-powers-all-great-architectures.md) to your architecture and design rules. 
     - Use mocks/adapters when you have to take shortcuts
 
 **6. Establish lean and agile deployment routines**
 
-- Goal: from test to production<sub>~test, and from prod</sub>~test to production in less than 20 minutes.
+- Goal: from test to production-test, and from prod-test to production in less than 20 minutes.
     - This is a major change, which will take a lot of effort, but you have to plan for 10 times as many deployments, so there is really no option
 
 **7. Versioning is not optional in SOA**
@@ -91,11 +91,11 @@ By this we mean that all SOA projects which focuses on the protocol (WS<sub>~) o
 
 **8. Security is not optional in SOA**
 
-- You basically need to pass a Security Token with each service invocation. On pre<sub>~invocation you do the normal access control, of post</sub><sub>invocation you need to filter the data</sub><sub>values (i.e. remove sensitive data if the security token does not have the right access. This is necessary, since we no longer have any single point of control, or trying to establish a single point of control will break the agility and time</sub>~to-marked values of your SOA.
+- You basically need to pass a Security Token with each service invocation. On pre-invocation you do the normal access control, of post-invocation you need to filter the data-values (i.e. remove sensitive data if the security token does not have the right access. This is necessary, since we no longer have any single point of control, or trying to establish a single point of control will break the agility and time-to-marked values of your SOA.
 
 **9. Reflect and work strategically against SOA Maturity Model.**
 
-- See [http://wiki.community.objectware.no/display/EDRMDS/SOA+Maturity+Models+and+EDR<sub>~MDS](http://wiki.community.objectware.no/display/EDRMDS/SOA+Maturity+Models+and+EDR</sub>~MDS)
+- See [http://wiki.community.objectware.no/display/EDRMDS/SOA+Maturity+Models+and+EDR-MDS](http://wiki.community.objectware.no/display/EDRMDS/SOA+Maturity+Models+and+EDR-MDS)
 
 ---
 > 📝 
@@ -115,13 +115,13 @@ By this we mean that all SOA projects which focuses on the protocol (WS<sub>~) o
 > 📝 
 > 📝 Thanks for understanding and I'd like to declare in advance that Cloud Computing, Virtualization and SaaS will be failures under my direction as well.
 > 📝 
-> 📝 Quoted from: [http://blogs.gartner.com/frank_kenney/2008/11/12/ahh<sub>~shucks</sub><sub>soa</sub><sub>is</sub><sub>a</sub><sub>failure/](http://blogs.gartner.com/frank_kenney/2008/11/12/ahh</sub><sub>shucks</sub><sub>soa</sub><sub>is</sub><sub>a</sub>~failure/)
+> 📝 Quoted from: [http://blogs.gartner.com/frank_kenney/2008/11/12/ahh-shucks-soa-is-a-failure/](http://blogs.gartner.com/frank_kenney/2008/11/12/ahh-shucks-soa-is-a-failure/)
 
 As you can see, if you fail to follow the laws of SOA, you are getting yourself into trouble..  :)
 
 ### Terminology
 
-- [Service](Service<sub>~Manifest.md)  [Service Manifest](Service</sub>~Manifest.md) [Service Categories](Service-Categories.md) [H2A Services](H2A.md) [A2A Services](A2A.md) [ACS Services](ACS.md) [Core Services](CS.md) 
-- [Evolving Service Endpoint (ESE)](http://wiki.community.objectware.no/display/ESE/Home)  [Governance](Design<sub>~Time</sub><sub>Governance</sub><sub>SOA</sub><sub>Design</sub><sub>Rules.md) [Architecture](Architecture</sub><sub>Principles</sub><sub>and</sub><sub>Axioms.md) [Policy Advisory Board](Policy</sub><sub>Advisory</sub>~Board.md)
+- [Service](Service-Manifest.md)  [Service Manifest](Service-Manifest.md) [Service Categories](Service-Categories.md) [H2A Services](H2A.md) [A2A Services](A2A.md) [ACS Services](ACS.md) [Core Services](CS.md) 
+- [Evolving Service Endpoint (ESE)](http://wiki.community.objectware.no/display/ESE/Home)  [Governance](Design-Time-Governance-SOA-Design-Rules.md) [Architecture](Architecture-Principles-and-Axioms.md) [Policy Advisory Board](Policy-Advisory-Board.md)
 
-### [The laws of SOA FAQ](The<sub>~laws</sub><sub>of</sub><sub>SOA</sub>~FAQ.md)
+### [The laws of SOA FAQ](The-laws-of-SOA-FAQ.md)

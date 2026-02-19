@@ -36,4 +36,4 @@ Hvis du skal skalere, så må ansvaret reduseres til persistens og kanskje queri
 
 5) På sparket demo av CouchDB. (inspirert av kolonneforedraget til Ole-martin)
 Tobias
-[Presentasjon](http://tobiast.blogspot.com/2009/02/ive<sub>~been</sub><sub>wanting</sub><sub>to</sub><sub>take</sub><sub>couchdb</sub>~for.html).
+[Presentasjon](http://tobiast.blogspot.com/2009/02/ive-been-wanting-to-take-couchdb-for.html).

@@ -3,7 +3,7 @@
 ### Tight data and function at the usage edge is the utmost of all scalability options.
 
 **Latency**
-- [Latency is Everywhere and it Costs You Sales - How to Crush it](http://highscalability.com/latency<sub>~everywhere</sub><sub>and</sub><sub>it</sub><sub>costs</sub><sub>you</sub><sub>sales</sub><sub>how</sub>~crush-it)
-- [Latency is Everywhere and it Costs You Sales - How to Crush it - My Take](http://blog.gigaspaces.com/2008/12/09/latency<sub>~is</sub><sub>everywhere</sub><sub>and</sub><sub>it</sub><sub>costs</sub><sub>you</sub><sub>sales</sub><sub>how</sub><sub>to</sub><sub>crush</sub><sub>it</sub>~my-take/)
+- [Latency is Everywhere and it Costs You Sales - How to Crush it](http://highscalability.com/latency-everywhere-and-it-costs-you-sales-how-crush-it)
+- [Latency is Everywhere and it Costs You Sales - How to Crush it - My Take](http://blog.gigaspaces.com/2008/12/09/latency-is-everywhere-and-it-costs-you-sales-how-to-crush-it-my-take/)
 
-![bg_main.jpg](bg_main-jpg.md)(bg_main.jpg)
+![bg_main.jpg](8486920-bg_main.jpg)

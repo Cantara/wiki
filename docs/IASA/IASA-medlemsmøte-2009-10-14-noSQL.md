@@ -16,8 +16,8 @@ Det er fortsatt plass til foredragsholdere, så meld gjerne inn forslag hvis der
 ### Agenda
 1800: Intro og velkommen - sørg for øl eller andre forfriskninger
 1815: Foredrag rundt noSQL (eller proSQL for de som vil det)
-- Trond Arve Wasskog - [På tide å kaste ut relasjonsdatabasen^På tide å kaste ut relasjonsdatabasen_IASA.pdf](På<sub>~tide</sub><sub>å</sub><sub>kaste</sub><sub>ut</sub><sub>relasjonsdatabasen</sub><sub>På</sub><sub>tide</sub><sub>å</sub><sub>kaste</sub><sub>ut</sub><sub>relasjonsdatabasen_IASA</sub>~pdf.md)
-- Bjørn Nordlund og Hans<sub>~Petter Vadseth - [presentasjonen](http://www.slideshare.net/bjornno/bbs</sub>~tjueprosent-nosql)
+- Trond Arve Wasskog - [På tide å kaste ut relasjonsdatabasen^På tide å kaste ut relasjonsdatabasen_IASA.pdf](På-tide-å-kaste-ut-relasjonsdatabasen-På-tide-å-kaste-ut-relasjonsdatabasen_IASA-pdf.md)
+- Bjørn Nordlund og Hans-Petter Vadseth - [presentasjonen](http://www.slideshare.net/bjornno/bbs-tjueprosent-nosql)
 - Mikael Svenson
 - M.fl.
 
@@ -27,4 +27,4 @@ Det er fortsatt plass til foredragsholdere, så meld gjerne inn forslag hvis der
 ### Påmelding
 
 ### Twitter feed fra møtet
-{rss:url=http://search.twitter.com/search.atom?q=%23iasa+%23nosql&since=2009<sub>~10</sub>~14}
+{rss:url=http://search.twitter.com/search.atom?q=%23iasa+%23nosql&since=2009-10-14}

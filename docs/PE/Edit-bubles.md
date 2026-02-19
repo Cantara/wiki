@@ -1,6 +1,6 @@
 # Edit bubles
 
-Stateful \<sub>~> OO \</sub>~> Edit buble
+Stateful \~~> OO \~~> Edit buble
 |  | Integration | Versioning | Gjenbruk | Scale |
 | --- | --- | --- | --- | --- |
 | EJB | 7 | 3 | 4 | 6 |

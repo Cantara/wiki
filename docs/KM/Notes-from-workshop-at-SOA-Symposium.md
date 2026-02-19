@@ -5,8 +5,8 @@ Workshop with the [SOA patterns commitee](http://www.soapatterns.org/soa_committ
 ### Participants
 
 Sheperd: Ian Robinson, [Thoughtworks](http://www.thoughtworks.com/)
-Dr. Thomas Rischbeck, [ipt](www<sub>~ipt</sub>~ch.md)
-Radovan Janecek, [CA](www<sub>~ca</sub>~com.md)
+Dr. Thomas Rischbeck, [ipt](www-ipt-ch.md)
+Radovan Janecek, [CA](www-ca-com.md)
 
 ### First impression.
 Management summary of the pattern needed. Need a selling text for the problem, and why to use the pattern.

@@ -1,5 +1,5 @@
 # Overall design figure
 
-### [Overall design figure](Overall<sub>~design</sub>~figure.md)
+### [Overall design figure](Overall-design-figure.md)
 
 **[Diagram: overall](../Diagram/overall.md)**

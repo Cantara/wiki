@@ -15,9 +15,9 @@ So, the idea of feature branches is to keep new development out of the way until
 
 ### See also
 
-- [Distributed Revision Control](Distributed<sub>~Revision</sub>~Control.md)
+- [Distributed Revision Control](Distributed-Revision-Control.md)
 
 ### Resources
 
 - http://martinfowler.com/bliki/FeatureBranch.html
-- http://blog.tfnico.com/2010/08/why<sub>~distributed</sub>~revision-control.html
+- http://blog.tfnico.com/2010/08/why-distributed-revision-control.html

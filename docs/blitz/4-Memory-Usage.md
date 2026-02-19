@@ -28,4 +28,4 @@ Note that there is a tool (EntrySizer) in the Blitz distribution (see Extensions
 
 Note also that you can specify individual cache sizes per Entry type using EntryConstraint examples of which can be found in the configuration files. A good basic approach to using these constraints would be to set entryReposCacheSize to something small like 256 or 512 and then use the EntryConstraints to allocate bigger caches (e.g. 1024, 4096) to specific Entry types.
 
-In cases where you are submitting Blitz to high load for sustained periods of time and the CPU usage is close to 100%, consider enabling throttling to prevent overflow of internal queues. See eventQueueBound and taskQueueBound in [Appendix B - Configuration Variables](Appendix<sub>~B</sub>~Configuration-Variables.md)
+In cases where you are submitting Blitz to high load for sustained periods of time and the CPU usage is close to 100%, consider enabling throttling to prevent overflow of internal queues. See eventQueueBound and taskQueueBound in [Appendix B - Configuration Variables](Appendix-B-Configuration-Variables.md)

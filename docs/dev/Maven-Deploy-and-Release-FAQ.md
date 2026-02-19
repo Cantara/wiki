@@ -4,7 +4,7 @@
 
 ---
 
-#### How to ensure all sub<sub>~modules use the same version in a multi</sub>~module reactor? 
+#### How to ensure all sub-modules use the same version in a multi-module reactor? 
 
 Set the autoVersionSubmodules to true. 
 ```
@@ -17,10 +17,10 @@ Set the autoVersionSubmodules to true.
 </plugin>
 ```
 
-Docs: http://maven.apache.org/plugins/maven<sub>~release</sub>~plugin/prepare-mojo.html#autoVersionSubmodules
+Docs: http://maven.apache.org/plugins/maven-release-plugin/prepare-mojo.html#autoVersionSubmodules
 
 #### How to cut a release?
-See official documentation; [Release guide](http://maven.apache.org/guides/mini/guide<sub>~releasing.html) and [plugin documentation](http://maven.apache.org/plugins/maven</sub>~release-plugin/)
+See official documentation; [Release guide](http://maven.apache.org/guides/mini/guide-releasing.html) and [plugin documentation](http://maven.apache.org/plugins/maven-release-plugin/)
 1. Make sure no dependencies or plugins use SNAPSHOT versions.
 1. Set up distributionManagement
 ```
@@ -69,7 +69,7 @@ See official documentation; [Release guide](http://maven.apache.org/guides/mini/
 mvn release:prepare -DdryRun=true
 mvn release:clean
 ```
-1. Do the actual release ( (!) Your [Subversion commandline client](What<sub>~do</sub><sub>I</sub><sub>need</sub><sub>to</sub><sub>do</sub><sub>to</sub><sub>get</sub><sub>mvn</sub><sub>release</sub><sub>to</sub><sub>work</sub>~on-Windows.md) version must be 1.6.5 or greater because of [this bug](http://subversion.tigris.org/issues/show_bug.cgi?id=3119).)
+1. Do the actual release ( (!) Your [Subversion commandline client](What-do-I-need-to-do-to-get-mvn-release-to-work-on-Windows.md) version must be 1.6.5 or greater because of [this bug](http://subversion.tigris.org/issues/show_bug.cgi?id=3119).)
 ```
 mvn release:prepare
 mvn release:perform
@@ -84,18 +84,18 @@ mvn release:perform
 #### What do I need to do to get mvn release to work on Windows?
 
 - Install commandline client 
-    - [svn<sub>~win32</sub><sub>1.6.6.zip](http://subversion.tigris.org/files/documents/15/46880/svn</sub><sub>win32</sub>~1.6.6.zip) or similar (see [CollabNet Subversion Downloads](http://www.collab.net/downloads/subversion/), [Slik SVN](http://www.sliksvn.com/en/download/)) 
+    - [svn-win32-1.6.6.zip](http://subversion.tigris.org/files/documents/15/46880/svn-win32-1.6.6.zip) or similar (see [CollabNet Subversion Downloads](http://www.collab.net/downloads/subversion/), [Slik SVN](http://www.sliksvn.com/en/download/)) 
 
 - Set up ssh keys if site-deploy use scp (and is not disabled) 
     - [Subversion / TortoiseSVN SSH HowTo](http://tortoisesvn.net/ssh_howto), see section _SSH key generation and connection check (client)_. 
 
 #### How to cut a release when a dependency has not been released yet? 
 
-See http://www.sonatype.com/people/2009/01/best<sub>~practices</sub><sub>for</sub><sub>releasing</sub><sub>with</sub><sub>3rd</sub><sub>party</sub><sub>snapshot</sub>~dependencies/ for aa thorough description of the different alternatives. This is the same solution, but we have added example commands to illustrate the process. 
+See http://www.sonatype.com/people/2009/01/best-practices-for-releasing-with-3rd-party-snapshot-dependencies/ for aa thorough description of the different alternatives. This is the same solution, but we have added example commands to illustrate the process. 
 
-1. Change the _version_ (not artifactId or groupId) to something that clearly explains that this is a workaround to be able to perform a release with a dependency on a snapshot. The [versions<sub>~maven</sub><sub>plugin](http://mojo.codehaus.org/versions</sub><sub>maven</sub>~plugin) is useful: 
+1. Change the _version_ (not artifactId or groupId) to something that clearly explains that this is a workaround to be able to perform a release with a dependency on a snapshot. The [versions-maven-plugin](http://mojo.codehaus.org/versions-maven-plugin) is useful: 
 
-`mvn versions:set -DnewVersion=4.0<sub>~companyName</sub>~r<scmRevisionNumber>`
+`mvn versions:set -DnewVersion=4.0-companyName-r<scmRevisionNumber>`
 
 2. Add authentication information to settings.xml. The id _plugins-releases_ must be added to the servers section with username and password.  
 
@@ -106,7 +106,7 @@ mvn deploy -DupdateReleaseInfo=true -DaltDeploymentRepository=plugins-releases::
 
 #### How to deploy 3rd party artifacts to a DAV repository? 
 
-wagon<sub>~webdav extension is required to deploy to a DAV repository. It is therefore necessary to create a temporary pom.xml to able to perform _deploy</sub>~file_. 
+wagon-webdav extension is required to deploy to a DAV repository. It is therefore necessary to create a temporary pom.xml to able to perform _deploy-file_. 
 
 **Temporary pom.xml**: 
 ```
@@ -139,7 +139,7 @@ mvn deploy:deploy-file -Dfile=myproject-1.0.jar -DrepositoryId=myrepo
 
 #### How to use deploy (and site-deploy) on Windows? 
 
-See [Maven, Windows and Deploying to a Remote Location](http://ekawas.blogspot.com/2007/02/maven<sub>~windows</sub><sub>and</sub><sub>deploying</sub>~to-remote.html) 
+See [Maven, Windows and Deploying to a Remote Location](http://ekawas.blogspot.com/2007/02/maven-windows-and-deploying-to-remote.html) 
 
 #### How do I skip tests when preparing a release?
 
@@ -169,17 +169,17 @@ File, scp and scpexe are common ways to distribute the site.
 </distributionManagement>
 ```
 
-**[File](http://maven.apache.org/wagon/wagon<sub>~providers/wagon</sub>~file/index.html)**: Works almost always, but will only "deploy" the site locally.  
+**[File](http://maven.apache.org/wagon/wagon-providers/wagon-file/index.html)**: Works almost always, but will only "deploy" the site locally.  
     - Example url: <siteUrl>file:///var/www/html/sites</siteUrl>
 
-**[scp](http://maven.apache.org/wagon/wagon<sub>~providers/wagon</sub>~ssh/index.html)**: Java implementation of scp based on [JSCh](http://www.jcraft.com/jsch/). 
+**[scp](http://maven.apache.org/wagon/wagon-providers/wagon-ssh/index.html)**: Java implementation of scp based on [JSCh](http://www.jcraft.com/jsch/). 
     - Example url: <siteUrl>scp://m2sites.company.com/var/www/html/sites</siteUrl>
 
-**[scpexe](http://maven.apache.org/wagon/wagon<sub>~providers/wagon</sub>~ssh-external/)**: Use external implementation of SSH. This can be more troublesome to set up on Windows, but works in general better than scp (at least on Unix systems :P). 
+**[scpexe](http://maven.apache.org/wagon/wagon-providers/wagon-ssh-external/)**: Use external implementation of SSH. This can be more troublesome to set up on Windows, but works in general better than scp (at least on Unix systems :P). 
 
 See [Wagon Providers](http://maven.apache.org/wagon/wagon-providers/) for other distribution providers. 
 
-> 📝 If file protocol is set in site distributionManagement, the site for the release is lost unless the release is run from the server which hosts the sites. This problem should (IMHO) be possible to remedy by overriding the property commandline, but this doesn't seem to be supported yet according to [MSITE<sub>~295](http://jira.codehaus.org/browse/MSITE</sub>~295). 
+> 📝 If file protocol is set in site distributionManagement, the site for the release is lost unless the release is run from the server which hosts the sites. This problem should (IMHO) be possible to remedy by overriding the property commandline, but this doesn't seem to be supported yet according to [MSITE-295](http://jira.codehaus.org/browse/MSITE-295). 
 
 #### How to authenticate when using site-deploy? 
 
@@ -227,7 +227,7 @@ Windows with Tortoise: **TODO**
 Sometimes you need to deploy artifacts from non-Maven projects to a Maven repository. This is how to do it with Ant.
 
 ###### Installing Maven Ant Task
-1. Download Maven Ant Task jar<sub>~file, and place it in your Ant lib</sub>~folder.
+1. Download Maven Ant Task jar-file, and place it in your Ant lib-folder.
 1. Add namespace to project element in build-file: 
 ```
 <project ... xmlns:artifact="antlib:org.apache.maven.artifact.ant">

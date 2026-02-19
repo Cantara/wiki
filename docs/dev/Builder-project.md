@@ -25,4 +25,4 @@ Example
 </project>
 ```
 
-> 📝 The builder pom can **not** be used to release the projects. The maven<sub>~release</sub>~plugin requires scm and distributionManagement information, which in turn means that you must create a full-blown parent pom. This in turn means that all projects must  have the same subversion path, which contradicts the purpose of having separate life cycles.
+> 📝 The builder pom can **not** be used to release the projects. The maven-release-plugin requires scm and distributionManagement information, which in turn means that you must create a full-blown parent pom. This in turn means that all projects must  have the same subversion path, which contradicts the purpose of having separate life cycles.

@@ -26,7 +26,7 @@
     - http://www.everystockphoto.com/photo.php?imageId=4618372&searchId=ceb8447cc4ab78d2ec34cd9f11e4bed2&npos=14
 
 - Dependency injection 
-    - http://www.amazon.com/Dependency<sub>~Injection</sub><sub>Dhanji</sub><sub>R</sub>~Prasanna/dp/193398855X
+    - http://www.amazon.com/Dependency-Injection-Dhanji-R-Prasanna/dp/193398855X
 
 - Failure
     - http://www.everystockphoto.com/photo.php?imageId=4447501&searchId=3ee28fe1a60c95b89d29317f122c7021&npos=99
@@ -68,4 +68,4 @@
     - http://www.everystockphoto.com/photo.php?imageId=281835&searchId=698c65a79468cd190f7f0b8124e48d7c&npos=116
 
 - Hvem hva når 
-    - http://www.123rf.com/photo_8664394_who<sub>~what</sub><sub>when</sub><sub>where</sub><sub>why</sub><sub>and</sub><sub>how</sub><sub>on</sub>~blackboard.html
+    - http://www.123rf.com/photo_8664394_who-what-when-where-why-and-how-on-blackboard.html

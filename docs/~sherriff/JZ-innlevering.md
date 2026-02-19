@@ -27,13 +27,13 @@ Level: Intermediate
 ###### Outline
 
 1. Introdusere problemstillingen/kontekst - 5 min
-    1. Stor (>240k LoC) og gammel (10<sub>~15år) kodebase , mange integrasjoner (50+), trelags</sub>~, database-orientert arkitektur basert på JSF, spring og hibernate
+    1. Stor (>240k LoC) og gammel (10-15år) kodebase , mange integrasjoner (50+), trelags-, database-orientert arkitektur basert på JSF, spring og hibernate
     1. Oracle database, mye logikk i både PL_SQL, plain JDBC og hibernate
     1. Lav testdekning generelt (~7% line coverage), ingen automatiserte integrasjonstester
 1. Analyse av tidligere forsøk - 15 min 
     1. Rollbackstrategi basert på Spring TestContext Framework - fungerte ikke for funksjonalitet hvor det ble startet ny transaksjon (PROPAGATION_REQUIRES_NEW)
     1. Greenpepper - god på kommunikasjon med ikke-teknikere, ikke så god på tester for å støtte utvikling pga. høy roundtrip under utvikling, tett kobling til infrastruktur og vanskelig å debugge feil. 
-    1. Standard JUnit<sub>~tester + sql</sub>~script - vanskelig å vedlikeholde sql-scriptene + lite robuste tester pga. avhengighet til ekstern database, ingen god måte å kategorisere ulike typer tester.  
+    1. Standard JUnit-tester + sql-script - vanskelig å vedlikeholde sql-scriptene + lite robuste tester pga. avhengighet til ekstern database, ingen god måte å kategorisere ulike typer tester.  
     1. Flere forsøk basert på egenutviklede mocker og ulike mock-rammeverk
 1. Gjennomgang av prosessen og valgene som ble tatt - 20 min 
     1. Fokus på fremgangsmåte og hvordan tenke
@@ -41,7 +41,7 @@ Level: Intermediate
     1. Finne aktuelle biblioteker og rammeverk
     1. Utarbeide strategi spesialtilpasset denne konteksten. 
     1. Velge konkrete biblioteker, rammeverk og konfigurasjon ++ for å realisere strategien. 
-    1. Skrive tester<sub>~refaktorere</sub><sub>skrive tester, raffinere oppskriften, skrive tester</sub><sub>refaktorere</sub>~skrive tester, raffinere oppskriften, osv. 
+    1. Skrive tester-refaktorere-skrive tester, raffinere oppskriften, skrive tester-refaktorere-skrive tester, raffinere oppskriften, osv. 
 1. Demonstrasjon av softwarestack/konkret taktikk - 10 min
     1. dbmaintain for vedlikehold av tilstand i databasen
     1. unitils 4.0 (ikke releaset enda) for enklere vedlikehold av testdata

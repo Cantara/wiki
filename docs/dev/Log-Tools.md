@@ -7,4 +7,4 @@
 
 - [Apache Commons-logging](http://commons.apache.org/logging/) 
 
-See also [File based logging recommendations](File<sub>~based</sub>~logging-recommendations.md).
+See also [File based logging recommendations](File-based-logging-recommendations.md).

@@ -43,6 +43,6 @@ Bedre løsning: Vurdere arkitekturen i lys av nye krav (integrere mot et nytt sy
 #### Inspirasjon 
 
 Aftenposten s6. Kulturseksjonen 11. desember 2011. 
-http://www.aftenposten.no/kultur/Selvkontroll<sub>~viktigere</sub><sub>enn</sub><sub>intelligens</sub>~6717403.html
+http://www.aftenposten.no/kultur/Selvkontroll-viktigere-enn-intelligens-6717403.html
 
-[Willpower - Roy F. Baumeister](http://www.amazon.com/Willpower<sub>~Rediscovering</sub><sub>Greatest</sub><sub>Strength</sub>~ebook/dp/B0052REQCY/ref=sr_1_4?ie=UTF8&qid=1326059319&sr=8-4)
+[Willpower - Roy F. Baumeister](http://www.amazon.com/Willpower-Rediscovering-Greatest-Strength-ebook/dp/B0052REQCY/ref=sr_1_4?ie=UTF8&qid=1326059319&sr=8-4)

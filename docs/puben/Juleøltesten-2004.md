@@ -1,32 +1,32 @@
 # Juleøltesten 2004
 
-![juleøltest2004.png](juleøltest2004-png.md)(juleøltest2004.png)
+![juleøltest2004.png](18939946-juleøltest2004.png)
 
-![Juleøl2004graf.png](Juleøl2004graf-png.md)(Juleøl2004graf.png)
+![Juleøl2004graf.png](18939946-Juleøl2004graf.png)
 
-<html xmlns:o="urn:schemas<sub>~microsoft</sub>~com:office:office"
-xmlns:x="urn:schemas<sub>~microsoft</sub>~com:office:excel"
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
 xmlns="http://www.w3.org/TR/REC-html40"> 
  
 <head> 
 <BASE HREF="http://www.puben.org.wstub.archive.org/juleol/JuleOlSmaking2004_files/sheet001.html"> 
  
-<meta http<sub>~equiv=Content</sub>~Type content="text/html; charset=windows-1252"> 
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252"> 
 <meta name=ProgId content=Excel.Sheet> 
 <meta name=Generator content="Microsoft Excel 11"> 
-<link id=Main<sub>~File rel=Main</sub>~File href="http://web.archive.org/web/20050321111825/http://www.puben.org/juleol/JuleOlSmaking2004.html"> 
+<link id=Main-File rel=Main-File href="http://web.archive.org/web/20050321111825/http://www.puben.org/juleol/JuleOlSmaking2004.html"> 
 <link rel=File-List href=filelist.xml> 
-<link rel=Edit<sub>~Time</sub>~Data href=editdata.mso> 
+<link rel=Edit-Time-Data href=editdata.mso> 
 <link rel=Stylesheet href=stylesheet.css> 
 <style> 
 <!--table
-	{mso<sub>~displayed</sub>~decimal-separator:"\,";
-	mso<sub>~displayed</sub>~thousand-separator:" ";}
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:" ";}
 @page
 	{margin:1.0in .75in 1.0in .75in;
-	mso<sub>~header</sub>~margin:.5in;
-	mso<sub>~footer</sub>~margin:.5in;
-	mso<sub>~page</sub>~orientation:landscape;}
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-page-orientation:landscape;}
 -->
 </style> 
 <![[if](if.md)([if)supportTabStrip](if-supportTabStrip.md)><script language="JavaScript"> 
@@ -48,7 +48,7 @@ else
  fnUpdateTabs();
 //-->
 </script> 
-<![[endif](endif.md)><]([endif](endif.md)><)<sub>~[if gte mso 9](if</sub><sub>gte</sub><sub>mso</sub>~9.md)><xml>
+<![[endif](endif.md)><]([endif](endif.md)><)--[if gte mso 9](if-gte-mso-9.md)><xml>
  <x:WorksheetOptions>
   <x:FitToPage/>
   <x:FitToPage/>
@@ -93,40 +93,40 @@ else
  <x:Sorting>
   <x:Sort>Navn</x:Sort>
  </x:Sorting>
-</xml><![endif](endif.md)--> 
+</xml><![endif]--> 
 </head> 
  
 <body link=blue vlink=purple> 
  
 <table x:str border=0 cellpadding=0 cellspacing=0 width=1373 style='border-collapse:
  collapse;table-layout:fixed;width:1034pt'> 
- <col width=97 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:3547;width:73pt'> 
- <col class=xl27 width=34 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1243;
+ <col width=97 style='mso-width-source:userset;mso-width-alt:3547;width:73pt'> 
+ <col class=xl27 width=34 style='mso-width-source:userset;mso-width-alt:1243;
  width:26pt'> 
- <col width=41 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1499;width:31pt'> 
- <col width=42 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1536;width:32pt'> 
- <col width=45 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1645;width:34pt'> 
- <col width=58 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:2121;width:44pt'> 
- <col width=49 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1792;width:37pt'> 
- <col width=44 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1609;width:33pt'> 
- <col width=42 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1536;width:32pt'> 
- <col width=46 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1682;width:35pt'> 
- <col width=63 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:2304;width:47pt'> 
- <col width=66 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:2413;width:50pt'> 
- <col width=61 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:2230;width:46pt'> 
- <col width=43 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1572;width:32pt'> 
- <col width=53 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1938;width:40pt'> 
- <col width=47 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1718;width:35pt'> 
- <col width=61 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:2230;width:46pt'> 
- <col width=42 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1536;width:32pt'> 
- <col width=44 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1609;width:33pt'> 
- <col class=xl25 width=51 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:1865;
+ <col width=41 style='mso-width-source:userset;mso-width-alt:1499;width:31pt'> 
+ <col width=42 style='mso-width-source:userset;mso-width-alt:1536;width:32pt'> 
+ <col width=45 style='mso-width-source:userset;mso-width-alt:1645;width:34pt'> 
+ <col width=58 style='mso-width-source:userset;mso-width-alt:2121;width:44pt'> 
+ <col width=49 style='mso-width-source:userset;mso-width-alt:1792;width:37pt'> 
+ <col width=44 style='mso-width-source:userset;mso-width-alt:1609;width:33pt'> 
+ <col width=42 style='mso-width-source:userset;mso-width-alt:1536;width:32pt'> 
+ <col width=46 style='mso-width-source:userset;mso-width-alt:1682;width:35pt'> 
+ <col width=63 style='mso-width-source:userset;mso-width-alt:2304;width:47pt'> 
+ <col width=66 style='mso-width-source:userset;mso-width-alt:2413;width:50pt'> 
+ <col width=61 style='mso-width-source:userset;mso-width-alt:2230;width:46pt'> 
+ <col width=43 style='mso-width-source:userset;mso-width-alt:1572;width:32pt'> 
+ <col width=53 style='mso-width-source:userset;mso-width-alt:1938;width:40pt'> 
+ <col width=47 style='mso-width-source:userset;mso-width-alt:1718;width:35pt'> 
+ <col width=61 style='mso-width-source:userset;mso-width-alt:2230;width:46pt'> 
+ <col width=42 style='mso-width-source:userset;mso-width-alt:1536;width:32pt'> 
+ <col width=44 style='mso-width-source:userset;mso-width-alt:1609;width:33pt'> 
+ <col class=xl25 width=51 style='mso-width-source:userset;mso-width-alt:1865;
  width:38pt'> 
- <col width=0 style='display:none;mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:548'> 
+ <col width=0 style='display:none;mso-width-source:userset;mso-width-alt:548'> 
  <col width=64 span=2 style='width:48pt'> 
- <col width=24 style='mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:877;width:18pt'> 
+ <col width=24 style='mso-width-source:userset;mso-width-alt:877;width:18pt'> 
  <col width=64 style='width:48pt'> 
- <col width=0 style='display:none;mso<sub>~width</sub><sub>source:userset;mso</sub><sub>width</sub>~alt:2340'> 
+ <col width=0 style='display:none;mso-width-source:userset;mso-width-alt:2340'> 
  <col width=64 span=2 style='width:48pt'> 
  <tr height=35 style='height:26.25pt'> 
   <td height=35 width=97 style='height:26.25pt;width:73pt'></td> 
@@ -862,7 +862,7 @@ else
   <td></td> 
   <td colspan=7 style='mso-ignore:colspan'></td> 
  </tr> 
- <![if supportMisalignedColumns](if-supportMisalignedColumns.md)> 
+ <![if supportMisalignedColumns]> 
  <tr height=0 style='display:none'> 
   <td width=97 style='width:73pt'></td> 
   <td width=34 style='width:26pt'></td> 
@@ -893,7 +893,7 @@ else
   <td width=64 style='width:48pt'></td> 
   <td width=64 style='width:48pt'></td> 
  </tr> 
- <![endif](endif.md)> 
+ <![endif]> 
 </table> 
  
 </body> 

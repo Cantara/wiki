@@ -1,6 +1,6 @@
 # Drone radar design
 
-## [Drone radar design](Drone<sub>~radar</sub>~design.md)
+## [Drone radar design](Drone-radar-design.md)
 
 ### Overall design using OpenGTS
 
@@ -26,10 +26,10 @@ Two step retrieval from openGTS tracker feed table
 
 1. A process that query the tracker feed table on current feeds (alive ones with a time frame) and put to a tracker feed run time table
 1. The user request feeding showing all tracks within a geographical boundaries for each active retrieving user.
-1. Track simulator for simulate drone movments for demo purpose [Add a process for each drone that refresh new positions every 10 seconds on server](Add<sub>~a</sub><sub>process</sub><sub>for</sub><sub>each</sub><sub>drone</sub><sub>that</sub><sub>refresh</sub><sub>new</sub><sub>positions</sub><sub>every</sub><sub>10</sub><sub>seconds</sub><sub>on</sub>~server.md)
+1. Track simulator for simulate drone movments for demo purpose [Add a process for each drone that refresh new positions every 10 seconds on server](Add-a-process-for-each-drone-that-refresh-new-positions-every-10-seconds-on-server.md)
 
 ### Tasks and issues
 
-- [Add a process for each drone that refresh new positions every 10 seconds on server](Add<sub>~a</sub><sub>process</sub><sub>for</sub><sub>each</sub><sub>drone</sub><sub>that</sub><sub>refresh</sub><sub>new</sub><sub>positions</sub><sub>every</sub><sub>10</sub><sub>seconds</sub><sub>on</sub>~server.md)
-- [Request and plot the positions into the current map view every 10 second](Request<sub>~and</sub><sub>plot</sub><sub>the</sub><sub>positions</sub><sub>into</sub><sub>the</sub><sub>current</sub><sub>map</sub><sub>view</sub><sub>every</sub><sub>10</sub>~second.md)
-- [Show drone identity](Show<sub>~drone</sub>~identity.md)
+- [Add a process for each drone that refresh new positions every 10 seconds on server](Add-a-process-for-each-drone-that-refresh-new-positions-every-10-seconds-on-server.md)
+- [Request and plot the positions into the current map view every 10 second](Request-and-plot-the-positions-into-the-current-map-view-every-10-second.md)
+- [Show drone identity](Show-drone-identity.md)

@@ -2,7 +2,7 @@
 
 #### Teststrategi
 
-NG Flyt har valgt teststrategien [JigZaw](https://wiki.cantara.no/display/dev/JigZaw)istedet for den mer fossefallsorienterte [V<sub>~modellen](http://en.wikipedia.org/wiki/V</sub>~Model_(software_development)). Grunnprinsippene i JigZaw er:
+NG Flyt har valgt teststrategien [JigZaw](https://wiki.cantara.no/display/dev/JigZaw)istedet for den mer fossefallsorienterte [V-modellen](http://en.wikipedia.org/wiki/V-Model_(software_development)). Grunnprinsippene i JigZaw er:
 
 - Verify expected behavior versus finding bugs
 - Maximize the value of the testing efforts
@@ -20,25 +20,25 @@ Hver testmetode er ansvarlig for å sørge for at tilstanden til databasen (elle
 Konkrete oppskrifter som passer til ulike typer tester:
 
 - [Test strategy for Oracle PL_SQL](https://wiki.cantara.no/display/dev/Test+strategy+for+Oracle+PL_SQL) og funksjonalitet hvor databasen må være med.
-    - Oversikt over jobber som er testet med denne strategien: [BM<sub>~jobber](BM</sub><sub>jobber.md) og [AN</sub><sub>Jobber](AN</sub>~jobber.md)
+    - Oversikt over jobber som er testet med denne strategien: [BM-jobber](BM-jobber.md) og [AN-Jobber](AN-jobber.md)
 
 - [JMS testing](https://wiki.cantara.no/display/dev/JMS+Testing+according+to+JigZaw)+ [How to start ActiveMQ JMS Broker in a separate process](https://wiki.cantara.no/display/dev/How+to+start+ActiveMQ+JMS+Broker+in+a+separate+process)
     - Tanken er å bruke dette oppsettet til å teste BongMottaket.
 
 - Ytelsestest av via Web GUI basert på WebDriver/Selenium2. (Joachim)
     - **TODO**: Foreslår at Line beskriver dette når AN-1195 er ferdig.
-    - Kildekode: [http://utvikling.norgesgruppen.no/svn/engrosrep/an<sub>~ytelsestest](http://utvikling.norgesgruppen.no/svn/engrosrep/an</sub>~ytelsestest)
+    - Kildekode: [http://utvikling.norgesgruppen.no/svn/engrosrep/an-ytelsestest](http://utvikling.norgesgruppen.no/svn/engrosrep/an-ytelsestest)
 
 #### Test database
 Oracle enterprise edition basen benyttes for å kjøre integrasjonstestene. Oracle XE 11g støtter ikke bitmap indexes heller ikke partisjonering av tabeller. Disse manglene gjør XE uegnet som testbase.
 
 #### Hvordan vi bruker TestNG groups
 
-TestNG har konseptet [test groups](http://testng.org/doc/documentation<sub>~main.html#test</sub><sub>groups), som lar oss gruppere tester. Dette konseptet brukes primært for å avgjøre hvorvidt en gitt test skal kjøres som en del av **standardbygg (mvn install)** eller som en del av **utvidet bygg (mvn install \</sub><sub>P test</sub>~env**).
+TestNG har konseptet [test groups](http://testng.org/doc/documentation-main.html#test-groups), som lar oss gruppere tester. Dette konseptet brukes primært for å avgjøre hvorvidt en gitt test skal kjøres som en del av **standardbygg (mvn install)** eller som en del av **utvidet bygg (mvn install \-P test-env**).
 
-I hver Maven<sub>~modul ligger det to testng</sub><sub>konfigurasjonsfiler: testng.xml og testng</sub><sub>env.xml. testng.xml brukes i standardbygget, mens vi bytter konfigurasjon til testng</sub><sub>env.xml ved å aktivere profilen test</sub><sub>env. Forskjellen på disse to konfigurasjonsfilene er at testng.xml ekskluderer tester som vi av diverse årsaker ikke ønsker skal inngå i standardbygget. Trege tester og tester som avhenger av spesielt oppsett (f.eks. database eller en ekstern tjeneste) er derfor tester som kun kjøres når man aktiverer profilen test</sub>~env.
+I hver Maven-modul ligger det to testng-konfigurasjonsfiler: testng.xml og testng-env.xml. testng.xml brukes i standardbygget, mens vi bytter konfigurasjon til testng-env.xml ved å aktivere profilen test-env. Forskjellen på disse to konfigurasjonsfilene er at testng.xml ekskluderer tester som vi av diverse årsaker ikke ønsker skal inngå i standardbygget. Trege tester og tester som avhenger av spesielt oppsett (f.eks. database eller en ekstern tjeneste) er derfor tester som kun kjøres når man aktiverer profilen test-env.
 
-CI<sub>~server, Bamboo, kjører alltid med test</sub>~env-profilen aktivert.
+CI-server, Bamboo, kjører alltid med test-env-profilen aktivert.
 
 ###### Testgrupper og hva de brukes til
 
@@ -52,7 +52,7 @@ CI<sub>~server, Bamboo, kjører alltid med test</sub>~env-profilen aktivert.
 | ws-an | Test som krever at Askonetthandle Webservice er tilgjengelig. |
 | ws-brs | Test som krever at ButikkRegisterService er tilgjengelig. |
 | filtjener | Test som krever at [filtjener | Apache filtjener] er tilgjengelig. |
-| dependsOnLocalBMServer | Test som krever at det kjører en BM<sub>~WS</sub>~server lokalt. Se BehkorrDaoCXFImplIntegrationTest.java. |
+| dependsOnLocalBMServer | Test som krever at det kjører en BM-WS-server lokalt. Se BehkorrDaoCXFImplIntegrationTest.java. |
 | bongmottak-jms | Avhenger av JMS-server (mq://ngbongcapst1.joh.no). |
 |  | Tester som ikke har noen spesielle avhengigheter/egenskaper trenger ikke noen gruppe. Alle uten eksplisitt gruppe inngår som en del av standardbygget. |
 
@@ -72,11 +72,11 @@ Vi kunne ha begrenset oss til kun én gruppe for å gjøre skillet mellom standa
 
 ###### Begrunnelse for valg av verktøy
 
-- Vi har flere typer tester som av ulike grunner ikke er ønsket som en del av standardbygget. For eksempel ønsker vi at veldig trege tester primært skal kjøres av CI<sub>~server og at utvikler eksplisitt kan velge å inkludere disse testene. Et annet eksempel er integrasjonstester hvor vi kun har denne integrasjonen i et bestemt testmiljø. For å løse disse utfordringene bruker vi _groups_\</sub>~konseptet i TestNG for å kunne velge hvilke tester som skal kjøres av hhv. utviklere og CI-server og når de skal kjøres.
+- Vi har flere typer tester som av ulike grunner ikke er ønsket som en del av standardbygget. For eksempel ønsker vi at veldig trege tester primært skal kjøres av CI-server og at utvikler eksplisitt kan velge å inkludere disse testene. Et annet eksempel er integrasjonstester hvor vi kun har denne integrasjonen i et bestemt testmiljø. For å løse disse utfordringene bruker vi _groups_\-konseptet i TestNG for å kunne velge hvilke tester som skal kjøres av hhv. utviklere og CI-server og når de skal kjøres.
 
 - Spring TestContext Framework forenkler oppsett av tester siden vi da kan gjenbruke det vanlige _dependency injection_\-oppsettet som brukes i produksjon.
 
-- Unitils tilbyr funksjonalitet for å sette inn testdata i en database fra en xml<sub>~fil. Dette er det samme konseptet som db</sub><sub>unit eller Testaco tilbyr, men Unitils støtter TestNG og integrerer godt med dbmaintainm, noe de to andre alternativene ikke gjør. Vi har deployet en egen versjon av unitils 4.0</sub><sub>SNAPSHOT fra revision 1355 til [Archiva](http://utvikling.norgesgruppen.no/archiva/browse/org.unitils/unitils/4.0</sub>~ngd-r1355) siden 4.0 ikke har blitt releaset enda og v3.x ikke dekker vårt behov.
+- Unitils tilbyr funksjonalitet for å sette inn testdata i en database fra en xml-fil. Dette er det samme konseptet som db-unit eller Testaco tilbyr, men Unitils støtter TestNG og integrerer godt med dbmaintainm, noe de to andre alternativene ikke gjør. Vi har deployet en egen versjon av unitils 4.0-SNAPSHOT fra revision 1355 til [Archiva](http://utvikling.norgesgruppen.no/archiva/browse/org.unitils/unitils/4.0-ngd-r1355) siden 4.0 ikke har blitt releaset enda og v3.x ikke dekker vårt behov.
 
 - dbmaintain automatiserer oppsett av en tom database for hver test. Les mer om konseptet med å kontrollere tilstand: [Control+state](https://wiki.cantara.no/display/dev/Control+state). Kort fortalt så starter hver test med et tomt database schema, legger inn databasestrukturen (tabeller, constraints, osv.), alle endringsscript og PL_SQL-kode. Deretter legger untils inn datasettet som den aktuelle testen har spesifisert.
 

@@ -1,8 +1,8 @@
 # Hvordan logge parametre
 
-http://stackoverflow.com/questions/1710476/print<sub>~query</sub><sub>string</sub><sub>in</sub><sub>hibernate</sub><sub>with</sub>~parameter-values
+http://stackoverflow.com/questions/1710476/print-query-string-in-hibernate-with-parameter-values
 
-http://www.instructables.com/id/How<sub>~To</sub><sub>DIY</sub><sub>2500</sub><sub>Soundproof</sub><sub>HiFi</sub>~Headphones/
+http://www.instructables.com/id/How-To-DIY-2500-Soundproof-HiFi-Headphones/
 
 ```
 @Test

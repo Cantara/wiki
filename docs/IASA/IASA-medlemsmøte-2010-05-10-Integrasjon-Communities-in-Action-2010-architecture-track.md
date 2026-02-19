@@ -1,6 +1,6 @@
 # IASA-medlemsmøte 2010-05-10 - Integrasjon (Communities in Action 2010 architecture track)
 
-![http://wiki.cantara.no/download/attachments/10816140/CiA<sub>~banner_comm.png](http://wiki.cantara.no/download/attachments/10816140/CiA</sub>~banner_comm.png)(http://wiki.cantara.no/download/attachments/10816140/CiA-banner_comm.png)
+![http://wiki.cantara.no/download/attachments/10816140/CiA-banner_comm.png](http://wiki.cantara.no/download/attachments/10816140/CiA-banner_comm.png)
     * Dato: Mandag 10. Mai 2010. 18:00-21:00
     * Sted: [Communities in Action, Radisson Blu, Holbergs plass](http://wiki.cantara.no/display/PE/Invitasjon+til+Communities+in+Action+2010)
     * Tema: Integrasjon
@@ -17,7 +17,7 @@ Kan man se på integrasjonsspøkelset som et tre-hodet monster? Og dermed bryte 
 
 ### Invitasjon til Communities in Action 2010
 
-**Communities in Action** arrangeres 10. Mai på [Radisson Blu (SAS hotellet, Holbergsplass)](http://www.radissonblu.no/scandinaviahotell<sub>~oslo/beliggenhet). Vi har samlet et meget sterkt felt av fagmiljø til en kveld fylt med spennende faglige presentasjoner og faglig mingling. Det vil være foredrag om IT</sub>~arkitektur, sikkerhet, smidig prosjektgjennomføring, teknologitrender, m.m. Communities in Action arrangeres for første gang i år, og er et initiativ fra Cantara. Hovedformålene er å synliggjøre bredden i Oslo-miljøet, skape en arena hvor fagfolk med forskjellig bakgrunn møtes, og bidra til rekruttering til miljøet. 
+**Communities in Action** arrangeres 10. Mai på [Radisson Blu (SAS hotellet, Holbergsplass)](http://www.radissonblu.no/scandinaviahotell-oslo/beliggenhet). Vi har samlet et meget sterkt felt av fagmiljø til en kveld fylt med spennende faglige presentasjoner og faglig mingling. Det vil være foredrag om IT-arkitektur, sikkerhet, smidig prosjektgjennomføring, teknologitrender, m.m. Communities in Action arrangeres for første gang i år, og er et initiativ fra Cantara. Hovedformålene er å synliggjøre bredden i Oslo-miljøet, skape en arena hvor fagfolk med forskjellig bakgrunn møtes, og bidra til rekruttering til miljøet. 
 
 - **[Communities in Action 2010](http://wiki.cantara.no/display/PE/Invitasjon+til+Communities+in+Action+2010)**
 
@@ -30,6 +30,6 @@ Kan man se på integrasjonsspøkelset som et tre-hodet monster? Og dermed bryte 
 Påmelding:
 
 ### Twitter feed fra møtet
-{rss:url=http://search.twitter.com/search.atom?q=%23iasa+%23integration&since=2010<sub>~02</sub>~08}
+{rss:url=http://search.twitter.com/search.atom?q=%23iasa+%23integration&since=2010-02-08}
 
-![http://wiki.cantara.no/download/attachments/10816140/CiA<sub>~banner.png](http://wiki.cantara.no/download/attachments/10816140/CiA</sub>~banner.png)(http://wiki.cantara.no/download/attachments/10816140/CiA-banner.png)
+![http://wiki.cantara.no/download/attachments/10816140/CiA-banner.png](http://wiki.cantara.no/download/attachments/10816140/CiA-banner.png)

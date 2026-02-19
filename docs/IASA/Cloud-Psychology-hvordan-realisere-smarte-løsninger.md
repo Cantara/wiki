@@ -5,7 +5,7 @@
 | Date | IASA Norway, Onsdag 16. juni 2010. 18:00-21:00 |
 | Duration | Interactive session, 45-60 min |
 
-Denne presentasjonen vil ta en case<sub>~orientert gjennomgang av de psykologiske barriærer som hindrer norske bedrifter i å realisere gevinstene ved cloud computing. Presentasjonen vil være praktisk rettet, hvor vi analyserer typiske personas og ser på de psykologiske hindringene disse har og geleider dialogen og prosessen rundt disse hindringene slik at man oppnår gode beslutningsgrunnlag. Siste del av presentasjonen vil være en en gjennomgang av typisk NEI</sub>~argumentasjon med relevante svar sett i IT anno 2010 perspektiv.
+Denne presentasjonen vil ta en case-orientert gjennomgang av de psykologiske barriærer som hindrer norske bedrifter i å realisere gevinstene ved cloud computing. Presentasjonen vil være praktisk rettet, hvor vi analyserer typiske personas og ser på de psykologiske hindringene disse har og geleider dialogen og prosessen rundt disse hindringene slik at man oppnår gode beslutningsgrunnlag. Siste del av presentasjonen vil være en en gjennomgang av typisk NEI-argumentasjon med relevante svar sett i IT anno 2010 perspektiv.
 
 Dette foredraget egner seg godt for utviklere og arkitekter som blir overkjørt hver gang de prøver å gjennomføre smarte løsninger.
 

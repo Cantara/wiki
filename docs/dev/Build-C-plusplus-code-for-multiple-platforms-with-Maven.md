@@ -12,11 +12,11 @@ The deployment platform is Red Hat. We want to integrate with the package system
 #### Maven project setup 
 
 - app1/trunk
-    - [pom.xml](C<sub>~parent</sub>~pom.md)
+    - [pom.xml](C-parent-pom.md)
     - src/main/native
-    - [app1<sub>~i686/pom.xml](C</sub>~i686-pom.md)
-    - [app1<sub>~x86_64/pom.xml](C</sub>~x86_64-pom.md)
-    - [app1<sub>~rpm/pom.xml](C</sub>~rpm-pom.md)
+    - [app1-i686/pom.xml](C-i686-pom.md)
+    - [app1-x86_64/pom.xml](C-x86_64-pom.md)
+    - [app1-rpm/pom.xml](C-rpm-pom.md)
 
 The 32/64 bits dimension is handled with profiles and different artifactIds. The gcc dimension is managed by building the project on each relevant target platform. Perhaps [chroot](http://en.wikipedia.org/wiki/Chroot) can be used instead of multiple environments for each platform? 
 
@@ -31,14 +31,14 @@ We do the following to distinguish between the generated binaries and RPMs:
 
 #### How to share code between C++ projects? 
 
-Sharing code between C++ projects can be achieved using [Static Libraries, Shared Libraries or Dynamically Loaded (DL) Libraries](http://www.dwheeler.com/program<sub>~library/Program</sub><sub>Library</sub><sub>HOWTO/). If you can standardize on one compiler and linker version, these approaches will probably work fine. However, if you need binaries for multiple platforms, the number of binaries quickly becomes hard to manage. There was a problem that the native</sub><sub>maven</sub><sub>plugin did not support classifiers! See jira issue [MOJO</sub>~433](http://jira.codehaus.org/browse/MOJO-433). **TODO**: Verify classifier support. 
+Sharing code between C++ projects can be achieved using [Static Libraries, Shared Libraries or Dynamically Loaded (DL) Libraries](http://www.dwheeler.com/program-library/Program-Library-HOWTO/). If you can standardize on one compiler and linker version, these approaches will probably work fine. However, if you need binaries for multiple platforms, the number of binaries quickly becomes hard to manage. There was a problem that the native-maven-plugin did not support classifiers! See jira issue [MOJO-433](http://jira.codehaus.org/browse/MOJO-433). **TODO**: Verify classifier support. 
 
 For our use case static libraries seem most appropriate, since we want to automate the installation. The libraries themselves are thus only a technical tactic to share code, not a goal by themselves. We have therefore chosen a simpler approach based on [svn:externals](http://svnbook.red-bean.com/en/1.1/ch07s04.html). There are some pitfalls to be aware of, but compared to building loads of binaries, this approach is a lot less complex. 
 
 Lets continue the example above and assume we have code in lib/lib1 that is needed in _src/main/native/lib1_. 
 
 ###### 1. Set up svn:external
-See [howto subversion externals basics](http://jeremyknope.com/2006/06/23/howto<sub>~subversion</sub>~externals-basics/). 
+See [howto subversion externals basics](http://jeremyknope.com/2006/06/23/howto-subversion-externals-basics/). 
  
 ```
 app1/trunk$ svn propedit svn:externals .

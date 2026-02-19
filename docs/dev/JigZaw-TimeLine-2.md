@@ -8,7 +8,7 @@ TDD means that functionality and tests are written (and committed) together. All
 
 Ideally, the test phase could be omitted all together, but in practice we need some time to write and run additional system and acceptance test to stabilize everything before a major release. The time spent in each phase with the waterfall model and with JigZaw and agile development is shown below: 
 
-![test.phase.timeline](test<sub>~phase</sub>~timeline.md)(../images/gliffy/16515318-test.phase.timeline.png)
+![test.phase.timeline](../images/gliffy/16515318-test.phase.timeline.png)
 
 ### Conclusions 
 

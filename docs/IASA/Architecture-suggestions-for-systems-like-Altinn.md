@@ -2,7 +2,7 @@
 
 Grunnide: Gitt de åpenbare kravene til systemer alà altinn, 
 
-a) hvorfor er db<sub>~sentrisk og batch</sub>~orientert arkitektur feil vei
+a) hvorfor er db-sentrisk og batch-orientert arkitektur feil vei
 
 b) hvilke egenskaper bør være grunnleggende drivere, 
 

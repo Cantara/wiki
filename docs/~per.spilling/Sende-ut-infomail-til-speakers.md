@@ -16,4 +16,4 @@ Skal vi sende ut en mail eller flere?
 - info om hvor de skal registrere seg
 - RSVP til speakers dinner
 
-Se [<sub>per.spilling:Invitasjoner samt malmateriale](../</sub>per.spilling/Invitasjoner<sub>~samt</sub><sub>malmateriale.md) og [</sub>per.spilling:Speakers dinner - Lage en RSVP med questback eller lign](../<sub>per.spilling/Speakers</sub><sub>dinner</sub><sub>Lage</sub><sub>en</sub><sub>RSVP</sub><sub>med</sub><sub>questback</sub><sub>eller</sub>~lign.md).
+Se [<sub>per.spilling:Invitasjoner samt malmateriale](../<sub>per.spilling/Invitasjoner-samt-malmateriale.md) og [</sub>per.spilling:Speakers dinner - Lage en RSVP med questback eller lign](../</sub>per.spilling/Speakers-dinner-Lage-en-RSVP-med-questback-eller-lign.md).
