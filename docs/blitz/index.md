@@ -1,5 +1,9 @@
 # Blitz
 
+!!! tip "GitHub"
+    This project is maintained in the [Cantara GitHub org](https://github.com/Cantara).
+    See all related repositories in the [GitHub Repo Index](../repos/index.md#blitz).
+
 The purpose of the Blitz project is to further the use of JavaSpaces and JINITM through the provision of essential resources such as:
 
 1. Pattern library - these patterns should be available in both code and document forms and will provide users with solutions to common (and hopefully more advanced) issues.

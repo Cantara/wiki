@@ -1,0 +1,218 @@
+# SourceCodePortal
+
+Organizational SourceCode Dashboard Portal
+
+| Field | Value |
+| --- | --- |
+| **GitHub** | [https://github.com/Cantara/SourceCodePortal](https://github.com/Cantara/SourceCodePortal) |
+| **Language** | Java |
+| **Stars** | 6 |
+| **Last updated** | 2026-01-29 |
+| **Topics** | `automation` `build-tool` `documentation` `github-api` `github-client` `github-webhooks` `source-code` |
+
+---
+
+## README
+
+= Organizational SourceCode Dashboard Portal (SCP)
+
+
+Codebase status:
+^^^^^^^^^^^^^^^^
+image:https://img.shields.io/github/v/tag/Cantara/SourceCodePortal[GitHub tag (latest SemVer)]
+image:https://jenkins.quadim.ai/buildStatus/icon?job=Cantara-SourceCodePortal[Build Status]
+image:https://img.shields.io/github/commit-activity/y/Cantara/SourceCodePortal[GitHub commit activity]
+image:https://www.repostatus.org/badges/latest/active.svg[Project Status: Active – The project has not yet reached a stable, usable state but is being actively developed.]
+image:https://snyk.io/test/github/Cantara/SourceCodePortal/badge.svg[Known Vulnerabilities]
+
+
+[.lead]
+SourceCode Dashboard Portal is an Organisational and group dashboard organizing status and documentation from GitHub repositories. It is designed for small to medium sized organizations (<2500 commits/hour). If you need support for higher commit-volumes
+please contact the authors and we'll help you configure the system to your volumes/needs.
+
+
+SCP Key features:
+^^^^^^^^^^^^^^^^^
+
+*Grouping features*
+
+* Quick overview of status for systems consisting of multiple codebases
+* Browse commitslogs for systems consisting of several codebases
+* See the status of all the codebases in a group
+* Easy access to all documentation in one place
+
+*Organization features*
+
+* Quick overview of status for all codebases in an organization
+* Browse commitslogs for and latest changes for an entire organization
+* See the status of all the groups in an organization
+* Easy access to all documentation in one place
+
+
+
+Some early development screenshots:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+image:https://github.com/Cantara/SourceCodePortal/raw/master/images/SCP-dashboard-example.png[Example Screenshot of SourceCode Portal in early Development, 600]
+
+image:https://github.com/Cantara/SourceCodePortal/raw/master/images/SCP-group-display.png[Example Screenshot of SourceCode Portal Group Listing in early Development, 600]
+
+=== Getting started (running as SourceCode Dashboard Portal docker image)
+
+[source,bash]
+-----------------
+### Start SCP dockerimage with oauth2 client credentials at startup
+$ sudo docker run --env github.oauth2.client.clientId=xyz  --env github.oauth2.client.clientSecret=556542654721-it --rm -p 80:9090 cantara/sourcecodeportal
+### Test the result
+$ wget http://localhost/health
+$ wget http://localhost/health/github
+$ wget http://localhost/docs
+
+### Copy a site-configuration to a running SCP docker image
+$ docker inspect -f   '{{.Id}}' cantara/sourcecodeportal
+d8e703d7e303
+$ docker inspect -f   '{{.Id}}' d8e703d7e303
+d8e703d7e3039a6df6d01bd7fb58d1882e592a85059eb16c4b83cf91847f88e5
+$ sudo cp config.json /var/lib/docker/aufs/mnt/**d8e703d7e3039a6df6d01bd7fb58d1882e592a85059eb16c4b83cf91847f88e5**/home/sourcecodeportal/config_override/conf/config.json
+
+-----------------
+
+An early example can be accessed https://scp.cantara.no/[Here]
+
+
+== Building and developing SourceCode Portal
+
+You might want to take a look at the provided https://raw.githubusercontent.com/Cantara/SourceCodePortal/master/Docker/Dockerfile[Dockerfile] to get installation details.
+
+=== Pre-requisites
+
+Requires JDK 11.
+
+=== Some SourceCode Dashboard URLS when running from source on localhost
+
+* http://localhost:9090/health [Health/status]
+* http://localhost:9090/docs [SourceCode Documentation Portal site]
+* http://localhost:9090/dump [Test of requests]
+
+
+=== ChromeDriver
+
+_ChromeDriver_ is required for obtaining GitHub access token.
+
+An _OAuth2 App_ must be created for your organization on https://github.com/organizations/YOUR_ORGANIZATION/settings/applications. This is where you find your ClientId and ClientSecret.
+
+An access-token must be generated before you can use this software. Please configure `security.properties` according to `security.properties.sample` and run the test case `ObtainGitHubAccessTokenTestTool`. Configure `security.properties` with `github.client.accessToken=ACCESS_TOKEN`.
+
+[WARNING]
+The `ObtainGitHubAccessTokenTestTool` doesn't work for Multi-Factor-Auth, in which prohibits use of `github.client.accessToken`. If access token is not configured; the client_id and client_secret will be applied on all GitHub requests. This is a workaround until oauth is handled by a website redirect scheme.
+
+Ubuntu installation:
+
+[source,bash]
+-----------------
+`apt-get install chromedriver`
+-----------------
+
+MacOS installation:
+
+[source,bash]
+-----------------
+`brew install chromedriver`
+-----------------
+
+=== Generate GitHub Access Token using Docker
+
+The ClientID and ClientSecret is found under you OAuth app: https://github.com/organizations/Cantara/settings/applications
+
+[source,bash]
+-----------------
+`docker run -it -e SCP_github.oauth2.client.clientId=CLIENT_ID -e SCP_github.oauth2.client.clientSecret=CLIENT_SECRET cantara/sourcecodeportal /github-access-token`
+-----------------
+
+Enter username, password and otp if you are using 2/mfa at GitHub.
+
+
+=== ngrok (how to set up support for github hooks via a https proxy on developmnet/localhost)
+
+[source,bash]
+-----------------
+### Open a terminal and change into the /opt directory.
+$ cd /opt
+### Use wget to download the ngrok application.
+$ sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+### Extract the downloaded file.
+$ sudo unzip ngrok-stable-linux-amd64.zip
+### Move the file into the /usr/local/bin directory to make it easily executable.
+$ sudo mv ngrok /usr/local/bin
+### Note the hex-id when you start ngrok
+$ ngrok http 9090
+### test that ngrok is happy
+$ curl -I https://<hex-uid-from-running-ngrok>.ngrok.io/ping
+-----------------
+
+* https://github.com/organizations/Cantara/settings/hooks/ [Set up/find github webhook]
+** use https://<hex-uid-from-running ngrok>.ngrok.io/github/webhook
+** select and set a secret  (same as _github.webhook.securityAccessToken_ in security.properties)
+** Let me select individual events. select: Branch or tag creation, Pushes and Releases
+** Upon save, you will see _POST /github/webhook           200 OK _ in the ngrok window
+* Update github.webhook.securityAccessToken_ in security.properties with the secret value from the github webhook registration
+* Do a commit/push and observe something like this in the scp log
+** 21:21:53.054 [XNIO-1 task-1] TRACE n.c.docsite.controller.GithubWebhookController - Event -- xHubSignature: sha1=0fd0e22868e244102929297758fd35a -- xHubEvent: push -> Payload:
+** ...
+** 21:20:21.373 [XNIO-1 task-1] DEBUG n.c.docsite.controller.GithubWebhookController - GitHub WebHook is authorized..
+** 21:20:21.373 [XNIO-1 task-1] DEBUG n.c.docsite.controller.GithubWebhookController - Received Push Event!
+
+== Configuration
+
+=== GitHub Webhook
+
+The Source Code Portal is lisenting on push messages from GitHub.
+
+== Build
+
+Install NPM and Get Bootstrap and generate CSS using Sass:
+
+[source,bash]
+-----------------
+`mvn mvn clean install -DskipTests`
+-----------------
+
+> The build does not require any native pre-installation of this toolset. They are automatically set up by the maven plugins.
+
+== Coding
+
+SCP depends on `npm`, `node` and `sass` for the website. When you're working with ThymeLeaf templating you need those tools installed locally. There are few steps that is useful to reduce the amount server restarts.
+
+[source,bash]
+-----------------
+`apt-get install nodejs` (requires 10.x+ and will also install npm for you)
+
+`apt-get install sass` (requires 3.5+)
+-----------------
+
+=== Setting up IntelliJ
+
+Follow this step if you want to page template changes to to be syncronized with `target/classes/META-VIEW/views` folder:
+
+* Keymap -> Main menu -> Build and assign a shortcut to Rebuild (on mac: cmd+shift+s)
+
+To suppress JDK 11 warnings in IntelliJ when running `Server`, add VM option: `--illegal-access=deny`.
+
+=== Sass watch
+
+To detect changes to sass files and have the compiler produce new `target/classes/META-INF/views/css/app.css` file, either do:
+
+* Use Sass Plugin (which doesn't require any native installation): `mvn com.github.warmuuh:libsass-maven-plugin:watch`. This is much slower than using the native sass command..
+
+* Use  native Sass command: `sass --watch src/main/sass/scss:target/classes/META-INF/views/css`
+
+> Now you should be able to tailor your pages on the fly and only restart the server when you do code changes that requires recompilation of the code base.
+
+= Notes
+
+* Push CommitEvents arrives as single objects.
+* Pull CommitEvents arrives as arrays.
+
+= Resurces
+
+* https://confluence.atlassian.com/bitbucket/manage-webhooks-735643732.html[Bitbucket webhooks]

@@ -20,8 +20,158 @@ theme:
 plugins:
   - search
 
+markdown_extensions:
+  - admonition
+
 nav:
   - "Home": index.md
+  # BEGIN_REPOS_NAV
+  - "GitHub Repos":
+      - "All Repositories": repos/index.md
+      - "_deprecated_log4jna": repos/_deprecated_log4jna.md
+      - "_parentpom": repos/_parentpom.md
+      - "ACS SharepointComponents": repos/ACS-SharepointComponents.md
+      - "ACSSearch": repos/ACSSearch.md
+      - "Awesome Competence Availability And Allocation": repos/Awesome-Competence-Availability-And-Allocation.md
+      - "Awesome Competence System ACS": repos/Awesome-Competence-System-ACS.md
+      - "Awesome Competence System Provisioning": repos/Awesome-Competence-System-Provisioning.md
+      - "Awesome Competence System Sharepoint App": repos/Awesome-Competence-System-Sharepoint-App.md
+      - "Awesome Competence System Sharepoint Statuswidget": repos/Awesome-Competence-System-Sharepoint-Statuswidget.md
+      - "aws infrastructure": repos/aws-infrastructure.md
+      - "binary tree": repos/binary-tree.md
+      - "blitz client basic": repos/blitz-client-basic.md
+      - "blitz docker": repos/blitz-docker.md
+      - "bonsai": repos/bonsai.md
+      - "bragi": repos/bragi.md
+      - "buri": repos/buri.md
+      - "cantara annual christmasbeer": repos/cantara-annual-christmasbeer.md
+      - "Cantara Renovate Config": repos/Cantara-Renovate-Config.md
+      - "cantara toolbox": repos/cantara-toolbox.md
+      - "cantara.github.io": repos/cantara.github.io.md
+      - "Client Observer Filter": repos/Client-Observer-Filter.md
+      - "cloudwatch resource monitor": repos/cloudwatch-resource-monitor.md
+      - "ConfigService": repos/ConfigService.md
+      - "ConfigService Admin SDK": repos/ConfigService-Admin-SDK.md
+      - "ConfigService Dashboard": repos/ConfigService-Dashboard.md
+      - "ConfigService SDK": repos/ConfigService-SDK.md
+      - "cueconfig": repos/cueconfig.md
+      - "devops": repos/devops.md
+      - "distributed saga": repos/distributed-saga.md
+      - "FlowLogger": repos/FlowLogger.md
+      - "FlowVisualizerReact": repos/FlowVisualizerReact.md
+      - "git release helper": repos/git-release-helper.md
+      - "gober": repos/gober.md
+      - "gremlin graph gui": repos/gremlin-graph-gui.md
+      - "grpc jpms shaded": repos/grpc-jpms-shaded.md
+      - "Hazelcast Samples": repos/Hazelcast-Samples.md
+      - "http request": repos/http-request.md
+      - "HTTPLoadTest Baseline": repos/HTTPLoadTest-Baseline.md
+      - "Hystrix BaseCommands": repos/Hystrix-BaseCommands.md
+      - "Hystrix BaseJDBCCommands": repos/Hystrix-BaseJDBCCommands.md
+      - "IoT frontend": repos/IoT-frontend.md
+      - "IoT MobileService": repos/IoT-MobileService.md
+      - "IoT Photon": repos/IoT-Photon.md
+      - "JAU Updater App": repos/JAU-Updater-App.md
+      - "Java Auto Update": repos/Java-Auto-Update.md
+      - "java modules demo": repos/java-modules-demo.md
+      - "java modules json1": repos/java-modules-json1.md
+      - "java modules json2": repos/java-modules-json2.md
+      - "julebrus": repos/julebrus.md
+      - "lib electronic components": repos/lib-electronic-components.md
+      - "logback ext cloudwatch appender": repos/logback-ext-cloudwatch-appender.md
+      - "maven infrastructure": repos/maven-infrastructure.md
+      - "message performance sampler": repos/message-performance-sampler.md
+      - "MessiFilesystemProvider": repos/MessiFilesystemProvider.md
+      - "MessiGCSProvider": repos/MessiGCSProvider.md
+      - "MessiKinesisProvider": repos/MessiKinesisProvider.md
+      - "MessiProject": repos/MessiProject.md
+      - "MessiS3Provider": repos/MessiS3Provider.md
+      - "MessiSDK": repos/MessiSDK.md
+      - "MessiSQSProvider": repos/MessiSQSProvider.md
+      - "microservice baseline": repos/microservice-baseline.md
+      - "mvn golang": repos/mvn-golang.md
+      - "neo4j apoc jpms shaded": repos/neo4j-apoc-jpms-shaded.md
+      - "nerthus": repos/nerthus.md
+      - "nerthus cli": repos/nerthus-cli.md
+      - "nerthus probe": repos/nerthus-probe.md
+      - "nerthus ui": repos/nerthus-ui.md
+      - "nerthus2": repos/nerthus2.md
+      - "parquet java shaded": repos/parquet-java-shaded.md
+      - "PathWatcher": repos/PathWatcher.md
+      - "ProcessWatcher": repos/ProcessWatcher.md
+      - "property config": repos/property-config.md
+      - "property config json": repos/property-config-json.md
+      - "raspberrypi blue green deployment": repos/raspberrypi-blue-green-deployment.md
+      - "ratpack echo websockets application": repos/ratpack-echo-websockets-application.md
+      - "ratpack freemarker": repos/ratpack-freemarker.md
+      - "ratpack guice config": repos/ratpack-guice-config.md
+      - "ratpack websockets": repos/ratpack-websockets.md
+      - "realestate api java": repos/realestate-api-java.md
+      - "realestate azure client lib": repos/realestate-azure-client-lib.md
+      - "realestate cloudconnector agent": repos/realestate-cloudconnector-agent.md
+      - "realestate desigo plugin": repos/realestate-desigo-plugin.md
+      - "realestate mappingtable lib": repos/realestate-mappingtable-lib.md
+      - "realestate metasys cloudconnector agent": repos/realestate-metasys-cloudconnector-agent.md
+      - "realestate typelib java": repos/realestate-typelib-java.md
+      - "Resilience4j BaseCommands": repos/Resilience4j-BaseCommands.md
+      - "ServerSentEvents agent": repos/ServerSentEvents-agent.md
+      - "simple microservice config": repos/simple-microservice-config.md
+      - "SimpleDashboardBaseline": repos/SimpleDashboardBaseline.md
+      - "SourceCodePortal": repos/SourceCodePortal.md
+      - "SourceCodePortal testdata": repos/SourceCodePortal-testdata.md
+      - "sqs util": repos/sqs-util.md
+      - "stingray": repos/stingray.md
+      - "stingray jdk8": repos/stingray-jdk8.md
+      - "terraform aws acm certificate": repos/terraform-aws-acm-certificate.md
+      - "terraform aws asg": repos/terraform-aws-asg.md
+      - "terraform aws break the seal": repos/terraform-aws-break-the-seal.md
+      - "terraform aws ecr": repos/terraform-aws-ecr.md
+      - "terraform aws ecs fargate": repos/terraform-aws-ecs-fargate.md
+      - "terraform aws eks": repos/terraform-aws-eks.md
+      - "terraform aws grafana": repos/terraform-aws-grafana.md
+      - "terraform aws http api": repos/terraform-aws-http-api.md
+      - "terraform aws loadbalancer": repos/terraform-aws-loadbalancer.md
+      - "terraform aws rds instance": repos/terraform-aws-rds-instance.md
+      - "terraform aws ssm agent policy": repos/terraform-aws-ssm-agent-policy.md
+      - "terraform aws static site": repos/terraform-aws-static-site.md
+      - "terraform aws vpc": repos/terraform-aws-vpc.md
+      - "Valuereporter": repos/Valuereporter.md
+      - "Valuereporter Agent": repos/Valuereporter-Agent.md
+      - "Valuereporter Java Client": repos/Valuereporter-Java-Client.md
+      - "Valuereporter Java SDK": repos/Valuereporter-Java-SDK.md
+      - "Valuereporter LoadGenerator": repos/Valuereporter-LoadGenerator.md
+      - "Valuereporter Statsd Agent": repos/Valuereporter-Statsd-Agent.md
+      - "vili": repos/vili.md
+      - "visuale": repos/visuale.md
+      - "visuale client java": repos/visuale-client-java.md
+      - "wamper": repos/wamper.md
+      - "Whydah": repos/Whydah.md
+      - "Whydah Admin SDK": repos/Whydah-Admin-SDK.md
+      - "Whydah CRMService": repos/Whydah-CRMService.md
+      - "Whydah Go SDK": repos/Whydah-Go-SDK.md
+      - "Whydah HelidonProvider": repos/Whydah-HelidonProvider.md
+      - "Whydah Java SDK": repos/Whydah-Java-SDK.md
+      - "Whydah nginx filter": repos/Whydah-nginx-filter.md
+      - "Whydah OAuth2Service": repos/Whydah-OAuth2Service.md
+      - "Whydah Openidconnect Testfrontend": repos/Whydah-Openidconnect-Testfrontend.md
+      - "Whydah Provisioning": repos/Whydah-Provisioning.md
+      - "Whydah SecurityTokenService": repos/Whydah-SecurityTokenService.md
+      - "Whydah SPAProxyService": repos/Whydah-SPAProxyService.md
+      - "Whydah SSOLoginWebApp": repos/Whydah-SSOLoginWebApp.md
+      - "Whydah StatisticsDashboard": repos/Whydah-StatisticsDashboard.md
+      - "Whydah StatisticsService": repos/Whydah-StatisticsService.md
+      - "Whydah TestWebApp": repos/Whydah-TestWebApp.md
+      - "Whydah TypeLib": repos/Whydah-TypeLib.md
+      - "Whydah UserAdminService": repos/Whydah-UserAdminService.md
+      - "Whydah UserAdminWebApp": repos/Whydah-UserAdminWebApp.md
+      - "Whydah UserIdentityBackend": repos/Whydah-UserIdentityBackend.md
+      - "Whydah UserStateService": repos/Whydah-UserStateService.md
+      - "wiki": repos/wiki.md
+      - "xorcery": repos/xorcery.md
+      - "xorcery examples": repos/xorcery-examples.md
+      - "xorcery genericevent typelib": repos/xorcery-genericevent-typelib.md
+      - "xorcery jsonapi jdk11": repos/xorcery-jsonapi-jdk11.md
+  # END_REPOS_NAV
   - "ACS":
       - "ACS Availability and Allocation Module": ACS/ACS-Availability-and-Allocation-Module.md
       - "ACS Infrastructure recommendations": ACS/ACS-Infrastructure-recommendations.md

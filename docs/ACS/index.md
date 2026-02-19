@@ -2,6 +2,10 @@
 
 # ACS - Awesome Competence System
 
+!!! tip "GitHub"
+    This project is maintained in the [Cantara GitHub org](https://github.com/Cantara).
+    See all related repositories in the [GitHub Repo Index](../repos/index.md#other).
+
 |  | Your one stop shop for employee skill, competency and experience search.   Use ACS to build the best-selling CV for convincing your new customer you'r the **right person for the *The Job***. |
 
 **Key features include:**

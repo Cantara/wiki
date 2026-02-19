@@ -1,7 +1,15 @@
 # Cantara Wiki Archive
 
 Archived from wiki.cantara.no (last captured 2022).
+This archive is supplemented with live GitHub repository data from the [Cantara GitHub org](https://github.com/Cantara).
 
+## GitHub Repositories
+
+The Cantara organisation hosts 150+ open-source repositories on GitHub.
+Browse them in the **[GitHub Repo Index](repos/index.md)**, grouped by project family
+(Whydah IAM/SSO, ConfigService, Messi, JAU, Xorcery, and more).
+
+---
 
 ## Spaces
 

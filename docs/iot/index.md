@@ -1,5 +1,9 @@
 # Home
 
+!!! tip "GitHub"
+    This project is maintained in the [Cantara GitHub org](https://github.com/Cantara).
+    See all related repositories in the [GitHub Repo Index](../repos/index.md#other).
+
 This is the home of the Open Source: IoT - Internet of Things space.
 
 To help you on your way, we've inserted some of our favourite macros on this home page. As you start creating pages, adding news items and commenting you'll see the macros below fill up with all the activity in your space.

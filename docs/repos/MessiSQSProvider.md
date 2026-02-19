@@ -1,0 +1,18 @@
+# MessiSQSProvider
+
+SQS provider for the Messi messaging and streaming abstraction
+
+| Field | Value |
+| --- | --- |
+| **GitHub** | [https://github.com/Cantara/MessiSQSProvider](https://github.com/Cantara/MessiSQSProvider) |
+| **Language** | Java |
+| **Stars** | 1 |
+| **Last updated** | 2026-02-19 |
+
+---
+
+## README
+
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/Cantara/MessiSQSProvider) ![Build Status](https://jenkins.cantara.no/buildStatus/icon?job=Messi%20SQSProvider) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Cantara/MessiSQSProvider?foo=bar) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active) [![Known Vulnerabilities](https://snyk.io/test/github/Cantara/MessiSQSProvider/badge.svg)](https://snyk.io/test/github/Cantara/MessiSQSProvider)
+# MessiSQSProvider
+SQS provider for the Messi messaging and streaming abstraction

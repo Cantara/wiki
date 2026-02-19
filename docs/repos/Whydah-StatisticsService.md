@@ -1,0 +1,53 @@
+# Whydah-StatisticsService
+
+A reporting and statistics module for Whydah
+
+| Field | Value |
+| --- | --- |
+| **GitHub** | [https://github.com/Cantara/Whydah-StatisticsService](https://github.com/Cantara/Whydah-StatisticsService) |
+| **Language** | Java |
+| **Stars** | 0 |
+| **Last updated** | 2026-02-16 |
+
+!!! tip "Related Wiki Pages"
+    This project has documentation in the Cantara Wiki.
+    See the [WHYDAH section](../whydah/index.md).
+
+---
+
+## README
+
+Whydah StatisticsService 
+========================
+
+
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/Cantara/Whydah-StatisticsService) ![Build Status](https://jenkins.cantara.no/buildStatus/icon?job=Whydah-StatisticsService) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Cantara/Whydah-StatisticsService) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repostatus.org/#active)   [![Known Vulnerabilities](https://snyk.io/test/github/Cantara/Whydah-StatisticsService/badge.svg)](https://snyk.io/test/github/Cantara/Whydah-StatisticsService)
+
+A reporting and statistics module for Whydah.
+
+
+For more info, see:
+ * https://wiki.cantara.no/display/whydah/Statistics+Service
+ 
+ ## Initial Setup
+ 
+ ```
+ mvn package
+ ```
+ ### Use embedded database
+ 
+ 1. Create application_override.properties (use application_override.properties.example)
+ 2. Uncomment 
+  ```
+  jdbc.setupNewDb=true
+   ```
+ 
+### Start service
+
+```
+java -jar target/Whydah-StatisticsService....jar
+```
+
+## Verify setup
+
+http://localhost:4901/reporter/

@@ -1,5 +1,9 @@
 # JAU
 
+!!! tip "GitHub"
+    This project is maintained in the [Cantara GitHub org](https://github.com/Cantara).
+    See all related repositories in the [GitHub Repo Index](../repos/index.md#java-auto-update).
+
 - [Agent pattern](Agent-pattern.md)
 - [Agent pattern diagram](Agent-pattern-diagram.md)
 - [ApplicationConfig for groups of clients](ApplicationConfig-for-groups-of-clients.md)
