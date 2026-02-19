@@ -6,34 +6,12 @@ knowledge sharing, and open source projects.
 
 ## Projects
 
-<div class="grid cards" markdown>
-
--   **[Whydah IAM/SSO](whydah/index.md)**
-
-    Identity Provider and Single Sign-On platform.
-    OAuth2, OpenID Connect, microservices architecture.
-
-    [:octicons-arrow-right-24: Wiki](whydah/index.md) &nbsp; [GitHub](repos/index.md#whydah-iamsso)
-
--   **[Java Auto-Update & ConfigService](JAU/index.md)**
-
-    Automatic application updates and centralised runtime configuration.
-
-    [:octicons-arrow-right-24: Wiki](JAU/index.md) &nbsp; [GitHub](repos/index.md#java-auto-update)
-
--   **[Blitz JavaSpaces](blitz/index.md)**
-
-    Open source JavaSpaces and Jini toolkit — patterns, services, tools.
-
-    [:octicons-arrow-right-24: Wiki](blitz/index.md) &nbsp; [GitHub](repos/index.md#blitz)
-
--   **[ACS Competence System](ACS/index.md)**
-
-    Employee skill, competency, and CV management platform.
-
-    [:octicons-arrow-right-24: Wiki](ACS/index.md) &nbsp; [GitHub](repos/index.md#other)
-
-</div>
+| Project | Description | Wiki | GitHub |
+| --- | --- | --- | --- |
+| **Whydah IAM/SSO** | Identity Provider and Single Sign-On platform. OAuth2, OpenID Connect, microservices. | [Wiki](whydah/index.md) | [Repos](repos/index.md#whydah-iamsso) |
+| **Java Auto-Update & ConfigService** | Automatic application updates and centralised runtime configuration. | [Wiki](JAU/index.md) | [Repos](repos/index.md#java-auto-update) |
+| **Blitz JavaSpaces** | Open source JavaSpaces and Jini toolkit — patterns, services, tools. | [Wiki](blitz/index.md) | [Repos](repos/index.md#blitz) |
+| **ACS Competence System** | Employee skill, competency, and CV management platform. | [Wiki](ACS/index.md) | [Repos](repos/index.md#other) |
 
 [All Projects &rarr;](projects/index.md){ .md-button }
 [GitHub Repositories (143 repos) &rarr;](repos/index.md){ .md-button .md-button--primary }

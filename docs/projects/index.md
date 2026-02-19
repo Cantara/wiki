@@ -5,42 +5,12 @@ identity management, application configuration, messaging, and more.
 
 ## Active Projects
 
-<div class="grid cards" markdown>
-
-- **[Whydah IAM/SSO](../whydah/index.md)**
-
-    Identity Provider and Single Sign-On platform. Microservices
-    architecture supporting millions of user sessions, LDAP, OAuth2,
-    OpenID Connect.
-
-    [:octicons-arrow-right-24: Wiki docs](../whydah/index.md)
-    · [GitHub repos](../repos/index.md#whydah-iamsso)
-
-- **[Java Auto-Update & ConfigService](../JAU/index.md)**
-
-    Automatic application updates (JAU) and centralised runtime
-    configuration (ConfigService). Used across all Cantara services.
-
-    [:octicons-arrow-right-24: Wiki docs](../JAU/index.md)
-    · [GitHub repos](../repos/index.md#java-auto-update)
-
-- **[Blitz JavaSpaces](../blitz/index.md)**
-
-    Open source toolkit for JavaSpaces and Jini — patterns, services,
-    and deployment examples.
-
-    [:octicons-arrow-right-24: Wiki docs](../blitz/index.md)
-    · [GitHub repos](../repos/index.md#blitz)
-
-- **[ACS — Competence System](../ACS/index.md)**
-
-    Employee skill, competency, and CV management. Multi-profile CVs,
-    NAG-based data quality, branded CV batches.
-
-    [:octicons-arrow-right-24: Wiki docs](../ACS/index.md)
-    · [GitHub repos](../repos/index.md#other)
-
-</div>
+| Project | Description | Wiki | GitHub |
+| --- | --- | --- | --- |
+| **[Whydah IAM/SSO](../whydah/index.md)** | Identity Provider and Single Sign-On platform. Microservices architecture supporting millions of user sessions, LDAP, OAuth2, OpenID Connect. | [Wiki docs](../whydah/index.md) | [Repos](../repos/index.md#whydah-iamsso) |
+| **[Java Auto-Update & ConfigService](../JAU/index.md)** | Automatic application updates (JAU) and centralised runtime configuration (ConfigService). Used across all Cantara services. | [Wiki docs](../JAU/index.md) | [Repos](../repos/index.md#java-auto-update) |
+| **[Blitz JavaSpaces](../blitz/index.md)** | Open source toolkit for JavaSpaces and Jini — patterns, services, and deployment examples. | [Wiki docs](../blitz/index.md) | [Repos](../repos/index.md#blitz) |
+| **[ACS — Competence System](../ACS/index.md)** | Employee skill, competency, and CV management. Multi-profile CVs, NAG-based data quality, branded CV batches. | [Wiki docs](../ACS/index.md) | [Repos](../repos/index.md#other) |
 
 ## More Projects
 
