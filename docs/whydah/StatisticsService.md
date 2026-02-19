@@ -12,9 +12,7 @@
 
 # Architecture
 
-|  |  |
-| --- | --- |
-| [Full Size](/web/20220524024047/https://wiki.cantara.no/plugins/gliffy/viewlargediagram.action?name=Whydah Statistics Service Architecture&ceoid=44236822&key=whydah&pageId=44236822)  |  | |
+*[Diagram: Whydah Statistics Service Architecture]*
 
 ---
 

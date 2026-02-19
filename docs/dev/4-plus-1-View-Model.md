@@ -28,7 +28,7 @@ The IT-part of the enterprise architecture may then be organized as follows:
 
 ### TODO
 
-Are any of the following appropriate in the 4+1 view model?    
+Are any of the following appropriate in the 4+1 view model?   
 Especially interested in where the state machine diagram belongs.
 
 [Interaction Overview Diagram](http://www.agilemodeling.com/artifacts/interactionOverviewDiagram.htm)    

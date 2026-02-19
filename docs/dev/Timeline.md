@@ -27,9 +27,7 @@ Different actors are involved: Developer, CI server, tester, orchestration tools
 
 #### Example: concrete timeline
 
-|  |  |
-| --- | --- |
-| [Full Size](/web/20210123065624/https://wiki.cantara.no/plugins/gliffy/viewlargediagram.action?name=test.phase.timeline&ceoid=16515318&key=dev&pageId=16515318)  |  | |
+*[Diagram: test.phase.timeline]*
 
 **Within each sprint**
 

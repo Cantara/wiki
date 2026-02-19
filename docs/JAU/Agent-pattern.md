@@ -40,9 +40,7 @@ The diagram shows how the agent integrates with your system and four examples of
 - Agent --> SQL database
 - Agent expose a web server which another on-premise application can call.
 
-|  |  |
-| --- | --- |
-| [Full Size](/web/20210301164219/https://wiki.cantara.no/plugins/gliffy/viewlargediagram.action?name=agent-architecture&ceoid=46137363&key=JAU&pageId=46137363)  |  | |
+*[Diagram: agent-architecture]*
 
 ### Rationale
 

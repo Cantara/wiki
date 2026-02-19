@@ -5,7 +5,7 @@
 | Resource | Method | Expect | Description |
 | --- | --- | --- | --- |
 | **User(s)** |
-| "users/find/"+query | GET | Json |  |
+|  | GET | Json |  |
 | "user/uid | GET | Json |  |
 | "user/uid | PUT | Json |  |
 | "user/uid | DELETE | Json |  |
@@ -25,7 +25,7 @@
 | Resource | Method | Expect | Description |
 | --- | --- | --- | --- |
 | **User(s)** |
-| "users/find/"+query | GET | XML |  |
+|  | GET | XML |  |
 | "user/uid | GET | XML |  |
 | "user/uid | PUT | XML |  |
 | "user/uid | DELETE | XML |  |

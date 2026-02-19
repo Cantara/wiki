@@ -20,6 +20,4 @@ work-in-progress...
 
 **Example of remote service, with endpoint (WS or REST) deployed with the service in a container (typical JEE scenario)**
 
-|  |  |
-| --- | --- |
-| [Full Size](/web/20210731192710/https://wiki.cantara.no/plugins/gliffy/viewlargediagram.action?name=service, endpoint and deployment unit&ceoid=3146520&key=OWSOA&pageId=3146520)  |  | |
+*[Diagram: service, endpoint and deployment unit]*

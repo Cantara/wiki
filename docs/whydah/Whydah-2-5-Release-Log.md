@@ -60,9 +60,9 @@
 
 | Version | Main changes | Comment(s) |
 | --- | --- | --- |
-| 2.5 | Encrypted user tokens | encrypted JWTtokens in SPAProxyService |
-| 2.5 | JWT provider support | part of SPAProxyService |
-| 2.5 | Single-page Application support | part of SPAProxyService |
+| 2.5 | Encrypted user tokens |  |
+| 2.5 | JWT provider support |  |
+| 2.5 | Single-page Application support |  |
 
 #### Non-coordinated/matured modules
 

@@ -28,7 +28,6 @@ Diskusjon den 13/6-2015 på Whydah-workshop om signaler som bør overvåkes i fo
 
 ### Signaler som kan mottas
 
-- Høy påloggingsfrekvens fra en IP/subnett på samme bruker
 - Høy påloggingsfrekvens fra en IP/subnett på forskjellige brukere
 - Høy påloggingsfrekvens på samme bruker fra forskjellige IPer
 - Flere påloggingsforsøk fra geografisk spredte steder innenfor kort tid for samme bruker

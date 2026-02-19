@@ -62,9 +62,7 @@ I like it
 by Isaac Asimov   
 It's OK
 
-17. Admiral's Gambit (A Spineward Sectors Novel   
-by Luke Sky Wachter   
-I like it
+17. Admiral's Gambit (A Spineward Sectors Novel
 
 18. Admiral Who? (A Spineward Sectors Novel   
 by Luke Sky Wachter   

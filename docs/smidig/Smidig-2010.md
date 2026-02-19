@@ -4,9 +4,9 @@
 
 |  |
 | --- |
-| [Frie ideer for smidig2010](/web/20100824110655/http://wiki.cantara.no/display/smidig/Frie+ideer+for+smidig2010) (ORG: Smidig) Labels: [ideer](/web/20100824110655/http://wiki.cantara.no/label/ideer), [kladd](/web/20100824110655/http://wiki.cantara.no/label/kladd), [planlegging](/web/20100824110655/http://wiki.cantara.no/label/planlegging), [smidig](/web/20100824110655/http://wiki.cantara.no/label/smidig), [2010](/web/20100824110655/http://wiki.cantara.no/label/2010) |
-| [Web](/web/20100824110655/http://wiki.cantara.no/display/smidig/Web) (ORG: Smidig) Labels: [smidig](/web/20100824110655/http://wiki.cantara.no/label/smidig), [2010](/web/20100824110655/http://wiki.cantara.no/label/2010), [web](/web/20100824110655/http://wiki.cantara.no/label/web), [backlog](/web/20100824110655/http://wiki.cantara.no/label/backlog) |
-| [Økonomi](/web/20100824110655/http://wiki.cantara.no/pages/viewpage.action?pageId=10813476) (ORG: Smidig) Labels: [smidig](/web/20100824110655/http://wiki.cantara.no/label/smidig), [2010](/web/20100824110655/http://wiki.cantara.no/label/2010), [økonomi](/web/20100824110655/http://wiki.cantara.no/labels/viewlabel.action?ids=11075589), [regnskap](/web/20100824110655/http://wiki.cantara.no/label/regnskap), [budsjett](/web/20100824110655/http://wiki.cantara.no/label/budsjett) |
+|  |
+|  |
+|  |
 | [Sponsor](/web/20100824110655/http://wiki.cantara.no/display/smidig/Sponsor) (ORG: Smidig) Labels: [smidig](/web/20100824110655/http://wiki.cantara.no/label/smidig), [2010](/web/20100824110655/http://wiki.cantara.no/label/2010), [sponsor](/web/20100824110655/http://wiki.cantara.no/label/sponsor) |
 | [Program](/web/20100824110655/http://wiki.cantara.no/display/smidig/Program) (ORG: Smidig) Labels: [smidig](/web/20100824110655/http://wiki.cantara.no/label/smidig), [2010](/web/20100824110655/http://wiki.cantara.no/label/2010), [program](/web/20100824110655/http://wiki.cantara.no/label/program) |
 | [Smidig 2010](/web/20100824110655/http://wiki.cantara.no/display/smidig/Smidig+2010) (ORG: Smidig) Labels: [smidig](/web/20100824110655/http://wiki.cantara.no/label/smidig), [2010](/web/20100824110655/http://wiki.cantara.no/label/2010), [planlegging](/web/20100824110655/http://wiki.cantara.no/label/planlegging) |

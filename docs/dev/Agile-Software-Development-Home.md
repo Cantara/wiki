@@ -8,9 +8,7 @@
 
 We are still debating an information architecture for the content of this site and value your feedback and suggestions.
 
-|  |  |
-| --- | --- |
-| [Full Size](/web/20211128143935/https://wiki.cantara.no/plugins/gliffy/viewlargediagram.action?name=Agile 2.0 structure&ceoid=16515227&key=dev&pageId=16515227)  |  | |
+*[Diagram: Agile 2.0 structure]*
 
 | Name | Description | Completeness of documentation |
 | --- | --- | --- |

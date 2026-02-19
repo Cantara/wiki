@@ -13,6 +13,6 @@
 
 |  |  |  |
 | --- | --- | --- |
-| **Keep**  - **Quality time with the experts** - **lock-in -> time to really go in-depth** - Diversity in the group - Agile agenda - Required reading - Twitter, wiki, PR | **Stop**  - **where is the internet** | **Try**  - **more open space** - Coding challenge - not aim to wide -> few concrete results (goals 2 & 3) - more democratic process upfront |
+| - **Quality time with the experts** - **lock-in -> time to really go in-depth** - Diversity in the group - Agile agenda - Required reading - Twitter, wiki, PR | **Stop**  - **where is the internet** | **Try**  - **more open space** - Coding challenge - not aim to wide -> few concrete results (goals 2 & 3) - more democratic process upfront |
 
 ### Future work

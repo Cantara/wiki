@@ -9,4 +9,4 @@
 | Jonathan Share | [Background](/web/20090524092545/http://wiki.cantara.no/display/~sharebear/Home "Home") | [What every architect should know about scripting languages](/web/20090524092545/http://wiki.cantara.no/display/PE/What+every+architect+should+know+about+scripting+languages "What every architect should know about scripting languages") |
 | [Erik Drolshammer](/web/20090524092545/http://wiki.cantara.no/display/~sherriff/Home "Home") | [Background](/web/20090524092545/http://wiki.cantara.no/display/~sherriff/Home "Home") | [Why architects should think about test and deployment automation..](/web/20090524092545/http://wiki.cantara.no/display/PE/Why+architects+should+think+about+test+and+deployment+automation.. "Why architects should think about test and deployment automation..") |
 
-**PS** Do not add yourself to this for registration, but register through an email to cruise@cantara.no to ensure we get the paperwork in order  We will update this page on a regular basis.
+**PS** Do not add yourself to this for registration, but register through an email to cruise@cantara.no to ensure we get the paperwork in order

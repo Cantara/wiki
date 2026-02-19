@@ -30,7 +30,7 @@ whole bunch of followers.Do we want a world of followers?"
 <http://bit.ly/xeydj>
 
 2009-09-11 07:11:43  
-javatotto: #inbox 30085 archived after #javazone - great to be back  (I need a life...)javatotto: #inbox 30085 archived after #javazone - great to be back  (I  
+javatotto: #inbox 30085 archived after #javazone - great to be back (I need a life...)javatotto: #inbox 30085 archived after #javazone - great to be back (I  
 need a life...)
 
 2009-09-09 04:15:23  
@@ -38,7 +38,7 @@ javatotto: #javazone - Incognito, I doubt we'll ever be friends. I will do my be
 my best not to hate you #fail
 
 2009-09-09 04:05:43  
-javatotto: #javazone, here we go  For the first time without working hard behind the scene, looks very different from the outside.. :)javatotto: #javazone, here we go  For the first time without working  
+javatotto: #javazone, here we go For the first time without working hard behind the scene, looks very different from the outside.. :)javatotto: #javazone, here we go For the first time without working  
 hard behind the scene, looks very different from the outside..
 
 2009-09-08 08:00:40  
@@ -52,7 +52,7 @@ integrating a free kindergarten service: <http://tinyurl.com/nmh4s9> - very
 cool!
 
 2009-09-07 06:00:19  
-javatotto: What about Symbian users  RT @thomasmoen: Breaking: Spotify Goes Live On iPhone And Android <http://bit.ly/sN4l5javatotto:> What about Symbian users  RT @thomasmoen: Breaking: Spotify  
+javatotto: What about Symbian users RT @thomasmoen: Breaking: Spotify Goes Live On iPhone And Android <http://bit.ly/sN4l5javatotto:> What about Symbian users RT @thomasmoen: Breaking: Spotify  
 Goes Live On iPhone And Android <http://bit.ly/sN4l5>
 
 2009-09-07 03:59:34  
@@ -60,8 +60,8 @@ javatotto: @swardley componentisation will not produce more "waste" than the alt
 the alternatives (at least not the ones we know of..) even in the long term
 
 2009-09-06 19:44:04  
-javatotto: The cloud IS GREEN, we are wasting way more resources without the cloud - period  My take on: <http://bit.ly/19cmUz> (via @swardley)javatotto: The cloud IS GREEN, we are wasting way more resources without  
-the cloud - period  My take on: <http://bit.ly/19cmUz> (via @swardley)
+javatotto: The cloud IS GREEN, we are wasting way more resources without the cloud - period My take on: <http://bit.ly/19cmUz> (via @swardley)javatotto: The cloud IS GREEN, we are wasting way more resources without  
+the cloud - period My take on: <http://bit.ly/19cmUz> (via @swardley)
 
 2009-09-06 11:29:06  
 javatotto: Not a day to early..... RT @kristoffer79: JavaZone 2009 agenda is finally out in a schedulish-view.; <http://bit.ly/NkQO0javatotto:> Not a day to early..... RT @kristoffer79: JavaZone 2009  
@@ -84,12 +84,12 @@ javatotto: RT @LeadToday People quit leaders not companies. If you lose employee
 employees you don't have a employee problem, you have a leadership problem.
 
 2009-09-04 16:00:15  
-javatotto: Cool and too often true  RT @anderssv: never ending technical debt <http://bit.ly/273bR> (via @oddlog)javatotto: Cool and too often true  RT @anderssv: never ending  
+javatotto: Cool and too often true RT @anderssv: never ending technical debt <http://bit.ly/273bR> (via @oddlog)javatotto: Cool and too often true RT @anderssv: never ending  
 technical debt <http://bit.ly/273bR> (via @oddlog)
 
 2009-09-04 15:58:36  
-javatotto: Wow - a phone hackers dream....  <http://bit.ly/nB3f1> (Probably not for the faint hearted  Have fun hacking!javatotto: Wow - a phone hackers dream....  <http://bit.ly/nB3f1>   
-(Probably not for the faint hearted  Have fun hacking!
+javatotto: Wow - a phone hackers dream.... <http://bit.ly/nB3f1> (Probably not for the faint hearted Have fun hacking!javatotto: Wow - a phone hackers dream.... <http://bit.ly/nB3f1>   
+(Probably not for the faint hearted Have fun hacking!
 
 2009-09-04 12:18:04  
 javatotto: #TGIF and hopefully enough time to write my #jz09 talk.......javatotto: #TGIF and hopefully enough time to write my #jz09 talk.......
@@ -116,8 +116,8 @@ javatotto: RT @Gartner\_inc: Gartner: Ten Enterprise Architecture Pitfalls <http
 <http://bit.ly/14jat6>
 
 2009-09-02 11:22:30  
-javatotto: Funny reminder  RT  (dagb,)mjasay: Dilbert captures IBM's standards work so perfectly. (For you, @bob\_sutor  <http://twitpic.com/g6rvyjavatotto:> Funny reminder  RT  (dagb,)mjasay: Dilbert captures IBM's  
-standards work so perfectly. (For you, @bob\_sutor 
+javatotto: Funny reminder RT  (dagb,)mjasay: Dilbert captures IBM's standards work so perfectly. (For you, @bob\_sutor <http://twitpic.com/g6rvyjavatotto:> Funny reminder RT  (dagb,)mjasay: Dilbert captures IBM's  
+standards work so perfectly. (For you, @bob\_sutor
 <http://twitpic.com/g6rvy>
 
 2009-09-02 07:49:40  
@@ -135,7 +135,7 @@ Open/free data, data in the cloud/accessible anywhere, data visualization
 javatotto: #JavaZone 2009 sessions online - finally!! <http://bit.ly/a05jDjavatotto:> #JavaZone 2009 sessions online - finally!! <http://bit.ly/a05jD>
 
 2009-09-01 12:53:39  
-javatotto: Cool stuff  RT @mattiasask: RT @jayway:Social Computing or Let the bots talk! <http://ff.im/-7tUQPjavatotto:> Cool stuff  RT @mattiasask: RT @jayway:Social Computing or  
+javatotto: Cool stuff RT @mattiasask: RT @jayway:Social Computing or Let the bots talk! <http://ff.im/-7tUQPjavatotto:> Cool stuff RT @mattiasask: RT @jayway:Social Computing or  
 Let the bots talk! <http://ff.im/-7tUQP>
 
 2009-09-01 06:25:30  
@@ -181,7 +181,7 @@ javatotto: RT @jboner: RT @debasishg: Great presentation on Real World Web scala
 scalability .. <http://is.gd/2HzYa>
 
 2009-08-30 13:13:05  
-javatotto: me like  RT @KevlinHenney: A stellar way to kill time: <http://galaxyzoo.org/javatotto:> me like  RT @KevlinHenney: A stellar way to kill time:
+javatotto: me like RT @KevlinHenney: A stellar way to kill time: <http://galaxyzoo.org/javatotto:> me like RT @KevlinHenney: A stellar way to kill time:
 <http://galaxyzoo.org/>
 
 2009-08-29 23:13:00  
@@ -224,7 +224,7 @@ continuous integration testing for JavaScript Open Alpha
 <http://bit.ly/ol5YF>
 
 2009-08-26 18:32:27  
-javatotto: Some useful reminders from Johannes  RT @jhannes: New blog post: "The world has changed" <http://bit.ly/J0ElRjavatotto:> Some useful reminders from Johannes  RT @jhannes: New blog  
+javatotto: Some useful reminders from Johannes RT @jhannes: New blog post: "The world has changed" <http://bit.ly/J0ElRjavatotto:> Some useful reminders from Johannes RT @jhannes: New blog  
 post: "The world has changed" <http://bit.ly/J0ElR>
 
 2009-08-26 12:31:42  
@@ -254,7 +254,7 @@ javatotto: RT @vanriper: submission site for Android Developer Challenge 2 is no
 is now open: <http://ow.ly/l9Bc> (via @sv\_gtug)
 
 2009-08-24 16:27:53  
-javatotto: @borud your damn right  But there is always #javaPils option in TRH on Monday's as you know :)javatotto: @borud your damn right  But there is always #javaPils option  
+javatotto: @borud your damn right But there is always #javaPils option in TRH on Monday's as you know :)javatotto: @borud your damn right But there is always #javaPils option  
 in TRH on Monday's as you know
 
 2009-08-24 16:20:39  
@@ -270,7 +270,7 @@ Must read if you care abt [sS]emantics or browsable REST:
 <http://bit.ly/4rt39n>
 
 2009-08-24 07:32:30  
-javatotto: Must read - ROTFL  RT @baardl: Good to start the week with a laugh. <http://soafacts.com/> #SOAjavatotto: Must read - ROTFL  RT @baardl: Good to start the week with a  
+javatotto: Must read - ROTFL RT @baardl: Good to start the week with a laugh. <http://soafacts.com/> #SOAjavatotto: Must read - ROTFL RT @baardl: Good to start the week with a  
 laugh. <http://soafacts.com/> #SOA
 
 2009-08-23 09:30:46  
@@ -295,7 +295,7 @@ assume your customer knows the value of your product.Prove it early &
 often!
 
 2009-08-21 17:43:53  
-javatotto: No shit  "Getting the right view into unstructured data from heterogeneous sources can be quite tricky. " <http://bit.ly/texCmjavatotto:> No shit  "Getting the right view into unstructured data  
+javatotto: No shit "Getting the right view into unstructured data from heterogeneous sources can be quite tricky. " <http://bit.ly/texCmjavatotto:> No shit "Getting the right view into unstructured data  
 from heterogeneous sources can be quite tricky. " <http://bit.ly/texCm>
 
 2009-08-21 15:09:29  
@@ -303,7 +303,7 @@ javatotto: RT @LucidImagineer: [Lucid blog] Solr:Search at the Speed of Light at
 Light at JavaZone <http://tinyurl.com/kkcp7v>
 
 2009-08-21 14:25:04  
-javatotto: @kristoffer79 yes, all ppt slides - actually  #javazonejavatotto: @kristoffer79 yes, all ppt slides - actually  #javazone
+javatotto: @kristoffer79 yes, all ppt slides - actually #javazonejavatotto: @kristoffer79 yes, all ppt slides - actually #javazone
 
 2009-08-21 11:01:52  
 javatotto: RT @StigLau: SOA is simple. There are 4 service categories of SOA. #1 Putting your finger in Pacmans mouth #JavaZonejavatotto: RT @StigLau: SOA is simple. There are 4 service categories of  
@@ -333,7 +333,7 @@ javatotto: @kjetilv rework "might" mean that the initial work was "waste" - i.e.
 i.e. doing the stupid thing and then "rework" it is stupid in many cases..
 
 2009-08-18 07:48:56  
-javatotto: "Is refactoring rework in disguise?" Too often true IMHO  - Interesting twitter discussion between @PG\_Rule and @codemonkeyismjavatotto: "Is refactoring rework in disguise?" Too often true IMHO  -   
+javatotto: "Is refactoring rework in disguise?" Too often true IMHO - Interesting twitter discussion between @PG\_Rule and @codemonkeyismjavatotto: "Is refactoring rework in disguise?" Too often true IMHO -   
 Interesting twitter discussion between @PG\_Rule and @codemonkeyism
 
 2009-08-18 06:59:31  
@@ -423,7 +423,7 @@ javatotto: Netbeans 6.8m1 on my test bench - need to code today - hope that Netb
 Netbeans doesn't act up this time...
 
 2009-08-11 06:29:35  
-javatotto: Fun for Geeks - Gmail ad suicide  <http://bit.ly/3RFBPv> "ads disappear if there's a tragic mention every 167 words"javatotto: Fun for Geeks - Gmail ad suicide  <http://bit.ly/3RFBPv>   
+javatotto: Fun for Geeks - Gmail ad suicide <http://bit.ly/3RFBPv> "ads disappear if there's a tragic mention every 167 words"javatotto: Fun for Geeks - Gmail ad suicide <http://bit.ly/3RFBPv>   
 "ads disappear if there's a tragic mention every 167 words"
 
 2009-08-10 21:08:46  
@@ -482,7 +482,7 @@ process may be in need of a diet" <http://bit.ly/17X0ja> #lean (via @PG\_Rule)
 javatotto: RT @Sherriff1: Husk javaPils på tirsdag!javatotto: RT @Sherriff1: Husk javaPils på tirsdag!
 
 2009-08-10 06:42:10  
-javatotto: We all know this, right?  RT @sjefsengel: Breakfast Can Wait. The Day´s First Stop Is Online (nytimes) <http://bit.ly/unDtvjavatotto:> We all know this, right?  RT @sjefsengel: Breakfast Can  
+javatotto: We all know this, right? RT @sjefsengel: Breakfast Can Wait. The Day´s First Stop Is Online (nytimes) <http://bit.ly/unDtvjavatotto:> We all know this, right? RT @sjefsengel: Breakfast Can  
 Wait. The Day´s First Stop Is Online (nytimes) <http://bit.ly/unDtv>
 
 2009-08-08 07:29:59  
@@ -527,8 +527,8 @@ javatotto: Fantastic! - seems like Telenor has fixed the 3G problem between OSL 
 OSL and Lillestrøm - great news for travelers - works for me at least
 
 2009-08-05 15:11:31  
-javatotto: Way cool rundown of concurrency and data design <http://bit.ly/k84jc> wish more people was adopting this style  (via @jboner)javatotto: Way cool rundown of concurrency and data design
-<http://bit.ly/k84jc> wish more people was adopting this style  (via  
+javatotto: Way cool rundown of concurrency and data design <http://bit.ly/k84jc> wish more people was adopting this style (via @jboner)javatotto: Way cool rundown of concurrency and data design
+<http://bit.ly/k84jc> wish more people was adopting this style (via  
 @jboner)
 
 2009-08-05 14:40:42  
@@ -597,7 +597,7 @@ javatotto: This is insane... RT @olemartin: RT @MattMason: And so begins AP's ep
 AP's epic fail: <http://bit.ly/Ha5gf> #apfail
 
 2009-08-03 14:02:31  
-javatotto: @Rolf\_Ronning don't swear at your puppy  (some #¤%&"#¤! has actually digged through a fibercable outside my house. No internet, no TV)javatotto: @Rolf\_Ronning don't swear at your puppy  (some #¤%&"#¤!  
+javatotto: @Rolf\_Ronning don't swear at your puppy (some #¤%&"#¤! has actually digged through a fibercable outside my house. No internet, no TV)javatotto: @Rolf\_Ronning don't swear at your puppy (some #¤%&"#¤!  
 has actually digged through a fibercable outside my house. No internet, no  
 TV)
 
@@ -630,8 +630,8 @@ javatotto: RT @gafter: jdk7 schedule says that in ~90 days the "Coin" Java Lang 
 Lang changes will be integrated, though the JSR hasn't yet been proposed.
 
 2009-07-29 15:39:04  
-javatotto: @fkalseth as reqs evolve previously bad modeled code might be waste and eliminated along with its debt  typical example: caching code :)javatotto: @fkalseth as reqs evolve previously bad modeled code might be  
-waste and eliminated along with its debt  typical example: caching code
+javatotto: @fkalseth as reqs evolve previously bad modeled code might be waste and eliminated along with its debt typical example: caching code :)javatotto: @fkalseth as reqs evolve previously bad modeled code might be  
+waste and eliminated along with its debt typical example: caching code
 
 2009-07-29 14:51:49  
 javatotto: Nice and useful #quote "Sometimes quick and dirty actually incurs less debt" <http://bit.ly/1c8A59javatotto:> Nice and useful #quote "Sometimes quick and dirty actually  
@@ -642,12 +642,12 @@ javatotto: Why technical debt is can be good. RT @olecr: Nice post about when yo
 when you should incur Technical Debt and embrace it: <http://bit.ly/H0Yyw>
 
 2009-07-29 12:40:01  
-javatotto: Nice SD combo for your Camera - GPS and wifi and storage for your Geo-tagging Camera fun  <http://bit.ly/h833mjavatotto:> Nice SD combo for your Camera - GPS and wifi and storage for  
-your Geo-tagging Camera fun  <http://bit.ly/h833m>
+javatotto: Nice SD combo for your Camera - GPS and wifi and storage for your Geo-tagging Camera fun <http://bit.ly/h833mjavatotto:> Nice SD combo for your Camera - GPS and wifi and storage for  
+your Geo-tagging Camera fun <http://bit.ly/h833m>
 
 2009-07-29 11:24:47  
-javatotto: Playing with NOACH ATC <http://bit.ly/9kFy7> - Unfriendly install kills my enthusiasm, and registration seems to #fail altogether  #soundjavatotto: Playing with NOACH ATC <http://bit.ly/9kFy7> - Unfriendly install  
-kills my enthusiasm, and registration seems to #fail altogether  #sound
+javatotto: Playing with NOACH ATC <http://bit.ly/9kFy7> - Unfriendly install kills my enthusiasm, and registration seems to #fail altogether #soundjavatotto: Playing with NOACH ATC <http://bit.ly/9kFy7> - Unfriendly install  
+kills my enthusiasm, and registration seems to #fail altogether #sound
 
 2009-07-29 08:22:30  
 javatotto: Hvordan kan vi hjelpe? @Fornyingsdep: @jantzen opptatt av at offentlig informasjon tilrettelegges for viderebruk, #opendatajavatotto: Hvordan kan vi hjelpe? @Fornyingsdep: @jantzen opptatt av at  
@@ -686,7 +686,7 @@ javatotto: NEVER and ALWAYS are so rarely true in the real world, that they SHOU
 SHOULD NEVER be counted on to be accurate (The never, always & should law)
 
 2009-07-22 12:13:36  
-javatotto: Nice variation of a good old "truth"  RT @Friprog: «No One Ever got Fired for Buying Linux»: <http://bit.ly/Ef6gLjavatotto:> Nice variation of a good old "truth"  RT @Friprog: «No One  
+javatotto: Nice variation of a good old "truth" RT @Friprog: «No One Ever got Fired for Buying Linux»: <http://bit.ly/Ef6gLjavatotto:> Nice variation of a good old "truth" RT @Friprog: «No One  
 Ever got Fired for Buying Linux»: <http://bit.ly/Ef6gL>
 
 2009-07-22 05:33:35  
@@ -706,8 +706,8 @@ javatotto: Must read on password security- strong password does not help, other 
 other measures more important!! <http://bit.ly/1aihFX> [PDF]
 
 2009-07-13 16:36:47  
-javatotto: ZFS deduplication on its way (both synchronous and asynchronous-might be worth watching the progress  <http://bit.ly/F624q> #opensolarisjavatotto: ZFS deduplication on its way (both synchronous and  
-asynchronous-might be worth watching the progress  <http://bit.ly/F624q>   
+javatotto: ZFS deduplication on its way (both synchronous and asynchronous-might be worth watching the progress <http://bit.ly/F624q> #opensolarisjavatotto: ZFS deduplication on its way (both synchronous and  
+asynchronous-might be worth watching the progress <http://bit.ly/F624q>   
 #opensolaris
 
 2009-07-12 19:45:58  
@@ -723,8 +723,8 @@ the last few yrs w/ widespread enterprise agile adoption"
 javatotto: JavaOne 2009 presentations are online: <http://bit.ly/ZvntQjavatotto:> JavaOne 2009 presentations are online: <http://bit.ly/ZvntQ>
 
 2009-07-10 16:45:52  
-javatotto: @emileifrem and @anoras You guys have scary habits.... A word comes to my mind #sick  #failjavatotto: @emileifrem and @anoras You guys have scary habits.... A word  
-comes to my mind #sick  #fail
+javatotto: @emileifrem and @anoras You guys have scary habits.... A word comes to my mind #sick #failjavatotto: @emileifrem and @anoras You guys have scary habits.... A word  
+comes to my mind #sick #fail
 
 2009-07-10 16:45:35  
 javatotto: Discovers ATM Hack, Gets Silenced <http://bit.ly/48Xoiz> (Slashdot)javatotto: Discovers ATM Hack, Gets Silenced <http://bit.ly/48Xoiz>   
@@ -750,13 +750,13 @@ responsible for a project's success. Funny how some customers don't like
 that..
 
 2009-07-06 19:30:44  
-javatotto: Hmm. Gartner believes that #MDM is key enabler for #BPM and #SOA but still fails understand the concept of services  <http://bit.ly/oW9UWjavatotto:> Hmm. Gartner believes that #MDM is key enabler for #BPM and  
-#SOA but still fails understand the concept of services 
+javatotto: Hmm. Gartner believes that #MDM is key enabler for #BPM and #SOA but still fails understand the concept of services <http://bit.ly/oW9UWjavatotto:> Hmm. Gartner believes that #MDM is key enabler for #BPM and  
+#SOA but still fails understand the concept of services
 <http://bit.ly/oW9UW>
 
 2009-07-06 15:21:33  
-javatotto: @Sherriff1 added a design rules compliance section to the service template with some design rules  <http://inreply.to/ND1javatotto:> @Sherriff1 added a design rules compliance section to the  
-service template with some design rules  <http://inreply.to/ND1>
+javatotto: @Sherriff1 added a design rules compliance section to the service template with some design rules <http://inreply.to/ND1javatotto:> @Sherriff1 added a design rules compliance section to the  
+service template with some design rules <http://inreply.to/ND1>
 
 2009-07-05 08:54:06  
 javatotto: RT @michael\_nielsen: New essay: "Is scientific publishing about to be disrupted?" <http://bit.ly/8KhuQ> Twitter-abridgement: "Yes"javatotto: RT @michael\_nielsen: New essay: "Is scientific publishing about  
@@ -805,7 +805,7 @@ make the situation look as positive as possible" <http://bit.ly/lAyPR>
 #agile
 
 2009-07-01 11:04:47  
-javatotto: Always good advice  RT @flowchainsensei: RT @GuyKawasaki: 39 ways to go beyond "existing" and start "living" <http://om.ly/?jGejavatotto:> Always good advice  RT @flowchainsensei: RT @GuyKawasaki: 39  
+javatotto: Always good advice RT @flowchainsensei: RT @GuyKawasaki: 39 ways to go beyond "existing" and start "living" <http://om.ly/?jGejavatotto:> Always good advice RT @flowchainsensei: RT @GuyKawasaki: 39  
 ways to go beyond "existing" and start "living" <http://om.ly/?jGe>
 
 2009-07-01 09:59:16  
@@ -814,12 +814,12 @@ JavaSpace on Teracotta for distribution) <http://bit.ly/e9A1p> (via
 @tobiast)
 
 2009-06-30 20:10:55  
-javatotto: Promising new direction  RT @radar: Radical Transparency: The New Federal IT Dashboard <http://tinyurl.com/lelrj8javatotto:> Promising new direction  RT @radar: Radical Transparency: The  
+javatotto: Promising new direction RT @radar: Radical Transparency: The New Federal IT Dashboard <http://tinyurl.com/lelrj8javatotto:> Promising new direction RT @radar: Radical Transparency: The  
 New Federal IT Dashboard <http://tinyurl.com/lelrj8>
 
 2009-06-30 14:46:46  
-javatotto: Started on -Norwegian software development twitter community - are you missing? Add yourself  <http://bit.ly/12SWiHjavatotto:> Started on -Norwegian software development twitter community -  
-are you missing? Add yourself  <http://bit.ly/12SWiH>
+javatotto: Started on -Norwegian software development twitter community - are you missing? Add yourself <http://bit.ly/12SWiHjavatotto:> Started on -Norwegian software development twitter community -  
+are you missing? Add yourself <http://bit.ly/12SWiH>
 
 2009-06-30 13:40:07  
 javatotto: Need to be certain you got it right? "45 Incredibly Useful Web Design Checklists and Questionnaires" <http://bit.ly/jBAoN> (via @paalnisja)javatotto: Need to be certain you got it right? "45 Incredibly Useful Web  
@@ -831,8 +831,8 @@ javatotto: Global Gaming Factory X (GGF) buy The Pirate Bay for 60 mill SEK - pl
 - plan to add distribution business models <http://bit.ly/2s8Q8v>
 
 2009-06-30 07:57:32  
-javatotto: @sheriff1 Good question  What would you like it to be? We're experimenting to find out more  <http://posted.at/kEajavatotto:> @sheriff1 Good question  What would you like it to be? We're  
-experimenting to find out more  <http://posted.at/kEa>
+javatotto: @sheriff1 Good question What would you like it to be? We're experimenting to find out more <http://posted.at/kEajavatotto:> @sheriff1 Good question What would you like it to be? We're  
+experimenting to find out more <http://posted.at/kEa>
 
 2009-06-29 14:22:59  
 javatotto: @dparnas wrt agile resource mgmt-it is a simplistic, you have to preserve the simplistic/opportunistic default and line resp as exceptions:)javatotto: @dparnas wrt agile resource mgmt-it is a simplistic, you have to  
@@ -900,7 +900,7 @@ javatotto: RT @koehntopp: ORCL/SUN: Rights to Java are the last thing that stand
 stands in the way of the merger <http://bit.ly/pfMfp>
 
 2009-06-27 05:49:28  
-javatotto: Sad day for C64 nostalgics  Apple wake up!!! We want this NOW!!! <http://bit.ly/of7uI> #applefailjavatotto: Sad day for C64 nostalgics  Apple wake up!!! We want this  
+javatotto: Sad day for C64 nostalgics Apple wake up!!! We want this NOW!!! <http://bit.ly/of7uI> #applefailjavatotto: Sad day for C64 nostalgics Apple wake up!!! We want this  
 NOW!!! <http://bit.ly/of7uI> #applefail
 
 2009-06-27 05:25:15  
@@ -917,8 +917,8 @@ javatotto: @jantzen #yam is a tag to map twitter messages into company Yammer ne
 Yammer networks
 
 2009-06-26 08:08:22  
-javatotto: #followfriday This time, new exciting profiles-new to me at least  @flowchainsensei @littleidea @kristid @ldubost @dpjoyce @tlipconjavatotto: #followfriday This time, new exciting profiles-new to me at  
-least  @flowchainsensei @littleidea @kristid @ldubost @dpjoyce  
+javatotto: #followfriday This time, new exciting profiles-new to me at least @flowchainsensei @littleidea @kristid @ldubost @dpjoyce @tlipconjavatotto: #followfriday This time, new exciting profiles-new to me at  
+least @flowchainsensei @littleidea @kristid @ldubost @dpjoyce  
 @tlipcon
 
 2009-06-26 07:07:30  
@@ -930,8 +930,8 @@ javatotto: @chrissearle time is too valuable to delete and organize files and ba
 and backups.... "unlimited" storage is the only solution
 
 2009-06-26 06:50:12  
-javatotto: Finally a 12-disk ReadyNAS announced!! Can't wait  "24 terabytes here I come"  <http://bit.ly/cvesb> and <http://bit.ly/owxT0javatotto:> Finally a 12-disk ReadyNAS announced!! Can't wait  "24  
-terabytes here I come"  <http://bit.ly/cvesb> and <http://bit.ly/owxT0>
+javatotto: Finally a 12-disk ReadyNAS announced!! Can't wait "24 terabytes here I come" <http://bit.ly/cvesb> and <http://bit.ly/owxT0javatotto:> Finally a 12-disk ReadyNAS announced!! Can't wait "24  
+terabytes here I come" <http://bit.ly/cvesb> and <http://bit.ly/owxT0>
 
 2009-06-26 06:17:25  
 javatotto: Wrong question: "how will what I have seamlessly - over time - grow into the cloud?" #silverbulletjavatotto: Wrong question: "how will what I have seamlessly - over time -  
@@ -950,11 +950,11 @@ javatotto: RT @littleidea: Telco entry into cloud computing potentially acceller
 accellerate disruption. #structure09 #That'sWhatI'mSaying
 
 2009-06-25 17:30:27  
-javatotto: Nice blog post  RT @kristid: Power is not a four-letter word. <http://bit.ly/Gw9fjavatotto:> Nice blog post  RT @kristid: Power is not a four-letter word.  
+javatotto: Nice blog post RT @kristid: Power is not a four-letter word. <http://bit.ly/Gw9fjavatotto:> Nice blog post RT @kristid: Power is not a four-letter word.  
 <http://bit.ly/Gw9f>
 
 2009-06-25 13:15:50  
-javatotto: @ldubost better  to information overflow of dimmensions, and all the person miniatures all-over really gets in the way :)javatotto: @ldubost better  to information overflow of dimmensions, and  
+javatotto: @ldubost better to information overflow of dimmensions, and all the person miniatures all-over really gets in the way :)javatotto: @ldubost better to information overflow of dimmensions, and  
 all the person miniatures all-over really gets in the way
 
 2009-06-25 13:07:06  
@@ -995,8 +995,8 @@ javatotto: RT @omathurin @dataqualitypro Guerilla Data Governance Interview with
 with Mike Meier, interesting <http://ow.ly/fIBY> (via @baardl)
 
 2009-06-25 08:52:21  
-javatotto: @kjetilv re #autocratecture : it is a responsibility... who/how and by what name - I do not really care  #IASAjavatotto: @kjetilv re #autocratecture : it is a responsibility...   
-who/how and by what name - I do not really care  #IASA
+javatotto: @kjetilv re #autocratecture : it is a responsibility... who/how and by what name - I do not really care #IASAjavatotto: @kjetilv re #autocratecture : it is a responsibility...   
+who/how and by what name - I do not really care #IASA
 
 2009-06-25 08:40:51  
 javatotto: @jhannes @baardl self-organizing teams need "someone" to make balanced and consistent design decisions across teams and time.. which is...javatotto: @jhannes @baardl self-organizing teams need "someone" to make  
@@ -1008,8 +1008,8 @@ javatotto: What do you think? "Google Wave could either become the next Twitter 
 Twitter or the next Lotus Notes" , Tim Bray #quote
 
 2009-06-25 06:26:32  
-javatotto: Great discussions at last night #IASA meeting - even agile project needs an architect  <http://bit.ly/Uypvg> presentations on-line RSN :)javatotto: Great discussions at last night #IASA meeting - even agile  
-project needs an architect  <http://bit.ly/Uypvg> presentations on-line  
+javatotto: Great discussions at last night #IASA meeting - even agile project needs an architect <http://bit.ly/Uypvg> presentations on-line RSN :)javatotto: Great discussions at last night #IASA meeting - even agile  
+project needs an architect <http://bit.ly/Uypvg> presentations on-line  
 RSN
 
 2009-06-24 14:51:38  
@@ -1017,17 +1017,17 @@ javatotto: RT @MatthewEGreen: Plummer-if IT ran R el systems, IT wld ask 4 the n
 the num of users & set a price & then raise it if U have a baby.#gartnereis
 
 2009-06-24 13:04:45  
-javatotto: On my way to tonights #IASA meeting in Oslo (yeah, long way to travel from Trondheim...  Exciting talks by @stiglau and @baardl :)javatotto: On my way to tonights #IASA meeting in Oslo (yeah, long way to  
-travel from Trondheim...  Exciting talks by @stiglau and @baardl
+javatotto: On my way to tonights #IASA meeting in Oslo (yeah, long way to travel from Trondheim... Exciting talks by @stiglau and @baardl :)javatotto: On my way to tonights #IASA meeting in Oslo (yeah, long way to  
+travel from Trondheim... Exciting talks by @stiglau and @baardl
 
 2009-06-24 12:17:01  
-javatotto: At last  RT @MatthewEGreen: Janelle @Gartner\_Inc sees that incr. companies R tkng "measure 1st" approach 2 BPM projects. #bpm #GartnerEISjavatotto: At last  RT @MatthewEGreen: Janelle @Gartner\_Inc sees that  
+javatotto: At last RT @MatthewEGreen: Janelle @Gartner\_Inc sees that incr. companies R tkng "measure 1st" approach 2 BPM projects. #bpm #GartnerEISjavatotto: At last RT @MatthewEGreen: Janelle @Gartner\_Inc sees that  
 incr. companies R tkng "measure 1st" approach 2 BPM projects. #bpm  
 #GartnerEIS
 
 2009-06-24 06:49:10  
-javatotto: Twitnest - Very cool visualization of twitter follow/following social networks including sub-groups  <http://bit.ly/pRNOPjavatotto:> Twitnest - Very cool visualization of twitter follow/following  
-social networks including sub-groups  <http://bit.ly/pRNOP>
+javatotto: Twitnest - Very cool visualization of twitter follow/following social networks including sub-groups <http://bit.ly/pRNOPjavatotto:> Twitnest - Very cool visualization of twitter follow/following  
+social networks including sub-groups <http://bit.ly/pRNOP>
 
 2009-06-24 04:44:58  
 javatotto: Nice #quote : "New features that slow a website down... aren't features at all. " -Jesse <http://bit.ly/4kKUiyjavatotto:> Nice #quote : "New features that slow a website down... aren't  
@@ -1061,19 +1061,19 @@ putting on weight these days? moving up to.. size X(M)L? spring trauma,
 possibly
 
 2009-06-23 17:06:25  
-javatotto: #e2.0fail  RT @thinkintranet "SharePoint ate my E2.0 implementation" - love that! (via @dhinchcliffe)javatotto: #e2.0fail  RT @thinkintranet "SharePoint ate my E2.0  
+javatotto: #e2.0fail RT @thinkintranet "SharePoint ate my E2.0 implementation" - love that! (via @dhinchcliffe)javatotto: #e2.0fail RT @thinkintranet "SharePoint ate my E2.0  
 implementation" - love that! (via @dhinchcliffe)
 
 2009-06-23 16:57:02  
-javatotto: @dancres Lots of gems at 97 things an architect should know  Maybe too many :Pjavatotto: @dancres Lots of gems at 97 things an architect should know    
+javatotto: @dancres Lots of gems at 97 things an architect should know Maybe too many :Pjavatotto: @dancres Lots of gems at 97 things an architect should know   
 Maybe too many
 
 2009-06-23 16:18:26  
 javatotto: Beer at solsiden, anyone? (bare blåbär)javatotto: Beer at solsiden, anyone? (bare blåbär)
 
 2009-06-23 15:46:48  
-javatotto: @dancres too many analysts, and too few decent architects in this business  <http://bit.ly/132GXo> and <http://bit.ly/vJGVE> :Pjavatotto: @dancres too many analysts, and too few decent architects in  
-this business  <http://bit.ly/132GXo> and <http://bit.ly/vJGVE>
+javatotto: @dancres too many analysts, and too few decent architects in this business <http://bit.ly/132GXo> and <http://bit.ly/vJGVE> :Pjavatotto: @dancres too many analysts, and too few decent architects in  
+this business <http://bit.ly/132GXo> and <http://bit.ly/vJGVE>
 
 2009-06-23 12:51:52  
 javatotto: RT @paulchaffey: RT @AnnCurry: How Neda video got out, how censorship is now impossible. NYT: <http://tinyurl.com/kqtkp2javatotto:> RT @paulchaffey: RT @AnnCurry: How Neda video got out, how  
@@ -1129,11 +1129,11 @@ javatotto: Nice writeup: "Am I a Founder? The Adventure of a Lifetime." <http://
 <http://bit.ly/1T6r8G> - well worth reading
 
 2009-06-22 11:41:33  
-javatotto: Might be worth keeping an eye on #Avro as it matures.. Could be an exciting serialization solution  <http://bit.ly/mc2Ybjavatotto:> Might be worth keeping an eye on #Avro as it matures.. Could be  
-an exciting serialization solution  <http://bit.ly/mc2Yb>
+javatotto: Might be worth keeping an eye on #Avro as it matures.. Could be an exciting serialization solution <http://bit.ly/mc2Ybjavatotto:> Might be worth keeping an eye on #Avro as it matures.. Could be  
+an exciting serialization solution <http://bit.ly/mc2Yb>
 
 2009-06-22 06:32:04  
-javatotto: Now we are talking  3 and 1/2 minutes to sort a Terabyte (10 billion 100 byte records) #hadoop <http://tinyurl.com/6kq4zojavatotto:> Now we are talking  3 and 1/2 minutes to sort a Terabyte   
+javatotto: Now we are talking 3 and 1/2 minutes to sort a Terabyte (10 billion 100 byte records) #hadoop <http://tinyurl.com/6kq4zojavatotto:> Now we are talking 3 and 1/2 minutes to sort a Terabyte   
 (10 billion 100 byte records) #hadoop <http://tinyurl.com/6kq4zo>
 
 2009-06-22 06:23:59  
@@ -1150,7 +1150,7 @@ javatotto: Fantastic event and the beginning of an important trend!! RT @tnegrin
 @tnegrin my notes from the #nosql meetup <http://bit.ly/ZyBo> (via @tlipcon)
 
 2009-06-19 17:08:55  
-javatotto: @paula\_thrasher hehe  mostly non-tech twitter then, ok? :)javatotto: @paula\_thrasher hehe  mostly non-tech twitter then, ok?
+javatotto: @paula\_thrasher hehe mostly non-tech twitter then, ok? :)javatotto: @paula\_thrasher hehe mostly non-tech twitter then, ok?
 
 2009-06-19 09:46:16  
 javatotto: Discussion obvious #ndc09 improvements on identity/brand, community, atmosphere and collective ownership.. (and bad backs..)javatotto: Discussion obvious #ndc09 improvements on identity/brand,  
@@ -1171,8 +1171,8 @@ book off to publi. yesterday.All prog. exmpl in Ruby.Some RSpec and BDD
 too.
 
 2009-06-19 07:35:17  
-javatotto: Crawling out of my server-room to more appropriate daylight activities  Mission accomplished :)javatotto: Crawling out of my server-room to more appropriate daylight  
-activities  Mission accomplished
+javatotto: Crawling out of my server-room to more appropriate daylight activities Mission accomplished :)javatotto: Crawling out of my server-room to more appropriate daylight  
+activities Mission accomplished
 
 2009-06-18 17:48:02  
 javatotto: Useful one!! RT @KevlinHenney: Good verb from @pprovost: 'solutioning' as in 'stop solutioning, focus on defining the problem'.javatotto: Useful one!! RT @KevlinHenney: Good verb from @pprovost:  
@@ -1189,11 +1189,11 @@ portfolio today with public, private, appliance models -
 <http://bit.ly/ZHV8E>
 
 2009-06-16 18:27:25  
-javatotto: Fun #Hadoop comment  RT @tlipcon: "Hadoop has enough ports open that I think it qualifies as a cheese" - Allen Wittenauer of yahoojavatotto: Fun #Hadoop comment  RT @tlipcon: "Hadoop has enough ports  
+javatotto: Fun #Hadoop comment RT @tlipcon: "Hadoop has enough ports open that I think it qualifies as a cheese" - Allen Wittenauer of yahoojavatotto: Fun #Hadoop comment RT @tlipcon: "Hadoop has enough ports  
 open that I think it qualifies as a cheese" - Allen Wittenauer of yahoo
 
 2009-06-16 18:00:15  
-javatotto: #Sonatype gaining moment - great news  RT @markdevisser Sonatype in the SDTimes 100: <http://tr.im/oFEU> (via @jvanzyl )javatotto: #Sonatype gaining moment - great news  RT @markdevisser  
+javatotto: #Sonatype gaining moment - great news RT @markdevisser Sonatype in the SDTimes 100: <http://tr.im/oFEU> (via @jvanzyl )javatotto: #Sonatype gaining moment - great news RT @markdevisser  
 Sonatype in the SDTimes 100: <http://tr.im/oFEU> (via @jvanzyl )
 
 2009-06-16 17:33:31  
@@ -1222,7 +1222,7 @@ javatotto: First victim of the Oracle - Sun merger: Sayonara 16-core Rock UltraS
 UltraSparc CPU... <http://bit.ly/mcHHm> RIP
 
 2009-06-16 04:41:07  
-javatotto: We have still some way to go before ppl "get it.."  RT @olecr: Great post on Continuous Deployment <http://bit.ly/1LOgkNjavatotto:> We have still some way to go before ppl "get it.."  RT  
+javatotto: We have still some way to go before ppl "get it.." RT @olecr: Great post on Continuous Deployment <http://bit.ly/1LOgkNjavatotto:> We have still some way to go before ppl "get it.." RT  
 @olecr: Great post on Continuous Deployment <http://bit.ly/1LOgkN>
 
 2009-06-15 21:07:07  
@@ -1251,12 +1251,12 @@ javatotto: RT @tgodag: How twitter will change the way we live <http://bit.ly/Vz
 <http://bit.ly/Vz7LG> ( time magazine ) (via @sjefsengel @kirstenflagstad )
 
 2009-06-15 04:18:40  
-javatotto: Refreshing look on simplifying the way we do business  As always, challenge the "truths"!! <http://bit.ly/5S9R7javatotto:> Refreshing look on simplifying the way we do business  As  
+javatotto: Refreshing look on simplifying the way we do business As always, challenge the "truths"!! <http://bit.ly/5S9R7javatotto:> Refreshing look on simplifying the way we do business As  
 always, challenge the "truths"!! <http://bit.ly/5S9R7>
 
 2009-06-14 15:23:59  
-javatotto: Finally something which might kill Access? Meet Google Fusion Tables  <http://bit.ly/ze2NVjavatotto:> Finally something which might kill Access? Meet Google Fusion  
-Tables  <http://bit.ly/ze2NV>
+javatotto: Finally something which might kill Access? Meet Google Fusion Tables <http://bit.ly/ze2NVjavatotto:> Finally something which might kill Access? Meet Google Fusion  
+Tables <http://bit.ly/ze2NV>
 
 2009-06-12 12:26:39  
 javatotto: Next JavaZone promovideo: Ragnar Hoff on Flexus.... <http://bit.ly/9zKjE> Great fun!javatotto: Next JavaZone promovideo: Ragnar Hoff on Flexus....
@@ -1271,7 +1271,7 @@ javatotto: #followfriday @iHakki @alexismp @tlipcon @mattiasask @timoreilly @bor
 @borud @emileifrem @dagb @dhinchcliffe (excellent tech sources)
 
 2009-06-12 06:27:25  
-javatotto: Great stuff, must read on scalabillity  RT @emileifrem: Great slide (@tlipcon) on design patterns for dist non-RDBMS: <http://bit.ly/Gl2wYjavatotto:> Great stuff, must read on scalabillity  RT @emileifrem: Great  
+javatotto: Great stuff, must read on scalabillity RT @emileifrem: Great slide (@tlipcon) on design patterns for dist non-RDBMS: <http://bit.ly/Gl2wYjavatotto:> Great stuff, must read on scalabillity RT @emileifrem: Great  
 slide (@tlipcon) on design patterns for dist non-RDBMS:
 <http://bit.ly/Gl2wY>
 
@@ -1288,12 +1288,12 @@ javatotto: To lazy to make your own sushi? Rescue is here!!! Meet the sushi robo
 sushi robot: <http://bit.ly/4qMW9>
 
 2009-06-10 06:39:42  
-javatotto: Very cool and useful  #OSGi RT @alexismp: <http://tr.im/nZET> #GlassFish v3 declarative services. Simple and quite elegant IMHO.javatotto: Very cool and useful  #OSGi RT @alexismp: <http://tr.im/nZET>  
+javatotto: Very cool and useful #OSGi RT @alexismp: <http://tr.im/nZET> #GlassFish v3 declarative services. Simple and quite elegant IMHO.javatotto: Very cool and useful #OSGi RT @alexismp: <http://tr.im/nZET>  
 #GlassFish v3 declarative services. Simple and quite elegant IMHO.
 
 2009-06-09 20:12:41  
-javatotto: @dagb @dhinchcliffe Integrating and using closed (DRM) data formats is usually not a great idea  #SOAjavatotto: @dagb @dhinchcliffe Integrating and using closed (DRM) data  
-formats is usually not a great idea  #SOA
+javatotto: @dagb @dhinchcliffe Integrating and using closed (DRM) data formats is usually not a great idea #SOAjavatotto: @dagb @dhinchcliffe Integrating and using closed (DRM) data  
+formats is usually not a great idea #SOA
 
 2009-06-09 17:08:49  
 javatotto: RT @dhinchcliffe: SOA as 'iTunes for business': interesting analogy: <http://bit.ly/14y3Ku> (Visionary/ies needed: <http://bit.ly/TTHGg> )javatotto: RT @dhinchcliffe: SOA as 'iTunes for business': interesting  
@@ -1318,8 +1318,8 @@ javatotto: Ooops.... zero-day exploit in HyperVM wipes data for 100.000 sites...
 sites... <http://bit.ly/tMTcZ> This is really, really bad...
 
 2009-06-08 18:51:44  
-javatotto: iPhone 3GS actually has quite decent hardware - might buy one myself  #WWDCjavatotto: iPhone 3GS actually has quite decent hardware - might buy one  
-myself  #WWDC
+javatotto: iPhone 3GS actually has quite decent hardware - might buy one myself #WWDCjavatotto: iPhone 3GS actually has quite decent hardware - might buy one  
+myself #WWDC
 
 2009-06-08 18:19:55  
 javatotto: Still waiting for any interesting news from #wwdc Looks like Apple is too confident with themselves this time...javatotto: Still waiting for any interesting news from #wwdc Looks like  
@@ -1336,8 +1336,8 @@ javatotto: RT @dhinchcliffe: Open Platforms and Innovation: <http://bit.ly/CjZSo
 what its about"
 
 2009-06-08 14:00:04  
-javatotto: @proteuz you need to update your information source lists to reduce the level of indirection on (tweet/digg/..)  use the source, man!javatotto: @proteuz you need to update your information source lists to  
-reduce the level of indirection on (tweet/digg/..)  use the source,  
+javatotto: @proteuz you need to update your information source lists to reduce the level of indirection on (tweet/digg/..) use the source, man!javatotto: @proteuz you need to update your information source lists to  
+reduce the level of indirection on (tweet/digg/..) use the source,  
 man!
 
 2009-06-08 12:35:12  
@@ -1353,16 +1353,16 @@ javatotto: RT @timoreilly: Three-part series on how Google does search quality e
 quality evaluation, starts here: <http://bit.ly/QIgwX> Excellent!
 
 2009-06-07 18:27:01  
-javatotto: @dagb Told you Calais was worth looking at  (calais function in @feedly)  #AutoTaxonomy a in action (#ATaCAAS) #yamjavatotto: @dagb Told you Calais was worth looking at  (calais function  
-in @feedly)  #AutoTaxonomy a in action (#ATaCAAS) #yam
+javatotto: @dagb Told you Calais was worth looking at (calais function in @feedly) #AutoTaxonomy a in action (#ATaCAAS) #yamjavatotto: @dagb Told you Calais was worth looking at (calais function  
+in @feedly) #AutoTaxonomy a in action (#ATaCAAS) #yam
 
 2009-06-07 15:02:58  
 javatotto: "Oracle may end up merging the best of OpenSolaris with Linux once it takes control of Sun Microsystems," <http://bit.ly/efHTDjavatotto:> "Oracle may end up merging the best of OpenSolaris with Linux  
 once it takes control of Sun Microsystems," <http://bit.ly/efHTD>
 
 2009-06-05 19:07:08  
-javatotto: Last preparations for tomorrows #webstep architecture workshop  Should be great fun :)javatotto: Last preparations for tomorrows #webstep architecture workshop  
- Should be great fun
+javatotto: Last preparations for tomorrows #webstep architecture workshop Should be great fun :)javatotto: Last preparations for tomorrows #webstep architecture workshop  
+Should be great fun
 
 2009-06-05 12:29:21  
 javatotto: @anoras @AndersF2 : @PSTnorge probably have quite a few less obvious aliases for their #twitter surveillance :)javatotto: @anoras @AndersF2 : @PSTnorge probably have quite a few less  
@@ -1381,7 +1381,7 @@ javatotto: @indiapaleale "would eclipse do without cut and paste? " very interes
 interesting idea... interesting new metric changes on devs for sure...
 
 2009-06-04 21:49:22  
-javatotto: Its a start... some good points  RT @Sherriff1: RT @aycangulez What should really be taught in software engineering: <http://bit.ly/VSXq4javatotto:> Its a start... some good points  RT @Sherriff1: RT  
+javatotto: Its a start... some good points RT @Sherriff1: RT @aycangulez What should really be taught in software engineering: <http://bit.ly/VSXq4javatotto:> Its a start... some good points RT @Sherriff1: RT  
 @aycangulez What should really be taught in software engineering:
 <http://bit.ly/VSXq4>
 
@@ -1439,8 +1439,8 @@ javatotto: #wine Rion Nuits-St.-georges 1. cru Clos des Argillières 2004 Perfec
 Perfect companion to a Limousine beef a-la Totto. Thanks @sheriff and #ow
 
 2009-05-29 09:07:41  
-javatotto: #wave playback and timeblaming and #commitlog opens new breed of apps: timed project metrics: when did the rot begin  its a start :)javatotto: #wave playback and timeblaming and #commitlog opens new breed of  
-apps: timed project metrics: when did the rot begin  its a start
+javatotto: #wave playback and timeblaming and #commitlog opens new breed of apps: timed project metrics: when did the rot begin its a start :)javatotto: #wave playback and timeblaming and #commitlog opens new breed of  
+apps: timed project metrics: when did the rot begin its a start
 
 2009-05-29 08:36:10  
 javatotto: @jantzen @baardl It is possible to mute/put on hold the phone too.. the expectations is the problem. Async made SMS and IM a successjavatotto: @jantzen @baardl It is possible to mute/put on hold the phone  
@@ -1451,8 +1451,8 @@ javatotto: @jantzen @baardl #googlewave gets too synchronous for me... I'd like 
 I'd like to be able to think for my self when communicating on-line
 
 2009-05-27 15:27:41  
-javatotto: Rushing home from Trondheim to catch my own party in Oslo at 18:00  Go ManU!!javatotto: Rushing home from Trondheim to catch my own party in Oslo at  
-18:00  Go ManU!!
+javatotto: Rushing home from Trondheim to catch my own party in Oslo at 18:00 Go ManU!!javatotto: Rushing home from Trondheim to catch my own party in Oslo at  
+18:00 Go ManU!!
 
 2009-05-27 09:08:08  
 javatotto: New "blog post" - Same Old Architecture versus services <http://bit.ly/TTHGg> :)javatotto: New "blog post" - Same Old Architecture versus services
@@ -1488,16 +1488,16 @@ listening to spotify on a satellite link... #iasa <http://bit.ly/MWRM8>
 #GeekCruise
 
 2009-05-24 11:28:56  
-javatotto: @jbaragry @jhannes Good input  Seems like we are hitting soft spots  #GeekCruise <http://bit.ly/vJGVE> and <http://bit.ly/132GXojavatotto:> @jbaragry @jhannes Good input  Seems like we are hitting  
-soft spots  #GeekCruise <http://bit.ly/vJGVE> and <http://bit.ly/132GXo>
+javatotto: @jbaragry @jhannes Good input Seems like we are hitting soft spots #GeekCruise <http://bit.ly/vJGVE> and <http://bit.ly/132GXojavatotto:> @jbaragry @jhannes Good input Seems like we are hitting  
+soft spots #GeekCruise <http://bit.ly/vJGVE> and <http://bit.ly/132GXo>
 
 2009-05-24 07:59:43  
-javatotto: Typing up laws for software architects from #GeekCruise <http://wiki.cantara.no/> #yam  Commends and ideas are welcome :)javatotto: Typing up laws for software architects from #GeekCruise
-<http://wiki.cantara.no/> #yam  Commends and ideas are welcome
+javatotto: Typing up laws for software architects from #GeekCruise <http://wiki.cantara.no/> #yam Commends and ideas are welcome :)javatotto: Typing up laws for software architects from #GeekCruise
+<http://wiki.cantara.no/> #yam Commends and ideas are welcome
 
 2009-05-24 06:18:00  
-javatotto: Preparing for day #2 of the Architects in deep water... #GeekCruise  <http://wiki.cantara.no/dashboard.actionjavatotto:> Preparing for day #2 of the Architects in deep water...   
-#GeekCruise  <http://wiki.cantara.no/dashboard.action>
+javatotto: Preparing for day #2 of the Architects in deep water... #GeekCruise <http://wiki.cantara.no/dashboard.actionjavatotto:> Preparing for day #2 of the Architects in deep water...   
+#GeekCruise <http://wiki.cantara.no/dashboard.action>
 
 2009-05-23 15:55:48  
 javatotto: RT @baardl: Now presentations for results so far #GeekCruise <http://twurl.nl/7r682p>, Learning cycles and Building blocksjavatotto: RT @baardl: Now presentations for results so far #GeekCruise
@@ -1528,8 +1528,8 @@ javatotto: Warming up to Geek Cruise for Architects this weekend. Do you feel gu
 feel guilty? <http://bit.ly/NF5LS> #yam <http://bit.ly/cn2OI>
 
 2009-05-20 07:08:03  
-javatotto: @dagb "SOA done right" give business agillity (what Gartner call: Real-Time-Enterprise)  Unfortunately, it is rarely done right... :(javatotto: @dagb "SOA done right" give business agillity (what Gartner  
-call: Real-Time-Enterprise)  Unfortunately, it is rarely done right...
+javatotto: @dagb "SOA done right" give business agillity (what Gartner call: Real-Time-Enterprise) Unfortunately, it is rarely done right... :(javatotto: @dagb "SOA done right" give business agillity (what Gartner  
+call: Real-Time-Enterprise) Unfortunately, it is rarely done right...
 
 2009-05-20 06:42:04  
 javatotto: @dagb Unfortunately, companies do not measure costs in ways which enable ppl to use them as evidence, and as always: your milage varies :)javatotto: @dagb Unfortunately, companies do not measure costs in ways  
@@ -1569,7 +1569,7 @@ X-RAID, Drobo and ZFS has saved me. I do not clean up, I add new disk(s)
 20TB now
 
 2009-05-13 10:11:00  
-javatotto: @olemartin kjør ReadyNASPro eller DroboPro  Da har du kraft i massevis og features i flokk :)javatotto: @olemartin kjør ReadyNASPro eller DroboPro  Da har du kraft  
+javatotto: @olemartin kjør ReadyNASPro eller DroboPro Da har du kraft i massevis og features i flokk :)javatotto: @olemartin kjør ReadyNASPro eller DroboPro Da har du kraft  
 i massevis og features i flokk
 
 2009-05-13 04:50:52  
@@ -1579,15 +1579,15 @@ javatotto: Check-in Gardemoen, 0700 flight, destination Trondheimjavatotto: Chec
 javatotto: RT @filipvanlaenen: JavaFX coming for Linux? <http://bit.ly/Zmr8fjavatotto:> RT @filipvanlaenen: JavaFX coming for Linux? <http://bit.ly/Zmr8f>
 
 2009-05-11 19:56:29  
-javatotto: @kjetilv tru H2A and SOA  should prevent the chemistry stuffjavatotto: @kjetilv tru H2A and SOA  should prevent the chemistry stuff
+javatotto: @kjetilv tru H2A and SOA should prevent the chemistry stuffjavatotto: @kjetilv tru H2A and SOA should prevent the chemistry stuff
 
 2009-05-11 19:07:59  
 javatotto: Working hard with Kjartan to complete v2 of the SOA service categorization framework, feedback/comments? <http://bit.ly/15eqtp> #yamjavatotto: Working hard with Kjartan to complete v2 of the SOA service  
 categorization framework, feedback/comments? <http://bit.ly/15eqtp> #yam
 
 2009-05-11 12:27:46  
-javatotto: Soon "happy" with the setup and confuguration of my new Laptop  Will have to revisit the process in order to change OS later...javatotto: Soon "happy" with the setup and confuguration of my new Laptop  
- Will have to revisit the process in order to change OS later...
+javatotto: Soon "happy" with the setup and confuguration of my new Laptop Will have to revisit the process in order to change OS later...javatotto: Soon "happy" with the setup and confuguration of my new Laptop  
+Will have to revisit the process in order to change OS later...
 
 2009-05-11 07:39:01  
 javatotto: RT @emileifrem: Playing w/ MongoDB, CouchDB's "faster C++ cousin." They do 1k related docs per sec w/ warm caches. Neo4j does 2-3k. Per ms.javatotto: RT @emileifrem: Playing w/ MongoDB, CouchDB's "faster C++  
@@ -1600,8 +1600,8 @@ tasted it before, and it has some great reviews 90%, but I can't agree 55
 tops
 
 2009-05-08 17:19:06  
-javatotto: RT @gafter: "Lambdas are relegated to relative obscurity until Java makes them popular by not having them."  <http://tinyurl.com/pjcco4javatotto:> RT @gafter: "Lambdas are relegated to relative obscurity until  
-Java makes them popular by not having them."  <http://tinyurl.com/pjcco4>
+javatotto: RT @gafter: "Lambdas are relegated to relative obscurity until Java makes them popular by not having them." <http://tinyurl.com/pjcco4javatotto:> RT @gafter: "Lambdas are relegated to relative obscurity until  
+Java makes them popular by not having them." <http://tinyurl.com/pjcco4>
 
 2009-05-08 14:20:36  
 javatotto: RT @snorrebryne: Fikk mail fra dommer Tom Vold nå, de vil holde Lyse-kjennelsen hemmelig til bevis er sikret.javatotto: RT @snorrebryne: Fikk mail fra dommer Tom Vold nå, de vil holde  
@@ -1640,7 +1640,7 @@ javatotto: RT @emileifrem ♺ @neo4j: Neo4j 1.0-b8 just released! <http://bit.ly
 new API treats
 
 2009-05-03 18:10:47  
-javatotto: @jhannes correction  when has "what the customer requorents == solving the problem at hand?javatotto: @jhannes correction  when has "what the customer requorents  
+javatotto: @jhannes correction when has "what the customer requorents == solving the problem at hand?javatotto: @jhannes correction when has "what the customer requorents  
 == solving the problem at hand?
 
 2009-05-03 17:24:15  
@@ -1664,8 +1664,8 @@ javatotto: @dagb Kjenner forskningen til Magne jaa... men artikkelen kan lett to
 lett tolkes feil, dvs i retning av at den sier noe om produktivitet....
 
 2009-05-03 08:17:36  
-javatotto: @dagb Les Mis var fantastisk bra, en opplevelse - anbefales på det sterkeste  (Beste oppsetningen jeg har sett)javatotto: @dagb Les Mis var fantastisk bra, en opplevelse - anbefales på  
-det sterkeste  (Beste oppsetningen jeg har sett)
+javatotto: @dagb Les Mis var fantastisk bra, en opplevelse - anbefales på det sterkeste (Beste oppsetningen jeg har sett)javatotto: @dagb Les Mis var fantastisk bra, en opplevelse - anbefales på  
+det sterkeste (Beste oppsetningen jeg har sett)
 
 2009-05-03 06:26:54  
 javatotto: Via @dagb: RT @leplan: [MUST READ] A Shift From Oil To Technology htto IT tp://tinyurl.com/cn4mhp (especially for norwegians)javatotto: Via @dagb: RT @leplan: [MUST READ] A Shift From Oil To  
@@ -1676,7 +1676,7 @@ javatotto: On my way to Les Misserables @ Oslo Nye Teaater - very good reviews, 
 reviews, high expectations
 
 2009-05-02 11:22:59  
-javatotto: RT Good observation  @dancres: Distributed systems amplify mistakes in elementary design e.g. coupling or coherencejavatotto: RT Good observation  @dancres: Distributed systems amplify  
+javatotto: RT Good observation @dancres: Distributed systems amplify mistakes in elementary design e.g. coupling or coherencejavatotto: RT Good observation @dancres: Distributed systems amplify  
 mistakes in elementary design e.g. coupling or coherence
 
 2009-05-01 16:06:08  
@@ -1693,24 +1693,24 @@ javatotto: Last day before I begin in a new job - enjoying the nice spring outdo
 outdoors
 
 2009-04-29 14:24:17  
-javatotto: Promo video for the next Peer #GeekCruise - Architects in deep water released  <http://bit.ly/7ma3S> #iasajavatotto: Promo video for the next Peer #GeekCruise - Architects in deep  
-water released  <http://bit.ly/7ma3S> #iasa
+javatotto: Promo video for the next Peer #GeekCruise - Architects in deep water released <http://bit.ly/7ma3S> #iasajavatotto: Promo video for the next Peer #GeekCruise - Architects in deep  
+water released <http://bit.ly/7ma3S> #iasa
 
 2009-04-28 20:47:21  
-javatotto: @nerdegutt Readynas is careless (CL) storage, drobo is cl local storage  drobo is faster for local access and it support daisy chainingjavatotto: @nerdegutt Readynas is careless (CL) storage, drobo is cl local  
-storage  drobo is faster for local access and it support daisy chaining
+javatotto: @nerdegutt Readynas is careless (CL) storage, drobo is cl local storage drobo is faster for local access and it support daisy chainingjavatotto: @nerdegutt Readynas is careless (CL) storage, drobo is cl local  
+storage drobo is faster for local access and it support daisy chaining
 
 2009-04-28 17:24:13  
-javatotto: Drobo and 5GB in drives ordered... was running out fo space with my 3 ReadyNAS boxes  Deleting files and parachutes is for chickens..javatotto: Drobo and 5GB in drives ordered... was running out fo space  
-with my 3 ReadyNAS boxes  Deleting files and parachutes is for  
+javatotto: Drobo and 5GB in drives ordered... was running out fo space with my 3 ReadyNAS boxes Deleting files and parachutes is for chickens..javatotto: Drobo and 5GB in drives ordered... was running out fo space  
+with my 3 ReadyNAS boxes Deleting files and parachutes is for  
 chickens..
 
 2009-04-26 14:54:46  
-javatotto: @geteasypeasy Impressive, congratulations  Keep up the great work - can't wait for 2.0 :)javatotto: @geteasypeasy Impressive, congratulations  Keep up the great  
+javatotto: @geteasypeasy Impressive, congratulations Keep up the great work - can't wait for 2.0 :)javatotto: @geteasypeasy Impressive, congratulations Keep up the great  
 work - can't wait for 2.0
 
 2009-04-26 11:05:50  
-javatotto: Had some fun yesterday, giving a tech presentation at 0700  Impressed by the lack of yawning in the audience. Link: <http://bit.ly/5nWXZjavatotto:> Had some fun yesterday, giving a tech presentation at 0700    
+javatotto: Had some fun yesterday, giving a tech presentation at 0700 Impressed by the lack of yawning in the audience. Link: <http://bit.ly/5nWXZjavatotto:> Had some fun yesterday, giving a tech presentation at 0700   
 Impressed by the lack of yawning in the audience. Link: <http://bit.ly/5nWXZ>
 
 2009-04-24 07:56:35  
@@ -1734,8 +1734,8 @@ javatotto: @SveinMagnus We did not record the session this time, unfortunately, 
 unfortunately, but we might record next time
 
 2009-04-22 06:36:19  
-javatotto: Finishing a small presentation on #IASA Norge for todays IASA meetup  53 participants and counting - very good!javatotto: Finishing a small presentation on #IASA Norge for todays IASA  
-meetup  53 participants and counting - very good!
+javatotto: Finishing a small presentation on #IASA Norge for todays IASA meetup 53 participants and counting - very good!javatotto: Finishing a small presentation on #IASA Norge for todays IASA  
+meetup 53 participants and counting - very good!
 
 2009-04-21 20:28:56  
 javatotto: @teedjay tastes better @ #javapilsjavatotto: @teedjay tastes better @ #javapils
@@ -1778,8 +1778,8 @@ javatotto: @StigLau JavaFX was a natural fit :Pjavatotto: @StigLau JavaFX was a 
 javatotto: @mogsie I'm driving the typing and she is driving the testing :pjavatotto: @mogsie I'm driving the typing and she is driving the testing
 
 2009-04-20 07:52:11  
-javatotto: Pair-programming with my 3.5 year old daughter today - a nice way to spend quality time with the kids  We'r coding a small math-game :)javatotto: Pair-programming with my 3.5 year old daughter today - a nice  
-way to spend quality time with the kids  We'r coding a small math-game
+javatotto: Pair-programming with my 3.5 year old daughter today - a nice way to spend quality time with the kids We'r coding a small math-game :)javatotto: Pair-programming with my 3.5 year old daughter today - a nice  
+way to spend quality time with the kids We'r coding a small math-game
 
 2009-04-17 11:36:16  
 javatotto: Thank you all who atended @tobiast and my #GoOpen pres! Hope to see many of you at [http://wiki.cantara.nojavatotto:](http://wiki.cantara.nojavatotto/) Thank you all who atended @tobiast and my #GoOpen pres! Hope to  
@@ -1806,11 +1806,11 @@ javatotto: @proteuz Takk for topp tilbakemeldinger - har fikset endel og svar i 
 svar i mail RSN
 
 2009-04-16 19:08:31  
-javatotto: @stromhylden measured in several studies  But your milage will always vary :Pjavatotto: @stromhylden measured in several studies  But your milage  
+javatotto: @stromhylden measured in several studies But your milage will always vary :Pjavatotto: @stromhylden measured in several studies But your milage  
 will always vary
 
 2009-04-16 18:45:56  
-javatotto: Trying to finalize our presentatiion for #goopen tomorrow  Any last minute comments? <http://lurl.no/dwjavatotto:> Trying to finalize our presentatiion for #goopen tomorrow    
+javatotto: Trying to finalize our presentatiion for #goopen tomorrow Any last minute comments? <http://lurl.no/dwjavatotto:> Trying to finalize our presentatiion for #goopen tomorrow   
 Any last minute comments? <http://lurl.no/dw>
 
 2009-04-16 08:24:03  
@@ -1818,7 +1818,7 @@ javatotto: Testing out PPD - Peer Presentation Development with @tobiast at a co
 a coffee shop close to #goopen
 
 2009-04-14 17:56:34  
-javatotto: Gmail Redesigned v2.2 is actually a very nice gmail upgrade  thumbs up!javatotto: Gmail Redesigned v2.2 is actually a very nice gmail upgrade    
+javatotto: Gmail Redesigned v2.2 is actually a very nice gmail upgrade thumbs up!javatotto: Gmail Redesigned v2.2 is actually a very nice gmail upgrade   
 thumbs up!
 
 2009-04-14 12:50:22  
@@ -1830,7 +1830,7 @@ javatotto: @jhannes as a side comment, seen this on agile versus reuse? <http://
 <http://bit.ly/7cEZx> via @maxchiu
 
 2009-04-13 18:32:57  
-javatotto: @dagb was in your area this easter  Jömna :)javatotto: @dagb was in your area this easter  Jömna
+javatotto: @dagb was in your area this easter Jömna :)javatotto: @dagb was in your area this easter Jömna
 
 2009-04-13 18:30:36  
 javatotto: @jhannes any attempt to use fws or reusable code when it is not a good match to the prob at hand will add complexity and LOCsjavatotto: @jhannes any attempt to use fws or reusable code when it is not  
@@ -1879,8 +1879,8 @@ javatotto: @jhannes @krosenvold What are the conds which makes "simple" the defa
 the default solution software dev? And is not "simple" a function of skill?
 
 2009-04-12 17:03:06  
-javatotto: Back from Easter-kids in bed and relaxing with a nice 2005 Amarone Classico, Giuseppe Campagnola #wine  Recommended for Amarone fans :)javatotto: Back from Easter-kids in bed and relaxing with a nice 2005  
-Amarone Classico, Giuseppe Campagnola #wine  Recommended for Amarone  
+javatotto: Back from Easter-kids in bed and relaxing with a nice 2005 Amarone Classico, Giuseppe Campagnola #wine Recommended for Amarone fans :)javatotto: Back from Easter-kids in bed and relaxing with a nice 2005  
+Amarone Classico, Giuseppe Campagnola #wine Recommended for Amarone  
 fans
 
 2009-04-08 08:14:27  
@@ -1893,7 +1893,7 @@ origination from company policy and design decisions with @tobiast for
 #goopen
 
 2009-04-05 10:39:53  
-javatotto: Celebrating myself with family and everyone else...  Soon ready for arrival of guests - our place is still a mess, but RSN...javatotto: Celebrating myself with family and everyone else...  Soon  
+javatotto: Celebrating myself with family and everyone else... Soon ready for arrival of guests - our place is still a mess, but RSN...javatotto: Celebrating myself with family and everyone else... Soon  
 ready for arrival of guests - our place is still a mess, but RSN...
 
 2009-04-04 19:38:03  
@@ -1915,7 +1915,7 @@ javatotto: Welcome @krosenvold - apple fanboy (It seems) and my 200th follower :
 follower
 
 2009-04-03 10:55:44  
-javatotto: @kjetilv  it is trade-off consequences from your repo/CI strategy.C-style/everything from source vs EMI-style/prebuilt&verified artifactsjavatotto: @kjetilv  it is trade-off consequences from your repo/CI  
+javatotto: @kjetilv it is trade-off consequences from your repo/CI strategy.C-style/everything from source vs EMI-style/prebuilt&verified artifactsjavatotto: @kjetilv it is trade-off consequences from your repo/CI  
 strategy.C-style/everything from source vs EMI-style/prebuilt&verified  
 artifacts
 
@@ -1952,11 +1952,11 @@ javatotto: Any wishes for special topics for my JavaZone abstracts?javatotto: An
 javatotto: The new "Twitter 2.0" client in fring is actually useful :)javatotto: The new "Twitter 2.0" client in fring is actually useful
 
 2009-03-30 12:43:12  
-javatotto: First IASA Norway meeting in ages  Invitation (Norwegian only) here: <http://tinyurl.com/d64k4fjavatotto:> First IASA Norway meeting in ages  Invitation (Norwegian  
+javatotto: First IASA Norway meeting in ages Invitation (Norwegian only) here: <http://tinyurl.com/d64k4fjavatotto:> First IASA Norway meeting in ages Invitation (Norwegian  
 only) here: <http://tinyurl.com/d64k4f>
 
 2009-03-30 10:02:21  
-javatotto: Sesam(e)~~#sesam open up...  and if they had opened up and thought differently they could have a success instead of todays death..javatotto: Sesam(e)~~#sesam open up...  and if they had opened up and  
+javatotto: Sesam(e)~~#sesam open up... and if they had opened up and thought differently they could have a success instead of todays death..javatotto: Sesam(e)~~#sesam open up... and if they had opened up and  
 thought differently they could have a success instead of todays death..
 
 2009-03-30 09:00:22  
@@ -1964,8 +1964,8 @@ javatotto: Back on the morning-squash bandwagon after 15 months - I expect huge 
 huge pains the next days.....
 
 2009-03-29 18:37:49  
-javatotto: #wine DAO 2007 Alvaro Castro D.O.C. - spices and warmth which guarantee a smile on everyones faces  I'm still smiling :)javatotto: #wine DAO 2007 Alvaro Castro D.O.C. - spices and warmth which  
-guarantee a smile on everyones faces  I'm still smiling
+javatotto: #wine DAO 2007 Alvaro Castro D.O.C. - spices and warmth which guarantee a smile on everyones faces I'm still smiling :)javatotto: #wine DAO 2007 Alvaro Castro D.O.C. - spices and warmth which  
+guarantee a smile on everyones faces I'm still smiling
 
 2009-03-28 18:19:59  
 javatotto: @dagb "Managing the firehose" states the obvious in an organized way, but does not say how we/tech can fix the problem :)javatotto: @dagb "Managing the firehose" states the obvious in an organized  
@@ -2004,7 +2004,7 @@ javatotto: RT @codemonkeyism: Not sure if #Scala or #Qi4J is better for DDD, one
 DDD, one has more native language support, one has experts and thinkers
 
 2009-03-27 23:16:07  
-javatotto: The Kristian Valen show was great fun - my recommendations  Especially his Lyngbø character was hilarious. A must see :)javatotto: The Kristian Valen show was great fun - my recommendations    
+javatotto: The Kristian Valen show was great fun - my recommendations Especially his Lyngbø character was hilarious. A must see :)javatotto: The Kristian Valen show was great fun - my recommendations   
 Especially his Lyngbø character was hilarious. A must see
 
 2009-03-27 17:06:00  
@@ -2021,12 +2021,12 @@ javatotto: #wine Leitz2007 Rudensheimer Bischofsberg, Spatlese trocken - the fir
 the first fresh sign of spring after a long cold Norwegian winter
 
 2009-03-26 13:27:39  
-javatotto: Today's fun stuff - my own Gadget Cool Wall  [http://wiki.cantara.no/display/PE/GCW](../PE/GCW.md) comments and ideas?javatotto: Today's fun stuff - my own Gadget Cool Wall 
+javatotto: Today's fun stuff - my own Gadget Cool Wall [http://wiki.cantara.no/display/PE/GCW](../PE/GCW.md) comments and ideas?javatotto: Today's fun stuff - my own Gadget Cool Wall
 [http://wiki.cantara.no/display/PE/GCW](../PE/GCW.md) comments and ideas?
 
 2009-03-25 14:22:53  
-javatotto: Cool stuff - running Amazon Cloud AMI-images (EC2) on your Ubuntu server  <http://tinyurl.com/c4rhpyjavatotto:> Cool stuff - running Amazon Cloud AMI-images (EC2) on your  
-Ubuntu server  <http://tinyurl.com/c4rhpy>
+javatotto: Cool stuff - running Amazon Cloud AMI-images (EC2) on your Ubuntu server <http://tinyurl.com/c4rhpyjavatotto:> Cool stuff - running Amazon Cloud AMI-images (EC2) on your  
+Ubuntu server <http://tinyurl.com/c4rhpy>
 
 2009-03-24 12:36:20  
 javatotto: #javapils tonight - I'll be there :)javatotto: #javapils tonight - I'll be there
@@ -2044,7 +2044,7 @@ javatotto: Planning Cantara(.no) priorities and activities for the next 6 months
 months - what do you want us to do for you?
 
 2009-03-23 14:07:10  
-javatotto: Useful and fun read: "getting over java"  <http://tinyurl.com/6xv8hkjavatotto:> Useful and fun read: "getting over java" 
+javatotto: Useful and fun read: "getting over java" <http://tinyurl.com/6xv8hkjavatotto:> Useful and fun read: "getting over java"
 <http://tinyurl.com/6xv8hk>
 
 2009-03-23 13:01:36  
@@ -2069,12 +2069,12 @@ javatotto: Just added myself to the [http://wefollow.com](http://wefollow.com/) 
 under: #tech #wine #java
 
 2009-03-22 16:45:30  
-javatotto: Cool visualization of twitter social networks  <http://tinyurl.com/cyujbtjavatotto:> Cool visualization of twitter social networks 
+javatotto: Cool visualization of twitter social networks <http://tinyurl.com/cyujbtjavatotto:> Cool visualization of twitter social networks
 <http://tinyurl.com/cyujbt>
 
 2009-03-20 21:32:18  
-javatotto: @bjornno #geekcruise wee are on the same page about scaling software development then  you should come along and join the #geekcruise :)javatotto: @bjornno #geekcruise wee are on the same page about scaling  
-software development then  you should come along and join the  
+javatotto: @bjornno #geekcruise wee are on the same page about scaling software development then you should come along and join the #geekcruise :)javatotto: @bjornno #geekcruise wee are on the same page about scaling  
+software development then you should come along and join the  
 #geekcruise
 
 2009-03-20 21:03:33  
@@ -2100,7 +2100,7 @@ variant) looks very promising. Will report on plug&play projector
 experience
 
 2009-03-13 22:40:21  
-javatotto: @jppg thanks  I might even be more creative and aim for open solaris... my main worry is how well the distros handle plug&play projectorsjavatotto: @jppg thanks  I might even be more creative and aim for open  
+javatotto: @jppg thanks I might even be more creative and aim for open solaris... my main worry is how well the distros handle plug&play projectorsjavatotto: @jppg thanks I might even be more creative and aim for open  
 solaris... my main worry is how well the distros handle plug&play  
 projectors
 
@@ -2188,7 +2188,7 @@ javatotto: RT @JavaOneConf:Looking for cool Java innovations for the annual Duke
 Duke's Choice Awards. Got one? Tell us about it today. java.sun.com/javaone
 
 2009-02-25 18:10:05  
-javatotto: Exciting stuff  Retweeting @Sherriff1: creating rpm for MActor - <http://tinyurl.com/cfssznjavatotto:> Exciting stuff  Retweeting @Sherriff1: creating rpm for MActor
+javatotto: Exciting stuff Retweeting @Sherriff1: creating rpm for MActor - <http://tinyurl.com/cfssznjavatotto:> Exciting stuff Retweeting @Sherriff1: creating rpm for MActor
 
 - <http://tinyurl.com/cfsszn>
 
@@ -2205,8 +2205,8 @@ niagarafalls and acts like jesus it's probably tottos new business concept
 in disguise
 
 2009-02-25 10:12:48  
-javatotto: New board of IASA Norway elected yesterday - looks like we can expect lot of enthusiasm and activities in 2009  <http://lurl.no/c2javatotto:> New board of IASA Norway elected yesterday - looks like we can  
-expect lot of enthusiasm and activities in 2009  <http://lurl.no/c2>
+javatotto: New board of IASA Norway elected yesterday - looks like we can expect lot of enthusiasm and activities in 2009 <http://lurl.no/c2javatotto:> New board of IASA Norway elected yesterday - looks like we can  
+expect lot of enthusiasm and activities in 2009 <http://lurl.no/c2>
 
 2009-02-24 10:04:20  
 javatotto: @dagb at least SIMPLER than defaulting to duplication :)javatotto: @dagb at least SIMPLER than defaulting to duplication
@@ -2258,12 +2258,12 @@ javatotto: IT Architects: hiding complexity != fighting complexity. Yes, I´m ta
 I´m talking to you SOA, ESB, MDM.... solves it all architects
 
 2009-02-24 05:20:54  
-javatotto: New term in Cloud Computing: meet the meta cloud - the cloud of clouds  <http://tinyurl.com/c4scy3javatotto:> New term in Cloud Computing: meet the meta cloud - the cloud of  
-clouds  <http://tinyurl.com/c4scy3>
+javatotto: New term in Cloud Computing: meet the meta cloud - the cloud of clouds <http://tinyurl.com/c4scy3javatotto:> New term in Cloud Computing: meet the meta cloud - the cloud of  
+clouds <http://tinyurl.com/c4scy3>
 
 2009-02-24 04:24:53  
-javatotto: Up early today (before 5 am) too much to do.. But it actually feels great today  IASA Norway board election and #javapils tonight too..javatotto: Up early today (before 5 am) too much to do.. But it actually  
-feels great today  IASA Norway board election and #javapils tonight  
+javatotto: Up early today (before 5 am) too much to do.. But it actually feels great today IASA Norway board election and #javapils tonight too..javatotto: Up early today (before 5 am) too much to do.. But it actually  
+feels great today IASA Norway board election and #javapils tonight  
 too..
 
 2009-02-23 18:46:06  
@@ -2271,8 +2271,8 @@ javatotto: Begun some cleaning up of the #GeekCruise notes... this will take som
 take some time..
 
 2009-02-23 08:44:59  
-javatotto: Arrival back in Oslo - everyone stil alive. Next @GeekCruise in May 2009  Special thanks to all online and aboard! :)javatotto: Arrival back in Oslo - everyone stil alive. Next @GeekCruise in  
-May 2009  Special thanks to all online and aboard!
+javatotto: Arrival back in Oslo - everyone stil alive. Next @GeekCruise in May 2009 Special thanks to all online and aboard! :)javatotto: Arrival back in Oslo - everyone stil alive. Next @GeekCruise in  
+May 2009 Special thanks to all online and aboard!
 
 2009-02-23 08:08:17  
 javatotto: Very, very nice 5 dish dinner last night @GeekCruise. good German Pinot Noir too :)javatotto: Very, very nice 5 dish dinner last night @GeekCruise. good  
@@ -2328,11 +2328,11 @@ javatotto: Management and monitoring the cloud - the game changes.. <http://tiny
 javatotto: Finally a nice way to use Eclipse... <http://tinyurl.com/d8am2ljavatotto:> Finally a nice way to use Eclipse... <http://tinyurl.com/d8am2l>
 
 2009-02-20 18:38:25  
-javatotto: #wine 2005 Langhe Nebbiolo (Rio Sordo) - bad, corked  I´m very disappointed tonight \*sigh\*javatotto: #wine 2005 Langhe Nebbiolo (Rio Sordo) - bad, corked  I´m  
+javatotto: #wine 2005 Langhe Nebbiolo (Rio Sordo) - bad, corked I´m very disappointed tonight \*sigh\*javatotto: #wine 2005 Langhe Nebbiolo (Rio Sordo) - bad, corked I´m  
 very disappointed tonight **sigh**
 
 2009-02-20 14:37:10  
-javatotto: Soon TGIF and a I feel a new #wine entry coming out tonight  And probably a few #GeekCruise entries over the weekend :)javatotto: Soon TGIF and a I feel a new #wine entry coming out tonight    
+javatotto: Soon TGIF and a I feel a new #wine entry coming out tonight And probably a few #GeekCruise entries over the weekend :)javatotto: Soon TGIF and a I feel a new #wine entry coming out tonight   
 And probably a few #GeekCruise entries over the weekend
 
 2009-02-20 13:50:00  
@@ -2348,8 +2348,8 @@ javatotto: @nerdegutt Germans pick up the anti #ie6 news <http://tinyurl.com/d8n
 <http://tinyurl.com/d8nz77>
 
 2009-02-20 08:21:31  
-javatotto: Getting in the correct mood for the first Geek Cruise of 2009  [http://cantara.no](http://cantara.no/) have to fix some infrastructure tonight thoughjavatotto: Getting in the correct mood for the first Geek Cruise of 2009   
- [http://cantara.no](http://cantara.no/) have to fix some infrastructure tonight though
+javatotto: Getting in the correct mood for the first Geek Cruise of 2009 [http://cantara.no](http://cantara.no/) have to fix some infrastructure tonight thoughjavatotto: Getting in the correct mood for the first Geek Cruise of 2009   
+[http://cantara.no](http://cantara.no/) have to fix some infrastructure tonight though
 
 2009-02-19 19:05:08  
 javatotto: One of these days when I shuffle too many ideas in my head and end up not getting anything done.. \*sigh\*javatotto: One of these days when I shuffle too many ideas in my head and  
@@ -2376,8 +2376,8 @@ javatotto: Retweeting @dalmaer: Ben has written up details on why we did Canvas 
 Canvas for @bespin <http://ow.ly/jWt> - Interesting stuff
 
 2009-02-16 17:40:28  
-javatotto: Cantara Geek Cruise intro-video beta for your comments and feedback  <http://lurl.no/bzjavatotto:> Cantara Geek Cruise intro-video beta for your comments and  
-feedback  <http://lurl.no/bz>
+javatotto: Cantara Geek Cruise intro-video beta for your comments and feedback <http://lurl.no/bzjavatotto:> Cantara Geek Cruise intro-video beta for your comments and  
+feedback <http://lurl.no/bz>
 
 2009-02-15 17:27:10  
 javatotto: Setting up a new Open Solaris Zone and website with community software for the new company Cantara. Will open the site this week :)javatotto: Setting up a new Open Solaris Zone and website with community  
@@ -2392,7 +2392,7 @@ javatotto: Winner of my (really more "our") company name contest is Dyveke with 
 with "Cantara"
 
 2009-02-14 17:24:23  
-javatotto: Neat java utility library  (At least a little more robust than most attempts I´ve seen in the wild..) <https://akuma.dev.java.net/javatotto:> Neat java utility library  (At least a little more robust  
+javatotto: Neat java utility library (At least a little more robust than most attempts I´ve seen in the wild..) <https://akuma.dev.java.net/javatotto:> Neat java utility library (At least a little more robust  
 than most attempts I´ve seen in the wild..) <https://akuma.dev.java.net/>
 
 2009-02-13 23:12:56  
@@ -2404,8 +2404,8 @@ javatotto: **sigh** We must evolve the infrastructure. It's not a rule, it's wor
 it's worse. It's essentially a law of nature <http://tinyurl.com/af7en7>
 
 2009-02-13 13:49:30  
-javatotto: weekend wine tips: Gudarra - Aglianico del Vulture, Basilica 2005  Charasteristic terroir and distinct regional flavour :)javatotto: weekend wine tips: Gudarra - Aglianico del Vulture, Basilica  
-2005  Charasteristic terroir and distinct regional flavour
+javatotto: weekend wine tips: Gudarra - Aglianico del Vulture, Basilica 2005 Charasteristic terroir and distinct regional flavour :)javatotto: weekend wine tips: Gudarra - Aglianico del Vulture, Basilica  
+2005 Charasteristic terroir and distinct regional flavour
 
 2009-02-13 12:26:54  
 javatotto: @aslak\_hellesoy What about Cross Country or Ski-jump skies - thats the Agile chioce :)javatotto: @aslak\_hellesoy What about Cross Country or Ski-jump skies -  
@@ -2425,8 +2425,8 @@ javatotto: @oysteinjakobsen the checklist gives a clear direction IMHO on how th
 how the responsibillities within the architecture is organized
 
 2009-02-12 13:45:09  
-javatotto: Got my first "This track is currently not available in Norway" from @spotify.com  Silly since the same track is available on other albumsjavatotto: Got my first "This track is currently not available in Norway"  
-from @spotify.com  Silly since the same track is available on other  
+javatotto: Got my first "This track is currently not available in Norway" from @spotify.com Silly since the same track is available on other albumsjavatotto: Got my first "This track is currently not available in Norway"  
+from @spotify.com Silly since the same track is available on other  
 albums
 
 2009-02-12 13:09:20  
@@ -2438,8 +2438,8 @@ javatotto: Anyone who have read "beautiful architecture"? From what I see, I´m 
 I´m skeptical.... <http://www.spinellis.gr/blog/20090204/>
 
 2009-02-12 05:05:57  
-javatotto: More fun DIY twitter hardware - I´d love to have one or two of these  <http://tinyurl.com/bd89sfjavatotto:> More fun DIY twitter hardware - I´d love to have one or two of  
-these  <http://tinyurl.com/bd89sf>
+javatotto: More fun DIY twitter hardware - I´d love to have one or two of these <http://tinyurl.com/bd89sfjavatotto:> More fun DIY twitter hardware - I´d love to have one or two of  
+these <http://tinyurl.com/bd89sf>
 
 2009-02-11 11:28:30  
 javatotto: post-agile track on #software2009 is better than expected :)javatotto: post-agile track on #software2009 is better than expected
@@ -2452,16 +2452,16 @@ any
 javatotto: #JavaPils tonight - should be lots of fun :)javatotto: #JavaPils tonight - should be lots of fun
 
 2009-02-09 14:03:13  
-javatotto: Hmm.. my twitter client really acts upon me today..  Maybe time to look for a twhirl alternative?javatotto: Hmm.. my twitter client really acts upon me today..  Maybe  
+javatotto: Hmm.. my twitter client really acts upon me today.. Maybe time to look for a twhirl alternative?javatotto: Hmm.. my twitter client really acts upon me today.. Maybe  
 time to look for a twhirl alternative?
 
 2009-02-09 13:22:24  
-javatotto: Typing up a lightning talk for the #software2009 development processes of the future track... Agile 2.0-style  <http://lurl.no/b3javatotto:> Typing up a lightning talk for the #software2009 development  
-processes of the future track... Agile 2.0-style  <http://lurl.no/b3>
+javatotto: Typing up a lightning talk for the #software2009 development processes of the future track... Agile 2.0-style <http://lurl.no/b3javatotto:> Typing up a lightning talk for the #software2009 development  
+processes of the future track... Agile 2.0-style <http://lurl.no/b3>
 
 2009-02-09 12:36:05  
-javatotto: Typing up a lightning talk for the development processes of the future track... Agile 2.0-style  <http://lurl.no/b3javatotto:> Typing up a lightning talk for the development processes of the  
-future track... Agile 2.0-style  <http://lurl.no/b3>
+javatotto: Typing up a lightning talk for the development processes of the future track... Agile 2.0-style <http://lurl.no/b3javatotto:> Typing up a lightning talk for the development processes of the  
+future track... Agile 2.0-style <http://lurl.no/b3>
 
 2009-02-09 07:49:23  
 javatotto: @meriksen Gjelder å dra tidlig på jobb :)javatotto: @meriksen Gjelder å dra tidlig på jobb
@@ -2504,7 +2504,7 @@ javatotto: Completed abstract on the topic Green IT from a software development 
 development point of view for the Norwegian CIOForum. Can be interesting.
 
 2009-02-04 17:20:02  
-javatotto: Fantastic tool for non-Chefs... a real must-have for all  <http://tinyurl.com/as3rn9javatotto:> Fantastic tool for non-Chefs... a real must-have for all 
+javatotto: Fantastic tool for non-Chefs... a real must-have for all <http://tinyurl.com/as3rn9javatotto:> Fantastic tool for non-Chefs... a real must-have for all
 <http://tinyurl.com/as3rn9>
 
 2009-02-04 09:50:02  
@@ -2538,7 +2538,7 @@ javatotto: Delivered my resignation today - still feels right - now time to star
 start thinking of new jobs
 
 2009-02-01 22:11:19  
-javatotto: oops  to drunk to twitter, I guess :)javatotto: oops  to drunk to twitter, I guess
+javatotto: oops to drunk to twitter, I guess :)javatotto: oops to drunk to twitter, I guess
 
 2009-02-01 16:27:23  
 javatotto: RT @timoreilly: .Brilliant post by @fredwilson. Every entrepreneur should read it: <http://twurl.nl/tp4vmu> Especially important todayjavatotto: RT @timoreilly: .Brilliant post by @fredwilson. Every  
@@ -2593,7 +2593,7 @@ javatotto: @proteuz hmm.. good question.. I think I picked up a applescript thin
 thingy at <http://lurl.no/b4>
 
 2009-01-27 12:07:20  
-javatotto: @akafred #agility with product scope is not mainstream  but its the smart thing like in Agile 2.0 <http://lurl.no/b3javatotto:> @akafred #agility with product scope is not mainstream  but  
+javatotto: @akafred #agility with product scope is not mainstream but its the smart thing like in Agile 2.0 <http://lurl.no/b3javatotto:> @akafred #agility with product scope is not mainstream but  
 its the smart thing like in Agile 2.0 <http://lurl.no/b3>
 
 2009-01-27 11:57:10  
@@ -2612,7 +2612,7 @@ javatotto: @anoras a turkish fonetic search engine seems like a perfect F# weeke
 weekend project fot you
 
 2009-01-26 10:48:03  
-javatotto: Fun example of live-stats  <http://live.feedjit.com/live/blog.mrtweet.net/javatotto:> Fun example of live-stats 
+javatotto: Fun example of live-stats <http://live.feedjit.com/live/blog.mrtweet.net/javatotto:> Fun example of live-stats
 <http://live.feedjit.com/live/blog.mrtweet.net/>
 
 2009-01-26 08:51:05  
@@ -2641,7 +2641,7 @@ javatotto: Wonder if Coccinella is worth a try for IM/on-line whiteboards... <ht
 whiteboards... <http://coccinella.im/>
 
 2009-01-21 14:03:38  
-javatotto: This is way cool!! Coins with micro-GPS  <http://tinyurl.com/7w6ugtjavatotto:> This is way cool!! Coins with micro-GPS 
+javatotto: This is way cool!! Coins with micro-GPS <http://tinyurl.com/7w6ugtjavatotto:> This is way cool!! Coins with micro-GPS
 <http://tinyurl.com/7w6ugt>
 
 2009-01-21 12:15:16  
@@ -2679,30 +2679,30 @@ javatotto: If you think knowledge is expensive - have you tried the opposite? Us
 opposite? Useful reflection these days...
 
 2009-01-13 11:53:21  
-javatotto: @jantzen been running ubuntu 8.1 on one of my T61P  works fine as far as I have tested it this far...javatotto: @jantzen been running ubuntu 8.1 on one of my T61P  works  
+javatotto: @jantzen been running ubuntu 8.1 on one of my T61P works fine as far as I have tested it this far...javatotto: @jantzen been running ubuntu 8.1 on one of my T61P works  
 fine as far as I have tested it this far...
 
 2009-01-13 08:08:36  
-javatotto: #javaPils tonight  First #javaPils of 2009  See you there tonight :)javatotto: #javaPils tonight  First #javaPils of 2009  See you there  
+javatotto: #javaPils tonight First #javaPils of 2009 See you there tonight :)javatotto: #javaPils tonight First #javaPils of 2009 See you there  
 tonight
 
 2009-01-13 07:55:49  
-javatotto: The fun of the idea of putting your computer in your back pocket... wearable computing @work?  <http://tinyurl.com/7dywrojavatotto:> The fun of the idea of putting your computer in your back  
-pocket... wearable computing @work?  <http://tinyurl.com/7dywro>
+javatotto: The fun of the idea of putting your computer in your back pocket... wearable computing @work? <http://tinyurl.com/7dywrojavatotto:> The fun of the idea of putting your computer in your back  
+pocket... wearable computing @work? <http://tinyurl.com/7dywro>
 
 2009-01-10 03:08:31  
-javatotto: Dell Adamo looks really good  The first good-looking Dell laptop ever.. I´m tempted.. <http://tinyurl.com/8p9ys9javatotto:> Dell Adamo looks really good  The first good-looking Dell  
+javatotto: Dell Adamo looks really good The first good-looking Dell laptop ever.. I´m tempted.. <http://tinyurl.com/8p9ys9javatotto:> Dell Adamo looks really good The first good-looking Dell  
 laptop ever.. I´m tempted.. <http://tinyurl.com/8p9ys9>
 
 2009-01-09 16:31:21  
 javatotto: @madsnissen <http://tinyurl.com/8cznd6javatotto:> @madsnissen <http://tinyurl.com/8cznd6>
 
 2009-01-09 15:36:02  
-javatotto: #wine Massetto 2005 secured  <http://tinyurl.com/7jv9b3javatotto:> #wine Massetto 2005 secured  <http://tinyurl.com/7jv9b3>
+javatotto: #wine Massetto 2005 secured <http://tinyurl.com/7jv9b3javatotto:> #wine Massetto 2005 secured <http://tinyurl.com/7jv9b3>
 
 2009-01-09 12:11:16  
-javatotto: Nice gadget for all us travelling, presenting and working 2around"  <http://tinyurl.com/9jupbzjavatotto:> Nice gadget for all us travelling, presenting and working  
-2around"  <http://tinyurl.com/9jupbz>
+javatotto: Nice gadget for all us travelling, presenting and working 2around" <http://tinyurl.com/9jupbzjavatotto:> Nice gadget for all us travelling, presenting and working  
+2around" <http://tinyurl.com/9jupbz>
 
 2009-01-09 10:48:09  
 javatotto: Looking for a good suggetion for a nice #wine for the weekend :)javatotto: Looking for a good suggetion for a nice #wine for the weekend
@@ -2791,7 +2791,7 @@ javatotto: wow, thank you @cybersanta - I guess today is the day when dreams com
 dreams come true
 
 2008-12-18 07:09:26  
-javatotto: Now we´re talking... I want a pair of these in my laptop  <http://tinyurl.com/4vx88cjavatotto:> Now we´re talking... I want a pair of these in my laptop 
+javatotto: Now we´re talking... I want a pair of these in my laptop <http://tinyurl.com/4vx88cjavatotto:> Now we´re talking... I want a pair of these in my laptop
 <http://tinyurl.com/4vx88c>
 
 2008-12-17 17:02:15  
@@ -2815,7 +2815,7 @@ javatotto: Interesting perspective on the Java eco-system from Bruce Eckel - <ht
 - <http://tinyurl.com/6ragqa>
 
 2008-12-16 11:52:27  
-javatotto: #javapils - last of 2008 tonight  (og ifølge ryktene så kommer Nissen...)javatotto: #javapils - last of 2008 tonight  (og ifølge ryktene så  
+javatotto: #javapils - last of 2008 tonight (og ifølge ryktene så kommer Nissen...)javatotto: #javapils - last of 2008 tonight (og ifølge ryktene så  
 kommer Nissen...)
 
 2008-12-15 18:32:25  
@@ -2876,15 +2876,15 @@ javatotto: Hmmm.... No signal from my Cable Provider (Canal Digital) good to hav
 to have 3G available
 
 2008-12-10 07:47:47  
-javatotto: Cooking up some interesting new community oriented business ideas today  In hard times, make sure you do something important :)javatotto: Cooking up some interesting new community oriented business  
-ideas today  In hard times, make sure you do something important
+javatotto: Cooking up some interesting new community oriented business ideas today In hard times, make sure you do something important :)javatotto: Cooking up some interesting new community oriented business  
+ideas today In hard times, make sure you do something important
 
 2008-12-09 20:46:31  
 javatotto: @ooVooSupport thanks :)javatotto: @ooVooSupport thanks
 
 2008-12-09 20:01:17  
-javatotto: Five people on #ooVoo conf´s works fine as long as people dont talk  Guess they could learn a from Tandberg regading feedback cancellingjavatotto: Five people on #ooVoo conf´s works fine as long as people dont  
-talk  Guess they could learn a from Tandberg regading feedback  
+javatotto: Five people on #ooVoo conf´s works fine as long as people dont talk Guess they could learn a from Tandberg regading feedback cancellingjavatotto: Five people on #ooVoo conf´s works fine as long as people dont  
+talk Guess they could learn a from Tandberg regading feedback  
 cancelling
 
 2008-12-09 19:35:27  
@@ -2911,8 +2911,8 @@ javatotto: Impressive example of evolutionary algorithms <http://tinyurl.com/5rm
 javatotto: @gisleh Gratulerer!Unable to render embedded object: File ( @gisleh Gratulerer) not found.!
 
 2008-12-08 07:49:09  
-javatotto: This week will be the "fight against unneccesary technical complexity in software design" week, I guess.  Productivity 3x goal!javatotto: This week will be the "fight against unneccesary technical  
-complexity in software design" week, I guess.  Productivity 3x goal!
+javatotto: This week will be the "fight against unneccesary technical complexity in software design" week, I guess. Productivity 3x goal!javatotto: This week will be the "fight against unneccesary technical  
+complexity in software design" week, I guess. Productivity 3x goal!
 
 2008-12-08 07:29:35  
 javatotto: @jhuber Christmas cookies?javatotto: @jhuber Christmas cookies?
@@ -2932,7 +2932,7 @@ javatotto: Pooh... took over 90 minutes to get a victory tonight.. Go Man United
 United!! #soccer
 
 2008-12-05 12:39:23  
-javatotto: I reeally like the new OpenSolaris 2008.11 release  Clean and inspiring desktop(believe it or not) , ZFS shapshot based TimeMachine clone.javatotto: I reeally like the new OpenSolaris 2008.11 release  Clean and  
+javatotto: I reeally like the new OpenSolaris 2008.11 release Clean and inspiring desktop(believe it or not) , ZFS shapshot based TimeMachine clone.javatotto: I reeally like the new OpenSolaris 2008.11 release Clean and  
 inspiring desktop(believe it or not) , ZFS shapshot based TimeMachine  
 clone.
 
@@ -3023,7 +3023,7 @@ infrastructure is way higher) - but I hate penny bills popping up at odd
 intervals
 
 2008-11-26 08:48:20  
-javatotto: @anoras Worth giving flicks Pro it a try, it seems  - but I hate subscription services...javatotto: @anoras Worth giving flicks Pro it a try, it seems  - but I  
+javatotto: @anoras Worth giving flicks Pro it a try, it seems - but I hate subscription services...javatotto: @anoras Worth giving flicks Pro it a try, it seems - but I  
 hate subscription services...
 
 2008-11-26 07:56:48  
@@ -3046,8 +3046,8 @@ javatotto: Community Wiki celebration with Cake tomorrow 17:00 at Objectware for
 Objectware for all contributers and sponsors
 
 2008-11-24 09:56:38  
-javatotto: 50.000 pageviews on the Open Community wiki - way cool!! Kudos to all contributers - keep up the great work  <http://lurl.no/7yjavatotto:> 50.000 pageviews on the Open Community wiki - way cool!! Kudos  
-to all contributers - keep up the great work  <http://lurl.no/7y>
+javatotto: 50.000 pageviews on the Open Community wiki - way cool!! Kudos to all contributers - keep up the great work <http://lurl.no/7yjavatotto:> 50.000 pageviews on the Open Community wiki - way cool!! Kudos  
+to all contributers - keep up the great work <http://lurl.no/7y>
 
 2008-11-22 05:42:21  
 javatotto: @emileifrem and if you got time tomorrow, do a wine tasting stop at The Darn Best Wine Tasting in the Valley - just north of Sonoma :)javatotto: @emileifrem and if you got time tomorrow, do a wine tasting stop  
@@ -3090,12 +3090,12 @@ javatotto: Call for Paper for Community One 2009 is out: <http://developers.sun.
 should submit?
 
 2008-11-20 19:39:30  
-javatotto: @stig\_lau congrts  and Little Big Planet will be a hit among the rest of the family :)javatotto: @stig\_lau congrts  and Little Big Planet will be a hit  
+javatotto: @stig\_lau congrts and Little Big Planet will be a hit among the rest of the family :)javatotto: @stig\_lau congrts and Little Big Planet will be a hit  
 among the rest of the family
 
 2008-11-20 07:35:14  
-javatotto: playing around with zfs - setting up an zfs z-raid over some of my old USB drives..  recycling in old hardware in practice :)javatotto: playing around with zfs - setting up an zfs z-raid over some of  
-my old USB drives..  recycling in old hardware in practice
+javatotto: playing around with zfs - setting up an zfs z-raid over some of my old USB drives.. recycling in old hardware in practice :)javatotto: playing around with zfs - setting up an zfs z-raid over some of  
+my old USB drives.. recycling in old hardware in practice
 
 2008-11-18 16:57:48  
 javatotto: @tfnico strategy a) with only one product does not make any sense to me... and we can go on for all long time listing pre-requisites..javatotto: @tfnico strategy a) with only one product does not make any  
@@ -3144,11 +3144,11 @@ javatotto: Playing Little Big Planet with my oldest daughter - quite a nice fami
 family moment
 
 2008-11-14 15:29:59  
-javatotto: Xmas beer and fenalår in da house..... just 26.5 hours to #juleøltest  The long wait... :)javatotto: Xmas beer and fenalår in da house..... just 26.5 hours to  
-#juleøltest  The long wait...
+javatotto: Xmas beer and fenalår in da house..... just 26.5 hours to #juleøltest The long wait... :)javatotto: Xmas beer and fenalår in da house..... just 26.5 hours to  
+#juleøltest The long wait...
 
 2008-11-14 11:03:36  
-javatotto: Retweet @TechCrunch The devil walks among us?  <http://tinyurl.com/6o68hmjavatotto:> Retweet @TechCrunch The devil walks among us? 
+javatotto: Retweet @TechCrunch The devil walks among us? <http://tinyurl.com/6o68hmjavatotto:> Retweet @TechCrunch The devil walks among us?
 <http://tinyurl.com/6o68hm>
 
 2008-11-14 10:25:24  
@@ -3206,7 +3206,7 @@ javatotto: @anorass The same guys which implemented state using singletons in st
 in stateless session beans, I guess...
 
 2008-11-10 21:08:09  
-javatotto: Cute Sharepoint fun-vieo  <http://tinyurl.com/5jzxnzjavatotto:> Cute Sharepoint fun-vieo  <http://tinyurl.com/5jzxnz>
+javatotto: Cute Sharepoint fun-vieo <http://tinyurl.com/5jzxnzjavatotto:> Cute Sharepoint fun-vieo <http://tinyurl.com/5jzxnz>
 
 2008-11-10 12:47:42  
 javatotto: Added a #javapils linkedin group: <http://tinyurl.com/55qzn6> (JavaPils, the pinnacle of software development innovation)javatotto: Added a #javapils linkedin group: <http://tinyurl.com/55qzn6>   
@@ -3231,7 +3231,7 @@ at 19:00. RSVP
 javatotto: 2000 Piandelle Vigne - Brunello de Montalchino - Antorinijavatotto: 2000 Piandelle Vigne - Brunello de Montalchino - Antorini
 
 2008-11-06 20:16:29  
-javatotto: This could be a realy good thing  <http://news.slashdot.org/news/08/11/06/1323256.shtmljavatotto:> This could be a realy good thing 
+javatotto: This could be a realy good thing <http://news.slashdot.org/news/08/11/06/1323256.shtmljavatotto:> This could be a realy good thing
 <http://news.slashdot.org/news/08/11/06/1323256.shtml>
 
 2008-11-06 13:13:57  
@@ -3242,8 +3242,8 @@ javatotto: Any C# hackers lwith SQL skills ooking for an "exciting" job.... <htt
 javatotto: Craziest keyboard ever? <http://tinyurl.com/58skmgjavatotto:> Craziest keyboard ever? <http://tinyurl.com/58skmg>
 
 2008-11-06 08:10:13  
-javatotto: Helping out people starting new companies is always fun and rewarding  Som good rubberducking last night :)javatotto: Helping out people starting new companies is always fun and  
-rewarding  Som good rubberducking last night
+javatotto: Helping out people starting new companies is always fun and rewarding Som good rubberducking last night :)javatotto: Helping out people starting new companies is always fun and  
+rewarding Som good rubberducking last night
 
 2008-11-05 12:46:13  
 javatotto: Typing up some scalability axioms on the open knowledge community wiki: <http://tinyurl.com/5hyhm5javatotto:> Typing up some scalability axioms on the open knowledge  
@@ -3296,7 +3296,7 @@ javatotto: @jhannes I guess the navigation reflects too much how **my** brain wo
 works
 
 2008-11-01 15:03:59  
-javatotto: @jhannes all ideas and suggestions are welcome  please comment directly on the wiki :)javatotto: @jhannes all ideas and suggestions are welcome  please  
+javatotto: @jhannes all ideas and suggestions are welcome please comment directly on the wiki :)javatotto: @jhannes all ideas and suggestions are welcome please  
 comment directly on the wiki
 
 2008-11-01 14:30:16  
@@ -3365,7 +3365,7 @@ best Wine and Port supply chains?
 javatotto: @anoras beat you :)javatotto: @anoras beat you
 
 2008-10-30 08:39:57  
-javatotto: This was a cool idea  <http://tinyurl.com/6f7jjrjavatotto:> This was a cool idea  <http://tinyurl.com/6f7jjr>
+javatotto: This was a cool idea <http://tinyurl.com/6f7jjrjavatotto:> This was a cool idea <http://tinyurl.com/6f7jjr>
 
 2008-10-29 17:27:23  
 javatotto: Very cool service with very interesting results, try the ATaCAAS URL in <http://www.topicalizer.com/getSimilarDocuments/javatotto:> Very cool service with very interesting results, try the ATaCAAS  
@@ -3380,8 +3380,8 @@ javatotto: When will ISP´s ever get controll over their own internal routing...
 routing.... It ain´t that hard, really...
 
 2008-10-28 00:08:36  
-javatotto: Playing around with the programming language of the Week: Fan. I like it this far  . <http://fandev.org/javatotto:> Playing around with the programming language of the Week: Fan. I  
-like it this far  . <http://fandev.org/>
+javatotto: Playing around with the programming language of the Week: Fan. I like it this far . <http://fandev.org/javatotto:> Playing around with the programming language of the Week: Fan. I  
+like it this far . <http://fandev.org/>
 
 2008-10-26 16:23:55  
 javatotto: Cool new Software Architect cartoon: <http://contikistrip.kjempekjekt.com/?p=8javatotto:> Cool new Software Architect cartoon:
@@ -3410,7 +3410,7 @@ javatotto: @olemartin a startup that doesn´t work weekends? contradiction in te
 in terms?
 
 2008-10-24 13:10:16  
-javatotto: TweetCloud is interesting  Heres mine: <http://tinyurl.com/6o36cqjavatotto:> TweetCloud is interesting  Heres mine:
+javatotto: TweetCloud is interesting Heres mine: <http://tinyurl.com/6o36cqjavatotto:> TweetCloud is interesting Heres mine:
 <http://tinyurl.com/6o36cq>
 
 2008-10-24 11:32:20  
@@ -3421,7 +3421,7 @@ an invoice for 10.000 NOK
 javatotto: @anoras And you are surprised by that fact?javatotto: @anoras And you are surprised by that fact?
 
 2008-10-23 13:09:54  
-javatotto: I want this for XMAS  <http://tinyurl.com/592y4ojavatotto:> I want this for XMAS  <http://tinyurl.com/592y4o>
+javatotto: I want this for XMAS <http://tinyurl.com/592y4ojavatotto:> I want this for XMAS <http://tinyurl.com/592y4o>
 
 2008-10-23 12:36:18  
 javatotto: @jhannes thanks... #reuse - I think we probably should: \* indicate counter-measurement strategies and selection criterias next :)javatotto: @jhannes thanks... #reuse - I think we probably should: \*  
@@ -3448,8 +3448,8 @@ javatotto: Planning strategy for tonights powerdown of my server roomjavatotto: 
 javatotto: Hmm.. Not sure I like the fring mobile twitter client....javatotto: Hmm.. Not sure I like the fring mobile twitter client....
 
 2008-10-22 08:17:55  
-javatotto: @comay its a user error.. (me) so I rather not post me as a bug on defect.openssolaris.com  I´ll install 2008.11 b99 tonight :)javatotto: @comay its a user error.. (me) so I rather not post me as a  
-bug on defect.openssolaris.com  I´ll install 2008.11 b99 tonight
+javatotto: @comay its a user error.. (me) so I rather not post me as a bug on defect.openssolaris.com I´ll install 2008.11 b99 tonight :)javatotto: @comay its a user error.. (me) so I rather not post me as a  
+bug on defect.openssolaris.com I´ll install 2008.11 b99 tonight
 
 2008-10-22 08:11:16  
 javatotto: Received Mastering the Hype-Cycle book, will be fun to read :)javatotto: Received Mastering the Hype-Cycle book, will be fun to read
@@ -3467,7 +3467,7 @@ enhances agile manifesto
 <http://wiki.community.objectware.no/display/smidigtonull/>
 
 2008-10-21 10:13:54  
-javatotto: @jhannes hehe  We need to counter-act the increase of failing agile projects to be able to continue to work agilejavatotto: @jhannes hehe  We need to counter-act the increase of failing  
+javatotto: @jhannes hehe We need to counter-act the increase of failing agile projects to be able to continue to work agilejavatotto: @jhannes hehe We need to counter-act the increase of failing  
 agile projects to be able to continue to work agile
 
 2008-10-21 10:04:46  
@@ -3544,7 +3544,7 @@ javatotto: High-tech dining <http://tinyurl.com/4z4ulojavatotto:> High-tech dini
 javatotto: @olecr Are not all XML gig and evil? :Pjavatotto: @olecr Are not all XML gig and evil?
 
 2008-10-08 10:29:39  
-javatotto: Geek fun  <http://geekandpoke.typepad.com/geekandpoke/images/2008/04/09/win4x2.jpgjavatotto:> Geek fun 
+javatotto: Geek fun <http://geekandpoke.typepad.com/geekandpoke/images/2008/04/09/win4x2.jpgjavatotto:> Geek fun
 <http://geekandpoke.typepad.com/geekandpoke/images/2008/04/09/win4x2.jpg>
 
 2008-10-07 10:53:47  
@@ -3559,7 +3559,7 @@ javatotto: Enterprise Pojos #geekcruise in Pictures <http://tinyurl.com/4jd3d5ja
 javatotto: @jhannes Rejecting horrible abstracts is fun :)javatotto: @jhannes Rejecting horrible abstracts is fun
 
 2008-10-05 13:14:58  
-javatotto: Watching Blanchas NewSpeek 101 for Java programmers talk  Some interesting points, but I feel the lock-in from the Smalltalk platform :/javatotto: Watching Blanchas NewSpeek 101 for Java programmers talk    
+javatotto: Watching Blanchas NewSpeek 101 for Java programmers talk Some interesting points, but I feel the lock-in from the Smalltalk platform :/javatotto: Watching Blanchas NewSpeek 101 for Java programmers talk   
 Some interesting points, but I feel the lock-in from the Smalltalk platform  
 :/
 
@@ -3607,8 +3607,8 @@ reference, which we can´t share - but we should anonymize some of the
 content
 
 2008-09-27 06:34:38  
-javatotto: @jhannes The balance in the discussion og point 4 and 5 is much better now  Needs more varied references stilljavatotto: @jhannes The balance in the discussion og point 4 and 5 is much  
-better now  Needs more varied references still
+javatotto: @jhannes The balance in the discussion og point 4 and 5 is much better now Needs more varied references stilljavatotto: @jhannes The balance in the discussion og point 4 and 5 is much  
+better now Needs more varied references still
 
 2008-09-27 05:10:15  
 javatotto: @jhannes There has been "published" more on OWSOA than whats on the wiki, what are you missingjavatotto: @jhannes There has been "published" more on OWSOA than whats on  
@@ -3619,7 +3619,7 @@ javatotto: preview for you guys (eport problems please) <http://onp.java.no/vide
 <http://onp.java.no/video/jz08/>
 
 2008-09-26 14:20:26  
-javatotto: @jhannes yes  but that is not my up to me :)javatotto: @jhannes yes  but that is not my up to me
+javatotto: @jhannes yes but that is not my up to me :)javatotto: @jhannes yes but that is not my up to me
 
 2008-09-26 12:10:29  
 javatotto: Watching JavaZone 2008 videos - they have turned out quite nice :Pjavatotto: Watching JavaZone 2008 videos - they have turned out quite nice
@@ -3640,7 +3640,7 @@ javatotto: @jhannes I can agree on point 1,2,3 and 6. Point 4 and 5 is not balan
 balanced enough to be of interest here. Point 2 is key!
 
 2008-09-25 09:21:21  
-javatotto: @tfinco Someone has to clean up your mess  And static kaos is not good urls anyway...javatotto: @tfinco Someone has to clean up your mess  And static kaos is  
+javatotto: @tfinco Someone has to clean up your mess And static kaos is not good urls anyway...javatotto: @tfinco Someone has to clean up your mess And static kaos is  
 not good urls anyway...
 
 2008-09-25 06:34:13  
@@ -3672,7 +3672,7 @@ javatotto: Steve´s response to GPhone: <http://www.joyoftech.com/joyoftech/joyi
 javatotto: @olemartin twhirl is cute - and for Series 60e3?javatotto: @olemartin twhirl is cute - and for Series 60e3?
 
 2008-09-23 22:05:14  
-javatotto: @emileifrem javaBin (almost) brew our own beer  (We do branding, and possibly brewing for next JavaZone...)javatotto: @emileifrem javaBin (almost) brew our own beer  (We do  
+javatotto: @emileifrem javaBin (almost) brew our own beer (We do branding, and possibly brewing for next JavaZone...)javatotto: @emileifrem javaBin (almost) brew our own beer (We do  
 branding, and possibly brewing for next JavaZone...)
 
 2008-09-23 21:24:59  
@@ -3683,8 +3683,8 @@ javatotto: @kaarenilsen did you know that @lokling is also playing with neo4J?ja
 neo4J?
 
 2008-09-23 20:49:08  
-javatotto: @kaarenilsen its somewhat taging along i.e. your Neo4J graphs are fine  pushing those graphs to Processing and see fancy art is the funjavatotto: @kaarenilsen its somewhat taging along i.e. your Neo4J graphs  
-are fine  pushing those graphs to Processing and see fancy art is the  
+javatotto: @kaarenilsen its somewhat taging along i.e. your Neo4J graphs are fine pushing those graphs to Processing and see fancy art is the funjavatotto: @kaarenilsen its somewhat taging along i.e. your Neo4J graphs  
+are fine pushing those graphs to Processing and see fancy art is the  
 fun
 
 2008-09-23 20:06:35  
@@ -3708,7 +3708,7 @@ javatotto: Code Quality <http://tinyurl.com/45n4ycjavatotto:> Code Quality <http
 javatotto: Home - sweet home :)javatotto: Home - sweet home
 
 2008-09-21 18:24:44  
-javatotto: Closing up the #GeekCruise for this time  dinner and party remainingjavatotto: Closing up the #GeekCruise for this time  dinner and party  
+javatotto: Closing up the #GeekCruise for this time dinner and party remainingjavatotto: Closing up the #GeekCruise for this time dinner and party  
 remaining
 
 2008-09-21 11:44:01  

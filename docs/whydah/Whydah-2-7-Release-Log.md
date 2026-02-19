@@ -11,8 +11,3 @@
 | 2.7.1 | May 2021 | Public Key encrypted signature in UserTokens (Typelib, SDK, STS) |  |
 
 ### Implemented new features
-
-Username pattern-matched SSO federation support  
- Multi-site federation SSO flows and administration   
- Removed dependency of LDAP Server in UIB   
- Public Key encrypted signature in UserTokens

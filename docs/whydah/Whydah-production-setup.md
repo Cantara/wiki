@@ -2,9 +2,7 @@
 
 ### A typical production installation of Whydah:
 
-|  |  |
-| --- | --- |
-| [Full Size](/web/20210613133903/https://wiki.cantara.no/plugins/gliffy/viewlargediagram.action?name=Whydah infrastructure&ceoid=37388694&key=whydah&pageId=37388694)  |  | |
+*[Diagram: Whydah infrastructure]*
 
 Using DNS & mod\_balance load-balancing
 

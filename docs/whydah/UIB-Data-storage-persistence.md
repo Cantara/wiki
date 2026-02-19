@@ -1,8 +1,6 @@
 # UIB Data storage - persistence
 
-|  |  |
-| --- | --- |
-| [Full Size](/web/20210624223508/https://wiki.cantara.no/plugins/gliffy/viewlargediagram.action?name=uib-persistence&ceoid=38437138&key=whydah&pageId=38437138)  |  | |
+*[Diagram: uib-persistence]*
 
 ### Storage options for UserIdentityBackend
 

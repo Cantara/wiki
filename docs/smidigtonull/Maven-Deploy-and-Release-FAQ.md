@@ -74,12 +74,7 @@ See official documentation; [Release guide](http://maven.apache.org/guides/mini/
    mvn release:prepare -DdryRun=true
    mvn release:clean
    ```
-5. Do the actual release (  Your [Subversion commandline client](#MavenDeployandReleaseFAQ-WhatdoIneedtodotogetmvnreleasetoworkonWindows%3F) version must be 1.6.5 or greater because of [this bug](http://subversion.tigris.org/issues/show_bug.cgi?id=3119).)
-
-   ```
-   mvn release:prepare
-   mvn release:perform
-   ```
+5. Do the actual release (
 
 #### What to do when a release fails?
 
@@ -199,7 +194,7 @@ File, scp and scpexe are common ways to distribute the site.
 
 - - Example url: <siteUrl>scp://m2sites.company.com/var/www/html/sites</siteUrl>
 
-**[scpexe](http://maven.apache.org/wagon/wagon-providers/wagon-ssh-external/)** : Use external implementation of SSH. This can be more troublesome to set up on Windows, but works in general better than scp (at least on Unix systems ).
+**[scpexe](http://maven.apache.org/wagon/wagon-providers/wagon-ssh-external/)** : Use external implementation of SSH. This can be more troublesome to set up on Windows, but works in general better than scp (at least on Unix systems
 
 See [Wagon Providers](http://maven.apache.org/wagon/wagon-providers/)  for other distribution providers.
 

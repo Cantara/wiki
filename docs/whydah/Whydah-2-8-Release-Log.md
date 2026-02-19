@@ -9,6 +9,3 @@
 | 2.8.0 | October 2021 | Completed the 2.7 function scope release |  |
 
 ### Implemented new features
-
-HA support for UIB   
- Support for self-administration of federated company support (Azure AD/Google)

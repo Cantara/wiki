@@ -21,7 +21,6 @@
 
 ### Key focus/features
 
-- Full support of federating various and several combined IAM/SSO providers
 - Whydah application to application sessions extended with application tags to support grouping/filtering of applications based upon application tags )
 - Whydah application to application sessions with adaptive end-to-end payload encryption)
 - OAUTH2 and OpenID Connect provider

@@ -36,8 +36,6 @@ Replies 19
 
 ### Around the world
 
-[Wednesday, May 27, 2009](/web/20100823233445/http://wiki.cantara.no/display/IASA/2009/05/27)
-
 [Teaser på noen emner for høsten](/web/20100823233445/http://wiki.cantara.no/pages/viewpage.action?pageId=2065078)
 
 Last changed Jun 17, 2009 15:39 by [Thor Henning Hetland](/web/20100823233445/http://wiki.cantara.no/display/~totto)
@@ -57,8 +55,6 @@ Styret jobber med å komme opp med forslag til emner for høstmøtene. Vi har en
 [1
 comment](/web/20100823233445/http://wiki.cantara.no/pages/viewpage.action?pageId=2065078&showComments=true#comments)
 
-[Thursday, May 21, 2009](/web/20100823233445/http://wiki.cantara.no/display/IASA/2009/05/21)
-
 [Microsofts Architecture Journal ønsker SOA artikler](/web/20100823233445/http://wiki.cantara.no/pages/viewpage.action?pageId=1573091)
 
 Last changed May 21, 2009 09:57 by [Mads Nissen](/web/20100823233445/http://wiki.cantara.no/display/~mads.nissen@puzzlepart.com)
@@ -74,8 +70,6 @@ Mer info [her](http://msdn.microsoft.com/en-us/architecture/bb219087.aspx)
 **Posted at May 21, 2009** by
 [Mads Nissen](/web/20100823233445/http://wiki.cantara.no/display/~mads.nissen@puzzlepart.com) |
 [0 comments](/web/20100823233445/http://wiki.cantara.no/pages/viewpage.action?pageId=1573091&showComments=true#comments)
-
-[Saturday, March 28, 2009](/web/20100823233445/http://wiki.cantara.no/display/IASA/2009/03/28)
 
 [Definér "Software Arkitekt" - følg debatten](/web/20100823233445/http://wiki.cantara.no/pages/viewpage.action?pageId=394378)
 
@@ -116,8 +110,6 @@ Les mer i [IASA gruppen på LinkedIn](http://www.linkedin.com/groupAnswers?viewQ
 [Mads Nissen](/web/20100823233445/http://wiki.cantara.no/display/~mads.nissen@puzzlepart.com) |
 [0 comments](/web/20100823233445/http://wiki.cantara.no/pages/viewpage.action?pageId=394378&showComments=true#comments)
 
-[Tuesday, March 10, 2009](/web/20100823233445/http://wiki.cantara.no/display/IASA/2009/03/10)
-
 [97 things every software architect should know](/web/20100823233445/http://wiki.cantara.no/display/IASA/2009/03/10/97+things+every+software+architect+should+know)
 
 Last changed Mar 10, 2009 10:13 by [Lars Arne Skår](/web/20100823233445/http://wiki.cantara.no/display/~lars@miles.no)
@@ -134,8 +126,6 @@ Som gir gode innspill til status quo på profesjonen - noe IASA ønsker jobbe fo
 **Posted at Mar 10, 2009** by
 [Lars Arne Skår](/web/20100823233445/http://wiki.cantara.no/display/~lars@miles.no) |
 [0 comments](/web/20100823233445/http://wiki.cantara.no/display/IASA/2009/03/10/97+things+every+software+architect+should+know?showComments=true#comments)
-
-[Wednesday, March 4, 2009](/web/20100823233445/http://wiki.cantara.no/display/IASA/2009/03/04)
 
 [Datavarehusarkitekturer](/web/20100823233445/http://wiki.cantara.no/display/IASA/2009/03/04/Datavarehusarkitekturer)
 
@@ -155,8 +145,6 @@ Valg av referansearkitektur er fortsatt et svært aktuelt tema. Stadig flere gå
 **Posted at Mar 04, 2009** by
 [Thor Henning Hetland](/web/20100823233445/http://wiki.cantara.no/display/~totto) |
 [0 comments](/web/20100823233445/http://wiki.cantara.no/display/IASA/2009/03/04/Datavarehusarkitekturer?showComments=true#comments)
-
-[Wednesday, February 25, 2009](/web/20100823233445/http://wiki.cantara.no/display/IASA/2009/02/25)
 
 [Evolutionary architecture and emergent design - Investigating architecture and design](/web/20100823233445/http://wiki.cantara.no/display/IASA/2009/02/25/Evolutionary+architecture+and+emergent+design+-+Investigating+architecture+and+design)
 

@@ -10,8 +10,7 @@ wsadmin.bat is included in RAD/WSAD and takes a number of parameters for host, p
 
 Use [exec-maven-plugin](http://mojo.codehaus.org/exec-maven-plugin). There has been reported problems when a new thread is spawned. (Running it from Continuum @ Windows has been a problem.) See <http://svn.objectware.no/repos/objectware-public/examples/maven-exec-example/> for a demo.
 
-Thus, the problem at hand can be solved with exec-maven-plugin by including the following in the POM:  
- Not complete!
+Thus, the problem at hand can be solved with exec-maven-plugin by including the following in the POM:
 
 ```
 <plugin>
