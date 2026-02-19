@@ -20,4 +20,4 @@ work-in-progress...
 
 **Example of remote service, with endpoint (WS or REST) deployed with the service in a container (typical JEE scenario)**
 
-*[Diagram: service, endpoint and deployment unit]*
+![service, endpoint and deployment unit](../images/gliffy/3146520-service,-endpoint-and-deployment-unit.png)

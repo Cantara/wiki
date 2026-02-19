@@ -1,3 +1,3 @@
 # Architecture Overview
 
-*[Diagram: whydah-architecture]*
+![whydah-architecture](../images/gliffy/37388699-whydah-architecture.png)

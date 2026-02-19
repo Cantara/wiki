@@ -8,4 +8,4 @@
 
 Read more at [Gliffy home](http://www.gliffy.com/confluencePlugin/).
 
-*[Diagram: Playground]*
+![Playground](../images/gliffy/8487031-Playground.png)

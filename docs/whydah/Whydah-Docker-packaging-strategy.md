@@ -6,7 +6,7 @@
 
 **A sample deployment of a Whydah system with several replicas on a set of physical servers (a 11-on-7 / 2-5-2-1-1 config)**
 
-*[Diagram: Docker deployment]*
+![Docker deployment](../images/gliffy/40797296-Docker-deployment.png)
 
 **NOTE** Early focus on the Whydah components. The internal persistence components of UIB at a later stage (HA SQL DB, HA LDAP and HA lucene/solrcloud)
 

@@ -2,7 +2,7 @@
 
 ### A typical production installation of Whydah:
 
-*[Diagram: Whydah infrastructure]*
+![Whydah infrastructure](../images/gliffy/37388694-Whydah-infrastructure.png)
 
 Using DNS & mod\_balance load-balancing
 

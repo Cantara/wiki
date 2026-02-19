@@ -56,7 +56,7 @@ Tre utfall:
 
 Definition: All eclipses represent roles.
 
-*[Diagram: Læring i roller]*
+![Læring i roller](../images/gliffy/2064513-Læring-i-roller.png)
 
 Communication channels:
 

@@ -8,7 +8,7 @@
 
 We are still debating an information architecture for the content of this site and value your feedback and suggestions.
 
-*[Diagram: Agile 2.0 structure]*
+![Agile 2.0 structure](../images/gliffy/16515227-Agile-2.0-structure.png)
 
 | Name | Description | Completeness of documentation |
 | --- | --- | --- |

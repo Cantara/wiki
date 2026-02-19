@@ -1,6 +1,6 @@
 # UIB Data storage - persistence
 
-*[Diagram: uib-persistence]*
+![uib-persistence](../images/gliffy/38437138-uib-persistence.png)
 
 ### Storage options for UserIdentityBackend
 

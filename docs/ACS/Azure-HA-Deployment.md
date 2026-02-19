@@ -2,4 +2,4 @@
 
 ### An example of an 24x7 99.999% deployment of ACS
 
-*[Diagram: ACS HA Deployment]*
+![ACS HA Deployment](../images/gliffy/35194123-ACS-HA-Deployment.png)
