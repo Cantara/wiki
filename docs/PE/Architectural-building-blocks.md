@@ -29,7 +29,7 @@ from java.lang.Object.
 
 ## Session Two
 
-**Diagram: architectural**
+![architectural](../images/gliffy/2064427-architectural-building-blocks-from-organsation.png)
 
 It's important to create a mapping from high level business models to software building blocks.
 

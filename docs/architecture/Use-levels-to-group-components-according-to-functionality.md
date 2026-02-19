@@ -8,7 +8,7 @@ Extend an existing, distributed system without compromising scalability with acc
 
 We have an existing distributed system where service A _uses_ a service B, which in turn uses a service C. Let service C be responsible for communicating with a certain type of hardware. We now want to add support for a new type of hardware device. The producer of this hardware device offer software to communicate with the device. 
 
-**Diagram: Original**
+![Original](../images/gliffy/5472333-Original-system.png)
 
 #### Strategies
 
@@ -23,7 +23,7 @@ The traditional (pre SOA?) approach is to use option 1. This might or might not 
 ###### System extended at level C
 Let us rename service C to C <sub>1</sub> and let C <sub>2</sub>, C <sub>3</sub>, C <sub>4</sub> denote services that support new types of hardware at the same level as the original service C. This option might require some changes to service B, but service A can probably be reused as it is. This is the cheapest and probably the best option. 
 
-**Diagram: System**
+![System](../images/gliffy/5472333-System-extended-at-level-B.png)
 
 ###### System extended at level B
 Producers of new hardware units often sell their hardware bundled with software to use it. Reusing this 3rd party software might reduce development time, which can be enticing in terms of cost and/or time to market. "Unfortunately" the producer has written functionality that partly overlaps functionality found in our service B. 
@@ -34,7 +34,7 @@ If it cannot, we are forced to let it communicate on the _B-level_. We should ad
 
  
 
-**Diagram: System**
+![System](../images/gliffy/5472333-System-extended-at-level-B.png)
 
 ###### Conclusion 
 When adding support for multiple "_types_" try to use abstraction to mask the diversity as early in the chain as possible. (Note that this advice is as valid within a service as between services.) The less parts of the system that needs to handle diversity the better. :)

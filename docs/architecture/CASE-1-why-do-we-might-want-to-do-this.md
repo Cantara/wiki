@@ -1,4 +1,4 @@
 # CASE 1 - why do we might want to do this?
 
-**Diagram: Customer**
+![Customer](../images/gliffy/23298555-Customer-Repository-Diagram.png)
 .

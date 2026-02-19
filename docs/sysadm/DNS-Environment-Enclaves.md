@@ -28,7 +28,7 @@ See also: [Dynamic addressing with service names](Dynamic-addressing-with-servic
 
 The figure is a simplified view of the concept. 
 
-**Diagram: dns.enclaves**
+![dns.enclaves](../images/gliffy/8814618-dns.enclaves.png)
 
 ### List records in a domain
 

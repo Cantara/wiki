@@ -2,4 +2,4 @@
 
 ### Database Model
 
-**Diagram: CVAPP**
+![CVAPP](../images/gliffy/33293770-CVAPP-DB-model.png)

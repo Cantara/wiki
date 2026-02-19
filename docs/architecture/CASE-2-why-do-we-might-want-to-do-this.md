@@ -1,7 +1,7 @@
 # CASE 2 - why do we might want to do this?
 
-**Diagram: Product**
+![Product](../images/gliffy/23298557-Product-Service-Simple-Diagram.png)
 
 ---
 
-**Diagram: Product**
+![Product](../images/gliffy/23298557-Product-Service-Simple-Diagram.png)

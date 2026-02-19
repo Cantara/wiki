@@ -30,10 +30,10 @@ There are basicly three main processes we want Enterprise Maven Infrastructure t
 Step 3. is optional, but deploying the site at least **nightly** AND **for every release** adds a lot of value.
 
 #### 1. Deploy snapshots
-**Diagram: Enterprise**
+![Enterprise](../images/gliffy/16515358-Enterprise-Maven-Infrastructure-release.png)
 
 #### 2. Release
-**Diagram: Enterprise**
+![Enterprise](../images/gliffy/16515358-Enterprise-Maven-Infrastructure-release.png)
 
 #### Implementation recommendations 
 

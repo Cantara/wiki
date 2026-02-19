@@ -1,3 +1,3 @@
 # System architecture
 
-**Diagram: Systen**
+![Systen](../images/gliffy/33292345-Systen-arch.png)

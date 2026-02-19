@@ -1,6 +1,6 @@
 # Messaging on BEA Weblogic
 
-**Diagram: Messaging**
+![Messaging](../images/gliffy/23298219-Messaging-on-BEA-Weblogic.png)
 
 ### Challenges
 - Where is Current Status located?

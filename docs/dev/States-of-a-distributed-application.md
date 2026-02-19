@@ -11,7 +11,7 @@ This a **simplified** state diagram of what we want. A _Failed_ state should pro
 
 This diagram shows how this often is implemented. Note that there **is** a _Failed_ state here, but the system cannot go anywhere from this state, thus requiring manual intervention. 
 
-**Diagram: Statediagram_not_ok**
+![Statediagram_not_ok](../images/gliffy/16515234-Statediagram_not_ok.png)
 NOT an especially good solution
 
 ## References 

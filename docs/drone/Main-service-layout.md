@@ -4,7 +4,7 @@
 
 ##### Figure 
 
-**Diagram: auke**
+![auke](../images/gliffy/41877549-auke-gts-main-layout.png)
 
 ##### Processes 
 

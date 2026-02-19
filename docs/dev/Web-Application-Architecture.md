@@ -44,7 +44,7 @@ Maven modules are used to separate according to _dependencies_. Java packages ar
 - jsp-fragments (JSP-files must use war overlay, see [Web Application Fragments](Web-Application-Fragments.md)) 
 
 _Click the diagram to view full size_
-**Diagram: Maven**
+![Maven](../images/gliffy/16515262-Maven-Modules.png)
 
 ### Use of Session
 

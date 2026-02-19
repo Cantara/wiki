@@ -1,3 +1,3 @@
 # Continuous Deployment Diagram
 
-**Diagram: Development**
+![Development](../images/gliffy/16515495-Development-Environment.png)

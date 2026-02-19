@@ -1,6 +1,6 @@
 # Messaging on OSWorkflow - ActiveMQ
 
-**Diagram: Messaging**
+![Messaging](../images/gliffy/23298219-Messaging-on-BEA-Weblogic.png)
 
 ### Challenges
 - Status Changed
