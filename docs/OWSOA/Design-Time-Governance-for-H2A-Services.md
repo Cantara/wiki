@@ -1,0 +1,10 @@
+# Design-Time Governance for H2A Services
+
+Unknown macro: {tasklist}
+
+### Design Rules
+
+|  |  |  |  |  |
+| --- | --- | --- | --- | --- |
+| [P1. A service shall have one named owner](/web/20220817070804/https://wiki.cantara.no/display/OWSOA/P1.+A+service+shall+have+one+named+owner) | [P2. A service shall provide documented business value](/web/20220817070804/https://wiki.cantara.no/display/OWSOA/P2.+A+service+shall+provide+documented+business+value) | [P21. A service shall be categorized (OW SOA category)](/web/20220817070804/https://wiki.cantara.no/display/OWSOA/P21.+A+service+shall+be+categorized+%28OW+SOA+category%29) | [P3. A service shall do one only thing, and one thing well](/web/20220817070804/https://wiki.cantara.no/display/OWSOA/P3.+A+service+shall+do+one+only+thing%2C+and+one+thing+well) | [P4. A H2A service (webpart or portlet) shall be an independent component](/web/20220817070804/https://wiki.cantara.no/display/OWSOA/P4.+A+H2A+service+%28webpart+or+portlet%29+shall+be+an+independent+component) |
+| [P41. A service shall provide heartbeat and traffic monitoring](/web/20220817070804/https://wiki.cantara.no/display/OWSOA/P41.+A+service+shall+provide+heartbeat+and+traffic+monitoring) | [P5. A H2A Service (webpart or portlet) shall be a part of a bigger whole, not trying to dictate other H2A services](/web/20220817070804/https://wiki.cantara.no/display/OWSOA/P5.+A+H2A+Service+%28webpart+or+portlet%29+shall+be+a+part+of+a+bigger+whole%2C+not+trying+to+dictate+other+H2A+services) | [P6. A H2A service shall not have internal workflow](/web/20220817070804/https://wiki.cantara.no/display/OWSOA/P6.+A+H2A+service+shall+not+have+internal+workflow) | [P7. Too generic webparts or portlets shall be avoided](/web/20220817070804/https://wiki.cantara.no/display/OWSOA/P7.+Too+generic+webparts+or+portlets+shall+be+avoided) | [P90. A service shall have a documented coupling to the contractual and requirement for service usage](/web/20220817070804/https://wiki.cantara.no/display/OWSOA/P90.+A+service+shall+have+a+documented+coupling+to+the+contractual+and+requirement+for+service+usage) |

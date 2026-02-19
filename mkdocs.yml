@@ -1,0 +1,158 @@
+site_name: Cantara Wiki
+site_description: Archive of the Cantara open source wiki (wiki.cantara.no)
+site_url: https://cantara.github.io/wiki/
+repo_url: https://github.com/Cantara/wiki
+repo_name: Cantara/wiki
+
+theme:
+  name: material
+  palette:
+    primary: deep purple
+    accent: purple
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+plugins:
+  - search
+
+nav:
+  - 'Home': index.md
+  - 'ACS':
+      - 'Home': ACS/index.md
+  - 'About':
+      - 'About the Cantara Wiki': About/About-the-Cantara-Wiki.md
+  - 'Enterprise Architecture':
+      - 'Auto-Taxonomy and Categorization As A Service (ATaCAAS)': EA/Auto-Taxonomy-and-Categorization-As-A-Service-ATaCAAS.md
+      - 'Our Heroes': EA/Our-Heroes.md
+      - 'Persistence': EA/Persistence.md
+      - 'Semantic Information Models': EA/Semantic-Information-Models.md
+      - 'Semantic Process Models': EA/Semantic-Process-Models.md
+      - 'Semantic System Models': EA/Semantic-System-Models.md
+      - 'The need for Enterprise Pojos': EA/The-need-for-Enterprise-Pojos.md
+      - 'Understandability': EA/Understandability.md
+      - 'WayOnward': EA/WayOnward.md
+      - 'Work in Process - data mapping': EA/Work-in-Process-data-mapping.md
+      - 'Wrap up and ideas for future work': EA/Wrap-up-and-ideas-for-future-work.md
+  - 'EDR':
+      - 'Open Source: EDR - Enterprise Domain Repository Blog from January, 2021': EDR/2021_01_.md
+      - 'Data Mapping Extension': EDR/Data-Mapping-Extension.md
+      - 'Data Mapping in EDR': EDR/Data-Mapping-in-EDR.md
+      - 'EDR - Moderator': EDR/EDR-Moderator.md
+      - 'EDR - Pattern diagram': EDR/EDR-Pattern-diagram.md
+      - 'EDR - The details': EDR/EDR-The-details.md
+      - 'Enterprise Domain Repository - Home': EDR/Enterprise-Domain-Repository-Home.md
+  - 'JAU':
+      - 'Agent pattern': JAU/Agent-pattern.md
+  - 'Knowledge Management':
+      - 'Knowledge Management Home': KM/Knowledge-Management-Home.md
+      - 'P5. A H2A Service (webpart or portlet) shall be a part of a bigger whole, not trying to dictate other H2A services': KM/P5-A-H2A-Service-webpart-or-portlet-shall-be-a-part-of-a-bigger-whole-not-trying-to-dictate-other-H2A-services.md
+      - 'P6. A H2A service shall not have internal workflow': KM/P6-A-H2A-service-shall-not-have-internal-workflow.md
+      - 'P7. Too generic webparts or portlets shall be avoided': KM/P7-Too-generic-webparts-or-portlets-shall-be-avoided.md
+      - 'P90. A service shall have a documented coupling to the contractual and requirement for service usage': KM/P90-A-service-shall-have-a-documented-coupling-to-the-contractual-and-requirement-for-service-usage.md
+  - 'Open Web Services & SOA':
+      - 'ACS': OWSOA/ACS.md
+      - 'Access Manager (AM)': OWSOA/Access-Manager-AM.md
+      - 'Alignment of Enterprise Search Platforms (ESP) and Service-Oriented Architecture': OWSOA/Alignment-of-Enterprise-Search-Platforms-ESP-and-Service-Oriented-Architecture.md
+      - 'Business Intelligence (BI) and Enterprise Search in a Service Oriented Architecture Strategy': OWSOA/Business-Intelligence-BI-and-Enterprise-Search-in-a-Service-Oriented-Architecture-Strategy.md
+      - 'Command Pattern': OWSOA/Command-Pattern.md
+      - 'Core Services': OWSOA/Core-Services.md
+      - 'Data Processing': OWSOA/Data-Processing.md
+      - 'Design-Time Governance for CS Services': OWSOA/Design-Time-Governance-for-CS-Services.md
+      - 'Design-Time Governance for H2A Services': OWSOA/Design-Time-Governance-for-H2A-Services.md
+      - 'Enterprise Architecture (EA)': OWSOA/Enterprise-Architecture-EA.md
+      - 'How does this SOA relate to Mark Little SOA': OWSOA/How-does-this-SOA-relate-to-Mark-Little-SOA.md
+      - 'Service Manifest': OWSOA/Service-Manifest.md
+      - 'Service Oriented Architecture FAQ': OWSOA/Service-Oriented-Architecture-FAQ.md
+  - 'Open Data':
+      - 'Open Data Home': OpenData/Open-Data-Home.md
+  - 'Platform Engineering':
+      - 'Cantara Events and Activities': PE/Cantara-Events-and-Activities.md
+      - 'Communities in action 2011': PE/Communities-in-action-2011.md
+      - 'Communities in action 2011': PE/Communities-in-action-2011.md
+      - 'Community Calendar - Oslo': PE/Community-Calendar-Oslo.md
+      - 'Community Logos': PE/Community-Logos.md
+      - 'Forum': PE/Forum.md
+      - 'Forum': PE/Forum.md
+      - 'Foundation of Norwegian Software Development Foundation': PE/Foundation-of-Norwegian-Software-Development-Foundation.md
+      - 'Foundation of Norwegian Software Development Foundation': PE/Foundation-of-Norwegian-Software-Development-Foundation.md
+      - 'GCW': PE/GCW.md
+      - 'Geek Cruise 23-25 May 2009 - Architects in deep water... - Cantara Community Wiki': PE/Geek-Cruise-23-25-May-2009-Architects-in-deep-water.md
+      - 'HTML 5 Code Camp': PE/HTML-5-Code-Camp.md
+      - 'HomlmsbuInfo': PE/HomlmsbuInfo.md
+      - 'How can I be available for the development team - Cantara Community Wiki': PE/How-can-I-be-available-for-the-development-team.md
+      - 'How to help ivory tower architects to support agile and productive projects - Cantara Community Wiki': PE/How-to-help-ivory-tower-architects-to-support-agile-and-productive-projects.md
+      - 'IASA Norge': PE/IASA-Norge.md
+      - 'Info': PE/Info.md
+      - 'Info': PE/Info.md
+      - 'Introduksjon til Scala Actors': PE/Introduksjon-til-Scala-Actors.md
+      - 'Invitasjon til Communities in Action 2010 - Cantara Community Wiki': PE/Invitasjon-til-Communities-in-Action-2010.md
+      - 'JavaZone 2009': PE/JavaZone-2009.md
+      - 'JohannesBrodwall': PE/JohannesBrodwall.md
+      - 'Navigation': PE/Navigation.md
+  - 'aa':
+      - 'Home': aa/index.md
+  - 'Software Architecture':
+      - 'Laws for Organization Architects': architecture/Laws-for-Organization-Architects.md
+      - 'Laws for Project Architects': architecture/Laws-for-Project-Architects.md
+      - 'Software Architecture Knowledge Management Home': architecture/Software-Architecture-Knowledge-Management-Home.md
+  - 'Blitz':
+      - 'Blitz Wiki - Home': blitz/Blitz-Wiki-Home.md
+  - 'Agile Development':
+      - '4 plus 1 View Model': dev/4-plus-1-View-Model.md
+      - 'Agile Mindset and Methodology': dev/Agile-Mindset-and-Methodology.md
+      - 'Agile Software Development Home': dev/Agile-Software-Development-Home.md
+      - 'HTTP request compression': dev/HTTP-request-compression.md
+      - 'IAM Terminology': dev/IAM-Terminology.md
+      - 'Other': dev/Other.md
+      - 'Quotes on Complexity': dev/Quotes-on-Complexity.md
+      - 'Code coverage using Surefire, TestNG, Jacoco and Sonar': dev/code-coverage-using-surefire-testng-jacoco-and-sonar.md
+  - 'DevHouse':
+      - 'Utviklerhuset': devhouse/Utviklerhuset.md
+  - 'IoT':
+      - 'Home': iot/index.md
+  - 'Smidig':
+      - 'Frie ideer for smidig2010': smidig/Frie-ideer-for-smidig2010.md
+      - 'Sponsor': smidig/Sponsor.md
+      - 'Home': smidig/index.md
+  - 'Whydah (IAM/SSO)':
+      - 'Applications_json': whydah/Applications_json.md
+      - 'Installing Whydah': whydah/Installing-Whydah.md
+      - 'Integrating with Whydah': whydah/Integrating-with-Whydah.md
+      - 'StatisticsService': whydah/StatisticsService.md
+      - 'Testdata': whydah/Testdata.md
+      - 'Whydah Releases': whydah/Whydah-Releases.md
+      - 'Whydah Typelib': whydah/Whydah-Typelib.md
+      - 'Whydah UserAdmin for 3. party applications.': whydah/Whydah-UserAdmin-for-3-party-applications.md
+      - 'Whydah deployment alternatives': whydah/Whydah-deployment-alternatives.md
+      - 'Whydah development environment installation': whydah/Whydah-development-environment-installation.md
+      - 'Whydah production setup': whydah/Whydah-production-setup.md
+      - 'Whydah Releases': whydah/Whydah-releases.md
+      - 'Whydah Home': whydah/index.md
+  - 'User: baard.lind':
+      - 'Git Init script': ~baard.lind/Git-Init-script.md
+      - 'Gliffy': ~baard.lind/Gliffy.md
+  - 'User: dagb':
+      - 'Home': ~dagb/index.md
+  - 'User: totto':
+      - 'Clouded Vision': ~totto/2009_02_24_Clouded-Vision.md
+      - 'Clouds only for tactical projects until 2012 - Gartner misses the point... (again)': ~totto/2009_02_24_Clouds-only-for-tactical-projects-until-2012-Gartner-misses-the-point-again.md
+      - 'Considerations in Building Web Applications for the Amazon Cloud': ~totto/2009_02_24_Considerations-in-Building-Web-Applications-for-the-Amazon-Cloud.md
+      - 'Free SimpleDB Beta Cloud from Amazon': ~totto/2009_02_24_Free-SimpleDB-Beta-Cloud-from-Amazon.md
+      - 'Open Source and Community Clouds': ~totto/2009_02_24_Open-Source-and-Community-Clouds.md
+      - 'Sinnataggen and some Cloud development thoughts...': ~totto/2009_02_24_Sinnataggen-and-some-Cloud-development-thoughts.md
+      - 'Trouble In The Clouds - Gmail Turns Into Gfail': ~totto/2009_02_24_Trouble-In-The-Clouds-Gmail-Turns-Into-Gfail.md
+      - 'VMware - All your clouds are belong to us': ~totto/2009_02_24_VMware-All-your-clouds-are-belong-to-us.md
+      - 'Why clouds should be more like operating systems': ~totto/2009_02_24_Why-clouds-should-be-more-like-operating-systems.md
+      - 'Thor Henning Hetland Blog from March, 2009': ~totto/2009_03_.md
+      - 'Its time for auto scaling - avoid peak load provisioning for web applications': ~totto/2009_03_05_Its-time-for-auto-scaling-avoid-peak-load-provisioning-for-web-applications.md
+      - 'Transparancy is essensial to security in the cloud': ~totto/2009_04_20_Transparancy-is-essensial-to-security-in-the-cloud.md
+      - 'Cloud - auto-magic og just provisioning platform for your distributed system': ~totto/2009_05_07_Cloud-auto-magic-og-just-provisioning-platform-for-your-distributed-system.md
+      - 'Gartner on Cloud Computing, misses again...': ~totto/2009_06_23_Gartner-on-Cloud-Computing-misses-again.md
+      - 'Thor Henning Hetland Blog from September, 2009': ~totto/2009_09_.md
+      - 'On the greenness of Clouds': ~totto/2009_09_15_On-the-greenness-of-Clouds.md
+      - 'Query': ~totto/Query.md
