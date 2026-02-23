@@ -7,4 +7,4 @@ Read configuration from default properties, properties override and environment
 | **GitHub** | [https://github.com/Cantara/simple-microservice-config](https://github.com/Cantara/simple-microservice-config) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-16 |
+| **Last updated** | 2026-02-21 |

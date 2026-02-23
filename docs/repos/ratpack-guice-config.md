@@ -7,4 +7,4 @@ Injectable configuration support for ratpack-guice
 | **GitHub** | [https://github.com/Cantara/ratpack-guice-config](https://github.com/Cantara/ratpack-guice-config) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-05 |
+| **Last updated** | 2026-02-23 |

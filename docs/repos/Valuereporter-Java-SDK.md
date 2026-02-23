@@ -7,4 +7,4 @@ Functions used to send observations and activities to Valuereporter
 | **GitHub** | [https://github.com/Cantara/Valuereporter-Java-SDK](https://github.com/Cantara/Valuereporter-Java-SDK) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-16 |
+| **Last updated** | 2026-02-23 |

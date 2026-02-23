@@ -7,7 +7,7 @@ Implementation of the distributed-saga pattern consisting of separate java libra
 | **GitHub** | [https://github.com/Cantara/distributed-saga](https://github.com/Cantara/distributed-saga) |
 | **Language** | Java |
 | **Stars** | 2 |
-| **Last updated** | 2026-02-16 |
+| **Last updated** | 2026-02-21 |
 
 ---
 

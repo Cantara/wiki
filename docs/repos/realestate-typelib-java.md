@@ -7,4 +7,4 @@ Constants, Types and implementations used by several realestate-* artifacts.
 | **GitHub** | [https://github.com/Cantara/realestate-typelib-java](https://github.com/Cantara/realestate-typelib-java) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-16 |
+| **Last updated** | 2026-02-23 |

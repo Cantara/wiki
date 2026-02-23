@@ -7,7 +7,7 @@ Authorize services, clients and users in Helidon
 | **GitHub** | [https://github.com/Cantara/Whydah-HelidonProvider](https://github.com/Cantara/Whydah-HelidonProvider) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-16 |
+| **Last updated** | 2026-02-21 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.
