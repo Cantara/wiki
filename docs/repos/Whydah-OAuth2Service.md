@@ -7,7 +7,7 @@ An Whydah module to offer OAuth2 provider compatibility And OpenID Connect for W
 | **GitHub** | [https://github.com/Cantara/Whydah-OAuth2Service](https://github.com/Cantara/Whydah-OAuth2Service) |
 | **Language** | Java |
 | **Stars** | 3 |
-| **Last updated** | 2026-02-20 |
+| **Last updated** | 2026-02-27 |
 | **Homepage** | [https://wiki.cantara.no/display/whydah/OAuth2Service](https://wiki.cantara.no/display/whydah/OAuth2Service) |
 | **Topics** | `oauth2-provider` `sso` `sso-solution` `whydah` |
 

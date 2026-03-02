@@ -7,4 +7,4 @@ Basic Commands for HTTP, REST and SOAP over Hystrix
 | **GitHub** | [https://github.com/Cantara/Hystrix-BaseCommands](https://github.com/Cantara/Hystrix-BaseCommands) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-16 |
+| **Last updated** | 2026-02-27 |

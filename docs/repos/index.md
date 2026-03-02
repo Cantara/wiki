@@ -1,6 +1,6 @@
 # GitHub Repository Index
 
-All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 143 repositories total.
+All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 144 repositories total.
 
 ---
 
@@ -151,6 +151,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [java-modules-json1](java-modules-json1.md) — Part of java-modules-demo. This library depends on Jackson 1.x
 - [java-modules-json2](java-modules-json2.md) — Part of java-modules-demo. This library depends on Jackson 2.x
 - [julebrus](julebrus.md)
+- [knowledge-context-protocol](knowledge-context-protocol.md) ★3
 - [lib-electronic-components](lib-electronic-components.md) ★2
 - [logback-ext-cloudwatch-appender](logback-ext-cloudwatch-appender.md) — CloudWatch appender for Logback
 - [message-performance-sampler](message-performance-sampler.md) — Given timed incoming messages, use statistics package from apache commons math to sample total and windowed latency and throughput.

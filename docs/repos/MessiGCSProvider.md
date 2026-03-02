@@ -7,4 +7,4 @@ Messi GCS Provider
 | **GitHub** | [https://github.com/Cantara/MessiGCSProvider](https://github.com/Cantara/MessiGCSProvider) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-21 |
+| **Last updated** | 2026-02-27 |

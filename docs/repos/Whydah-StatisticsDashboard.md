@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/Whydah-StatisticsDashboard](https://github.com/Cantara/Whydah-StatisticsDashboard) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-23 |
+| **Last updated** | 2026-02-27 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

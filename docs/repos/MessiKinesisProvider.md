@@ -7,4 +7,4 @@ Kinesis provider for the Messi messaging and streaming abstraction
 | **GitHub** | [https://github.com/Cantara/MessiKinesisProvider](https://github.com/Cantara/MessiKinesisProvider) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-23 |
+| **Last updated** | 2026-02-28 |

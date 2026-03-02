@@ -7,7 +7,7 @@ Maven Infrastructure using Docker
 | **GitHub** | [https://github.com/Cantara/maven-infrastructure](https://github.com/Cantara/maven-infrastructure) |
 | **Language** | Dockerfile |
 | **Stars** | 16 |
-| **Last updated** | 2026-02-05 |
+| **Last updated** | 2026-03-02 |
 
 ---
 

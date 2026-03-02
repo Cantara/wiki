@@ -2073,6 +2073,7 @@ nav:
       - "java modules json1": repos/java-modules-json1.md
       - "java modules json2": repos/java-modules-json2.md
       - "julebrus": repos/julebrus.md
+      - "knowledge context protocol": repos/knowledge-context-protocol.md
       - "lib electronic components": repos/lib-electronic-components.md
       - "logback ext cloudwatch appender": repos/logback-ext-cloudwatch-appender.md
       - "maven infrastructure": repos/maven-infrastructure.md

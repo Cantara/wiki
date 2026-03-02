@@ -7,4 +7,4 @@ Identifiy which client that are using your api. Observe cookie id, client ip and
 | **GitHub** | [https://github.com/Cantara/Client-Observer-Filter](https://github.com/Cantara/Client-Observer-Filter) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-01-26 |
+| **Last updated** | 2026-02-27 |

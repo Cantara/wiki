@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/Hystrix-BaseJDBCCommands](https://github.com/Cantara/Hystrix-BaseJDBCCommands) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2026-02-16 |
+| **Last updated** | 2026-02-27 |
 
 ---
 

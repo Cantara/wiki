@@ -7,4 +7,4 @@ TMP repo for rewrite of Nerthus. Keeping the current running version easier main
 | **GitHub** | [https://github.com/Cantara/nerthus2](https://github.com/Cantara/nerthus2) |
 | **Language** | Go |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-18 |
+| **Last updated** | 2026-02-26 |

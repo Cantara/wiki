@@ -7,7 +7,7 @@ The UserIdentityBackend module of the Whydah IAM/SSO
 | **GitHub** | [https://github.com/Cantara/Whydah-UserIdentityBackend](https://github.com/Cantara/Whydah-UserIdentityBackend) |
 | **Language** | Java |
 | **Stars** | 5 |
-| **Last updated** | 2026-01-26 |
+| **Last updated** | 2026-02-23 |
 | **Topics** | `iam` `ldap` `sso-solution` `user-roles` `useradmin` `whydah` |
 
 !!! tip "Related Wiki Pages"
