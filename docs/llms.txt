@@ -6,6 +6,19 @@ Cantara is a Norwegian non-profit open source community founded in 2008. The nam
 
 Owned by the Norwegian Software Development Foundation (Stiftelsen for fremme av programvareutvikling i Norge).
 
+## Structured Navigation (for AI agents)
+
+This site publishes a KCP v0.5 manifest at https://cantara.github.io/wiki/knowledge.yaml
+containing 24 units with intent declarations, trigger keywords, and 20+ relationships.
+
+Fetch knowledge.yaml for targeted queries. Parse YAML → match query against each unit's
+`triggers` (keyword list) and `intent` (natural language) → fetch the `path` of the best
+match. Use `relationships` to navigate related content (types: enables, context, depends_on).
+
+Example: "How do I set up Whydah SSO?" → trigger `whydah, sso` → unit `whydah-start` → fetch whydah/Getting-started.md
+
+For complete content, https://cantara.github.io/wiki/llms-full.txt covers all sections in one fetch.
+
 ## Key Pages
 
 - [Home](https://cantara.github.io/wiki/): Overview and navigation
