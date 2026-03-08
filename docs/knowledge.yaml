@@ -1,7 +1,7 @@
-kcp_version: "0.5"
+kcp_version: "0.7"
 project: cantara-wiki
-version: 1.1.0
-updated: 2026-03-04
+version: 1.2.0
+updated: 2026-03-08
 
 units:
 
@@ -131,6 +131,14 @@ units:
   # ──────────────────────────────────────────────
   # REPO-LEVEL DOCUMENTATION (repos/ section)
   # ──────────────────────────────────────────────
+
+  - id: repo-kcp
+    path: repos/knowledge-context-protocol.md
+    intent: "What is the Knowledge Context Protocol (KCP), what does the v0.7 spec define, and how do the bridges and tooling work?"
+    scope: module
+    audience: [developer, agent, architect]
+    validated: 2026-03-08
+    triggers: [KCP, knowledge context protocol, knowledge.yaml, kcp_version, mcp bridge, kcp-mcp, kcp-commands, delegation, compliance, a2a, agent cards, agentic systems, llms.txt alternative]
 
   - id: repo-messi
     path: repos/MessiProject.md
@@ -329,6 +337,11 @@ relationships:
   # The repos index provides technical repository detail for all projects
   - from: repos-index
     to: projects-index
+    type: context
+
+  # The repos index provides specific repository detail for KCP
+  - from: repos-index
+    to: repo-kcp
     type: context
 
   # The repos index provides specific repository detail for Whydah docs
