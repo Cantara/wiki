@@ -7,4 +7,4 @@ Read PresentValue and Trends from Desigo BAS api
 | **GitHub** | [https://github.com/Cantara/realestate-desigo-plugin](https://github.com/Cantara/realestate-desigo-plugin) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-27 |
+| **Last updated** | 2026-03-08 |

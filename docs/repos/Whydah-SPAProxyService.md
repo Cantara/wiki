@@ -7,7 +7,7 @@ A Single-Page Application proxy-service module to provide Whydah Application Ses
 | **GitHub** | [https://github.com/Cantara/Whydah-SPAProxyService](https://github.com/Cantara/Whydah-SPAProxyService) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2026-02-27 |
+| **Last updated** | 2026-03-05 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

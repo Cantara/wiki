@@ -1,6 +1,6 @@
 # GitHub Repository Index
 
-All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 144 repositories total.
+All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 146 repositories total.
 
 ---
 
@@ -52,7 +52,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 
 ## Xorcery
 
-- [xorcery](xorcery.md) ★13
+- [xorcery](xorcery.md) ★14
 - [xorcery-examples](xorcery-examples.md) ★5 — Example services for Xorcery
 - [xorcery-genericevent-typelib](xorcery-genericevent-typelib.md) — Generic Event typelib - Provides generic metadata, serialization, and deserialization on domain events
 - [xorcery-jsonapi-jdk11](xorcery-jsonapi-jdk11.md) — Xorcery implementation of the JSON:API specification
@@ -151,7 +151,9 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [java-modules-json1](java-modules-json1.md) — Part of java-modules-demo. This library depends on Jackson 1.x
 - [java-modules-json2](java-modules-json2.md) — Part of java-modules-demo. This library depends on Jackson 2.x
 - [julebrus](julebrus.md)
-- [knowledge-context-protocol](knowledge-context-protocol.md) ★3
+- [kcp-commands](kcp-commands.md) ★6
+- [kcp-memory](kcp-memory.md) ★1 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
+- [knowledge-context-protocol](knowledge-context-protocol.md) ★7
 - [lib-electronic-components](lib-electronic-components.md) ★2
 - [logback-ext-cloudwatch-appender](logback-ext-cloudwatch-appender.md) — CloudWatch appender for Logback
 - [message-performance-sampler](message-performance-sampler.md) — Given timed incoming messages, use statistics package from apache commons math to sample total and windowed latency and throughput.

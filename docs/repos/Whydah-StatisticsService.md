@@ -7,7 +7,7 @@ A reporting and statistics module for Whydah
 | **GitHub** | [https://github.com/Cantara/Whydah-StatisticsService](https://github.com/Cantara/Whydah-StatisticsService) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-25 |
+| **Last updated** | 2026-03-05 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

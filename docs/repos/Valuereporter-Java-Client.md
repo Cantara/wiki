@@ -7,4 +7,4 @@ Client responsible for collecting observations and activities. Then forward thes
 | **GitHub** | [https://github.com/Cantara/Valuereporter-Java-Client](https://github.com/Cantara/Valuereporter-Java-Client) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-02-27 |
+| **Last updated** | 2026-03-05 |
