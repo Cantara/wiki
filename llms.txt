@@ -1,0 +1,58 @@
+# Cantara
+
+> Norwegian open source community and knowledge base. 2,290 articles on software architecture, agile development, microservices, IAM/SSO, and enterprise integration. Archive of wiki.cantara.no (2008–2022).
+
+Cantara is a Norwegian non-profit open source community founded in 2008. The name means "bridge" in Arabic — bridging government, education, industry, and the software community. Mission: mature and empower Norwegian software development through knowledge sharing, collaboration, and open source projects.
+
+Owned by the Norwegian Software Development Foundation (Stiftelsen for fremme av programvareutvikling i Norge).
+
+## Structured Navigation (for AI agents)
+
+This site publishes a KCP v0.5 manifest at https://cantara.github.io/wiki/knowledge.yaml
+containing 24 units with intent declarations, trigger keywords, and 20+ relationships.
+
+Fetch knowledge.yaml for targeted queries. Parse YAML → match query against each unit's
+`triggers` (keyword list) and `intent` (natural language) → fetch the `path` of the best
+match. Use `relationships` to navigate related content (types: enables, context, depends_on).
+
+Example: "How do I set up Whydah SSO?" → trigger `whydah, sso` → unit `whydah-start` → fetch whydah/Getting-started.md
+
+For complete content, https://cantara.github.io/wiki/llms-full.txt covers all sections in one fetch.
+
+## Key Pages
+
+- [Home](https://cantara.github.io/wiki/): Overview and navigation
+- [Projects](https://cantara.github.io/wiki/projects/): Major open source projects
+- [Repository Index](https://cantara.github.io/wiki/repos/): 143+ GitHub repositories across 11 project families
+- [Knowledge Base](https://cantara.github.io/wiki/knowledge/): Hub for architecture, agile, SOA, and more
+- [Whydah IAM/SSO](https://cantara.github.io/wiki/whydah/): Identity Provider and SSO platform (165 pages)
+- [Software Architecture](https://cantara.github.io/wiki/architecture/): DDD, microservices, patterns (125 pages)
+- [Agile Development](https://cantara.github.io/wiki/dev/): CI/CD, testing, clean code, Maven (478 pages)
+- [Open Web Services & SOA](https://cantara.github.io/wiki/OWSOA/): REST, enterprise integration, patterns (154 pages)
+- [Enterprise Architecture](https://cantara.github.io/wiki/EA/): EA frameworks, EDR, code generation (82 pages)
+- [Community & Events](https://cantara.github.io/wiki/PE/): GeekCruises, CiA conference, Smidig (211 pages)
+- [IASA Oslo](https://cantara.github.io/wiki/IASA/): Oslo chapter of International Association of Software Architects (159 pages)
+
+## Full Content (machine-readable)
+
+- [Full profile and content index (clean markdown)](https://cantara.github.io/wiki/llms-full.txt): All projects, knowledge base sections, repositories, and community content
+
+## Open Source Projects
+
+**Whydah** — Production SSO/IAM platform. OAuth2, OpenID Connect, LDAP, high availability. 19 repositories.
+**ConfigService + JAU** — Runtime configuration management and automatic Java application updates.
+**Xorcery** — Event sourcing and reactive microservices framework.
+**Messi** — Messaging abstraction layer (AWS S3, SQS, Kinesis, GCS, filesystem providers).
+**Visuale** — Real-time dashboard for microservice environment monitoring.
+**ACS** — Competence and CV management platform with skill search.
+
+GitHub: https://github.com/Cantara (143+ repositories)
+
+## Quick Facts
+
+- **Founded:** 2008, Oslo, Norway
+- **Content:** 2,290 articles (archived 2008–2022, GitHub index updated weekly)
+- **Repositories:** 143+ across 11 project families
+- **Key technologies:** Java, Spring, AWS, Docker, Kubernetes, LDAP, Kafka, Neo4j
+- **Languages:** Norwegian and English
+- **Community events:** GeekCruises (annual boat workshops), CiA conference, Smidig, DevHouse, IASA Oslo

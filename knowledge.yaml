@@ -1,0 +1,409 @@
+kcp_version: "0.7"
+project: cantara-wiki
+version: 1.2.0
+updated: 2026-03-08
+
+units:
+
+  # ──────────────────────────────────────────────
+  # SITE ENTRY POINTS
+  # ──────────────────────────────────────────────
+
+  - id: home
+    path: index.md
+    intent: "What is Cantara and how is the wiki organised?"
+    scope: global
+    audience: [human, agent, developer, architect]
+    validated: 2022-12-01
+    triggers: [cantara, overview, navigation, wiki, home, norwegian, open-source, community]
+
+  - id: knowledge-hub
+    path: knowledge/index.md
+    intent: "Which knowledge base sections exist and what does each cover?"
+    scope: global
+    audience: [human, agent, developer, architect]
+    validated: 2022-12-01
+    triggers: [knowledge base, hub, sections, overview, architecture, agile, soa, ea]
+
+  - id: projects-index
+    path: projects/index.md
+    intent: "What open source projects does Cantara develop and maintain?"
+    scope: global
+    audience: [human, agent, developer]
+    validated: 2022-12-01
+    triggers: [projects, products, open source, whydah, JAU, blitz, ACS, cantara projects]
+
+  - id: repos-index
+    path: repos/index.md
+    intent: "Which GitHub repositories does Cantara maintain and how are they grouped?"
+    scope: global
+    audience: [agent, developer]
+    validated: 2026-02-25
+    triggers: [repositories, github, repos, libraries, packages, 143 repos, cantara github]
+
+  # ──────────────────────────────────────────────
+  # AI / LLM DISCOVERABILITY
+  # ──────────────────────────────────────────────
+
+  - id: llms-index
+    path: llms.txt
+    intent: "What is a concise machine-readable summary of the Cantara wiki for AI tools?"
+    scope: global
+    audience: [agent]
+    validated: 2026-02-25
+    triggers: [llms.txt, ai index, llm, machine-readable, agent discoverability, robots]
+
+  - id: llms-full
+    path: llms-full.txt
+    intent: "What is the comprehensive machine-readable content of the entire Cantara wiki?"
+    scope: global
+    audience: [agent]
+    validated: 2026-02-25
+    depends_on: [llms-index]
+    triggers: [llms-full, full content, machine-readable, complete index, ai crawl]
+
+  # ──────────────────────────────────────────────
+  # PROJECT: WHYDAH IAM/SSO
+  # ──────────────────────────────────────────────
+
+  - id: whydah-start
+    path: whydah/Getting-started.md
+    intent: "How do I install, run, and integrate with the Whydah SSO platform?"
+    scope: project
+    audience: [developer, operator]
+    validated: 2022-12-01
+    depends_on: [whydah-architecture]
+    triggers: [whydah, getting started, install, docker, sso, single sign-on, integration, quickstart]
+
+  - id: whydah-architecture
+    path: whydah/Architecture-Overview.md
+    intent: "What is the architecture of the Whydah IAM/SSO platform and how do its components interact?"
+    scope: project
+    audience: [architect, developer]
+    validated: 2022-12-01
+    triggers: [whydah architecture, STS, UIB, UAS, SecurityTokenService, UserIdentityBackend, components, IAM, microservices SSO]
+
+  - id: whydah-index
+    path: whydah/index.md
+    intent: "What documentation is available for the Whydah IAM/SSO platform?"
+    scope: project
+    audience: [human, agent, developer, architect, operator]
+    validated: 2022-12-01
+    depends_on: [whydah-architecture]
+    triggers: [whydah, iam, sso, oauth2, openid connect, ldap, identity provider, token, authentication, authorisation]
+
+  # ──────────────────────────────────────────────
+  # PROJECT: JAVA AUTO-UPDATE & CONFIGSERVICE
+  # ──────────────────────────────────────────────
+
+  - id: jau-index
+    path: JAU/index.md
+    intent: "How do I configure and deploy Java Auto-Update and ConfigService for zero-downtime upgrades?"
+    scope: project
+    audience: [developer, operator]
+    validated: 2022-12-01
+    triggers: [JAU, java auto-update, configservice, runtime config, zero-downtime, upgrade, deployment, configuration management]
+
+  # ──────────────────────────────────────────────
+  # PROJECT: BLITZ JAVASPACES
+  # ──────────────────────────────────────────────
+
+  - id: blitz-index
+    path: blitz/index.md
+    intent: "What is the Blitz JavaSpaces toolkit and how do I get started with Jini patterns?"
+    scope: project
+    audience: [developer]
+    validated: 2022-12-01
+    triggers: [blitz, javaspaces, jini, distributed computing, space-based, patterns, tuple space]
+
+  # ──────────────────────────────────────────────
+  # PROJECT: ACS COMPETENCE SYSTEM
+  # ──────────────────────────────────────────────
+
+  - id: acs-index
+    path: ACS/index.md
+    intent: "How do I use the ACS platform to manage employee skills, competencies, and CVs?"
+    scope: project
+    audience: [human, developer]
+    validated: 2022-12-01
+    triggers: [ACS, competence, cv, skills, employee, skill matrix, HR, awesome competence system, skill search]
+
+  # ──────────────────────────────────────────────
+  # REPO-LEVEL DOCUMENTATION (repos/ section)
+  # ──────────────────────────────────────────────
+
+  - id: repo-kcp
+    path: repos/knowledge-context-protocol.md
+    intent: "What is the Knowledge Context Protocol (KCP), what does the v0.7 spec define, and how do the bridges and tooling work?"
+    scope: module
+    audience: [developer, agent, architect]
+    validated: 2026-03-08
+    triggers: [KCP, knowledge context protocol, knowledge.yaml, kcp_version, mcp bridge, kcp-mcp, kcp-commands, delegation, compliance, a2a, agent cards, agentic systems, llms.txt alternative]
+
+  - id: repo-messi
+    path: repos/MessiProject.md
+    intent: "What is Messi and how does its provider-based messaging abstraction work?"
+    scope: module
+    audience: [developer]
+    validated: 2022-12-01
+    triggers: [messi, messaging, streaming, S3, SQS, kinesis, GCS, rabbitmq, abstraction layer, event streaming]
+
+  - id: repo-xorcery
+    path: repos/xorcery.md
+    intent: "What is Xorcery and how do I build reactive event-sourced Java microservices with it?"
+    scope: module
+    audience: [developer, architect]
+    validated: 2022-12-01
+    triggers: [xorcery, reactive, event sourcing, HK2, YAML config, microservices framework, RxJava, extensions]
+
+  - id: repo-visuale
+    path: repos/visuale.md
+    intent: "How do I set up Visuale to monitor and visualise the health of a microservice environment?"
+    scope: module
+    audience: [developer, operator]
+    validated: 2022-12-01
+    triggers: [visuale, monitoring, dashboard, microservice health, service visualisation, real-time]
+
+  # ──────────────────────────────────────────────
+  # KNOWLEDGE BASE: SOFTWARE ARCHITECTURE
+  # ──────────────────────────────────────────────
+
+  - id: architecture-index
+    path: architecture/index.md
+    intent: "What software architecture patterns, principles, and resources has the Cantara community documented?"
+    scope: global
+    audience: [architect, developer]
+    validated: 2022-12-01
+    triggers: [software architecture, DDD, microservices, CQRS, event sourcing, patterns, domain-driven design, architect]
+
+  # ──────────────────────────────────────────────
+  # KNOWLEDGE BASE: AGILE DEVELOPMENT
+  # ──────────────────────────────────────────────
+
+  - id: dev-index
+    path: dev/index.md
+    intent: "What agile development practices, CI/CD patterns, testing strategies, and Maven guides are documented here?"
+    scope: global
+    audience: [developer, agent]
+    validated: 2022-12-01
+    triggers: [agile development, CI/CD, testing, Maven, clean code, Docker, Spring, continuous integration, TDD, build]
+
+  # ──────────────────────────────────────────────
+  # KNOWLEDGE BASE: OPEN WEB SERVICES & SOA
+  # ──────────────────────────────────────────────
+
+  - id: owsoa-index
+    path: OWSOA/index.md
+    intent: "What is the Cantara open web services and SOA strategy, and which enterprise integration patterns does it recommend?"
+    scope: global
+    audience: [architect, developer]
+    validated: 2022-12-01
+    triggers: [SOA, web services, REST, enterprise integration, service-oriented architecture, SOAP, patterns, service categorisation]
+
+  # ──────────────────────────────────────────────
+  # KNOWLEDGE BASE: ENTERPRISE ARCHITECTURE
+  # ──────────────────────────────────────────────
+
+  - id: ea-index
+    path: EA/index.md
+    intent: "What enterprise architecture frameworks, EDR approaches, and DSL strategies does the community recommend?"
+    scope: global
+    audience: [architect]
+    validated: 2022-12-01
+    triggers: [enterprise architecture, EA, TOGAF, Zachman, EDR, DSL, code generation, domain model, non-silo]
+
+  # ──────────────────────────────────────────────
+  # KNOWLEDGE BASE: AGILE RELEASE STRATEGIES
+  # ──────────────────────────────────────────────
+
+  - id: ars-index
+    path: ARS/index.md
+    intent: "Which agile release patterns enable continuous deployment, feature flags, and zero-downtime releases?"
+    scope: global
+    audience: [developer, architect, operator]
+    validated: 2022-12-01
+    triggers: [ARS, agile release, continuous deployment, feature flags, canary, blue-green, zero-downtime, release strategy]
+
+  # ──────────────────────────────────────────────
+  # KNOWLEDGE BASE: KNOWLEDGE MANAGEMENT
+  # ──────────────────────────────────────────────
+
+  - id: km-index
+    path: KM/index.md
+    intent: "What knowledge management practices and community-of-practice strategies are documented here?"
+    scope: global
+    audience: [human, architect]
+    validated: 2022-12-01
+    triggers: [knowledge management, KM, communities of practice, CoP, documentation, learning, knowledge sharing]
+
+  # ──────────────────────────────────────────────
+  # KNOWLEDGE BASE: SECURITY
+  # ──────────────────────────────────────────────
+
+  - id: security-index
+    path: security/index.md
+    intent: "What web application security practices, attack patterns, and secure development strategies are covered?"
+    scope: global
+    audience: [developer, architect]
+    validated: 2022-12-01
+    triggers: [security, STRIDE, web security, attacks, OWASP, secure development, token security, microservices security]
+
+  # ──────────────────────────────────────────────
+  # COMMUNITY: PLATFORM ENGINEERING / EVENTS
+  # ──────────────────────────────────────────────
+
+  - id: pe-index
+    path: PE/index.md
+    intent: "What community activities, GeekCruises, and CiA conferences has Cantara organised since 2008?"
+    scope: global
+    audience: [human]
+    validated: 2022-12-01
+    triggers: [platform engineering, GeekCruise, CiA, community, events, conference, Norwegian, meetup, DevHouse]
+
+  # ──────────────────────────────────────────────
+  # COMMUNITY: IASA OSLO
+  # ──────────────────────────────────────────────
+
+  - id: iasa-index
+    path: IASA/index.md
+    intent: "What architecture talks, sessions, and resources does the IASA Oslo chapter provide?"
+    scope: global
+    audience: [human, architect]
+    validated: 2022-12-01
+    triggers: [IASA, Oslo Software Architecture, architecture community, talks, IASA Oslo, 3500 members, architect training]
+
+relationships:
+
+  # Architecture knowledge enables understanding of Whydah's design
+  - from: architecture-index
+    to: whydah-architecture
+    type: enables
+
+  # Architecture knowledge enables understanding of Xorcery's reactive/event-sourcing design
+  - from: architecture-index
+    to: repo-xorcery
+    type: enables
+
+  # SOA patterns are a foundational subset of software architecture
+  - from: owsoa-index
+    to: architecture-index
+    type: context
+
+  # Enterprise architecture frames software architecture decisions
+  - from: ea-index
+    to: architecture-index
+    type: context
+
+  # Development practices implement architectural decisions
+  - from: dev-index
+    to: architecture-index
+    type: context
+
+  # Release strategies are part of the broader development lifecycle
+  - from: ars-index
+    to: dev-index
+    type: context
+
+  # Knowledge management supports development teams
+  - from: km-index
+    to: dev-index
+    type: context
+
+  # Security knowledge contextualises Whydah's IAM design
+  - from: security-index
+    to: whydah-index
+    type: context
+
+  # JAU is used to deploy Whydah components (zero-downtime upgrades)
+  - from: jau-index
+    to: whydah-index
+    type: enables
+
+  # Xorcery is the reactive foundation that underpins Messi's streaming model
+  - from: repo-xorcery
+    to: repo-messi
+    type: enables
+
+  # The architecture overview is prerequisite reading before getting started
+  - from: whydah-architecture
+    to: whydah-start
+    type: enables
+
+  # The whydah index provides full doc context around the getting-started page
+  - from: whydah-index
+    to: whydah-start
+    type: context
+
+  # The repos index provides technical repository detail for all projects
+  - from: repos-index
+    to: projects-index
+    type: context
+
+  # The repos index provides specific repository detail for KCP
+  - from: repos-index
+    to: repo-kcp
+    type: context
+
+  # The repos index provides specific repository detail for Whydah docs
+  - from: repos-index
+    to: whydah-index
+    type: context
+
+  # The repos index provides repository detail for JAU/ConfigService
+  - from: repos-index
+    to: jau-index
+    type: context
+
+  # The repos index provides repository detail for Blitz
+  - from: repos-index
+    to: blitz-index
+    type: context
+
+  # Visuale monitoring complements JAU deployment operations
+  - from: repo-visuale
+    to: jau-index
+    type: context
+
+  # The knowledge hub aggregates all knowledge base sections
+  - from: knowledge-hub
+    to: architecture-index
+    type: context
+
+  - from: knowledge-hub
+    to: dev-index
+    type: context
+
+  - from: knowledge-hub
+    to: owsoa-index
+    type: context
+
+  - from: knowledge-hub
+    to: ea-index
+    type: context
+
+  - from: knowledge-hub
+    to: ars-index
+    type: context
+
+  - from: knowledge-hub
+    to: km-index
+    type: context
+
+  - from: knowledge-hub
+    to: security-index
+    type: context
+
+  # IASA Oslo community contextualises the architecture knowledge base
+  - from: iasa-index
+    to: architecture-index
+    type: context
+
+  # Platform Engineering community section contextualises dev practices
+  - from: pe-index
+    to: dev-index
+    type: context
+
+  # llms-full is the detailed companion to the concise llms.txt index
+  - from: llms-full
+    to: llms-index
+    type: context
