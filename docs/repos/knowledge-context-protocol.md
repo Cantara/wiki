@@ -1,13 +1,13 @@
 # knowledge-context-protocol
 
-*No description provided.*
+*A structured metadata standard that makes knowledge navigable by AI agents.*
 
 | Field | Value |
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/knowledge-context-protocol](https://github.com/Cantara/knowledge-context-protocol) |
-| **Language** | Java |
+| **Language** | Java · TypeScript · Python |
 | **Stars** | 7 |
-| **Last updated** | 2026-03-09 |
+| **Last updated** | 2026-03-10 |
 
 ---
 
@@ -19,35 +19,11 @@
 
 **KCP is to knowledge what MCP is to tools.**
 
-→ [**Website**](https://cantara.github.io/knowledge-context-protocol/) · [**Read the spec**](./SPEC.md) · [Read the proposal](./PROPOSAL.md)
+→ [**Website**](https://cantara.github.io/knowledge-context-protocol/) · [**Read the spec**](https://github.com/Cantara/knowledge-context-protocol/blob/main/SPEC.md) · [Read the proposal](https://github.com/Cantara/knowledge-context-protocol/blob/main/PROPOSAL.md)
 
 The [Model Context Protocol](https://modelcontextprotocol.io) defines how agents connect to tools.
 KCP defines how knowledge is structured so those tools can serve it effectively.
 MCP solved the tool connectivity problem. KCP addresses the knowledge structure problem that remains.
-
----
-
-## In 30 Seconds
-
-Drop a `knowledge.yaml` at the root of any project. Agents stop guessing and start navigating.
-
-```yaml
-kcp_version: "0.7"
-project: my-project
-version: 1.0.0
-units:
-  - id: overview
-    path: README.md
-    intent: "What is this project and how do I get started?"
-    scope: global
-    audience: [human, agent]
-    triggers: [overview, getting started, quickstart]
-```
-
-**Validated result:** 53–80% fewer agent tool calls vs unguided exploration
-(tested across 5 frameworks: crewAI, AutoGen, smolagents, LangChain, OpenCode).
-
-**Five minutes to Level 1.** See [adopting KCP in existing projects](./guides/adopting-kcp-in-existing-projects.md).
 
 ---
 
@@ -82,6 +58,9 @@ project or documentation site. It adds the metadata layer that llms.txt cannot e
 - **Freshness**: when each unit was last validated, and against what
 - **Selective loading**: agents query by task context, not by URL guessing
 - **Audience targeting**: which units are for humans, which for agents, which for both
+- **Access control**: `access`, `auth_scope`, `auth.methods` for multi-tenant agent systems
+- **Delegation**: `delegation` block controls whether and how agents may re-delegate tasks
+- **Compliance**: `compliance` block carries data residency, regulations, and sensitivity
 
 ---
 
@@ -90,6 +69,7 @@ project or documentation site. It adds the metadata layer that llms.txt cannot e
 ### Root Manifest: `knowledge.yaml`
 
 ```yaml
+kcp_version: "0.9"
 project: <name>
 version: 1.0.0
 updated: <ISO date>
@@ -100,27 +80,29 @@ hints:                             # optional — manifest-level aggregate hints
   total_token_estimate: <integer>
   recommended_entry_point: <unit-id>
   has_summaries: true | false
-trust:                             # optional — publisher provenance and audit
+trust:                             # optional — publisher provenance
   provenance:
     publisher: <string>
     publisher_url: <string>
     contact: <string>
-  audit:                           # optional — agent audit requirements
+  audit:                           # optional — traceability requirements (v0.6+)
     agent_must_log: true | false
     require_trace_context: true | false
-auth:                              # optional — authentication methods
-  methods:
-    - type: none | oauth2 | api_key
-delegation:                        # optional — delegation constraints (v0.7)
-  max_depth: 3                     # 0 = no delegation; absent = unlimited
-  require_capability_attenuation: true
-  audit_chain: true
-  human_in_the_loop: recommended
-compliance:                        # optional — data governance (v0.7)
-  data_residency: [EU]
-  sensitivity: confidential
-  regulations: [GDPR, NIS2]
-  restrictions: [no_ai_training]
+auth:                              # optional — authentication methods (v0.5+)
+  methods: [none, oauth2, api_key]
+delegation:                        # optional — agent delegation policy (v0.7+)
+  max_depth: <integer>             # 0 = no delegation; owner = depth 0
+  require_capability_attenuation: true | false
+  audit_chain: true | false
+  human_in_the_loop:               # object (v0.7+)
+    required: true | false
+    approval_mechanism: oauth_consent | uma | custom
+    docs_url: <string>             # optional
+compliance:                        # optional — data and regulatory constraints (v0.7+)
+  data_residency: [<ISO 3166-1 alpha-2>, ...]
+  sensitivity: public | internal | confidential | restricted
+  regulations: [gdpr, hipaa, pci-dss, sox, nis2, eu-ai-act, ccpa, iso27001, nist-csf, fedramp, dora, apra]
+  restrictions: [no-cross-border, no-cloud, no-third-party-ai, human-review-required, audit-required, encrypted-at-rest]
 payment:                           # optional — default monetisation tier
   default_tier: free | metered | subscription
 
@@ -142,24 +124,58 @@ units:
     supersedes: <unit-id>              # optional
     triggers: [<keyword>, ...]         # optional
     hints:                             # optional — context window hints
-      token_estimate: <integer>        # approximate token count
-      load_strategy: eager | lazy | never  # when to load; default: lazy
-      priority: critical | supplementary | reference  # eviction order; default: supplementary
-      density: dense | standard | verbose  # information density; default: standard
-      summary_available: true | false  # shorter version exists in this manifest
-      summary_unit: <unit-id>          # id of the summary unit
-      summary_of: <unit-id>            # id of the full unit this summarises
+      token_estimate: <integer>
+      load_strategy: eager | lazy | never
+      priority: critical | supplementary | reference
+      density: dense | standard | verbose
+      summary_available: true | false
+      summary_unit: <unit-id>
+      summary_of: <unit-id>
     access: public | authenticated | restricted  # optional; default: public
-    auth_scope: <string>               # optional — opaque scope token for restricted units
+    auth_scope: <string>               # optional — scope/role required (v0.5+)
     sensitivity: public | internal | confidential | restricted  # optional
     deprecated: true | false          # optional; default: false
+    delegation:                        # optional — per-unit override (v0.7+)
+      max_depth: <integer>
+      require_capability_attenuation: true | false
+      audit_chain: true | false
+      human_in_the_loop:
+        required: true | false
+        approval_mechanism: oauth_consent | uma | custom
+    compliance:                        # optional — per-unit override (v0.7+)
+      data_residency: [<ISO 3166-1 alpha-2>, ...]
+      sensitivity: public | internal | confidential | restricted
+      regulations: [...]
+      restrictions: [...]
     payment:                           # optional — override root default
       default_tier: free | metered | subscription
 
 relationships:
   - from: <unit-id>
     to: <unit-id>
-    type: enables | context | supersedes | contradicts
+    type: enables | context | supersedes | contradicts | depends_on | governs
+
+manifests:                         # optional — federation block (v0.9+)
+  - id: <local-identifier>         # REQUIRED: unique within this manifest
+    url: "https://..."             # REQUIRED: HTTPS only
+    label: <string>                # RECOMMENDED
+    relationship: child | foundation | governs | peer | archive
+    update_frequency: <§4.6b vocab>
+    local_mirror: <relative-path>  # OPTIONAL: air-gapped fallback
+
+external_relationships:            # optional — cross-manifest links (v0.9+)
+  - from_unit: <unit-id>
+    to_manifest: <manifests[].id>
+    to_unit: <unit-id>
+    type: <same vocab as relationships>
+```
+
+Unit-level federation field (v0.9+):
+```yaml
+    external_depends_on:
+      - manifest: <manifests[].id>
+        unit: <unit-id>
+        on_failure: skip | warn | degrade   # default: skip
 ```
 
 ### Knowledge Unit Fields
@@ -184,11 +200,11 @@ relationships:
 | `triggers` | optional | Task contexts or keywords that make this unit relevant |
 | `hints` | optional | Advisory context window hints: `token_estimate`, `load_strategy`, `priority`, `density`, `summary_available`, `summary_unit`, `summary_of` |
 | `access` | optional | Who can fetch this unit: `public` (default), `authenticated`, `restricted` |
-| `auth_scope` | optional | Opaque scope token indicating which credential scope is needed (meaningful when `access` is `restricted`) |
+| `auth_scope` | optional | Opaque scope/role string required when `access: restricted` (v0.5+) |
 | `sensitivity` | optional | Information classification: `public`, `internal`, `confidential`, `restricted` |
 | `deprecated` | optional | If `true`, this unit is present but should not be used for new development |
-| `delegation` | optional | Per-unit delegation override: `max_depth`, `require_capability_attenuation`, `audit_chain`, `human_in_the_loop` |
-| `compliance` | optional | Per-unit compliance override: `data_residency`, `sensitivity`, `regulations`, `restrictions` |
+| `delegation` | optional | Per-unit delegation policy override (v0.7+) |
+| `compliance` | optional | Per-unit data residency and regulatory constraints (v0.7+) |
 | `payment` | optional | Monetisation tier: `default_tier: free \| metered \| subscription` |
 
 ### Minimum Viable KCP
@@ -196,7 +212,7 @@ relationships:
 Five fields per unit are enough to start:
 
 ```yaml
-kcp_version: "0.7"
+kcp_version: "0.9"
 project: my-project
 version: 1.0.0
 units:
@@ -215,13 +231,26 @@ The standard allows complexity but does not demand it.
 
 ```yaml
 # knowledge.yaml
-kcp_version: "0.7"
+kcp_version: "0.9"
 project: wiki.example.org
 version: 1.0.0
-updated: "2026-02-28"
+updated: "2026-03-08"
 language: en
 license: "Apache-2.0"
 indexing: open
+
+trust:
+  audit:
+    agent_must_log: true
+    require_trace_context: false
+
+delegation:
+  max_depth: 1
+  require_capability_attenuation: true
+  audit_chain: true
+  human_in_the_loop:
+    required: true
+    approval_mechanism: oauth_consent
 
 units:
   - id: about
@@ -229,7 +258,7 @@ units:
     intent: "Who maintains this project? Background, current work, contact."
     scope: global
     audience: [human, agent]
-    validated: "2026-02-24"
+    validated: "2026-03-08"
     update_frequency: monthly
 
   - id: methodology
@@ -239,33 +268,25 @@ units:
     scope: global
     audience: [developer, architect, agent]
     depends_on: [about]
-    validated: "2026-02-13"
+    validated: "2026-03-08"
     triggers: ["methodology", "productivity", "workflow"]
 
-  - id: api-spec
-    kind: schema
-    path: api/openapi.yaml
-    intent: "What endpoints does the API expose?"
-    format: openapi
-    scope: module
-    audience: [developer, agent]
-    validated: "2026-02-25"
-    update_frequency: weekly
-
-  - id: knowledge-infrastructure
-    path: tools/knowledge-infra.md
-    intent: "How is knowledge infrastructure set up? Architecture, indexing, deployment."
+  - id: compliance-policy
+    path: policies/data-handling.md
+    intent: "What data handling constraints apply to agents using this knowledge base?"
     scope: global
-    audience: [developer, devops, agent]
-    depends_on: [methodology]
-    validated: "2026-02-28"
-    supersedes: knowledge-infra-v1
-    triggers: ["knowledge infrastructure", "MCP", "code search", "indexing"]
+    audience: [agent, architect]
+    validated: "2026-03-08"
+    compliance:
+      data_residency: [NO, EU]
+      sensitivity: internal
+      regulations: [gdpr, nis2]
+      restrictions: [no-cross-border, audit-required]
 
 relationships:
   - from: methodology
-    to: knowledge-infrastructure
-    type: enables
+    to: compliance-policy
+    type: context
   - from: about
     to: methodology
     type: context
@@ -282,22 +303,22 @@ Drop a `knowledge.yaml` alongside your `llms.txt`. Add `id`, `path`, and `intent
 pages. Five minutes. Immediately navigable by agents.
 
 **Level 2 — Open source projects**
-Add `depends_on`, `validated`, and `hints` (at minimum `token_estimate`, `load_strategy`, and
-the `summary_available` / `summary_unit` / `summary_of` trio). Agents can now load documentation
-in dependency order, check freshness before acting on it, and prefer short TL;DR files over full
-documents when answering common questions.
+Add `depends_on`, `validated`, `auth_scope` (for any restricted units), and `hints` (at minimum
+`token_estimate`, `load_strategy`, and the `summary_available` / `summary_unit` / `summary_of`
+trio). Agents can now load documentation in dependency order, check freshness before acting on
+it, and prefer short TL;DR files over full documents when answering common questions.
 
 **Level 3 — Enterprise documentation**
 Use the full field set including `triggers`, `audience`, `relationships`, and advanced hints
-(`priority`, `density`, chunking). Build knowledge-graph-navigable documentation that supports
-multiple agent roles querying the same corpus with different task contexts and constrained
-context budgets.
+(`priority`, `density`, chunking). Add `auth.methods`, `trust.audit`, and `compliance` blocks.
+Build knowledge-graph-navigable documentation that supports multiple agent roles querying the
+same corpus with different task contexts and constrained context budgets.
 
-**Level 4 — Multi-agent systems**
-Add `auth`, `delegation`, and `compliance` blocks. Pair with an A2A Agent Card
-(`/.well-known/agent.json`) and link to KCP via the `knowledgeManifest` convention.
-Enforce delegation depth, capability attenuation, HITL gates, and data residency
-constraints across agent chains.
+**Level 4 — Agentic systems and multi-agent pipelines**
+Add `delegation` constraints (root and per-unit), populate `compliance.regulations` and
+`restrictions`, and set `trust.audit.agent_must_log`. KCP becomes a behavioural guardrail:
+delegation depth, capability attenuation, and human-in-the-loop requirements are declared in the
+manifest and enforced by KCP-aware agents and orchestrators.
 
 ---
 
@@ -315,8 +336,6 @@ Where KCP goes further: the `intent` field (what question does this unit answer?
 that arise specifically when the consumer is a context-window-constrained AI agent rather than an
 API client.
 
-See [SPEC.md §11](./SPEC.md#11-relationship-to-hateoas) for a full treatment.
-
 ---
 
 ## Relationship to MCP and Synthesis
@@ -332,83 +351,60 @@ that implements it.
 `synthesis export --format kcp` will generate a `knowledge.yaml` from an existing
 Synthesis index automatically.
 
-**A2A** (Agent-to-Agent, Google) defines how agents discover and invoke each other via
-`/.well-known/agent.json` Agent Cards. A2A is the transport/invocation layer (per-agent
-granularity). KCP is the knowledge-access layer (per-unit granularity). They are complementary:
-an Agent Card describes what an agent can do; a KCP manifest describes what it knows.
-See [SPEC.md §12](./SPEC.md#12-relationship-to-a2a) and [examples/a2a-agent-card/](./examples/a2a-agent-card/).
+---
 
-**[kcp-commands](https://github.com/Cantara/kcp-commands)** is a KCP-native Claude Code hook that
-applies the KCP principle at the Bash tool boundary. Each manifest is a `knowledge.yaml`-compatible
-description of a CLI command: syntax hints injected before execution (Phase A), noise-filtered
-output after execution (Phase B). 283 manifests bundled; unknown commands auto-generate manifests
-from `--help` output. Measured saving: **67,352 tokens per session — 33.7% of a 200K context
-window recovered**.
+## Relationship to A2A (Agent-to-Agent Protocol)
 
-**[opencode-kcp-plugin](https://www.npmjs.com/package/opencode-kcp-plugin)** is a KCP-native
-plugin for [OpenCode](https://github.com/anomalyco/opencode). It injects the `knowledge.yaml`
-knowledge map into every session's system prompt and annotates glob/grep results with KCP intent
-strings — reducing explore-agent tool calls by 73–80%. Install:
-`npm install opencode-kcp-plugin` and add `"plugin": ["opencode-kcp-plugin"]` to `opencode.json`.
-Source: [`plugins/opencode/`](./plugins/opencode/)
+Google's **A2A protocol** defines how agents discover each other and exchange tasks using *agent
+cards* (`/.well-known/agent.json`). KCP and A2A operate at different layers:
 
-**[kcp-memory](https://github.com/Cantara/kcp-memory)** is the episodic memory layer for Claude
-Code. Indexes `~/.claude/projects/**/*.jsonl` session transcripts and `~/.kcp/events.jsonl`
-tool-call events into a local SQLite+FTS5 database. Three-layer memory model: working (context
-window) → episodic (kcp-memory) → semantic (Synthesis). Runs as a daemon (port 7735), CLI, and
-MCP server (6 tools: `kcp_memory_search`, `kcp_memory_events_search`, `kcp_memory_list`,
-`kcp_memory_stats`, `kcp_memory_session_detail`, `kcp_memory_project_context`). PostToolUse hook
-for near-real-time indexing. v0.4.0 — proactive session-start context via `PWD` detection.
-Install: `curl -fsSL https://raw.githubusercontent.com/Cantara/kcp-memory/main/bin/install.sh | bash`
+| Layer | Protocol | Handles |
+|-------|----------|---------|
+| Transport / invocation | A2A | Agent discovery, task lifecycle, message exchange |
+| Knowledge access | KCP | What knowledge an agent may read, under what constraints |
+
+A2A agent cards say *what an agent can do*. A KCP manifest says *what an agent may know*.
+An agent card can embed or reference a `knowledge.yaml` to declare the knowledge scope of its
+skills. The `delegation` and `compliance` blocks added in KCP v0.7 are designed to interoperate
+with A2A's capability model.
+
+The [KCP simulation suite](https://github.com/Cantara/knowledge-context-protocol/tree/main/examples)
+includes 4 scenarios (150 adversarial tests) validating this integration:
+
+- **a2a-agent-card** — A2A card embedding a KCP manifest
+- **scenario1-energy-metering** — IoT data pipeline with residency constraints
+- **scenario2-legal-delegation** — Multi-jurisdiction legal workflow with max_depth enforcement
+- **scenario3-financial-aml** — AML compliance with audit chain and human-in-the-loop
 
 ---
 
-## Blog series
+## Ecosystem
 
-The full design rationale, benchmarks, and adoption walkthroughs are documented at
-[wiki.totto.org](https://wiki.totto.org) in the **Knowledge Context Protocol** series:
-
-| Post | Key content |
-|------|-------------|
-| [Beyond llms.txt: AI Agents Need Maps, Not Tables of Contents](https://wiki.totto.org/blog/2026/02/25/beyond-llms-txt-knowledge-context-protocol/) | Why llms.txt has six structural limits; KCP proposal |
-| [Add knowledge.yaml to Your Project in Five Minutes](https://wiki.totto.org/blog/2026/02/28/kcp-adoption-guide/) | Adoption gradient Level 1–3 with field reference |
-| [KCP on Two Repos, Two Days](https://wiki.totto.org/blog/2026/03/01/kcp-two-repos-two-days/) | 74% + 53% tool-call reduction, benchmark methodology |
-| [KCP on Three Agent Frameworks](https://wiki.totto.org/blog/2026/03/01/kcp-three-frameworks/) | AutoGen 80%, CrewAI 76%, smolagents 73% |
-| [kcp-commands: Save 33% of Context Window](https://wiki.totto.org/blog/2026/03/02/kcp-commands/) | Phase A/B/C design, 283 manifests, 67K tokens saved |
-| [KCP Comes to OpenCode](https://wiki.totto.org/blog/2026/03/03/opencode-kcp-plugin/) | opencode-kcp-plugin: system prompt injection + glob annotation |
-| [kcp-memory: Give Claude Code a Memory](https://wiki.totto.org/blog/2026/03/03/kcp-memory/) | Three-layer memory model, MCP server, 6 tools |
-| [The Front Door and the Filing Cabinet: A2A Agent Cards Meet KCP](https://wiki.totto.org/blog/2026/03/08/the-front-door-and-the-filing-cabinet-a2a-agent-cards-meet-kcp/) | A2A + KCP composability; 4 simulators, 150 adversarial tests; 8 spec gaps → v0.7 |
-
----
-
-## Governance
-
-KCP has been submitted to the **[Agentic AI Foundation](https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation)** (Linux Foundation, launched December 2025) for consideration as a neutral-governance project alongside MCP and AGENTS.md. The AAIF brings together 146 member organizations — including AWS, Anthropic, Google, Microsoft, and OpenAI — under neutral governance for agentic infrastructure standards.
-
-Until formal acceptance, KCP remains an Apache 2.0 open specification proposed by [eXOReaction AS](https://www.exoreaction.com).
+| Package | Language | Description |
+|---------|----------|-------------|
+| [`kcp-mcp`](https://www.npmjs.com/package/kcp-mcp) v0.12.0 | TypeScript | MCP bridge — expose any `knowledge.yaml` as MCP resources, tools, and prompts. Adds `list_manifests` tool (v0.9+). |
+| [`kcp-mcp`](https://github.com/Cantara/knowledge-context-protocol/tree/main/bridge/java) v0.12.0 | Java | Full-parity Java MCP bridge |
+| [`kcp-mcp`](https://github.com/Cantara/knowledge-context-protocol/tree/main/bridge/python) v0.12.0 | Python | Python MCP bridge (not yet on PyPI) |
+| [`kcp-commands`](https://www.npmjs.com/package/kcp-commands) v0.12.0 | TypeScript | 284 YAML manifests for common CLI tools — syntax injection + noise filtering for AI agents |
+| [`kcp-memory`](https://github.com/Cantara/kcp-memory) | YAML | KCP manifests for AI session memory patterns |
 
 ---
 
 ## Status
 
-**Current:** Draft specification — v0.7
+**Current:** v0.9 (stable spec — March 10, 2026) · [tagged v0.9.0](https://github.com/Cantara/knowledge-context-protocol/releases/tag/v0.9.0)
 
-This is an early proposal. The format is intentionally minimal. Feedback, use cases, and pull
-requests are welcome.
-
-- **[SPEC.md](./SPEC.md)** — Normative specification (field definitions, validation rules, conformance levels)
-- **[PROPOSAL.md](./PROPOSAL.md)** — The case for a knowledge architecture standard
-- **[RFC-0001](./RFC-0001-KCP-Extended.md)** — Extended capabilities (overview of all proposals; F/H/I/J/K/L/N promoted to v0.3–v0.4 core)
-- **[RFC-0002](./RFC-0002-Auth-and-Delegation.md)** — Auth and delegation metadata (`access`, `auth_scope`, `auth` promoted to core in v0.5–v0.6; `delegation` promoted to core in v0.7)
-- **[RFC-0003](./RFC-0003-Federation.md)** — Cross-manifest federation proposal (`manifests` block, `external_depends_on`, hub-and-spoke model)
-- **[RFC-0004](./RFC-0004-Trust-and-Compliance.md)** — Trust, provenance, and compliance metadata (`trust.provenance`, `sensitivity` promoted in v0.5; `trust.audit` promoted in v0.6; `compliance` promoted to core in v0.7)
-- **[RFC-0005](./RFC-0005-Payment-and-Rate-Limits.md)** — Payment and rate-limit metadata proposal (`payment`, `rate_limits` blocks)
-- **[RFC-0006](./RFC-0006-Context-Window-Hints.md)** — Context window hints (accepted; promoted to SPEC.md §4.10 in v0.4)
-- **parsers/** — Reference parser/validator implementations (Python, Java) — 401 tests passing
-- **bridge/** — MCP servers: expose any `knowledge.yaml` as MCP resources (TypeScript · Python · Java). The TypeScript parser, validator, and mapper live in `bridge/typescript/src/` (parser.ts, validator.ts, mapper.ts).
-- **plugins/opencode/** — OpenCode plugin (`opencode-kcp-plugin` on npm)
-- **examples/** — Reference manifests at four adoption levels plus 4 simulation scenarios (150 adversarial tests: A2A+KCP clinical research, energy metering HITL, legal delegation chains, financial AML)
-- **[kcp-memory](https://github.com/Cantara/kcp-memory)** — Episodic memory daemon for Claude Code (separate repo)
+- **[SPEC.md](https://github.com/Cantara/knowledge-context-protocol/blob/main/SPEC.md)** — Normative specification (field definitions, validation rules, conformance levels)
+- **[PROPOSAL.md](https://github.com/Cantara/knowledge-context-protocol/blob/main/PROPOSAL.md)** — The case for a knowledge architecture standard
+- **[RFC-0001](https://github.com/Cantara/knowledge-context-protocol/blob/main/RFC-0001-KCP-Extended.md)** — Extended capabilities overview (F/H/I/J/K/L/N promoted to v0.3–v0.4 core)
+- **[RFC-0002](https://github.com/Cantara/knowledge-context-protocol/blob/main/RFC-0002-Auth-and-Delegation.md)** — Auth and delegation (`access`, `auth`, `auth_scope` promoted to v0.5; `delegation` promoted to v0.7)
+- **[RFC-0003](https://github.com/Cantara/knowledge-context-protocol/blob/main/RFC-0003-Federation.md)** — ~~Cross-manifest federation proposal~~ **Promoted to core in v0.9** (§3.6) — DAG with local authority, `manifests` block, `external_depends_on`, `on_failure`, `local_mirror`
+- **[RFC-0004](https://github.com/Cantara/knowledge-context-protocol/blob/main/RFC-0004-Trust-and-Compliance.md)** — Trust, provenance, and compliance (`trust`, `compliance` promoted to v0.7; `trust.audit` promoted to v0.6)
+- **[RFC-0005](https://github.com/Cantara/knowledge-context-protocol/blob/main/RFC-0005-Payment-and-Rate-Limits.md)** — Payment and rate-limit metadata (`payment`, `rate_limits` promoted to v0.8)
+- **[RFC-0006](https://github.com/Cantara/knowledge-context-protocol/blob/main/RFC-0006-Context-Window-Hints.md)** — Context window hints (promoted to SPEC.md §4.10 in v0.4)
+- **parsers/** — Reference implementations (Python 100 tests, Java 90 tests, TypeScript 152 tests) — all at v0.9
+- **bridge/** — MCP servers: expose any `knowledge.yaml` as MCP resources, tools, and prompts (TypeScript · Python · Java) — all at v0.12.0
+- **examples/** — A2A integration simulator + 4 adversarial scenarios (150 tests) + federation example
 
 ---
 
