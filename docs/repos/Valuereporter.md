@@ -7,4 +7,4 @@ Valuereporter will show you which services your application actually are using, 
 | **GitHub** | [https://github.com/Cantara/Valuereporter](https://github.com/Cantara/Valuereporter) |
 | **Language** | JavaScript |
 | **Stars** | 1 |
-| **Last updated** | 2026-02-26 |
+| **Last updated** | 2026-03-14 |

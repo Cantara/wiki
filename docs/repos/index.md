@@ -1,6 +1,6 @@
 # GitHub Repository Index
 
-All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 146 repositories total.
+All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 147 repositories total.
 
 ---
 
@@ -151,9 +151,9 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [java-modules-json1](java-modules-json1.md) — Part of java-modules-demo. This library depends on Jackson 1.x
 - [java-modules-json2](java-modules-json2.md) — Part of java-modules-demo. This library depends on Jackson 2.x
 - [julebrus](julebrus.md)
-- [kcp-commands](kcp-commands.md) ★6
-- [kcp-memory](kcp-memory.md) ★1 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
-- [knowledge-context-protocol](knowledge-context-protocol.md) ★7
+- [kcp-commands](kcp-commands.md) ★7
+- [kcp-memory](kcp-memory.md) ★3 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
+- [knowledge-context-protocol](knowledge-context-protocol.md) ★12
 - [lib-electronic-components](lib-electronic-components.md) ★2
 - [logback-ext-cloudwatch-appender](logback-ext-cloudwatch-appender.md) — CloudWatch appender for Logback
 - [message-performance-sampler](message-performance-sampler.md) — Given timed incoming messages, use statistics package from apache commons math to sample total and windowed latency and throughput.
@@ -181,6 +181,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [sqs-util](sqs-util.md) ★2 — Utility lib for secure SQS
 - [stingray](stingray.md) — Java application framework with strong conventions and use of other Cantara components
 - [stingray-jdk8](stingray-jdk8.md) — Java application framework with strong conventions and use of other Cantara components
+- [Synthesis-Little-Brother](Synthesis-Little-Brother.md)
 - [terraform-aws-asg](terraform-aws-asg.md) — Autoscaling group module for Terraform
 - [terraform-aws-grafana](terraform-aws-grafana.md) — Terraform module which creates a Grafana deployment in a Fargate ECS cluster on AWS.
 - [terraform-aws-ssm-agent-policy](terraform-aws-ssm-agent-policy.md) — An IAM policy which grants the necessary permissions to run the SSM agent.

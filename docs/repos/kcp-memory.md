@@ -6,8 +6,8 @@ Episodic memory daemon for Claude Code — indexes session transcripts into SQLi
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/kcp-memory](https://github.com/Cantara/kcp-memory) |
 | **Language** | Java |
-| **Stars** | 1 |
-| **Last updated** | 2026-03-05 |
+| **Stars** | 3 |
+| **Last updated** | 2026-03-14 |
 
 ---
 
@@ -15,7 +15,7 @@ Episodic memory daemon for Claude Code — indexes session transcripts into SQLi
 
 # kcp-memory
 
-**Episodic memory for Claude Code.** Indexes your session transcripts and tool-call events into a local SQLite database — searchable in milliseconds. Available as a CLI, an HTTP API, and an MCP server so Claude can query its own history inline.
+**Episodic memory for Claude Code, Gemini CLI, and Codex CLI.** Indexes your session transcripts and tool-call events into a local SQLite database — searchable in milliseconds. Available as a CLI, an HTTP API, and an MCP server so Claude can query its own history inline.
 
 ```bash
 # CLI
@@ -23,10 +23,11 @@ kcp-memory search "OAuth implementation"
 kcp-memory events search "kubectl apply"
 kcp-memory stats
 
-# MCP — Claude queries directly during a session (6 tools)
+# MCP — Claude queries directly during a session (8 tools)
 # Register once in ~/.claude/settings.json, then call inline:
 #   kcp_memory_search · kcp_memory_events_search · kcp_memory_list
 #   kcp_memory_stats · kcp_memory_session_detail · kcp_memory_project_context
+#   kcp_memory_subagent_search · kcp_memory_session_tree          (v0.5.0)
 ```
 
 Part of the [KCP ecosystem](https://github.com/Cantara/knowledge-context-protocol).
@@ -63,7 +64,13 @@ Downloads the JAR to `~/.kcp/`, starts the daemon on port 7735, and runs an init
 kcp-memory scan
 ```
 
-Scans `~/.claude/projects/**/*.jsonl`. Incremental by default — only new or changed files re-indexed.
+Scans these transcript roots:
+
+- `~/.claude/projects/**/*.jsonl`
+- `~/.gemini/tmp/*/chats/session-*.json`
+- `~/.codex/sessions/YYYY/MM/DD/rollout-*.jsonl`
+
+Incremental by default — only new or changed files re-indexed.
 
 ### 3. Search session transcripts
 
@@ -135,9 +142,10 @@ kcp-commands v0.9.0 writes every Bash tool call to `~/.kcp/events.jsonl`.
 
 kcp-memory:
 1. **Scans** `~/.claude/projects/` for `.jsonl` session transcripts
-2. **Scans** `~/.kcp/events.jsonl` for tool-call events (incremental, byte-offset cursor)
-3. **Indexes** both into `~/.kcp/memory.db` (SQLite + FTS5)
-4. **Serves** an HTTP API on port 7735 and an MCP stdio server
+2. **Scans** `~/.claude/projects/**/<session>/subagents/agent-*.jsonl` for subagent transcripts, linking each to its parent session *(v0.5.0)*
+3. **Scans** `~/.kcp/events.jsonl` for tool-call events (incremental, byte-offset cursor)
+4. **Indexes** all three into `~/.kcp/memory.db` (SQLite + FTS5)
+5. **Serves** an HTTP API on port 7735 and an MCP stdio server
 
 The daemon runs a background scan every 30 minutes. The PostToolUse hook triggers an
 async scan after every tool call (near-real-time). The MCP server runs an inline scan
@@ -147,7 +155,7 @@ before every `kcp_memory_events_search` call.
 
 ## MCP server
 
-The MCP server exposes six tools over stdio (JSON-RPC 2.0):
+The MCP server exposes eight tools over stdio (JSON-RPC 2.0):
 
 | Tool | What it answers |
 |------|----------------|
@@ -157,6 +165,8 @@ The MCP server exposes six tools over stdio (JSON-RPC 2.0):
 | `kcp_memory_stats` | Total sessions, turns, tool calls, date range, top tools |
 | `kcp_memory_session_detail` | Full content of a specific session — user messages, files touched, tools used *(v0.4.0)* |
 | `kcp_memory_project_context` | Auto-detect current project from `PWD`, return last 5 sessions + 20 events — call at session start *(v0.4.0)* |
+| `kcp_memory_subagent_search` | FTS5 search within subagent transcripts — finds architectural discoveries, rejected approaches, and reasoning buried in delegated tasks *(v0.5.0)* |
+| `kcp_memory_session_tree` | Show a parent session and all its child subagents as a tree — reveals delegated scope and per-agent tool usage *(v0.5.0)* |
 
 Registration (`~/.claude/settings.json`):
 
@@ -175,6 +185,60 @@ The MCP server opens its own database connection — it does not require the HTT
 
 ---
 
+## Subagent memory (v0.5.0)
+
+When Claude Code delegates tasks via the Task tool, it spawns subagents that write their own
+transcript files alongside the main session:
+
+```
+~/.claude/projects/<project>/<session-uuid>/
+├── <session-uuid>.jsonl          ← main session (already indexed)
+└── subagents/
+    ├── agent-ae5fb06d98fb195b2.jsonl   ← subagent 1 (now indexed)
+    ├── agent-a6036b037ec3f4eed.jsonl   ← subagent 2 (now indexed)
+    └── ...
+```
+
+Each subagent file contains the full reasoning trail — tool calls, intermediate discoveries,
+rejected approaches — that the main session only receives as a compressed summary. In a
+typical session with heavy agent use, subagents contain 19% of total transcript data at a
+40:1 to 100:1 compression ratio in the summaries.
+
+v0.5.0 indexes all subagent files and links them to their parent sessions:
+
+```bash
+# Search within subagent transcripts
+kcp-memory agents search "CatalystOne HRIS"
+kcp-memory agents search "Flyway migration V3"
+
+# List agents spawned in a session
+kcp-memory agents list --session 624a7854-a7d2-4331-8ddb-7dab21e7064c
+
+# Show a session tree (parent + all child agents)
+kcp-memory session-tree 624a7854-a7d2-4331-8ddb-7dab21e7064c
+```
+
+MCP tools (for Claude to use inline):
+
+```
+kcp_memory_subagent_search  — "what did the agent discover about co-events architecture?"
+kcp_memory_session_tree     — "show me what agents ran in session 624a and what they investigated"
+```
+
+**What was previously lost:**
+
+| Knowledge type | Example | Now recoverable? |
+|---------------|---------|-----------------|
+| Reasoning trails | "I'll read pom.xml to understand the dependency tree" | ✅ FTS5 indexed |
+| Dead ends | "PATH NOT FOUND — pivoting to root listing" | ✅ FTS5 indexed |
+| Cross-repo discoveries | "co-converter depends on Xorcery Alchemy, not just core" | ✅ FTS5 indexed |
+| Investigation methodology | "Read knowledge.yaml first, then pom.xml, then source tree" | ✅ FTS5 indexed |
+
+Run `kcp-memory scan` after upgrading — it will retroactively index all existing subagent
+files and link them to their parent sessions.
+
+---
+
 ## Tool-call events (v0.2.0)
 
 Requires [kcp-commands v0.9.0](https://github.com/Cantara/kcp-commands) running as a
@@ -187,6 +251,15 @@ PreToolUse hook. On every Bash tool call, kcp-commands appends a JSON event to
 
 kcp-memory reads this file using a byte-offset cursor — each scan reads only the bytes
 appended since last time, typically one event in under 1ms.
+
+For Gemini/Codex hook integrations, this repo also ships a lightweight logger utility:
+
+```bash
+node /path/to/kcp-memory/bin/kcp-logger.js '{"session_id":"abc123","project_dir":"'$PWD'","tool":"post_tool_use","command":"mvn test"}'
+```
+
+It appends a normalized JSON line to `~/.kcp/events.jsonl`, so Gemini `AfterTool` and Codex
+`post_tool_use` hooks can feed the existing event index without any daemon changes.
 
 Search example:
 
@@ -290,6 +363,7 @@ alias kcp-memory='java -jar ~/.kcp/kcp-memory-daemon.jar'
 | v0.2.0 | Tool-level events — ingests `~/.kcp/events.jsonl` (kcp-commands v0.9.0), `kcp-memory events search` CLI + `/events/search` endpoint |
 | v0.3.0 | MCP server — `kcp-memory mcp` subcommand; four MCP tools for Claude Code inline use |
 | v0.4.0 | `kcp_memory_session_detail` (find → read flow) + `kcp_memory_project_context` (proactive session-start context from `PWD`) |
+| v0.5.0 | Subagent memory — indexes `subagents/agent-*.jsonl` files, parent-child session linking, `kcp_memory_subagent_search` + `kcp_memory_session_tree` MCP tools, `kcp-memory agents` CLI commands |
 
 ---
 
@@ -312,7 +386,7 @@ complementary — it makes the past retrievable and queryable.
 | **Stores** | Nothing (stateless) | `~/.kcp/memory.db` (SQLite) |
 | **Reads** | 283 command manifests | `~/.claude/projects/**/*.jsonl` + `~/.kcp/events.jsonl` |
 | **Answers** | "How do I run this?" | "What did I do before?" |
-| **MCP** | — | 6 tools (v0.4.0) |
+| **MCP** | — | 8 tools (v0.5.0) |
 
 Both use `~/.kcp/` and are part of the [KCP ecosystem](https://github.com/Cantara/knowledge-context-protocol).
 

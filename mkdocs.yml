@@ -2121,6 +2121,7 @@ nav:
       - "sqs util": repos/sqs-util.md
       - "stingray": repos/stingray.md
       - "stingray jdk8": repos/stingray-jdk8.md
+      - "Synthesis Little Brother": repos/Synthesis-Little-Brother.md
       - "terraform aws acm certificate": repos/terraform-aws-acm-certificate.md
       - "terraform aws asg": repos/terraform-aws-asg.md
       - "terraform aws break the seal": repos/terraform-aws-break-the-seal.md
