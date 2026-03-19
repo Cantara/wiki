@@ -1,8 +1,8 @@
-kcp_version: "0.11"
+kcp_version: "0.12"
 project: wiki
 description: "Archive of the Cantara open source community wiki, originally hosted at wiki.cantara.no (Confluence)."
 version: "0.1.0"
-updated: "2026-03-15"
+updated: "2026-03-19"
 
 units:
   - id: readme
