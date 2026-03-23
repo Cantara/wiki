@@ -7,7 +7,7 @@ Organizational SourceCode Dashboard Portal
 | **GitHub** | [https://github.com/Cantara/SourceCodePortal](https://github.com/Cantara/SourceCodePortal) |
 | **Language** | Java |
 | **Stars** | 6 |
-| **Last updated** | 2026-03-10 |
+| **Last updated** | 2026-03-19 |
 | **Topics** | `automation` `build-tool` `documentation` `github-api` `github-client` `github-webhooks` `source-code` |
 
 ---

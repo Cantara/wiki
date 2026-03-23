@@ -7,7 +7,7 @@ Common core library for ConfigService and ConfigService clients
 | **GitHub** | [https://github.com/Cantara/ConfigService-SDK](https://github.com/Cantara/ConfigService-SDK) |
 | **Language** | Java |
 | **Stars** | 2 |
-| **Last updated** | 2026-03-10 |
+| **Last updated** | 2026-03-20 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

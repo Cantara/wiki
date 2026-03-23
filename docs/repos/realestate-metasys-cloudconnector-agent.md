@@ -7,7 +7,7 @@ Read sensordata from Johnson Controls Metasys. Distribute these to the cloud eg 
 | **GitHub** | [https://github.com/Cantara/realestate-metasys-cloudconnector-agent](https://github.com/Cantara/realestate-metasys-cloudconnector-agent) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2026-03-12 |
+| **Last updated** | 2026-03-20 |
 
 ---
 

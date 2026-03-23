@@ -7,4 +7,4 @@
 | **GitHub** | [https://github.com/Cantara/julebrus](https://github.com/Cantara/julebrus) |
 | **Language** | — |
 | **Stars** | 0 |
-| **Last updated** | 2021-11-30 |
+| **Last updated** | 2026-03-19 |

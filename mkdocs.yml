@@ -2075,6 +2075,7 @@ nav:
       - "julebrus": repos/julebrus.md
       - "kcp commands": repos/kcp-commands.md
       - "kcp memory": repos/kcp-memory.md
+      - "kcp triage": repos/kcp-triage.md
       - "knowledge context protocol": repos/knowledge-context-protocol.md
       - "lib electronic components": repos/lib-electronic-components.md
       - "logback ext cloudwatch appender": repos/logback-ext-cloudwatch-appender.md
