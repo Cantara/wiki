@@ -1,6 +1,6 @@
 # GitHub Repository Index
 
-All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 148 repositories total.
+All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 149 repositories total.
 
 ---
 
@@ -94,6 +94,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [cantara-annual-christmasbeer](cantara-annual-christmasbeer.md) — A project to help score cantaras beer tastings.
 - [git-release-helper](git-release-helper.md) — helper cli tool for git based releases.
 - [gober](gober.md) — A simplification of distribution. Hopefully
+- [kcp-dashboard](kcp-dashboard.md)
 - [nerthus](nerthus.md) ★1
 - [nerthus-cli](nerthus-cli.md) — A cli to interact with Nerthus from the comforts of your terminal.
 - [nerthus2](nerthus2.md) — TMP repo for rewrite of Nerthus. Keeping the current running version easier maintainable.
@@ -151,10 +152,10 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [java-modules-json1](java-modules-json1.md) — Part of java-modules-demo. This library depends on Jackson 1.x
 - [java-modules-json2](java-modules-json2.md) — Part of java-modules-demo. This library depends on Jackson 2.x
 - [julebrus](julebrus.md)
-- [kcp-commands](kcp-commands.md) ★8
-- [kcp-memory](kcp-memory.md) ★4 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
-- [kcp-triage](kcp-triage.md) — LLM driven triage system for analyzing web pages and generating agentic clients based on KCP structure
-- [knowledge-context-protocol](knowledge-context-protocol.md) ★14
+- [kcp-commands](kcp-commands.md) ★9
+- [kcp-memory](kcp-memory.md) ★5 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
+- [kcp-triage](kcp-triage.md) ★1 — LLM driven triage system for analyzing web pages and generating agentic clients based on KCP structure
+- [knowledge-context-protocol](knowledge-context-protocol.md) ★16
 - [lib-electronic-components](lib-electronic-components.md) ★2
 - [logback-ext-cloudwatch-appender](logback-ext-cloudwatch-appender.md) — CloudWatch appender for Logback
 - [message-performance-sampler](message-performance-sampler.md) — Given timed incoming messages, use statistics package from apache commons math to sample total and windowed latency and throughput.

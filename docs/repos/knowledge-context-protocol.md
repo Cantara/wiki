@@ -6,8 +6,8 @@
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/knowledge-context-protocol](https://github.com/Cantara/knowledge-context-protocol) |
 | **Language** | Java |
-| **Stars** | 14 |
-| **Last updated** | 2026-03-20 |
+| **Stars** | 16 |
+| **Last updated** | 2026-03-27 |
 
 ---
 
@@ -32,7 +32,7 @@ MCP solved the tool connectivity problem. KCP addresses the knowledge structure 
 Drop a `knowledge.yaml` at the root of any project. Agents stop guessing and start navigating.
 
 ```yaml
-kcp_version: "0.10"
+kcp_version: "0.14"
 project: my-project
 version: 1.0.0
 units:
@@ -221,7 +221,7 @@ external_relationships:                # optional — cross-manifest relationshi
 Five fields per unit are enough to start:
 
 ```yaml
-kcp_version: "0.10"
+kcp_version: "0.14"
 project: my-project
 version: 1.0.0
 units:
@@ -240,7 +240,7 @@ The standard allows complexity but does not demand it.
 
 ```yaml
 # knowledge.yaml
-kcp_version: "0.10"
+kcp_version: "0.14"
 project: wiki.example.org
 version: 1.0.0
 updated: "2026-02-28"
@@ -386,6 +386,16 @@ MCP server (6 tools: `kcp_memory_search`, `kcp_memory_events_search`, `kcp_memor
 for near-real-time indexing. v0.4.0 — proactive session-start context via `PWD` detection.
 Install: `curl -fsSL https://raw.githubusercontent.com/Cantara/kcp-memory/main/bin/install.sh | bash`
 
+**[kcp-dashboard](https://github.com/Cantara/kcp-dashboard)** is a live terminal dashboard for
+KCP usage statistics. Built with [Bubble Tea](https://github.com/charmbracelet/bubbletea) +
+[Lip Gloss](https://github.com/charmbracelet/lipgloss) (Go). Shows queries served, units fetched,
+tokens saved, top units (bar chart), and recent queries — auto-refreshed every 2 seconds from
+`~/.kcp/usage.db` (RFC-0017). Keyboard: `q` quit · `d` cycle day range · `r` force refresh.
+Single binary, no runtime deps. Install:
+```bash
+curl -fsSL https://github.com/Cantara/kcp-dashboard/releases/latest/download/kcp-dashboard-$(uname -s | tr '[:upper:]' '[:lower:]')-$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/') -o ~/.local/bin/kcp-dashboard && chmod +x ~/.local/bin/kcp-dashboard
+```
+
 ---
 
 ## Blog series
@@ -416,10 +426,9 @@ Until formal acceptance, KCP remains an Apache 2.0 open specification proposed b
 
 ## Status
 
-**Current:** Draft specification — v0.10
+**Current:** Draft specification — v0.14
 
-This is an early proposal. The format is intentionally minimal. Feedback, use cases, and pull
-requests are welcome.
+The format is intentionally minimal and builds incrementally through promoted RFCs. Feedback, use cases, and pull requests are welcome.
 
 - **[SPEC.md](./SPEC.md)** — Normative specification (field definitions, validation rules, conformance levels)
 - **[PROPOSAL.md](./PROPOSAL.md)** — The case for a knowledge architecture standard
@@ -429,11 +438,20 @@ requests are welcome.
 - **[RFC-0004](./RFC-0004-Trust-and-Compliance.md)** — Trust, provenance, and compliance metadata (`trust.provenance`, `sensitivity` promoted in v0.5; `trust.audit` promoted in v0.6; `compliance` promoted to core in v0.7)
 - **[RFC-0005](./RFC-0005-Payment-and-Rate-Limits.md)** — Payment and rate-limit metadata proposal (`payment.default_tier` promoted to core in v0.5; `rate_limits` promoted to core in v0.8; payment methods and x402 remain RFC)
 - **[RFC-0006](./RFC-0006-Context-Window-Hints.md)** — Context window hints (accepted; promoted to SPEC.md §4.10 in v0.4)
+- **[RFC-0007](./RFC-0007-Query-Vocabulary.md)** — Query vocabulary (accepted; promoted to SPEC.md §15 in v0.14): `terms`, `audience`, `max_token_budget`, `has_capabilities`, `exclude_stale`, `federation_scope`
+- **[RFC-0008](./RFC-0008-Budget-Constrained-Selection.md)** — Budget-constrained selection (accepted; promoted to SPEC.md §15 in v0.14): scored results, token-budget-aware ranking
+- **[RFC-0012](./RFC-0012-Capability-Discovery-Provenance.md)** — Capability discovery provenance (accepted; promoted to SPEC.md v0.12): `discovery` block with `verification_status`, `confidence`, `source`, `contradicted_by`
+- **[RFC-0014](./RFC-0014-Manifest-Composition.md)** — Manifest composition (open RFC): `includes`, `overrides`, `excludes` — inherit base manifests without forking. Open for discussion.
+- **[RFC-0015](./RFC-0015-Negative-Space-Declarations.md)** — Negative space declarations (open RFC): `not_for` declares what a unit does NOT answer. `not_for_strict: true` for hard exclusion. First subtractive field in the spec.
+- **[RFC-0016](./RFC-0016-Content-Structure-Declaration.md)** — Content structure declaration (open RFC): `content_structure.primary` (prose/table/code/list/diagram/reference/mixed), `contains`, `density` (sparse/normal/dense). Lets RAG pipelines route before fetching.
+- **[RFC-0017](./RFC-0017-Observability-Hooks.md)** — Observability hooks (open RFC): local-first usage event schema at `~/.kcp/usage.db`. Bridges log `search` and `get_unit` events. Powers `kcp stats`.
 - **parsers/** — Reference parser/validator implementations (Python, Java) — 401 tests passing
 - **bridge/** — MCP servers: expose any `knowledge.yaml` as MCP resources (TypeScript · Python · Java). The TypeScript parser, validator, and mapper live in `bridge/typescript/src/` (parser.ts, validator.ts, mapper.ts).
+- **cli/** — Developer CLI: `init`, `validate`, `query`, `stats`. Installed automatically by [kcp-commands](https://github.com/Cantara/kcp-commands) — run `kcp stats` to see queries served, tokens saved, and top units from your local usage log.
 - **plugins/opencode/** — OpenCode plugin (`opencode-kcp-plugin` on npm)
 - **examples/** — Reference manifests at four adoption levels plus 4 simulation scenarios (150 adversarial tests: A2A+KCP clinical research, energy metering HITL, legal delegation chains, financial AML)
 - **[kcp-memory](https://github.com/Cantara/kcp-memory)** — Episodic memory daemon for Claude Code (separate repo)
+- **[kcp-dashboard](https://github.com/Cantara/kcp-dashboard)** — Live terminal dashboard for KCP usage stats (Go + Bubble Tea, single binary)
 
 ---
 

@@ -6,8 +6,8 @@ Episodic memory daemon for Claude Code — indexes session transcripts into SQLi
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/kcp-memory](https://github.com/Cantara/kcp-memory) |
 | **Language** | Java |
-| **Stars** | 4 |
-| **Last updated** | 2026-03-21 |
+| **Stars** | 5 |
+| **Last updated** | 2026-03-28 |
 
 ---
 
@@ -23,11 +23,13 @@ kcp-memory search "OAuth implementation"
 kcp-memory events search "kubectl apply"
 kcp-memory stats
 
-# MCP — Claude queries directly during a session (8 tools)
+# MCP — Claude queries directly during a session (10 tools)
 # Register once in ~/.claude/settings.json, then call inline:
 #   kcp_memory_search · kcp_memory_events_search · kcp_memory_list
 #   kcp_memory_stats · kcp_memory_session_detail · kcp_memory_project_context
 #   kcp_memory_subagent_search · kcp_memory_session_tree          (v0.5.0)
+#   kcp_memory_analyze                                            (v0.17.0)
+#   kcp_memory_stats (includes RFC-0017 bridge usage)             (v0.19.0)
 ```
 
 Part of the [KCP ecosystem](https://github.com/Cantara/knowledge-context-protocol).
@@ -59,6 +61,9 @@ curl -fsSL https://raw.githubusercontent.com/Cantara/kcp-memory/main/bin/install
 Downloads the JAR to `~/.kcp/`, starts the daemon on port 7735, and runs an initial scan of `~/.claude/projects/`.
 
 ### 2. Index your sessions
+
+> **Upgrading from v0.20.0 or earlier?** Run `kcp-memory scan --force` after upgrading.
+> v0.21.0 fixed a bug where `SessionParser` only accepted `"human"` message type but Claude Code sends `"user"` — all sessions had NULL `first_message` and FTS returned 0 results. A force-scan repopulates the data.
 
 ```bash
 kcp-memory scan
@@ -134,7 +139,50 @@ kcp-memory stats
     Edit                       7,103
 ```
 
-### 6. Register as MCP server (v0.3.0)
+### 6. Analyze manifest quality (v0.7.0) + version tracking (v0.16.0)
+
+Requires [kcp-commands v0.15.0](https://github.com/Cantara/kcp-commands) to be writing `exit_code_hint` fields to `~/.kcp/events.jsonl`.
+
+```bash
+kcp-memory analyze
+kcp-memory analyze --top 10 --since 30 --min-calls 5
+```
+
+Reads indexed tool-call events and computes per-manifest quality metrics — retry rate (same manifest called twice within 90s), help-followup rate (agent ran `--help` after getting a manifest), and error rate (output_preview contains error signals). Outputs a ranked table of manifests needing attention:
+
+```
+[kcp-memory] manifest quality analysis — 47 manifests, 1,234 total calls
+
+  MANIFEST KEY         CALLS   RETRIES  HELP-FOLLOWUP  ERRORS   SCORE
+  ──────────────────────────────────────────────────────────────────────
+  kubectl-apply          34      38%         12%         22%     0.31  ← needs attention
+  terraform               28      29%         18%          7%     0.24
+  mvn                     87       8%          2%          3%     0.05  ok
+
+  Tip: improve manifests at ~/.kcp/commands/<key>.yaml or submit a PR.
+```
+
+Options: `--top N` (default 20), `--since DAYS` (default 30), `--min-calls N` (default 5, filters low-signal manifests).
+
+#### Before/after version comparison (v0.16.0)
+
+Requires [kcp-commands v0.16.0](https://github.com/Cantara/kcp-commands) to be writing `manifest_version` fields (SHA-256 content hash of the active YAML).
+
+```bash
+kcp-memory analyze --by-version
+```
+
+Groups metrics by `(manifest_key, manifest_version)` so you can see whether a manifest improvement actually reduced retries and errors:
+
+```
+kubectl-apply:
+  [a3f8c2d1]  2026-03-01 → 2026-03-20   calls=34  retry=38%  score=0.31  ← before
+  [b7e1a920]  2026-03-21 → present       calls=12  retry=12%  score=0.08  ↓ 0.23
+```
+
+Events before v0.16.0 show as `[unknown]`. The hash changes automatically when the YAML file content changes — no manual tagging required.
+
+### 7. Register as MCP server (v0.3.0)
 
 Add to `~/.claude/settings.json`:
 
@@ -175,18 +223,19 @@ before every `kcp_memory_events_search` call.
 
 ## MCP server
 
-The MCP server exposes eight tools over stdio (JSON-RPC 2.0):
+The MCP server exposes ten tools over stdio (JSON-RPC 2.0):
 
 | Tool | What it answers |
 |------|----------------|
 | `kcp_memory_search` | "What did we do with OAuth last month?" — FTS5 over session transcripts |
 | `kcp_memory_events_search` | "Which projects did I run `kubectl apply` in?" — FTS5 over tool-call events |
 | `kcp_memory_list` | Recent sessions, optionally filtered by project directory |
-| `kcp_memory_stats` | Total sessions, turns, tool calls, date range, top tools |
+| `kcp_memory_stats` | Total sessions, turns, tool calls, date range, top tools. Also includes `kcpBridgeUsage` (searches, units fetched, tokens saved, top units) if `~/.kcp/usage.db` exists (RFC-0017). |
 | `kcp_memory_session_detail` | Full content of a specific session — user messages, files touched, tools used *(v0.4.0)* |
 | `kcp_memory_project_context` | Auto-detect current project from `PWD`, return recent sessions + events — call at session start. Accepts `session_limit` and `event_limit` params *(v0.4.0)* |
 | `kcp_memory_subagent_search` | FTS5 search within subagent transcripts — finds architectural discoveries, rejected approaches, and reasoning buried in delegated tasks *(v0.5.0)* |
 | `kcp_memory_session_tree` | Show a parent session and all its child subagents as a tree — reveals delegated scope and per-agent tool usage *(v0.5.0)* |
+| `kcp_memory_analyze` | Manifest quality metrics — retry rate, help-followup rate, error rate per manifest key. Set `by_version=true` to compare before/after a manifest improvement (requires kcp-commands v0.16.0+). *(v0.17.0)* |
 
 Registration (`~/.claude/settings.json`):
 
@@ -266,7 +315,7 @@ PreToolUse hook. On every Bash tool call, kcp-commands appends a JSON event to
 `~/.kcp/events.jsonl`:
 
 ```json
-{"ts":"2026-03-03T14:32:01Z","session_id":"abc123","project_dir":"/src/myapp","tool":"Bash","command":"kubectl apply -f deploy.yaml","manifest_key":"kubectl-apply"}
+{"ts":"2026-03-03T14:32:01Z","session_id":"abc123","project_dir":"/src/myapp","tool":"Bash","command":"kubectl apply -f deploy.yaml","manifest_key":"kubectl-apply","manifest_version":"cabf7009"}
 ```
 
 kcp-memory reads this file using a byte-offset cursor — each scan reads only the bytes
@@ -367,10 +416,16 @@ cat /tmp/kcp-memory-daemon.log
 
 ## CLI alias
 
-Add to `~/.bashrc` or `~/.zshrc`:
+The CLI binary is **not** installed to `PATH`. To use `kcp-memory` as a command, add an alias to `~/.bashrc` or `~/.zshrc`:
 
 ```bash
-alias kcp-memory='java -jar ~/.kcp/kcp-memory-daemon.jar'
+alias kcp-memory='java --enable-native-access=ALL-UNNAMED -jar ~/.kcp/kcp-memory-daemon.jar'
+```
+
+Without the alias, invoke directly:
+
+```bash
+java --enable-native-access=ALL-UNNAMED -jar ~/.kcp/kcp-memory-daemon.jar search "query"
 ```
 
 ---
@@ -384,6 +439,14 @@ alias kcp-memory='java -jar ~/.kcp/kcp-memory-daemon.jar'
 | v0.3.0 | MCP server — `kcp-memory mcp` subcommand; four MCP tools for Claude Code inline use |
 | v0.4.0 | `kcp_memory_session_detail` (find → read flow) + `kcp_memory_project_context` (proactive session-start context from `PWD`) |
 | v0.5.0 | Subagent memory — indexes `subagents/agent-*.jsonl` files, parent-child session linking, `kcp_memory_subagent_search` + `kcp_memory_session_tree` MCP tools, `kcp-memory agents` CLI commands |
+| v0.7.0 | `kcp-memory analyze` — manifest quality feedback loop; reads indexed tool-call events and computes retry rate, help-followup rate, error rate, and composite quality score per manifest key. Pairs with kcp-commands v0.15.0 `exit_code_hint` events. |
+| v0.16.0 | **Manifest version tracking.** `kcp-memory analyze --by-version` groups quality metrics by `(manifest_key, manifest_version)` — SHA-256 content hash of the active YAML — enabling before/after comparison when a manifest is improved. Migration tracking added to schema so upgrades are safe on existing databases. Pairs with kcp-commands v0.16.0. |
+| v0.17.0 | **`kcp_memory_analyze` MCP tool** — 9th MCP tool. Claude can now call manifest quality analysis inline during a session without switching to the CLI. Supports `since_days`, `min_calls`, `top`, and `by_version` parameters. |
+| v0.18.0 | **Auto-update.** New `update` subcommand with `--check` (scriptable, exit 1 if update available) and `--yes` (non-interactive) flags. Updates both kcp-memory and kcp-commands JARs. Startup update notification on first run each day (24h-rate-limited, shared `~/.kcp/last-update-check` cache). Fix: `GET /health` now returns the real version string (was hardcoded `"0.5.0"`). |
+| v0.19.0 | **RFC-0017 bridge usage in stats.** `GET /stats` (and `kcp_memory_stats` MCP tool — 10th tool) now includes a `kcpBridgeUsage` block when `~/.kcp/usage.db` exists — total searches, units fetched, tokens saved, and top 5 most-accessed units. Completes the observability loop: bridge writes events, kcp-memory surfaces the aggregate view. |
+| v0.20.0 | **RFC-0017 UsageLogger.** CLI `search` and `events search` now log to `~/.kcp/usage.db` via synchronous `logSearchSync()` — no daemon-thread race on JVM exit. Populates the same usage database that kcp-dashboard reads. |
+| v0.21.0 | **FTS session fix.** `SessionParser` accepted only `"human"` type for user messages, but Claude Code sends `"user"`. All 3,742 sessions had NULL `first_message` — FTS returned 0 results. Fixed with regression test. **After upgrading, run `kcp-memory scan --force`** to repopulate session data. |
+| v0.22.0 | **Documentation and version alignment.** Updated README: 10 MCP tools (was 9), CLI alias note (`--enable-native-access`), FTS fix upgrade instructions. Coordinated release with kcp-commands v0.22.0 and kcp-dashboard v0.22.0. |
 
 ---
 
@@ -404,11 +467,14 @@ complementary — it makes the past retrievable and queryable.
 | **Port** | 7734 | 7735 |
 | **Hook** | PreToolUse | PostToolUse |
 | **Stores** | Nothing (stateless) | `~/.kcp/memory.db` (SQLite) |
-| **Reads** | 283 command manifests | `~/.claude/projects/**/*.jsonl` + `~/.kcp/events.jsonl` |
+| **Reads** | 289 command manifests | `~/.claude/projects/**/*.jsonl` + `~/.kcp/events.jsonl` |
 | **Answers** | "How do I run this?" | "What did I do before?" |
-| **MCP** | — | 8 tools (v0.5.0) |
+| **CLI** | — | `scan`, `search`, `list`, `stats`, `analyze` / `analyze --by-version` (v0.16.0), `events`, `agents`, `update` (v0.18.0) |
+| **MCP** | — | 10 tools — includes `kcp_memory_analyze` (v0.17.0), `kcp_memory_stats` with RFC-0017 bridge usage (v0.19.0) |
 
 Both use `~/.kcp/` and are part of the [KCP ecosystem](https://github.com/Cantara/knowledge-context-protocol).
+
+**[kcp-dashboard](https://github.com/Cantara/kcp-dashboard)** is the live terminal dashboard for KCP usage statistics. It reads `~/.kcp/usage.db` (RFC-0017) and `~/.kcp/memory.db` — showing commands guided, context delivered, manifest coverage, session profile, guidance quality metrics, and memory search recall. Refreshes every 2 seconds. Single Go binary, no runtime deps.
 
 ---
 

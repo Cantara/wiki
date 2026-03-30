@@ -6,8 +6,8 @@
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/kcp-commands](https://github.com/Cantara/kcp-commands) |
 | **Language** | Java |
-| **Stars** | 8 |
-| **Last updated** | 2026-03-22 |
+| **Stars** | 9 |
+| **Last updated** | 2026-03-28 |
 
 ---
 
@@ -17,20 +17,24 @@
 
 <img src="https://totto.goatcounter.com/count?p=/kcp-commands-readme" alt="" style="display:none">
 
-**Not a CLI — typed knowledge infrastructure for 289 CLIs.** Saves 33% of Claude Code's context window by injecting syntax context before execution and filtering noise after.
+**Not a CLI -- typed knowledge infrastructure for 291 CLIs.** Proactive guidance, output noise filtering, and event logging for every Bash tool call in Claude Code.
 
-kcp-commands is a [Claude Code hook](https://docs.anthropic.com/en/docs/claude-code/hooks) — it runs invisibly *around* CLI tools, not as one. It intercepts every Bash tool call and applies three phases:
+kcp-commands is a [Claude Code hook](https://docs.anthropic.com/en/docs/claude-code/hooks) -- it runs invisibly *around* CLI tools, not as one. It intercepts every Bash tool call and applies three phases:
 
 | Phase | When | What it does |
 |-------|------|--------------|
-| **A -- Syntax injection** | Before execution | Injects compact flag/syntax guidance so the agent picks the right flags immediately, never wastes a round trip on `--help` |
-| **B -- Output filtering** | After execution | Strips noise (boilerplate, permission errors, hundreds of irrelevant lines) before the output reaches the context window |
+| **A -- Proactive guidance** | Before execution | Injects `use_when` hints, `preferred_invocations`, and `common_errors` -- context that `--help` doesn't provide. Guides flag choice BEFORE the command runs. |
+| **B -- Output noise filtering** | After execution | Strips boilerplate, permission errors, and hundreds of irrelevant lines from noisy commands (mvn, terraform, ansible, kubectl, etc.) before the output reaches the context window |
 | **C -- Event logging** | After execution | Writes every Bash call to `~/.kcp/events.jsonl` for [kcp-memory](https://github.com/Cantara/kcp-memory) to index as episodic memory |
 
-Measured across a typical agentic coding session: **67,352 tokens saved -- 33.7% of a 200K context window recovered**, equivalent to 33 additional tool call results fitting in the same context.
+**What kcp-commands actually does:**
+- ~84% of Bash calls are **suppressed** (well-known tools like git, ls, grep) -- the daemon returns 204 immediately, zero overhead
+- ~10% of Bash calls produce **inject events** (manifest hit) -- proactive guidance delivered before execution
+- Noisy commands (mvn, terraform, docker, kubectl, etc.) get **measurable output reduction** via Phase B filters
+- Every Bash call is **indexed** by kcp-memory for cross-session episodic memory
 
-289 bundled manifests. Part of the [Knowledge Context Protocol](https://cantara.github.io/knowledge-context-protocol/) ecosystem.
-Read the [release post](https://wiki.totto.org/blog/2026/03/02/kcp-commands/) for the full benchmark methodology and design rationale.
+291 bundled manifests. Part of the [Knowledge Context Protocol](https://cantara.github.io/knowledge-context-protocol/) ecosystem.
+Read the [release post](https://wiki.totto.org/blog/2026/03/02/kcp-commands/) for the design rationale.
 
 ---
 
@@ -50,7 +54,7 @@ kcp-commands does not change how Claude reasons. It gives Claude better inputs a
 
 ## How it works
 
-### Phase A -- Command syntax context (before execution)
+### Phase A -- Proactive guidance (before execution)
 
 When Claude is about to run `ps aux`, the hook injects a compact `additionalContext` block:
 
@@ -65,7 +69,7 @@ Prefer:
   ps aux | grep <name>  # Find a specific process
 ```
 
-The agent picks the right flags immediately. No `--help` lookup, no man page parsing, no wasted round trip. Average saving: **532 tokens per avoided `--help` call**.
+The real value is **proactive guidance quality** -- `use_when` hints, `preferred_invocations`, and `common_errors` that `--help` doesn't provide. This context lands at the exact moment Claude is planning its command, guiding flag choice before execution.
 
 ### Phase B -- Output noise filtering (after execution)
 
@@ -85,10 +89,12 @@ The filter adds zero overhead on commands whose output is already concise. It on
 Every Bash hook call is appended to `~/.kcp/events.jsonl` as a single JSONL line:
 
 ```json
-{"ts":"2026-03-03T16:04:24Z","session_id":"ad732c58-...","project_dir":"/src/myproject","tool":"Bash","command":"cat /tmp/daemon.log","manifest_key":"cat"}
+{"ts":"2026-03-03T16:04:24Z","session_id":"ad732c58-...","project_dir":"/src/myproject","tool":"Bash","command":"cat /tmp/daemon.log","manifest_key":"cat","manifest_version":"cabf7009","exit_code_hint":0}
 ```
 
-Fields: `ts` (ISO-8601), `session_id` (Claude Code session UUID), `project_dir` (working directory), `tool` (always `"Bash"`), `command` (raw command, truncated to 500 chars), `manifest_key` (resolved manifest or `null`).
+Fields: `ts` (ISO-8601), `session_id` (Claude Code session UUID), `project_dir` (working directory), `tool` (always `"Bash"`), `command` (raw command, truncated to 500 chars), `manifest_key` (resolved manifest or `null`), `manifest_version` (SHA-256 first 8 hex chars of the active manifest YAML, or `null` — v0.16.0), `exit_code_hint` (`0` clean / `1` error detected, v0.15.0).
+
+The `post-hook.sh` PostToolUse hook enriches each event with an `exit_code_hint` field (v0.15.0): `0` if the output looks clean, `1` if error signals were detected (exception, traceback, "command not found", non-zero exit patterns). This powers `kcp-memory analyze` — the manifest quality feedback loop that surfaces which manifests correlate with failures and retries.
 
 The write is asynchronous (virtual thread) and never blocks the hook response or raises an error. [kcp-memory](https://github.com/Cantara/kcp-memory) v0.2.0+ indexes these events to provide tool-level episodic memory across sessions.
 
@@ -137,7 +143,9 @@ Both options download pre-built artifacts from GitHub Releases and install to `~
 curl -fsSL https://raw.githubusercontent.com/Cantara/kcp-commands/main/bin/install.sh | bash -s -- --java
 ```
 
-Requires Java 21. Hook latency: ~12ms per call.
+Requires Java 21+. Hook latency: ~12ms per call.
+
+> **macOS:** Install Java 21 with `brew install --cask temurin@21`. The installer and `hook.sh` detect Temurin 21 automatically via `/usr/libexec/java_home -v 21` — even if your system default is an older Java version.
 
 ### Node.js only
 
@@ -152,7 +160,11 @@ The installer places `hook.sh`, the daemon JAR, and `cli.js` in `~/.kcp/`, then 
 ### Upgrade
 
 ```bash
-# Re-run the installer to pull the latest release:
+# Built-in updater (v0.18.0+):
+java -jar ~/.kcp/kcp-commands-daemon.jar --check-update   # check only (exit 1 if update available)
+java -jar ~/.kcp/kcp-commands-daemon.jar --update          # interactive download + install
+
+# Or re-run the installer to pull the latest release:
 curl -fsSL https://raw.githubusercontent.com/Cantara/kcp-commands/main/bin/install.sh | bash -s -- --java
 pkill -f kcp-commands-daemon; nohup java -jar ~/.kcp/kcp-commands-daemon.jar > /tmp/kcp-commands-daemon.log 2>&1 &
 ```
@@ -183,6 +195,93 @@ Phase B is transparent -- you'll notice it when a normally noisy command like `p
 
 ---
 
+## Full KCP setup (kcp-commands + kcp-memory)
+
+kcp-commands handles the Bash tool boundary. [kcp-memory](https://github.com/Cantara/kcp-memory) adds persistent episodic memory across sessions by indexing the event log (Phase C) and session transcripts. Install both for the complete stack:
+
+**Step 1 — Install kcp-commands** (Java daemon backend):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Cantara/kcp-commands/main/bin/install.sh | bash -s -- --java
+```
+
+**Step 2 — Install kcp-memory** (MCP server for episodic memory):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Cantara/kcp-memory/main/bin/install.sh | bash
+```
+
+The kcp-memory installer scans your existing `~/.kcp/events.jsonl` (written by kcp-commands Phase C) and registers `kcp-memory` as an MCP server in `~/.claude.json`.
+
+**Step 3 — Restart Claude Code** to activate both hooks and the MCP server.
+
+After restart:
+- Every Bash call gets syntax context injected (Phase A) and noise filtered (Phase B)
+- Every Bash call is logged to `~/.kcp/events.jsonl` (Phase C)
+- kcp-memory indexes events and session transcripts; Claude can query past sessions and tool-call history via the MCP tools
+
+---
+
+## Troubleshooting
+
+### `[kcp]` context not appearing in Claude
+
+1. Check the hook is registered:
+   ```bash
+   cat ~/.claude/settings.json | grep kcp
+   ```
+   You should see `bash "$HOME/.kcp/hook.sh"` in the `PreToolUse` hooks array.
+2. If missing, re-run the installer.
+3. Restart Claude Code after any settings change — hooks only activate on startup.
+4. Confirm the daemon responds: `curl -sf http://localhost:7734/health && echo "ok"`
+
+### Java daemon fails to start — `UnsupportedClassVersionError`
+
+```
+Error: LinkageError ... UnsupportedClassVersionError:
+  (class file version 65.0, this Java supports 52.0)
+```
+
+The daemon is compiled for Java 21 (class file version 65.0). Your system `java` is older — Java 8 = version 52.0, Java 11 = version 55.0.
+
+**Fix on macOS:**
+```bash
+brew install --cask temurin@21
+# Verify:
+/usr/libexec/java_home -v 21
+# Restart the daemon:
+pkill -f kcp-commands-daemon || true
+curl -fsSL https://raw.githubusercontent.com/Cantara/kcp-commands/main/bin/install.sh | bash -s -- --java
+```
+
+The installer and `hook.sh` pick up Temurin 21 automatically via `/usr/libexec/java_home -v 21` — no changes to `JAVA_HOME` needed.
+
+**Fix on Linux:** Install OpenJDK 21 and ensure it is the active version:
+```bash
+# Debian/Ubuntu
+sudo apt install openjdk-21-jdk
+sudo update-alternatives --config java   # select Java 21
+
+# Fedora/RHEL
+sudo dnf install java-21-openjdk
+sudo alternatives --config java
+```
+
+**Fallback:** If you cannot upgrade Java right now, use the Node.js backend instead:
+```bash
+curl -fsSL https://raw.githubusercontent.com/Cantara/kcp-commands/main/bin/install.sh | bash -s -- --node
+```
+
+### Node.js install fails with HTTP 404
+
+This was a bug in releases before v0.14.0 where the release asset was named `kcp-commands-cli.js` instead of `cli.js`. Fixed in v0.14.0+. Re-run the installer to pull the correct artifact.
+
+### Some commands get `[kcp]` blocks, others don't
+
+Expected behaviour. Commands on the suppression list (`git`, `ls`, `grep`, `curl`, `ssh`, and ~30 others) return 204 immediately — no manifest is injected. This is intentional: capable agents already know these commands, so skipping saves 5–8K tokens per session. See the [Suppression list](#suppression-list----skip-manifests-for-well-known-commands-v0140) section. Customise the list with `~/.kcp/suppress.txt`.
+
+---
+
 ## Performance
 
 | Backend | Mean latency | p95 | Notes |
@@ -199,7 +298,7 @@ Full methodology and raw numbers: [docs/benchmark-results.md](docs/benchmark-res
 
 ## Supported commands
 
-### Bundled manifests (289 primed)
+### Bundled manifests (291 primed)
 
 **Git** — `git log` · `git diff` · `git status` · `git add` · `git commit` · `git push` · `git pull` · `git fetch` · `git branch` · `git checkout` · `git stash` · `git merge` · `git rebase` · `git clone` · `git reset` · `git tag` · `git remote` · `git show` · `git cherry-pick` · `git bisect` · `git worktree` · `git submodule`
 
@@ -207,7 +306,7 @@ Full methodology and raw numbers: [docs/benchmark-results.md](docs/benchmark-res
 
 **Text processing** — `jq` · `sed` · `awk` · `sort` · `uniq` · `wc` · `cut` · `xargs` · `tee` · `tr` · `diff` · `make` · `yq` · `base64` · `sha256sum` · `envsubst` · `nl` · `xxd` · `strings` · `xmllint` · `column`
 
-**Build tools** — `mvn` · `gradle` · `cargo` · `go build` · `go test` · `go mod` · `ant` · `sbt` · `dotnet`
+**Build tools** — `mvn` · `gradle` · `gradlew` · `cargo` · `go build` · `go test` · `go mod` · `ant` · `sbt` · `dotnet`
 
 **Package managers** — `npm` · `yarn` · `pnpm` · `bun` · `pip` · `brew` · `apt` · `yum` · `gem` · `conda` · `snap` · `pacman` · `composer` · `poetry` · `bundle`
 
@@ -390,7 +489,7 @@ kcp-commands/
       .../ManifestResolver.java
       .../ManifestGenerator.java
     target/
-  commands/              # bundled primed manifests (289)
+  commands/              # bundled primed manifests (291)
     ls.yaml
     ps.yaml
     find.yaml
@@ -415,51 +514,4 @@ kcp-commands/
 2. Place it in `.kcp/commands/` (project-local) or `~/.kcp/commands/` (user-global).
 3. The hook picks it up on the next Bash call -- no restart needed.
 
-Good candidates for custom manifests:
-- Build tools your team uses daily (`mvn`, `gradle`, `cargo`, `go build`)
-- Cloud CLIs with verbose output (`aws`, `gcloud`, `az`, `kubectl`)
-- Project-specific scripts where you want the agent to know the right flags
-
----
-
-## Releases
-
-| Version | Manifests | Notes |
-|---------|-----------|-------|
-| v0.1.0 | 18 | Initial: git, Linux/macOS basics, curl, ssh, docker, kubectl |
-| v0.2.0 | 32 | Windows, extended git, networking |
-| v0.3.0 | 62 | Full initial library |
-| v0.4.0 | 114 | Text processing, build tools, package managers, cloud/IaC |
-| v0.5.0 | 214 | System tools, DB CLIs, security, modern CLI, monitoring |
-| v0.6.0 | 244 | ollama, HTTPie, ffmpeg, pytest, cmake, mkdocs, rclone, pg_dump/restore, mysqldump, glab, fly/vercel/wrangler/heroku/doctl/eksctl, vault/consul/packer, kustomize/argocd/flux, asdf/mise/nvm/pyenv/rustup, dbt, lazygit |
-| v0.6.1 | 244 | **Fix**: `index.txt` now auto-generated by Maven — v0.4.0–v0.6.0 shipped with only 62 manifests in the daemon due to a stale index. Install path changed to `~/.kcp/` (no source clone needed). `cli.js` now released as a downloadable artifact. |
-| v0.7.0 | 244 | README install section clarifications; Releases changelog table; v0.6.1 patch documented in blog post. |
-| v0.8.0 | 283 | uv, apk, dnf, pipx, winget, deno, go-run, php, swift, ruff, eslint, prettier, mypy, golangci-lint, yamllint, markdownlint, podman, trivy, cosign, nx, turbo, just, bazel, task, sops, op, direnv, jest, vitest, playwright, cypress, k6, grpcurl, zoxide, btm, dust, procs, pre-commit, gh-codespace |
-| v0.9.0 | 283 | **Phase C: EventLogger** — writes every Bash hook call to `~/.kcp/events.jsonl` (async, virtual thread, ReentrantLock); consumed by kcp-memory v0.2.0+ for tool-level episodic memory |
-| v0.12.0 | 284 | **KCP 0.9 Federation Release.** `knowledge.yaml` bumped to `kcp_version: "0.9"`, added `manifests` block (federation link to KCP spec). New manifest: `duckdb` (in-process analytical SQL engine). Aligned with kcp-mcp@0.12.0. |
-| v0.13.0 | 289 | +5 manifests: `gws`, `gws-auth`, `gws-gmail`, `gws-calendar`, `gws-drive` — Google Workspace CLI (gmail.modify, calendar, drive scopes) |
-| v0.14.0 | 289 | **KCP 0.10 Discovery & Versioning Release.** `knowledge.yaml` bumped to `kcp_version: "0.10"`. KCP 0.10 adds RFC-0007 Query Vocabulary (normative pre-invocation discovery), federation version pinning (`version_pin` + `version_policy`), instruction file bridge guide, and `kcp init` spec. |
-
----
-
-## Related projects
-
-- [Release post](https://wiki.totto.org/blog/2026/03/02/kcp-commands/) -- benchmark methodology, design rationale, and infographic
-- [Knowledge Context Protocol](https://github.com/Cantara/knowledge-context-protocol) -- the KCP specification
-- [KCP MCP Bridge](https://github.com/Cantara/knowledge-context-protocol/tree/main/bridge/typescript) -- MCP bridge for project manifests
-- [Synthesis](https://github.com/exoreaction/Synthesis) -- codebase intelligence and indexing
-- [kcp-memory](https://github.com/Cantara/kcp-memory) -- episodic memory daemon; indexes session transcripts + tool-call events written by kcp-commands v0.9.0 Phase C
-- [kcp-memory release post](https://wiki.totto.org/blog/2026/03/03/kcp-memory/) -- three-layer memory model and MCP integration
-
-## Knowledge manifest
-
-This repository ships a [`knowledge.yaml`](knowledge.yaml) and [`llms.txt`](llms.txt) for AI agent navigation.
-
----
-
-## License
-
-Apache 2.0 -- see [LICENSE](LICENSE).
-
-Copyright 2026 Cantara / eXOReaction AS.
-
+*(README truncated at 500 lines)*

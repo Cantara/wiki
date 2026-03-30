@@ -7,7 +7,7 @@ A java library for watching, fingerprinting and eventing of processes (Process I
 | **GitHub** | [https://github.com/Cantara/ProcessWatcher](https://github.com/Cantara/ProcessWatcher) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2022-03-14 |
+| **Last updated** | 2026-03-27 |
 
 ---
 

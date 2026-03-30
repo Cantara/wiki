@@ -7,7 +7,7 @@ Responsible for configuring which API/useradministration services Whydah IAM/SSO
 | **GitHub** | [https://github.com/Cantara/Whydah-UserAdminService](https://github.com/Cantara/Whydah-UserAdminService) |
 | **Language** | Java |
 | **Stars** | 2 |
-| **Last updated** | 2026-03-17 |
+| **Last updated** | 2026-03-27 |
 | **Topics** | `iam` `iam-credentials` `sso-api` `sso-solution` `whydah` |
 
 !!! tip "Related Wiki Pages"
