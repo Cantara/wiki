@@ -7,7 +7,7 @@ Episodic memory daemon for Claude Code — indexes session transcripts into SQLi
 | **GitHub** | [https://github.com/Cantara/kcp-memory](https://github.com/Cantara/kcp-memory) |
 | **Language** | Java |
 | **Stars** | 5 |
-| **Last updated** | 2026-03-28 |
+| **Last updated** | 2026-04-01 |
 
 ---
 
@@ -61,9 +61,6 @@ curl -fsSL https://raw.githubusercontent.com/Cantara/kcp-memory/main/bin/install
 Downloads the JAR to `~/.kcp/`, starts the daemon on port 7735, and runs an initial scan of `~/.claude/projects/`.
 
 ### 2. Index your sessions
-
-> **Upgrading from v0.20.0 or earlier?** Run `kcp-memory scan --force` after upgrading.
-> v0.21.0 fixed a bug where `SessionParser` only accepted `"human"` message type but Claude Code sends `"user"` — all sessions had NULL `first_message` and FTS returned 0 results. A force-scan repopulates the data.
 
 ```bash
 kcp-memory scan
@@ -447,6 +444,7 @@ java --enable-native-access=ALL-UNNAMED -jar ~/.kcp/kcp-memory-daemon.jar search
 | v0.20.0 | **RFC-0017 UsageLogger.** CLI `search` and `events search` now log to `~/.kcp/usage.db` via synchronous `logSearchSync()` — no daemon-thread race on JVM exit. Populates the same usage database that kcp-dashboard reads. |
 | v0.21.0 | **FTS session fix.** `SessionParser` accepted only `"human"` type for user messages, but Claude Code sends `"user"`. All 3,742 sessions had NULL `first_message` — FTS returned 0 results. Fixed with regression test. **After upgrading, run `kcp-memory scan --force`** to repopulate session data. |
 | v0.22.0 | **Documentation and version alignment.** Updated README: 10 MCP tools (was 9), CLI alias note (`--enable-native-access`), FTS fix upgrade instructions. Coordinated release with kcp-commands v0.22.0 and kcp-dashboard v0.22.0. |
+| v0.26.0 | **Ecosystem alignment.** Removed stale v0.20.0 upgrade note from Quick Start. Coordinated release with kcp-commands v0.26.0 and kcp-dashboard v0.26.0. |
 
 ---
 

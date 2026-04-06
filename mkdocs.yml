@@ -2079,6 +2079,7 @@ nav:
       - "kcp triage": repos/kcp-triage.md
       - "knowledge context protocol": repos/knowledge-context-protocol.md
       - "lib electronic components": repos/lib-electronic-components.md
+      - "llms txt rag compare": repos/llms-txt-rag-compare.md
       - "logback ext cloudwatch appender": repos/logback-ext-cloudwatch-appender.md
       - "maven infrastructure": repos/maven-infrastructure.md
       - "message performance sampler": repos/message-performance-sampler.md
