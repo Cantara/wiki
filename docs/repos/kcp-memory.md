@@ -6,8 +6,8 @@ Episodic memory daemon for Claude Code — indexes session transcripts into SQLi
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/kcp-memory](https://github.com/Cantara/kcp-memory) |
 | **Language** | Java |
-| **Stars** | 5 |
-| **Last updated** | 2026-04-01 |
+| **Stars** | 4 |
+| **Last updated** | 2026-04-13 |
 
 ---
 
@@ -47,6 +47,28 @@ Part of the [KCP ecosystem](https://github.com/Cantara/knowledge-context-protoco
 kcp-memory fills the episodic layer. Without it, every session starts from zero. With it,
 Claude can answer "what was I doing in this project last week?" and "which projects did I
 run `kubectl apply` in?" in milliseconds.
+
+---
+
+## kcp-memory vs Synthesis MCP
+
+If you use [Synthesis](https://github.com/exoreaction/synthesis), you may notice it also
+indexes Claude session transcripts. The two tools are complementary, not competing:
+
+| | kcp-memory | Synthesis MCP |
+|--|-----------|---------------|
+| **What it is** | Standalone episodic index | Full-stack codebase intelligence + episodic memory |
+| **Session search** | ✅ FTS5 over `~/.claude/projects/**/*.jsonl` | ✅ FTS5 over same transcripts — same mechanism |
+| **Tool-call events** | ✅ FTS5 over `~/.kcp/events.jsonl` | ❌ |
+| **Manifest quality** | ✅ `kcp_memory_analyze` — retry/help/error rates | ❌ |
+| **Codebase analysis** | ❌ | ✅ 40+ tools — architecture, patterns, health, security, code-graph, cross-repo deps |
+| **Requires** | Java 21, one JAR (~5 MB) | Java 21, one JAR (~50 MB), `synthesis init` to index a workspace |
+| **Scope** | All projects, all sessions (global `~/.kcp/memory.db`) | Multiple codebases via `--workspaces`; sessions are global |
+| **Who it's for** | Any Claude Code user | Teams/practitioners with codebases to index |
+
+**Rule of thumb:** if you have Synthesis, you already have session search — but kcp-memory
+covers the tool-event and manifest quality layers that Synthesis doesn't touch. If you
+don't have Synthesis, kcp-memory is the standalone path for episodic memory.
 
 ---
 
@@ -491,11 +513,5 @@ Java 21 required. No Spring, no framework, no cloud calls. Dependencies: `sqlite
 ## Related
 
 - [Release post](https://wiki.totto.org/blog/2026/03/03/kcp-memory/) — design rationale, three-layer model, benchmark numbers
-- [kcp-commands](https://github.com/Cantara/kcp-commands) — writes `~/.kcp/events.jsonl`; PreToolUse companion
-- [Knowledge Context Protocol](https://github.com/Cantara/knowledge-context-protocol) — the KCP specification
 
----
-
-## License
-
-Apache 2.0 — [Cantara](https://github.com/Cantara)
+*(README truncated at 500 lines)*

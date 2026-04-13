@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/Synthesis-Little-Brother](https://github.com/Cantara/Synthesis-Little-Brother) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2026-03-16 |
+| **Last updated** | 2026-04-10 |
 
 ---
 

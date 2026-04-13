@@ -5,9 +5,9 @@ Scripts related to continouous deploy and DevOps/NoOps
 | Field | Value |
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/devops](https://github.com/Cantara/devops) |
-| **Language** | Batchfile |
+| **Language** | Shell |
 | **Stars** | 3 |
-| **Last updated** | 2022-01-12 |
+| **Last updated** | 2026-04-07 |
 
 ---
 
@@ -25,5 +25,12 @@ Windows
 
 See pull_deploy/win directory.
 
+Linux
+============
+
+Please run install.sh
+```bash
+curl -fsSL https://raw.githubusercontent.com/Cantara/devops/master/install.sh | bash
+```
 
 
