@@ -7,4 +7,4 @@ Simple Simulator for ServerSentEvents, based on Stingray
 | **GitHub** | [https://github.com/Cantara/ServerSentEvents-agent](https://github.com/Cantara/ServerSentEvents-agent) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-04-26 |
+| **Last updated** | 2026-04-28 |

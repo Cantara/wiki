@@ -7,7 +7,7 @@ A Whydah CRM API with simple standalone implementation
 | **GitHub** | [https://github.com/Cantara/Whydah-CRMService](https://github.com/Cantara/Whydah-CRMService) |
 | **Language** | Java |
 | **Stars** | 3 |
-| **Last updated** | 2026-04-24 |
+| **Last updated** | 2026-04-29 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.
