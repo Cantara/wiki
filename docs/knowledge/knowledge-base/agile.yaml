@@ -1,0 +1,36 @@
+# wiki.cantara.no — Knowledge base: Agile Development
+# Parent: https://wiki.cantara.no/knowledge.yaml
+version: "0.14"
+
+id: knowledge-agile
+parent: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 180
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/knowledge-base/agile.yaml.sig
+
+section:
+  title: Agile Development Knowledge Base
+  url: https://wiki.cantara.no/dev/
+  article_count: 478
+  era: 2008–2022
+  note: Largest section — 478 articles covering the full development lifecycle
+
+topics:
+  - CI/CD — pipelines, Jenkins, GitHub Actions, deployment automation
+  - Testing — TDD, BDD, unit, integration, contract testing
+  - Maven — build lifecycle, plugins, dependency management, multi-module
+  - Clean code — naming, SOLID, refactoring, code review
+  - Docker and containers — images, compose, orchestration
+  - Spring Framework — Boot, MVC, Security, Data
+  - Web development — JavaScript, React, frontend practices
+  - Security in development — OWASP, secure coding, dependencies
+
+audience: [developer, agent]

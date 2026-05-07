@@ -1,0 +1,39 @@
+# wiki.cantara.no — ACS project sub-manifest
+# Parent: https://wiki.cantara.no/knowledge.yaml
+version: "0.14"
+
+id: acs
+parent: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 90
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/projects/acs.yaml.sig
+
+project:
+  title: Awesome Competence System (ACS)
+  tagline: Employee skills, competencies, and CV management platform
+  repo: https://github.com/Cantara/Awesome-Competence-System
+  language: Java
+  status: maintained
+
+description: >
+  ACS is an open source competence management system for tracking employee
+  skills, certifications, project history, and CVs. Provides a skill matrix
+  view, search, and reporting for HR and team leads. Includes SharePoint
+  integration components.
+
+features:
+  - Employee CV and skill matrix management
+  - Competence search across organisation
+  - SharePoint app and status widget
+  - REST API for integration
+  - Provisioning tools
+
+wiki_page: https://wiki.cantara.no/ACS/

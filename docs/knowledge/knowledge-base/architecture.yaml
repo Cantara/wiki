@@ -1,0 +1,36 @@
+# wiki.cantara.no — Knowledge base: Software Architecture
+# Parent: https://wiki.cantara.no/knowledge.yaml
+version: "0.14"
+
+id: knowledge-architecture
+parent: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 180
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/knowledge-base/architecture.yaml.sig
+
+section:
+  title: Software Architecture Knowledge Base
+  url: https://wiki.cantara.no/architecture/
+  article_count: 125
+  era: 2008–2022
+  community: Cantara / Norwegian developer community
+
+topics:
+  - Domain-Driven Design (DDD) — bounded contexts, aggregates, ubiquitous language
+  - Microservices — decomposition, communication patterns, resilience
+  - CQRS and Event Sourcing — command/query separation, event log
+  - Scalability patterns — horizontal scaling, caching, load balancing
+  - API design — REST, hypermedia, versioning
+  - Software quality — metrics, technical debt, refactoring
+  - Design patterns — GoF, enterprise integration patterns
+  - Architecture documentation — ADRs, C4 model
+
+audience: [architect, developer]

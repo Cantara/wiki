@@ -1,7 +1,60 @@
-kcp_version: "0.7"
-project: cantara-wiki
-version: 1.2.0
-updated: 2026-03-08
+# wiki.cantara.no — KCP root manifest (federated)
+# KCP v0.14 — see https://github.com/Cantara/knowledge-context-protocol
+version: "0.14"
+
+entity:
+  name: Cantara
+  full_name: Norwegian Software Development Foundation
+  domain: wiki.cantara.no
+  type: open-source-community-wiki
+  description: >
+    Norwegian non-profit open source community and knowledge base.
+    2,290 articles on software architecture, agile development, microservices,
+    IAM/SSO, and enterprise integration. Archive of wiki.cantara.no (2008–2022).
+    Home of Whydah, Xorcery, Messi, KCP, and 143+ open source repositories.
+
+authority:
+  owner: Cantara — Norwegian Software Development Foundation
+  url: https://wiki.cantara.no/about/
+  github: https://github.com/Cantara
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 7
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge.yaml.sig
+
+includes:
+  # Projects
+  - knowledge/projects/kcp.yaml
+  - knowledge/projects/whydah.yaml
+  - knowledge/projects/xorcery.yaml
+  - knowledge/projects/messi.yaml
+  - knowledge/projects/configservice-jau.yaml
+  - knowledge/projects/visuale.yaml
+  - knowledge/projects/acs.yaml
+  # Knowledge base domains
+  - knowledge/knowledge-base/architecture.yaml
+  - knowledge/knowledge-base/agile.yaml
+  - knowledge/knowledge-base/soa.yaml
+  - knowledge/knowledge-base/enterprise-architecture.yaml
+  # Repository index (auto-generated)
+  - knowledge/repos.yaml
+  # Community
+  - knowledge/community.yaml
+
+# Legacy v0.7 units preserved below for backwards compatibility
+# Agents capable of KCP v0.14 should follow the includes above.
+# -------------------------------------------------------------------
+_legacy_v07:
+  kcp_version: "0.7"
+  version: 1.2.0
+  updated: 2026-03-08
 
 units:
 

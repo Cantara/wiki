@@ -8,16 +8,12 @@ Owned by the Norwegian Software Development Foundation (Stiftelsen for fremme av
 
 ## Structured Navigation (for AI agents)
 
-This site publishes a KCP v0.5 manifest at https://cantara.github.io/wiki/knowledge.yaml
-containing 24 units with intent declarations, trigger keywords, and 20+ relationships.
+This site publishes a KCP v0.14 federated manifest at https://wiki.cantara.no/knowledge.yaml
+with sub-manifests per project (KCP, Whydah, Xorcery, Messi, ConfigService/JAU, Visuale, ACS),
+knowledge domain (Architecture, Agile, SOA, EA), an auto-generated repository index, and community.
+All manifests are Ed25519-signed; public key at https://wiki.cantara.no/.well-known/kcp-signing-key.pub
 
-Fetch knowledge.yaml for targeted queries. Parse YAML → match query against each unit's
-`triggers` (keyword list) and `intent` (natural language) → fetch the `path` of the best
-match. Use `relationships` to navigate related content (types: enables, context, depends_on).
-
-Example: "How do I set up Whydah SSO?" → trigger `whydah, sso` → unit `whydah-start` → fetch whydah/Getting-started.md
-
-For complete content, https://cantara.github.io/wiki/llms-full.txt covers all sections in one fetch.
+For complete content, https://wiki.cantara.no/llms-full.txt covers all sections in one fetch.
 
 ## Key Pages
 

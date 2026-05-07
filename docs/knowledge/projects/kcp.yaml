@@ -1,0 +1,63 @@
+# wiki.cantara.no — KCP project sub-manifest
+# Parent: https://wiki.cantara.no/knowledge.yaml
+version: "0.14"
+
+id: kcp
+parent: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 14
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/projects/kcp.yaml.sig
+
+project:
+  title: Knowledge Context Protocol (KCP)
+  tagline: KCP is to knowledge what MCP is to tools.
+  repo: https://github.com/Cantara/knowledge-context-protocol
+  website: https://cantara.github.io/knowledge-context-protocol/
+  license: Apache 2.0
+  language: Java
+  current_version: "0.14"
+  stars: 12
+  status: active
+
+description: >
+  A structured metadata standard that makes knowledge navigable by AI agents.
+  The Model Context Protocol defines how agents connect to tools. KCP defines how
+  knowledge is structured so those tools can serve it effectively. MCP solved the
+  tool connectivity problem. KCP addresses the knowledge structure problem that remains.
+
+spec:
+  url: https://github.com/Cantara/knowledge-context-protocol/blob/main/SPEC.md
+  version: "0.14"
+  key_concepts:
+    - knowledge.yaml root manifest with entity, authority, discovery, signing
+    - Federation via includes — sub-manifests per domain
+    - Per-manifest Ed25519 signing — provenance becomes verifiable
+    - Staleness declarations — agents know when to re-fetch
+    - Backwards-compatible _legacy blocks for v0.6/v0.7 consumers
+
+toolchain:
+  kcp-commands:
+    description: Claude Code hook — proactive CLI guidance + output compression
+    repo: https://github.com/Cantara/kcp-commands
+    phase_a: context injection (PreToolUse hook)
+    phase_b: output filtering (PostToolUse daemon)
+  kcp-memory:
+    description: Episodic memory hub for agent networks
+    repo: https://github.com/Cantara/kcp-memory
+    model: procedural / episodic / semantic layers
+  kcp-triage:
+    description: Deterministic nightly memory maintenance — zero LLM calls
+    repo: https://github.com/Cantara/kcp-triage
+  kcp-dashboard:
+    description: Terminal TUI for KCP toolchain observability
+    repo: https://github.com/Cantara/kcp-dashboard
+
+wiki_page: https://wiki.cantara.no/repos/knowledge-context-protocol/
