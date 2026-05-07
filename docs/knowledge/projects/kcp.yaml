@@ -35,6 +35,7 @@ description: >
 
 spec:
   url: https://github.com/Cantara/knowledge-context-protocol/blob/main/SPEC.md
+  manifest: https://cantara.github.io/knowledge-context-protocol/knowledge.yaml
   version: "0.14"
   key_concepts:
     - knowledge.yaml root manifest with entity, authority, discovery, signing
@@ -47,17 +48,21 @@ toolchain:
   kcp-commands:
     description: Claude Code hook — proactive CLI guidance + output compression
     repo: https://github.com/Cantara/kcp-commands
+    manifest: https://raw.githubusercontent.com/Cantara/kcp-commands/main/knowledge.yaml
     phase_a: context injection (PreToolUse hook)
     phase_b: output filtering (PostToolUse daemon)
   kcp-memory:
     description: Episodic memory hub for agent networks
     repo: https://github.com/Cantara/kcp-memory
+    manifest: https://raw.githubusercontent.com/Cantara/kcp-memory/main/knowledge.yaml
     model: procedural / episodic / semantic layers
   kcp-triage:
     description: Deterministic nightly memory maintenance — zero LLM calls
     repo: https://github.com/Cantara/kcp-triage
+    manifest: https://raw.githubusercontent.com/Cantara/kcp-triage/main/knowledge.yaml
   kcp-dashboard:
     description: Terminal TUI for KCP toolchain observability
     repo: https://github.com/Cantara/kcp-dashboard
+    manifest: https://raw.githubusercontent.com/Cantara/kcp-dashboard/main/knowledge.yaml
 
 wiki_page: https://wiki.cantara.no/repos/knowledge-context-protocol/
