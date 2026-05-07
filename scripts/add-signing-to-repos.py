@@ -124,12 +124,14 @@ def main():
     if dry_run:
         print("DRY RUN — pass --push to execute\n")
 
-    # Read the private key (base64) from file
-    key_b64 = open('/tmp/cantara-org-kcp.pem.b64').read().strip() if os.path.exists('/tmp/cantara-org-kcp.pem.b64') else None
-    if not key_b64 and not dry_run:
-        # Encode on the fly
+    # Read the private key (base64) from env or file
+    key_b64 = os.environ.get('KCP_SIGNING_KEY_B64')
+    if not key_b64 and os.path.exists('/tmp/cantara-org-kcp.pem'):
         with open('/tmp/cantara-org-kcp.pem', 'rb') as f:
             key_b64 = base64.b64encode(f.read()).decode()
+    if not key_b64 and not dry_run:
+        print("ERROR: set KCP_SIGNING_KEY_B64 env var (base64-encoded Ed25519 private key)")
+        sys.exit(1)
 
     # Get all active repos
     ok, out, _ = run(['gh', 'repo', 'list', 'Cantara', '--limit', '200', '--json',
