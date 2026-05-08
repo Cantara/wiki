@@ -30,8 +30,10 @@ SKIP_REPOS = {
     'Whydah-UserIdentityBackend', 'maven-infrastructure', 'julebrus',
 }
 
-COMMIT_MSG_KCP  = "feat(kcp): add KCP v0.14 manifest for agent discoverability\n\nPart of the Cantara-wide agentic web initiative. Agents can now navigate\nthis repo via knowledge.yaml. Signing key delegated to wiki.cantara.no.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
-COMMIT_MSG_LLMS = "feat(kcp): add llms.txt for agent discoverability\n\nPoints agents to the wiki.cantara.no-hosted KCP manifest for this repo.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
+COMMIT_MSG_KCP    = "feat(kcp): add KCP v0.14 manifest for agent discoverability\n\nPart of the Cantara-wide agentic web initiative. Agents can now navigate\nthis repo via knowledge.yaml. Signing key delegated to wiki.cantara.no.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
+COMMIT_MSG_LLMS   = "feat(kcp): add llms.txt for agent discoverability\n\nPoints agents to the wiki.cantara.no-hosted KCP manifest for this repo.\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
+COMMIT_MSG_CLAUDE = "feat(kcp): add CLAUDE.md knowledge context pointer\n\nTells Claude Code to read knowledge.yaml before exploring the codebase.\nPart of the Cantara agentic web initiative (TrustFall-safe: passive data only).\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
+COMMIT_MSG_AGENTS = "feat(kcp): add AGENTS.md knowledge context pointer\n\nTells OpenAI Codex / GitHub Copilot coding agent to read knowledge.yaml.\nPart of the Cantara agentic web initiative (TrustFall-safe: passive data only).\n\nCo-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>"
 
 
 def gh_json(args):
@@ -122,6 +124,29 @@ units:
 """
 
 
+def generate_claude_md(repo):
+    return f"""# Agent Context
+
+This repository has a `knowledge.yaml` manifest at the root.
+Read it to understand structure, relevant documents, and org relationships before exploring code.
+
+Part of the [Cantara](https://wiki.cantara.no) open source ecosystem — federated KCP knowledge graph.
+Org manifest: https://wiki.cantara.no/knowledge.yaml
+"""
+
+
+def generate_agents_md(repo):
+    return f"""# Agent Instructions
+
+This repository has a `knowledge.yaml` manifest at the root.
+Read it to understand structure, relevant documents, and org relationships before exploring code.
+
+The manifest follows [KCP v0.14](https://github.com/Cantara/knowledge-context-protocol) and is signed with Ed25519.
+Part of the [Cantara](https://wiki.cantara.no) open source ecosystem.
+Org manifest: https://wiki.cantara.no/knowledge.yaml
+"""
+
+
 def generate_llms_txt(repo, description, language, conflict=False):
     desc = (description or f'{repo} — Cantara open source library').strip()
     lang = language or 'Java'
@@ -183,7 +208,7 @@ def main():
     active = active[:args.limit]
     print(f"Processing {len(active)} repos...\n")
 
-    stats = {'kcp_pushed': 0, 'llms_pushed': 0, 'skipped': 0, 'errors': 0}
+    stats = {'kcp_pushed': 0, 'llms_pushed': 0, 'claude_pushed': 0, 'agents_pushed': 0, 'skipped': 0, 'errors': 0}
 
     for repo in active:
         name = repo['name']
@@ -211,7 +236,21 @@ def main():
                 is_kcp = False
 
             if is_kcp:
-                print(f"⏭  {name}: real KCP manifest exists — skipping")
+                print(f"⏭  {name} [real KCP — checking agent files]")
+                # Push CLAUDE.md / AGENTS.md if missing
+                for fname, gen, msg, key in [
+                    ('CLAUDE.md',  generate_claude_md,  COMMIT_MSG_CLAUDE, 'claude_pushed'),
+                    ('AGENTS.md',  generate_agents_md,  COMMIT_MSG_AGENTS, 'agents_pushed'),
+                ]:
+                    if not file_sha(name, fname, branch):
+                        ok = push_file(name, branch, fname, gen(name), msg, dry_run)
+                        if ok:
+                            print(f"    ✅ {fname}")
+                            stats[key] += 1
+                        else:
+                            stats['errors'] += 1
+                    else:
+                        print(f"    {fname} already exists — skipping")
                 stats['skipped'] += 1
                 continue
             else:
@@ -245,6 +284,21 @@ def main():
         else:
             stats['errors'] += 1
 
+        # Push CLAUDE.md and AGENTS.md (only if missing)
+        for fname, gen, msg, key in [
+            ('CLAUDE.md',  generate_claude_md,  COMMIT_MSG_CLAUDE, 'claude_pushed'),
+            ('AGENTS.md',  generate_agents_md,  COMMIT_MSG_AGENTS, 'agents_pushed'),
+        ]:
+            if not file_sha(name, fname, branch):
+                ok = push_file(name, branch, fname, gen(name), msg, dry_run)
+                if ok:
+                    print(f"    ✅ {fname}")
+                    stats[key] += 1
+                else:
+                    stats['errors'] += 1
+            else:
+                print(f"    {fname} already exists — skipping")
+
         # Push llms.txt (only if doesn't exist)
         if not existing_llms:
             llms = generate_llms_txt(name, desc, lang, conflict=False)
@@ -260,6 +314,8 @@ def main():
     print(f"\n{'DRY RUN ' if dry_run else ''}Summary:")
     print(f"  knowledge.yaml pushed: {stats['kcp_pushed']}")
     print(f"  llms.txt pushed:       {stats['llms_pushed']}")
+    print(f"  CLAUDE.md pushed:      {stats['claude_pushed']}")
+    print(f"  AGENTS.md pushed:      {stats['agents_pushed']}")
     print(f"  skipped:               {stats['skipped']}")
     print(f"  errors:                {stats['errors']}")
 
