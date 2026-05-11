@@ -7,4 +7,4 @@
 | **GitHub** | [https://github.com/Cantara/bragi](https://github.com/Cantara/bragi) |
 | **Language** | Go |
 | **Stars** | 0 |
-| **Last updated** | 2021-11-30 |
+| **Last updated** | 2026-05-08 |

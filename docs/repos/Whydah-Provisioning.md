@@ -7,7 +7,7 @@ Whydah Provisioning Example
 | **GitHub** | [https://github.com/Cantara/Whydah-Provisioning](https://github.com/Cantara/Whydah-Provisioning) |
 | **Language** | Shell |
 | **Stars** | 0 |
-| **Last updated** | 2015-06-29 |
+| **Last updated** | 2026-05-08 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

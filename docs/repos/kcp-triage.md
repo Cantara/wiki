@@ -7,7 +7,7 @@ LLM driven triage system for analyzing web pages and generating agentic clients 
 | **GitHub** | [https://github.com/Cantara/kcp-triage](https://github.com/Cantara/kcp-triage) |
 | **Language** | TypeScript |
 | **Stars** | 1 |
-| **Last updated** | 2026-04-23 |
+| **Last updated** | 2026-05-07 |
 
 ---
 

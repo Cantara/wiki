@@ -5,9 +5,9 @@ Ansible powered provisioner for Ubuntu
 | Field | Value |
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/Awesome-Competence-System-Provisioning](https://github.com/Cantara/Awesome-Competence-System-Provisioning) |
-| **Language** | — |
+| **Language** | Jinja |
 | **Stars** | 0 |
-| **Last updated** | 2015-01-10 |
+| **Last updated** | 2026-05-08 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

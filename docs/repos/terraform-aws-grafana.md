@@ -5,7 +5,7 @@ Terraform module which creates a Grafana deployment in a Fargate ECS cluster on 
 | Field | Value |
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/terraform-aws-grafana](https://github.com/Cantara/terraform-aws-grafana) |
-| **Language** | — |
+| **Language** | HCL |
 | **Stars** | 0 |
-| **Last updated** | 2019-10-28 |
+| **Last updated** | 2026-05-08 |
 | **Homepage** | [https://registry.terraform.io/modules/telia-oss/grafana/aws](https://registry.terraform.io/modules/telia-oss/grafana/aws) |

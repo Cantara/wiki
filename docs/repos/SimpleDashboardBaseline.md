@@ -5,6 +5,6 @@
 | Field | Value |
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/SimpleDashboardBaseline](https://github.com/Cantara/SimpleDashboardBaseline) |
-| **Language** | — |
+| **Language** | Standard ML |
 | **Stars** | 0 |
-| **Last updated** | 2023-06-08 |
+| **Last updated** | 2026-05-08 |

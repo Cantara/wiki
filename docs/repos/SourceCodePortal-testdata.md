@@ -5,6 +5,6 @@ Source code portal Test data
 | Field | Value |
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/SourceCodePortal-testdata](https://github.com/Cantara/SourceCodePortal-testdata) |
-| **Language** | Java |
+| **Language** | Standard ML |
 | **Stars** | 0 |
-| **Last updated** | 2026-03-05 |
+| **Last updated** | 2026-05-08 |

@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/kcp-commands](https://github.com/Cantara/kcp-commands) |
 | **Language** | Java |
 | **Stars** | 10 |
-| **Last updated** | 2026-04-09 |
+| **Last updated** | 2026-05-07 |
 
 ---
 

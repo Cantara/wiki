@@ -7,5 +7,5 @@ Load balancer module for Terraform.
 | **GitHub** | [https://github.com/Cantara/terraform-aws-loadbalancer](https://github.com/Cantara/terraform-aws-loadbalancer) |
 | **Language** | HCL |
 | **Stars** | 0 |
-| **Last updated** | 2022-12-02 |
+| **Last updated** | 2026-05-08 |
 | **Homepage** | [https://registry.terraform.io/modules/telia-oss/loadbalancer/aws](https://registry.terraform.io/modules/telia-oss/loadbalancer/aws) |

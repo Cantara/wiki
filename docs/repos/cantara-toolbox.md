@@ -5,6 +5,6 @@ Common tools you may reuse across your projects.
 | Field | Value |
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/cantara-toolbox](https://github.com/Cantara/cantara-toolbox) |
-| **Language** | — |
+| **Language** | Standard ML |
 | **Stars** | 0 |
-| **Last updated** | 2024-01-02 |
+| **Last updated** | 2026-05-08 |

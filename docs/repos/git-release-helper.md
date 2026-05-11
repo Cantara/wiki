@@ -7,4 +7,4 @@ helper cli tool for git based releases.
 | **GitHub** | [https://github.com/Cantara/git-release-helper](https://github.com/Cantara/git-release-helper) |
 | **Language** | Go |
 | **Stars** | 0 |
-| **Last updated** | 2026-01-15 |
+| **Last updated** | 2026-05-08 |

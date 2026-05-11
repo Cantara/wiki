@@ -7,4 +7,4 @@ Lightweight library used to format log messages in json with a structure that ca
 | **GitHub** | [https://github.com/Cantara/FlowLogger](https://github.com/Cantara/FlowLogger) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2025-10-01 |
+| **Last updated** | 2026-05-08 |

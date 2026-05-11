@@ -7,4 +7,4 @@
 | **GitHub** | [https://github.com/Cantara/Valuereporter-Agent](https://github.com/Cantara/Valuereporter-Agent) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-03-10 |
+| **Last updated** | 2026-05-07 |

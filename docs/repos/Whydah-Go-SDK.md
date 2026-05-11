@@ -5,9 +5,9 @@ Whydah client integration for Go
 | Field | Value |
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/Whydah-Go-SDK](https://github.com/Cantara/Whydah-Go-SDK) |
-| **Language** | — |
+| **Language** | Standard ML |
 | **Stars** | 0 |
-| **Last updated** | 2022-01-07 |
+| **Last updated** | 2026-05-08 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

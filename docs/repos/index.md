@@ -1,6 +1,6 @@
 # GitHub Repository Index
 
-All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 150 repositories total.
+All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 151 repositories total.
 
 ---
 
@@ -48,7 +48,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 ## Java Auto-Update
 
 - [JAU-Updater-App](JAU-Updater-App.md) — A small application to do a controlled update of the Java Auto Updater application itself
-- [Java-Auto-Update](Java-Auto-Update.md) ★51 — Java Auto-Update - wrapper to automaticall upgrade a Java application. 
+- [Java-Auto-Update](Java-Auto-Update.md) ★50 — Java Auto-Update - wrapper to automaticall upgrade a Java application. 
 
 ## Xorcery
 
@@ -92,12 +92,14 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [bragi](bragi.md)
 - [buri](buri.md) — Nexus versioning downloader for go programs
 - [cantara-annual-christmasbeer](cantara-annual-christmasbeer.md) — A project to help score cantaras beer tastings.
+- [cueconfig](cueconfig.md) — Package cueconfig provides an API designed to make it straightforward to use the CUE language as a configuration format for Go programs.
 - [git-release-helper](git-release-helper.md) — helper cli tool for git based releases.
 - [gober](gober.md) — A simplification of distribution. Hopefully
 - [kcp-dashboard](kcp-dashboard.md)
 - [nerthus](nerthus.md) ★1
 - [nerthus-cli](nerthus-cli.md) — A cli to interact with Nerthus from the comforts of your terminal.
 - [nerthus2](nerthus2.md) — TMP repo for rewrite of Nerthus. Keeping the current running version easier maintainable.
+- [terraform-aws-asg](terraform-aws-asg.md) — Autoscaling group module for Terraform
 - [vili](vili.md) ★2
 - [wamper](wamper.md) — A tool to screenshot websites
 
@@ -110,14 +112,17 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [terraform-aws-ecr](terraform-aws-ecr.md) — A Terraform module for creating a cross-account-accessible ECR repository. 
 - [terraform-aws-ecs-fargate](terraform-aws-ecs-fargate.md) — Terraform module which creates Fargate ECS resources on AWS.
 - [terraform-aws-eks](terraform-aws-eks.md) — A Terraform module for deploying a EKS cluster in AWS
+- [terraform-aws-grafana](terraform-aws-grafana.md) — Terraform module which creates a Grafana deployment in a Fargate ECS cluster on AWS.
 - [terraform-aws-http-api](terraform-aws-http-api.md) ★1
 - [terraform-aws-loadbalancer](terraform-aws-loadbalancer.md) — Load balancer module for Terraform.
 - [terraform-aws-rds-instance](terraform-aws-rds-instance.md) — RDS Instance module for Terraform
+- [terraform-aws-ssm-agent-policy](terraform-aws-ssm-agent-policy.md) — An IAM policy which grants the necessary permissions to run the SSM agent.
 - [terraform-aws-static-site](terraform-aws-static-site.md) — Terraform module for creating a static site using S3 and Cloudfront
 - [terraform-aws-vpc](terraform-aws-vpc.md) — VPC module for Terraform
 
 ## Other
 
+- [.github](.github.md) — Cantara org-wide shared GitHub Actions workflows
 - [_deprecated_log4jna](_deprecated_log4jna.md) — Log4jna is a library of native appenders for log4j.
 - [_parentpom](_parentpom.md) — Parent pom
 - [ACS-SharepointComponents](ACS-SharepointComponents.md) — Apps and other solutions to maximize the value from Awesome Competance System for SharePoint Intranets
@@ -134,7 +139,6 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [cantara.github.io](cantara.github.io.md) — Cantara Public Landing Page
 - [Client-Observer-Filter](Client-Observer-Filter.md) — Identifiy which client that are using your api. Observe cookie id, client ip and browser type.
 - [cloudwatch-resource-monitor](cloudwatch-resource-monitor.md)
-- [cueconfig](cueconfig.md) — Package cueconfig provides an API designed to make it straightforward to use the CUE language as a configuration format for Go programs.
 - [distributed-saga](distributed-saga.md) ★2 — Implementation of the distributed-saga pattern consisting of separate java libraries for api, execution, and serialization
 - [FlowLogger](FlowLogger.md) — Lightweight library used to format log messages in json with a structure that can be used to build a flow graph
 - [FlowVisualizerReact](FlowVisualizerReact.md) — React visualisation of flow-data produced by FlowLogger
@@ -155,7 +159,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [kcp-commands](kcp-commands.md) ★10
 - [kcp-memory](kcp-memory.md) ★4 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
 - [kcp-triage](kcp-triage.md) ★1 — LLM driven triage system for analyzing web pages and generating agentic clients based on KCP structure
-- [knowledge-context-protocol](knowledge-context-protocol.md) ★23
+- [knowledge-context-protocol](knowledge-context-protocol.md) ★24
 - [lib-electronic-components](lib-electronic-components.md) ★2
 - [llms-txt-rag-compare](llms-txt-rag-compare.md)
 - [logback-ext-cloudwatch-appender](logback-ext-cloudwatch-appender.md) — CloudWatch appender for Logback
@@ -185,7 +189,4 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [stingray](stingray.md) — Java application framework with strong conventions and use of other Cantara components
 - [stingray-jdk8](stingray-jdk8.md) — Java application framework with strong conventions and use of other Cantara components
 - [Synthesis-Little-Brother](Synthesis-Little-Brother.md) ★1
-- [terraform-aws-asg](terraform-aws-asg.md) — Autoscaling group module for Terraform
-- [terraform-aws-grafana](terraform-aws-grafana.md) — Terraform module which creates a Grafana deployment in a Fargate ECS cluster on AWS.
-- [terraform-aws-ssm-agent-policy](terraform-aws-ssm-agent-policy.md) — An IAM policy which grants the necessary permissions to run the SSM agent.
 - [wiki](wiki.md)

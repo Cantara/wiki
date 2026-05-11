@@ -2024,6 +2024,7 @@ nav:
     # BEGIN_REPOS_NAV
   - "GitHub Repos":
       - "All Repositories": repos/index.md
+      - ".github": repos/.github.md
       - "_deprecated_log4jna": repos/_deprecated_log4jna.md
       - "_parentpom": repos/_parentpom.md
       - "ACS SharepointComponents": repos/ACS-SharepointComponents.md

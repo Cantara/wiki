@@ -5,9 +5,9 @@ Docker Image running Blitz and ApacheRiver
 | Field | Value |
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/blitz-docker](https://github.com/Cantara/blitz-docker) |
-| **Language** | — |
+| **Language** | Dockerfile |
 | **Stars** | 1 |
-| **Last updated** | 2019-05-22 |
+| **Last updated** | 2026-05-08 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

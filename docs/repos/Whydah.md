@@ -7,7 +7,7 @@ Top-level repository for the Whydah components
 | **GitHub** | [https://github.com/Cantara/Whydah](https://github.com/Cantara/Whydah) |
 | **Language** | JavaScript |
 | **Stars** | 6 |
-| **Last updated** | 2026-03-19 |
+| **Last updated** | 2026-05-07 |
 | **Topics** | `cloud-native` `iam` `microservices` `oauth2-authentication` `oauth2-provider` `sso` `sso-solution` `useradmin` |
 
 !!! tip "Related Wiki Pages"

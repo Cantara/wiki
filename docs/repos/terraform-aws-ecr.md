@@ -7,5 +7,5 @@ A Terraform module for creating a cross-account-accessible ECR repository.
 | **GitHub** | [https://github.com/Cantara/terraform-aws-ecr](https://github.com/Cantara/terraform-aws-ecr) |
 | **Language** | HCL |
 | **Stars** | 0 |
-| **Last updated** | 2023-07-25 |
+| **Last updated** | 2026-05-08 |
 | **Homepage** | [https://registry.terraform.io/modules/telia-oss/ecr/aws](https://registry.terraform.io/modules/telia-oss/ecr/aws) |

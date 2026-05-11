@@ -5,6 +5,6 @@ AWS infrastructure related files
 | Field | Value |
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/aws-infrastructure](https://github.com/Cantara/aws-infrastructure) |
-| **Language** | — |
+| **Language** | Standard ML |
 | **Stars** | 0 |
-| **Last updated** | 2018-06-23 |
+| **Last updated** | 2026-05-08 |

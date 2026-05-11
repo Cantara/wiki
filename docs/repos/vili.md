@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/vili](https://github.com/Cantara/vili) |
 | **Language** | Go |
 | **Stars** | 2 |
-| **Last updated** | 2026-03-10 |
+| **Last updated** | 2026-05-07 |
 
 ---
 

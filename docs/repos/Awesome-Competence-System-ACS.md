@@ -7,7 +7,7 @@ Your one stop shop for employee skill, competency and experience search.
 | **GitHub** | [https://github.com/Cantara/Awesome-Competence-System-ACS](https://github.com/Cantara/Awesome-Competence-System-ACS) |
 | **Language** | HTML |
 | **Stars** | 2 |
-| **Last updated** | 2021-09-27 |
+| **Last updated** | 2026-05-08 |
 | **Homepage** | [https://wiki.cantara.no/display/ACS/Home](https://wiki.cantara.no/display/ACS/Home) |
 
 !!! tip "Related Wiki Pages"

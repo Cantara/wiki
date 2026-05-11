@@ -7,4 +7,4 @@ Given timed incoming messages, use statistics package from apache commons math t
 | **GitHub** | [https://github.com/Cantara/message-performance-sampler](https://github.com/Cantara/message-performance-sampler) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-04-28 |
+| **Last updated** | 2026-05-08 |

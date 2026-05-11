@@ -5,9 +5,9 @@
 | Field | Value |
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/Cantara-Renovate-Config](https://github.com/Cantara/Cantara-Renovate-Config) |
-| **Language** | — |
+| **Language** | Standard ML |
 | **Stars** | 1 |
-| **Last updated** | 2025-12-09 |
+| **Last updated** | 2026-05-08 |
 
 ---
 

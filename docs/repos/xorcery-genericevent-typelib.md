@@ -5,6 +5,6 @@ Generic Event typelib - Provides generic metadata, serialization, and deserializ
 | Field | Value |
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/xorcery-genericevent-typelib](https://github.com/Cantara/xorcery-genericevent-typelib) |
-| **Language** | — |
+| **Language** | Standard ML |
 | **Stars** | 0 |
-| **Last updated** | 2022-10-10 |
+| **Last updated** | 2026-05-08 |

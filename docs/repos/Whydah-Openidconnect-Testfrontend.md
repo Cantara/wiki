@@ -7,7 +7,7 @@ Simple node app used to verify login with openid-connect
 | **GitHub** | [https://github.com/Cantara/Whydah-Openidconnect-Testfrontend](https://github.com/Cantara/Whydah-Openidconnect-Testfrontend) |
 | **Language** | JavaScript |
 | **Stars** | 0 |
-| **Last updated** | 2025-01-08 |
+| **Last updated** | 2026-05-08 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

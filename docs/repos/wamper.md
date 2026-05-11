@@ -7,4 +7,4 @@ A tool to screenshot websites
 | **GitHub** | [https://github.com/Cantara/wamper](https://github.com/Cantara/wamper) |
 | **Language** | Go |
 | **Stars** | 0 |
-| **Last updated** | 2025-12-23 |
+| **Last updated** | 2026-05-08 |

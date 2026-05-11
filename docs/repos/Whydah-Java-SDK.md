@@ -7,7 +7,7 @@ A client library which might make Whydah integration more easy and more resilien
 | **GitHub** | [https://github.com/Cantara/Whydah-Java-SDK](https://github.com/Cantara/Whydah-Java-SDK) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2026-04-24 |
+| **Last updated** | 2026-05-07 |
 | **Topics** | `sso-sdk` `user-management` `usermanagement` |
 
 !!! tip "Related Wiki Pages"

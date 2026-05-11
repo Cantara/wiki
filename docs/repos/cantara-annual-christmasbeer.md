@@ -7,4 +7,4 @@ A project to help score cantaras beer tastings.
 | **GitHub** | [https://github.com/Cantara/cantara-annual-christmasbeer](https://github.com/Cantara/cantara-annual-christmasbeer) |
 | **Language** | Go |
 | **Stars** | 0 |
-| **Last updated** | 2026-01-15 |
+| **Last updated** | 2026-05-08 |
