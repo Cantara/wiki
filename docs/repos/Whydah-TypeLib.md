@@ -7,7 +7,7 @@ Common base for the important types, mappers, serializers and parsers in Whydah
 | **GitHub** | [https://github.com/Cantara/Whydah-TypeLib](https://github.com/Cantara/Whydah-TypeLib) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2026-05-07 |
+| **Last updated** | 2026-05-14 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.
