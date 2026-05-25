@@ -2139,6 +2139,7 @@ nav:
       - "terraform aws ssm agent policy": repos/terraform-aws-ssm-agent-policy.md
       - "terraform aws static site": repos/terraform-aws-static-site.md
       - "terraform aws vpc": repos/terraform-aws-vpc.md
+      - "TerteForm": repos/TerteForm.md
       - "Valuereporter": repos/Valuereporter.md
       - "Valuereporter Agent": repos/Valuereporter-Agent.md
       - "Valuereporter Java Client": repos/Valuereporter-Java-Client.md

@@ -1,6 +1,6 @@
 # GitHub Repository Index
 
-All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 151 repositories total.
+All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 152 repositories total.
 
 ---
 
@@ -189,4 +189,5 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [stingray](stingray.md) — Java application framework with strong conventions and use of other Cantara components
 - [stingray-jdk8](stingray-jdk8.md) — Java application framework with strong conventions and use of other Cantara components
 - [Synthesis-Little-Brother](Synthesis-Little-Brother.md) ★1
+- [TerteForm](TerteForm.md) — Where the Pie bakes - local environment for controlled agentic development, leveraging Pi.dev, Docker and local LLMs
 - [wiki](wiki.md)
