@@ -7,7 +7,7 @@ Example services for Xorcery
 | **GitHub** | [https://github.com/Cantara/xorcery-examples](https://github.com/Cantara/xorcery-examples) |
 | **Language** | Java |
 | **Stars** | 5 |
-| **Last updated** | 2026-05-07 |
+| **Last updated** | 2026-06-01 |
 
 ---
 
