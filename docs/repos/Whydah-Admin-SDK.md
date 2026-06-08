@@ -7,7 +7,7 @@ An extended Whydah SDK which include the admin commands and systests
 | **GitHub** | [https://github.com/Cantara/Whydah-Admin-SDK](https://github.com/Cantara/Whydah-Admin-SDK) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2026-05-28 |
+| **Last updated** | 2026-06-01 |
 | **Topics** | `iam` `iam-credentials` `sso-client` `sso-sdk` `whydah` |
 
 !!! tip "Related Wiki Pages"
