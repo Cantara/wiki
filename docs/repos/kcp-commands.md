@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/kcp-commands](https://github.com/Cantara/kcp-commands) |
 | **Language** | Java |
 | **Stars** | 10 |
-| **Last updated** | 2026-05-21 |
+| **Last updated** | 2026-06-10 |
 
 ---
 
@@ -34,7 +34,7 @@ kcp-commands is a [Claude Code hook](https://docs.anthropic.com/en/docs/claude-c
 - Every Bash call is **indexed** by kcp-memory for cross-session episodic memory
 
 291 bundled manifests. Part of the [Knowledge Context Protocol](https://cantara.github.io/knowledge-context-protocol/) ecosystem.
-Read the [release post](https://wiki.totto.org/blog/2026/03/02/kcp-commands/) for the design rationale.
+Read the [release post](https://wiki.totto.org/blog/2026/03/02/kcp-commands-save-33-of-claude-codes-context-window/) for the design rationale.
 
 ---
 

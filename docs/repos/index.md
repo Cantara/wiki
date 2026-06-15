@@ -48,7 +48,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 ## Java Auto-Update
 
 - [JAU-Updater-App](JAU-Updater-App.md) — A small application to do a controlled update of the Java Auto Updater application itself
-- [Java-Auto-Update](Java-Auto-Update.md) ★52 — Java Auto-Update - wrapper to automaticall upgrade a Java application. 
+- [Java-Auto-Update](Java-Auto-Update.md) ★53 — Java Auto-Update - wrapper to automaticall upgrade a Java application. 
 
 ## Xorcery
 
