@@ -7,7 +7,7 @@ Config Service is the server-component of a controlled application instance regi
 | **GitHub** | [https://github.com/Cantara/ConfigService](https://github.com/Cantara/ConfigService) |
 | **Language** | Java |
 | **Stars** | 6 |
-| **Last updated** | 2026-06-02 |
+| **Last updated** | 2026-06-20 |
 | **Homepage** | [https://wiki.cantara.no/display/JAU/ConfigService](https://wiki.cantara.no/display/JAU/ConfigService) |
 
 !!! tip "Related Wiki Pages"

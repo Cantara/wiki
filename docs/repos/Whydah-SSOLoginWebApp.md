@@ -7,7 +7,7 @@ The SSO / WebFrontend module of the Whydah IAM/SSO
 | **GitHub** | [https://github.com/Cantara/Whydah-SSOLoginWebApp](https://github.com/Cantara/Whydah-SSOLoginWebApp) |
 | **Language** | Java |
 | **Stars** | 2 |
-| **Last updated** | 2026-05-07 |
+| **Last updated** | 2026-06-20 |
 | **Topics** | `iam` `sso-solution` `whydah` |
 
 !!! tip "Related Wiki Pages"

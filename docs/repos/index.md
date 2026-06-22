@@ -160,7 +160,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [kcp-memory](kcp-memory.md) ★5 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
 - [kcp-triage](kcp-triage.md) ★1 — LLM driven triage system for analyzing web pages and generating agentic clients based on KCP structure
 - [knowledge-context-protocol](knowledge-context-protocol.md) ★24
-- [lib-electronic-components](lib-electronic-components.md) ★2
+- [lib-electronic-components](lib-electronic-components.md) ★3
 - [llms-txt-rag-compare](llms-txt-rag-compare.md)
 - [logback-ext-cloudwatch-appender](logback-ext-cloudwatch-appender.md) — CloudWatch appender for Logback
 - [message-performance-sampler](message-performance-sampler.md) — Given timed incoming messages, use statistics package from apache commons math to sample total and windowed latency and throughput.
