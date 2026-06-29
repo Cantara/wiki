@@ -1,6 +1,6 @@
 # GitHub Repository Index
 
-All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 152 repositories total.
+All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 153 repositories total.
 
 ---
 
@@ -156,8 +156,9 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [java-modules-json1](java-modules-json1.md) — Part of java-modules-demo. This library depends on Jackson 1.x
 - [java-modules-json2](java-modules-json2.md) — Part of java-modules-demo. This library depends on Jackson 2.x
 - [julebrus](julebrus.md)
-- [kcp-commands](kcp-commands.md) ★10
-- [kcp-memory](kcp-memory.md) ★5 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
+- [kcp-commands](kcp-commands.md) ★12
+- [kcp-hooks](kcp-hooks.md) ★1
+- [kcp-memory](kcp-memory.md) ★6 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
 - [kcp-triage](kcp-triage.md) ★1 — LLM driven triage system for analyzing web pages and generating agentic clients based on KCP structure
 - [knowledge-context-protocol](knowledge-context-protocol.md) ★24
 - [lib-electronic-components](lib-electronic-components.md) ★3
