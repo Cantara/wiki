@@ -23,7 +23,7 @@ project:
   website: https://cantara.github.io/knowledge-context-protocol/
   license: Apache 2.0
   language: Java
-  current_version: "0.14"
+  current_version: "0.25"
   stars: 12
   status: active
 
@@ -36,7 +36,7 @@ description: >
 spec:
   url: https://github.com/Cantara/knowledge-context-protocol/blob/main/SPEC.md
   manifest: https://cantara.github.io/knowledge-context-protocol/knowledge.yaml
-  version: "0.14"
+  version: "0.25"
   key_concepts:
     - knowledge.yaml root manifest with entity, authority, discovery, signing
     - Federation via includes — sub-manifests per domain
@@ -45,6 +45,17 @@ spec:
     - Backwards-compatible _legacy blocks for v0.6/v0.7 consumers
 
 toolchain:
+  kcp-agent:
+    description: >
+      Deterministic reference agent — fail-closed planner (pure function over
+      manifest metadata), MCP bridge (kcp_plan, kcp_load, kcp_validate,
+      kcp_replay), replay verification of plan artifacts, x402 budget
+      enforcement, native binaries. The model proposes, the plan disposes.
+    repo: https://github.com/Cantara/kcp-agent
+    manifest: https://raw.githubusercontent.com/Cantara/kcp-agent/main/knowledge.yaml
+    npm: https://www.npmjs.com/package/kcp-agent
+    arena: https://cantara.github.io/kcp-agent/
+    current_version: "0.3.0"
   kcp-commands:
     description: Claude Code hook — proactive CLI guidance + output compression
     repo: https://github.com/Cantara/kcp-commands
