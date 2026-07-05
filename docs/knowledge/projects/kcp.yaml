@@ -55,7 +55,7 @@ toolchain:
     manifest: https://raw.githubusercontent.com/Cantara/kcp-agent/main/knowledge.yaml
     npm: https://www.npmjs.com/package/kcp-agent
     arena: https://cantara.github.io/kcp-agent/
-    current_version: "0.3.0"
+    current_version: "0.4.0"
   kcp-commands:
     description: Claude Code hook — proactive CLI guidance + output compression
     repo: https://github.com/Cantara/kcp-commands
