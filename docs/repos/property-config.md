@@ -7,4 +7,4 @@ Read configuration from default properties, properties override and environment
 | **GitHub** | [https://github.com/Cantara/property-config](https://github.com/Cantara/property-config) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-06-26 |
+| **Last updated** | 2026-07-09 |

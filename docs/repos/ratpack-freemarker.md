@@ -7,4 +7,4 @@ Freemarker integration for ratpack
 | **GitHub** | [https://github.com/Cantara/ratpack-freemarker](https://github.com/Cantara/ratpack-freemarker) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-06-01 |
+| **Last updated** | 2026-07-07 |

@@ -7,7 +7,7 @@ Utility lib for secure SQS
 | **GitHub** | [https://github.com/Cantara/sqs-util](https://github.com/Cantara/sqs-util) |
 | **Language** | Java |
 | **Stars** | 2 |
-| **Last updated** | 2026-06-26 |
+| **Last updated** | 2026-07-09 |
 
 ---
 

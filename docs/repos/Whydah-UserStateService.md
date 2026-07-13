@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/Whydah-UserStateService](https://github.com/Cantara/Whydah-UserStateService) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-04 |
+| **Last updated** | 2026-07-10 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.
