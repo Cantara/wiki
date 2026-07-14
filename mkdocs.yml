@@ -24,6 +24,9 @@ plugins:
   - search
   - tags
 
+hooks:
+  - hooks/copy_well_known.py
+
 extra:
   analytics:
     provider: custom
