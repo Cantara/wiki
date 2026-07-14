@@ -1,6 +1,6 @@
 # wiki.cantara.no — KCP root manifest (federated)
-# KCP v0.14 — see https://github.com/Cantara/knowledge-context-protocol
-version: "0.14"
+# KCP v0.26 — see https://github.com/Cantara/knowledge-context-protocol
+version: "0.26"
 
 entity:
   name: Cantara
@@ -28,6 +28,14 @@ signing:
   scope: this-manifest
   public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
   signature: https://wiki.cantara.no/knowledge.yaml.sig
+
+# Serving Endpoint Binding (SPEC §3.12, v0.26): authoritative manifest URLs
+# and authorized MCP representatives. Ignored by pre-0.26 verifiers.
+serving:
+  manifest:
+    - https://wiki.cantara.no/knowledge.yaml
+  mcp:
+    - https://mcp.cantara.no/mcp
 
 includes:
   # Projects
