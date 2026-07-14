@@ -34,6 +34,9 @@ signing:
 serving:
   manifest:
     - https://wiki.cantara.no/knowledge.yaml
+    # wiki.cantara.no 301s to the GitHub Pages project URL; §3.12 matching
+    # uses the final post-redirect URL, so it must be declared too.
+    - https://cantara.github.io/wiki/knowledge.yaml
   mcp:
     - https://mcp.cantara.no/mcp
 
