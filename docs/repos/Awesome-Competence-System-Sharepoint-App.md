@@ -7,7 +7,7 @@ Awesome-Competence-System-Sharepoint-App
 | **GitHub** | [https://github.com/Cantara/Awesome-Competence-System-Sharepoint-App](https://github.com/Cantara/Awesome-Competence-System-Sharepoint-App) |
 | **Language** | JavaScript |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

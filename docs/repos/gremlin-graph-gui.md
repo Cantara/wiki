@@ -7,7 +7,7 @@ Application visualizing neural-graph based on Gremlin, Neptune and JWT authentic
 | **GitHub** | [https://github.com/Cantara/gremlin-graph-gui](https://github.com/Cantara/gremlin-graph-gui) |
 | **Language** | JavaScript |
 | **Stars** | 1 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |
 
 ---
 

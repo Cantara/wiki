@@ -7,5 +7,5 @@ A Terraform module for deploying a EKS cluster in AWS
 | **GitHub** | [https://github.com/Cantara/terraform-aws-eks](https://github.com/Cantara/terraform-aws-eks) |
 | **Language** | HCL |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |
 | **Homepage** | [https://registry.terraform.io/modules/telia-oss/eks/aws](https://registry.terraform.io/modules/telia-oss/eks/aws) |

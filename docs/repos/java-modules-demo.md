@@ -7,4 +7,4 @@ Demonstrate how to include two different versions of transitive dependencies usi
 | **GitHub** | [https://github.com/Cantara/java-modules-demo](https://github.com/Cantara/java-modules-demo) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-11 |
+| **Last updated** | 2026-07-14 |

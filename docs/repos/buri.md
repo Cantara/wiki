@@ -7,4 +7,4 @@ Nexus versioning downloader for go programs
 | **GitHub** | [https://github.com/Cantara/buri](https://github.com/Cantara/buri) |
 | **Language** | Go |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |

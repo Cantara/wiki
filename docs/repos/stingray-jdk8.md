@@ -7,4 +7,4 @@ Java application framework with strong conventions and use of other Cantara comp
 | **GitHub** | [https://github.com/Cantara/stingray-jdk8](https://github.com/Cantara/stingray-jdk8) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |

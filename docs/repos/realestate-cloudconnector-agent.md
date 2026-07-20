@@ -7,4 +7,4 @@ Pipe observations from Building Automation Systems to your favorite Cloud Provid
 | **GitHub** | [https://github.com/Cantara/realestate-cloudconnector-agent](https://github.com/Cantara/realestate-cloudconnector-agent) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-02 |
+| **Last updated** | 2026-07-16 |

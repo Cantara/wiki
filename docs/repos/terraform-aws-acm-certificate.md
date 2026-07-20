@@ -7,5 +7,5 @@ ACM Certificate with validation using Terraform.
 | **GitHub** | [https://github.com/Cantara/terraform-aws-acm-certificate](https://github.com/Cantara/terraform-aws-acm-certificate) |
 | **Language** | HCL |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |
 | **Homepage** | [https://registry.terraform.io/modules/telia-oss/acm-certificate/aws](https://registry.terraform.io/modules/telia-oss/acm-certificate/aws) |

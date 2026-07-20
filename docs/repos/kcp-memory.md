@@ -7,7 +7,7 @@ Episodic memory daemon for Claude Code — indexes session transcripts into SQLi
 | **GitHub** | [https://github.com/Cantara/kcp-memory](https://github.com/Cantara/kcp-memory) |
 | **Language** | Java |
 | **Stars** | 6 |
-| **Last updated** | 2026-07-05 |
+| **Last updated** | 2026-07-14 |
 
 ---
 

@@ -7,4 +7,4 @@
 | **GitHub** | [https://github.com/Cantara/nerthus-probe](https://github.com/Cantara/nerthus-probe) |
 | **Language** | Standard ML |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |

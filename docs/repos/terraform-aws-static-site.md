@@ -7,4 +7,4 @@ Terraform module for creating a static site using S3 and Cloudfront
 | **GitHub** | [https://github.com/Cantara/terraform-aws-static-site](https://github.com/Cantara/terraform-aws-static-site) |
 | **Language** | HCL |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |

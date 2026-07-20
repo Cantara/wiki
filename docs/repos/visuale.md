@@ -7,7 +7,7 @@ An real-time dashboard visualisation for real-world micro-service environments
 | **GitHub** | [https://github.com/Cantara/visuale](https://github.com/Cantara/visuale) |
 | **Language** | Java |
 | **Stars** | 8 |
-| **Last updated** | 2026-06-20 |
+| **Last updated** | 2026-07-14 |
 
 ---
 

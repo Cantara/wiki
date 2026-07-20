@@ -7,5 +7,5 @@ Java HTTP Request Library
 | **GitHub** | [https://github.com/Cantara/http-request](https://github.com/Cantara/http-request) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2026-06-20 |
+| **Last updated** | 2026-07-14 |
 | **Homepage** | [http://kevinsawicki.github.io/http-request](http://kevinsawicki.github.io/http-request) |

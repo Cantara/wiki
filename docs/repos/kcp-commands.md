@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/kcp-commands](https://github.com/Cantara/kcp-commands) |
 | **Language** | Java |
 | **Stars** | 12 |
-| **Last updated** | 2026-07-05 |
+| **Last updated** | 2026-07-17 |
 
 ---
 
@@ -17,7 +17,7 @@
 
 <img src="https://totto.goatcounter.com/count?p=/kcp-commands-readme" alt="" style="display:none">
 
-**Not a CLI -- typed knowledge infrastructure for 291 CLIs.** Proactive guidance, output noise filtering, and event logging for every Bash tool call in Claude Code.
+**Not a CLI -- typed knowledge infrastructure for 292 CLIs.** Proactive guidance, output noise filtering, and event logging for every Bash tool call in Claude Code.
 
 kcp-commands is a [Claude Code hook](https://docs.anthropic.com/en/docs/claude-code/hooks) -- it runs invisibly *around* CLI tools, not as one. It intercepts every Bash tool call and applies three phases:
 
@@ -33,7 +33,7 @@ kcp-commands is a [Claude Code hook](https://docs.anthropic.com/en/docs/claude-c
 - Noisy commands (mvn, terraform, docker, kubectl, etc.) get **measurable output reduction** via Phase B filters
 - Every Bash call is **indexed** by kcp-memory for cross-session episodic memory
 
-291 bundled manifests. Part of the [Knowledge Context Protocol](https://cantara.github.io/knowledge-context-protocol/) ecosystem.
+292 bundled manifests. Part of the [Knowledge Context Protocol](https://cantara.github.io/knowledge-context-protocol/) ecosystem.
 Read the [release post](https://wiki.totto.org/blog/2026/03/02/kcp-commands-save-33-of-claude-codes-context-window/) for the design rationale.
 
 ---
@@ -298,7 +298,7 @@ Full methodology and raw numbers: [docs/benchmark-results.md](docs/benchmark-res
 
 ## Supported commands
 
-### Bundled manifests (291 primed)
+### Bundled manifests (292 primed)
 
 **Git** — `git log` · `git diff` · `git status` · `git add` · `git commit` · `git push` · `git pull` · `git fetch` · `git branch` · `git checkout` · `git stash` · `git merge` · `git rebase` · `git clone` · `git reset` · `git tag` · `git remote` · `git show` · `git cherry-pick` · `git bisect` · `git worktree` · `git submodule`
 
@@ -489,7 +489,7 @@ kcp-commands/
       .../ManifestResolver.java
       .../ManifestGenerator.java
     target/
-  commands/              # bundled primed manifests (291)
+  commands/              # bundled primed manifests (292)
     ls.yaml
     ps.yaml
     find.yaml

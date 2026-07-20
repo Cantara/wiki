@@ -7,7 +7,7 @@ The different example webapps to explain how to use/integrate with the Whydah IA
 | **GitHub** | [https://github.com/Cantara/Whydah-TestWebApp](https://github.com/Cantara/Whydah-TestWebApp) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-06-20 |
+| **Last updated** | 2026-07-17 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

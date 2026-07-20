@@ -7,5 +7,5 @@ Source Code for HappyCoders.eu article series on tree data structures (binary tr
 | **GitHub** | [https://github.com/Cantara/binary-tree](https://github.com/Cantara/binary-tree) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |
 | **Homepage** | [https://www.happycoders.eu/algorithms/binary-tree-java/](https://www.happycoders.eu/algorithms/binary-tree-java/) |

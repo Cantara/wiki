@@ -7,4 +7,4 @@ Solr with embedded Jetty
 | **GitHub** | [https://github.com/Cantara/ACSSearch](https://github.com/Cantara/ACSSearch) |
 | **Language** | JavaScript |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |

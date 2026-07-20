@@ -6,8 +6,8 @@
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/xorcery](https://github.com/Cantara/xorcery) |
 | **Language** | Java |
-| **Stars** | 15 |
-| **Last updated** | 2026-06-20 |
+| **Stars** | 16 |
+| **Last updated** | 2026-07-14 |
 
 ---
 

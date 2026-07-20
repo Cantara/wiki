@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/Cantara-Renovate-Config](https://github.com/Cantara/Cantara-Renovate-Config) |
 | **Language** | Standard ML |
 | **Stars** | 1 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |
 
 ---
 

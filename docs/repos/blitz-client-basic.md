@@ -7,7 +7,7 @@ Getting Started with JavaSpaces.  Aim to keep the examples small.
 | **GitHub** | [https://github.com/Cantara/blitz-client-basic](https://github.com/Cantara/blitz-client-basic) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

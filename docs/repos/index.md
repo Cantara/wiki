@@ -48,11 +48,11 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 ## Java Auto-Update
 
 - [JAU-Updater-App](JAU-Updater-App.md) — A small application to do a controlled update of the Java Auto Updater application itself
-- [Java-Auto-Update](Java-Auto-Update.md) ★53 — Java Auto-Update - wrapper to automaticall upgrade a Java application. 
+- [Java-Auto-Update](Java-Auto-Update.md) ★54 — Java Auto-Update - wrapper to automaticall upgrade a Java application. 
 
 ## Xorcery
 
-- [xorcery](xorcery.md) ★15
+- [xorcery](xorcery.md) ★16
 - [xorcery-examples](xorcery-examples.md) ★5 — Example services for Xorcery
 - [xorcery-genericevent-typelib](xorcery-genericevent-typelib.md) — Generic Event typelib - Provides generic metadata, serialization, and deserialization on domain events
 - [xorcery-jsonapi-jdk11](xorcery-jsonapi-jdk11.md) — Xorcery implementation of the JSON:API specification
@@ -162,7 +162,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [kcp-hooks](kcp-hooks.md) ★1
 - [kcp-memory](kcp-memory.md) ★6 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
 - [kcp-triage](kcp-triage.md) ★1 — LLM driven triage system for analyzing web pages and generating agentic clients based on KCP structure
-- [knowledge-context-protocol](knowledge-context-protocol.md) ★25
+- [knowledge-context-protocol](knowledge-context-protocol.md) ★26
 - [lib-electronic-components](lib-electronic-components.md) ★3
 - [llms-txt-rag-compare](llms-txt-rag-compare.md)
 - [logback-ext-cloudwatch-appender](logback-ext-cloudwatch-appender.md) — CloudWatch appender for Logback

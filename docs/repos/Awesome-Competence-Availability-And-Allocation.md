@@ -7,4 +7,4 @@ An availability and allocation system for ACS
 | **GitHub** | [https://github.com/Cantara/Awesome-Competence-Availability-And-Allocation](https://github.com/Cantara/Awesome-Competence-Availability-And-Allocation) |
 | **Language** | Standard ML |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |

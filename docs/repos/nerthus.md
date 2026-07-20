@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/nerthus](https://github.com/Cantara/nerthus) |
 | **Language** | Go |
 | **Stars** | 1 |
-| **Last updated** | 2026-07-10 |
+| **Last updated** | 2026-07-17 |
 
 ---
 

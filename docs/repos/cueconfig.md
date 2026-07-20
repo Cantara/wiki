@@ -7,4 +7,4 @@ Package cueconfig provides an API designed to make it straightforward to use the
 | **GitHub** | [https://github.com/Cantara/cueconfig](https://github.com/Cantara/cueconfig) |
 | **Language** | Go |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |

@@ -7,4 +7,4 @@ Generate traffic to ValueReporter. May use ValueReporter-agent to provide the lo
 | **GitHub** | [https://github.com/Cantara/Valuereporter-LoadGenerator](https://github.com/Cantara/Valuereporter-LoadGenerator) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |

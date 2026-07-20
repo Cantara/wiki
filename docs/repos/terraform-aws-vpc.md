@@ -7,5 +7,5 @@ VPC module for Terraform
 | **GitHub** | [https://github.com/Cantara/terraform-aws-vpc](https://github.com/Cantara/terraform-aws-vpc) |
 | **Language** | HCL |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |
 | **Homepage** | [https://registry.terraform.io/modules/telia-oss/vpc/aws](https://registry.terraform.io/modules/telia-oss/vpc/aws) |

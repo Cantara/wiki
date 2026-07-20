@@ -7,4 +7,4 @@ Easy promote your microservice status to Visuale
 | **GitHub** | [https://github.com/Cantara/visuale-client-java](https://github.com/Cantara/visuale-client-java) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-09 |
+| **Last updated** | 2026-07-14 |

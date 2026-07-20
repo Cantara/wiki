@@ -7,4 +7,4 @@ Cantara Public Landing Page
 | **GitHub** | [https://github.com/Cantara/cantara.github.io](https://github.com/Cantara/cantara.github.io) |
 | **Language** | HTML |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |

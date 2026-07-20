@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/terraform-aws-http-api](https://github.com/Cantara/terraform-aws-http-api) |
 | **Language** | HCL |
 | **Stars** | 1 |
-| **Last updated** | 2026-06-08 |
+| **Last updated** | 2026-07-14 |
 
 ---
 

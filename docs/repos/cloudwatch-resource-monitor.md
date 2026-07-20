@@ -7,4 +7,4 @@
 | **GitHub** | [https://github.com/Cantara/cloudwatch-resource-monitor](https://github.com/Cantara/cloudwatch-resource-monitor) |
 | **Language** | Perl |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |

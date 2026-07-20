@@ -7,7 +7,7 @@ Scripts related to continouous deploy and DevOps/NoOps
 | **GitHub** | [https://github.com/Cantara/devops](https://github.com/Cantara/devops) |
 | **Language** | Shell |
 | **Stars** | 3 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |
 
 ---
 

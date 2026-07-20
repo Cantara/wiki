@@ -7,7 +7,7 @@ Webserever and Frontend for Mobile enable webpages
 | **GitHub** | [https://github.com/Cantara/IoT-MobileService](https://github.com/Cantara/IoT-MobileService) |
 | **Language** | JavaScript |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

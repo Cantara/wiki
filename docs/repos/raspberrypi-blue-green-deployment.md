@@ -7,4 +7,4 @@ Enable continous deployment of java services on a cheep hw.
 | **GitHub** | [https://github.com/Cantara/raspberrypi-blue-green-deployment](https://github.com/Cantara/raspberrypi-blue-green-deployment) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |

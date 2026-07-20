@@ -7,7 +7,7 @@ Examples and libraries for working with Photon
 | **GitHub** | [https://github.com/Cantara/IoT-Photon](https://github.com/Cantara/IoT-Photon) |
 | **Language** | C++ |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

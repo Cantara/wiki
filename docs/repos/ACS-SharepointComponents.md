@@ -7,4 +7,4 @@ Apps and other solutions to maximize the value from Awesome Competance System fo
 | **GitHub** | [https://github.com/Cantara/ACS-SharepointComponents](https://github.com/Cantara/ACS-SharepointComponents) |
 | **Language** | ASP.NET |
 | **Stars** | 0 |
-| **Last updated** | 2026-05-08 |
+| **Last updated** | 2026-07-14 |
