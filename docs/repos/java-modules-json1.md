@@ -7,4 +7,4 @@ Part of java-modules-demo. This library depends on Jackson 1.x
 | **GitHub** | [https://github.com/Cantara/java-modules-json1](https://github.com/Cantara/java-modules-json1) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-14 |
+| **Last updated** | 2026-07-23 |

@@ -7,7 +7,7 @@ A Dashboard and admin GUI for ConfigService
 | **GitHub** | [https://github.com/Cantara/ConfigService-Dashboard](https://github.com/Cantara/ConfigService-Dashboard) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2026-07-19 |
+| **Last updated** | 2026-07-26 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

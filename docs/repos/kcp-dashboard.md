@@ -7,4 +7,4 @@
 | **GitHub** | [https://github.com/Cantara/kcp-dashboard](https://github.com/Cantara/kcp-dashboard) |
 | **Language** | Go |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-16 |
+| **Last updated** | 2026-07-22 |

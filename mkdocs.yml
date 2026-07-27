@@ -2083,6 +2083,8 @@ nav:
       - "kcp harness": repos/kcp-harness.md
       - "kcp hooks": repos/kcp-hooks.md
       - "kcp memory": repos/kcp-memory.md
+      - "kcp playground": repos/kcp-playground.md
+      - "kcp skill": repos/kcp-skill.md
       - "kcp triage": repos/kcp-triage.md
       - "knowledge context protocol": repos/knowledge-context-protocol.md
       - "lib electronic components": repos/lib-electronic-components.md
@@ -2107,6 +2109,7 @@ nav:
       - "nerthus2": repos/nerthus2.md
       - "parquet java shaded": repos/parquet-java-shaded.md
       - "PathWatcher": repos/PathWatcher.md
+      - "pi kcp": repos/pi-kcp.md
       - "ProcessWatcher": repos/ProcessWatcher.md
       - "property config": repos/property-config.md
       - "property config json": repos/property-config-json.md

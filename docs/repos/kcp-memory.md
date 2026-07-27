@@ -7,13 +7,16 @@ Episodic memory daemon for Claude Code — indexes session transcripts into SQLi
 | **GitHub** | [https://github.com/Cantara/kcp-memory](https://github.com/Cantara/kcp-memory) |
 | **Language** | Java |
 | **Stars** | 6 |
-| **Last updated** | 2026-07-14 |
+| **Last updated** | 2026-07-23 |
 
 ---
 
 ## README
 
 # kcp-memory
+
+### 🧾 See it run — [interactive KCP playground](https://cantara.github.io/pi-kcp/playground/) · [read the reveal](https://wiki.totto.org/blog/2026/07/22/the-ai-agent-that-keeps-the-receipts/)
+
 
 **Episodic memory for Claude Code, Gemini CLI, and Codex CLI.** Indexes your session transcripts and tool-call events into a local SQLite database — searchable in milliseconds. Available as a CLI, an HTTP API, and an MCP server so Claude can query its own history inline.
 
@@ -216,9 +219,10 @@ Add to `~/.claude/settings.json`:
 }
 ```
 
-Claude Code can now call all six tools inline during any session — no manual CLI call,
-no context-switching: `kcp_memory_search`, `kcp_memory_events_search`, `kcp_memory_list`,
-`kcp_memory_stats`, `kcp_memory_session_detail`, and `kcp_memory_project_context`.
+Claude Code can now call all eleven tools inline during any session — no manual CLI call,
+no context-switching (search, list, stats, session detail, project context, subagent search,
+session tree, manifest analysis, forget, and retention — see **MCP server** below for the
+full table).
 
 ---
 
@@ -242,7 +246,7 @@ before every `kcp_memory_events_search` call.
 
 ## MCP server
 
-The MCP server exposes ten tools over stdio (JSON-RPC 2.0):
+The MCP server exposes eleven tools over stdio (JSON-RPC 2.0):
 
 | Tool | What it answers |
 |------|----------------|
@@ -255,6 +259,8 @@ The MCP server exposes ten tools over stdio (JSON-RPC 2.0):
 | `kcp_memory_subagent_search` | FTS5 search within subagent transcripts — finds architectural discoveries, rejected approaches, and reasoning buried in delegated tasks *(v0.5.0)* |
 | `kcp_memory_session_tree` | Show a parent session and all its child subagents as a tree — reveals delegated scope and per-agent tool usage *(v0.5.0)* |
 | `kcp_memory_analyze` | Manifest quality metrics — retry rate, help-followup rate, error rate per manifest key. Set `by_version=true` to compare before/after a manifest improvement (requires kcp-commands v0.16.0+). *(v0.17.0)* |
+| `kcp_memory_forget` | Right-to-forget: permanently tombstone a session so it's never surfaced by search or list again — row retained for audit, excluded from recall *(v0.33.0)* |
+| `kcp_memory_retention` | Declare (or clear) a retention window on a session — after `valid_until`, recall skips it *(v0.33.0)* |
 
 Registration (`~/.claude/settings.json`):
 
@@ -379,6 +385,14 @@ The HTTP daemon runs on `http://localhost:7735`:
 | `/stats` | GET | Aggregate statistics |
 | `/scan?force=true` | POST | Trigger an incremental scan (async) |
 | `/events/search?q=<query>&limit=20` | GET | FTS5 search over tool-call events *(v0.2.0)* |
+| `/governance?session=<id>` | GET | Governance metadata (provenance, retention, forgotten status) for a session *(v0.33.0)* |
+| `/governance/audit?q=<query>&limit=20` | GET | Audit the recall gate for a query: which candidates are surfaced vs. skipped, and why *(v0.33.0)* |
+| `/governance/retention` | POST | Declare or clear a retention window: `{session, valid_until}` *(v0.33.0)* |
+| `/governance/forget` | POST | Exercise the right-to-forget: `{session, reason}` *(v0.33.0)* |
+
+The four `/governance/*` endpoints are registered on the internal (localhost) server only —
+unlike every other endpoint above, they are deliberately **not** exposed on the daemon's
+optional external-facing server.
 
 ```bash
 # Check health
@@ -467,6 +481,11 @@ java --enable-native-access=ALL-UNNAMED -jar ~/.kcp/kcp-memory-daemon.jar search
 | v0.21.0 | **FTS session fix.** `SessionParser` accepted only `"human"` type for user messages, but Claude Code sends `"user"`. All 3,742 sessions had NULL `first_message` — FTS returned 0 results. Fixed with regression test. **After upgrading, run `kcp-memory scan --force`** to repopulate session data. |
 | v0.22.0 | **Documentation and version alignment.** Updated README: 10 MCP tools (was 9), CLI alias note (`--enable-native-access`), FTS fix upgrade instructions. Coordinated release with kcp-commands v0.22.0 and kcp-dashboard v0.22.0. |
 | v0.26.0 | **Ecosystem alignment.** Removed stale v0.20.0 upgrade note from Quick Start. Coordinated release with kcp-commands v0.26.0 and kcp-dashboard v0.26.0. |
+| v0.26.1 | Fix: replace `HttpServer` with `ServerSocket` — fixes Windows MSIX sandbox startup (#20). |
+| v0.27.0 | **Peer sync + external API.** `--peer` (ExoCortex node-to-node sync) and `--serve` (external-facing API for ExoCortex mobile), WebSocket nodes + event broadcast (control plane Phase 1), `/files` browser + `/process` control endpoints, pending-task queue for peer dispatch. |
+| v0.31.0 | Internal/infra changes — no dedicated release notes; see the [v0.27.0...v0.31.0 diff](https://github.com/Cantara/kcp-memory/compare/v0.27.0...v0.31.0). |
+| v0.32.0 | **KCP v0.14 support** — header blocks, expanded units, structured navigation (#31); cross-site manifest links. Fix: `kcp_memory_events_search` crashed on queries containing `-` (FTS5 read it as a column-negation operator) (#34). |
+| v0.33.0 | **Memory governance.** Retention windows, provenance tagging, right-to-forget (#36/#44) — 4 new `/governance/*` HTTP endpoints (internal server only) and 2 new MCP tools, `kcp_memory_forget` + `kcp_memory_retention` (now 11 total). |
 
 ---
 
@@ -494,24 +513,5 @@ complementary — it makes the past retrievable and queryable.
 
 Both use `~/.kcp/` and are part of the [KCP ecosystem](https://github.com/Cantara/knowledge-context-protocol).
 
-**[kcp-dashboard](https://github.com/Cantara/kcp-dashboard)** is the live terminal dashboard for KCP usage statistics. It reads `~/.kcp/usage.db` (RFC-0017) and `~/.kcp/memory.db` — showing commands guided, context delivered, manifest coverage, session profile, guidance quality metrics, and memory search recall. Refreshes every 2 seconds. Single Go binary, no runtime deps.
-
----
-
-## Building from source
-
-```bash
-cd java
-mvn package -q
-# Output: target/kcp-memory-daemon.jar
-```
-
-Java 21 required. No Spring, no framework, no cloud calls. Dependencies: `sqlite-jdbc`, `jackson-databind`, `picocli`.
-
----
-
-## Related
-
-- [Release post](https://wiki.totto.org/blog/2026/03/03/kcp-memory/) — design rationale, three-layer model, benchmark numbers
 
 *(README truncated at 500 lines)*

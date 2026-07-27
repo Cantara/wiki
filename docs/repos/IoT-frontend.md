@@ -7,7 +7,7 @@ Frontend Application for accessing IoT platforms. Runtime with Docker, java -jar
 | **GitHub** | [https://github.com/Cantara/IoT-frontend](https://github.com/Cantara/IoT-frontend) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-14 |
+| **Last updated** | 2026-07-25 |
 
 !!! tip "Related Wiki Pages"
     This project has documentation in the Cantara Wiki.

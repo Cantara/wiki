@@ -7,4 +7,4 @@ Basic Commands for HTTP using CircuitBreaker with Resilience4j
 | **GitHub** | [https://github.com/Cantara/Resilience4j-BaseCommands](https://github.com/Cantara/Resilience4j-BaseCommands) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-14 |
+| **Last updated** | 2026-07-23 |

@@ -7,4 +7,4 @@ Send you observations to a Statsd server
 | **GitHub** | [https://github.com/Cantara/Valuereporter-Statsd-Agent](https://github.com/Cantara/Valuereporter-Statsd-Agent) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-14 |
+| **Last updated** | 2026-07-25 |

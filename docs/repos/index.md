@@ -1,6 +1,6 @@
 # GitHub Repository Index
 
-All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 155 repositories total.
+All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 158 repositories total.
 
 ---
 
@@ -161,6 +161,8 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [kcp-harness](kcp-harness.md)
 - [kcp-hooks](kcp-hooks.md) ★1
 - [kcp-memory](kcp-memory.md) ★6 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
+- [kcp-playground](kcp-playground.md) — Interactive in-browser demos of the KCP defendable agent — the real decision code, live, signing every verdict. Companion to 'The AI Agent That Keeps the Receipts'.
+- [kcp-skill](kcp-skill.md)
 - [kcp-triage](kcp-triage.md) ★1 — LLM driven triage system for analyzing web pages and generating agentic clients based on KCP structure
 - [knowledge-context-protocol](knowledge-context-protocol.md) ★26
 - [lib-electronic-components](lib-electronic-components.md) ★3
@@ -174,6 +176,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [nerthus-ui](nerthus-ui.md)
 - [parquet-java-shaded](parquet-java-shaded.md) — Shaded version of parquet-java
 - [PathWatcher](PathWatcher.md) ★2
+- [pi-kcp](pi-kcp.md) — Pi.dev harness KCP wrapper
 - [ProcessWatcher](ProcessWatcher.md) ★1 — A java library for watching, fingerprinting and eventing of processes (Process IDS watcher)
 - [property-config](property-config.md) — Read configuration from default properties, properties override and environment
 - [property-config-json](property-config-json.md)

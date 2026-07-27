@@ -7,4 +7,4 @@ Interfaces describing how to implement plugins to Cantara RealEstate
 | **GitHub** | [https://github.com/Cantara/realestate-api-java](https://github.com/Cantara/realestate-api-java) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-14 |
+| **Last updated** | 2026-07-25 |

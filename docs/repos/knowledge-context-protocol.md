@@ -7,13 +7,16 @@
 | **GitHub** | [https://github.com/Cantara/knowledge-context-protocol](https://github.com/Cantara/knowledge-context-protocol) |
 | **Language** | Java |
 | **Stars** | 26 |
-| **Last updated** | 2026-07-17 |
+| **Last updated** | 2026-07-26 |
 
 ---
 
 ## README
 
 # Knowledge Context Protocol (KCP)
+
+### 🧾 See it run — [interactive KCP playground](https://cantara.github.io/pi-kcp/playground/) · [read the reveal](https://wiki.totto.org/blog/2026/07/22/the-ai-agent-that-keeps-the-receipts/)
+
 
 > A structured metadata standard that makes knowledge navigable by AI agents.
 
@@ -435,7 +438,7 @@ Until formal acceptance, KCP remains an Apache 2.0 open specification proposed b
 
 ## Status
 
-**Current:** Draft specification — v0.21 (there is no v0.15 spec; the number was skipped to re-sync with the `kcp` CLI release train)
+**Current:** Draft specification — v0.26 (there is no v0.15 spec; the number was skipped to re-sync with the `kcp` CLI release train)
 
 The format is intentionally minimal and builds incrementally through promoted RFCs. Feedback, use cases, and pull requests are welcome.
 
@@ -510,4 +513,5 @@ do not need it.
 
 Apache V2.
 
-*Proposed by [eXOReaction AS](https://www.exoreaction.com) — builders of Synthesis, based in Oslo, Norway.*
+
+*(README truncated at 500 lines)*
