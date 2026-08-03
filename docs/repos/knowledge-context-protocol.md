@@ -6,8 +6,8 @@
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/knowledge-context-protocol](https://github.com/Cantara/knowledge-context-protocol) |
 | **Language** | Java |
-| **Stars** | 26 |
-| **Last updated** | 2026-07-26 |
+| **Stars** | 25 |
+| **Last updated** | 2026-08-02 |
 
 ---
 
@@ -51,6 +51,11 @@ units:
 (tested across 5 frameworks: crewAI, AutoGen, smolagents, LangChain, OpenCode).
 
 **Five minutes to Level 1.** See [adopting KCP in existing projects](./guides/adopting-kcp-in-existing-projects.md).
+
+**Current version: 0.30** — adds `load_eligible` (§4.3c), the eligibility grant, and the rule that eligibility does not compose. See the [changelog](./CHANGELOG.md).
+
+**New here?** Start with [the KCP universe](./guides/start-here-the-kcp-universe.md) — the
+three kinds of unit, the tooling around the spec, and how the RFC process works.
 
 **Want the full path — init → author → validate → sign → trusted render?** Follow the hands-on tutorial: [KCP-enable a GitHub repo, end to end](./guides/kcp-enable-a-github-repo.md).
 
@@ -508,10 +513,5 @@ The goal is a standard that solves the real problem without demanding complexity
 do not need it.
 
 ---
-
-## License
-
-Apache V2.
-
 
 *(README truncated at 500 lines)*

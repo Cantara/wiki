@@ -1,6 +1,6 @@
 # GitHub Repository Index
 
-All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 158 repositories total.
+All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 159 repositories total.
 
 ---
 
@@ -158,13 +158,14 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [julebrus](julebrus.md)
 - [kcp-agent](kcp-agent.md) — An open source deterministic or LLM-enhanced agent showcasing and implementing the KCP protocol 
 - [kcp-commands](kcp-commands.md) ★12
+- [kcp-forge](kcp-forge.md) — Forge loose skill files into governed KCP units — corpus-level validate/convert/drift for the Knowledge Context Protocol
 - [kcp-harness](kcp-harness.md)
 - [kcp-hooks](kcp-hooks.md) ★1
 - [kcp-memory](kcp-memory.md) ★6 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
 - [kcp-playground](kcp-playground.md) — Interactive in-browser demos of the KCP defendable agent — the real decision code, live, signing every verdict. Companion to 'The AI Agent That Keeps the Receipts'.
 - [kcp-skill](kcp-skill.md)
 - [kcp-triage](kcp-triage.md) ★1 — LLM driven triage system for analyzing web pages and generating agentic clients based on KCP structure
-- [knowledge-context-protocol](knowledge-context-protocol.md) ★26
+- [knowledge-context-protocol](knowledge-context-protocol.md) ★25
 - [lib-electronic-components](lib-electronic-components.md) ★3
 - [llms-txt-rag-compare](llms-txt-rag-compare.md)
 - [logback-ext-cloudwatch-appender](logback-ext-cloudwatch-appender.md) — CloudWatch appender for Logback

@@ -2080,6 +2080,7 @@ nav:
       - "kcp agent": repos/kcp-agent.md
       - "kcp commands": repos/kcp-commands.md
       - "kcp dashboard": repos/kcp-dashboard.md
+      - "kcp forge": repos/kcp-forge.md
       - "kcp harness": repos/kcp-harness.md
       - "kcp hooks": repos/kcp-hooks.md
       - "kcp memory": repos/kcp-memory.md

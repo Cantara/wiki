@@ -7,4 +7,4 @@
 | **GitHub** | [https://github.com/Cantara/kcp-harness](https://github.com/Cantara/kcp-harness) |
 | **Language** | TypeScript |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-26 |
+| **Last updated** | 2026-08-02 |
