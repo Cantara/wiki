@@ -6,8 +6,8 @@ Java Auto-Update - wrapper to automaticall upgrade a Java application.
 | --- | --- |
 | **GitHub** | [https://github.com/Cantara/Java-Auto-Update](https://github.com/Cantara/Java-Auto-Update) |
 | **Language** | Java |
-| **Stars** | 54 |
-| **Last updated** | 2026-07-28 |
+| **Stars** | 55 |
+| **Last updated** | 2026-08-07 |
 | **Homepage** | [https://wiki.cantara.no/display/JAU/Java+Auto-Update](https://wiki.cantara.no/display/JAU/Java+Auto-Update) |
 
 !!! tip "Related Wiki Pages"

@@ -7,7 +7,7 @@ The ApplicationToken and UserToken module in Whydah IAM/SSO
 | **GitHub** | [https://github.com/Cantara/Whydah-SecurityTokenService](https://github.com/Cantara/Whydah-SecurityTokenService) |
 | **Language** | Java |
 | **Stars** | 4 |
-| **Last updated** | 2026-07-14 |
+| **Last updated** | 2026-08-05 |
 | **Topics** | `session-manager` `sso-api` `sso-authentication` `whydah` |
 
 !!! tip "Related Wiki Pages"

@@ -7,4 +7,4 @@ Communication back and forth to Azure
 | **GitHub** | [https://github.com/Cantara/realestate-azure-client-lib](https://github.com/Cantara/realestate-azure-client-lib) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-25 |
+| **Last updated** | 2026-08-08 |

@@ -7,4 +7,4 @@ Mapping sensors from eg BACNet to Real Estate Core
 | **GitHub** | [https://github.com/Cantara/realestate-mappingtable-lib](https://github.com/Cantara/realestate-mappingtable-lib) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-28 |
+| **Last updated** | 2026-08-07 |
