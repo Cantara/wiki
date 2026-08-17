@@ -7,5 +7,5 @@ A small application to do a controlled update of the Java Auto Updater applicati
 | **GitHub** | [https://github.com/Cantara/JAU-Updater-App](https://github.com/Cantara/JAU-Updater-App) |
 | **Language** | Java |
 | **Stars** | 0 |
-| **Last updated** | 2026-08-01 |
+| **Last updated** | 2026-08-16 |
 | **Homepage** | [https://confluence.capraconsulting.no/display/NMD/ConfigService-MJAUU](https://confluence.capraconsulting.no/display/NMD/ConfigService-MJAUU) |

@@ -7,7 +7,7 @@ SQS provider for the Messi messaging and streaming abstraction
 | **GitHub** | [https://github.com/Cantara/MessiSQSProvider](https://github.com/Cantara/MessiSQSProvider) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2026-08-08 |
+| **Last updated** | 2026-08-16 |
 
 ---
 

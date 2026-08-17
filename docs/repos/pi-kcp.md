@@ -7,4 +7,4 @@ Pi.dev harness KCP wrapper
 | **GitHub** | [https://github.com/Cantara/pi-kcp](https://github.com/Cantara/pi-kcp) |
 | **Language** | TypeScript |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-31 |
+| **Last updated** | 2026-08-11 |

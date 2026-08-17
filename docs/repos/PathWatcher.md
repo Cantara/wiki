@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/PathWatcher](https://github.com/Cantara/PathWatcher) |
 | **Language** | Java |
 | **Stars** | 2 |
-| **Last updated** | 2026-07-28 |
+| **Last updated** | 2026-08-14 |
 
 ---
 

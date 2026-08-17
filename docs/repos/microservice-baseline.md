@@ -7,7 +7,7 @@ A typical simple baseline for building good microservices
 | **GitHub** | [https://github.com/Cantara/microservice-baseline](https://github.com/Cantara/microservice-baseline) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2026-07-28 |
+| **Last updated** | 2026-08-16 |
 
 ---
 
