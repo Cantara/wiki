@@ -164,7 +164,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [kcp-memory](kcp-memory.md) ★6 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
 - [kcp-playground](kcp-playground.md) — Interactive in-browser demos of the KCP defendable agent — the real decision code, live, signing every verdict. Companion to 'The AI Agent That Keeps the Receipts'.
 - [kcp-skill](kcp-skill.md)
-- [kcp-triage](kcp-triage.md) ★1 — LLM driven triage system for analyzing web pages and generating agentic clients based on KCP structure
+- [kcp-triage](kcp-triage.md) ★2 — LLM driven triage system for analyzing web pages and generating agentic clients based on KCP structure
 - [knowledge-context-protocol](knowledge-context-protocol.md) ★26
 - [lib-electronic-components](lib-electronic-components.md) ★3
 - [llms-txt-rag-compare](llms-txt-rag-compare.md)

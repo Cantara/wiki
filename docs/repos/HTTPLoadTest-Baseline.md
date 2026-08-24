@@ -7,7 +7,7 @@ An attempt to make a starting point for making LoadTests for CD/CP pipelines
 | **GitHub** | [https://github.com/Cantara/HTTPLoadTest-Baseline](https://github.com/Cantara/HTTPLoadTest-Baseline) |
 | **Language** | Java |
 | **Stars** | 3 |
-| **Last updated** | 2026-08-16 |
+| **Last updated** | 2026-08-21 |
 | **Topics** | `build-automation` `build-tool` `continous-deployment` `continuous-integration` `load-testing` `loadtest` |
 
 ---
