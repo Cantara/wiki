@@ -23,7 +23,7 @@ project:
   website: https://cantara.github.io/knowledge-context-protocol/
   license: Apache 2.0
   language: Java
-  current_version: "0.25"
+  current_version: "0.32"
   stars: 12
   status: active
 
@@ -36,12 +36,23 @@ description: >
 spec:
   url: https://github.com/Cantara/knowledge-context-protocol/blob/main/SPEC.md
   manifest: https://cantara.github.io/knowledge-context-protocol/knowledge.yaml
-  version: "0.25"
+  version: "0.32"
   key_concepts:
     - knowledge.yaml root manifest with entity, authority, discovery, signing
-    - Federation via includes — sub-manifests per domain
-    - Per-manifest Ed25519 signing — provenance becomes verifiable
-    - Staleness declarations — agents know when to re-fetch
+    - Federation via includes — sub-manifests per domain, with composition
+      (includes/overrides/excludes) and integrity-pinned, temporally-scoped sources
+    - Per-manifest and per-unit Ed25519 signing + content_hash — provenance and
+      content integrity both become verifiable
+    - Staleness declarations and bi-temporal validity — agents know when to
+      re-fetch, and can query "as of" a point in time
+    - Query vocabulary + budget-constrained agent readiness — agents declare
+      task/audience/token budget; manifests return ranked, budget-aware results
+    - Visibility and authority — conditional visibility plus per-action
+      authority levels (read, summarize, modify, share_externally, execute)
+    - Trusted render pipeline — kcp render sanitizes untrusted manifests
+      before their content ever reaches a model
+    - Negative space (not_for) and content_structure declarations — units
+      state what they don't cover and how their content is composed
     - Backwards-compatible _legacy blocks for v0.6/v0.7 consumers
 
 toolchain:
@@ -55,7 +66,7 @@ toolchain:
     manifest: https://raw.githubusercontent.com/Cantara/kcp-agent/main/knowledge.yaml
     npm: https://www.npmjs.com/package/kcp-agent
     arena: https://cantara.github.io/kcp-agent/
-    current_version: "0.4.0"
+    current_version: "0.28.0"
   kcp-commands:
     description: Claude Code hook — proactive CLI guidance + output compression
     repo: https://github.com/Cantara/kcp-commands
