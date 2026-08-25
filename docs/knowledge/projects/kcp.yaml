@@ -99,13 +99,63 @@ project_info:
       manifest: https://raw.githubusercontent.com/Cantara/kcp-memory/main/knowledge.yaml
       model: procedural / episodic / semantic layers
     kcp-triage:
-      description: Deterministic nightly memory maintenance — zero LLM calls
+      description: >
+        Automatic agentic web service discovery — crawls, classifies,
+        audits, and reports on websites, then builds KCP knowledge.yaml
+        manifests for them so LLM agents can interact with the target
+        service.
       repo: https://github.com/Cantara/kcp-triage
       manifest: https://raw.githubusercontent.com/Cantara/kcp-triage/main/knowledge.yaml
     kcp-dashboard:
       description: Terminal TUI for KCP toolchain observability
       repo: https://github.com/Cantara/kcp-dashboard
       manifest: https://raw.githubusercontent.com/Cantara/kcp-dashboard/main/knowledge.yaml
+    kcp-harness:
+      description: >
+        MCP compliance proxy — deterministic knowledge governance for any
+        AI agent. Sits between an agent and its tools, routes
+        knowledge-related calls through kcp-agent's 14-gate planner, and
+        produces compliance artifacts (decision traces, audit logs, budget
+        ledgers) as a side effect of normal operation.
+      repo: https://github.com/Cantara/kcp-harness
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-harness/main/knowledge.yaml
+    kcp-skill:
+      description: >
+        The governed-skill layer for KCP — authoring conventions, a
+        curated skill library, and release/signing tooling for skill
+        files.
+      repo: https://github.com/Cantara/kcp-skill
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-skill/main/knowledge.yaml
+    kcp-forge:
+      description: >
+        Forges loose skill files into governed KCP units — corpus-level
+        validate/convert/drift checks so corpus rot doesn't happen
+        silently.
+      repo: https://github.com/Cantara/kcp-forge
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-forge/main/knowledge.yaml
+    pi-kcp:
+      description: >
+        KCP agent proficiency and ergonomics for the Pi coding-agent
+        harness — agent-facing skills and human-facing commands, without
+        replacing MCP or coupling Pi to a particular code-intelligence
+        implementation.
+      repo: https://github.com/Cantara/pi-kcp
+      manifest: https://raw.githubusercontent.com/Cantara/pi-kcp/main/knowledge.yaml
+    kcp-hooks:
+      description: >
+        Three passive Claude Code hooks — prompt-router (surfaces relevant
+        skill files), prompt-recall (queries kcp-memory for relevant past
+        sessions), and prompt-hygiene (detects influence tactics). Fire on
+        every prompt, complete in <200ms, zero external API calls.
+      repo: https://github.com/Cantara/kcp-hooks
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-hooks/main/knowledge.yaml
+  demos:
+    kcp-playground:
+      description: >
+        Interactive in-browser demos of the defendable agent — twelve
+        stations, each running the real kcp-agent / kcp-harness decision
+        code and signing every verdict live.
+      url: https://cantara.github.io/kcp-playground/
 
 # Required by §3.1 ("units MUST contain at least one unit"). path is
 # self-referential (this file), not ../../repos/... — §14 prohibits `..`
@@ -140,6 +190,12 @@ manifests:
   - id: kcp-agent
     url: https://raw.githubusercontent.com/Cantara/kcp-agent/main/knowledge.yaml
     label: "kcp-agent — deterministic reference agent and MCP bridge"
+    relationship: peer
+    update_frequency: monthly
+
+  - id: kcp-harness
+    url: https://raw.githubusercontent.com/Cantara/kcp-harness/main/knowledge.yaml
+    label: "kcp-harness — MCP compliance proxy, the flagship of the 'receipts' story"
     relationship: peer
     update_frequency: monthly
 
