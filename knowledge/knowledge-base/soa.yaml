@@ -1,0 +1,37 @@
+# wiki.cantara.no — Knowledge base: Open Web Services & SOA
+# Parent: https://wiki.cantara.no/knowledge.yaml
+version: "0.14"
+
+id: knowledge-soa
+parent: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 365
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/knowledge-base/soa.yaml.sig
+
+section:
+  title: Open Web Services & SOA Knowledge Base
+  url: https://wiki.cantara.no/OWSOA/
+  article_count: 154
+  era: 2008–2022
+
+topics:
+  - Service-Oriented Architecture — principles, governance, composition
+  - REST — constraints, hypermedia, Richardson maturity model
+  - Enterprise integration patterns — messaging, routing, transformation
+  - Service categorisation — Cantara open web services taxonomy
+  - SOAP and WS-* — legacy integration, interoperability
+  - API management — gateways, throttling, versioning
+
+note: >
+  The Cantara SOA work predates microservices but laid the conceptual
+  groundwork for the service decomposition principles used in Whydah and Xorcery.
+
+audience: [architect, developer]

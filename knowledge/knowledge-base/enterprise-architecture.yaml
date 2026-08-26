@@ -1,0 +1,37 @@
+# wiki.cantara.no — Knowledge base: Enterprise Architecture
+# Parent: https://wiki.cantara.no/knowledge.yaml
+version: "0.14"
+
+id: knowledge-ea
+parent: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 365
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/knowledge-base/enterprise-architecture.yaml.sig
+
+section:
+  title: Enterprise Architecture Knowledge Base
+  url: https://wiki.cantara.no/EA/
+  article_count: 82
+  era: 2008–2022
+
+topics:
+  - EA frameworks — TOGAF, Zachman, ArchiMate
+  - Enterprise Domain Repository (EDR) — canonical domain model approach
+  - DSL and code generation — model-driven development
+  - Non-silo architecture — cross-domain integration strategy
+  - GeekCruise discussions — community debate and refinement
+
+note: >
+  The Cantara EA approach emphasises pragmatic, code-close architecture
+  over framework compliance. The EDR concept (Enterprise Domain Repository)
+  was developed within this community as an alternative to heavyweight EA tools.
+
+audience: [architect]

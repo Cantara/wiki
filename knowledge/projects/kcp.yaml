@@ -1,0 +1,202 @@
+# wiki.cantara.no — KCP project entry
+# Parent: https://wiki.cantara.no/knowledge.yaml
+#
+# kcp_version declares which KCP spec version this manifest's FIELD
+# STRUCTURE conforms to (SPEC.md §3.1) — not the version of the project it
+# describes. version is this manifest's OWN semver, bumped when units are
+# added or removed (SPEC.md §3.1) — also not the described project's
+# version. See project_info.current_version below for the actual KCP
+# release this page is describing.
+kcp_version: "0.32"
+project: "Knowledge Context Protocol (KCP)"
+version: "0.15"
+updated: "2026-08-25"
+
+id: kcp
+parent: https://wiki.cantara.no/knowledge.yaml
+
+# trust.provenance (§3.2) — not a root `authority` block: root `authority`
+# is reserved for manifest-wide ACTION PERMISSION defaults (§3.8), not
+# ownership/contact metadata.
+trust:
+  provenance:
+    publisher: "Cantara — Norwegian Software Development Foundation"
+    publisher_url: https://cantara.no
+
+# freshness_policy (§3.7) — not a root `discovery` block: root `discovery`
+# is reserved for source/verification_status defaults (§3.9) with a
+# specific vocabulary (source, verification_status, observed_at,
+# confidence as a 0.0-1.0 float), none of which apply here.
+freshness_policy:
+  max_age_days: 14
+  on_stale: warn
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/projects/kcp.yaml.sig
+
+description: >
+  A structured metadata standard that makes knowledge navigable by AI agents.
+  The Model Context Protocol defines how agents connect to tools. KCP defines
+  how knowledge is structured so those tools can serve it effectively. MCP
+  solved the tool connectivity problem. KCP addresses the knowledge structure
+  problem that remains.
+
+# Catalog-card summary for human readers browsing the wiki — not part of the
+# formal KCP root-field schema. Per §13, unknown fields are silently
+# ignored by conformant parsers, so this is safe alongside the spec fields
+# above. Holds repo/license/website (previously mis-homed under a root
+# `authority` block, which has different reserved semantics — see above).
+project_info:
+  repo: https://github.com/Cantara/knowledge-context-protocol
+  website: https://cantara.github.io/knowledge-context-protocol/
+  license: Apache-2.0
+  tagline: KCP is to knowledge what MCP is to tools.
+  language: Java
+  current_version: "0.32"
+  status: active
+  spec_key_concepts:
+    - knowledge.yaml root manifest with project, units, discovery, signing
+    - Federation via manifests[] — sub-manifests per domain, with composition
+      (includes/overrides/excludes) and integrity-pinned, temporally-scoped sources
+    - Per-manifest and per-unit Ed25519 signing + content_hash — provenance and
+      content integrity both become verifiable
+    - Staleness declarations and bi-temporal validity — agents know when to
+      re-fetch, and can query "as of" a point in time
+    - Query vocabulary + budget-constrained agent readiness — agents declare
+      task/audience/token budget; manifests return ranked, budget-aware results
+    - Visibility and authority — conditional visibility plus per-action
+      authority levels (read, summarize, modify, share_externally, execute)
+    - Trusted render pipeline — kcp render sanitizes untrusted manifests
+      before their content ever reaches a model
+    - Negative space (not_for) and content_structure declarations — units
+      state what they don't cover and how their content is composed
+    - Backwards-compatible _legacy blocks for v0.6/v0.7 consumers
+  toolchain:
+    kcp-agent:
+      description: >
+        Deterministic reference agent — fail-closed planner (pure function
+        over manifest metadata), MCP bridge (kcp_plan, kcp_load,
+        kcp_validate, kcp_replay), replay verification of plan artifacts,
+        x402 budget enforcement, native binaries. The model proposes, the
+        plan disposes.
+      repo: https://github.com/Cantara/kcp-agent
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-agent/main/knowledge.yaml
+      npm: https://www.npmjs.com/package/kcp-agent
+      arena: https://cantara.github.io/kcp-agent/
+      current_version: "0.28.0"
+    kcp-commands:
+      description: Claude Code hook — proactive CLI guidance + output compression
+      repo: https://github.com/Cantara/kcp-commands
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-commands/main/knowledge.yaml
+      phase_a: context injection (PreToolUse hook)
+      phase_b: output filtering (PostToolUse daemon)
+    kcp-memory:
+      description: Episodic memory hub for agent networks
+      repo: https://github.com/Cantara/kcp-memory
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-memory/main/knowledge.yaml
+      model: procedural / episodic / semantic layers
+    kcp-triage:
+      description: >
+        Automatic agentic web service discovery — crawls, classifies,
+        audits, and reports on websites, then builds KCP knowledge.yaml
+        manifests for them so LLM agents can interact with the target
+        service.
+      repo: https://github.com/Cantara/kcp-triage
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-triage/main/knowledge.yaml
+    kcp-dashboard:
+      description: Terminal TUI for KCP toolchain observability
+      repo: https://github.com/Cantara/kcp-dashboard
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-dashboard/main/knowledge.yaml
+    kcp-harness:
+      description: >
+        MCP compliance proxy — deterministic knowledge governance for any
+        AI agent. Sits between an agent and its tools, routes
+        knowledge-related calls through kcp-agent's 14-gate planner, and
+        produces compliance artifacts (decision traces, audit logs, budget
+        ledgers) as a side effect of normal operation.
+      repo: https://github.com/Cantara/kcp-harness
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-harness/main/knowledge.yaml
+    kcp-skill:
+      description: >
+        The governed-skill layer for KCP — authoring conventions, a
+        curated skill library, and release/signing tooling for skill
+        files.
+      repo: https://github.com/Cantara/kcp-skill
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-skill/main/knowledge.yaml
+    kcp-forge:
+      description: >
+        Forges loose skill files into governed KCP units — corpus-level
+        validate/convert/drift checks so corpus rot doesn't happen
+        silently.
+      repo: https://github.com/Cantara/kcp-forge
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-forge/main/knowledge.yaml
+    pi-kcp:
+      description: >
+        KCP agent proficiency and ergonomics for the Pi coding-agent
+        harness — agent-facing skills and human-facing commands, without
+        replacing MCP or coupling Pi to a particular code-intelligence
+        implementation.
+      repo: https://github.com/Cantara/pi-kcp
+      manifest: https://raw.githubusercontent.com/Cantara/pi-kcp/main/knowledge.yaml
+    kcp-hooks:
+      description: >
+        Three passive Claude Code hooks — prompt-router (surfaces relevant
+        skill files), prompt-recall (queries kcp-memory for relevant past
+        sessions), and prompt-hygiene (detects influence tactics). Fire on
+        every prompt, complete in <200ms, zero external API calls.
+      repo: https://github.com/Cantara/kcp-hooks
+      manifest: https://raw.githubusercontent.com/Cantara/kcp-hooks/main/knowledge.yaml
+  demos:
+    kcp-playground:
+      description: >
+        Interactive in-browser demos of the defendable agent — twelve
+        stations, each running the real kcp-agent / kcp-harness decision
+        code and signing every verdict live.
+      url: https://cantara.github.io/kcp-playground/
+
+# Required by §3.1 ("units MUST contain at least one unit"). path is
+# self-referential (this file), not ../../repos/... — §14 prohibits `..`
+# that escapes the manifest's own directory, and this directory has no
+# co-located narrative file to point at safely. The canonical minimal
+# example (examples/minimal/knowledge.yaml) co-locates path and manifest
+# for the same reason; a self-pointing unit is the equivalent here. The
+# actual content this unit answers to lives in description/project_info
+# above, not in a separate file.
+units:
+  - id: overview
+    path: kcp.yaml
+    intent: "What is KCP, how does it relate to MCP, and what's this
+      project's current status (language, license, spec version)?"
+    scope: global
+    audience: [human, agent]
+    validated: "2026-08-25"
+    triggers: [kcp, knowledge context protocol, overview, mcp comparison, readme]
+
+# Federation (§3.6) — the actual technical content (spec, RFCs, toolchain,
+# parsers) lives in KCP's own repo, which already publishes a real,
+# conformant knowledge.yaml. Federating to it, rather than re-describing
+# its content here with external `path` values (a §4.3 MUST violation),
+# is the spec-correct way to point at it.
+manifests:
+  - id: kcp-core
+    url: https://raw.githubusercontent.com/Cantara/knowledge-context-protocol/main/knowledge.yaml
+    label: "KCP spec, RFCs, examples, and parsers (the project's own manifest)"
+    relationship: foundation
+    update_frequency: monthly
+
+  - id: kcp-agent
+    url: https://raw.githubusercontent.com/Cantara/kcp-agent/main/knowledge.yaml
+    label: "kcp-agent — deterministic reference agent and MCP bridge"
+    relationship: peer
+    update_frequency: monthly
+
+  - id: kcp-harness
+    url: https://raw.githubusercontent.com/Cantara/kcp-harness/main/knowledge.yaml
+    label: "kcp-harness — MCP compliance proxy, the flagship of the 'receipts' story"
+    relationship: peer
+    update_frequency: monthly
+
+wiki_page: https://wiki.cantara.no/repos/knowledge-context-protocol/

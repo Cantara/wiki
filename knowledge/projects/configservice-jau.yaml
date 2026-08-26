@@ -1,0 +1,48 @@
+# wiki.cantara.no — ConfigService + JAU sub-manifest
+# Parent: https://wiki.cantara.no/knowledge.yaml
+version: "0.14"
+
+id: configservice-jau
+parent: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 30
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/projects/configservice-jau.yaml.sig
+
+projects:
+  configservice:
+    title: ConfigService
+    tagline: Server-side controlled application instance configuration
+    repo: https://github.com/Cantara/ConfigService
+    language: Java
+    stars: 6
+    description: >
+      ConfigService is the server component of a controlled application instance
+      regime. Applications register with ConfigService on startup and receive
+      their configuration — enabling centralised, runtime-updatable config
+      without redeploy.
+
+  java_auto_update:
+    title: Java Auto-Update (JAU)
+    tagline: Zero-downtime application upgrades via controlled instance regime
+    repo: https://github.com/Cantara/Java-Auto-Update
+    language: Java
+    description: >
+      JAU enables zero-downtime rolling upgrades for Java applications.
+      Works alongside ConfigService: the config server can trigger upgrade
+      events that JAU agents pick up and execute safely.
+
+relationship: >
+  ConfigService and JAU are designed as a pair. ConfigService manages what
+  version and configuration each instance should run. JAU executes the
+  transitions. Together they implement the "controlled instance regime" pattern
+  enabling safe continuous delivery for Java services.
+
+wiki_page: https://wiki.cantara.no/JAU/
