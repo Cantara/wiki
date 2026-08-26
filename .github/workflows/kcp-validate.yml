@@ -1,0 +1,48 @@
+name: Validate KCP Manifest
+
+# Signing (kcp-manifests.yml) does not substitute for validation — it proves the
+# manifest wasn't tampered with, not that it conforms to spec. wiki.totto.org ran
+# with a stack of real conformance bugs (misused authority:/discovery: fields,
+# invalid composition.includes syntax, dangling references, a version/kcp_version
+# conflation) for months with nothing catching any of it — found only by a manual
+# 2026-08-26 audit. This workflow is a first, partial version of that gate.
+#
+# docs/community.yaml and docs/repos.yaml are deliberately not validated: they have
+# no units: array (freeform reference data), not KCP manifests.
+#
+# Known gap, not yet closed by this workflow: `kcp validate` does not currently
+# check root-level `authority:`/`discovery:` field shape (only unit-level and a
+# handful of root discovery.verification_status rules) — a manifest with a
+# completely invented root discovery: block (wrong field names, wrong types) can
+# still pass this check clean. docs/knowledge.yaml has exactly that problem today
+# (the same authority:/discovery: misuse wiki.totto.org's knowledge.yaml had before
+# its 2026-08-26 fix) and this gate will not catch it. Only the REQUIRED `project`
+# field and kcp_version currency are enforced for now — the rest needs the same
+# manual conformance pass wiki.totto.org got, as a separate follow-up.
+
+on:
+  push:
+    branches: [main]
+    paths: ['docs/knowledge.yaml']
+  pull_request:
+    paths: ['docs/knowledge.yaml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '24'
+      # Pinned rather than `latest` — see wiki.totto.org's kcp-validate.yml for why
+      # (a version release that adds a rule should be a deliberate adoption, not a
+      # surprise red build) and why the pin itself needs to be current: @0.30
+      # silently mis-processes kcp_version: "0.32" as spec 0.8 instead of failing
+      # loud.
+      - name: Validate docs/knowledge.yaml
+        run: npx --yes @cantara.no/kcp@0.32.2 validate docs/knowledge.yaml

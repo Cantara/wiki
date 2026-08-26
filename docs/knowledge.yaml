@@ -1,5 +1,6 @@
 # wiki.cantara.no — KCP root manifest (federated)
 # KCP v0.26 — see https://github.com/Cantara/knowledge-context-protocol
+project: wiki-cantara-no
 version: "0.26"
 
 entity:
