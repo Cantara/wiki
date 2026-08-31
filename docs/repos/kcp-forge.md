@@ -7,4 +7,4 @@ Forge loose skill files into governed KCP units — corpus-level validate/conver
 | **GitHub** | [https://github.com/Cantara/kcp-forge](https://github.com/Cantara/kcp-forge) |
 | **Language** | Rust |
 | **Stars** | 0 |
-| **Last updated** | 2026-08-02 |
+| **Last updated** | 2026-08-25 |

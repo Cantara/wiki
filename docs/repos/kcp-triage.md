@@ -7,7 +7,7 @@ LLM driven triage system for analyzing web pages and generating agentic clients 
 | **GitHub** | [https://github.com/Cantara/kcp-triage](https://github.com/Cantara/kcp-triage) |
 | **Language** | TypeScript |
 | **Stars** | 2 |
-| **Last updated** | 2026-08-18 |
+| **Last updated** | 2026-08-25 |
 
 ---
 
@@ -57,7 +57,7 @@ just report example.com
 
 ## Development
 
-This project uses [Spec-Driven Development](CLAUDE.md#sdd-workflow). New features go through: Issue → Branch → Spec → Schema → Implement → Skill → Test → PR.
+This project uses [Spec-Driven Development](skills/sdd-workflow/SKILL.md). New features go through: Issue → Branch → Spec → Schema → Implement → Skill → Test → PR.
 
 ```bash
 just check       # TypeScript check

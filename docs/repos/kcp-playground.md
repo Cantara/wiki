@@ -7,4 +7,4 @@ Interactive in-browser demos of the KCP defendable agent — the real decision c
 | **GitHub** | [https://github.com/Cantara/kcp-playground](https://github.com/Cantara/kcp-playground) |
 | **Language** | CSS |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-28 |
+| **Last updated** | 2026-08-25 |

@@ -7,4 +7,4 @@
 | **GitHub** | [https://github.com/Cantara/kcp-skill](https://github.com/Cantara/kcp-skill) |
 | **Language** | JavaScript |
 | **Stars** | 0 |
-| **Last updated** | 2026-07-30 |
+| **Last updated** | 2026-08-25 |

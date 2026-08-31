@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/kcp-hooks](https://github.com/Cantara/kcp-hooks) |
 | **Language** | Python |
 | **Stars** | 1 |
-| **Last updated** | 2026-06-28 |
+| **Last updated** | 2026-08-25 |
 
 ---
 
