@@ -1,0 +1,48 @@
+# wiki.cantara.no — Whydah project sub-manifest
+# Parent: https://wiki.cantara.no/knowledge.yaml
+version: "0.14"
+
+id: whydah
+parent: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 30
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/projects/whydah.yaml.sig
+
+project:
+  title: Whydah
+  tagline: Open source IAM/SSO platform — OAuth2, OpenID Connect, LDAP
+  repo: https://github.com/Cantara/Whydah
+  topics: [cloud-native, iam, microservices, oauth2, sso, useradmin]
+  language: Java / JavaScript
+  status: maintained
+
+description: >
+  Whydah is a full-featured open source Identity and Access Management (IAM)
+  platform providing Single Sign-On (SSO), OAuth2, OpenID Connect, and LDAP
+  integration. Built as a set of loosely coupled microservices.
+
+architecture:
+  components:
+    SecurityTokenService: Token issuance and validation
+    UserIdentityBackend: LDAP-backed user store
+    UserAdminService: User and role management API
+    UserAdminWebApp: Web UI for administration
+    SSOLoginWebApp: Login portal
+    SPAProxyService: SPA/OAuth2 proxy
+    OAuth2Service: OAuth2 / OIDC bridge
+    HelidonProvider: Helidon-based service extensions
+  deployment: Docker / docker-compose
+  persistence: LDAP (UIB), embedded HSQLDB / external RDBMS
+
+wiki_pages:
+  index: https://wiki.cantara.no/whydah/
+  getting_started: https://wiki.cantara.no/whydah/Getting-started/
+  architecture: https://wiki.cantara.no/whydah/Architecture-Overview/

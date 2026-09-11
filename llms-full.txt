@@ -1,0 +1,321 @@
+# Cantara — Full Content Index
+
+> Machine-readable version of cantara.github.io/wiki. Clean markdown, no HTML. Archive of wiki.cantara.no (2008–2022), 2,290 articles.
+> Index: https://cantara.github.io/wiki/llms.txt
+
+**Cantara** — Oslo, Norway
+https://github.com/Cantara | https://cantara.github.io/wiki/
+
+---
+
+## About Cantara
+
+Cantara is a Norwegian open source community and non-profit organization founded in 2008. The name is Arabic for "bridge" — reflecting the mission to bridge stakeholders including government, education, industry, and the broader software community.
+
+**Mission:** Mature and empower Norwegian software development through knowledge sharing, collaboration, and open source projects.
+
+**Owner:** Stiftelsen for fremme av programvareutvikling i Norge (Norwegian Software Development Foundation)
+
+The wiki is an archive of wiki.cantara.no as it existed through 2022, recovered from the Wayback Machine and converted to MkDocs. It contains 2,290 Markdown articles across 83 sections, covering open source projects, software architecture, agile development, enterprise integration, and community events spanning 2008–2022. The repository index is updated weekly from live GitHub data.
+
+---
+
+## Open Source Projects
+
+### Whydah — IAM / SSO Platform
+
+**GitHub:** https://github.com/Cantara (19 repositories)
+**Documentation:** https://cantara.github.io/wiki/whydah/ (165 pages)
+
+Production-grade Identity Provider and Single Sign-On platform. Supports OAuth2, OpenID Connect, LDAP, Facebook authentication, and high availability deployments. Used across multiple Norwegian enterprise clients.
+
+**Key components:**
+- **SSOLoginWebApp (SSOLWA)** — SSO web frontend and login module
+- **SecurityTokenService (STS)** — ApplicationToken and UserToken management
+- **UserIdentityBackend (UIB)** — User identity storage and management
+- **UserAdminService (UAS)** — Admin API for user and application management
+- **UserAdminWebApp (UAWA)** — Back-office administration UI
+- **WhydahUserIdentityService** — Core identity service
+- **CRIIPService** — Cryptographic token and rights management
+
+**Features:** DEFCON threat-level support, scalable to millions of sessions, OpenLDAP backend, token-based security, multi-application SSO.
+
+---
+
+### ConfigService & Java Auto-Update (JAU)
+
+**Documentation:** https://cantara.github.io/wiki/JAU/ (28 pages)
+
+**ConfigService** — Centralised runtime configuration management for microservices. Supports environment-specific configs, dynamic updates, and a web dashboard for administration.
+
+**Java Auto-Update (JAU)** — Automatic application upgrade wrapper. Deployed across all Cantara microservices. Monitors for new releases and performs zero-downtime upgrades.
+
+**Key repositories:** ConfigService, JavaAutoUpgrade, ConfigService-Dashboard, configservice-sdk
+
+---
+
+### Messi — Messaging Abstraction
+
+Streaming and messaging abstraction layer with pluggable provider backends.
+
+**Providers:** AWS S3, AWS SQS, AWS Kinesis, Google Cloud Storage, RabbitMQ, filesystem (local/test)
+
+**Use case:** Decouple microservices from specific messaging infrastructure. Drop-in provider switching without code changes.
+
+**Repositories:** 7 repositories (messi, messi-aws, messi-gcs, messi-filesystem, messi-rabbitmq, messi-sdk, messi-benchmark)
+
+---
+
+### Xorcery — Reactive Java Framework
+
+**GitHub:** https://github.com/Cantara/xorcery
+
+Modular Java library framework built around HK2 dependency injection, composable YAML/JSON configuration, and reactive streams (RxJava/Project Reactor). Event sourcing support. 30+ extensions covering HTTP, WebSockets, metrics, tracing, and more.
+
+Used as the foundation for Aurora and Alchemy (temporal analytics platform at eXOReaction).
+
+---
+
+### Visuale — Service Visualization
+
+**GitHub:** https://github.com/Cantara/visuale
+
+Real-time dashboard for monitoring microservice environments and service health. Displays service topology, version information, and health status across deployments.
+
+---
+
+### ACS — Awesome Competence System
+
+**Documentation:** https://cantara.github.io/wiki/ACS/ (28 pages)
+
+Employee skill, competency, and CV management platform. Features multi-profile CVs, skill search, SharePoint integration, and organizational competency mapping.
+
+**Repositories:** 6 (acs, acs-frontend, acs-backend, acs-api, acs-import, acs-search)
+
+---
+
+### Blitz JavaSpaces
+
+**Documentation:** https://cantara.github.io/wiki/blitz/ (36 pages)
+
+Open source JavaSpaces and Jini toolkit. Patterns, services, utilities, and Docker support for distributed tuple-space computing.
+
+---
+
+### Other Notable Projects
+
+- **Valuereporter** — Service dependency tracking and value reporting in production (5 repos)
+- **RealEstate** — Building automation and IoT sensors to cloud integration (7 repos)
+- **Terraform Modules** — AWS infrastructure as code: VPC, ECS Fargate, EKS, RDS, S3, Route53, ACM (7 repos)
+- **Go Tools** — bonsai, bragi, buri, gober, nerthus, vili, wamper (8 repos)
+- **HTTPLoadTest Baseline** — Load testing framework for baseline performance measurement
+- **Drone Radar** — Drone tracking and visualisation system
+- **EDR** — Enterprise Domain Repository: canonical data model and master data management
+
+**Full repository index:** https://cantara.github.io/wiki/repos/
+
+---
+
+## Knowledge Base
+
+2,290 articles across 9 major sections. Community-generated content from practitioners (2008–2022). Mix of Norwegian and English.
+
+### Agile Development (478 pages)
+https://cantara.github.io/wiki/dev/
+
+The largest knowledge base section. Covers the full software development lifecycle with emphasis on quality, automation, and continuous delivery.
+
+**Topics include:**
+- Testing strategies: unit, integration, contract, end-to-end, performance
+- CI/CD pipelines: Jenkins, GitHub Actions, Maven lifecycle, release automation
+- Code quality: clean code, code review practices, coverage thresholds, static analysis
+- Database: migration patterns (Flyway, Liquibase), schema evolution, zero-downtime changes
+- Security: OWASP, dependency scanning, secrets management
+- Frontend: HTML5, React, Angular, mobile development (iOS, Android)
+- Spring Framework configuration and best practices
+- Maven: project structure, multi-module builds, dependency management, plugins
+- Containerisation: Docker, Docker Compose, container best practices
+
+**Philosophy:** Emphasises communication over technology (80/20). Learning culture. Continuous improvement over big-bang releases.
+
+---
+
+### Software Architecture (125 pages)
+https://cantara.github.io/wiki/architecture/
+
+**Topics include:**
+- Domain-Driven Design (DDD): Aggregate, Entity, Value Object, Repository, Factory, Domain Service, Bounded Context
+- Microservices: service decomposition, inter-service communication, data ownership, saga patterns
+- Scalability: horizontal scaling, caching strategies, load balancing, database sharding
+- Architectural patterns: CQRS, Event Sourcing, Strangler Fig, Anti-Corruption Layer
+- Database design: relational vs NoSQL trade-offs, schema design, indexing strategies
+- Architect roles: Project Architect, Product Architect, Organizational Architect, Tech Lead, Principal Engineer
+- Architecture decision records (ADRs) and governance
+
+**Core principle:** "Clear and consistent responsibilities power all great architectures"
+
+---
+
+### Open Web Services & SOA (154 pages)
+https://cantara.github.io/wiki/OWSOA/
+
+**Topics include:**
+- Service categorisation patterns: Utility Services, Entity Services, Task Services, Process Services
+- REST API design: resource modelling, versioning, HATEOAS, OpenAPI/Swagger
+- Enterprise Service Bus (ESB) vs choreography vs orchestration
+- SOAP, WSDL, WS-* standards
+- Enterprise integration patterns: Message Router, Content Enricher, Aggregator, Splitter
+- Master Data Services (MDS) and canonical data models
+- Business Intelligence integration
+- Enterprise Search patterns
+- LDAP directory services integration
+
+---
+
+### Enterprise Architecture (82 pages)
+https://cantara.github.io/wiki/EA/
+
+**Topics include:**
+- EA frameworks: Zachman, TOGAF, practical EA for Norwegian enterprises
+- Enterprise POJO and Composite Object Programming
+- Domain-Specific Languages (DSLs) for enterprise modelling
+- EDR (Enterprise Domain Repository): canonical model, governance, evolution
+- Qi4j framework: composite programming model
+- Code generation from models
+- GeekCruise workshop findings and architecture decision records
+
+---
+
+### Agile Release Strategies (80 pages)
+https://cantara.github.io/wiki/ARS/
+
+**Topics include:**
+- Release patterns: limited releases, feature flags, canary deployments
+- Blue-green deployment and zero-downtime strategies
+- Asynchronous deployment patterns
+- Database migration in continuous delivery
+- Feature parity management across release streams
+- Rollback strategies and safety nets
+
+---
+
+### Knowledge Management (74 pages)
+https://cantara.github.io/wiki/KM/
+
+**Topics include:**
+- Organisational knowledge capture and sharing
+- Communities of practice
+- Documentation strategies for software teams
+- Knowledge transfer in distributed teams
+- Learning organisation principles
+
+---
+
+### Security (selected pages)
+https://cantara.github.io/wiki/security/
+
+- STRIDE threat modelling methodology
+- Security architecture for microservices
+- Token-based security patterns (Whydah implementation)
+- DEFCON-style threat level management
+
+---
+
+### Open Data (3 pages)
+https://cantara.github.io/wiki/OpenData/
+
+Norwegian open data initiatives and API standards.
+
+---
+
+### ThinkTank (8 pages)
+https://cantara.github.io/wiki/TANK/
+
+Incubator for new project ideas and experimental concepts.
+
+---
+
+## Community & Events
+
+### Platform Engineering (PE) — Community Hub (211 pages)
+https://cantara.github.io/wiki/PE/
+
+#### GeekCruises (annual, since 2009)
+Multi-day boat-based architecture workshops. Intensive collaborative sessions on architecture, patterns, and technology decisions. Mix of presentations, workshops, and open discussions. Annual tradition for the Norwegian software architecture community.
+
+#### Communities in Action (CiA) Conference
+Annual multi-track conference. CiA 2012 had 9 tracks covering architecture, agile, mobile, cloud, security, and more. Community-organised, practitioner-focused.
+
+#### Other Events
+- **Smidig Conference** — Norwegian agile development conference (Smidig = "agile" in Norwegian)
+- **Mobile Code Camp 2011** — Dedicated mobile development camp
+- **DevHouse** — Unconference-style events, open space technology
+- **HTML5 Code Camp** — Frontend development focused
+- **Oslo XP Meetup** — Extreme Programming user group
+- **Developer Pub Nights (Puben)** — Informal community gatherings
+
+---
+
+### IASA Oslo — Software Architecture Chapter (159 pages)
+https://cantara.github.io/wiki/IASA/
+
+Oslo chapter of the International Association of Software Architects (IASA). Founded and chaired by Thor Henning Hetland (Totto). Rebranded as OSWA (Oslo Software Architecture) in 2011, growing to 3,500+ members.
+
+**Topics covered:**
+- Architecture education and certification
+- The role of architects in agile teams
+- STRIDE security analysis for architects
+- Graph databases (Neo4j) for architects
+- Cloud architecture patterns and decisions
+- Testing architecture and quality gates
+- Architecture anti-patterns and how to avoid them
+
+**Language:** Mix of Norwegian and English articles
+
+---
+
+### About Cantara (community governance)
+https://cantara.github.io/wiki/About/
+
+- Community rules and code of conduct
+- How to contribute to Cantara projects
+- Project lifecycle (incubation → active → archived)
+- Governance structure
+
+---
+
+## Technologies Documented
+
+**Languages:** Java (primary), Go, JavaScript/TypeScript, Python, Bash
+
+**Frameworks:** Spring Boot, Spring Framework, Quarkus, Helidon, Xorcery, Qi4j
+
+**Databases:** PostgreSQL, Oracle, MySQL, LDAP/OpenLDAP, ApacheDS, Neo4j, Hazelcast, Redis, Cassandra
+
+**Messaging:** Apache Kafka, AWS SQS, AWS Kinesis, RabbitMQ, AWS S3 (streaming), Messi SDK
+
+**Cloud/Infrastructure:** AWS (EC2, S3, ECR, ECS Fargate, EKS, RDS, Route53, CloudWatch), Docker, Kubernetes, Terraform, GitHub Actions
+
+**Monitoring:** CloudWatch, Statsd, Grafana, Visuale dashboard, custom health checks
+
+**Security:** LDAP, OAuth2, OpenID Connect, JWT, Whydah IAM, OWASP tooling
+
+**Build/CI:** Maven, Jenkins, GitHub Actions, SonarQube, Jacoco
+
+---
+
+## Personal Spaces
+
+30+ contributor personal namespaces (`~username/`) containing individual notes, experiments, and documentation. Contributors include members of the Norwegian software development community from 2008–2022.
+
+Notable spaces: `~totto` (Thor Henning Hetland), `~jhannes` (Johannes Brodwall), `~helge`, `~perchrh`, and others.
+
+---
+
+## Content Notes
+
+- **Archive date:** Last Confluence snapshot 2022; GitHub repository index updated weekly
+- **Language mix:** Architecture and community content often in Norwegian; technical docs in English
+- **Era:** Reflects Norwegian software development practices 2008–2022
+- **Perspective:** Practitioner-generated, opinionated, community-validated
+- **Bias:** Strong emphasis on Java ecosystem, AWS infrastructure, microservices architecture

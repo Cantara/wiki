@@ -1,0 +1,45 @@
+# wiki.cantara.no — Messi project sub-manifest
+# Parent: https://wiki.cantara.no/knowledge.yaml
+version: "0.14"
+
+id: messi
+parent: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 30
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/projects/messi.yaml.sig
+
+project:
+  title: Messi
+  tagline: Provider-based messaging and streaming abstraction for Java
+  repo: https://github.com/Cantara/MessiSDK
+  language: Java
+  status: maintained
+
+description: >
+  Messi is a provider-based messaging and event streaming abstraction.
+  Applications program against a single API; the underlying transport
+  (S3, Kinesis, SQS, GCS, RabbitMQ, filesystem) is swapped via provider
+  configuration — no application code changes required.
+
+providers:
+  - MessiS3Provider — Amazon S3 backed streaming
+  - MessiKinesisProvider — Amazon Kinesis
+  - MessiSQSProvider — Amazon SQS
+  - MessiGCSProvider — Google Cloud Storage
+  - MessiFilesystemProvider — Local filesystem (dev/test)
+  - MessiRabbitMQProvider — RabbitMQ
+
+use_cases:
+  - Event log streaming between microservices
+  - Audit trail persistence
+  - Cross-environment replay (dev → staging → prod)
+
+wiki_page: https://wiki.cantara.no/repos/MessiProject/

@@ -1,0 +1,39 @@
+# wiki.cantara.no — Visuale project sub-manifest
+# Parent: https://wiki.cantara.no/knowledge.yaml
+version: "0.14"
+
+id: visuale
+parent: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 30
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/projects/visuale.yaml.sig
+
+project:
+  title: Visuale
+  tagline: Real-time microservice health monitoring and visualisation dashboard
+  repo: https://github.com/Cantara/visuale
+  language: Java / React
+  status: active
+
+description: >
+  Visuale provides real-time health monitoring and visualisation for microservice
+  environments. Services report their health status; Visuale aggregates, stores
+  history, and renders an at-a-glance dashboard. Designed to complement JAU
+  deployments — you can see the rolling upgrade happen in real time.
+
+features:
+  - Real-time service health aggregation
+  - Historical health timeline
+  - Configurable service groups and environments
+  - REST API for health data
+  - Lightweight — single JAR, no external dependencies
+
+wiki_page: https://wiki.cantara.no/repos/visuale/

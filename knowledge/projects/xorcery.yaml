@@ -1,0 +1,45 @@
+# wiki.cantara.no — Xorcery project sub-manifest
+# Parent: https://wiki.cantara.no/knowledge.yaml
+version: "0.14"
+
+id: xorcery
+parent: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 14
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/projects/xorcery.yaml.sig
+
+project:
+  title: Xorcery
+  tagline: Reactive event-sourced Java microservices framework
+  repo: https://github.com/Cantara/xorcery
+  language: Java 21+
+  stars: 14
+  status: active
+
+description: >
+  Xorcery is a Java framework for building reactive, event-sourced microservices.
+  Built on HK2 dependency injection, RxJava, and YAML-based configuration.
+  Provides an extension model, built-in observability, and first-class support
+  for event sourcing and CQRS patterns.
+
+key_concepts:
+  - Extension model — composable, pluggable architecture via HK2
+  - YAML-first configuration — hierarchical, environment-aware
+  - Reactive streams — RxJava throughout, non-blocking I/O
+  - Event sourcing — immutable event log, projections
+  - OpenTelemetry — built-in tracing and metrics
+
+relationship_to_messi: >
+  Xorcery's reactive streaming model underpins the Messi messaging abstraction.
+  Messi providers (S3, Kinesis, SQS, GCS, RabbitMQ) can be wired into
+  Xorcery-based services as first-class extensions.
+
+wiki_page: https://wiki.cantara.no/repos/xorcery/

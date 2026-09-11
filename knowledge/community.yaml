@@ -1,0 +1,52 @@
+# wiki.cantara.no — Community sub-manifest
+# Parent: https://wiki.cantara.no/knowledge.yaml
+version: "0.14"
+
+id: community
+parent: https://wiki.cantara.no/knowledge.yaml
+
+discovery:
+  provenance: canonical
+  confidence: high
+  staleness_days: 90
+
+signing:
+  scheme: ed25519
+  scope: this-manifest
+  public_key: https://wiki.cantara.no/.well-known/kcp-signing-key.pub
+  signature: https://wiki.cantara.no/knowledge/community.yaml.sig
+
+organisation:
+  name: Cantara
+  full_name: Norwegian Software Development Foundation
+  norwegian_name: Stiftelsen for fremme av programvareutvikling i Norge
+  type: non-profit foundation
+  founded: 2008
+  location: Oslo, Norway
+  mission: >
+    Mature and empower Norwegian software development through knowledge sharing,
+    collaboration, and open source projects.
+  etymology: Cantara means "bridge" in Arabic — bridging government, education,
+    industry, and the software community.
+
+community_sections:
+  platform_engineering:
+    url: https://wiki.cantara.no/PE/
+    description: >
+      Community activities — GeekCruises, CiA conferences (Continuous integration/Agile),
+      DevHouse events, and meetups. Documents Norwegian developer community history from
+      2008 onwards.
+
+  iasa_oslo:
+    url: https://wiki.cantara.no/IASA/
+    description: >
+      IASA Oslo chapter (now rebranded OSWA). Architecture talks, sessions, and
+      resources from the Oslo software architecture community. ~3,500 members at peak.
+
+notable_events:
+  - GeekCruise — annual community cruise with workshops and talks
+  - CiA (Continuous Agile) conferences
+  - DevHouse — informal developer gatherings
+
+github: https://github.com/Cantara
+repositories: 143+
