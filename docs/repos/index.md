@@ -161,7 +161,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [kcp-forge](kcp-forge.md) — Forge loose skill files into governed KCP units — corpus-level validate/convert/drift for the Knowledge Context Protocol
 - [kcp-harness](kcp-harness.md)
 - [kcp-hooks](kcp-hooks.md) ★1
-- [kcp-memory](kcp-memory.md) ★8 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
+- [kcp-memory](kcp-memory.md) ★7 — Episodic memory daemon for Claude Code — indexes session transcripts into SQLite with FTS5
 - [kcp-playground](kcp-playground.md) — Interactive in-browser demos of the KCP defendable agent — the real decision code, live, signing every verdict. Companion to 'The AI Agent That Keeps the Receipts'.
 - [kcp-skill](kcp-skill.md)
 - [kcp-triage](kcp-triage.md) ★6 — LLM driven triage system for analyzing web pages and generating agentic clients based on KCP structure
@@ -195,6 +195,6 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [sqs-util](sqs-util.md) ★2 — Utility lib for secure SQS
 - [stingray](stingray.md) — Java application framework with strong conventions and use of other Cantara components
 - [stingray-jdk8](stingray-jdk8.md) — Java application framework with strong conventions and use of other Cantara components
-- [Synthesis-Little-Brother](Synthesis-Little-Brother.md) ★1
+- [Synthesis-Little-Brother](Synthesis-Little-Brother.md) ★2
 - [TerteForm](TerteForm.md) — Where the Pie bakes - local environment for controlled agentic development, leveraging Pi.dev, Docker and local LLMs
 - [wiki](wiki.md)
