@@ -7,7 +7,7 @@ LLM driven triage system for analyzing web pages and generating agentic clients 
 | **GitHub** | [https://github.com/Cantara/kcp-triage](https://github.com/Cantara/kcp-triage) |
 | **Language** | TypeScript |
 | **Stars** | 6 |
-| **Last updated** | 2026-09-11 |
+| **Last updated** | 2026-10-06 |
 
 ---
 
@@ -56,6 +56,8 @@ just report example.com
 ```
 
 ## Development
+
+**Contributing note: `bun.lock` is the only lockfile.** Use `bun install` (CI uses `--frozen-lockfile`); do not add `package-lock.json`. CI fails if it reappears.
 
 This project uses [Spec-Driven Development](skills/sdd-workflow/SKILL.md). New features go through: Issue → Branch → Spec → Schema → Implement → Skill → Test → PR.
 
