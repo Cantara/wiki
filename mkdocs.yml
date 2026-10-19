@@ -2130,6 +2130,7 @@ nav:
       - "ServerSentEvents agent": repos/ServerSentEvents-agent.md
       - "simple microservice config": repos/simple-microservice-config.md
       - "SimpleDashboardBaseline": repos/SimpleDashboardBaseline.md
+      - "source code portal": repos/source-code-portal.md
       - "SourceCodePortal": repos/SourceCodePortal.md
       - "SourceCodePortal testdata": repos/SourceCodePortal-testdata.md
       - "sqs util": repos/sqs-util.md

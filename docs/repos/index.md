@@ -1,6 +1,6 @@
 # GitHub Repository Index
 
-All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 159 repositories total.
+All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 160 repositories total.
 
 ---
 
@@ -99,6 +99,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [nerthus](nerthus.md) ★1
 - [nerthus-cli](nerthus-cli.md) — A cli to interact with Nerthus from the comforts of your terminal.
 - [nerthus2](nerthus2.md) — TMP repo for rewrite of Nerthus. Keeping the current running version easier maintainable.
+- [source-code-portal](source-code-portal.md) — New Source Code Portal
 - [terraform-aws-asg](terraform-aws-asg.md) — Autoscaling group module for Terraform
 - [vili](vili.md) ★2
 - [wamper](wamper.md) — A tool to screenshot websites
