@@ -59,7 +59,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 
 ## Visuale
 
-- [visuale](visuale.md) ★8 — An real-time dashboard visualisation for real-world micro-service environments
+- [visuale](visuale.md) ★9 — An real-time dashboard visualisation for real-world micro-service environments
 - [visuale-client-java](visuale-client-java.md) — Easy promote your microservice status to Visuale
 
 ## Valuereporter
@@ -140,7 +140,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [cantara.github.io](cantara.github.io.md) — Cantara Public Landing Page
 - [Client-Observer-Filter](Client-Observer-Filter.md) — Identifiy which client that are using your api. Observe cookie id, client ip and browser type.
 - [cloudwatch-resource-monitor](cloudwatch-resource-monitor.md)
-- [distributed-saga](distributed-saga.md) ★2 — Implementation of the distributed-saga pattern consisting of separate java libraries for api, execution, and serialization
+- [distributed-saga](distributed-saga.md) ★3 — Implementation of the distributed-saga pattern consisting of separate java libraries for api, execution, and serialization
 - [FlowLogger](FlowLogger.md) — Lightweight library used to format log messages in json with a structure that can be used to build a flow graph
 - [FlowVisualizerReact](FlowVisualizerReact.md) — React visualisation of flow-data produced by FlowLogger
 - [gremlin-graph-gui](gremlin-graph-gui.md) ★1 — Application visualizing neural-graph based on Gremlin, Neptune and JWT authentication
