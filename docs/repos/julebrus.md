@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/julebrus](https://github.com/Cantara/julebrus) |
 | **Language** | Java |
 | **Stars** | 1 |
-| **Last updated** | 2026-10-31 |
+| **Last updated** | 2026-11-04 |
 
 ---
 

@@ -1,6 +1,6 @@
 # GitHub Repository Index
 
-All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 160 repositories total.
+All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 161 repositories total.
 
 ---
 
@@ -167,7 +167,8 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [kcp-skill](kcp-skill.md)
 - [kcp-triage](kcp-triage.md) ★6 — LLM driven triage system for analyzing web pages and generating agentic clients based on KCP structure
 - [knowledge-context-protocol](knowledge-context-protocol.md) ★32
-- [lib-electronic-components](lib-electronic-components.md) ★5
+- [lib-electronic-components](lib-electronic-components.md) ★6
+- [LLM-Weather](LLM-Weather.md)
 - [llms-txt-rag-compare](llms-txt-rag-compare.md)
 - [logback-ext-cloudwatch-appender](logback-ext-cloudwatch-appender.md) — CloudWatch appender for Logback
 - [message-performance-sampler](message-performance-sampler.md) — Given timed incoming messages, use statistics package from apache commons math to sample total and windowed latency and throughput.

@@ -7,7 +7,7 @@
 | **GitHub** | [https://github.com/Cantara/knowledge-context-protocol](https://github.com/Cantara/knowledge-context-protocol) |
 | **Language** | Java |
 | **Stars** | 32 |
-| **Last updated** | 2026-10-30 |
+| **Last updated** | 2026-11-08 |
 
 ---
 
