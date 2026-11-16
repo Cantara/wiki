@@ -15,7 +15,7 @@
 
 # julebrus
 
-Cantaras digitale juleølsmaking. Season 1 Nov – 23 Dec, five tastings a day (twelve at a table of eight or more), five
+Cantaras digitale juleølsmaking. Season 1 Nov – 23 Dec, five tastings a day (twelve at a table of eight or more), 24
 solo days, the rest in groups formed by QR code. Design and rules: [DESIGN.md](DESIGN.md).
 
 ## What it does
@@ -25,7 +25,7 @@ solo days, the rest in groups formed by QR code. Design and rules: [DESIGN.md](D
   phone in the same second (server-sent events), with the notes and tags people wrote. Duels ("which was better?")
   build a Bradley–Terry side ranking; the host can pour a **blind round** where the guests guess which beer is in
   the glass. An open table is one tap away from Home and from "Dine bord".
-- **The season.** Max 5 tastings a day (12 at a table of 8 or more, because a party is a different evening), max 5 solo days, only Vinmonopolet-strength juleøl counts, homebrew under
+- **The season.** Max 5 tastings a day (12 at a table of 8 or more, because a party is a different evening), max 24 solo days, only Vinmonopolet-strength juleøl counts, homebrew under
   its own rules. Home is an advent calendar (this week by default); the results page is a
   weighted Bayesian ranking, filterable per team. Rater weights: 0.5 the first season, 1.0 after a normal one,
   0 when flagged for rigging; veterans from the old spreadsheets are recognised through the admin name mapping.
@@ -113,6 +113,12 @@ again at their next visit, and count as unconsented until then), and who has not
 "Mas" card opens a mail in the organiser's own mail program with those people in BCC and a prepared text. The app sends
 no mail itself. The Google OAuth redirect URI is
 `https://<host>/login/oauth2/code/google`.
+
+A login lasts while it is used at least once in 30 days (`server.servlet.session.timeout`). Logins are stored in
+PostgreSQL by Spring Session (V19, `spring_session`), so a restart or a release no longer logs anyone out, and the
+cookie is persistent (a year, `Secure`, `HttpOnly`, `SameSite=Lax`), so closing the browser or the home-screen app
+does not either. The release that brings this logs everyone out one last time, because the old logins lived in memory.
+Sessions are named by e-mail (`user-name-attribute: email`); expired ones are swept every ten minutes.
 
 Also optional: `JULEBRUS_CONTACT_EMAIL` (named in the consent text as where to ask for
 deletion; blank means "contact the organisers"), `JULEBRUS_SPONSOR_NAME` (default
@@ -274,6 +280,7 @@ delete from tips where user_id = :'uid';
 delete from push_subscriptions where user_id = :'uid';
 delete from feed_reactions where user_id = :'uid';
 delete from advent_doors where user_id = :'uid';
+delete from spring_session where lower(principal_name) = lower(:'email');   -- their logins; attributes cascade
 delete from event_attendees where user_id = :'uid';
 delete from event_attendees where event_id in (select id from events where host_id = :'uid');
 delete from events where host_id = :'uid';
