@@ -38,7 +38,7 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with:
-          node-version: '24'
+          node-version: '26'
       # Pinned rather than `latest` — see wiki.totto.org's kcp-validate.yml for why
       # (a version release that adds a rule should be a deliberate adoption, not a
       # surprise red build) and why the pin itself needs to be current: @0.30
