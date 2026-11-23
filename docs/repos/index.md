@@ -1,6 +1,6 @@
 # GitHub Repository Index
 
-All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 161 repositories total.
+All active (non-archived) public repositories in the [Cantara GitHub organisation](https://github.com/Cantara), grouped by project family. 162 repositories total.
 
 ---
 
@@ -141,6 +141,7 @@ All active (non-archived) public repositories in the [Cantara GitHub organisatio
 - [Client-Observer-Filter](Client-Observer-Filter.md) — Identifiy which client that are using your api. Observe cookie id, client ip and browser type.
 - [cloudwatch-resource-monitor](cloudwatch-resource-monitor.md)
 - [distributed-saga](distributed-saga.md) ★3 — Implementation of the distributed-saga pattern consisting of separate java libraries for api, execution, and serialization
+- [dns-gate](dns-gate.md) — MCP server for DNS at several providers: agents read and propose changes, a person accepts them before they go live
 - [FlowLogger](FlowLogger.md) — Lightweight library used to format log messages in json with a structure that can be used to build a flow graph
 - [FlowVisualizerReact](FlowVisualizerReact.md) — React visualisation of flow-data produced by FlowLogger
 - [gremlin-graph-gui](gremlin-graph-gui.md) ★1 — Application visualizing neural-graph based on Gremlin, Neptune and JWT authentication

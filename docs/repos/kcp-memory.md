@@ -259,6 +259,7 @@ The MCP server exposes eleven tools over stdio (JSON-RPC 2.0):
 | `kcp_memory_subagent_search` | FTS5 search within subagent transcripts — finds architectural discoveries, rejected approaches, and reasoning buried in delegated tasks *(v0.5.0)* |
 | `kcp_memory_session_tree` | Show a parent session and all its child subagents as a tree — reveals delegated scope and per-agent tool usage *(v0.5.0)* |
 | `kcp_memory_analyze` | Manifest quality metrics — retry rate, help-followup rate, error rate per manifest key. Set `by_version=true` to compare before/after a manifest improvement (requires kcp-commands v0.16.0+). *(v0.17.0)* |
+| `kcp_memory_decisions` | Query architectural decisions, constraints and anti-patterns indexed from project `.sdd/decisions/*.yaml` files. Each result shows its **source** (see *Decision memory* below) *(v0.36.0)* |
 | `kcp_memory_forget` | Right-to-forget: permanently tombstone a session so it's never surfaced by search or list again — row retained for audit, excluded from recall *(v0.33.0)* |
 | `kcp_memory_retention` | Declare (or clear) a retention window on a session — after `valid_until`, recall skips it *(v0.33.0)* |
 
@@ -276,6 +277,17 @@ Registration (`~/.claude/settings.json`):
 ```
 
 The MCP server opens its own database connection — it does not require the HTTP daemon to be running.
+
+### Decision memory
+
+`kcp_memory_decisions` indexes `.sdd/decisions/*.yaml` from projects it can find, and re-checks them on every query. A project is found in three ways:
+
+| Source | How | Shown as |
+|---|---|---|
+| Configured | Listed in `KCP_MEMORY_DECISION_PROJECTS` (path-separator delimited), or found through the legacy `project.json` source | `configured` |
+| Session | The working directory of any indexed session, walked up to the nearest `.sdd/decisions/` | `session cwd (unverified)` |
+
+**Trust.** Session working directories include repositories you did not write and do not control, so any project a session has touched becomes queryable, and its decision text is returned to the agent. Results from session-discovered projects are marked **unverified**, and a response that contains one starts with a note saying to treat that text as data, not instructions. A project that is both configured and session-discovered counts as configured. To stop session discovery from supplying text you have not reviewed, list only the projects you trust in `KCP_MEMORY_DECISION_PROJECTS` and treat unverified results with suspicion.
 
 ---
 
@@ -500,18 +512,6 @@ This repository ships a [`knowledge.yaml`](knowledge.yaml) and [`llms.txt`](llms
 [kcp-commands](https://github.com/Cantara/kcp-commands) saves context window by injecting
 CLI syntax before Bash tool calls and filtering noisy output after. kcp-memory is
 complementary — it makes the past retrievable and queryable.
-
-| | kcp-commands | kcp-memory |
-|--|-------------|-----------|
-| **Port** | 7734 | 7735 |
-| **Hook** | PreToolUse | PostToolUse |
-| **Stores** | Nothing (stateless) | `~/.kcp/memory.db` (SQLite) |
-| **Reads** | 289 command manifests | `~/.claude/projects/**/*.jsonl` + `~/.kcp/events.jsonl` |
-| **Answers** | "How do I run this?" | "What did I do before?" |
-| **CLI** | — | `scan`, `search`, `list`, `stats`, `analyze` / `analyze --by-version` (v0.16.0), `events`, `agents`, `update` (v0.18.0) |
-| **MCP** | — | 10 tools — includes `kcp_memory_analyze` (v0.17.0), `kcp_memory_stats` with RFC-0017 bridge usage (v0.19.0) |
-
-Both use `~/.kcp/` and are part of the [KCP ecosystem](https://github.com/Cantara/knowledge-context-protocol).
 
 
 *(README truncated at 500 lines)*

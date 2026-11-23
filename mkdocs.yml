@@ -2057,6 +2057,7 @@ nav:
       - "cueconfig": repos/cueconfig.md
       - "devops": repos/devops.md
       - "distributed saga": repos/distributed-saga.md
+      - "dns gate": repos/dns-gate.md
       - "FlowLogger": repos/FlowLogger.md
       - "FlowVisualizerReact": repos/FlowVisualizerReact.md
       - "git release helper": repos/git-release-helper.md
